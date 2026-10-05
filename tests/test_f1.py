@@ -21,3 +21,10 @@ class F1Tests(unittest.TestCase):
         for r in rows:
             self.assertEqual(r['dataSource'],m.API)
             for s in r['sessions']:self.assertIsNotNone(m.datetime.fromisoformat(s['start']).tzinfo)
+    def test_platform_restrictions_and_streaming_claims(self):
+        data=json.loads((ROOT/'data/f1-platforms.json').read_text(encoding='utf8'))
+        hami=next(p for p in data['paid'] if p['name'].startswith('Hami'))
+        self.assertIn('自動續租',hami['conditions']);self.assertIn('天數尚未核實',hami['conditions'])
+        self.assertFalse(any(p['name'].startswith('Hami') for p in data['free-live']))
+        mod=next(p for p in data['paid'] if p['name'].endswith('MOD'));self.assertIn('非一般網頁直播',mod['conditions'])
+        tv=next(p for p in data['paid'] if p['name']=='F1 TV');self.assertIn('Access 不等於',tv['description']);self.assertIn('未確認',tv['region'])

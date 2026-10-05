@@ -21,14 +21,18 @@ with sync_playwright() as p:
         page.locator('#range').select_option('future');assert page.locator('#race-grid .card').count()==upcoming
         assert '非 F1 官方' in page.locator('.sources').inner_text()
         assert '台灣不適用' in page.locator('#free-live').inner_text()
+        paid=page.locator('#paid').inner_text()
+        assert 'Hami Video 電視運動館' in paid and '自動續租' in paid
+        assert '中華電信 MOD' in paid and '非一般網頁直播' in paid
+        assert 'Access 不等於' in paid and '台灣 Pro 直播資格未確認' in paid
         assert '並非整場完整正賽直播' in page.locator('#highlights').inner_text()
         assert not page.evaluate('document.documentElement.scrollWidth>innerWidth')
         for target in ('./','concerts.html','comedy.html','f1.html'):assert page.locator('header nav a[href="'+target+'"]').count()==1
         page.screenshot(path=str(out/f'f1-{width}.png'),full_page=True)
         report['viewports'].append({'width':width,'upcoming':upcoming,'all':23,'TaiwanTime':'passed','navigation':'passed','overflow':False})
     if args.external:
-        for selector,expected in [('#next-race','SINGAPORE'),('#paid','F1'),('#free-live','SRF')]:
-            anchor=page.locator(selector+' a').first
+        for selector,expected in [('#next-race a','SINGAPORE'),('#paid a[href="https://eltaott.tv/sports/play/1/2079"]','F1'),('#free-live a','SRF')]:
+            anchor=page.locator(selector).first
             with page.expect_popup() as popup:anchor.click()
             other=popup.value;response=other.wait_for_load_state('domcontentloaded');other.wait_for_timeout(600)
             title=other.title();body=other.locator('body').inner_text(timeout=10000)

@@ -28,7 +28,7 @@ def validate():
             assert set(entry)=={'name','region','kind','description','conditions','verified','links'}
             for link in entry['links']:
                 p=urlsplit(link['url']);assert p.scheme=='https' and not p.username and not p.password
-                assert p.hostname in {'eltaott.tv','www.srf.ch','www.formula1.com','on.orf.at','www.rtl.lu','www.youtube.com'}
+                assert p.hostname in {'eltaott.tv','www.srf.ch','www.formula1.com','on.orf.at','www.rtl.lu','www.youtube.com','hamivideo.hinet.net','www.cht.com.tw','mod.cht.com.tw','elta.com.tw','f1help.formula1.com'}
     serialized=json.dumps([data,platforms],ensure_ascii=False)
     assert not re.search(r'(?i)(C:[\\/]+Users|github_pat_|gh[pousr]_[a-z0-9]{20,}|sk-proj-|PRIVATE KEY|imageURL|descriptionFilterHtml)',serialized)
     assert not re.search(r'[\w.+-]+@[\w.-]+\.[a-z]{2,}',serialized,re.I)
