@@ -1,24 +1,24 @@
 {
   "songshan": {
     "state": "ok",
-    "lastAttempt": "2026-10-06T00:34:52+08:00",
-    "lastSuccess": "2026-10-06T00:34:52+08:00",
+    "lastAttempt": "2026-10-06T00:46:58+08:00",
+    "lastSuccess": "2026-10-06T00:47:20+08:00",
     "count": 16,
     "checkedCount": 16,
     "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
   },
   "huashan": {
     "state": "ok",
-    "lastAttempt": "2026-10-06T00:38:38+08:00",
-    "lastSuccess": "2026-10-06T00:38:38+08:00",
+    "lastAttempt": "2026-10-06T00:47:20+08:00",
+    "lastSuccess": "2026-10-06T00:48:11+08:00",
     "count": 18,
     "checkedCount": 18,
     "message": "每日官網基本事實更新成功；公開首頁及已收錄的無查詢參數詳情；分頁受 robots 限制，未保證完整；8筆狀態仍待確認"
   },
   "pier2": {
     "state": "ok",
-    "lastAttempt": "2026-10-06T00:34:52+08:00",
-    "lastSuccess": "2026-10-06T00:34:52+08:00",
+    "lastAttempt": "2026-10-06T00:48:11+08:00",
+    "lastSuccess": "2026-10-06T00:48:58+08:00",
     "count": 12,
     "checkedCount": 21,
     "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
