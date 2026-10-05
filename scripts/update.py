@@ -9,6 +9,7 @@ import subprocess
 import sys
 import time
 from venues import classify_all
+from source_links import resolve_source_link
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -27,7 +28,7 @@ def date(value):
     return datetime.strptime(v, '%Y-%m-%d').date().isoformat()
 
 def safe_url(value):
-    value = str(value or '').strip()
+    value = html.unescape(str(value or '')).strip()
     p = urlparse(value)
     return value if p.scheme in ('https','http') and p.hostname and not p.username and not p.password else ''
 
@@ -35,6 +36,8 @@ def normalize(rows):
     if not isinstance(rows, list) or not rows:
         raise ValueError('來源為空或格式不符；保留最後成功資料')
     events, rejected = {}, 0
+    link_file=ROOT/'data/source-links.json'
+    checked=json.loads(link_file.read_text(encoding='utf-8')) if link_file.exists() else {}
     for row in rows:
         try:
             title = clean(row['title'])
@@ -58,8 +61,12 @@ def normalize(rows):
                 price = clean(show.get('price'))[:180] or ('免費' if show.get('onSales') == 'N' else '未提供，請洽官方')
                 # Do not copy the provider's full prose or infer popularity.
                 summary = f'{region}的展覽，展出於{venue or address}。實際開放日與入場規定請查閱來源。'
-                link = safe_url(row.get('sourceWebPromote')) or ('https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEvent&uid=' + uid if re.fullmatch('[a-zA-Z0-9_-]+', uid) else 'https://data.gov.tw/dataset/6012')
+                promote=safe_url(row.get('sourceWebPromote'))
+                resolved = resolve_source_link(uid,title,checked,promote)
+                link = resolved['url']
                 event = dict(id=eid,title=title,start=start,end=end,region=region,venue=venue,address=address,park=park,price=price,category='展覽',summary=summary,url=link,source='moc',sourceUid=uid,sourceVersion=clean(row.get('version')))
+                event.update(resolved)
+                if promote:event['promoteUrl']=promote
                 if eid in events:
                     event['start'] = min(start, events[eid]['start'])
                     event['end'] = max(end, events[eid]['end'])
@@ -161,6 +168,11 @@ def run(output, rows=None):
         status[key] = {'state':'manual','lastSuccess':verified,'count':len(group),'message':message}
     # Explicit official review can correct titles/dates and retain the MOC identity.
     # Exclude those exact identities before date-based cross-source deduplication.
+    for event in merged:
+        if event.get('missingFromSource'):
+            link_file=ROOT/'data/source-links.json'
+            checked=json.loads(link_file.read_text(encoding='utf-8')) if link_file.exists() else {}
+            event.update(resolve_source_link(event.get('sourceUid',''),event['title'],checked,event.get('promoteUrl','')))
     curated_ids = {e['id'] for e in seeds}
     curated_uids = {e.get('sourceUid') for e in seeds if e.get('sourceUid')}
     all_events = [e for e in merged if e['id'] not in curated_ids and e.get('sourceUid') not in curated_uids] + seeds

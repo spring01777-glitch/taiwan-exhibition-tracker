@@ -13,7 +13,7 @@ def validate(path):
     assert set(data)=={'schemaVersion','generatedAt','sources','events'}
     assert data['schemaVersion']==1 and data['events']
     for e in data['events']:
-        assert not (set(e)-(FIELDS|{'venueName','venueStatus','locations'})), set(e)-FIELDS
+        assert not (set(e)-(FIELDS|{'venueName','venueStatus','locations','sourceLinkState','sourceLinkCheckedAt','sourceLinkType','promoteUrl'})), set(e)-FIELDS
         assert e['locations']
         for location in e['locations']:
             assert set(location)=={'id','name','region','status'}
@@ -23,6 +23,10 @@ def validate(path):
         assert not re.search(r'<[^>]+>',e['summary'])
         p=urlparse(e['url'])
         assert p.scheme in ('http','https') and p.hostname and not p.username and not p.password
+        if e['source']=='moc':
+            from source_links import resolve_source_link
+            entry={'url':e['url'],'title':e['title'],'state':e['sourceLinkState'],'checkedAt':e['sourceLinkCheckedAt']}
+            assert resolve_source_link(e.get('sourceUid',''),e['title'],{e.get('sourceUid',''):entry},e.get('promoteUrl',''))['url']==e['url']
         for r in e.get('revisions',[]): assert set(r)<=REVISION
     text=json.dumps(data,ensure_ascii=False)
     assert not re.search(r'(?i)(?:gh[pousr]_[a-z0-9]{20,}|github_pat_|sk-proj-|-----BEGIN .*PRIVATE KEY|[a-z]:\\\\Users\\\\|descriptionFilterHtml|imageURL)',text)
