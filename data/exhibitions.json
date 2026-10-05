@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T01:19:54+08:00",
+  "generatedAt": "2026-10-06T05:16:33+08:00",
   "sources": {
     "moc": {
-      "state": "ok",
-      "lastAttempt": "2026-10-06T01:19:54+08:00",
+      "state": "error",
+      "lastAttempt": "2026-10-06T05:16:33+08:00",
       "lastSuccess": "2026-10-06T01:19:54+08:00",
       "count": 294,
       "rejected": 0,
-      "message": "官方開放資料更新成功"
+      "message": "更新失敗；保留最後成功資料（ValueError）"
     },
     "songshan": {
       "state": "ok",
-      "lastAttempt": "2026-10-06T01:18:14+08:00",
-      "lastSuccess": "2026-10-06T01:18:37+08:00",
+      "lastAttempt": "2026-10-06T05:14:56+08:00",
+      "lastSuccess": "2026-10-06T05:15:18+08:00",
       "count": 16,
       "checkedCount": 16,
       "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
     },
     "huashan": {
       "state": "ok",
-      "lastAttempt": "2026-10-06T01:18:37+08:00",
-      "lastSuccess": "2026-10-06T01:19:34+08:00",
+      "lastAttempt": "2026-10-06T05:15:18+08:00",
+      "lastSuccess": "2026-10-06T05:16:11+08:00",
       "count": 18,
       "checkedCount": 18,
       "message": "每日官網基本事實更新成功；公開首頁及已收錄的無查詢參數詳情；分頁受 robots 限制，未保證完整；8筆狀態仍待確認"
     },
     "pier2": {
       "state": "ok",
-      "lastAttempt": "2026-10-06T01:19:34+08:00",
-      "lastSuccess": "2026-10-06T01:19:54+08:00",
+      "lastAttempt": "2026-10-06T05:16:11+08:00",
+      "lastSuccess": "2026-10-06T05:16:33+08:00",
       "count": 12,
       "checkedCount": 12,
       "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
@@ -10392,7 +10392,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T19:00:00+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10430,7 +10430,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10468,7 +10468,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10506,7 +10506,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10544,7 +10544,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10582,7 +10582,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10620,7 +10620,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10658,7 +10658,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T19:00:00+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10696,7 +10696,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10734,7 +10734,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10772,7 +10772,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10810,7 +10810,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10848,7 +10848,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10886,7 +10886,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10924,7 +10924,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -10962,7 +10962,7 @@
       "source": "songshan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:18:37+08:00",
+      "lastSeen": "2026-10-06T05:15:18+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11001,7 +11001,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11039,7 +11039,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T19:00:00+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11077,7 +11077,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11116,7 +11116,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11155,7 +11155,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11194,7 +11194,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11232,7 +11232,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11270,7 +11270,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11308,7 +11308,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11346,7 +11346,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T19:00:00+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11384,7 +11384,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11422,7 +11422,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11460,7 +11460,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11499,7 +11499,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11537,7 +11537,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11576,7 +11576,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11615,7 +11615,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11654,7 +11654,7 @@
       "source": "huashan",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:09:46+08:00",
-      "lastSeen": "2026-10-06T01:19:34+08:00",
+      "lastSeen": "2026-10-06T05:16:11+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11692,7 +11692,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:19:16+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11730,7 +11730,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:19:16+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11769,7 +11769,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11814,7 +11814,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:19:16+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11853,7 +11853,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11898,7 +11898,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:19:16+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11936,7 +11936,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:19:16+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -11974,7 +11974,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:19:16+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -12012,7 +12012,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:19:16+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -12050,7 +12050,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:19:16+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -12088,7 +12088,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:19:16+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
@@ -12126,7 +12126,7 @@
       "source": "pier2",
       "sourceVersion": "official-public-daily",
       "firstSeen": "2026-10-05T20:19:16+08:00",
-      "lastSeen": "2026-10-06T01:19:54+08:00",
+      "lastSeen": "2026-10-06T05:16:33+08:00",
       "missingFromSource": false,
       "revisions": [
         {
