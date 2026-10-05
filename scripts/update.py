@@ -4,6 +4,8 @@ import hashlib
 import html
 import json
 import re
+import ssl
+import subprocess
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -103,6 +105,21 @@ def fetch():
             reason = getattr(exc, 'reason', None)
             diagnostic = re.sub(r'[\r\n]', ' ', str(reason))[:240] if reason else type(exc).__name__
             print(f'Official source attempt {attempt + 1}: {diagnostic}', file=sys.stderr)
+            if isinstance(reason, ssl.SSLCertVerificationError):
+                # System curl verifies the certificate/hostname against its trust store.
+                # Python 3.13 strict RFC checks reject this provider's older chain.
+                # Never use --insecure, unverified contexts or modify trust settings.
+                try:
+                    r = subprocess.run(['curl','--fail','--silent','--show-error',
+                        '--proto','=https','--max-time','30','--max-filesize','10000000',
+                        '--header','Accept: application/json',API], capture_output=True,
+                        check=True, timeout=35)
+                    if len(r.stdout)>10_000_000:
+                        raise ValueError('response too large')
+                    print('Official source fetched with system curl and default TLS verification.', file=sys.stderr)
+                    return json.loads(r.stdout)
+                except (OSError, subprocess.SubprocessError, ValueError) as fallback_error:
+                    print(f'Verified curl fallback failed: {type(fallback_error).__name__}', file=sys.stderr)
             if attempt == 2:
                 raise
             time.sleep(attempt + 1)

@@ -4,6 +4,8 @@ import io
 import json
 import uuid
 import unittest
+import ssl
+from urllib.error import URLError
 from pathlib import Path
 from unittest.mock import patch
 
@@ -30,6 +32,16 @@ def row(title='測試資料（僅單元測試）', start='2026/10/01', end='2026
     return {'UID':'abc123','version':'1.4','title':title,'category':'6','showInfo':[{'time':start+' 10:00:00','endTime':end+' 18:00:00','location':'台北市中正區','locationName':'測試館','onSales':'N'}]}
 
 class UpdateTests(unittest.TestCase):
+    def test_certificate_compatibility_uses_verified_curl(self):
+        reason=ssl.SSLCertVerificationError('Missing Subject Key Identifier')
+        process=unittest.mock.Mock(stdout=json.dumps([row()]).encode())
+        with patch.object(u,'urlopen',side_effect=URLError(reason)), patch.object(u.subprocess,'run',return_value=process) as call, contextlib.redirect_stderr(io.StringIO()):
+            self.assertEqual(u.fetch(),[row()])
+            args=call.call_args.args[0]
+            self.assertNotIn('--insecure',args)
+            self.assertIn('--proto',args)
+            self.assertIn('=https',args)
+            self.assertEqual(args[-1],u.API)
     def test_normalizes_and_deduplicates(self):
         events, rejected=u.normalize([row(),row()])
         self.assertEqual(len(events),1)

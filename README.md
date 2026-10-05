@@ -20,7 +20,7 @@ python -m unittest discover -s tests -v
 node --check app.js
 ```
 
-更新器成功 exit 0，失敗 exit 1。失敗仍寫入來源狀態並保存最後成功的展覽與時間，適合稍後由 CI 發布失敗狀態；首次完全失敗時只顯示已核對的固定場館資料。對外網路須允許 cloud.culture.tw，不修改安全設定或繞過 TLS。
+更新器成功 exit 0，失敗 exit 1。失敗仍寫入來源狀態並保存最後成功的展覽與時間，適合由 CI 發布失敗狀態；首次完全失敗時只顯示已核對的固定場館資料。對外網路須允許 cloud.culture.tw，不修改安全設定或繞過 TLS。Python3.13對官方較舊憑證鏈的嚴格RFC檢查可能報Missing Subject Key Identifier，此時改由系統curl以預設TLS憑證／主機名稱驗證讀取同一HTTPS來源；不使用--insecure，不改信任庫。GitHub runner與Windows10/11已有curl，不需付費服務或新金鑰。
 
 ## 使用方式
 
