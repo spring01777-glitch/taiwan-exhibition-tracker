@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-10-05T19:17:22+08:00",
+  "sources": {
+    "moc": {
+      "state": "ok",
+      "lastAttempt": "2026-10-05T19:17:22+08:00",
+      "lastSuccess": "2026-10-05T19:17:22+08:00",
+      "count": 302,
+      "rejected": 0,
+      "message": "官方開放資料更新成功"
+    },
+    "songshan": {
+      "state": "manual",
+      "lastSuccess": "2026-10-05T19:00:00+08:00",
+      "message": "人工核對官網事實；尚無已確認的開放授權/API，新活動請查官網"
+    },
+    "huashan": {
+      "state": "manual",
+      "lastSuccess": "2026-10-05T19:00:00+08:00",
+      "message": "人工核對官網事實；尚無已確認的開放授權/API，新活動請查官網"
+    }
+  }
+}
