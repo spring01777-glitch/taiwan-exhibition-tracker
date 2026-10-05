@@ -1,6 +1,6 @@
 # 展覽散步 · Taiwan Exhibition Tracker
 
-獨立、無框架、無付費服務的繁中靜態網站 MVP。原生 HTML/CSS/JS，Python 標準函式庫更新器，無 API key。
+獨立、無框架、無付費服務的繁中靜態網站。原生 HTML/CSS/JS，Python 更新器，場館解析使用 BeautifulSoup／Playwright 及環境既有 Chrome，無 API key。
 
 資料來源為[文化部2026「展覽資訊」](https://data.gov.tw/dataset/6012)，原始版本（目前1.4）保留在各筆sourceVersion，擷取日期見data/exhibitions.json的sources.moc.lastSuccess。此開放資料依[政府資料開放授權條款第1版](https://data.gov.tw/license)進行公眾釋出，使用者於遵守各項規定之前提下，得利用之。本站僅整理基本事實與自行摘要，不搬運完整簡介或海報，不暗示官方背書；第三方素材的權利不因政府資料授權而自動涵蓋。另有2026-10-05本次松菸16筆、華山18筆、駁二12筆官網核對的基本事實與本站自寫摘要。華山8筆日期與歷史分類矛盾，標示待確認並排除近期推薦。詳見[本次場館核對清單](docs/VENUE_REVIEW.md)。
 
@@ -15,6 +15,8 @@ python -m http.server 8765 --bind 127.0.0.1
 開啟 http://127.0.0.1:8765 。不要直接雙擊 HTML，瀏覽器會限制讀取 JSON。
 
 ```powershell
+python -m pip install -r requirements-update.txt
+python scripts/update_venue_sources.py
 python scripts/update.py
 python -m unittest discover -s tests -v
 node --check app.js
@@ -29,7 +31,7 @@ node --check app.js
 - 近期推薦：展期與未來30天重疊，先台北／新北、再依開展日期。不計人氣、不使用點閱數。
 - 即將結束：已開始且14天內結束。日期以展期為準，休館日仍須查看官方。
 - 歷史紀錄：所有已結束的已收錄展覽；從本網站開始累積，無法重建 API 沒提供的過去資料。
-- 松菸、華山、駁二是固定官方入口，本次資料人工核對，另有場館篩選。文化部資料若有這些場館則也會自動納入。**尚未完成場館官網的全量自動新活動抓取**，不可聲稱覆蓋完整。
+- 松菸、華山、駁二是固定官方入口，已沿用台灣09:00每日流程讀取允許的公開頁面及基本欄位。華山禁止 query 分頁/API，僅首頁及已收錄詳情；不能聲稱全量。各來源失敗獨立保留最後成功資料，票價依卡片標示核對。[每日場館流程及限制](docs/DAILY_VENUES.md)。
 
 ## 來源與可靠性
 
@@ -45,7 +47,7 @@ node --check app.js
 
 ## 已知限制
 
-文化部涵蓋全台各地但不是所有展覽。純欄位生成的簡介偏保守，未從長文推斷策展特色。場館官網無已確認開放授權/API，暫不做全站爬取。日期範圍不代表每天開放，票價空白明確標未提供。資料超過36小時會提醒陳舊；免費 GitHub Actions 排程可能延遲，無法保證整點更新。
+文化部涵蓋全台各地但不是所有展覽。純欄位生成的簡介偏保守，未從長文推斷策展特色。場館官網文案與圖像仍保留權利；每日只整理允許公開頁面的基本事實，原創摘要由基本欄位生成，不做全站或禁止 API 抓取。日期範圍不代表每天開放，票價空白明確標未提供。資料超過36小時會提醒陳舊；免費 GitHub Actions 排程可能延遲，無法保證整點更新。
 
 
 所有活動地點均納入地區連動的場館選單，含博物館、藝廊、圖書館等。[場館分類規則及缺漏](docs/VENUES.md)。僅有行政區或地址的紀錄明示待確認／地址地點，原始展廳資訊保留。回歸：`python scripts/venue_regression.py`，可用`--url`檢驗公開站。

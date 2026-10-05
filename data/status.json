@@ -1,31 +1,37 @@
 {
-  "generatedAt": "2026-10-06T00:22:12+08:00",
+  "generatedAt": "2026-10-06T00:43:01+08:00",
   "sources": {
     "moc": {
       "state": "ok",
-      "lastAttempt": "2026-10-06T00:22:12+08:00",
-      "lastSuccess": "2026-10-06T00:22:12+08:00",
+      "lastAttempt": "2026-10-06T00:43:01+08:00",
+      "lastSuccess": "2026-10-06T00:43:01+08:00",
       "count": 302,
       "rejected": 0,
       "message": "官方開放資料更新成功"
     },
     "songshan": {
-      "state": "manual",
-      "lastSuccess": "2026-10-05T20:09:46+08:00",
+      "state": "ok",
+      "lastAttempt": "2026-10-06T00:34:52+08:00",
+      "lastSuccess": "2026-10-06T00:34:52+08:00",
       "count": 16,
-      "message": "本次人工核對16筆；尚未每日自動核對官網，新活動請查官方"
+      "checkedCount": 16,
+      "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
     },
     "huashan": {
-      "state": "manual",
-      "lastSuccess": "2026-10-05T20:09:46+08:00",
+      "state": "ok",
+      "lastAttempt": "2026-10-06T00:38:38+08:00",
+      "lastSuccess": "2026-10-06T00:38:38+08:00",
       "count": 18,
-      "message": "本次人工核對18筆；尚未每日自動核對官網，新活動請查官方；其中8筆官網狀態待確認"
+      "checkedCount": 18,
+      "message": "每日官網基本事實更新成功；公開首頁及已收錄的無查詢參數詳情；分頁受 robots 限制，未保證完整；8筆狀態仍待確認"
     },
     "pier2": {
-      "state": "manual",
-      "lastSuccess": "2026-10-05T20:19:16+08:00",
+      "state": "ok",
+      "lastAttempt": "2026-10-06T00:34:52+08:00",
+      "lastSuccess": "2026-10-06T00:34:52+08:00",
       "count": 12,
-      "message": "本次人工核對12筆；尚未每日自動核對官網，新活動請查官方"
+      "checkedCount": 21,
+      "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
     }
   }
 }

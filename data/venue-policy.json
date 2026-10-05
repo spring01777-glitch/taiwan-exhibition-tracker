@@ -1,0 +1,20 @@
+{
+  "songshan": {
+    "reviewedAt": "2026-10-06T00:34:33+08:00",
+    "policyUrl": "https://www.songshanculturalpark.org/privacy",
+    "policyDigest": "2c703d817599fa3fd21753d5b1977199f8895aa40512a08a05c63602f155c00b",
+    "scope": "Public basic facts and original summary only; no artwork, prose or commercial use."
+  },
+  "huashan": {
+    "reviewedAt": "2026-10-06T00:34:33+08:00",
+    "policyUrl": "https://www.huashan1914.com/privacy",
+    "policyDigest": "9bd87b978e07fd2c0f5438af55bbecb44e7b0ad4f275d8b6176a5db61446b5b3",
+    "scope": "Public basic facts and original summary only; no artwork, prose or commercial use."
+  },
+  "pier2": {
+    "reviewedAt": "2026-10-06T00:34:33+08:00",
+    "policyUrl": "https://pier2.org/privacy/",
+    "policyDigest": "8ad11bec2383454807c48a93d7053923c0d2544fe01a16ff047a5586c933cf40",
+    "scope": "Public basic facts and original summary only; no artwork, prose or commercial use."
+  }
+}

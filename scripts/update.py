@@ -155,10 +155,15 @@ def run(output, rows=None):
         status['moc'] = {**status.get('moc', {}), 'state':'error','lastAttempt':now,'message':f'更新失敗；保留最後成功資料（{type(exc).__name__}）'}
         state = 'error'
     seeds = json.loads((ROOT/'data/curated.json').read_text(encoding='utf-8'))
+    venue_status_file=ROOT/'data/venue-source-status.json'
+    venue_status=json.loads(venue_status_file.read_text(encoding='utf-8')) if venue_status_file.exists() else {}
     # Venue sources are deliberately explicit manual verification, not claimed automated feeds.
     for key in ('songshan','huashan','pier2'):
         group = [e for e in seeds if e['source'] == key]
         if not group:
+            continue
+        if key in venue_status:
+            status[key]=venue_status[key]
             continue
         verified = max(e['lastSeen'] for e in group)
         uncertain = sum(bool(e.get('verificationNote')) for e in group)
