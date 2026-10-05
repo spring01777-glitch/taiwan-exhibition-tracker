@@ -65,7 +65,7 @@ class PublicReader:
 
 def discover(source,body):
     c=SOURCES[source];soup=soup_of(body);items={}
-    selectors={'songshan':'#top_sliders .sliderscon > a','huashan':'a.exhi-card__link','pier2':'a[href*="/exhibition/info/"]'}
+    selectors={'songshan':'#top_sliders .sliderscon > a','huashan':'a.exhi-card__link','pier2':'#event_list a[href*="/exhibition/info/"]'}
     for a in soup.select(selectors[source]):
         url=canonical_public_url(urljoin(c['base'],a.get('href','')))
         if not safe_path(c,url):continue
@@ -136,8 +136,15 @@ class RenderedReader:
     def get(self,url):
         if not self.reader.robot.can_fetch(UA,url):raise PermissionError('robots disallows rendered page')
         time.sleep(max(0,1.2-(time.monotonic()-self.reader.last)));self.reader.last=time.monotonic()
-        response=self.page.goto(url,wait_until='networkidle',timeout=18000)
+        response=self.page.goto(url,wait_until='domcontentloaded',timeout=18000)
         if not response or response.status!=200 or urlsplit(self.page.url).netloc!=urlsplit(url).netloc:raise ValueError('public page unavailable')
+        # The required facts load through the normal page's own JavaScript.
+        # Analytics/social requests need not become idle for those facts to be
+        # complete. Wait for actual fields instead of unrelated network traffic.
+        if '/exhibition/info/' in urlsplit(url).path:
+            self.page.wait_for_function("() => ['h1','.datearea .starttime .y','.datearea .starttime .d','.datearea .endtime .y','.datearea .endtime .d'].every(s=>document.querySelector(s)?.textContent.trim())",timeout=18000)
+        else:
+            self.page.wait_for_function("() => [...document.querySelectorAll('#event_list a[href*=\"/exhibition/info/\"] .thename')].some(n=>n.textContent.trim())",timeout=18000)
         return self.page.content()
     def close(self):self.browser.close();self.p.stop()
 

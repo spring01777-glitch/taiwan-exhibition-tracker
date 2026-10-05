@@ -4,6 +4,11 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from update_venue_sources import SOURCES,discover,parse_detail,keep_source,safe_path,canonical_public_url
 
 class DailyVenueTests(unittest.TestCase):
+    def test_pier_public_history_is_not_fetched_as_new_activity(self):
+        body='<div id="event_list"><a href="/exhibition/info/1/"><div class="thename">[ 免票 ] 目前活動</div><div class="theplace">P2倉庫</div></a></div><div id="event_history_list"><a href="/exhibition/info/2/"><div class="thename">已結束活動</div></a></div>'
+        items=discover('pier2',body)
+        self.assertEqual(list(items),['https://pier2.org/exhibition/info/1/'])
+        self.assertEqual(next(iter(items.values()))['badge'],'free')
     def test_encoded_and_unicode_official_slugs_share_identity(self):
         self.assertEqual(canonical_public_url('https://www.huashan1914.com/exhibition/華山 '),canonical_public_url('https://www.huashan1914.com/exhibition/%E8%8F%AF%E5%B1%B1%20'))
     def test_discovery_rejects_query_offsite_and_overview(self):
