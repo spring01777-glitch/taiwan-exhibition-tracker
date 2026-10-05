@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-05T20:20:30+08:00",
+  "generatedAt": "2026-10-05T20:24:40+08:00",
   "sources": {
     "moc": {
       "state": "ok",
-      "lastAttempt": "2026-10-05T20:20:30+08:00",
-      "lastSuccess": "2026-10-05T20:20:30+08:00",
+      "lastAttempt": "2026-10-05T20:24:40+08:00",
+      "lastSuccess": "2026-10-05T20:24:40+08:00",
       "count": 302,
       "rejected": 0,
       "message": "官方開放資料更新成功"
