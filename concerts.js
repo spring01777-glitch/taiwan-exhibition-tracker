@@ -1,0 +1,26 @@
+/* Shared pure filtering helpers also exercised by Node regression tests. */
+(function (root) {
+  'use strict';
+  const todayTW = (now = new Date()) => new Intl.DateTimeFormat('sv-SE', {timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
+  const venues = (events, region='') => [...new Set(events.filter(e=>!region || e.region===region).map(e=>e.venue))].sort((a,b)=>a.localeCompare(b,'zh-Hant'));
+  const matches = (e, f, today=todayTW()) => (!f.region || e.region===f.region) && (!f.venue || e.venue===f.venue) && (!f.date || e.sessions.some(s=>s.date===f.date && (f.view==='all'||s.status!=='cancelled'))) && (!f.query || (e.title+' '+(e.performers||'')+' '+e.venue).toLocaleLowerCase().includes(f.query.toLocaleLowerCase())) && (f.view==='all' || (e.status!=='cancelled' && e.sessions.some(s=>s.date>=today && s.status!=='cancelled')));
+  const api={todayTW,venues,matches};
+  if (typeof module!=='undefined') module.exports=api;
+  root.ConcertFilters=api;
+  if (typeof document==='undefined') return;
+  const $=id=>document.getElementById(id);
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const safe=u=>{try { const p=new URL(u); return p.protocol==='https:' && !p.username && !p.password ? esc(p.href):'';} catch{return '';}};
+  const link=(u,label)=>safe(u)?`<a href="${safe(u)}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`:'';
+  const labels={scheduled:'已公布',cancelled:'已取消',rescheduled:'已改期',changed:'日期／時間異動',unconfirmed:'來源未再列出・待確認'};
+  const time=t=>t ? esc(t.replace('T',' ').replace('+08:00',''))+'（台灣）':'未公布／來源未提供';
+  let events=[];
+  function options(id, values, first){const selected=$(id).value; $(id).innerHTML=`<option value="">${first}</option>`+values.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join(''); $(id).value=values.includes(selected)?selected:'';}
+  function render(){const f=Object.fromEntries(['region','venue','date','query','view'].map(k=>[k,$(k).value.trim()]));const result=events.filter(e=>matches(e,f)).sort((a,b)=>(a.sessions.find(s=>s.date>=todayTW())?.date||a.sessions[0].date).localeCompare(b.sessions.find(s=>s.date>=todayTW())?.date||b.sessions[0].date));$('result-count').textContent=`${result.length} 個活動・${result.reduce((n,e)=>n+e.sessions.filter(s=>!f.date||s.date===f.date).length,0)} 場次`;
+    $('results').innerHTML=result.length?result.map(e=>`<article class="card"><div class="card-top"><span>${esc(e.region)}</span><span class="status">${esc(labels[e.status]||'待確認')}</span></div><h3>${esc(e.title)}</h3><dl><dt>演出者：</dt><dd>${esc(e.performers||'未公布／來源未提供')}</dd><dt>場館：</dt><dd>${esc(e.venue)}</dd><dt>票價：</dt><dd>${esc(e.price||'未公布／來源未提供')}</dd><dt>售票狀態：</dt><dd>${esc(e.ticketStatus||'未公布／來源未提供')}</dd><dt>一般開賣：</dt><dd>${time(e.saleAt)}</dd></dl>${e.saleNote?`<p class="note">${esc(e.saleNote)}</p>`:''}<ul class="sessions" aria-label="演出場次">${e.sessions.filter(s=>!f.date||s.date===f.date).map(s=>`<li>${esc(s.date)} ${esc(s.time||'時間未公布／來源未提供')}${s.status?` ・${esc(labels[s.status]||s.status)}`:''}</li>`).join('')}</ul><p class="summary">${esc(e.summary)}</p>${e.status!=='scheduled'?`<p class="concert-warning">${esc(e.statusNote||'請至官方來源確認最新異動。')}</p>`:''}${e.revisions?.length?`<details><summary>日期／狀態異動紀錄</summary>${e.revisions.map(r=>`<p class="note">${esc(r.at)}：${esc(r.note)}</p>`).join('')}</details>`:''}<div class="links">${link(e.sourceUrl,'官方來源')}${e.ticketVerifiedAt?link(e.ticketUrl,'官方售票活動頁'):''}</div><small>${e.source==='manual'?'人工核對':'文化部開放資料'}・最近確認 ${esc(e.verifiedAt||'尚未確認')}${e.ticketVerifiedAt?'・購票連結核對 '+esc(e.ticketVerifiedAt):'・購票入口未核對'}</small></article>`).join(''):'<p class="empty">沒有符合條件的演唱會。可清除篩選或查看所有紀錄。</p>';
+  }
+  $('filters').addEventListener('submit',e=>e.preventDefault());
+  $('filters').addEventListener('input',e=>{if(e.target.id==='region')options('venue',venues(events,$('region').value),'所有場館');render();});
+  $('filters').addEventListener('reset',()=>setTimeout(()=>{options('venue',venues(events),'所有場館');render();},0));
+  fetch(document.body.dataset.events || 'data/concerts.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json();}).then(data=>{events=data.events;options('region',[...new Set(events.map(e=>e.region))].sort(),'全台灣');options('venue',venues(events),'所有場館');$('active-count').textContent=events.filter(e=>matches(e,{view:'upcoming'})).length;$('updated').textContent='最近執行 '+time(data.updatedAt)+'；非即時票況';$('source-status').innerHTML=data.sources.map(s=>`<div class="source-row"><div><strong>${esc(s.name)}</strong><p>${esc(s.message)}</p><small>最後成功：${time(s.lastSuccess)}${s.checkedAt?'；最後嘗試：'+time(s.checkedAt):''}</small></div><span class="state ${s.status==='error'?'error':''}">${esc(s.status==='ok'?'更新成功':s.status==='manual'?'人工維護':'更新失敗・保留舊資料')}</span>${link(s.url,'資料來源')}</div>`).join('');render();}).catch(()=>{$('updated').textContent='資料讀取失敗，請稍後重新整理。';$('results').textContent='無法讀取演唱會資料。官方來源仍可從下方連結查看。';});
+})(typeof globalThis!=='undefined'?globalThis:this);

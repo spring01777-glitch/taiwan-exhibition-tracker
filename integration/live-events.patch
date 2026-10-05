@@ -1,0 +1,73 @@
+--- a/index.html
++++ b/index.html
+@@ -1,6 +1,6 @@
+ <!doctype html>
+ <html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="台灣展覽追蹤：台北、新北優先，依地區與日期探索官方展覽資訊。"><title>展覽散步｜台灣展覽追蹤</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+-<body><a class="skip" href="#results">跳到展覽清單</a><header><a class="brand" href="./">展覽散步<span>TAIWAN EXHIBITION TRACKER</span></a><a href="#sources">資料來源 ↗</a></header>
++<body><a class="skip" href="#results">跳到展覽清單</a><header><a class="brand" href="./">展覽散步<span>TAIWAN EXHIBITION TRACKER</span></a><a href="concerts.html">演唱會</a><a href="comedy.html">脫口秀</a><a href="#sources">資料來源 ↗</a></header>
+ <main><section class="hero"><div><p class="eyebrow">給日常，留一點看展的時間</p><h1>下一站，<br>走進一場展覽。</h1><p>從台北、新北出發，探索全台展覽。<br>整理官方資訊，讓週末有新的方向。</p><div class="hero-links"><a href="https://www.songshanculturalpark.org/exhibition" target="_blank" rel="noopener noreferrer">松菸官網 ↗</a><a href="https://www.huashan1914.com/exhibition" target="_blank" rel="noopener noreferrer">華山官網 ↗</a><a href="https://pier2.org/exhibition/" target="_blank" rel="noopener noreferrer">駁二官方 ↗</a></div></div><div class="art" aria-hidden="true"><div class="sun"></div><div class="frame"></div><div class="arch"></div><span>把好奇心<br>帶出門。</span><small>ART / DESIGN / EVERYDAY</small></div></section>
+ <section class="pulse" aria-label="更新概況"><div><strong id="active-count">—</strong><span>檔期內與即將開展</span></div><div><strong id="new-count">—</strong><span>今日首次收錄</span></div><p id="updated">正在讀取資料…</p></section>
+ <section class="explore"><div class="section-head"><div><p class="eyebrow">FIND YOUR NEXT EXHIBITION</p><h2>找到想去的展覽</h2></div><p>台北、新北優先排序</p></div>
+--- a/.github/workflows/update-and-deploy.yml
++++ b/.github/workflows/update-and-deploy.yml
+@@ -18,6 +18,7 @@
+     permissions:
+       contents: write
+     outputs:
++      live_code: ${{ steps.live.outputs.code }}
+       update_code: ${{ steps.update.outputs.code }}
+     steps:
+       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+@@ -31,6 +32,8 @@
+           python -m unittest discover -s tests -v
+           python -m py_compile scripts/update.py
+           node --check app.js
++          node --check concerts.js
++          node scripts/live_filter_regression.js
+       - name: Recheck up to three previously matched official source pages
+         timeout-minutes: 2
+         run: python scripts/recover_source_links.py
+@@ -44,12 +47,21 @@
+           set -e
+           echo "code=$code" >> "$GITHUB_OUTPUT"
+           python scripts/validate_public.py
++      - name: Refresh licensed concert and comedy metadata
++        id: live
++        shell: bash
++        run: |
++          set +e
++          python scripts/update_live_events.py
++          code=$?
++          set -e
++          echo "code=$code" >> "$GITHUB_OUTPUT"
+       - name: Persist data and failure status
+         shell: bash
+         run: |
+           git config user.name 'github-actions[bot]'
+           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+-          git add data/exhibitions.json data/status.json data/source-links.json data/source-link-candidates.json
++          git add data/concerts.json data/comedy.json data/exhibitions.json data/status.json data/source-links.json data/source-link-candidates.json
+           if ! git diff --cached --quiet; then
+             git commit -m 'Update official exhibition data and source status'
+             git push origin HEAD:main
+@@ -57,7 +69,10 @@
+       - name: Stage only public website files
+         run: |
+           mkdir -p site/data
+-          cp index.html sources.html app.js style.css site/
++          cp index.html sources.html app.js style.css concerts.html comedy.html concerts.js concerts.css site/
++          cp data/concerts.json data/comedy.json site/data/
++          mkdir -p site/docs
++          cp docs/CONCERTS.md site/docs/
+           cp data/exhibitions.json site/data/
+       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+         with:
+@@ -77,7 +92,7 @@
+         id: deployment
+         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+       - name: Report data update failure after deploying the visible status
+-        if: needs.update.outputs.update_code != '0'
++        if: needs.update.outputs.update_code != '0' || needs.update.outputs.live_code != '0'
+         run: |
+           echo 'Official source update failed. Last successful data and failure status were deployed.'
+           exit 1

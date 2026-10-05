@@ -1,0 +1,171 @@
+"""Daily licensed metadata only; never crawls ticket platforms. Standard library."""
+import argparse
+import copy
+import hashlib
+import html
+import json
+import re
+import sys
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from urllib.parse import urlsplit
+from urllib.request import Request, urlopen
+
+ROOT = Path(__file__).resolve().parents[1]
+TW = timezone(timedelta(hours=8))
+API = 'https://cloud.culture.tw/frontsite/trans/SearchShowAction.do?method=doFindTypeJ&category='
+CITIES = ['臺北市','新北市','基隆市','桃園市','新竹市','新竹縣','苗栗縣','臺中市','彰化縣','南投縣','雲林縣','嘉義市','嘉義縣','臺南市','高雄市','屏東縣','宜蘭縣','花蓮縣','臺東縣','澎湖縣','金門縣','連江縣']
+
+def clean(v):
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]*>', '', str(v or '')))).strip()
+
+def safe_url(v):
+    p = urlsplit(str(v or ''))
+    return str(v) if p.scheme == 'https' and p.hostname and not p.username and not p.password else ''
+
+def stamp():
+    return datetime.now(TW).isoformat(timespec='seconds')
+
+def session(v):
+    text = clean(v).replace('/', '-').replace('T', ' ')
+    day = datetime.strptime(text[:10], '%Y-%m-%d').date().isoformat()
+    clock = text[11:16] if len(text) >= 16 else None
+    if clock:
+        datetime.strptime(clock, '%H:%M')
+    return {'date': day, 'time': clock}
+
+def normalize(rows, kind, now):
+    if not isinstance(rows, list) or not rows:
+        raise ValueError('empty or malformed provider response')
+    events = {}
+    bad = 0
+    category = '17' if kind == 'concerts' else '11'
+    if not any(isinstance(r, dict) and str(r.get('category')) == category for r in rows):
+        raise ValueError('unexpected provider category')
+    for row in rows:
+        try:
+            if str(row.get('category')) != category:
+                continue
+            title = clean(row['title'])
+            if not title or '\ufffd' in title:
+                raise ValueError('bad title encoding')
+            # Exclude ticket upgrades and fan meetings; comedy category is explicit.
+            if kind == 'concerts' and re.search(r'upgrade|fan.?meeting|粉絲見面|見面會', title, re.I):
+                continue
+            if kind == 'comedy' and not re.search(r'脫口秀|單口喜劇|站立喜劇|stand.?up', title, re.I):
+                continue
+            if kind == 'comedy' and re.search(r'課程|研討會|工作坊', title):
+                continue
+            shows = row.get('showInfo') or row.get('showinfo')
+            if not isinstance(shows, list) or not shows:
+                raise ValueError('missing sessions')
+            for show in shows:
+                venue = clean(show.get('locationName')) or '場館未公布'
+                address = clean(show.get('location')).replace('台', '臺')
+                region = next((c for c in CITIES if c in address), '地區未公布')
+                uid = clean(row.get('UID'))
+                if not uid:
+                    raise ValueError('missing stable UID')
+                key = hashlib.sha256((uid+'|'+venue).encode()).hexdigest()[:20]
+                s = session(show.get('time') or row['startDate'])
+                price = clean(show.get('price') or show.get('Price')) or None
+                if key not in events:
+                    events[key] = dict(id=key,source='moc',sourceUid=uid,title=title,performers=clean(row.get('showUnit')),region=region,venue=venue,address=address,sessions=[],price=price,saleAt=None,saleNote='開賣時間來源未提供；請至官方確認。',ticketStatus='來源未提供即時售票狀態',ticketUrl=None,ticketVerifiedAt=None,sourceUrl='https://data.gov.tw/dataset/6013' if kind=='concerts' else 'https://data.gov.tw/dataset/6009',status='scheduled',summary=f'{region}的'+('演唱會' if kind=='concerts' else '單口喜劇')+f'，演出地點為{venue}。',verifiedAt=now[:10],revisions=[])
+                if s not in events[key]['sessions']:
+                    events[key]['sessions'].append(s)
+                if price and price != events[key]['price']:
+                    events[key]['price'] = '各場次票價不同，請見官方資訊'
+        except (ValueError, KeyError, TypeError):
+            bad += 1
+    if bad > max(0, len(rows) * .2):
+        raise ValueError(f'malformed records: {bad}/{len(rows)}')
+    if kind == 'concerts' and not events:
+        raise ValueError('no valid concert records')
+    for event in events.values():
+        event['sessions'].sort(key=lambda s:(s['date'],s['time'] or ''))
+    return list(events.values())
+
+def merge(previous, incoming, now):
+    old = {e['id']:e for e in previous if e['source']=='moc'}
+    result = []
+    for event in incoming:
+        before = old.pop(event['id'], None)
+        if before:
+            event['revisions'] = list(before.get('revisions', []))
+            if before['sessions'] != event['sessions']:
+                event['revisions'].append({'at':now,'note':'來源場次日期或時間異動，請確認官方公告。','previousSessions':before['sessions']})
+                event['status'] = 'changed'
+                event['statusNote'] = '來源日期／時間已變更，是否正式改期請確認官方公告。'
+            elif before.get('status') in ('rescheduled','changed'):
+                event['status']=before['status']
+                event['statusNote']=before.get('statusNote','')
+        result.append(event)
+    for event in old.values():
+        e = copy.deepcopy(event)
+        if any(s['date'] >= now[:10] for s in e['sessions']):
+            e['status']='unconfirmed'
+            e['statusNote']='來源本次未列出，保留原資料；不代表取消，請向官方確認。'
+        result.append(e)
+    return result
+
+def read(path, fallback):
+    return json.loads(path.read_text(encoding='utf-8')) if path.exists() else fallback
+
+def write(path, data):
+    temp = path.with_suffix('.tmp')
+    temp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    temp.replace(path)
+
+def build(kind, fetch, root=ROOT, now=None):
+    now = now or stamp()
+    path = root/'data'/f'{kind}.json'
+    previous = read(path, {'events':[], 'sources':[]})
+    manual = read(root/'data'/f'{kind}-manual.json', {'events':[], 'sources':[]})
+    category = '17' if kind=='concerts' else '11'
+    source = {'name':'文化部・演唱會' if kind=='concerts' else '文化部・綜藝（僅明確單口／脫口秀）','url':'https://data.gov.tw/dataset/6013' if kind=='concerts' else 'https://data.gov.tw/dataset/6009','checkedAt':now,'lastSuccess':next((s.get('lastSuccess') for s in previous['sources'] if s.get('id')=='moc'),None),'id':'moc'}
+    success = True
+    try:
+        incoming = normalize(fetch(category),kind,now)
+        moc = merge(previous['events'], incoming, now)
+        source.update(status='ok',lastSuccess=now,message=f'每日一次授權 JSON；本次 {len(incoming)} 個活動／場館組合。只涵蓋提供者回傳資料。')
+    except Exception as error:
+        success = False
+        moc = [e for e in previous['events'] if e['source']=='moc']
+        source.update(status='error',message='更新失敗，保留最後成功資料。'+type(error).__name__)
+    # Manual records have stable ids and take precedence over identical title/venue/sessions.
+    events = copy.deepcopy(manual['events'])
+    signature = lambda e:(clean(e['title']).casefold(),e['region'],e['venue'],tuple((s['date'],s.get('time')) for s in e['sessions']))
+    known = {signature(e) for e in events}
+    events.extend(e for e in moc if signature(e) not in known)
+    reviewed = read(root/'data'/'live-event-links.json', {})
+    for e in events:
+        review = reviewed.get(e.get('sourceUid'))
+        if review and review['title'] == e['title'] and safe_url(review['url']):
+            e.update(sourceUrl=review['url'],ticketUrl=review['url'],ticketVerifiedAt=review['checkedAt'])
+            for field in ('region','performers','saleAt','saleNote','price'):
+                if field in review.get('facts', {}):
+                    e[field] = review['facts'][field]
+            if review.get('facts', {}).get('region'):
+                e['summary'] = e['region']+'的演唱會，演出地點為'+e['venue']+'。'
+    output = dict(schemaVersion=1,timezone='Asia/Taipei',updatedAt=now,events=events,sources=[source]+manual['sources'])
+    write(path,output)
+    return success
+
+def fetch(category):
+    request = Request(API+category,headers={'User-Agent':'TaiwanLiveEventsTracker/1.0 (daily licensed open-data metadata)'})
+    with urlopen(request,timeout=30) as response:
+        raw = response.read(8_000_001)
+    if len(raw)>8_000_000:
+        raise ValueError('oversized response')
+    return json.loads(raw.decode('utf-8-sig'))
+
+if __name__=='__main__':
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--concert-input',type=Path)
+    parser.add_argument('--comedy-input',type=Path)
+    args=parser.parse_args()
+    def provider(category):
+        path=args.concert_input if category=='17' else args.comedy_input
+        return read(path,[]) if path else fetch(category)
+    results=[build(kind,provider) for kind in ('concerts','comedy')]
+    sys.exit(0 if all(results) else 1)

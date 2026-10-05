@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Taipei",
+  "updatedAt": "2026-10-06T00:40:48+08:00",
+  "events": [
+    {
+      "id": "manual-lan-1008",
+      "source": "manual",
+      "title": "藍恩首次單口喜劇專場《All Around You》",
+      "performers": "藍恩",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-10-08",
+          "time": "20:00"
+        }
+      ],
+      "price": "一般 NT$800／VIP NT$1,000；早鳥 NT$750／950",
+      "saleAt": "2026-07-30T12:00:00+08:00",
+      "saleNote": "早鳥開賣 07/23 12:00；已結束。",
+      "ticketStatus": "官方售票頁已公布；剩餘票量請至官方確認",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/allaroundyou1008",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/allaroundyou1008",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "藍恩的台北單口喜劇專場。",
+      "revisions": []
+    },
+    {
+      "id": "manual-ellery-1010",
+      "source": "manual",
+      "title": "Ellery《THE CUT》秋季場・台中",
+      "performers": "Ellery、Evan Danger、Tammy Jo",
+      "region": "臺中市",
+      "venue": "Laugh House Comedy（群島藝術園區）",
+      "sessions": [
+        {
+          "date": "2026-10-10",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$600／800／1,200",
+      "saleAt": "2026-08-07T00:00:00+08:00",
+      "saleNote": "場館名稱：頁首群島藝術園區，節目內文 Laugh House Comedy；地址一致。",
+      "ticketStatus": "官方售票頁已公布；剩餘票量請至官方確認",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/thecutautumn1010",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/thecutautumn1010",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "英文單口喜劇與現場互動；官方建議16歲以上。",
+      "revisions": []
+    },
+    {
+      "id": "manual-jiayu-1016",
+      "source": "manual",
+      "title": "佳諭單口喜劇專場《Get 婚》・高雄",
+      "performers": "佳諭",
+      "region": "高雄市",
+      "venue": "洛克音樂藝文展演空間",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "20:00"
+        }
+      ],
+      "price": "一般 NT$799／1,499；早鳥 NT$699／1,399",
+      "saleAt": "2026-07-27T19:00:00+08:00",
+      "saleNote": "",
+      "ticketStatus": "官方售票頁已公布；剩餘票量請至官方確認",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261016",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/get20261016",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口喜劇巡演高雄場。",
+      "revisions": []
+    },
+    {
+      "id": "manual-jiayu-1018",
+      "source": "manual",
+      "title": "佳諭單口喜劇專場《Get 婚》・新竹",
+      "performers": "佳諭",
+      "region": "新竹市",
+      "venue": "新竹 Star 美學館",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "15:00"
+        }
+      ],
+      "price": "一般 NT$799／1,499；早鳥 NT$699／1,399",
+      "saleAt": "2026-07-27T19:00:00+08:00",
+      "saleNote": "票價依座位與早鳥資格，請見官方。",
+      "ticketStatus": "官方售票頁已公布；剩餘票量請至官方確認",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261018",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/get20261018",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口喜劇巡演新竹場。",
+      "revisions": []
+    },
+    {
+      "id": "manual-aaron",
+      "source": "manual",
+      "title": "Aaron Chen: Technology Tour Taipei 2026",
+      "performers": "Aaron Chen",
+      "region": "臺北市",
+      "venue": "福華文教會館 卓越廳",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$1,300／1,500／1,800；身障席 NT$750",
+      "saleAt": "2026-08-28T10:00:00+08:00",
+      "saleNote": "藝人預售 08/24 13:00；在地預售 08/26 10:00。",
+      "ticketStatus": "官方售票頁已公布；剩餘票量請至官方確認",
+      "sourceUrl": "https://strnetwork.kktix.cc/events/kiewge",
+      "ticketUrl": "https://strnetwork.kktix.cc/events/kiewge",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Aaron Chen 的台北喜劇巡演，薩泰爾主辦。",
+      "revisions": []
+    },
+    {
+      "id": "manual-jiaoying",
+      "source": "manual",
+      "title": "Jiaoying Summers: The Lucky Pony Tour Taipei 2026",
+      "performers": "Jiaoying Summers",
+      "region": "臺北市",
+      "venue": "福華文教會館 卓越廳",
+      "sessions": [
+        {
+          "date": "2026-10-10",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$1,100／1,400／1,600；VIP NT$2,200；身障席 NT$800",
+      "saleAt": "2026-08-07T10:00:00+08:00",
+      "saleNote": "藝人預售 08/03 12:00；在地預售 08/05 12:00。",
+      "ticketStatus": "官方售票頁已公布；剩餘票量請至官方確認",
+      "sourceUrl": "https://strnetwork.kktix.cc/events/76d77258",
+      "ticketUrl": "https://strnetwork.kktix.cc/events/76d77258",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Jiaoying Summers 台北喜劇巡演，薩泰爾主辦。",
+      "revisions": []
+    }
+  ],
+  "sources": [
+    {
+      "name": "文化部・綜藝（僅明確單口／脫口秀）",
+      "url": "https://data.gov.tw/dataset/6009",
+      "checkedAt": "2026-10-06T00:40:48+08:00",
+      "lastSuccess": "2026-10-06T00:40:48+08:00",
+      "id": "moc",
+      "status": "ok",
+      "message": "每日一次授權 JSON；本次 0 個活動／場館組合。只涵蓋提供者回傳資料。"
+    },
+    {
+      "id": "manual",
+      "name": "正式售票頁・人工核對",
+      "url": "https://comedyclub.kktix.cc/",
+      "status": "manual",
+      "lastSuccess": null,
+      "message": "2026-10-06 人工核對 6 個活動；不自動抓取售票頁，資料可能異動。"
+    },
+    {
+      "id": "str",
+      "name": "薩泰爾官方售票目錄",
+      "url": "https://strnetwork.kktix.cc/",
+      "status": "manual",
+      "lastSuccess": null,
+      "message": "2026-10-06 人工確認兩場；無允許自動化介接依據，未列入每日爬取。卡米地／Laugh House／洛克／Star 範圍有限，其他俱樂部尚未納入。"
+    }
+  ]
+}

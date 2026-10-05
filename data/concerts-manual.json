@@ -1,0 +1,68 @@
+{
+  "events": [
+    {
+      "id": "manual-forever",
+      "source": "manual",
+      "title": "F✦FOREVER 恆星之城・光年赴約・臺北 限定場演唱會",
+      "performers": "言承旭、吳建豪、周渝民、阿信",
+      "region": "臺北市",
+      "venue": "臺北大巨蛋",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$ 1,680／2,680／3,280／3,680／4,280／4,880／5,280／5,880；身障席另有票價",
+      "saleAt": "2026-10-04T14:00:00+08:00",
+      "saleNote": "卡友優先購票：10/04 13:00，限指定卡別。",
+      "ticketStatus": "官方售票頁已公布；剩餘票量請至官方確認",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_forever",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_forever",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "臺北限定演出，兩晚於大巨蛋登場。",
+      "revisions": []
+    },
+    {
+      "id": "manual-blue",
+      "source": "manual",
+      "title": "Blue 25th Anniversary Tour in Kaohsiung",
+      "performers": "Blue",
+      "region": "高雄市",
+      "venue": "高雄流行音樂中心 海音館",
+      "sessions": [
+        {
+          "date": "2027-01-17",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$ 2,300–8,800；VIP套票 NT$ 10,200；每張另加 NT$200 系統費",
+      "saleAt": "2026-10-07T12:00:00+08:00",
+      "saleNote": "指定卡友預售 10/05 10:00；Live Nation 會員預售 10/06 12:00，資格依官方。",
+      "ticketStatus": "官方售票頁已公布；剩餘票量請至官方確認",
+      "sourceUrl": "https://tixcraft.com/activity/detail/27_bluekh",
+      "ticketUrl": "https://tixcraft.com/activity/detail/27_bluekh",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Blue 週年巡演高雄場。",
+      "revisions": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "manual",
+      "name": "正式售票頁・人工核對",
+      "url": "https://tixcraft.com/",
+      "status": "manual",
+      "lastSuccess": null,
+      "message": "2026-10-06 人工核對 2 個活動；不自動抓取售票頁，資料可能異動。"
+    }
+  ]
+}
