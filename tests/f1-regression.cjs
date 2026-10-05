@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict');
+const F1=require('../f1.js');
+assert.equal(F1.stamp('2026-11-22T04:00:00Z'),'2026-11-22 12:00');
+assert.match(F1.session({name:'Race - GP',start:'2026-10-25T20:00:00Z'}),/2026-10-26 04:00 台灣/);
+assert.match(F1.session({name:'Race - GP',start:'2026-10-25T20:00:00Z'}),/跨日 \+1 天/);
+assert.match(F1.session({name:'Sprint Qualifying - GP',start:'2026-10-09T12:30:00Z'}),/衝刺排位/);
+assert.match(F1.session({name:'Sprint - GP',start:'2026-10-10T09:00:00Z'}),/衝刺/);
+assert.match(F1.session({name:'Practice 3 - GP',start:'2026-10-10T09:00:00Z'}),/練習 3/);
+assert.equal(F1.future([{weekendEnd:'2026-10-11',sessions:[]}],Date.parse('2026-10-12T12:00:00Z')).length,0);
+console.log('F1 timezone, rollover, sprint labels and future filter: passed');

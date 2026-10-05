@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-06（台灣）",
+  "paid": [{
+    "name": "ELTA.tv 愛爾達超值全餐", "region": "台灣／澎湖／金門／馬祖", "kind": "付費直播與隨選",
+    "description": "F1 官方台灣轉播名單列愛爾達。官網購買頁超值全餐含 F1、體育頻道直播與兩日回看；2026 F1 專區有中文正賽與英文原音內容。各節實際直播請查 LIVE 表，不保證所有節次都有中文解說。",
+    "conditions": "需會員及付費方案。購買頁列超值全餐 90 天 NT$599／季，亦並列有條件優惠與舊方案；此為頁面列價參考，實際資格、價格與續訂條件以官方結帳為準。未代為註冊或訂閱。",
+    "verified": "核對內容專區、購買頁與 LIVE 表入口，未登入測試付費播放",
+    "links": [{"title":"2026 F1 內容／播放器", "url":"https://eltaott.tv/sports/play/1/2079"}, {"title":"LIVE 表", "url":"https://eltaott.tv/channel/sports_program_detail"}, {"title":"方案與價格", "url":"https://eltaott.tv/purchase/buy"}]
+  }],
+  "free-live": [{
+    "name":"Play SRF", "region":"瑞士境內", "kind":"地區限定免費轉播入口",
+    "description":"F1 官方轉播名單列瑞士 SRF。Play SRF 官方提供免費節目與電視頻道直播，並有當期 F1 全長回看；德語。",
+    "conditions":"電視直播只限瑞士境內；依 SRF 節目表播出的 F1 場次／節次，不承諾所有練習或每場均直播。一般觀看入口未要求付費或註冊；DRM、地區及回看期限依播放器提示。台灣不適用。",
+    "verified":"核對官方直播入口、F1 回看及官方地區限制說明；未驗證瑞士境內播放",
+    "links":[{"title":"直播頻道入口", "url":"https://www.srf.ch/play/tv/live"},{"title":"節目表", "url":"https://www.srf.ch/play/tv/programm/heute"},{"title":"免費／地區限制說明", "url":"https://www.srf.ch/play/tv/hilfe"}]
+  }, {
+    "name":"其他國家官方轉播查詢", "region":"依所在地國家", "kind":"免費資格待確認",
+    "description":"F1 官方名單也列奧地利 ORF／ServusTV、比利時 RTBF、盧森堡 RTL 等服務。這些不是全球通用免費直播。",
+    "conditions":"當期免費場次、帳號與網路地區限制尚未完整確認，故不列為已確認可看的免費 F1 直播。ORF ON 直播入口已打開；RTL Live Arena 查核時未列未來直播。請依所在地官方節目表核對。",
+    "verified":"官方權利名單確認；免費資格與當期 F1 播放待確認",
+    "links":[{"title":"F1 全球轉播名單", "url":"https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"},{"title":"ORF ON 直播入口", "url":"https://on.orf.at/livestreams"},{"title":"RTL Live Arena", "url":"https://www.rtl.lu/sport/live-arena"}]
+  }],
+  "highlights": [{
+    "name":"Formula 1 官方影片", "region":"多地可用，個別影片可能有地區限制", "kind":"免費賽後精華／短片",
+    "description":"F1 官網及官方 YouTube 頻道提供正賽、排位、練習精華等短片，主要英文。可免費觀看已公開影片，並非整場完整正賽直播。",
+    "conditions":"一般公開短片免訂閱；YouTube 部分情況需帳號或受地區限制，以影片提示為準。精華於賽後發布，發布時間不固定。",
+    "verified":"打開 F1 官網當期 2026 精華與官方 YouTube 入口；未逐片驗證所有地區",
+    "links":[{"title":"F1 官網精華", "url":"https://www.formula1.com/"},{"title":"F1 官方 YouTube", "url":"https://www.youtube.com/@Formula1/videos"}]
+  }]
+}

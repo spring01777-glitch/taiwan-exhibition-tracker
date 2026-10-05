@@ -1,0 +1,921 @@
+{
+  "seasons": {
+    "2026": [
+      {
+        "id": "australia",
+        "name": "Australian Grand Prix",
+        "weekendStart": "2026-03-06",
+        "weekendEnd": "2026-03-08",
+        "source": "https://www.formula1.com/en/racing/2026/australia",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Australian Grand Prix",
+            "start": "2026-03-06T01:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Australian Grand Prix",
+            "start": "2026-03-06T05:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Australian Grand Prix",
+            "start": "2026-03-07T01:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Australian Grand Prix",
+            "start": "2026-03-07T05:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Australian Grand Prix",
+            "start": "2026-03-08T04:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "china",
+        "name": "Chinese Grand Prix",
+        "weekendStart": "2026-03-13",
+        "weekendEnd": "2026-03-15",
+        "source": "https://www.formula1.com/en/racing/2026/china",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Chinese Grand Prix",
+            "start": "2026-03-13T03:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint Qualifying - Chinese Grand Prix",
+            "start": "2026-03-13T07:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint - Chinese Grand Prix",
+            "start": "2026-03-14T03:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Chinese Grand Prix",
+            "start": "2026-03-14T07:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Chinese Grand Prix",
+            "start": "2026-03-15T07:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "japan",
+        "name": "Japanese Grand Prix",
+        "weekendStart": "2026-03-27",
+        "weekendEnd": "2026-03-29",
+        "source": "https://www.formula1.com/en/racing/2026/japan",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Japanese Grand Prix",
+            "start": "2026-03-27T02:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Japanese Grand Prix",
+            "start": "2026-03-27T06:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Japanese Grand Prix",
+            "start": "2026-03-28T02:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Japanese Grand Prix",
+            "start": "2026-03-28T06:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Japanese Grand Prix",
+            "start": "2026-03-29T05:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "miami",
+        "name": "Miami Grand Prix",
+        "weekendStart": "2026-05-01",
+        "weekendEnd": "2026-05-03",
+        "source": "https://www.formula1.com/en/racing/2026/miami",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Miami Grand Prix",
+            "start": "2026-05-01T16:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint Qualifying - Miami Grand Prix",
+            "start": "2026-05-01T20:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint - Miami Grand Prix",
+            "start": "2026-05-02T16:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Miami Grand Prix",
+            "start": "2026-05-02T20:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Miami Grand Prix",
+            "start": "2026-05-03T20:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "canada",
+        "name": "Canadian Grand Prix",
+        "weekendStart": "2026-05-22",
+        "weekendEnd": "2026-05-24",
+        "source": "https://www.formula1.com/en/racing/2026/canada",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Canadian Grand Prix",
+            "start": "2026-05-22T16:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint Qualifying - Canadian Grand Prix",
+            "start": "2026-05-22T20:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint - Canadian Grand Prix",
+            "start": "2026-05-23T16:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Canadian Grand Prix",
+            "start": "2026-05-23T20:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Canadian Grand Prix",
+            "start": "2026-05-24T20:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "monaco",
+        "name": "Monaco Grand Prix",
+        "weekendStart": "2026-06-05",
+        "weekendEnd": "2026-06-07",
+        "source": "https://www.formula1.com/en/racing/2026/monaco",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Monaco Grand Prix",
+            "start": "2026-06-05T11:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Monaco Grand Prix",
+            "start": "2026-06-05T15:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Monaco Grand Prix",
+            "start": "2026-06-06T10:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Monaco Grand Prix",
+            "start": "2026-06-06T14:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Monaco Grand Prix",
+            "start": "2026-06-07T13:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "barcelona-catalunya",
+        "name": "Barcelona Grand Prix",
+        "weekendStart": "2026-06-12",
+        "weekendEnd": "2026-06-14",
+        "source": "https://www.formula1.com/en/racing/2026/barcelona-catalunya",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Barcelona Grand Prix",
+            "start": "2026-06-12T11:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Barcelona Grand Prix",
+            "start": "2026-06-12T15:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Barcelona Grand Prix",
+            "start": "2026-06-13T10:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Barcelona Grand Prix",
+            "start": "2026-06-13T14:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Barcelona Grand Prix",
+            "start": "2026-06-14T13:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "austria",
+        "name": "Austrian Grand Prix",
+        "weekendStart": "2026-06-26",
+        "weekendEnd": "2026-06-28",
+        "source": "https://www.formula1.com/en/racing/2026/austria",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Austrian Grand Prix",
+            "start": "2026-06-26T11:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Austrian Grand Prix",
+            "start": "2026-06-26T15:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Austrian Grand Prix",
+            "start": "2026-06-27T10:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Austrian Grand Prix",
+            "start": "2026-06-27T14:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Austrian Grand Prix",
+            "start": "2026-06-28T13:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "great-britain",
+        "name": "British Grand Prix",
+        "weekendStart": "2026-07-03",
+        "weekendEnd": "2026-07-05",
+        "source": "https://www.formula1.com/en/racing/2026/great-britain",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - British Grand Prix",
+            "start": "2026-07-03T11:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint Qualifying - British Grand Prix",
+            "start": "2026-07-03T15:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint - British Grand Prix",
+            "start": "2026-07-04T11:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - British Grand Prix",
+            "start": "2026-07-04T15:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - British Grand Prix",
+            "start": "2026-07-05T14:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "belgium",
+        "name": "Belgian Grand Prix",
+        "weekendStart": "2026-07-17",
+        "weekendEnd": "2026-07-19",
+        "source": "https://www.formula1.com/en/racing/2026/belgium",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Belgian Grand Prix",
+            "start": "2026-07-17T11:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Belgian Grand Prix",
+            "start": "2026-07-17T15:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Belgian Grand Prix",
+            "start": "2026-07-18T10:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Belgian Grand Prix",
+            "start": "2026-07-18T14:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Belgian Grand Prix",
+            "start": "2026-07-19T13:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "hungary",
+        "name": "Hungarian Grand Prix",
+        "weekendStart": "2026-07-24",
+        "weekendEnd": "2026-07-26",
+        "source": "https://www.formula1.com/en/racing/2026/hungary",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Hungarian Grand Prix",
+            "start": "2026-07-24T11:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Hungarian Grand Prix",
+            "start": "2026-07-24T15:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Hungarian Grand Prix",
+            "start": "2026-07-25T10:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Hungarian Grand Prix",
+            "start": "2026-07-25T14:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Hungarian Grand Prix",
+            "start": "2026-07-26T13:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "netherlands",
+        "name": "Dutch Grand Prix",
+        "weekendStart": "2026-08-21",
+        "weekendEnd": "2026-08-23",
+        "source": "https://www.formula1.com/en/racing/2026/netherlands",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Dutch Grand Prix",
+            "start": "2026-08-21T10:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint Qualifying - Dutch Grand Prix",
+            "start": "2026-08-21T14:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint - Dutch Grand Prix",
+            "start": "2026-08-22T10:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Dutch Grand Prix",
+            "start": "2026-08-22T14:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Dutch Grand Prix",
+            "start": "2026-08-23T13:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "italy",
+        "name": "Italian Grand Prix",
+        "weekendStart": "2026-09-04",
+        "weekendEnd": "2026-09-06",
+        "source": "https://www.formula1.com/en/racing/2026/italy",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Italian Grand Prix",
+            "start": "2026-09-04T10:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Italian Grand Prix",
+            "start": "2026-09-04T14:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Italian Grand Prix",
+            "start": "2026-09-05T10:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Italian Grand Prix",
+            "start": "2026-09-05T14:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Italian Grand Prix",
+            "start": "2026-09-06T13:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "spain",
+        "name": "Spanish Grand Prix",
+        "weekendStart": "2026-09-11",
+        "weekendEnd": "2026-09-13",
+        "source": "https://www.formula1.com/en/racing/2026/spain",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Spanish Grand Prix",
+            "start": "2026-09-11T11:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Spanish Grand Prix",
+            "start": "2026-09-11T15:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Spanish Grand Prix",
+            "start": "2026-09-12T10:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Spanish Grand Prix",
+            "start": "2026-09-12T14:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Spanish Grand Prix",
+            "start": "2026-09-13T13:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "azerbaijan",
+        "name": "Azerbaijan Grand Prix",
+        "weekendStart": "2026-09-24",
+        "weekendEnd": "2026-09-26",
+        "source": "https://www.formula1.com/en/racing/2026/azerbaijan",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Azerbaijan Grand Prix",
+            "start": "2026-09-24T08:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Azerbaijan Grand Prix",
+            "start": "2026-09-24T12:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Azerbaijan Grand Prix",
+            "start": "2026-09-25T08:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Azerbaijan Grand Prix",
+            "start": "2026-09-25T12:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Azerbaijan Grand Prix",
+            "start": "2026-09-26T11:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "bahrain",
+        "name": "Bahrain Grand Prix in Malaysia",
+        "weekendStart": "2026-10-02",
+        "weekendEnd": "2026-10-04",
+        "source": "https://www.formula1.com/en/racing/2026/bahrain",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Bahrain Grand Prix in Malaysia",
+            "start": "2026-10-02T04:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Bahrain Grand Prix in Malaysia",
+            "start": "2026-10-02T08:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Bahrain Grand Prix in Malaysia",
+            "start": "2026-10-03T04:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Bahrain Grand Prix in Malaysia",
+            "start": "2026-10-03T08:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Bahrain Grand Prix in Malaysia",
+            "start": "2026-10-04T07:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "singapore",
+        "name": "Singapore Grand Prix",
+        "weekendStart": "2026-10-09",
+        "weekendEnd": "2026-10-11",
+        "source": "https://www.formula1.com/en/racing/2026/singapore",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Singapore Grand Prix",
+            "start": "2026-10-09T08:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint Qualifying - Singapore Grand Prix",
+            "start": "2026-10-09T12:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Sprint - Singapore Grand Prix",
+            "start": "2026-10-10T09:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Singapore Grand Prix",
+            "start": "2026-10-10T13:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Singapore Grand Prix",
+            "start": "2026-10-11T12:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "united-states",
+        "name": "United States Grand Prix",
+        "weekendStart": "2026-10-23",
+        "weekendEnd": "2026-10-25",
+        "source": "https://www.formula1.com/en/racing/2026/united-states",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - United States Grand Prix",
+            "start": "2026-10-23T17:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - United States Grand Prix",
+            "start": "2026-10-23T21:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - United States Grand Prix",
+            "start": "2026-10-24T17:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - United States Grand Prix",
+            "start": "2026-10-24T21:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - United States Grand Prix",
+            "start": "2026-10-25T20:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "mexico",
+        "name": "Mexico City Grand Prix",
+        "weekendStart": "2026-10-30",
+        "weekendEnd": "2026-11-01",
+        "source": "https://www.formula1.com/en/racing/2026/mexico",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Mexico City Grand Prix",
+            "start": "2026-10-30T18:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Mexico City Grand Prix",
+            "start": "2026-10-30T22:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Mexico City Grand Prix",
+            "start": "2026-10-31T17:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Mexico City Grand Prix",
+            "start": "2026-10-31T21:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Mexico City Grand Prix",
+            "start": "2026-11-01T20:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "brazil",
+        "name": "Brazilian Grand Prix",
+        "weekendStart": "2026-11-06",
+        "weekendEnd": "2026-11-08",
+        "source": "https://www.formula1.com/en/racing/2026/brazil",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Brazilian Grand Prix",
+            "start": "2026-11-06T15:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Brazilian Grand Prix",
+            "start": "2026-11-06T19:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Brazilian Grand Prix",
+            "start": "2026-11-07T14:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Brazilian Grand Prix",
+            "start": "2026-11-07T18:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Brazilian Grand Prix",
+            "start": "2026-11-08T17:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "las-vegas",
+        "name": "Las Vegas Grand Prix",
+        "weekendStart": "2026-11-20",
+        "weekendEnd": "2026-11-22",
+        "source": "https://www.formula1.com/en/racing/2026/las-vegas",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Las Vegas Grand Prix",
+            "start": "2026-11-20T00:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Las Vegas Grand Prix",
+            "start": "2026-11-20T04:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Las Vegas Grand Prix",
+            "start": "2026-11-21T00:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Las Vegas Grand Prix",
+            "start": "2026-11-21T04:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Las Vegas Grand Prix",
+            "start": "2026-11-22T04:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "qatar",
+        "name": "Qatar Grand Prix",
+        "weekendStart": "2026-11-27",
+        "weekendEnd": "2026-11-29",
+        "source": "https://www.formula1.com/en/racing/2026/qatar",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Qatar Grand Prix",
+            "start": "2026-11-27T13:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Qatar Grand Prix",
+            "start": "2026-11-27T17:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Qatar Grand Prix",
+            "start": "2026-11-28T14:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Qatar Grand Prix",
+            "start": "2026-11-28T18:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Qatar Grand Prix",
+            "start": "2026-11-29T16:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      },
+      {
+        "id": "united-arab-emirates",
+        "name": "Abu Dhabi Grand Prix",
+        "weekendStart": "2026-12-04",
+        "weekendEnd": "2026-12-06",
+        "source": "https://www.formula1.com/en/racing/2026/united-arab-emirates",
+        "dataSource": "https://api.jolpi.ca/ergast/f1/2026.json",
+        "sourceTimezone": "UTC (Jolpica date/time)",
+        "sessions": [
+          {
+            "name": "Practice 1 - Abu Dhabi Grand Prix",
+            "start": "2026-12-04T09:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 2 - Abu Dhabi Grand Prix",
+            "start": "2026-12-04T13:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Practice 3 - Abu Dhabi Grand Prix",
+            "start": "2026-12-05T10:30:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Qualifying - Abu Dhabi Grand Prix",
+            "start": "2026-12-05T14:00:00+00:00",
+            "end": null
+          },
+          {
+            "name": "Race - Abu Dhabi Grand Prix",
+            "start": "2026-12-06T13:00:00+00:00",
+            "end": null
+          }
+        ],
+        "missingTimes": [],
+        "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+        "status": "ok"
+      }
+    ]
+  },
+  "sources": {
+    "2026": {
+      "status": "ok",
+      "lastSuccess": "2026-10-05T17:38:30.672010+00:00",
+      "lastAttempt": "2026-10-05T17:38:30.672010+00:00",
+      "url": "https://api.jolpi.ca/ergast/f1/2026.json",
+      "name": "Jolpica 社群賽程 API（非 F1 官方）"
+    }
+  },
+  "lastAttempt": "2026-10-05T17:38:30.672010+00:00",
+  "errors": [],
+  "attribution": {
+    "name": "Jolpica-F1",
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "termsUrl": "https://github.com/jolpica/jolpica-f1/blob/main/TERMS.md",
+    "changes": "2026 calendar only; normalized sessions, Taiwan time displayed; no results or media."
+  }
+}
