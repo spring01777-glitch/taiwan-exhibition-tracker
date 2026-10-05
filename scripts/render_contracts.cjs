@@ -16,6 +16,19 @@ async function check(kind){
  const api=sandbox.ConcertFilters;
  for(const e of data.events){
   assert.ok(html.includes(e.id));
+  if(kind==='comedy'&&['manual-taipei-live','manual-coldn','manual-creepy','manual-taichung-live','manual-john'].includes(e.id)){
+   const card=html.split(`data-event-id="${e.id}"`)[1].split('</article>')[0];
+   assert.equal(api.hasSaleTimeConflict(e),false);
+   assert.ok(!card.includes('開賣資料矛盾，待官方確認'));
+   assert.ok(card.includes(e.saleNote));
+   if(e.saleAt)assert.ok(card.includes(e.saleAt.replace('T',' ').replace('+08:00','')));
+   else{
+    assert.ok(card.includes('早鳥'));
+    assert.ok(card.includes(e.id==='manual-taichung-live'?'2026/09/24 00:00':'2026/10/30 12:30'));
+    assert.equal(e.saleAt,null);
+    assert.ok(api.tickets(e).every(t=>t.saleAt===null));
+   }
+  }
   if(api.hasSaleTimeConflict(e)){
    const card=html.split(`data-event-id="${e.id}"`)[1].split('</article>')[0];
    assert.ok(card.includes('開賣資料矛盾，待官方確認'));

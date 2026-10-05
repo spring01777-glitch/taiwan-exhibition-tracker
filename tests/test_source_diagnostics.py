@@ -131,4 +131,30 @@ class SourceDiagnosticsTests(unittest.TestCase):
         self.assertEqual(event['saleAt'],'2026-10-04T12:30:00+08:00')
         self.assertEqual(live.sale_time_conflicts({'events':[{**event,'saleAt':None}]}),[])
 
+    def test_cloud_reviewed_manual_and_generated_sale_claims_agree(self):
+        expected={'manual-taipei-live':'2026-01-05T00:00:00+08:00',
+                  'manual-coldn':'2026-10-04T12:30:00+08:00',
+                  'manual-creepy':'2026-10-01T00:00:00+08:00',
+                  'manual-taichung-live':None,'manual-john':None}
+        root=Path(__file__).resolve().parents[1]
+        manual=json.loads((root/'data/comedy-manual.json').read_text(encoding='utf-8'))
+        generated=json.loads((root/'data/comedy.json').read_text(encoding='utf-8'))
+        self.assertEqual(live.sale_time_conflicts(manual),[])
+        self.assertEqual(live.sale_time_conflicts(generated),[])
+        snapshots=[{e['id']:e for e in data['events']} for data in (manual,generated)]
+        for eid,value in expected.items():
+            for records in snapshots:
+                event=records[eid]
+                self.assertEqual(event['saleAt'],value)
+                self.assertEqual(event['verifiedAt'],'2026-10-06')
+                self.assertTrue(all(t['saleAt']==value and t['checkedAt']=='2026-10-06' for t in event['tickets']))
+            self.assertEqual(snapshots[0][eid]['saleNote'],snapshots[1][eid]['saleNote'])
+        for records in snapshots:
+            self.assertIn('2026/09/24 00:00',records['manual-taichung-live']['saleNote'])
+            self.assertIn('早鳥 NT$450',records['manual-taichung-live']['price'])
+            self.assertIn('一般票開賣時間來源未提供',records['manual-taichung-live']['saleNote'])
+            self.assertIn('2026/10/04 12:30',records['manual-john']['saleNote'])
+            self.assertIn('2026/10/30 12:30',records['manual-john']['saleNote'])
+            self.assertIn('不能據早鳥截止時間推定',records['manual-john']['saleNote'])
+
 if __name__=='__main__':unittest.main()

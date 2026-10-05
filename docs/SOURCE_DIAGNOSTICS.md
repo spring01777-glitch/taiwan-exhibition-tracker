@@ -1,6 +1,6 @@
 # Source update diagnostics and pending sale-time review
 
-Local-only repair branch: `fix/source-update-diagnostics`, based on public commit `645ef7d77d051b5ed58bcec0876d0113bb62d566`. No source fetch, browser, push, schedule change, or generated snapshot rewrite is part of this repair.
+Local-only repair branch: `fix/source-update-diagnostics`, based on public commit `645ef7d77d051b5ed58bcec0876d0113bb62d566`. The initial diagnostic repair did not rewrite snapshots. Its follow-up applies parent-supplied cloud official review to the manual source and rebuilds only comedy.json offline. No local source fetch, browser, push or schedule change is part of either repair.
 
 ## What the existing CI evidence establishes
 
@@ -18,9 +18,9 @@ Venue status records robots-fetch, robots-check, policy-fetch, policy-check, bro
 
 Safe network classifications include TLS_CERTIFICATE_VERIFICATION, TLS_ERROR, DNS_FAILURE, TIMEOUT, CONNECTION_REFUSED, HTTP_n and NETWORK_ERROR. Raw exception messages, response content and credentials are not emitted. These codes classify evidence; they do not guess a cause where the old logs lack it.
 
-## Five contradictory sale-time claims requiring cloud official review
+## Historical five contradictory sale-time claims (resolved below)
 
-Each following record has a saleAt value but the note says the general sale time is unpublished/not supplied. The copied saleAt in ticket entries and their checkedAt date are existing claims, not independent evidence proving that sale time. There is no captured official quote locally establishing these times. Preserve the raw fields until the parent cloud browser checks the official pages. The frontend marks both event-level and session ticket sale times as awaiting confirmation.
+Each following record has a saleAt value but the note says the general sale time is unpublished/not supplied. The copied saleAt in ticket entries and their checkedAt date are existing claims, not independent evidence proving that sale time. There is no captured official quote locally establishing these times. These were the pre-review claims. The parent cloud browser supplied official review on 2026-10-06; the outcome below supersedes them. The defensive frontend remains available for future contradictory claims.
 
 ### manual-taichung-live
 
@@ -67,8 +67,20 @@ Each following record has a saleAt value but the note says the general sale time
 
 `python -m unittest discover -s tests -v` (offline; Windows tempfile tests may require the formal execution permission path).
 `python scripts/validate_live_events.py` checks public schema and explicitly reports conflict IDs. Schema validity does not establish factual correctness.
-`python scripts/validate_live_events.py --strict-sale-times` intentionally fails while contradictory records remain. Run after cloud review and correction to require zero conflicts.
+`python scripts/validate_live_events.py --strict-sale-times` requires zero conflicts; after the cloud-reviewed source correction it passes. It intentionally fails if contradictory claims recur.
 `node scripts/render_contracts.cjs` executes the actual cards without a browser and verifies both sale-time defenses and retained notes.
 `node scripts/live_filter_regression.js` and `python scripts/validate_site_structure.py` cover filters and page structure.
 
-Cloud browser QA and fresh source verification remain with the parent; this local task does not claim mobile browser coverage.
+Official sale-time verification was performed by the parent cloud browser and supplied to this local task; no additional local browser/source verification occurred. Cloud browser QA remains with the parent; this local task does not claim mobile browser coverage. Culture Ministry and Pier-2 source errors are not resolved by the sale-note correction.
+
+## Cloud official review applied on 2026-10-06
+
+The parent supplied these findings from the official KKTIX pages listed above. Existing verifiedAt and ticket checkedAt dates remain 2026-10-06. The source manual and the generated comedy snapshot now agree:
+
+- manual-taipei-live: general NT$350 tickets start 2026/01/05 00:00 Taiwan time. Preserve event and ticket saleAt; replace the unpublished note with the confirmed general-sale fact.
+- manual-coldn: regular NT$800, sponsor NT$1,200 and VIP NT$5,000 tickets all start 2026/10/04 12:30 Taiwan time. Preserve event and ticket saleAt; clarify all three categories in the note.
+- manual-creepy: general NT$450 tickets start 2026/10/01 00:00 Taiwan time. Preserve event and ticket saleAt; replace the unpublished note.
+- manual-taichung-live: 2026/09/24 00:00 Taiwan time is the early-bird sale, not an established general sale. Set event and all ticket saleAt to null, retain that early-bird start in the note, state general-sale time not supplied, and relabel NT$450 as early bird (onsite NT$500).
+- manual-john: both Nov 27 and Nov 29 pages confirm added-show early bird from 2026/10/04 12:30 to 2026/10/30 12:30 Taiwan time. Set event and both ticket saleAt to null and preserve the early-bird window in the note. General full-price sale start remains unconfirmed; do not infer it from early-bird closing time.
+
+These corrections address sale classification and contradictory notes only. They do not establish live inventory or repair the Culture Ministry/Pier-2 network/validation failures.

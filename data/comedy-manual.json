@@ -863,13 +863,13 @@
               "time": "19:00"
             }
           ],
-          "price": "預售 NT$450；現場 NT$500",
-          "saleAt": "2026-09-24T00:00:00+08:00"
+          "price": "早鳥 NT$450；現場 NT$500",
+          "saleAt": null
         }
       ],
-      "price": "預售 NT$450；現場 NT$500",
-      "saleAt": "2026-09-24T00:00:00+08:00",
-      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "price": "早鳥 NT$450；現場 NT$500",
+      "saleAt": null,
+      "saleNote": "早鳥於 2026/09/24 00:00（台灣時間）開賣；一般票開賣時間來源未提供。",
       "ticketStatus": "活動售票頁已核對；非即時票況",
       "sourceUrl": "https://comedyclub.kktix.cc/events/taichungcomedylive1107",
       "ticketUrl": null,
@@ -949,7 +949,7 @@
       ],
       "price": "預售 NT$350；現場 NT$400",
       "saleAt": "2026-01-05T00:00:00+08:00",
-      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "saleNote": "官方一般票販售起始時間為 2026/01/05 00:00（台灣時間）；一般票 NT$350。",
       "ticketStatus": "活動售票頁已核對；非即時票況",
       "sourceUrl": "https://comedyclub.kktix.cc/events/taipeicomedylive1023",
       "ticketUrl": null,
@@ -988,7 +988,7 @@
             }
           ],
           "price": "一般 NT$800；搖滾 NT$1,200；贊助 NT$1,999；10/4–10/30 早鳥九折",
-          "saleAt": "2026-10-04T12:30:00+08:00"
+          "saleAt": null
         },
         {
           "platform": "KKTIX",
@@ -1001,12 +1001,12 @@
             }
           ],
           "price": "一般 NT$800；搖滾 NT$1,200；贊助 NT$1,999；10/4–10/30 早鳥九折",
-          "saleAt": "2026-10-04T12:30:00+08:00"
+          "saleAt": null
         }
       ],
       "price": "一般 NT$800；搖滾 NT$1,200；贊助 NT$1,999；10/4–10/30 早鳥九折",
-      "saleAt": "2026-10-04T12:30:00+08:00",
-      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "saleAt": null,
+      "saleNote": "兩場加演早鳥於 2026/10/04 12:30 至 2026/10/30 12:30（台灣時間）販售；一般原價票開賣時間待官方確認，不能據早鳥截止時間推定。",
       "ticketStatus": "活動售票頁已核對；非即時票況",
       "sourceUrl": "https://comedyclub.kktix.cc/events/smaljohncomedy20261127",
       "ticketUrl": null,
@@ -1046,7 +1046,7 @@
       ],
       "price": "NT$800／1,200／5,000",
       "saleAt": "2026-10-04T12:30:00+08:00",
-      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "saleNote": "一般區 NT$800、贊助 NT$1,200 與 VIP NT$5,000 均於 2026/10/04 12:30（台灣時間）開賣。",
       "ticketStatus": "活動售票頁已核對；非即時票況",
       "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261126",
       "ticketUrl": null,
@@ -1086,7 +1086,7 @@
       ],
       "price": "NT$450",
       "saleAt": "2026-10-01T00:00:00+08:00",
-      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "saleNote": "官方一般票 NT$450 於 2026/10/01 00:00（台灣時間）開賣。",
       "ticketStatus": "活動售票頁已核對；非即時票況",
       "sourceUrl": "https://comedyclub.kktix.cc/events/creepy1127",
       "ticketUrl": null,
