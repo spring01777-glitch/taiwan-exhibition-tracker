@@ -13,7 +13,24 @@ async function check(kind){
  assert.equal((html.match(/class="event-venue"/g)||[]).length,data.events.length);
  assert.equal((html.match(/class="session-details"/g)||[]).length,data.events.length);
  assert.ok(!html.includes('undefined'));
- for(const e of data.events){assert.ok(html.includes(e.id));}
+ const api=sandbox.ConcertFilters;
+ for(const e of data.events){
+  assert.ok(html.includes(e.id));
+  if(api.hasSaleTimeConflict(e)){
+   const card=html.split(`data-event-id="${e.id}"`)[1].split('</article>')[0];
+   assert.ok(card.includes('開賣資料矛盾，待官方確認'));
+   assert.ok(card.includes(e.saleNote));
+   for(const value of [e.saleAt,...api.tickets(e).map(t=>t.saleAt)].filter(Boolean)){
+    assert.ok(!card.includes(value.replace('T',' ').replace('+08:00','')));
+   }
+  }
+ }
+ const claim={saleAt:'2026-10-04T12:30:00+08:00',saleNote:'一般開賣時間未公布／來源未提供。',tickets:[]};
+ assert.equal(api.hasSaleTimeConflict(claim),true);
+ assert.equal(api.saleTimeValue(claim),'開賣資料矛盾，待官方確認');
+ assert.equal(api.hasSaleTimeConflict({...claim,saleNote:''}),false);
+ assert.equal(api.saleTimeValue({...claim,saleNote:''}),claim.saleAt);
+ assert.equal(api.hasSaleTimeConflict({...claim,saleAt:null,tickets:[{saleAt:claim.saleAt}]}),true);
  console.log(`${kind}: real renderer produced ${data.events.length} cards, date/venue hierarchy and accessible session details passed.`);
 }
 (async()=>{await check('concerts');await check('comedy');})().catch(error=>{console.error(error);process.exitCode=1;});

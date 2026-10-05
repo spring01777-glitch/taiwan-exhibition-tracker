@@ -11,7 +11,7 @@ from urllib.parse import urljoin,urlsplit,quote,urlunsplit,unquote
 from urllib.request import Request,urlopen
 from urllib.robotparser import RobotFileParser
 from bs4 import BeautifulSoup
-from update import atomic,clean,date,merge
+from update import atomic,clean,date,merge,safe_error_code
 from recover_source_links import installed_browser
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -40,7 +40,7 @@ def safe_path(config,url):
     return p.scheme=='https' and p.netloc==base.netloc and not p.query and not p.fragment and p.path.startswith(config['prefix']) and not p.username and not p.password
 
 class PublicReader:
-    def __init__(self,config):self.config=config;self.last=0;self.robot=None
+    def __init__(self,config):self.config=config;self.last=0;self.robot=None;self.stage='robots-fetch'
     def get(self,url,robots=False):
         p=urlsplit(url)
         if p.scheme!='https' or p.netloc!=urlsplit(self.config['base']).netloc or p.query:raise ValueError('non-public or query URL rejected')
@@ -53,14 +53,19 @@ class PublicReader:
             if len(raw)>3_000_000:raise ValueError('response too large')
             return raw.decode('utf-8')
     def prepare(self,approved):
+        self.stage='robots-fetch'
         robot_url=self.config['base']+'/robots.txt'
         try:rules=self.get(robot_url,robots=True)
         except HTTPError as e:
             if e.code not in (404,410):raise
             rules='' # Standard missing-robots response; no API permission inferred.
+        self.stage='robots-check'
         self.robot=RobotFileParser();self.robot.set_url(robot_url);self.robot.parse(rules.splitlines())
         if not self.robot.can_fetch(UA,self.config['base']+self.config['list']):raise PermissionError('robots disallows public list')
-        if policy_digest(self.get(self.config['base']+self.config['privacy']))!=approved['policyDigest']:
+        self.stage='policy-fetch'
+        policy=self.get(self.config['base']+self.config['privacy'])
+        self.stage='policy-check'
+        if policy_digest(policy)!=approved['policyDigest']:
             raise PermissionError('official policy changed; manual review required')
 
 def discover(source,body):
@@ -163,15 +168,17 @@ def run(browser=None,source_names=None):
     for source,c in SOURCES.items():
         if source_names and source not in source_names:continue
         now=datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds')
-        previous=[e for e in seeds if e['source']==source];rendered=None
+        previous=[e for e in seeds if e['source']==source];rendered=None;reader=None;stage='prepare';attempted=0;checked=0
         try:
             reader=PublicReader(c);reader.prepare(policies[source])
             if source=='pier2':
+                stage='browser-start'
                 executable=browser or installed_browser()
                 if not executable:raise RuntimeError('existing browser unavailable')
                 rendered=RenderedReader(executable,reader);get=rendered.get
             else:get=reader.get
-            found=discover(source,get(c['base']+c['list']))
+            stage='list-fetch';body=get(c['base']+c['list'])
+            stage='list-parse';found=discover(source,body)
             by_url={canonical_public_url(e['url']):e for e in previous}
             # Prefer the exact href actually observed on the official list.
             # Some official slugs include a trailing encoded space; do not trim
@@ -184,24 +191,29 @@ def run(browser=None,source_names=None):
             for e in previous:
                 url=canonical_public_url(e['url'])
                 if e['id'] not in found_ids and e['end']>=now[:10] and safe_path(c,url):targets.setdefault(url,{'title':e['title'],'venue':e['venue'],'badge':''})
+            stage='detail-cap'
             if len(targets)>MAX_DETAILS:raise ValueError('public list exceeds daily detail cap; review required')
             incoming=[]
             for url,hint in targets.items():
                 print(json.dumps({'source':source,'readingUrl':url},ensure_ascii=True),flush=True)
-                event=parse_detail(source,get(url),url,hint,by_url.get(url,{}))
+                stage='detail-fetch';attempted+=1;body=get(url)
+                stage='detail-parse';event=parse_detail(source,body,url,hint,by_url.get(url,{}));checked+=1
                 if event['end']>=now[:10] or url in by_url:incoming.append(event)
                 print(json.dumps({'source':source,'checkedId':event['id']},ensure_ascii=True),flush=True)
             succeeded_at=datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds')
-            updated=keep_source(previous,incoming,succeeded_at)
+            stage='loss-guard';updated=keep_source(previous,incoming,succeeded_at)
             seeds=[e for e in seeds if e['source']!=source]+updated
             uncertain=sum(bool(e.get('verificationNote')) for e in updated)
             scope='公開首頁及已收錄的無查詢參數詳情；分頁受 robots 限制，未保證完整' if source=='huashan' else '公開展演清單及已收錄活動；不保證全場館活動完整'
-            status[source]={'state':'ok','lastAttempt':now,'lastSuccess':succeeded_at,'count':len(updated),'checkedCount':len(targets),'message':f'每日官網基本事實更新成功；{scope}'+(f'；{uncertain}筆狀態仍待確認' if uncertain else '')}
+            status[source]={'state':'ok','lastAttempt':now,'lastSuccess':succeeded_at,'count':len(updated),'checkedCount':checked,'attemptedCount':attempted,'lastSuccessfulCheckedCount':checked,'message':f'每日官網基本事實更新成功；{scope}'+(f'；{uncertain}筆狀態仍待確認' if uncertain else '')}
         except Exception as e:
             failures+=1
             safe_reasons={'privacy policy not found','non-public or query URL rejected','robots disallows URL','robots disallows public list','official policy changed; manual review required','empty public list or changed structure','two explicit dates required','reversed dates','missing title or venue','empty facts; preserve last success','more than 50% source loss; preserve last success','existing browser unavailable','public list exceeds daily detail cap; review required','public page unavailable','unexpected redirect host','response too large'}
             reason=str(e) if str(e) in safe_reasons else f'HTTP {e.code}' if isinstance(e,HTTPError) else type(e).__name__
-            status[source]={**status.get(source,{}),'state':'error','lastAttempt':now,'lastSuccess':status.get(source,{}).get('lastSuccess',max((x.get('lastSeen','') for x in previous),default='')),'count':len(previous),'message':f'每日官網更新未完成，保留最後成功資料（{reason}）；請查官方','reason':reason}
+            prior_status=status.get(source,{})
+            stage=reader.stage if stage=='prepare' and reader else stage
+            code=safe_error_code(e)
+            status[source]={**prior_status,'state':'error','lastAttempt':now,'lastSuccess':prior_status.get('lastSuccess',max((x.get('lastSeen','') for x in previous),default='')),'count':len(previous),'checkedCount':checked,'attemptedCount':attempted,'lastSuccessfulCheckedCount':prior_status.get('lastSuccessfulCheckedCount',prior_status.get('checkedCount')),'failureStage':stage,'reasonCode':code,'message':f'每日官網更新未完成；本次成功核對{checked}筆，保留最後成功{len(previous)}筆；請查官方','reason':reason}
         finally:
             if rendered:rendered.close()
         print(json.dumps({'source':source,**status[source]},ensure_ascii=True),flush=True)

@@ -1,11 +1,16 @@
 """Validate the only two live-event snapshots included in the Pages artifact."""
-import json,re
+import argparse,json,re
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
 FIELDS={'id','title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','sourceUrl','source','sourceUid','status','statusNote','summary','verifiedAt','revisions','tickets','cloudReviewPending','verificationMethod'}
-def validate():
+def sale_time_conflicts(data):
+    return [e['id'] for e in data['events'] if
+        (e.get('saleAt') or any(t.get('saleAt') for t in e.get('tickets',[]))) and
+        re.search(r'一般開賣[^。；]*(?:未公布|未提供)',e.get('saleNote',''))]
+
+def validate(strict_sale_times=False):
     for kind in ('concerts','comedy'):
         data=json.loads((ROOT/f'data/{kind}.json').read_text(encoding='utf-8'))
         assert set(data)=={'schemaVersion','timezone','updatedAt','events','sources'}
@@ -40,4 +45,11 @@ def validate():
         assert not re.search(r'[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}',serialized,re.I)
         assert 'C:\\Users\\' not in serialized and 'C:/Users/' not in serialized
         print(f'{kind}: {len(data["events"])} event/venue records, {sum(len(e["sessions"]) for e in data["events"])} sessions; public schema passed.')
-if __name__=='__main__':validate()
+        conflicts=sale_time_conflicts(data)
+        print(json.dumps({'kind':kind,'saleTimeConflicts':conflicts},ensure_ascii=True))
+        if strict_sale_times and conflicts:
+            raise ValueError('Conflicting sale-time claims require official review: '+', '.join(conflicts))
+if __name__=='__main__':
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--strict-sale-times',action='store_true')
+    validate(parser.parse_args().strict_sale_times)

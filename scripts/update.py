@@ -5,6 +5,7 @@ import html
 import json
 import re
 import ssl
+import socket
 import subprocess
 import sys
 import time
@@ -14,11 +15,34 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 ROOT = Path(__file__).resolve().parents[1]
 API = 'https://cloud.culture.tw/frontsite/trans/SearchShowAction.do?method=doFindTypeJ&category=6'
 TW = timezone(timedelta(hours=8))
 CITIES = ['臺北市','新北市','基隆市','桃園市','新竹市','新竹縣','苗栗縣','臺中市','彰化縣','南投縣','雲林縣','嘉義市','嘉義縣','臺南市','高雄市','屏東縣','宜蘭縣','花蓮縣','臺東縣','澎湖縣','金門縣','連江縣']
+
+class SourceUpdateError(ValueError):
+    def __init__(self, code, stage, counts=None):
+        super().__init__(code)
+        self.code, self.stage, self.counts = code, stage, counts or {}
+
+def safe_error_code(exc):
+    if isinstance(exc, SourceUpdateError): return exc.code
+    if isinstance(exc, HTTPError): return f'HTTP_{exc.code}'
+    if isinstance(exc, URLError): return safe_error_code(exc.reason) if isinstance(exc.reason, Exception) else 'NETWORK_ERROR'
+    if isinstance(exc, ssl.SSLCertVerificationError): return 'TLS_CERTIFICATE_VERIFICATION'
+    if isinstance(exc, ssl.SSLError): return 'TLS_ERROR'
+    if isinstance(exc, socket.gaierror): return 'DNS_FAILURE'
+    if isinstance(exc, TimeoutError): return 'TIMEOUT'
+    if isinstance(exc, ConnectionRefusedError): return 'CONNECTION_REFUSED'
+    if isinstance(exc, json.JSONDecodeError): return 'INVALID_JSON'
+    if isinstance(exc, subprocess.TimeoutExpired): return 'TIMEOUT'
+    if isinstance(exc, subprocess.CalledProcessError):
+        return {60:'TLS_CERTIFICATE_VERIFICATION',28:'TIMEOUT',6:'DNS_FAILURE',7:'CONNECTION_REFUSED',22:'HTTP_ERROR'}.get(exc.returncode,'CURL_FAILURE')
+    if isinstance(exc, PermissionError): return 'POLICY_OR_ROBOTS_REJECTED'
+    if isinstance(exc, ValueError): return 'VALIDATION_ERROR'
+    return 'SOURCE_ERROR'
 
 def clean(value):
     return re.sub(r'\s+', ' ', html.unescape(re.sub('<[^>]*>', '', str(value or '')))).strip()
@@ -32,10 +56,12 @@ def safe_url(value):
     p = urlparse(value)
     return value if p.scheme in ('https','http') and p.hostname and not p.username and not p.password else ''
 
-def normalize(rows):
+def normalize(rows, diagnostics=None):
+    counts = diagnostics if diagnostics is not None else {}
+    counts.update(inputCount=len(rows) if isinstance(rows,list) else None, validCount=0, rejectedCount=0, eventCount=0)
     if not isinstance(rows, list) or not rows:
-        raise ValueError('來源為空或格式不符；保留最後成功資料')
-    events, rejected = {}, 0
+        raise SourceUpdateError('EMPTY_INPUT' if isinstance(rows,list) else 'INPUT_NOT_LIST','normalize',counts)
+    events, rejected, rejection_reasons = {}, 0, {}
     link_file=ROOT/'data/source-links.json'
     checked=json.loads(link_file.read_text(encoding='utf-8')) if link_file.exists() else {}
     for row in rows:
@@ -71,10 +97,14 @@ def normalize(rows):
                     event['start'] = min(start, events[eid]['start'])
                     event['end'] = max(end, events[eid]['end'])
                 events[eid] = event
-        except (KeyError, ValueError, TypeError):
+        except (KeyError, ValueError, TypeError) as exc:
             rejected += 1
+            fixed={'not exhibition':'CATEGORY_OR_TITLE_INVALID','missing venue':'MISSING_VENUE','reversed dates':'REVERSED_DATES'}
+            reason=fixed.get(str(exc),'MISSING_REQUIRED_FIELD' if isinstance(exc,KeyError) else 'INVALID_ROW_SHAPE' if isinstance(exc,TypeError) else 'INVALID_DATE_OR_VALUE')
+            rejection_reasons[reason]=rejection_reasons.get(reason,0)+1
+    counts.update(validCount=len(rows)-rejected,rejectedCount=rejected,eventCount=len(events),rejectedReasons=rejection_reasons)
     if not events or rejected > len(rows) * .2:
-        raise ValueError(f'資料校驗失敗：{rejected}/{len(rows)} 筆異常')
+        raise SourceUpdateError('NO_VALID_EVENTS' if not events else 'REJECTION_RATE_OVER_20_PERCENT','normalize',counts)
     return list(events.values()), rejected
 
 def merge(previous, incoming, now):
@@ -101,31 +131,33 @@ def fetch():
         try:
             with urlopen(Request(API, headers={'User-Agent':'TaiwanExhibitionTracker/0.1 (open-data reader)','Accept':'application/json'}), timeout=30) as r:
                 if urlparse(r.url).hostname != 'cloud.culture.tw':
-                    raise ValueError('unexpected redirect')
+                    raise SourceUpdateError('REDIRECT_HOST_REJECTED','fetch')
                 data = r.read(10_000_001)
                 if len(data) > 10_000_000:
-                    raise ValueError('response too large')
+                    raise SourceUpdateError('RESPONSE_SIZE_LIMIT','fetch')
                 return json.loads(data)
         except Exception as exc:
             # Only connection diagnostics for this fixed public endpoint, never payloads.
             reason = getattr(exc, 'reason', None)
-            diagnostic = re.sub(r'[\r\n]', ' ', str(reason))[:240] if reason else type(exc).__name__
+            diagnostic = safe_error_code(exc)
             print(f'Official source attempt {attempt + 1}: {diagnostic}', file=sys.stderr)
             if isinstance(reason, ssl.SSLCertVerificationError):
                 # System curl verifies the certificate/hostname against its trust store.
                 # Python 3.13 strict RFC checks reject this provider's older chain.
                 # Never use --insecure, unverified contexts or modify trust settings.
                 try:
-                    r = subprocess.run(['curl','--fail','--silent','--show-error',
+                    r = subprocess.run(['curl','--disable','--fail','--silent','--show-error',
                         '--proto','=https','--max-time','30','--max-filesize','10000000',
                         '--header','Accept: application/json',API], capture_output=True,
                         check=True, timeout=35)
                     if len(r.stdout)>10_000_000:
-                        raise ValueError('response too large')
+                        raise SourceUpdateError('RESPONSE_SIZE_LIMIT','decode')
                     print('Official source fetched with system curl and default TLS verification.', file=sys.stderr)
                     return json.loads(r.stdout)
                 except (OSError, subprocess.SubprocessError, ValueError) as fallback_error:
-                    print(f'Verified curl fallback failed: {type(fallback_error).__name__}', file=sys.stderr)
+                    print(f'Verified curl fallback failed: {safe_error_code(fallback_error)}', file=sys.stderr)
+                    if attempt == 2:
+                        raise fallback_error
             if attempt == 2:
                 raise
             time.sleep(attempt + 1)
@@ -141,18 +173,28 @@ def run(output, rows=None):
     old = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'events':[], 'sources':{}}
     now = datetime.now(TW).isoformat(timespec='seconds')
     status = dict(old.get('sources', {}))
+    diagnostics={'inputCount':None,'validCount':None,'rejectedCount':None,'eventCount':None}
+    stage='fetch'
     try:
-        events, rejected = normalize(fetch() if rows is None else rows)
+        incoming = fetch() if rows is None else rows
+        stage='normalize'
+        events, rejected = normalize(incoming, diagnostics)
         previous = [e for e in old['events'] if e['source'] == 'moc']
         active = sum(e['end'] >= now[:10] and not e.get('missingFromSource') for e in previous)
+        diagnostics['previousActiveCount']=active
+        stage='loss-guard'
         if active > 20 and len(events) < active * .5:
-            raise ValueError('資料量下降超過50%；拒絕覆蓋，待人工確認')
+            raise SourceUpdateError('SOURCE_LOSS_OVER_50_PERCENT','loss-guard',diagnostics)
+        stage='merge'
         merged = merge(previous, events, now)
-        status['moc'] = {'state':'ok','lastAttempt':now,'lastSuccess':now,'count':len(events),'rejected':rejected,'message':'官方開放資料更新成功'}
+        status['moc'] = {'state':'ok','lastAttempt':now,'lastSuccess':now,'count':len(events),'rejected':rejected,'attemptCounts':diagnostics,'message':'官方開放資料更新成功'}
         state = 'ok'
     except Exception as exc:
         merged = [e for e in old['events'] if e['source'] == 'moc']
-        status['moc'] = {**status.get('moc', {}), 'state':'error','lastAttempt':now,'message':f'更新失敗；保留最後成功資料（{type(exc).__name__}）'}
+        code=safe_error_code(exc)
+        if isinstance(exc,SourceUpdateError):stage=exc.stage;diagnostics.update(exc.counts)
+        elif isinstance(exc,json.JSONDecodeError) and stage=='fetch':stage='decode'
+        status['moc'] = {**status.get('moc', {}), 'state':'error','lastAttempt':now,'failureStage':stage,'reasonCode':code,'attemptCounts':diagnostics,'message':'更新失敗；保留最後成功資料，請核對來源'}
         state = 'error'
     seeds = json.loads((ROOT/'data/curated.json').read_text(encoding='utf-8'))
     venue_status_file=ROOT/'data/venue-source-status.json'
