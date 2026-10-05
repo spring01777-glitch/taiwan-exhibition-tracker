@@ -30,3 +30,7 @@ class VenueTests(unittest.TestCase):
         r=classify(e)
         self.assertEqual(r['locations'][0]['id'],'huashan')
         self.assertIn('東2館 / 中2館',r['venue'])
+    def test_online_exhibition_is_not_its_organizer_address(self):
+        r=classify(self.event('《定格微光》線上攝影展','新北市文化路266號','新北市'))
+        self.assertEqual(r['venueStatus'],'online')
+        self.assertIn('無實體',r['venueName'])

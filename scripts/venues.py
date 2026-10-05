@@ -19,6 +19,9 @@ def classify(event):
         name={'songshan':'松山文創園區','huashan':'華山1914','pier2':'駁二藝術特區'}[park]
         identity=park if region==('高雄市' if park=='pier2' else '臺北市') else ''
         street=''
+    elif '線上' in venue and '展' in venue:
+        name='線上展覽（無實體展出場館）'
+        status='online';identity='';street=''
     elif not venue or key_text(venue)==key_text(event.get('title')):
         name=('地址地點：'+address) if address else '地點未提供'
         status='address' if address else 'missing'

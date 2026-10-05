@@ -18,7 +18,7 @@ def validate(path):
         for location in e['locations']:
             assert set(location)=={'id','name','region','status'}
             assert location['region']==e['region'] and location['name']
-            assert location['status'] in ('named','address','missing','uncertain')
+            assert location['status'] in ('named','address','missing','uncertain','online')
         assert len(e['summary'])<=180 and len(e['price'])<=180 and len(e.get('verificationNote',''))<=180
         assert not re.search(r'<[^>]+>',e['summary'])
         p=urlparse(e['url'])
