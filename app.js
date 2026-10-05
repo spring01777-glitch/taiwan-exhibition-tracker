@@ -8,12 +8,28 @@ const localTime = t => t ? new Date(t).toLocaleString('zh-TW',{timeZone:'Asia/Ta
 const northRank = e => e.region === '臺北市' ? 0 : e.region === '新北市' ? 1 : 2;
 const names = {moc:'文化部',songshan:'松山文創園區',huashan:'華山1914',pier2:'駁二藝術特區'};
 const links = {moc:'https://data.gov.tw/dataset/6012',songshan:'https://www.songshanculturalpark.org/exhibition',huashan:'https://www.huashan1914.com/exhibition',pier2:'https://pier2.org/exhibition/'};
+const matchesRegion = (event, region) => !region || (region==='north' ? northRank(event)<=1 : event.region===region);
+function syncParkOptions(region){
+  const select=$('park'), previous=select.value;
+  const available=new Set(data.events.filter(e=>matchesRegion(e,region) && e.park).map(e=>e.park));
+  const all=document.createElement('option');
+  all.value='';all.textContent='所有場館';all.defaultSelected=true;
+  select.replaceChildren(all);
+  [...available].sort((a,b)=>Object.keys(names).indexOf(a)-Object.keys(names).indexOf(b)).forEach(park=>{
+    const option=document.createElement('option');
+    option.value=park;option.textContent=names[park] || park;
+    select.append(option);
+  });
+  select.value=available.has(previous) ? previous : '';
+  return Boolean(previous && !available.has(previous));
+}
 const notes = {all:'顯示尚未結束的展期；不代表今日一定開館。',new:'依本站首次收錄日期（台灣時間）顯示，首批匯入會一併列為新增。',recommended:'展期與未來30天重疊、資料來源仍提供的展覽，優先台北／新北與較近開展日；非人氣排名。',ending:'目前展期內，且未來14天內結束。',history:'已結束的展覽持續保留；歷史從本站開始收錄累積。'};
 function render(){
   limit = Math.max(limit,24);
-  const region=$('region').value, date=$('date').value, park=$('park').value, query=$('query').value.trim().toLowerCase();
+  const region=$('region').value, clearedPark=syncParkOptions(region);
+  const date=$('date').value, park=$('park').value, query=$('query').value.trim().toLowerCase();
   let events=data.events.filter(e => {
-    if(region==='north' && northRank(e)>1 || region && region!=='north' && e.region!==region) return false;
+    if(!matchesRegion(e,region)) return false;
     if(park && e.park!==park || date && (e.start>date || e.end<date)) return false;
     if(query && !`${e.title} ${e.venue} ${e.address} ${e.category}`.toLowerCase().includes(query)) return false;
     if(view==='history') return e.end<today;
@@ -25,7 +41,7 @@ function render(){
   });
   events.sort((a,b)=>view==='history' ? b.end.localeCompare(a.end) : view==='ending' ? a.end.localeCompare(b.end)||northRank(a)-northRank(b) : northRank(a)-northRank(b)||a.start.localeCompare(b.start)||a.title.localeCompare(b.title,'zh-TW'));
   $('view-note').textContent=notes[view];
-  $('result-count').textContent=`找到 ${events.length} 場展覽${events.length>limit ? `，目前顯示 ${limit} 場` : ''}`;
+  $('result-count').textContent=`找到 ${events.length} 場展覽${events.length>limit ? `，目前顯示 ${limit} 場` : ''}${clearedPark ? '；已清除不相容的場館篩選' : ''}`;
   $('results').innerHTML=events.slice(0,limit).map(e=>{
     const badge = e.verificationNote ? '狀態待確認' : e.end<today ? '已結束' : e.start>today ? '即將開展' : days(e.end)<=14 ? '即將結束' : '展期內';
     const url = /^https?:\/\//i.test(e.url) ? e.url : links[e.source];
