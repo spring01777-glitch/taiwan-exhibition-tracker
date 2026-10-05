@@ -41,6 +41,8 @@ jobs:
           node scripts/live_filter_regression.js
           node --check f1.js
           node tests/f1-regression.cjs
+          node scripts/render_contracts.cjs
+          python scripts/validate_site_structure.py
       - name: Recheck up to three previously matched official source pages
         timeout-minutes: 2
         run: python scripts/recover_source_links.py
