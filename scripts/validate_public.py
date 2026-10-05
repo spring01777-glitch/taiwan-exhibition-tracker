@@ -5,7 +5,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT=Path(__file__).resolve().parents[1]
-FIELDS={'id','title','start','end','region','venue','address','park','price','category','summary','url','source','sourceUid','sourceVersion','firstSeen','lastSeen','missingFromSource','revisions'}
+FIELDS={'id','title','start','end','region','venue','address','park','price','category','summary','url','source','sourceUid','sourceVersion','firstSeen','lastSeen','missingFromSource','revisions','verificationNote'}
 REVISION={'title','start','end','price','lastSeen'}
 
 def validate(path):
@@ -14,7 +14,7 @@ def validate(path):
     assert data['schemaVersion']==1 and data['events']
     for e in data['events']:
         assert not (set(e)-FIELDS), set(e)-FIELDS
-        assert len(e['summary'])<=180 and len(e['price'])<=180
+        assert len(e['summary'])<=180 and len(e['price'])<=180 and len(e.get('verificationNote',''))<=180
         assert not re.search(r'<[^>]+>',e['summary'])
         p=urlparse(e['url'])
         assert p.scheme in ('http','https') and p.hostname and not p.username and not p.password

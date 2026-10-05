@@ -55,7 +55,7 @@ def normalize(rows):
                 # UID and venue remain stable when the provider edits a date/title.
                 key = '|'.join((uid, venue, address)) if uid else '|'.join((title, start, end, venue, address))
                 eid = hashlib.sha256(key.encode()).hexdigest()[:20]
-                park = 'songshan' if re.search('松山文創|松菸|松煙', venue + address) else 'huashan' if '華山' in venue + address else ''
+                park = 'songshan' if re.search('松山文創|松菸|松煙', venue + address) else 'huashan' if '華山' in venue + address else 'pier2' if '駁二' in venue + address else ''
                 price = clean(show.get('price'))[:180] or ('免費' if show.get('onSales') == 'N' else '未提供，請洽官方')
                 # Do not copy the provider's full prose or infer popularity.
                 summary = f'{region}的展覽，展出於{venue or address}。實際開放日與入場規定請查閱來源。'
@@ -150,10 +150,21 @@ def run(output, rows=None):
         state = 'error'
     seeds = json.loads((ROOT/'data/curated.json').read_text(encoding='utf-8'))
     # Venue sources are deliberately explicit manual verification, not claimed automated feeds.
-    for key in ('songshan','huashan'):
-        verified = max(e['lastSeen'] for e in seeds if e['source'] == key)
-        status[key] = {'state':'manual','lastSuccess':verified,'message':'人工核對官網事實；尚無已確認的開放授權/API，新活動請查官網'}
-    all_events = merged + seeds
+    for key in ('songshan','huashan','pier2'):
+        group = [e for e in seeds if e['source'] == key]
+        if not group:
+            continue
+        verified = max(e['lastSeen'] for e in group)
+        uncertain = sum(bool(e.get('verificationNote')) for e in group)
+        message = f'本次人工核對{len(group)}筆；尚未每日自動核對官網，新活動請查官方'
+        if uncertain:
+            message += f'；其中{uncertain}筆官網狀態待確認'
+        status[key] = {'state':'manual','lastSuccess':verified,'count':len(group),'message':message}
+    # Explicit official review can correct titles/dates and retain the MOC identity.
+    # Exclude those exact identities before date-based cross-source deduplication.
+    curated_ids = {e['id'] for e in seeds}
+    curated_uids = {e.get('sourceUid') for e in seeds if e.get('sourceUid')}
+    all_events = [e for e in merged if e['id'] not in curated_ids and e.get('sourceUid') not in curated_uids] + seeds
     # Curated venue facts take precedence if an open-data row describes the same event.
     def fingerprint(e):
         return re.sub(r'\W','',e['title']).casefold(), e['region'], e['start'], e['end']

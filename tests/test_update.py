@@ -32,6 +32,20 @@ def row(title='測試資料（僅單元測試）', start='2026/10/01', end='2026
     return {'UID':'abc123','version':'1.4','title':title,'category':'6','showInfo':[{'time':start+' 10:00:00','endTime':end+' 18:00:00','location':'台北市中正區','locationName':'測試館','onSales':'N'}]}
 
 class UpdateTests(unittest.TestCase):
+    def test_official_correction_deduplicates_moc_identity(self):
+        seeds=json.loads((u.ROOT/'data/curated.json').read_text(encoding='utf-8'))
+        reviewed=next(e for e in seeds if e['source']=='pier2' and e.get('sourceUid'))
+        r=row(title='Earlier official title',end='2026/12/31')
+        r['UID']=reviewed['sourceUid']
+        with test_directory() as tmp, contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(u.run(tmp,[r]),0)
+            result=json.loads((tmp/'exhibitions.json').read_text(encoding='utf-8'))
+            same=[e for e in result['events'] if e.get('sourceUid')==reviewed['sourceUid']]
+            self.assertEqual(len(same),1)
+            self.assertEqual(same[0]['end'],reviewed['end'])
+            self.assertEqual(same[0]['firstSeen'],reviewed['firstSeen'])
+            self.assertEqual(result['sources']['pier2']['lastSuccess'],max(e['lastSeen'] for e in seeds if e['source']=='pier2'))
+
     def test_certificate_compatibility_uses_verified_curl(self):
         reason=ssl.SSLCertVerificationError('Missing Subject Key Identifier')
         process=unittest.mock.Mock(stdout=json.dumps([row()]).encode())

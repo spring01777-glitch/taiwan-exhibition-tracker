@@ -1,24 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T19:32:35+08:00",
+  "generatedAt": "2026-10-05T20:20:30+08:00",
   "sources": {
     "moc": {
       "state": "ok",
-      "lastAttempt": "2026-10-05T19:32:35+08:00",
-      "lastSuccess": "2026-10-05T19:32:35+08:00",
+      "lastAttempt": "2026-10-05T20:20:30+08:00",
+      "lastSuccess": "2026-10-05T20:20:30+08:00",
       "count": 302,
       "rejected": 0,
       "message": "官方開放資料更新成功"
     },
     "songshan": {
       "state": "manual",
-      "lastSuccess": "2026-10-05T19:00:00+08:00",
-      "message": "人工核對官網事實；尚無已確認的開放授權/API，新活動請查官網"
+      "lastSuccess": "2026-10-05T20:09:46+08:00",
+      "count": 16,
+      "message": "本次人工核對16筆；尚未每日自動核對官網，新活動請查官方"
     },
     "huashan": {
       "state": "manual",
-      "lastSuccess": "2026-10-05T19:00:00+08:00",
-      "message": "人工核對官網事實；尚無已確認的開放授權/API，新活動請查官網"
+      "lastSuccess": "2026-10-05T20:09:46+08:00",
+      "count": 18,
+      "message": "本次人工核對18筆；尚未每日自動核對官網，新活動請查官方；其中8筆官網狀態待確認"
+    },
+    "pier2": {
+      "state": "manual",
+      "lastSuccess": "2026-10-05T20:19:16+08:00",
+      "count": 12,
+      "message": "本次人工核對12筆；尚未每日自動核對官網，新活動請查官方"
     }
   },
   "events": [
@@ -39,7 +47,7 @@
       "sourceUid": "5b3dd544aaa378d7ca9a2e9a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -60,7 +68,7 @@
       "sourceUid": "65eaa9c931bef923aa07d72e",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -81,7 +89,7 @@
       "sourceUid": "67d8874426b32408680bed6f",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -102,7 +110,7 @@
       "sourceUid": "680ab93126b3242b74a3b478",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -123,7 +131,7 @@
       "sourceUid": "68ef6e8b07f374a51cc171c4",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -144,7 +152,7 @@
       "sourceUid": "68f2a6a926b324253c0da4fc",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -165,7 +173,7 @@
       "sourceUid": "68f2a6a926b324253c0da4fd",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -186,7 +194,7 @@
       "sourceUid": "68f2a6ac26b324253c0da51d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -207,7 +215,7 @@
       "sourceUid": "69013dae26b324253c0da913",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -228,7 +236,7 @@
       "sourceUid": "690293fb26b324253c0da978",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -249,7 +257,7 @@
       "sourceUid": "690969148f15ccefbf34d1d6",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -270,7 +278,7 @@
       "sourceUid": "690ba12b26b324253c0dabb3",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -291,7 +299,7 @@
       "sourceUid": "690ba12b26b324253c0dabb4",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -312,7 +320,7 @@
       "sourceUid": "690ba12c26b324253c0dabb6",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -333,7 +341,7 @@
       "sourceUid": "690ba12c26b324253c0dabcc",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -354,7 +362,7 @@
       "sourceUid": "690ba12d26b324253c0dabcf",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -375,7 +383,7 @@
       "sourceUid": "6928c79826b32445dce6f36f",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -396,7 +404,7 @@
       "sourceUid": "6930a89b26b32445dce6f58a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -417,7 +425,7 @@
       "sourceUid": "6930a89b26b32445dce6f58c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -438,7 +446,7 @@
       "sourceUid": "6937401926b32445dce6f6b6",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -459,7 +467,7 @@
       "sourceUid": "693b160f26b32416dc348c39",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -480,7 +488,7 @@
       "sourceUid": "693dcdbc26b32416dc348c93",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -501,7 +509,7 @@
       "sourceUid": "694076d926b32416dc348cca",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -522,7 +530,7 @@
       "sourceUid": "6941cd8926b32416dc348d6c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -543,7 +551,7 @@
       "sourceUid": "6941cd8a26b32416dc348d6d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -564,7 +572,7 @@
       "sourceUid": "6941cd8a26b32416dc348d6e",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -585,7 +593,7 @@
       "sourceUid": "694717bc26b32416dc348f70",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -606,7 +614,7 @@
       "sourceUid": "694717bc26b32416dc348f72",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -627,7 +635,7 @@
       "sourceUid": "694717bc26b32416dc348f73",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -648,7 +656,7 @@
       "sourceUid": "694b125a26b32416dc349054",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -669,7 +677,7 @@
       "sourceUid": "694c63f426b32416dc3490b9",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -690,7 +698,7 @@
       "sourceUid": "694c63f426b32416dc3490ba",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -711,7 +719,7 @@
       "sourceUid": "695053cf26b32416dc349152",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -732,7 +740,7 @@
       "sourceUid": "695053cf26b32416dc349153",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -753,7 +761,7 @@
       "sourceUid": "695053cf26b32416dc349154",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -774,7 +782,7 @@
       "sourceUid": "695053cf26b32416dc349155",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -795,7 +803,7 @@
       "sourceUid": "695053cf26b32416dc349156",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -816,7 +824,7 @@
       "sourceUid": "695053cf26b32416dc349157",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -837,7 +845,7 @@
       "sourceUid": "695053cf26b32416dc349158",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -858,7 +866,7 @@
       "sourceUid": "695053cf26b32416dc349159",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -879,7 +887,7 @@
       "sourceUid": "695053cf26b32416dc34915a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -900,7 +908,7 @@
       "sourceUid": "695053cf26b32416dc34915b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -921,7 +929,7 @@
       "sourceUid": "695053cf26b32416dc34915c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -942,7 +950,7 @@
       "sourceUid": "695053cf26b32416dc34915d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -963,7 +971,7 @@
       "sourceUid": "695053d026b32416dc34915e",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -984,7 +992,7 @@
       "sourceUid": "695053d026b32416dc34915f",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1005,7 +1013,7 @@
       "sourceUid": "695053d026b32416dc349160",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1026,7 +1034,7 @@
       "sourceUid": "695053d026b32416dc349161",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1047,7 +1055,7 @@
       "sourceUid": "695053d026b32416dc349162",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1068,7 +1076,7 @@
       "sourceUid": "695053d026b32416dc349163",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1089,7 +1097,7 @@
       "sourceUid": "695053d026b32416dc349164",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1110,7 +1118,7 @@
       "sourceUid": "695053d026b32416dc349165",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1131,7 +1139,7 @@
       "sourceUid": "695053d026b32416dc349166",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1152,7 +1160,7 @@
       "sourceUid": "6955575326b32416dc3491e4",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1173,7 +1181,7 @@
       "sourceUid": "6958372026b32416dc34922c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1194,7 +1202,7 @@
       "sourceUid": "6958372226b32416dc34923f",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1215,7 +1223,7 @@
       "sourceUid": "6958372526b32416dc34925d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1236,7 +1244,7 @@
       "sourceUid": "6958372626b32416dc349264",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1257,7 +1265,7 @@
       "sourceUid": "6958372626b32416dc349265",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1278,7 +1286,7 @@
       "sourceUid": "6958372626b32416dc349266",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1299,7 +1307,7 @@
       "sourceUid": "6958372626b32416dc349267",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1320,7 +1328,7 @@
       "sourceUid": "6958372626b32416dc349268",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1341,7 +1349,7 @@
       "sourceUid": "6958372626b32416dc349269",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1362,7 +1370,7 @@
       "sourceUid": "6958372626b32416dc34926a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1383,7 +1391,7 @@
       "sourceUid": "695ecb3626b3243dd4e6ac19",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1404,7 +1412,7 @@
       "sourceUid": "695ecb3726b3243dd4e6ac1b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1425,7 +1433,7 @@
       "sourceUid": "695ecb4526b3243dd4e6ac23",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1446,7 +1454,7 @@
       "sourceUid": "695ecb4526b3243dd4e6ac24",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1467,7 +1475,7 @@
       "sourceUid": "69616b5026b3243dd4e6acc8",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1488,7 +1496,7 @@
       "sourceUid": "6966a24626b3243b1ca0bf47",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1509,7 +1517,7 @@
       "sourceUid": "6966a24626b3243b1ca0bf48",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1530,7 +1538,7 @@
       "sourceUid": "6966a24626b3243b1ca0bf49",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1551,7 +1559,7 @@
       "sourceUid": "6966a24626b3243b1ca0bf4a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1572,7 +1580,7 @@
       "sourceUid": "6966a24726b3243b1ca0bf4d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1593,7 +1601,7 @@
       "sourceUid": "6966a24726b3243b1ca0bf4e",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1614,7 +1622,7 @@
       "sourceUid": "6966a24726b3243b1ca0bf58",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1635,7 +1643,7 @@
       "sourceUid": "6966a24726b3243b1ca0bf5a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1656,7 +1664,7 @@
       "sourceUid": "696805eb26b3243b1ca0bfab",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1677,7 +1685,7 @@
       "sourceUid": "696805eb26b3243b1ca0bfac",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1698,7 +1706,7 @@
       "sourceUid": "696954e026b3243b1ca0c007",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1719,7 +1727,7 @@
       "sourceUid": "696954e026b3243b1ca0c00a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1740,7 +1748,7 @@
       "sourceUid": "696aa78026b3243b1ca0c040",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1761,7 +1769,7 @@
       "sourceUid": "696aa78026b3243b1ca0c041",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1782,7 +1790,7 @@
       "sourceUid": "696aa78026b3243b1ca0c042",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1803,7 +1811,7 @@
       "sourceUid": "696aa79226b3243b1ca0c046",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1824,7 +1832,7 @@
       "sourceUid": "696aa7ad26b3243b1ca0c051",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1845,7 +1853,7 @@
       "sourceUid": "696aa7bb26b3243b1ca0c05f",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1866,7 +1874,7 @@
       "sourceUid": "696aa7bb26b3243b1ca0c060",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1887,7 +1895,7 @@
       "sourceUid": "696aa7bb26b3243b1ca0c061",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1908,7 +1916,7 @@
       "sourceUid": "696aa7bb26b3243b1ca0c062",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1929,7 +1937,7 @@
       "sourceUid": "696aa7bb26b3243b1ca0c063",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1950,7 +1958,7 @@
       "sourceUid": "696aa7bb26b3243b1ca0c064",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1971,7 +1979,7 @@
       "sourceUid": "696aa7bb26b3243b1ca0c065",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -1992,7 +2000,7 @@
       "sourceUid": "696aa7bb26b3243b1ca0c066",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2013,7 +2021,7 @@
       "sourceUid": "696aa7bb26b3243b1ca0c067",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2034,7 +2042,7 @@
       "sourceUid": "696aa7bb26b3243b1ca0c068",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2055,7 +2063,7 @@
       "sourceUid": "696aa7bb26b3243b1ca0c069",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2076,7 +2084,7 @@
       "sourceUid": "696aa7c526b3243b1ca0c071",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2097,7 +2105,7 @@
       "sourceUid": "696aa7c526b3243b1ca0c073",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2118,7 +2126,7 @@
       "sourceUid": "696e973c26b3243b1ca0c0f1",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2139,7 +2147,7 @@
       "sourceUid": "696fe8b126b3243b1ca0c115",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2160,7 +2168,7 @@
       "sourceUid": "696fe8b126b3243b1ca0c117",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2181,7 +2189,7 @@
       "sourceUid": "696fe8b126b3243b1ca0c119",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2202,7 +2210,7 @@
       "sourceUid": "696fe8b126b3243b1ca0c11a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2223,7 +2231,7 @@
       "sourceUid": "696fe8b226b3243b1ca0c12a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2244,7 +2252,7 @@
       "sourceUid": "696fe8b226b3243b1ca0c12b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2265,7 +2273,7 @@
       "sourceUid": "696fe8b226b3243b1ca0c12c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2286,7 +2294,7 @@
       "sourceUid": "696fe8b226b3243b1ca0c12d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2307,7 +2315,7 @@
       "sourceUid": "69714c7426b3243b1ca0c146",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2328,7 +2336,7 @@
       "sourceUid": "69714c9b26b3243b1ca0c16b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2349,7 +2357,7 @@
       "sourceUid": "697290a426b32454e437c3c8",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2370,7 +2378,7 @@
       "sourceUid": "6973eaea26b32454e437c3db",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2391,7 +2399,7 @@
       "sourceUid": "6973eb0b26b32454e437c3ec",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2412,7 +2420,7 @@
       "sourceUid": "6973eb0c26b32454e437c3ed",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2433,7 +2441,7 @@
       "sourceUid": "6973eb0c26b32454e437c3ee",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2454,7 +2462,7 @@
       "sourceUid": "6973eb0c26b32454e437c3ef",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2475,7 +2483,7 @@
       "sourceUid": "6973eb0c26b32454e437c3f0",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2496,7 +2504,7 @@
       "sourceUid": "6973eb1426b32454e437c400",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2517,7 +2525,7 @@
       "sourceUid": "6973eb1626b32454e437c40d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2538,7 +2546,7 @@
       "sourceUid": "6973eb1626b32454e437c40e",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2559,7 +2567,7 @@
       "sourceUid": "697678ed26b32454e437c439",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2580,7 +2588,7 @@
       "sourceUid": "6977d85026b32454e437c459",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2601,7 +2609,7 @@
       "sourceUid": "6977d86a26b32454e437c46e",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2622,7 +2630,7 @@
       "sourceUid": "69791c2026b32454e437c499",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2643,7 +2651,7 @@
       "sourceUid": "697a6a5b26b32454e437c53a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2664,7 +2672,7 @@
       "sourceUid": "697a6a5d26b32454e437c53d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2685,7 +2693,7 @@
       "sourceUid": "697bbd1026b32454e437c59b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2706,7 +2714,7 @@
       "sourceUid": "697bbd1126b32454e437c5a2",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2727,7 +2735,7 @@
       "sourceUid": "697d0dad26b32454e437c643",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2748,7 +2756,7 @@
       "sourceUid": "697fae3726b32454e437c65b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2769,7 +2777,7 @@
       "sourceUid": "697fae3726b32454e437c65c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2790,7 +2798,7 @@
       "sourceUid": "69824f0c26b32454e437c6db",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2811,7 +2819,7 @@
       "sourceUid": "69843545eb43ce229cb24535",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2832,7 +2840,7 @@
       "sourceUid": "6984f0f026b32454e437c753",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2853,7 +2861,7 @@
       "sourceUid": "698b826a26b32454e437c8b6",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2874,7 +2882,7 @@
       "sourceUid": "698b826f26b32454e437c8c5",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2895,7 +2903,7 @@
       "sourceUid": "698cd2b326b32454e437c913",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2916,7 +2924,7 @@
       "sourceUid": "698cd2b426b32454e437c916",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2937,7 +2945,7 @@
       "sourceUid": "698e24b626b32454e437c968",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2958,7 +2966,7 @@
       "sourceUid": "698e24b626b32454e437c969",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -2979,7 +2987,7 @@
       "sourceUid": "698e24b626b32454e437c96a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3000,7 +3008,7 @@
       "sourceUid": "698e24b626b32454e437c96c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3021,7 +3029,7 @@
       "sourceUid": "698e24b726b32454e437c96e",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3042,7 +3050,7 @@
       "sourceUid": "698e24b726b32454e437c970",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3063,7 +3071,7 @@
       "sourceUid": "698e24b726b32454e437c971",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3084,7 +3092,7 @@
       "sourceUid": "698f772d26b32454e437c994",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3105,7 +3113,7 @@
       "sourceUid": "698f772f26b32454e437c995",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3126,7 +3134,7 @@
       "sourceUid": "699b6d5f26b32454e437ca39",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3147,7 +3155,7 @@
       "sourceUid": "699b6d5f26b32454e437ca3a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3168,7 +3176,7 @@
       "sourceUid": "699b6d5f26b32454e437ca3b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3189,7 +3197,7 @@
       "sourceUid": "699b6d5f26b32454e437ca3c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3210,7 +3218,7 @@
       "sourceUid": "699b6d6026b32454e437ca3d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3231,7 +3239,7 @@
       "sourceUid": "699b6d6026b32454e437ca3e",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3252,7 +3260,7 @@
       "sourceUid": "699f5a5926b32454e437cb40",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3273,7 +3281,7 @@
       "sourceUid": "699f5a5926b32454e437cb41",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3294,7 +3302,7 @@
       "sourceUid": "69a0b2b726b32454e437cb64",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3315,7 +3323,7 @@
       "sourceUid": "69a0b2c426b32454e437cb66",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3336,7 +3344,7 @@
       "sourceUid": "69a34ae726b32454e437cbbd",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3357,7 +3365,7 @@
       "sourceUid": "69a88ccf26b3242a48a9d848",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3378,7 +3386,7 @@
       "sourceUid": "69a9ddf926b3242a48a9d892",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3399,7 +3407,7 @@
       "sourceUid": "69ab2e8426b3242a48a9d92b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3420,7 +3428,7 @@
       "sourceUid": "69ab2e8526b3242a48a9d92d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3441,7 +3449,7 @@
       "sourceUid": "69af1f6626b3242a48a9d97c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3462,7 +3470,7 @@
       "sourceUid": "69af1f6626b3242a48a9d97d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3483,7 +3491,7 @@
       "sourceUid": "69b06ec526b3242a48a9d9ae",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3504,7 +3512,7 @@
       "sourceUid": "69b06ece26b3242a48a9d9d7",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3525,7 +3533,7 @@
       "sourceUid": "69b06ece26b3242a48a9d9d8",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3546,7 +3554,7 @@
       "sourceUid": "69b06ece26b3242a48a9d9d9",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3558,7 +3566,7 @@
       "region": "高雄市",
       "venue": "高雄市駁二藝術特區",
       "address": "高雄市鹽埕區8鄰大勇路1號",
-      "park": "",
+      "park": "pier2",
       "price": "未提供，請洽官方",
       "category": "展覽",
       "summary": "高雄市的展覽，展出於高雄市駁二藝術特區。實際開放日與入場規定請查閱來源。",
@@ -3567,28 +3575,7 @@
       "sourceUid": "69b1c0fb26b3242a48a9da13",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
-      "missingFromSource": false,
-      "revisions": []
-    },
-    {
-      "id": "c70f5f6d61a62ca00dfd",
-      "title": "駁二舊事倉庫：集結舊事 鑑往知來",
-      "start": "2026-01-01",
-      "end": "2026-12-31",
-      "region": "高雄市",
-      "venue": "高雄市駁二藝術特區",
-      "address": "高雄市鹽埕區8鄰大勇路1號",
-      "park": "",
-      "price": "未提供，請洽官方",
-      "category": "展覽",
-      "summary": "高雄市的展覽，展出於高雄市駁二藝術特區。實際開放日與入場規定請查閱來源。",
-      "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEvent&uid=69b1c0fb26b3242a48a9da15",
-      "source": "moc",
-      "sourceUid": "69b1c0fb26b3242a48a9da15",
-      "sourceVersion": "1.4",
-      "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3609,7 +3596,7 @@
       "sourceUid": "69b1c11e26b3242a48a9da81",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3630,7 +3617,7 @@
       "sourceUid": "69b1c11e26b3242a48a9da82",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3651,7 +3638,7 @@
       "sourceUid": "69b1c11e26b3242a48a9da83",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3672,7 +3659,7 @@
       "sourceUid": "69b1c11e26b3242a48a9da84",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3693,7 +3680,7 @@
       "sourceUid": "69b1c11e26b3242a48a9da85",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3714,7 +3701,7 @@
       "sourceUid": "69b1c11e26b3242a48a9da86",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3735,7 +3722,7 @@
       "sourceUid": "69b1c11f26b3242a48a9da87",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3756,7 +3743,7 @@
       "sourceUid": "69b1c11f26b3242a48a9da88",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3777,7 +3764,7 @@
       "sourceUid": "69b1c11f26b3242a48a9da89",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3798,7 +3785,7 @@
       "sourceUid": "69b1c11f26b3242a48a9da8a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3819,7 +3806,7 @@
       "sourceUid": "69b1c11f26b3242a48a9da8b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3840,7 +3827,7 @@
       "sourceUid": "69b1c11f26b3242a48a9da8c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3861,7 +3848,7 @@
       "sourceUid": "69b1c11f26b3242a48a9da8d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3882,7 +3869,7 @@
       "sourceUid": "69b1c12326b3242a48a9dab1",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3903,7 +3890,7 @@
       "sourceUid": "69b3117e26b3242a48a9db22",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3924,7 +3911,7 @@
       "sourceUid": "69baf78026b3242a48a9dc6c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3945,7 +3932,7 @@
       "sourceUid": "69cc269326b3242a48a9dfb8",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3966,7 +3953,7 @@
       "sourceUid": "69cc269326b3242a48a9dfb9",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -3987,7 +3974,7 @@
       "sourceUid": "69cc269326b3242a48a9dfba",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4008,7 +3995,7 @@
       "sourceUid": "69cc269326b3242a48a9dfc1",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4029,7 +4016,7 @@
       "sourceUid": "69cc269326b3242a48a9dfc2",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4050,7 +4037,7 @@
       "sourceUid": "69cec89f26b3242a48a9e0b7",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4071,7 +4058,7 @@
       "sourceUid": "69da9c0926b3242a48a9e29f",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4092,7 +4079,7 @@
       "sourceUid": "69de905726b3242a48a9e31f",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4113,7 +4100,7 @@
       "sourceUid": "69dfe1ed26b3242a48a9e3bd",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4134,7 +4121,7 @@
       "sourceUid": "69e2848b26b3242a48a9e4cd",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4155,7 +4142,7 @@
       "sourceUid": "69e284d026b3242a48a9e506",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4176,7 +4163,7 @@
       "sourceUid": "69ea831a26b3242a48a9e624",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4197,7 +4184,7 @@
       "sourceUid": "69ea831b26b3242a48a9e62d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4218,7 +4205,7 @@
       "sourceUid": "69ebd95026b3242a48a9e681",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4239,7 +4226,7 @@
       "sourceUid": "69efc6bf26b3242a48a9e723",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4260,7 +4247,7 @@
       "sourceUid": "69f33e5126b3243414ccc49c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4281,7 +4268,7 @@
       "sourceUid": "69f7819226b3243414ccc551",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4302,7 +4289,7 @@
       "sourceUid": "69f7a63626b3243414ccc55a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4323,7 +4310,7 @@
       "sourceUid": "69f7a63626b3243414ccc55c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4344,7 +4331,7 @@
       "sourceUid": "69f7a63626b3243414ccc55f",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4365,7 +4352,7 @@
       "sourceUid": "69f7a63726b3243414ccc560",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4386,7 +4373,7 @@
       "sourceUid": "69fa478a26b3243414ccc5c1",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4407,7 +4394,7 @@
       "sourceUid": "69fa47ba26b3243414ccc5f6",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4428,7 +4415,7 @@
       "sourceUid": "69fa47ba26b3243414ccc5f7",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4449,7 +4436,7 @@
       "sourceUid": "69fe3b1026b3243414ccc6d4",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4470,7 +4457,7 @@
       "sourceUid": "6a00d9d826b3243414ccc722",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4491,7 +4478,7 @@
       "sourceUid": "6a022afe26b3243414ccc75f",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4512,7 +4499,7 @@
       "sourceUid": "6a022b2f26b3243414ccc764",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4533,7 +4520,7 @@
       "sourceUid": "6a04ccc626b3243414ccc850",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4554,7 +4541,7 @@
       "sourceUid": "6a04cccc26b3243414ccc851",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4575,7 +4562,7 @@
       "sourceUid": "6a04cccd26b3243414ccc852",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4596,7 +4583,7 @@
       "sourceUid": "6a04ccf326b3243414ccc87f",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4617,7 +4604,7 @@
       "sourceUid": "6a04ccf326b3243414ccc880",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4638,7 +4625,7 @@
       "sourceUid": "6a08c07c26b3243414ccc975",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4659,7 +4646,7 @@
       "sourceUid": "6a0b631b26b3243414ccc9e1",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4680,7 +4667,7 @@
       "sourceUid": "6a0f3b0226b3243414cccaa9",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4701,7 +4688,7 @@
       "sourceUid": "6a1604ea26b3243414cccbc8",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4722,7 +4709,7 @@
       "sourceUid": "6a1604ea26b3243414cccbc9",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4743,7 +4730,7 @@
       "sourceUid": "6a17562f26b3243414cccbd1",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4764,7 +4751,7 @@
       "sourceUid": "6a18a67726b3243414cccc4d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4785,7 +4772,7 @@
       "sourceUid": "6a18a6d926b3243414ccccdc",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4806,7 +4793,7 @@
       "sourceUid": "6a1c967326b3243414cccdb3",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4827,7 +4814,7 @@
       "sourceUid": "6a1f30f626b3243414ccce5a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4848,7 +4835,7 @@
       "sourceUid": "6a20817e26b3243414ccceb6",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4869,7 +4856,7 @@
       "sourceUid": "6a20817f26b3243414ccceb8",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4890,7 +4877,7 @@
       "sourceUid": "6a20817f26b3243414ccceba",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4911,7 +4898,7 @@
       "sourceUid": "6a21d77426b3243414cccf09",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4932,7 +4919,7 @@
       "sourceUid": "6a2322d926b3243414cccf7a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4953,7 +4940,7 @@
       "sourceUid": "6a2322d926b3243414cccf7b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4974,7 +4961,7 @@
       "sourceUid": "6a2322d926b3243414cccf7c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -4995,7 +4982,7 @@
       "sourceUid": "6a2473a026b3243414cccfbc",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5016,7 +5003,7 @@
       "sourceUid": "6a2473a026b3243414cccfbd",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5037,7 +5024,7 @@
       "sourceUid": "6a2473a026b3243414cccfbe",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5058,7 +5045,7 @@
       "sourceUid": "6a2473a026b3243414cccfbf",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5079,7 +5066,7 @@
       "sourceUid": "6a2714a726b3243414cccfed",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5100,7 +5087,7 @@
       "sourceUid": "6a2714df26b3243414ccd025",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5121,7 +5108,7 @@
       "sourceUid": "6a2714e026b3243414ccd02c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5142,7 +5129,7 @@
       "sourceUid": "6a28640c26b3243414ccd042",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5163,7 +5150,7 @@
       "sourceUid": "6a28643026b3243414ccd069",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5184,7 +5171,7 @@
       "sourceUid": "6a28644c26b3243414ccd094",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5205,28 +5192,7 @@
       "sourceUid": "6a28644c26b3243414ccd096",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
-      "missingFromSource": false,
-      "revisions": []
-    },
-    {
-      "id": "1372d87487c998a9a404",
-      "title": "還是先躺一下再說？",
-      "start": "2026-06-12",
-      "end": "2026-12-31",
-      "region": "高雄市",
-      "venue": "高雄市駁二藝術特區",
-      "address": "高雄市鹽埕區8鄰大勇路1號",
-      "park": "",
-      "price": "單展票+80;套票+150",
-      "category": "展覽",
-      "summary": "高雄市的展覽，展出於高雄市駁二藝術特區。實際開放日與入場規定請查閱來源。",
-      "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEvent&uid=6a28644d26b3243414ccd09c",
-      "source": "moc",
-      "sourceUid": "6a28644d26b3243414ccd09c",
-      "sourceVersion": "1.4",
-      "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5247,7 +5213,7 @@
       "sourceUid": "6a28644d26b3243414ccd09d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5268,7 +5234,7 @@
       "sourceUid": "6a28645126b3243414ccd0af",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5289,7 +5255,7 @@
       "sourceUid": "6a28645126b3243414ccd0b0",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5310,7 +5276,7 @@
       "sourceUid": "6a28645226b3243414ccd0b1",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5331,7 +5297,7 @@
       "sourceUid": "6a2b06f226b3243414ccd16b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5352,7 +5318,7 @@
       "sourceUid": "6a2b070b26b3243414ccd203",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5373,7 +5339,7 @@
       "sourceUid": "6a2b070c26b3243414ccd20b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5394,7 +5360,7 @@
       "sourceUid": "6a2b070c26b3243414ccd20c",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5415,7 +5381,7 @@
       "sourceUid": "6a2b070c26b3243414ccd20d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5436,7 +5402,7 @@
       "sourceUid": "6a2c3c0f26b3243414ccd22f",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5457,7 +5423,7 @@
       "sourceUid": "6a319df326b3243414ccd36d",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5478,7 +5444,7 @@
       "sourceUid": "6a32efb926b3243414ccd431",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5499,7 +5465,7 @@
       "sourceUid": "6a32efb926b3243414ccd432",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5520,7 +5486,7 @@
       "sourceUid": "6a32efb926b3243414ccd433",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5541,7 +5507,7 @@
       "sourceUid": "6a3629c0eb437cf2219b9617",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5562,7 +5528,7 @@
       "sourceUid": "6a3835b026b3243414ccd49a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5583,7 +5549,7 @@
       "sourceUid": "6a39871026b3243414ccd4fe",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5604,7 +5570,7 @@
       "sourceUid": "6a3ae36526b3243414ccd551",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5625,7 +5591,7 @@
       "sourceUid": "6a3c35e526b3243414ccd588",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5646,7 +5612,7 @@
       "sourceUid": "6a3c363226b3243414ccd5bc",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5667,7 +5633,7 @@
       "sourceUid": "6a3d86d426b3243414ccd63e",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5688,7 +5654,7 @@
       "sourceUid": "6a3ed9db26b3247a14361da5",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5709,7 +5675,7 @@
       "sourceUid": "6a3ed9db26b3247a14361da6",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5730,7 +5696,7 @@
       "sourceUid": "6a3ed9eb26b3247a14361dd4",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5751,7 +5717,7 @@
       "sourceUid": "6a4397ed26b32427d0603fa5",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5772,7 +5738,7 @@
       "sourceUid": "6a4397f326b32427d0603fd8",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5793,7 +5759,7 @@
       "sourceUid": "6a4397f426b32427d0603fea",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5814,7 +5780,7 @@
       "sourceUid": "6a456adb26b32427d060407a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5835,7 +5801,7 @@
       "sourceUid": "6a456ade26b32427d060407b",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5856,7 +5822,7 @@
       "sourceUid": "6a456b3626b32427d06040ae",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5877,7 +5843,7 @@
       "sourceUid": "6a46bbbc26b32427d06040dd",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5898,7 +5864,7 @@
       "sourceUid": "6a480c6a26b32427d0604115",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5919,7 +5885,7 @@
       "sourceUid": "6a4bdfe326b32427d0604132",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5940,7 +5906,7 @@
       "sourceUid": "6a7d1dd1eb436c2506e0fba2",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5961,7 +5927,7 @@
       "sourceUid": "6a633312eb43f5f34e51884a",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -5982,7 +5948,7 @@
       "sourceUid": "6a71a1bbeb43f5f34e518865",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6003,7 +5969,7 @@
       "sourceUid": "6a7da2b0647ad700eb56cced",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6024,7 +5990,7 @@
       "sourceUid": "6a7ecb1f647ad700eb56ccfc",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6045,7 +6011,7 @@
       "sourceUid": "6a7ff47feb436c2506e0fba9",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6066,7 +6032,7 @@
       "sourceUid": "6a802b3beb436c2506e0fbab",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6087,7 +6053,7 @@
       "sourceUid": "6a8e89ad26b32434f4358060",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6108,7 +6074,7 @@
       "sourceUid": "6a8e89ad26b32434f4358061",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6129,7 +6095,7 @@
       "sourceUid": "6a91c06b26b32434f4358083",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6150,7 +6116,7 @@
       "sourceUid": "6a91c06b26b32434f4358084",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6171,7 +6137,7 @@
       "sourceUid": "6a91c06b26b32434f4358085",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6192,7 +6158,7 @@
       "sourceUid": "6a9f82b1647a795d9251e5a4",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6213,7 +6179,7 @@
       "sourceUid": "6aa396b4eb4399d01039b1d8",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6234,7 +6200,7 @@
       "sourceUid": "6aab9f2eeb4399d01039b1dc",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6255,7 +6221,7 @@
       "sourceUid": "6aab9fa5eb4399d01039b1de",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6276,7 +6242,7 @@
       "sourceUid": "6aacdad3eb4399d01039b1e0",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6297,7 +6263,7 @@
       "sourceUid": "6ab6195926b324165c32e539",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6318,7 +6284,7 @@
       "sourceUid": "6aba2e1feb4399d01039b1f4",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
     },
@@ -6339,9 +6305,128 @@
       "sourceUid": "6abca790eb4399d01039b1f9",
       "sourceVersion": "1.4",
       "firstSeen": "2026-10-05T19:07:52+08:00",
-      "lastSeen": "2026-10-05T19:32:35+08:00",
+      "lastSeen": "2026-10-05T20:20:30+08:00",
       "missingFromSource": false,
       "revisions": []
+    },
+    {
+      "id": "songshan-pharaoh-2026",
+      "title": "《消失的法老》古夫金字塔 VR 沉浸體驗",
+      "start": "2026-01-29",
+      "end": "2026-11-30",
+      "region": "臺北市",
+      "venue": "松山文創園區・XR 沉浸玩家 (A7 E203 東向製菸工廠二樓)",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "付費、採場次預約；詳情未列金額",
+      "category": "沉浸體驗",
+      "summary": "以行走式VR探索古埃及建築與文明。須事先預約，17時停止入場。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/840b0803-826e-407f-bd62-8447b51cf9c2",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T19:00:00+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-9176cee50ef3e628",
+      "title": "松菸夜光花園 光影展 THE LUMINOUS GARDEN",
+      "start": "2026-01-31",
+      "end": "2026-12-31",
+      "region": "臺北市",
+      "venue": "松山文創園區 巴洛克花園 Songshan Cultural and Creative Park︱Baroque Garden",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "免費",
+      "category": "光影藝術",
+      "summary": "巴洛克花園的夜間光影展示，官網公告每日18至22時播放。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/07e87658-6bea-4715-b633-5e44cd2d9e30",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-540fcfec15f5daa3",
+      "title": "小熊維尼—友你相繪 100 週年限定快閃店",
+      "start": "2026-07-10",
+      "end": "2026-10-11",
+      "region": "臺北市",
+      "venue": "松山文創園區 北向製菸工廠",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "免費入場；商品及體驗另計",
+      "category": "快閃店",
+      "summary": "結合維尼百年繪本、場景展示與聯名商品的快閃空間，另有手作體驗。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/4a7f533a-7537-4dd0-af44-d074a73d47c2",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-68bdfdd54b150e16",
+      "title": "100% 哆啦 A 夢櫻花節 in 台北",
+      "start": "2026-07-10",
+      "end": "2026-10-11",
+      "region": "臺北市",
+      "venue": "松山文創園區 北向製菸工廠一樓 東側",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "免費入場；商品另計",
+      "category": "快閃店",
+      "summary": "以櫻花和哆啦A夢角色為主題的期間限定空間，包含拍照區及商品販售。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/8e248f11-734d-4987-bbbe-7bfceab13e3e",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-0d1927821827c107",
+      "title": "松山文創園區藝術窗框計畫",
+      "start": "2026-08-01",
+      "end": "2026-11-01",
+      "region": "臺北市",
+      "venue": "松山文創園區 文創大街、北向製菸工廠窗框",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "免費",
+      "category": "藝術",
+      "summary": "透過捷克建築影像觀察城市與廣告的關係，作品展示在園區窗框與文創大街。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/8edf6d1e-37fb-41ed-bb12-6b86f30fd6d0",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-0d2c8a087f007bba",
+      "title": "2026 史上最強球鞋與潮流展會",
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "region": "臺北市",
+      "venue": "松山文創園區 1 號倉庫",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "一日票280元／二日票360元；現場購票",
+      "category": "潮流展會",
+      "summary": "以球鞋與潮流物件交流為主的展會。官網公告最後入場時間為17時30分。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/49261597-9309-4d32-9a48-27e68fa3b35d",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-f6225afba573cda9",
+      "title": "毛孩藝術生活節 FURever Art Festival : IM”PAW”SIBLE",
+      "start": "2026-12-18",
+      "end": "2026-12-20",
+      "region": "臺北市",
+      "venue": "松山文創園區 2 號倉庫",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "免費入場；商品另計",
+      "category": "藝術／市集",
+      "summary": "以寵物為創作題材，結合插畫、藝術展示與生活品牌市集。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/c738025c-425f-4fdb-b7f0-79fcf49c7dc1",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
     },
     {
       "id": "songshan-busan-2026",
@@ -6352,30 +6437,167 @@
       "venue": "松山文創園區・台灣設計館 02 展間",
       "address": "臺北市信義區光復南路133號",
       "park": "songshan",
-      "price": "全票100元／團體80元／優待票免費；週一休館",
+      "price": "全票100元／團體80元／優待免費；週一休館",
       "category": "設計",
-      "summary": "透過城市與產品設計案例認識釜山的日常與城市發展。週一休館，出發前請確認開館時間。",
+      "summary": "從城市與產品設計認識釜山的生活及發展。週一休館，請確認可參觀日期。",
       "url": "https://www.songshanculturalpark.org/exhibition/activity/ad5c73ca-d05a-450a-b4ce-fcd617e8b353",
       "source": "songshan",
       "firstSeen": "2026-10-05T19:00:00+08:00",
-      "lastSeen": "2026-10-05T19:00:00+08:00"
+      "lastSeen": "2026-10-05T20:09:46+08:00"
     },
     {
-      "id": "songshan-pharaoh-2026",
-      "title": "《消失的法老》古夫金字塔 VR 沉浸體驗",
-      "start": "2026-01-29",
-      "end": "2026-11-30",
+      "id": "songshan-ab58a4fd52803527",
+      "title": "璞石策展系列 Vol.1《Living Minerals｜礦物生活美學特展》",
+      "start": "2026-09-22",
+      "end": "2026-10-11",
       "region": "臺北市",
-      "venue": "松山文創園區・XR 沉浸玩家 A7 E203",
+      "venue": "松山文創園區 檢查室",
       "address": "臺北市信義區光復南路133號",
       "park": "songshan",
-      "price": "付費、採預約制；金額請查官方售票",
-      "category": "沉浸體驗",
-      "summary": "以行走式 VR 探索古埃及建築與文明。須事先預約場次，參加條件請見官方公告。",
-      "url": "https://www.songshanculturalpark.org/exhibition/activity/840b0803-826e-407f-bd62-8447b51cf9c2",
+      "price": "免費",
+      "category": "礦物／工藝",
+      "summary": "將天然礦物、晶體與石雕放進生活美學脈絡，現場另規劃手作體驗。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/ddf676a8-1a74-4737-b739-34d2ce4b7bf1",
       "source": "songshan",
-      "firstSeen": "2026-10-05T19:00:00+08:00",
-      "lastSeen": "2026-10-05T19:00:00+08:00"
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-5cbd028918bbb99d",
+      "title": "2026 台灣國際珍稀茶葉博覽會",
+      "start": "2026-10-23",
+      "end": "2026-10-26",
+      "region": "臺北市",
+      "venue": "松山文創園區 1 號倉庫",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "全票150元；另有官方限量索票",
+      "category": "茶文化展會",
+      "summary": "整理茶葉、茶器與茶禮設計的展售活動，可從不同產地和器物認識茶文化。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/ca3efca9-30a4-44e7-b701-c57a33bce080",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-d2ffc7489bd3c80f",
+      "title": "ELLE Weekend 穿條紋，享受法式鬆弛好週末",
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "region": "臺北市",
+      "venue": "松山文創園區 巴洛克花園、南向製菸工廠",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "自由入場；官網未列入場票價",
+      "category": "生活／市集",
+      "summary": "在歷史建築及花園舉辦音樂、市集與生活體驗活動，部分活動可預約參加。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/276c0a6c-1a8a-4884-a4f4-31e4dabb0982",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-128112f1fcf19b1b",
+      "title": "瓦奇菲爾德皮革工房 50 週年特展 快閃店",
+      "start": "2026-10-03",
+      "end": "2026-10-13",
+      "region": "臺北市",
+      "venue": "松山文創園區 藝思空間",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "官網未提供票價，請洽官方",
+      "category": "皮革工藝／快閃店",
+      "summary": "回看瓦奇菲爾德皮革工坊與達洋貓的創作歷程，展示皮革工藝及品牌作品。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/5fd2284e-9388-4773-8c4f-6a2e83fe809d",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-8e403ed2ab8c8ee6",
+      "title": "粹 · 本質 | 2026 年 iF 設計獎獲獎作品展 (V)",
+      "start": "2026-10-06",
+      "end": "2026-10-31",
+      "region": "臺北市",
+      "venue": "松山文創園區・iF 台北設計沙龍 松山文創園區 西向製菸工廠二樓 A7 W207",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "免費",
+      "category": "設計",
+      "summary": "展出2026年iF設計獎產品，從日用品、家電和材料等面向觀察設計如何回應需求。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/16e1c9b4-21c0-4c7d-814f-06e0569a8ae2",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-f995fd488bfc99cf",
+      "title": "島礦祭 Mineral Island Festa 2026",
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "region": "臺北市",
+      "venue": "松山文創園區  南向製菸工廠",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "入場票價未提供；手作課程另收費",
+      "category": "礦物／市集",
+      "summary": "以礦物為中心的展售及創作活動，結合礦石收藏、工藝與手作課程。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/bb5a8c36-a5b8-454b-8ed4-ae06730db0d3",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-f8809f6bd22e2d57",
+      "title": "2026 臺北設計獎入圍作品展",
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "region": "臺北市",
+      "venue": "松山文創園區・台灣設計館 03、04 展間",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "免費",
+      "category": "設計",
+      "summary": "展出台北設計獎入圍作品，從設計提案探索城市及日常生活的可能性。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/612f10c3-3123-4ca6-9556-016217eb0ce2",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "songshan-1a4c521821e54abd",
+      "title": "《AHA 原來如此！教科書設計展》",
+      "start": "2026-10-14",
+      "end": "2026-11-08",
+      "region": "臺北市",
+      "venue": "松山文創園區・台灣設計館 01 展間",
+      "address": "臺北市信義區光復南路133號",
+      "park": "songshan",
+      "price": "官網未提供票價，請洽官方",
+      "category": "設計／教育",
+      "summary": "將教科書內容轉成互動展覽裝置，重新觀察教材設計與學習經驗。",
+      "url": "https://www.songshanculturalpark.org/exhibition/activity/429e79b0-fed3-46f6-850e-47fa04b2ea86",
+      "source": "songshan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "huashan-ab8d39619d72b7aa",
+      "title": "光合系 X 未來市",
+      "start": "2026-09-04",
+      "end": "2026-10-08",
+      "region": "臺北市",
+      "venue": "華山1914・中1A館",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "官網未提供票價，請洽官方",
+      "category": "快閃店",
+      "summary": "以植物及生活選物為主的期間限定空間。官網分類與展期資訊不一致，出發前請確認。",
+      "url": "https://www.huashan1914.com/exhibition/event-%E5%85%89%E5%90%88%E7%B3%BBX%E6%9C%AA%E4%BE%86%E5%B8%82",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00",
+      "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。"
     },
     {
       "id": "huashan-toy-2026",
@@ -6383,16 +6605,138 @@
       "start": "2026-10-08",
       "end": "2026-10-11",
       "region": "臺北市",
-      "venue": "華山1914・東2館、中2館、中4A/B館",
+      "venue": "華山1914・東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟 / 中4A館 紅酒作業場 / 中2館 / 中4B館 米酒作業場",
       "address": "臺北市中正區八德路一段1號",
       "park": "huashan",
-      "price": "付費；金額請查官方售票",
+      "price": "付費；詳情未列金額，請查官方售票",
       "category": "藝術玩具",
-      "summary": "以原創藝術玩具與角色設計作品為主的展會。開放至19時，最後一日至18時。",
-      "url": "https://www.huashan1914.com/exhibition/2026%20台北國際玩具創作大展%20Taipei%20Toy%20Festival",
+      "summary": "以藝術玩具、角色設計與原創收藏作品為主的展會，最後一日開放至18時。",
+      "url": "https://www.huashan1914.com/exhibition/2026%20%E5%8F%B0%E5%8C%97%E5%9C%8B%E9%9A%9B%E7%8E%A9%E5%85%B7%E5%89%B5%E4%BD%9C%E5%A4%A7%E5%B1%95%20Taipei%20Toy%20Festival",
       "source": "huashan",
       "firstSeen": "2026-10-05T19:00:00+08:00",
-      "lastSeen": "2026-10-05T19:00:00+08:00"
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "huashan-2b132ac7a08cbf0f",
+      "title": "方舟玩具大交流會DX",
+      "start": "2026-10-08",
+      "end": "2026-10-11",
+      "region": "臺北市",
+      "venue": "華山1914・西1館 第二乾餾場",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "追蹤官方IG可免費入場",
+      "category": "玩具／市集",
+      "summary": "以玩具交流為主的市集活動，官網列有追蹤官方IG的入場條件。",
+      "url": "https://www.huashan1914.com/exhibition/%E6%96%B9%E8%88%9F%E7%8E%A9%E5%85%B7%E5%A4%A7%E4%BA%A4%E6%B5%81%E6%9C%83DX",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "huashan-3376189cf083ea06",
+      "title": "MUFFIN CORNER 快閃店",
+      "start": "2026-09-19",
+      "end": "2026-10-12",
+      "region": "臺北市",
+      "venue": "華山1914・中5B館\t鍋爐室",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "官網未提供票價，請洽官方",
+      "category": "快閃店",
+      "summary": "MUFFIN CORNER的期間限定商品空間。官網分類與展期資訊不一致，出發前請確認。",
+      "url": "https://www.huashan1914.com/exhibition/event-MUFFINCORNER%E5%BF%AB%E9%96%83%E5%BA%97",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00",
+      "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。"
+    },
+    {
+      "id": "huashan-3d5d3262f99298f1",
+      "title": "PUPPET SUNSUN POP UP SHOP Fruits Party",
+      "start": "2026-09-19",
+      "end": "2026-10-12",
+      "region": "臺北市",
+      "venue": "華山1914・中5B館\t鍋爐室",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "官網未提供票價，請洽官方",
+      "category": "快閃店",
+      "summary": "以水果為主題的SUNSUN角色商品快閃。官網分類與展期資訊不一致，出發前請確認。",
+      "url": "https://www.huashan1914.com/exhibition/event-PUPPETSUNSUNPOPUPSHOPFruitsParty",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00",
+      "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。"
+    },
+    {
+      "id": "huashan-e9d1a4bce9122f89",
+      "title": "JNP 紀念品 by plain-me  快閃店",
+      "start": "2026-08-13",
+      "end": "2026-10-12",
+      "region": "臺北市",
+      "venue": "華山1914・中4E館 配電室",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "官網未提供票價，請洽官方",
+      "category": "快閃店",
+      "summary": "結合JNP紀念品與plain-me聯名商品的快閃。官網分類與展期資訊不一致，出發前請確認。",
+      "url": "https://www.huashan1914.com/exhibition/event-JNP%E7%B4%80%E5%BF%B5%E5%93%81byplainme%E5%BF%AB%E9%96%83%E5%BA%97",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00",
+      "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。"
+    },
+    {
+      "id": "huashan-d26ee92d799111b7",
+      "title": "2026伊甸基金會第13屆無障礙生活節",
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "region": "臺北市",
+      "venue": "華山1914・中5B館\t鍋爐室",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "免費",
+      "category": "共融／展覽",
+      "summary": "透過身障體驗、真人分享和共同創作，認識無障礙生活與不同使用者的需求。",
+      "url": "https://www.huashan1914.com/exhibition/2026%E4%BC%8A%E7%94%B8%E5%9F%BA%E9%87%91%E6%9C%83%E7%AC%AC13%E5%B1%86%E7%84%A1%E9%9A%9C%E7%A4%99%E7%94%9F%E6%B4%BB%E7%AF%80",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "huashan-66f8d7badbd67da6",
+      "title": "愛手創國際手作設計節 靈感午茶會",
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "region": "臺北市",
+      "venue": "華山1914・東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "預售單人198元／雙人360元／三人480元；現場全票228元",
+      "category": "手作／市集",
+      "summary": "以手作設計作品與創作者交流為主的市集，另有體驗活動，入場需購票。",
+      "url": "https://www.huashan1914.com/exhibition/%E6%84%9B%E6%89%8B%E5%89%B5%E5%9C%8B%E9%9A%9B%E6%89%8B%E4%BD%9C%E8%A8%AD%E8%A8%88%E7%AF%80%20%E9%9D%88%E6%84%9F%E5%8D%88%E8%8C%B6%E6%9C%83",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "huashan-73ee8dbdbc192851",
+      "title": "牡蠣寶寶主題養殖中心快閃店",
+      "start": "2026-09-25",
+      "end": "2026-10-18",
+      "region": "臺北市",
+      "venue": "華山1914・中7A館\t維修工場",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "官網未提供票價，請洽官方",
+      "category": "快閃店",
+      "summary": "以牡蠣寶寶角色為主題的商品快閃空間，最後一日17時結束營業。",
+      "url": "https://www.huashan1914.com/exhibition/%E7%89%A1%E8%A0%A3%E5%AF%B6%E5%AF%B6%E4%B8%BB%E9%A1%8C%E9%A4%8A%E6%AE%96%E4%B8%AD%E5%BF%83%E5%BF%AB%E9%96%83%E5%BA%97",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
     },
     {
       "id": "huashan-panorama-2026",
@@ -6405,11 +6749,375 @@
       "park": "huashan",
       "price": "免費",
       "category": "攝影",
-      "summary": "用攝影回看台灣半世紀的社會與生活變化。官網公告開放時間為10至18時。",
-      "url": "https://www.huashan1914.com/exhibition/《台灣光華雜誌》50%20週年攝影展──照見台灣",
+      "summary": "用攝影回看台灣半世紀的生活與社會變化，官網公告開放時間為10至18時。",
+      "url": "https://www.huashan1914.com/exhibition/%E3%80%8A%E5%8F%B0%E7%81%A3%E5%85%89%E8%8F%AF%E9%9B%9C%E8%AA%8C%E3%80%8B50%20%E9%80%B1%E5%B9%B4%E6%94%9D%E5%BD%B1%E5%B1%95%E2%94%80%E2%94%80%E7%85%A7%E8%A6%8B%E5%8F%B0%E7%81%A3",
       "source": "huashan",
       "firstSeen": "2026-10-05T19:00:00+08:00",
-      "lastSeen": "2026-10-05T19:00:00+08:00"
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "huashan-fa0392bc022e8777",
+      "title": "蜜境探險　豐收寶藏 MEGA哩做夥　安心投資生活",
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "region": "臺北市",
+      "venue": "華山1914・中7B館\t維修工場",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "免費",
+      "category": "體驗／講座",
+      "summary": "以探索任務呈現家庭生活與投資規劃的活動，內容及參加條件請見官方公告。",
+      "url": "https://www.huashan1914.com/exhibition/%E8%9C%9C%E5%A2%83%E6%8E%A2%E9%9A%AA%E3%80%80%E8%B1%90%E6%94%B6%E5%AF%B6%E8%97%8F%20MEGA%E5%93%A9%E5%81%9A%E5%A4%A5%E3%80%80%E5%AE%89%E5%BF%83%E6%8A%95%E8%B3%87%E7%94%9F%E6%B4%BB",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "huashan-87ccffb983ef188c",
+      "title": "2026 全家 x RE-THINK 「這還好吧！？」生活環境觀察展",
+      "start": "2026-10-16",
+      "end": "2026-10-26",
+      "region": "臺北市",
+      "venue": "華山1914・中2館",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "免費",
+      "category": "環境／展覽",
+      "summary": "從日常生活的習慣出發，透過互動展示觀察環境影響與可以採取的行動。",
+      "url": "https://www.huashan1914.com/exhibition/2026%20%E5%85%A8%E5%AE%B6%20x%20RE-THINK%20%E3%80%8C%E9%80%99%E9%82%84%E5%A5%BD%E5%90%A7%EF%BC%81%EF%BC%9F%E3%80%8D%E7%94%9F%E6%B4%BB%E7%92%B0%E5%A2%83%E8%A7%80%E5%AF%9F%E5%B1%95",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "huashan-86224307d2d356a4",
+      "title": "SIF in Taipei 首爾插畫展 台北站",
+      "start": "2026-10-23",
+      "end": "2026-10-26",
+      "region": "臺北市",
+      "venue": "華山1914・東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "現場一般220元／優待125元；早鳥160元、雙人270元、四人500元",
+      "category": "插畫",
+      "summary": "介紹韓國插畫創作者與品牌。首日10至12時為買家時段，一般民眾12時起入場。",
+      "url": "https://www.huashan1914.com/exhibition/event-SIFinTaipei%E9%A6%96%E7%88%BE%E6%8F%92%E7%95%AB%E5%B1%95%E5%8F%B0%E5%8C%97%E7%AB%99",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "huashan-23f3264dec74350c",
+      "title": "ZENLET Pop-up Store",
+      "start": "2026-08-26",
+      "end": "2026-10-27",
+      "region": "臺北市",
+      "venue": "華山1914・中3B 1F 玻璃屋",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "官網未提供票價，請洽官方",
+      "category": "快閃店",
+      "summary": "透過金屬物件與選物重新觀看日常設計。官網分類與展期資訊不一致，出發前請確認。",
+      "url": "https://www.huashan1914.com/exhibition/event-ZENLETPopupStore",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00",
+      "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。"
+    },
+    {
+      "id": "huashan-449e57ad30d4fbe4",
+      "title": "林貞粿行",
+      "start": "2026-09-15",
+      "end": "2026-10-28",
+      "region": "臺北市",
+      "venue": "華山1914・小確幸前廣場",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "官網未提供入場票價；商品另計",
+      "category": "飲食／快閃店",
+      "summary": "以傳統米食及製粿文化為主的快閃，官網列有平日與假日不同的營業時間。",
+      "url": "https://www.huashan1914.com/exhibition/%E6%9E%97%E8%B2%9E%E7%B2%BF%E8%A1%8C",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00"
+    },
+    {
+      "id": "huashan-38399728e7dbdfe8",
+      "title": "台灣滿枝枒_芬芳美麗",
+      "start": "2026-06-23",
+      "end": "2026-12-08",
+      "region": "臺北市",
+      "venue": "華山1914・東1A館\t車庫工坊",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "官網未提供票價，請洽官方",
+      "category": "香氛／快閃店",
+      "summary": "以台灣節氣為靈感的香氛品牌快閃。官網分類與展期資訊不一致，出發前請確認。",
+      "url": "https://www.huashan1914.com/exhibition/event-%E5%8F%B0%E7%81%A3%E6%BB%BF%E6%9E%9D%E6%9E%92%E8%8A%AC%E8%8A%B3%E7%BE%8E%E9%BA%97",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00",
+      "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。"
+    },
+    {
+      "id": "huashan-1073dc830070c4ed",
+      "title": "大春煉皂 華山限定特展",
+      "start": "2026-09-07",
+      "end": "2027-01-04",
+      "region": "臺北市",
+      "venue": "華山1914・芳釀所",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "官網未提供票價，請洽官方",
+      "category": "品牌／展覽",
+      "summary": "介紹大春品牌的製皂歷史與生活物件。官網分類與展期資訊不一致，出發前請確認。",
+      "url": "https://www.huashan1914.com/exhibition/event-%E5%A4%A7%E6%98%A5%E7%85%89%E7%9A%82%E8%8F%AF%E5%B1%B1%E9%99%90%E5%AE%9A%E7%89%B9%E5%B1%95",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00",
+      "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。"
+    },
+    {
+      "id": "huashan-a270dd094104e4b8",
+      "title": "李亭香",
+      "start": "2026-07-28",
+      "end": "2027-05-31",
+      "region": "臺北市",
+      "venue": "華山1914・芳釀所",
+      "address": "臺北市中正區八德路一段1號",
+      "park": "huashan",
+      "price": "官網未提供入場票價；商品另計",
+      "category": "飲食／快閃店",
+      "summary": "以傳統糕餅品牌為主的期間限定空間。官網分類與展期資訊不一致，出發前請確認。",
+      "url": "https://www.huashan1914.com/exhibition/event-%E6%9D%8E%E4%BA%AD%E9%A6%99",
+      "source": "huashan",
+      "firstSeen": "2026-10-05T20:09:46+08:00",
+      "lastSeen": "2026-10-05T20:09:46+08:00",
+      "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。"
+    },
+    {
+      "id": "pier2-1967",
+      "title": "2026高雄漾藝術博覽會 YOUNG ART KAOHSIUNG",
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・大勇區P3倉庫",
+      "address": "高雄市鹽埕區大勇路1號",
+      "park": "pier2",
+      "price": "單展80元；套票120元，含C5當代館及舊事倉庫",
+      "category": "藝術博覽會",
+      "summary": "集中展示青年藝術家的多種媒材作品，為期三天；優惠資格與入場規定請查官方。",
+      "url": "https://pier2.org/exhibition/info/1967/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T20:19:16+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00"
+    },
+    {
+      "id": "pier2-1980",
+      "title": "YES, AI DO. 歡迎光臨—2050情感交易所",
+      "start": "2026-10-09",
+      "end": "2026-10-26",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・大勇區P2倉庫",
+      "address": "高雄市鹽埕區大勇路1號",
+      "park": "pier2",
+      "price": "免費",
+      "category": "互動／科技",
+      "summary": "以虛擬伴侶與婚禮體驗思考科技對情感的影響。11至19時開放，最後一天15時閉展。",
+      "url": "https://pier2.org/exhibition/info/1980/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T20:19:16+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00"
+    },
+    {
+      "id": "1372d87487c998a9a404",
+      "title": "還是先躺一下再說？ Lay Down",
+      "start": "2026-06-12",
+      "end": "2027-03-01",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・大勇區C5倉庫",
+      "address": "高雄市鹽埕區大勇路1號",
+      "park": "pier2",
+      "price": "單展80元；套票120元，含C5當代館及舊事倉庫",
+      "category": "當代藝術",
+      "summary": "以躺臥與身體感受觀看藝術，入場須領取當日時段整理券並脫鞋；各時段額滿暫停售票。",
+      "url": "https://pier2.org/exhibition/info/1922/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T19:07:52+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00",
+      "sourceUid": "6a28644d26b3243414ccd09c",
+      "revisions": [
+        {
+          "title": "還是先躺一下再說？",
+          "start": "2026-06-12",
+          "end": "2026-12-31",
+          "price": "單展票+80;套票+150",
+          "lastSeen": "2026-10-05T19:32:35+08:00"
+        }
+      ]
+    },
+    {
+      "id": "pier2-1926",
+      "title": "怪獸風景－西川伸司＆氫酸鉀駐地創作展",
+      "start": "2026-06-12",
+      "end": "2027-02-21",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・大義區C7動漫倉庫",
+      "address": "高雄市鹽埕區大勇路1號",
+      "park": "pier2",
+      "price": "購買任一商品，或購買50元展覽限定貼紙即可入場",
+      "category": "漫畫／藝術",
+      "summary": "展出兩位創作者的怪獸主題駐地作品，透過不同創作觀點感受怪獸形象。",
+      "url": "https://pier2.org/exhibition/info/1926/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T20:19:16+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00"
+    },
+    {
+      "id": "c70f5f6d61a62ca00dfd",
+      "title": "駁二舊事倉庫",
+      "start": "2026-01-22",
+      "end": "2030-12-31",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・大義區C7倉庫",
+      "address": "高雄市鹽埕區大勇路1號",
+      "park": "pier2",
+      "price": "單展80元；套票120元，含C5當代館及舊事倉庫",
+      "category": "歷史／常設展",
+      "summary": "透過歷史影像與互動展示認識高雄港區及倉庫轉型。週一至四15時30分有定時導覽，國定假日除外。",
+      "url": "https://pier2.org/exhibition/info/3/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T19:07:52+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00",
+      "sourceUid": "69b1c0fb26b3242a48a9da15",
+      "revisions": [
+        {
+          "title": "駁二舊事倉庫：集結舊事 鑑往知來",
+          "start": "2026-01-01",
+          "end": "2026-12-31",
+          "price": "未提供，請洽官方",
+          "lastSeen": "2026-10-05T19:32:35+08:00"
+        }
+      ]
+    },
+    {
+      "id": "pier2-905",
+      "title": "彩虹地景",
+      "start": "2020-11-14",
+      "end": "2027-12-31",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・大勇路底紅色貨櫃前",
+      "address": "高雄市鹽埕區大勇路1號",
+      "park": "pier2",
+      "price": "免費",
+      "category": "公共藝術",
+      "summary": "位於港邊的戶外彩色地面作品，將城市字樣與倉庫景觀連結；日期依官網所列。",
+      "url": "https://pier2.org/exhibition/info/905/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T20:19:16+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00"
+    },
+    {
+      "id": "pier2-1994",
+      "title": "DigiWave2026",
+      "start": "2026-10-08",
+      "end": "2026-10-11",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・蓬萊區B6倉庫",
+      "address": "高雄市鼓山區蓬萊路99號",
+      "park": "pier2",
+      "price": "免費",
+      "category": "互動／科技",
+      "summary": "以表情與身體參與數位互動體驗，探索科技如何回應情緒與創作。10月8至10日11時開放，11日10時開放。",
+      "url": "https://pier2.org/exhibition/info/1994/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T20:19:16+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00"
+    },
+    {
+      "id": "pier2-1992",
+      "title": "INNOVATIONS 文化科技創新市場展",
+      "start": "2026-10-13",
+      "end": "2026-10-16",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・蓬萊區B4倉庫",
+      "address": "高雄市鼓山區蓬萊路99號",
+      "park": "pier2",
+      "price": "免費",
+      "category": "文化科技",
+      "summary": "展示文化內容與新技術的提案及應用，並安排產業交流與媒合。每日10至18時。",
+      "url": "https://pier2.org/exhibition/info/1992/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T20:19:16+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00"
+    },
+    {
+      "id": "pier2-1982",
+      "title": "時空任意門",
+      "start": "2026-10-09",
+      "end": "2026-10-26",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・大勇區自行車倉庫",
+      "address": "高雄市鹽埕區大勇路1號",
+      "park": "pier2",
+      "price": "免費",
+      "category": "影像／科技",
+      "summary": "展示虛擬影像製作成果與幕後工作，包含音樂互動及靜態展示。每日11至19時。",
+      "url": "https://pier2.org/exhibition/info/1982/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T20:19:16+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00"
+    },
+    {
+      "id": "pier2-1983",
+      "title": "2026 TTXC｜高雄電影節 ✖ XR DREAMLAND",
+      "start": "2026-10-09",
+      "end": "2026-10-26",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・大勇區P3倉庫、自行車倉庫、大義區C9 VR體感劇院",
+      "address": "高雄市鹽埕區大勇路1號",
+      "park": "pier2",
+      "price": "付費；依節目購票，場館頁未列統一票價",
+      "category": "XR／影像",
+      "summary": "以XR作品體驗不同敘事與互動方式，作品場次及票價請查官方購票資訊；每日11至19時。",
+      "url": "https://pier2.org/exhibition/info/1983/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T20:19:16+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00"
+    },
+    {
+      "id": "pier2-1978",
+      "title": "看見希望 在途中 A Journey — 癌後日常的未完成敍事",
+      "start": "2026-10-24",
+      "end": "2026-11-01",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・蓬萊區B6倉庫",
+      "address": "高雄市鼓山區蓬萊路99號",
+      "park": "pier2",
+      "price": "免費",
+      "category": "藝術／生命故事",
+      "summary": "以癌友、家屬及醫護的創作呈現疾病後的生活變化，並安排兩場對談。每日11至18時。",
+      "url": "https://pier2.org/exhibition/info/1978/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T20:19:16+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00"
+    },
+    {
+      "id": "pier2-1961",
+      "title": "虎姑婆和他的朋友 勇氣島大冒險",
+      "start": "2026-09-17",
+      "end": "2026-12-20",
+      "region": "高雄市",
+      "venue": "駁二藝術特區・蓬萊區B10倉庫",
+      "address": "高雄市鼓山區蓬萊路99號",
+      "park": "pier2",
+      "price": "付費；場館頁未列金額，請查官方購票資訊",
+      "category": "親子／互動",
+      "summary": "以音樂與互動體驗陪孩子探索害怕及勇氣。週二、三休館；平日16時、週末17時最後入場。",
+      "url": "https://pier2.org/exhibition/info/1961/",
+      "source": "pier2",
+      "firstSeen": "2026-10-05T20:19:16+08:00",
+      "lastSeen": "2026-10-05T20:19:16+08:00"
     }
   ]
 }

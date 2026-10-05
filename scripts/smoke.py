@@ -45,11 +45,23 @@ with sync_playwright() as p:
     page.set_viewport_size({'width':390,'height':844})
     page.locator('#park').select_option('huashan')
     assert page.locator('.card').count() >= 2
+    assert page.locator('.verification').count() == 8
+    page.locator('[data-view="recommended"]').click()
+    assert page.locator('.verification').count() == 0
+    checks.append('8 Huashan uncertainties displayed and excluded from recommendations')
+    page.locator('[data-view="all"]').click()
     assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth')
     page.screenshot(path=str(out/'mobile.png'),full_page=True)
     checks.append('390px mobile, Huashan filter, no horizontal overflow')
     assert all(x.startswith(('https://','http://')) for x in page.locator('.card a').evaluate_all('(a)=>a.map(x=>x.href)'))
     checks.append('safe source links')
+    page.locator('#park').select_option('pier2')
+    assert page.locator('.card').count() == 13
+    assert any('2027-03-01' in x for x in page.locator('.card').all_text_contents())
+    assert sum('還是先躺一下再說' in x for x in page.locator('.card h3').all_text_contents()) == 1
+    assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth')
+    page.screenshot(path=str(out/'pier2-mobile.png'),full_page=True)
+    checks.append('13 Pier-2 entries, corrected date, no duplicate, mobile filter')
     # Exercise the user-facing failure state while retaining the real snapshot.
     payload=json.loads((root/'data/exhibitions.json').read_text(encoding='utf-8-sig'))
     payload['sources']['moc']['state']='error'
