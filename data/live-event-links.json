@@ -3,25 +3,68 @@
     "title": "「2026年國際沈文程日-小琉球情歌演唱會」",
     "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
     "checkedAt": "2026-10-06",
-    "method": "manual event detail title and sessions"
+    "method": "manual event detail title and sessions",
+    "sessions": [
+      {
+        "date": "2026-11-01",
+        "time": "15:00",
+        "venue": "桃園展演中心展演廳"
+      },
+      {
+        "date": "2027-03-20",
+        "time": "15:00",
+        "venue": "臺東縣立體育館"
+      },
+      {
+        "date": "2027-05-08",
+        "time": "15:00",
+        "venue": "台中中興大學惠蓀堂"
+      },
+      {
+        "date": "2027-06-26",
+        "time": "15:00",
+        "venue": "台北國際會議中心大會堂"
+      }
+    ]
   },
   "6a10c26626b3243414cccad2": {
     "title": "Jason Mraz ASIA TOUR 2026 IN TAIPEI",
     "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA",
     "checkedAt": "2026-10-06",
-    "method": "manual event detail title and sessions"
+    "method": "manual event detail title and sessions",
+    "sessions": [
+      {
+        "date": "2026-11-02",
+        "time": "19:30",
+        "venue": "台北南港展覽館一館四樓"
+      }
+    ]
   },
   "6a18a65226b3243414cccc48": {
     "title": "【翁倩玉 陽光般的60週年演唱會-時間之歌】",
     "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
     "checkedAt": "2026-10-06",
-    "method": "manual event detail title and sessions"
+    "method": "manual event detail title and sessions",
+    "sessions": [
+      {
+        "date": "2026-11-28",
+        "time": "15:00",
+        "venue": "台中中興大學惠蓀堂"
+      }
+    ]
   },
   "6a6928c526b32427d06042dd": {
     "title": "2026林淑容【您的經典．我的歌】世界巡迴演唱會台中場",
     "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
     "checkedAt": "2026-10-06",
-    "method": "manual event detail title and sessions"
+    "method": "manual event detail title and sessions",
+    "sessions": [
+      {
+        "date": "2026-12-05",
+        "time": "19:00",
+        "venue": "台中中興大學惠蓀堂"
+      }
+    ]
   },
   "6a7943c8eb4345557aab58e7": {
     "title": "Paul Gilbert WROC World Tour",
@@ -34,12 +77,26 @@
       "saleAt": "2026-08-08T08:00:00+08:00",
       "saleNote": "活動19:00開始，官方時程Paul Gilbert預定20:00；早鳥至8月底。",
       "price": "一般 NT$2,288／VIP NT$4,288；早鳥 NT$1,800／3,800"
-    }
+    },
+    "sessions": [
+      {
+        "date": "2026-10-25",
+        "time": "19:00",
+        "venue": "Corner House(遠雄國際金融廣場)"
+      }
+    ]
   },
   "6aac3bc626b324165c32e4ec": {
     "title": "AxMxP X VERSE CONCERT IN TAIPEI",
     "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FWXUND",
     "checkedAt": "2026-10-06",
-    "method": "manual event detail title and sessions"
+    "method": "manual event detail title and sessions",
+    "sessions": [
+      {
+        "date": "2026-11-29",
+        "time": "17:00",
+        "venue": "CLAPPER STUDIO 展演廳(三創生活)"
+      }
+    ]
   }
 }

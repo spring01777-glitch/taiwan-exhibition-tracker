@@ -11,6 +11,18 @@
         {
           "date": "2026-10-08",
           "time": "20:00"
+        },
+        {
+          "date": "2026-10-09",
+          "time": "20:00"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "20:00"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "20:00"
         }
       ],
       "price": "一般 NT$800／VIP NT$1,000；早鳥 NT$750／950",
@@ -23,7 +35,61 @@
       "verifiedAt": "2026-10-06",
       "status": "scheduled",
       "summary": "藍恩的台北單口喜劇專場。",
-      "revisions": []
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/allaroundyou1008",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-08",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$800／VIP NT$1,000；早鳥 NT$750／950",
+          "saleAt": "2026-07-30T12:00:00+08:00"
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/allaroundyou1009",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-09",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$800／VIP NT$1,000；早鳥 NT$750／950",
+          "saleAt": "2026-07-30T12:00:00+08:00"
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/allaroundyou1010",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$800／VIP NT$1,000；早鳥 NT$750／950",
+          "saleAt": "2026-07-30T12:00:00+08:00"
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/allaroundyou1011",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-11",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$800／VIP NT$1,000；早鳥 NT$750／950",
+          "saleAt": "2026-07-30T12:00:00+08:00"
+        }
+      ]
     },
     {
       "id": "manual-ellery-1010",
@@ -48,7 +114,22 @@
       "verifiedAt": "2026-10-06",
       "status": "scheduled",
       "summary": "英文單口喜劇與現場互動；官方建議16歲以上。",
-      "revisions": []
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/thecutautumn1010",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$600／800／1,200",
+          "saleAt": "2026-08-07T00:00:00+08:00"
+        }
+      ]
     },
     {
       "id": "manual-jiayu-1016",
@@ -60,6 +141,10 @@
       "sessions": [
         {
           "date": "2026-10-16",
+          "time": "20:00"
+        },
+        {
+          "date": "2026-10-17",
           "time": "20:00"
         }
       ],
@@ -73,7 +158,35 @@
       "verifiedAt": "2026-10-06",
       "status": "scheduled",
       "summary": "佳諭單口喜劇巡演高雄場。",
-      "revisions": []
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261016",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；早鳥 NT$699／1,399",
+          "saleAt": "2026-07-27T19:00:00+08:00"
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261017",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；早鳥 NT$699／1,399",
+          "saleAt": "2026-07-27T19:00:00+08:00"
+        }
+      ]
     },
     {
       "id": "manual-jiayu-1018",
@@ -98,7 +211,22 @@
       "verifiedAt": "2026-10-06",
       "status": "scheduled",
       "summary": "佳諭單口喜劇巡演新竹場。",
-      "revisions": []
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261018",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-18",
+              "time": "15:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；早鳥 NT$699／1,399",
+          "saleAt": "2026-07-27T19:00:00+08:00"
+        }
+      ]
     },
     {
       "id": "manual-aaron",
@@ -123,7 +251,22 @@
       "verifiedAt": "2026-10-06",
       "status": "scheduled",
       "summary": "Aaron Chen 的台北喜劇巡演，薩泰爾主辦。",
-      "revisions": []
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://strnetwork.kktix.cc/events/kiewge",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$1,300／1,500／1,800；身障席 NT$750",
+          "saleAt": "2026-08-28T10:00:00+08:00"
+        }
+      ]
     },
     {
       "id": "manual-jiaoying",
@@ -148,25 +291,1045 @@
       "verifiedAt": "2026-10-06",
       "status": "scheduled",
       "summary": "Jiaoying Summers 台北喜劇巡演，薩泰爾主辦。",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://strnetwork.kktix.cc/events/76d77258",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$1,100／1,400／1,600；VIP NT$2,200；身障席 NT$800",
+          "saleAt": "2026-08-07T10:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "manual-get-taipei",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": "20:00"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "20:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261023",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261024",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261023",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-get-taichung",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "臺中市",
+      "venue": "群島藝術園區 大劇院",
+      "sessions": [
+        {
+          "date": "2026-10-30",
+          "time": "20:00"
+        },
+        {
+          "date": "2026-10-31",
+          "time": "20:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261030",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261031",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261030",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-get-tainan",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "臺南市",
+      "venue": "漂丿白鷺live house",
+      "sessions": [
+        {
+          "date": "2026-11-01",
+          "time": "15:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261101",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-01",
+              "time": "15:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261101",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-get-changhua",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "彰化縣",
+      "venue": "賽博洋行",
+      "sessions": [
+        {
+          "date": "2026-11-06",
+          "time": "20:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261106",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-06",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261106",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-get-yunlin",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "雲林縣",
+      "venue": "騷咖啡",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "20:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261107",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261107",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-get-chiayi",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "嘉義市",
+      "venue": "蘭桂坊花園酒店 頂樓空間",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "time": "15:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261108",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "15:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261108",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-get-taoyuan",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "桃園市",
+      "venue": "桃園米倉劇場",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "20:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261113",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261113",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-get-pingtung",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "屏東縣",
+      "venue": "打舖2號店",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "20:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261114",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261114",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-get-hengchun",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "屏東縣",
+      "venue": "超直白俱樂部 Frankly Social Club",
+      "sessions": [
+        {
+          "date": "2026-11-15",
+          "time": "19:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261115",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "19:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261115",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-get-taitung",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "臺東縣",
+      "venue": "就藝會 Just arts House 小劇場",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "19:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261121",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "19:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261121",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-get-hualien",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "花蓮縣",
+      "venue": "All Star Live House 奧斯卡美式餐廳",
+      "sessions": [
+        {
+          "date": "2026-11-22",
+          "time": "19:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261122",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-22",
+              "time": "19:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261122",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-get-redhouse",
+      "source": "manual",
+      "title": "2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": "佳諭",
+      "region": "臺北市",
+      "venue": "西門紅樓 二樓劇場",
+      "sessions": [
+        {
+          "date": "2026-11-27",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "19:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261127",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-27",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261129",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "19:00"
+            }
+          ],
+          "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$799／1,499；限量早鳥 NT$699／1,399",
+      "saleAt": null,
+      "saleNote": "各場一般及早鳥售期請見該場售票頁；未合併推定開賣時間。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261127",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "佳諭單口巡演，依場馆分組保留各場日期。",
+      "revisions": []
+    },
+    {
+      "id": "manual-taichung-live",
+      "source": "manual",
+      "title": "第一超棒臺中脫口秀",
+      "performers": "光頭哥、曹小歐、康蒂、沈榮、樂樂法利",
+      "region": "臺中市",
+      "venue": "群島藝術園區（來福好事）",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "19:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/taichungcomedylive1107",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "19:00"
+            }
+          ],
+          "price": "預售 NT$450；現場 NT$500",
+          "saleAt": "2026-09-24T00:00:00+08:00"
+        }
+      ],
+      "price": "預售 NT$450；現場 NT$500",
+      "saleAt": "2026-09-24T00:00:00+08:00",
+      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/taichungcomedylive1107",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "光頭哥、曹小歐、康蒂、沈榮、樂樂法利於群島藝術園區（來福好事）演出。",
+      "revisions": []
+    },
+    {
+      "id": "manual-mao",
+      "source": "manual",
+      "title": "貓兵衛單口喜劇專場《小貓警探大作戰》",
+      "performers": "貓兵衛",
+      "region": "臺中市",
+      "venue": "群島藝術園區 大劇院",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "20:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/swinghongcomedy1017",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般 NT$888；早鳥 NT$777；雙人 NT$1,688；贊助 NT$1,888",
+          "saleAt": "2026-10-01T00:00:00+08:00"
+        }
+      ],
+      "price": "一般 NT$888；早鳥 NT$777；雙人 NT$1,688；贊助 NT$1,888",
+      "saleAt": "2026-10-01T00:00:00+08:00",
+      "saleNote": "一般票 10/1；早鳥、雙人及贊助票 9/1 12:30。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/swinghongcomedy1017",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "貓兵衛於群島藝術園區 大劇院演出。",
+      "revisions": []
+    },
+    {
+      "id": "manual-taipei-live",
+      "source": "manual",
+      "title": "TAIPEI COMEDY LIVE!!!",
+      "performers": "Bree Calhoun、Evan Danger 等",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": "22:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/taipeicomedylive1023",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "22:00"
+            }
+          ],
+          "price": "預售 NT$350；現場 NT$400",
+          "saleAt": "2026-01-05T00:00:00+08:00"
+        }
+      ],
+      "price": "預售 NT$350；現場 NT$400",
+      "saleAt": "2026-01-05T00:00:00+08:00",
+      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/taipeicomedylive1023",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "英文單口拼盤，21:45 開放入場。",
+      "revisions": []
+    },
+    {
+      "id": "manual-john",
+      "source": "manual",
+      "title": "黃豪平單口喜劇專場：只是喜劇演員",
+      "performers": "黃豪平",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-11-27",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "19:30"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/smaljohncomedy20261127",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-27",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般 NT$800；搖滾 NT$1,200；贊助 NT$1,999；10/4–10/30 早鳥九折",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/smaljohncomedy20261129",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般 NT$800；搖滾 NT$1,200；贊助 NT$1,999；10/4–10/30 早鳥九折",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "price": "一般 NT$800；搖滾 NT$1,200；贊助 NT$1,999；10/4–10/30 早鳥九折",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/smaljohncomedy20261127",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "黃豪平於Comedy Plus 卡米地＋演出。",
+      "revisions": []
+    },
+    {
+      "id": "manual-coldn",
+      "source": "manual",
+      "title": "涵冷娜脫口秀專場《喊卡之後》封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "臺北市",
+      "venue": "西門紅樓 二樓劇場",
+      "sessions": [
+        {
+          "date": "2026-11-26",
+          "time": "19:30"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261126",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-26",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$800／1,200／5,000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "price": "NT$800／1,200／5,000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261126",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "涵冷娜於西門紅樓 二樓劇場演出。",
+      "revisions": []
+    },
+    {
+      "id": "manual-creepy",
+      "source": "manual",
+      "title": "2026 台北喜劇節：怪奇誤語",
+      "performers": "來源未列完整陣容",
+      "region": "臺北市",
+      "venue": "底加書店",
+      "sessions": [
+        {
+          "date": "2026-11-27",
+          "time": "20:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/creepy1127",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-27",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$450",
+          "saleAt": "2026-10-01T00:00:00+08:00"
+        }
+      ],
+      "price": "NT$450",
+      "saleAt": "2026-10-01T00:00:00+08:00",
+      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/creepy1127",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "於公館演出的中文單口拼盤。",
+      "revisions": []
+    },
+    {
+      "id": "manual-cute-plus",
+      "source": "manual",
+      "title": "重新可愛｜大可愛個人單口喜劇專場",
+      "performers": "大可愛",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-11-27",
+          "time": "22:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/cuteagain1127",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-27",
+              "time": "22:00"
+            }
+          ],
+          "price": "NT$600",
+          "saleAt": null
+        }
+      ],
+      "price": "NT$600",
+      "saleAt": null,
+      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/cuteagain1127",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "大可愛以日常生活與個人觀察為題的單口專場。",
+      "revisions": []
+    },
+    {
+      "id": "manual-cute-moon",
+      "source": "manual",
+      "title": "重新可愛｜大可愛個人單口喜劇專場",
+      "performers": "大可愛",
+      "region": "臺北市",
+      "venue": "月半窩",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "19:30"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/cuteagain1205",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600",
+          "saleAt": null
+        }
+      ],
+      "price": "NT$600",
+      "saleAt": null,
+      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/cuteagain1205",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "大可愛以日常生活與個人觀察為題的單口專場。",
+      "revisions": []
+    },
+    {
+      "id": "manual-morgan",
+      "source": "manual",
+      "title": "Morgan Jay: The Goofy Guy Tour Taipei 2026",
+      "performers": "Morgan Jay",
+      "region": "臺北市",
+      "venue": "Legacy Tera",
+      "sessions": [
+        {
+          "date": "2026-10-06",
+          "time": "19:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://strnetwork.kktix.cc/events/bfdgs",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-06",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$1,800／2,000／2,200",
+          "saleAt": null
+        }
+      ],
+      "price": "NT$1,800／2,000／2,200",
+      "saleAt": null,
+      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://strnetwork.kktix.cc/events/bfdgs",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "英文音樂單口喜劇；18:00 入場。",
+      "revisions": []
+    },
+    {
+      "id": "manual-atsuko",
+      "source": "manual",
+      "title": "Atsuko Okatsuka The Big Bowl Tour Taipei 2026",
+      "performers": "Atsuko Okatsuka",
+      "region": "臺北市",
+      "venue": "臺北科技大學 學生活動中心",
+      "sessions": [
+        {
+          "date": "2026-11-29",
+          "time": "16:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "19:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://strnetwork.kktix.cc/events/kloreg",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "16:00"
+            }
+          ],
+          "price": "NT$1,500／2,000／2,600",
+          "saleAt": null
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://strnetwork.kktix.cc/events/loeger",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$1,000（視線受限）／1,500／2,000／2,600",
+          "saleAt": null
+        }
+      ],
+      "price": "各場票價不同，請見場次購票資訊",
+      "saleAt": null,
+      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://strnetwork.kktix.cc/events/kloreg",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "英文單口巡演，同日午晚兩場；晚場二樓有視線受限席。",
+      "revisions": []
+    },
+    {
+      "id": "manual-bass",
+      "source": "manual",
+      "title": "巴斯2026單口喜劇專場《中二病 Narcissus》",
+      "performers": "巴斯",
+      "region": "臺北市",
+      "venue": "西門紅樓 二樓劇場",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": null
+        },
+        {
+          "date": "2026-10-24",
+          "time": null
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/chuunibyou1023",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": null
+            }
+          ],
+          "price": "一般 NT$950；雙人 NT$1,800；VIP NT$1,600；早鳥另計",
+          "saleAt": null
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/chuunibyou1024",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": null
+            }
+          ],
+          "price": "一般 NT$950；雙人 NT$1,800；VIP NT$1,600；早鳥另計",
+          "saleAt": null
+        }
+      ],
+      "price": "一般 NT$950；雙人 NT$1,800；VIP NT$1,600；早鳥另計",
+      "saleAt": null,
+      "saleNote": "官方頁首 19:00 與節目文字 19:30 衝突，演出時間待主辦確認；各票種開賣時間不同。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/chuunibyou1023",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "巴斯於西門紅樓 二樓劇場演出。",
       "revisions": []
     }
   ],
-  "sources": [
-    {
-      "id": "manual",
-      "name": "正式售票頁・人工核對",
-      "url": "https://comedyclub.kktix.cc/",
-      "status": "manual",
-      "lastSuccess": null,
-      "message": "2026-10-06 人工核對 6 個活動；不自動抓取售票頁，資料可能異動。"
-    },
-    {
-      "id": "str",
-      "name": "薩泰爾官方售票目錄",
-      "url": "https://strnetwork.kktix.cc/",
-      "status": "manual",
-      "lastSuccess": null,
-      "message": "2026-10-06 人工確認兩場；無允許自動化介接依據，未列入每日爬取。卡米地／Laugh House／洛克／Star 範圍有限，其他俱樂部尚未納入。"
-    }
-  ]
+  "sources": []
 }

@@ -4,12 +4,12 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
-FIELDS={'id','title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','sourceUrl','source','sourceUid','status','statusNote','summary','verifiedAt','revisions'}
+FIELDS={'id','title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','sourceUrl','source','sourceUid','status','statusNote','summary','verifiedAt','revisions','tickets','cloudReviewPending','verificationMethod'}
 def validate():
     for kind in ('concerts','comedy'):
         data=json.loads((ROOT/f'data/{kind}.json').read_text(encoding='utf-8'))
         assert set(data)=={'schemaVersion','timezone','updatedAt','events','sources'}
-        assert data['schemaVersion']==1 and data['timezone']=='Asia/Taipei' and data['events']
+        assert data['schemaVersion']==2 and data['timezone']=='Asia/Taipei' and data['events']
         assert len({e['id'] for e in data['events']})==len(data['events'])
         for e in data['events']:
             assert not set(e)-FIELDS
@@ -24,6 +24,17 @@ def validate():
                 if not e.get(field):continue
                 p=urlsplit(e[field]);assert p.scheme=='https' and p.hostname and not p.username and not p.password
             if e.get('ticketUrl'):assert e.get('ticketVerifiedAt'),'unverified ticket button'
+            scopes={(s['date'],s.get('time')) for s in e['sessions']}
+            assert len(scopes)==len(e['sessions']), 'duplicate session'
+            assert isinstance(e['tickets'],list)
+            seen=set()
+            for t in e['tickets']:
+                assert set(t)<={'platform','url','checkedAt','sessions','price','saleAt'}
+                p=urlsplit(t['url']);assert p.scheme=='https' and p.hostname and p.path not in ('','/') and not p.username and not p.password
+                assert t['platform'] in ('KKTIX','拓元 tixCraft','年代 ERA','寬宏 KHAM','ibon','OPENTIX')
+                datetime.strptime(t['checkedAt'],'%Y-%m-%d')
+                assert t['sessions'] and all((s['date'],s.get('time')) in scopes for s in t['sessions'])
+                key=(t['url'],t.get('price'),t.get('saleAt'));assert key not in seen;seen.add(key)
         serialized=json.dumps(data,ensure_ascii=False)
         assert not re.search(r'(?i)(descriptionFilterHtml|imageURL|posterURL|github_pat_|gh[pousr]_[a-z0-9]{20,}|sk-proj-|-----BEGIN .*PRIVATE KEY)',serialized)
         assert not re.search(r'[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}',serialized,re.I)

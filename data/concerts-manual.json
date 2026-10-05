@@ -27,7 +27,35 @@
       "verifiedAt": "2026-10-06",
       "status": "scheduled",
       "summary": "臺北限定演出，兩晚於大巨蛋登場。",
-      "revisions": []
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_forever",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$ 1,680／2,680／3,280／3,680／4,280／4,880／5,280／5,880；身障席另有票價",
+          "saleAt": "2026-10-04T14:00:00+08:00"
+        },
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_forever",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$ 1,680／2,680／3,280／3,680／4,280／4,880／5,280／5,880；身障席另有票價",
+          "saleAt": "2026-10-04T14:00:00+08:00"
+        }
+      ]
     },
     {
       "id": "manual-blue",
@@ -52,17 +80,463 @@
       "verifiedAt": "2026-10-06",
       "status": "scheduled",
       "summary": "Blue 週年巡演高雄場。",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/27_bluekh",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2027-01-17",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$ 2,300–8,800；VIP套票 NT$ 10,200；每張另加 NT$200 系統費",
+          "saleAt": "2026-10-07T12:00:00+08:00"
+        }
+      ]
+    },
+    {
+      "id": "manual-izna",
+      "source": "manual",
+      "title": "2026 izna Concert Tour: WHO DAT GIRL? in TAIPEI",
+      "performers": "izna",
+      "region": "新北市",
+      "venue": "Zepp New Taipei",
+      "sessions": [
+        {
+          "date": "2026-10-09",
+          "time": "18:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_izna",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-09",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$3,580／3,880／4,280；身障 NT$2,140",
+          "saleAt": "2026-08-23T15:00:00+08:00"
+        }
+      ],
+      "price": "NT$3,580／3,880／4,280；身障 NT$2,140",
+      "saleAt": "2026-08-23T15:00:00+08:00",
+      "saleNote": "一般開賣時間；會員預售及贈品條件請見官方頁。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_izna",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "izna於Zepp New Taipei演出。",
       "revisions": []
+    },
+    {
+      "id": "manual-qwer",
+      "source": "manual",
+      "title": "QWER 2nd TOUR ROCKATION: ROCKET LAUNCH!! IN TAIPEI",
+      "performers": "QWER",
+      "region": "桃園市",
+      "venue": "國立體育大學綜合體育館",
+      "sessions": [
+        {
+          "date": "2026-10-10",
+          "time": "17:00"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "17:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_qwer",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$3,880／4,880／5,880／6,580",
+          "saleAt": "2026-09-05T13:00:00+08:00"
+        },
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_qwer",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-11",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$3,880／4,880／5,880／6,580",
+          "saleAt": "2026-09-05T13:00:00+08:00"
+        }
+      ],
+      "price": "NT$3,880／4,880／5,880／6,580",
+      "saleAt": "2026-09-05T13:00:00+08:00",
+      "saleNote": "一般開賣時間；會員預售及贈品條件請見官方頁。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_qwer",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "QWER於國立體育大學綜合體育館演出。",
+      "revisions": []
+    },
+    {
+      "id": "manual-patrick",
+      "source": "manual",
+      "title": "派偉俊 Patrick Brasca《BAD IDEA》2026個人演唱會",
+      "performers": "派偉俊",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-10-10",
+          "time": "19:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_patrick",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2,680／3,280／3,680／3,880；身障 NT$1,640／1,940",
+          "saleAt": "2026-08-03T12:00:00+08:00"
+        }
+      ],
+      "price": "NT$2,680／3,280／3,680／3,880；身障 NT$1,640／1,940",
+      "saleAt": "2026-08-03T12:00:00+08:00",
+      "saleNote": "一般開賣時間；會員預售及贈品條件請見官方頁。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_patrick",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "派偉俊於臺北流行音樂中心 表演廳演出。",
+      "revisions": []
+    },
+    {
+      "id": "manual-topkh",
+      "source": "manual",
+      "title": "T.O.P PRE-STUDIO 2026 in KAOHSIUNG",
+      "performers": "T.O.P",
+      "region": "高雄市",
+      "venue": "高雄巨蛋",
+      "sessions": [
+        {
+          "date": "2026-12-19",
+          "time": "18:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_topkh",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$3,800／4,800／5,800／6,300；身障 NT$1,900／2,400",
+          "saleAt": "2026-10-04T12:00:00+08:00"
+        }
+      ],
+      "price": "NT$3,800／4,800／5,800／6,300；身障 NT$1,900／2,400",
+      "saleAt": "2026-10-04T12:00:00+08:00",
+      "saleNote": "一般開賣時間；會員預售及贈品條件請見官方頁。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_topkh",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "T.O.P於高雄巨蛋演出。",
+      "revisions": []
+    },
+    {
+      "id": "manual-doh",
+      "source": "manual",
+      "title": "2026–2027 DOH KYUNG SOO CONCERT TOUR [DAY OFF] IN KAOHSIUNG",
+      "performers": "都暻秀 DOH KYUNG SOO",
+      "region": "高雄市",
+      "venue": "高雄流行音樂中心 海音館",
+      "sessions": [
+        {
+          "date": "2026-12-19",
+          "time": "18:00"
+        },
+        {
+          "date": "2026-12-20",
+          "time": "17:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39978",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$3,880／4,880／5,880／6,480；身障 NT$2,940",
+          "saleAt": "2026-10-04T13:00:00+08:00"
+        },
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39978",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-20",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$3,880／4,880／5,880／6,480；身障 NT$2,940",
+          "saleAt": "2026-10-04T13:00:00+08:00"
+        }
+      ],
+      "price": "NT$3,880／4,880／5,880／6,480；身障 NT$2,940",
+      "saleAt": "2026-10-04T13:00:00+08:00",
+      "saleNote": "一般開賣 2026/10/04 13:00；非即時票況。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39978",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "都暻秀 DOH KYUNG SOO於高雄流行音樂中心 海音館演出。",
+      "revisions": [],
+      "verificationMethod": "cloud official-page review",
+      "address": "高雄市鹽埕區真愛路1號"
+    },
+    {
+      "id": "manual-feifei",
+      "source": "manual",
+      "title": "Silver Screen Memories 電影時代—非非藝術團隊演唱會",
+      "performers": "非非藝術團隊、詹怡嘉",
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "15:00"
+        }
+      ],
+      "price": "NT$600／800",
+      "saleAt": null,
+      "saleNote": "來源列開賣日期 2026/08/19，未提供時刻；早鳥優惠期 8/20–8/31。",
+      "ticketStatus": "公開售票頁已核對；非即時票況",
+      "sourceUrl": "https://www.opentix.life/event/2087082647347310593",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "詹怡嘉與非非藝術團隊演唱電影相關歌曲。",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2087082647347310593",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$600／800",
+          "saleAt": null
+        }
+      ],
+      "verificationMethod": "cloud official-page review",
+      "address": "高雄市鳳山區三多一路1號"
+    },
+    {
+      "id": "manual-xiaoyu",
+      "source": "manual",
+      "title": "小宇宋念宇演唱會",
+      "performers": "小宇 宋念宇",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "19:30"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DF32E2",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1,880／2,480／2,880／3,480／3,880／4,280",
+          "saleAt": "2026-08-22T12:00:00+08:00"
+        }
+      ],
+      "price": "NT$1,880／2,480／2,880／3,480／3,880／4,280",
+      "saleAt": "2026-08-22T12:00:00+08:00",
+      "saleNote": "18:30入場；一般開賣 2026/08/22 12:00。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DF32E2",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "小宇宋念宇於臺北流行音樂中心表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "cloud official-poster review"
+    },
+    {
+      "id": "manual-eunji",
+      "source": "manual",
+      "title": "2026 JEONG EUNJI SOLO CONCERT ‘SUMMER, I’ ASIA TOUR in TAIPEI",
+      "performers": "鄭恩地",
+      "region": "臺北市",
+      "venue": "臺北國際會議中心 TICC",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "18:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FRRCZ9",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$3,280／3,880／4,880／5,880",
+          "saleAt": "2026-09-23T12:00:00+08:00"
+        }
+      ],
+      "price": "NT$3,280／3,880／4,880／5,880",
+      "saleAt": "2026-09-23T12:00:00+08:00",
+      "saleNote": "一般開賣時間；非即時票況。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FRRCZ9",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "鄭恩地於臺北國際會議中心 TICC演出。",
+      "revisions": [],
+      "verificationMethod": "cloud official-poster review"
+    },
+    {
+      "id": "manual-guo",
+      "source": "manual",
+      "title": "郭子＆浮花樂隊 原來的那首歌 Live in Legacy Taipei",
+      "performers": "郭子＆浮花樂隊",
+      "region": "臺北市",
+      "venue": "Legacy Taipei 音樂展演空間",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "20:00"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DF32E3",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$1,980，全區對號",
+          "saleAt": "2026-08-10T12:00:00+08:00"
+        }
+      ],
+      "price": "NT$1,980，全區對號",
+      "saleAt": "2026-08-10T12:00:00+08:00",
+      "saleNote": "一般開賣時間；非即時票況。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DF32E3",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "郭子＆浮花樂隊於Legacy Taipei 音樂展演空間演出。",
+      "revisions": [],
+      "verificationMethod": "cloud official-poster review"
+    },
+    {
+      "id": "manual-kudo",
+      "source": "manual",
+      "title": "Shizuka Kudo 2026 Dynamic CONCERT in TAIPEI",
+      "performers": "工藤静香",
+      "region": "臺北市",
+      "venue": "臺北國際會議中心 TICC",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "19:30"
+        }
+      ],
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1BU3K7Z",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1,800／2,800／3,200／3,800／4,200／4,600；福利套票NT$4,610（4,600＋10）",
+          "saleAt": "2026-06-24T12:00:00+08:00"
+        }
+      ],
+      "price": "NT$1,800／2,800／3,200／3,800／4,200／4,600；福利套票NT$4,610（4,600＋10）",
+      "saleAt": "2026-06-24T12:00:00+08:00",
+      "saleNote": "福利套票為附加方案，不另計演出場次；非即時票況。",
+      "ticketStatus": "活動售票頁已核對；非即時票況",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1BU3K7Z",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "工藤静香於臺北國際會議中心 TICC演出。",
+      "revisions": [],
+      "verificationMethod": "cloud official-poster review"
     }
   ],
-  "sources": [
-    {
-      "id": "manual",
-      "name": "正式售票頁・人工核對",
-      "url": "https://tixcraft.com/",
-      "status": "manual",
-      "lastSuccess": null,
-      "message": "2026-10-06 人工核對 2 個活動；不自動抓取售票頁，資料可能異動。"
-    }
-  ]
+  "sources": []
 }

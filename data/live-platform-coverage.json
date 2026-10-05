@@ -1,0 +1,73 @@
+{
+  "sources": [
+    {
+      "id": "kktix",
+      "platform": "KKTIX",
+      "name": "KKTIX／卡米地・薩泰爾・演唱會主辦",
+      "url": "https://comedyclub.kktix.cc/",
+      "status": "manual",
+      "checkedAt": "2026-10-06",
+      "lastSuccess": null,
+      "message": "公開目錄與單場活動頁人工核對；合併巡演總頁、單場页與加場。已加入多城市單口專場，排除課程、即興、漫才與聊天節目。目前未取得固定自動匯入授權或穩定資料來源，並非每日重查。"
+    },
+    {
+      "id": "tixcraft",
+      "platform": "拓元 tixCraft",
+      "name": "拓元 tixCraft",
+      "url": "https://tixcraft.com/",
+      "status": "manual",
+      "checkedAt": "2026-10-06",
+      "lastSuccess": null,
+      "message": "核對公開活動詳情，新增 izna、QWER、派偉俊、T.O.P。排除非官方接駁、生日見面會及票券升級。robots 禁止部分購票路徑；不進入購票流程，不安排平台爬取。"
+    },
+    {
+      "id": "ibon",
+      "platform": "ibon",
+      "name": "ibon 售票",
+      "url": "https://ticket.ibon.com.tw/",
+      "status": "manual",
+      "checkedAt": "2026-10-06",
+      "lastSuccess": null,
+      "message": "透過公開網頁核對都暻秀高雄兩場，含票價、開賣時間；頁面需 JavaScript 載入。目前人工維護，未建置定期擷取或宣稱全站涵蓋。 雲端已複核對應活動的日期、場館及票價。"
+    },
+    {
+      "id": "era",
+      "platform": "年代 ERA",
+      "name": "年代 ERA",
+      "url": "https://ticket.com.tw/",
+      "status": "manual",
+      "checkedAt": "2026-10-06",
+      "lastSuccess": null,
+      "message": "已核對文化部活動的對應售票頁。基本場次由文化部每日更新；此平台連結與價格補充仍為人工核對，非每日平台查票。"
+    },
+    {
+      "id": "kham",
+      "platform": "寬宏 KHAM",
+      "name": "寬宏 KHAM",
+      "url": "https://kham.com.tw/",
+      "status": "manual",
+      "checkedAt": "2026-10-06",
+      "lastSuccess": null,
+      "message": "雲端已核對小宇、鄭恩地、郭子與浮花樂隊、工藤静香的官方活動海報／座位圖，收錄四場。只記錄基本日期、場館、票價及開賣時間；福利套票不另計場次。關鍵資訊多為圖片，目前人工維護，未建置定期擷取，也不宣稱全平台涵蓋。"
+    },
+    {
+      "id": "opentix",
+      "platform": "OPENTIX",
+      "name": "OPENTIX",
+      "url": "https://www.opentix.life/",
+      "status": "manual",
+      "checkedAt": "2026-10-06",
+      "lastSuccess": null,
+      "message": "公開搜尋與詳情頁人工核對非非藝術團隊演唱會。『脫口秀』搜尋目前列相聲、音樂喜劇與音樂會，未納入單口清單。需 JavaScript 場次元件，未建置定期擷取。 雲端已複核對應活動的日期、場館及票價。"
+    },
+    {
+      "id": "club-other",
+      "name": "其他喜劇主辦／場館",
+      "url": "https://comedy.com.tw/",
+      "status": "manual",
+      "checkedAt": "2026-10-06",
+      "lastSuccess": null,
+      "message": "卡米地官網與 KKTIX 主辦目錄可讀；薩泰爾公開目錄可讀。兩個男人網站本次讀取失敗，未據此推定無節目。尚未全面盤點其他獨立俱樂部。"
+    }
+  ]
+}

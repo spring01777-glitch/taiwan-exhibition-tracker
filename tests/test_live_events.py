@@ -17,6 +17,34 @@ def row():
     return dict(UID='x',category='17',title='測試演唱會',showInfo=[dict(time='2026/11/01 19:00:00',location='台北市信義區',locationName='A',price='')])
 
 class LiveEventsTests(unittest.TestCase):
+    def test_manual_only_is_offline_and_keeps_provider_timestamp(self):
+        with tempfile.TemporaryDirectory(dir=ROOT) as tmp:
+            root=Path(tmp);(root/'data').mkdir()
+            event=live.normalize([row()],'concerts',NOW)[0]
+            provider=dict(id='moc',status='ok',lastSuccess=NOW,checkedAt=NOW)
+            live.write(root/'data/concerts.json',dict(events=[event],sources=[provider]))
+            manual=copy.deepcopy(event);manual.update(id='manual',source='manual',title='another show')
+            live.write(root/'data/concerts-manual.json',dict(events=[manual],sources=[]))
+            with patch.object(live,'fetch',side_effect=AssertionError('must remain offline')) as fetch:
+                self.assertTrue(live.build('concerts',fetch,root,'2026-10-07T09:00:00+08:00',manual_only=True))
+                fetch.assert_not_called()
+            result=live.read(root/'data/concerts.json',{})
+            self.assertEqual(result['sources'][0],provider);self.assertEqual(len(result['events']),2)
+    def test_ticket_scopes_dedup_and_reject_homepages(self):
+        e=live.normalize([row()],'concerts',NOW)[0]
+        s=e['sessions'][0]
+        t=dict(url='https://comedyclub.kktix.cc/events/example',checkedAt=NOW[:10],sessions=[s,s],price='500')
+        e['tickets']=[t,t,dict(t,url='https://tixcraft.com/'),dict(t,url='javascript:alert(1)'),dict(t,sessions=[dict(date='2026-11-02',time='19:00')])]
+        out=live.normalize_tickets(e)
+        self.assertEqual(len(out),1);self.assertEqual(out[0]['platform'],'KKTIX');self.assertEqual(out[0]['sessions'],[s])
+        e['sessions']=[dict(date='2026-11-03',time='20:00')]
+        self.assertEqual(live.normalize_tickets(e),[])
+    def test_legacy_ticket_migration_and_no_inferred_platform(self):
+        e=live.normalize([row()],'concerts',NOW)[0]
+        e.update(ticketUrl='https://ticket.ibon.com.tw/ActivityInfo/Details/39978',ticketVerifiedAt=NOW[:10])
+        self.assertEqual(live.normalize_tickets(e)[0]['platform'],'ibon')
+        e['ticketUrl']='https://example.com/show'
+        self.assertEqual(live.normalize_tickets(e),[])
     def test_certificate_compatibility_keeps_default_tls_verification(self):
         response=SimpleNamespace(stdout=json.dumps([row()]).encode())
         with patch.object(live,'urlopen',side_effect=ssl.SSLCertVerificationError('strict chain check')),patch.object(live.subprocess,'run',return_value=response) as curl:

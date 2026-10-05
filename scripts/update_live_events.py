@@ -25,6 +25,31 @@ def safe_url(v):
     p = urlsplit(str(v or ''))
     return str(v) if p.scheme == 'https' and p.hostname and not p.username and not p.password else ''
 
+def platform(url):
+    host = (urlsplit(url).hostname or '').lower()
+    if host.endswith('.kktix.cc') or host == 'kktix.com': return 'KKTIX'
+    return {'tixcraft.com':'拓元 tixCraft','ticket.com.tw':'年代 ERA','kham.com.tw':'寬宏 KHAM','ticket.ibon.com.tw':'ibon','www.opentix.life':'OPENTIX','opentix.life':'OPENTIX'}.get(host)
+
+def normalize_tickets(event):
+    """Explicit session scopes only. Never turn a platform homepage into a ticket."""
+    tickets = copy.deepcopy(event.get('tickets', []))
+    if 'tickets' not in event and event.get('ticketVerifiedAt') and safe_url(event.get('ticketUrl')):
+        tickets = [dict(url=event['ticketUrl'],platform=platform(event['ticketUrl']),checkedAt=event['ticketVerifiedAt'],sessions=copy.deepcopy(event['sessions']))]
+    valid = {(s['date'],s.get('time')) for s in event['sessions']}
+    merged = {}
+    for t in tickets:
+        url = safe_url(t.get('url'))
+        if not url or not platform(url) or not t.get('checkedAt') or urlsplit(url).path in ('','/'):
+            continue
+        scoped = [dict(date=s['date'],time=s.get('time')) for s in t.get('sessions',[]) if (s.get('date'),s.get('time')) in valid]
+        if not scoped: continue
+        key=(url,t.get('price'),t.get('saleAt'))
+        if key not in merged:
+            merged[key]=dict(t,url=url,platform=platform(url),sessions=[])
+        for s in scoped:
+            if s not in merged[key]['sessions']:merged[key]['sessions'].append(s)
+    return list(merged.values())
+
 def stamp():
     return datetime.now(TW).isoformat(timespec='seconds')
 
@@ -118,7 +143,7 @@ def write(path, data):
     temp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     temp.replace(path)
 
-def build(kind, fetch, root=ROOT, now=None):
+def build(kind, fetch, root=ROOT, now=None, manual_only=False):
     now = now or stamp()
     path = root/'data'/f'{kind}.json'
     previous = read(path, {'events':[], 'sources':[]})
@@ -126,14 +151,18 @@ def build(kind, fetch, root=ROOT, now=None):
     category = '17' if kind=='concerts' else '11'
     source = {'name':'文化部・演唱會' if kind=='concerts' else '文化部・綜藝（僅明確單口／脫口秀）','url':'https://data.gov.tw/dataset/6013' if kind=='concerts' else 'https://data.gov.tw/dataset/6009','checkedAt':now,'lastSuccess':next((s.get('lastSuccess') for s in previous['sources'] if s.get('id')=='moc'),None),'id':'moc'}
     success = True
-    try:
-        incoming = normalize(fetch(category),kind,now)
-        moc = merge(previous['events'], incoming, now)
-        source.update(status='ok',lastSuccess=now,message=f'每日一次授權 JSON；本次 {len(incoming)} 個活動／場館組合。只涵蓋提供者回傳資料。')
-    except Exception as error:
-        success = False
+    if manual_only:
         moc = [e for e in previous['events'] if e['source']=='moc']
-        source.update(status='error',message='更新失敗，保留最後成功資料。'+type(error).__name__)
+        source = copy.deepcopy(next((s for s in previous['sources'] if s.get('id')=='moc'), dict(source,status='error',checkedAt=None,message='No previous MOC data')))
+    else:
+        try:
+            incoming = normalize(fetch(category),kind,now)
+            moc = merge(previous['events'], incoming, now)
+            source.update(status='ok',lastSuccess=now,message=f'每日一次授權 JSON；本次 {len(incoming)} 個活動／場館組合。只涵蓋提供者回傳資料。')
+        except Exception as error:
+            success = False
+            moc = [e for e in previous['events'] if e['source']=='moc']
+            source.update(status='error',message='更新失敗，保留最後成功資料。'+type(error).__name__)
     # Manual records have stable ids and take precedence over identical title/venue/sessions.
     events = copy.deepcopy(manual['events'])
     signature = lambda e:(clean(e['title']).casefold(),e['region'],e['venue'],tuple((s['date'],s.get('time')) for s in e['sessions']))
@@ -141,15 +170,29 @@ def build(kind, fetch, root=ROOT, now=None):
     events.extend(e for e in moc if signature(e) not in known)
     reviewed = read(root/'data'/'live-event-links.json', {})
     for e in events:
+        e['region']=e['region'].replace('台','臺')
         review = reviewed.get(e.get('sourceUid'))
         if review and review['title'] == e['title'] and safe_url(review['url']):
             e.update(sourceUrl=review['url'],ticketUrl=review['url'],ticketVerifiedAt=review['checkedAt'])
+            # A later provider add/change cannot inherit an old ticket check.
+            if 'sessions' in review:
+                scoped=[dict(date=s['date'],time=s.get('time')) for s in review['sessions'] if s.get('venue')==e['venue']]
+                e['tickets']=[dict(url=review['url'],checkedAt=review['checkedAt'],sessions=scoped)]
             for field in ('region','performers','saleAt','saleNote','price'):
                 if field in review.get('facts', {}):
                     e[field] = review['facts'][field]
             if review.get('facts', {}).get('region'):
                 e['summary'] = e['region']+'的演唱會，演出地點為'+e['venue']+'。'
-    output = dict(schemaVersion=1,timezone='Asia/Taipei',updatedAt=now,events=events,sources=[source]+manual['sources'])
+        e['tickets']=normalize_tickets(e)
+    coverage=read(root/'data'/'live-platform-coverage.json', {'sources':[]})
+    sources=[source]+manual['sources']
+    for item in coverage['sources']:
+        s=copy.deepcopy(item)
+        covered=[e for e in events if any(t['platform']==s.get('platform') for t in e['tickets'])] if s.get('platform') else []
+        s['eventCount']=len(covered)
+        s['sessionCount']=sum(sum(any(any(q['date']==v['date'] and q.get('time')==v.get('time') for q in t['sessions']) for t in e['tickets'] if t['platform']==s['platform']) for v in e['sessions']) for e in covered)
+        sources.append(s)
+    output = dict(schemaVersion=2,timezone='Asia/Taipei',updatedAt=now,events=events,sources=sources)
     write(path,output)
     return success
 
@@ -173,9 +216,10 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser()
     parser.add_argument('--concert-input',type=Path)
     parser.add_argument('--comedy-input',type=Path)
+    parser.add_argument('--manual-only',action='store_true',help='Offline rebuild; retains MOC source timestamps')
     args=parser.parse_args()
     def provider(category):
         path=args.concert_input if category=='17' else args.comedy_input
         return read(path,[]) if path else fetch(category)
-    results=[build(kind,provider) for kind in ('concerts','comedy')]
+    results=[build(kind,provider,manual_only=args.manual_only) for kind in ('concerts','comedy')]
     sys.exit(0 if all(results) else 1)
