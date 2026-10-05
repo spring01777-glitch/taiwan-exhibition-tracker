@@ -98,7 +98,11 @@ def fetch():
                 if len(data) > 10_000_000:
                     raise ValueError('response too large')
                 return json.loads(data)
-        except Exception:
+        except Exception as exc:
+            # Only connection diagnostics for this fixed public endpoint, never payloads.
+            reason = getattr(exc, 'reason', None)
+            diagnostic = re.sub(r'[\r\n]', ' ', str(reason))[:240] if reason else type(exc).__name__
+            print(f'Official source attempt {attempt + 1}: {diagnostic}', file=sys.stderr)
             if attempt == 2:
                 raise
             time.sleep(attempt + 1)
