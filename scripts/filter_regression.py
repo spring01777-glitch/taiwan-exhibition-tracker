@@ -20,6 +20,9 @@ with sync_playwright() as p:
     page.on('console',lambda m:errors.append(m.text) if m.type=='error' else None)
     page.goto(args.url,wait_until='networkidle')
     page.wait_for_selector('.card')
+    snapshot=page.request.get(args.url+'data/exhibitions.json').json()
+    def expected_options(region=''):
+        return {''}|{v['id'] for e in snapshot['events'] if not region or (e['region'] in ('臺北市','新北市') if region=='north' else e['region']==region) for v in e['locations']}
     def options():
         return page.locator('#park option').evaluate_all('(a)=>a.map(x=>x.value)')
     def only_region(region):
@@ -34,11 +37,11 @@ with sync_playwright() as p:
             page.set_viewport_size({'width':width,'height':844})
             page.locator('#filters').evaluate('(f)=>f.reset()')
             page.wait_for_timeout(100)
-            assert set(options())=={'','songshan','huashan','pier2'}
+            assert set(options())==expected_options()
             page.locator('#park').select_option('pier2')
             only_region('高雄市')
             page.locator('#region').select_option('臺北市')
-            assert options()==['','songshan','huashan']
+            assert set(options())==expected_options(page.locator('#region').input_value())
             assert page.locator('#park').input_value()==''
             only_region('臺北市')
             assert '已清除' in page.locator('#result-count').inner_text()
@@ -49,7 +52,7 @@ with sync_playwright() as p:
             page.locator('#date').fill('2026-10-10')
             assert page.locator('.card').count()>0
             page.locator('#region').select_option('高雄市')
-            assert options()==['','pier2']
+            assert set(options())==expected_options('高雄市')
             assert page.locator('#park').input_value()==''
             assert page.locator('#date').input_value()=='2026-10-10'
             only_region('高雄市')
@@ -59,7 +62,7 @@ with sync_playwright() as p:
             page.locator('#query').fill('DigiWave')
             assert page.locator('.card').count()==1
             page.locator('#region').select_option('')
-            assert set(options())=={'','songshan','huashan','pier2'}
+            assert set(options())==expected_options()
             assert page.locator('#park').input_value()=='pier2'
             assert page.locator('#query').input_value()=='DigiWave'
             assert page.locator('.card').count()==1
@@ -70,13 +73,13 @@ with sync_playwright() as p:
             assert page.locator('#park').input_value()==''
             assert page.locator('#date').input_value()==''
             assert page.locator('#query').input_value()==''
-            assert set(options())=={'','songshan','huashan','pier2'}
+            assert set(options())==expected_options()
             assert page.locator('.card').count()==24
             page.locator('#region').select_option('新北市')
-            assert options()==['']
+            assert set(options())==expected_options('新北市')
             only_region('新北市')
             page.locator('#region').select_option('north')
-            assert options()==['','songshan','huashan']
+            assert set(options())==expected_options(page.locator('#region').input_value())
             page.locator('#park').select_option('huashan')
             only_region('臺北市')
             assert page.evaluate('document.documentElement.scrollWidth<=window.innerWidth')

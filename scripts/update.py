@@ -8,6 +8,7 @@ import ssl
 import subprocess
 import sys
 import time
+from venues import classify_all
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -48,8 +49,6 @@ def normalize(rows):
                 if end < start:
                     raise ValueError('reversed dates')
                 address, venue = clean(show.get('location')), clean(show.get('locationName'))
-                if not venue and not address:
-                    raise ValueError('missing location')
                 region = next((c for c in CITIES if c in address.replace('台','臺')), '地區未提供')
                 uid = clean(row.get('UID'))
                 # UID and venue remain stable when the provider edits a date/title.
@@ -169,7 +168,7 @@ def run(output, rows=None):
     def fingerprint(e):
         return re.sub(r'\W','',e['title']).casefold(), e['region'], e['start'], e['end']
     dedup = {fingerprint(e):e for e in all_events}
-    result = {'schemaVersion':1,'generatedAt':now,'sources':status,'events':list(dedup.values())}
+    result = {'schemaVersion':1,'generatedAt':now,'sources':status,'events':classify_all(list(dedup.values()))}
     atomic(path, result)
     atomic(output/'status.json', {'generatedAt':now,'sources':status})
     print(json.dumps({'state':state,'events':len(result['events']),'sources':status}, ensure_ascii=True))

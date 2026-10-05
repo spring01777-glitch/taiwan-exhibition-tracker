@@ -13,7 +13,12 @@ def validate(path):
     assert set(data)=={'schemaVersion','generatedAt','sources','events'}
     assert data['schemaVersion']==1 and data['events']
     for e in data['events']:
-        assert not (set(e)-FIELDS), set(e)-FIELDS
+        assert not (set(e)-(FIELDS|{'venueName','venueStatus','locations'})), set(e)-FIELDS
+        assert e['locations']
+        for location in e['locations']:
+            assert set(location)=={'id','name','region','status'}
+            assert location['region']==e['region'] and location['name']
+            assert location['status'] in ('named','address','missing','uncertain')
         assert len(e['summary'])<=180 and len(e['price'])<=180 and len(e.get('verificationNote',''))<=180
         assert not re.search(r'<[^>]+>',e['summary'])
         p=urlparse(e['url'])

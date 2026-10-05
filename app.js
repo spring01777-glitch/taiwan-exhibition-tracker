@@ -11,13 +11,14 @@ const links = {moc:'https://data.gov.tw/dataset/6012',songshan:'https://www.song
 const matchesRegion = (event, region) => !region || (region==='north' ? northRank(event)<=1 : event.region===region);
 function syncParkOptions(region){
   const select=$('park'), previous=select.value;
-  const available=new Set(data.events.filter(e=>matchesRegion(e,region) && e.park).map(e=>e.park));
+  const locations=data.events.filter(e=>matchesRegion(e,region)).flatMap(e=>e.locations || []);
+  const available=new Map(locations.map(location=>[location.id,location]));
   const all=document.createElement('option');
   all.value='';all.textContent='所有場館';all.defaultSelected=true;
   select.replaceChildren(all);
-  [...available].sort((a,b)=>Object.keys(names).indexOf(a)-Object.keys(names).indexOf(b)).forEach(park=>{
+  [...available.values()].sort((a,b)=>a.name.localeCompare(b.name,'zh-TW') || a.region.localeCompare(b.region,'zh-TW')).forEach(location=>{
     const option=document.createElement('option');
-    option.value=park;option.textContent=names[park] || park;
+    option.value=location.id;option.textContent=`${location.name}（${location.region}）`;
     select.append(option);
   });
   select.value=available.has(previous) ? previous : '';
@@ -30,7 +31,7 @@ function render(){
   const date=$('date').value, park=$('park').value, query=$('query').value.trim().toLowerCase();
   let events=data.events.filter(e => {
     if(!matchesRegion(e,region)) return false;
-    if(park && e.park!==park || date && (e.start>date || e.end<date)) return false;
+    if(park && !e.locations?.some(location=>location.id===park) || date && (e.start>date || e.end<date)) return false;
     if(query && !`${e.title} ${e.venue} ${e.address} ${e.category}`.toLowerCase().includes(query)) return false;
     if(view==='history') return e.end<today;
     if(e.end<today) return false;
@@ -45,7 +46,7 @@ function render(){
   $('results').innerHTML=events.slice(0,limit).map(e=>{
     const badge = e.verificationNote ? '狀態待確認' : e.end<today ? '已結束' : e.start>today ? '即將開展' : days(e.end)<=14 ? '即將結束' : '展期內';
     const url = /^https?:\/\//i.test(e.url) ? e.url : links[e.source];
-    return `<article class="card"><div class="card-top"><span>${escapeHTML(e.region)} · ${escapeHTML(e.category)}</span><span class="badge">${badge}</span></div><h3>${escapeHTML(e.title)}</h3><dl><dt>日期　</dt><dd>${escapeHTML(e.start)} — ${escapeHTML(e.end)}</dd><dt>地點　</dt><dd>${escapeHTML(e.venue || e.address)}</dd><dt>票價　</dt><dd>${escapeHTML(e.price)}</dd></dl><p class="summary">${escapeHTML(e.summary)}</p>${e.verificationNote ? `<p class="verification">⚠ ${escapeHTML(e.verificationNote)}</p>` : ''}<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${e.source==='moc' ? '活動來源／文化部紀錄' : '官方展覽資訊'} ↗</a><small>來源：${names[e.source]}${e.sourceVersion ? ' · v'+escapeHTML(e.sourceVersion) : ' · 人工核對'}<br>最後收錄：${escapeHTML(localTime(e.lastSeen))}${e.missingFromSource ? '<br>⚠ 來源本次未提供，出發前請向主辦方確認' : ''}</small></article>`;
+    return `<article class="card"><div class="card-top"><span>${escapeHTML(e.region)} · ${escapeHTML(e.category)}</span><span class="badge">${badge}</span></div><h3>${escapeHTML(e.title)}</h3><dl><dt>日期　</dt><dd>${escapeHTML(e.start)} — ${escapeHTML(e.end)}</dd><dt>地點　</dt><dd>${escapeHTML(e.venueName || e.venue || e.address)}${e.venue && e.venue!==e.venueName ? `<br><small>${escapeHTML(e.venue)}</small>` : ''}${e.venueStatus==='uncertain' || e.venueStatus==='missing' ? '<br><small>來源未提供確切場館，請向主辦方確認</small>' : ''}</dd><dt>票價　</dt><dd>${escapeHTML(e.price)}</dd></dl><p class="summary">${escapeHTML(e.summary)}</p>${e.verificationNote ? `<p class="verification">⚠ ${escapeHTML(e.verificationNote)}</p>` : ''}<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${e.source==='moc' ? '活動來源／文化部紀錄' : '官方展覽資訊'} ↗</a><small>來源：${names[e.source]}${e.sourceVersion ? ' · v'+escapeHTML(e.sourceVersion) : ' · 人工核對'}<br>最後收錄：${escapeHTML(localTime(e.lastSeen))}${e.missingFromSource ? '<br>⚠ 來源本次未提供，出發前請向主辦方確認' : ''}</small></article>`;
   }).join('') || '<div class="empty"><h3>這組條件尚無展覽</h3><p>試著放寬地區或日期，也可以查看松菸、華山官方入口。</p></div>';
   $('more').hidden=events.length<=limit;
 }
