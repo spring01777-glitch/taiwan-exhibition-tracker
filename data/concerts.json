@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Taipei",
-  "updatedAt": "2026-10-06T05:57:36+08:00",
+  "updatedAt": "2026-10-06T07:53:52+08:00",
   "events": [
     {
       "id": "manual-forever",
@@ -514,46 +514,6 @@
       "verificationMethod": "cloud official-poster review"
     },
     {
-      "id": "51e9fa888a758d274c06",
-      "source": "moc",
-      "sourceUid": "6a7943c8eb4345557aab58e7",
-      "title": "Paul Gilbert WROC World Tour",
-      "performers": "Paul Gilbert、特別來賓梁右群",
-      "region": "臺北市",
-      "venue": "Corner House(遠雄國際金融廣場)",
-      "address": "南港區忠孝東路六段21號1樓",
-      "sessions": [
-        {
-          "date": "2026-10-25",
-          "time": "19:00"
-        }
-      ],
-      "price": "一般 NT$2,288／VIP NT$4,288；早鳥 NT$1,800／3,800",
-      "saleAt": "2026-08-08T08:00:00+08:00",
-      "saleNote": "活動19:00開始，官方時程Paul Gilbert預定20:00；早鳥至8月底。",
-      "ticketStatus": "來源未提供即時售票狀態",
-      "ticketUrl": "https://rockempire.kktix.cc/events/4e2ae0df",
-      "ticketVerifiedAt": "2026-10-06",
-      "sourceUrl": "https://rockempire.kktix.cc/events/4e2ae0df",
-      "status": "scheduled",
-      "summary": "臺北市的演唱會，演出地點為Corner House(遠雄國際金融廣場)。",
-      "verifiedAt": "2026-10-06",
-      "revisions": [],
-      "tickets": [
-        {
-          "url": "https://rockempire.kktix.cc/events/4e2ae0df",
-          "checkedAt": "2026-10-06",
-          "sessions": [
-            {
-              "date": "2026-10-25",
-              "time": "19:00"
-            }
-          ],
-          "platform": "KKTIX"
-        }
-      ]
-    },
-    {
       "id": "d04d79ac80cdb10fa26b",
       "source": "moc",
       "sourceUid": "681fa5d226b3242b74a3ba7f",
@@ -575,11 +535,10 @@
       "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "ticketVerifiedAt": "2026-10-06",
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
-      "status": "unconfirmed",
+      "status": "scheduled",
       "summary": "桃園市的演唱會，演出地點為桃園展演中心展演廳。",
       "verifiedAt": "2026-10-06",
       "revisions": [],
-      "statusNote": "來源本次未列出，保留原資料；不代表取消，請向官方確認。",
       "tickets": [
         {
           "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
@@ -616,11 +575,10 @@
       "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "ticketVerifiedAt": "2026-10-06",
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
-      "status": "unconfirmed",
+      "status": "scheduled",
       "summary": "臺東縣的演唱會，演出地點為臺東縣立體育館。",
       "verifiedAt": "2026-10-06",
       "revisions": [],
-      "statusNote": "來源本次未列出，保留原資料；不代表取消，請向官方確認。",
       "tickets": [
         {
           "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
@@ -657,11 +615,10 @@
       "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "ticketVerifiedAt": "2026-10-06",
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
-      "status": "unconfirmed",
+      "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
       "verifiedAt": "2026-10-06",
       "revisions": [],
-      "statusNote": "來源本次未列出，保留原資料；不代表取消，請向官方確認。",
       "tickets": [
         {
           "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
@@ -698,11 +655,10 @@
       "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "ticketVerifiedAt": "2026-10-06",
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
-      "status": "unconfirmed",
+      "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北國際會議中心大會堂。",
       "verifiedAt": "2026-10-06",
       "revisions": [],
-      "statusNote": "來源本次未列出，保留原資料；不代表取消，請向官方確認。",
       "tickets": [
         {
           "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
@@ -739,11 +695,10 @@
       "ticketUrl": null,
       "ticketVerifiedAt": null,
       "sourceUrl": "https://data.gov.tw/dataset/6013",
-      "status": "unconfirmed",
+      "status": "scheduled",
       "summary": "新北市的演唱會，演出地點為新北市五股工商展覽中心。",
       "verifiedAt": "2026-10-06",
       "revisions": [],
-      "statusNote": "來源本次未列出，保留原資料；不代表取消，請向官方確認。",
       "tickets": []
     },
     {
@@ -768,11 +723,10 @@
       "ticketUrl": null,
       "ticketVerifiedAt": null,
       "sourceUrl": "https://data.gov.tw/dataset/6013",
-      "status": "unconfirmed",
+      "status": "scheduled",
       "summary": "高雄市的演唱會，演出地點為高雄市文化中心至德堂。",
       "verifiedAt": "2026-10-06",
       "revisions": [],
-      "statusNote": "來源本次未列出，保留原資料；不代表取消，請向官方確認。",
       "tickets": []
     },
     {
@@ -797,11 +751,10 @@
       "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA",
       "ticketVerifiedAt": "2026-10-06",
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA",
-      "status": "unconfirmed",
+      "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北南港展覽館一館四樓。",
       "verifiedAt": "2026-10-06",
       "revisions": [],
-      "statusNote": "來源本次未列出，保留原資料；不代表取消，請向官方確認。",
       "tickets": [
         {
           "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA",
@@ -842,11 +795,10 @@
       "ticketUrl": null,
       "ticketVerifiedAt": null,
       "sourceUrl": "https://data.gov.tw/dataset/6013",
-      "status": "unconfirmed",
+      "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
       "verifiedAt": "2026-10-06",
       "revisions": [],
-      "statusNote": "來源本次未列出，保留原資料；不代表取消，請向官方確認。",
       "tickets": []
     },
     {
@@ -871,11 +823,10 @@
       "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
       "ticketVerifiedAt": "2026-10-06",
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
-      "status": "unconfirmed",
+      "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
       "verifiedAt": "2026-10-06",
       "revisions": [],
-      "statusNote": "來源本次未列出，保留原資料；不代表取消，請向官方確認。",
       "tickets": [
         {
           "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
@@ -912,11 +863,10 @@
       "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
       "ticketVerifiedAt": "2026-10-06",
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
-      "status": "unconfirmed",
+      "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
       "verifiedAt": "2026-10-06",
       "revisions": [],
-      "statusNote": "來源本次未列出，保留原資料；不代表取消，請向官方確認。",
       "tickets": [
         {
           "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
@@ -928,6 +878,46 @@
             }
           ],
           "platform": "年代 ERA"
+        }
+      ]
+    },
+    {
+      "id": "51e9fa888a758d274c06",
+      "source": "moc",
+      "sourceUid": "6a7943c8eb4345557aab58e7",
+      "title": "Paul Gilbert WROC World Tour",
+      "performers": "Paul Gilbert、特別來賓梁右群",
+      "region": "臺北市",
+      "venue": "Corner House(遠雄國際金融廣場)",
+      "address": "南港區忠孝東路六段21號1樓",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "19:00"
+        }
+      ],
+      "price": "一般 NT$2,288／VIP NT$4,288；早鳥 NT$1,800／3,800",
+      "saleAt": "2026-08-08T08:00:00+08:00",
+      "saleNote": "活動19:00開始，官方時程Paul Gilbert預定20:00；早鳥至8月底。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": "https://rockempire.kktix.cc/events/4e2ae0df",
+      "ticketVerifiedAt": "2026-10-06",
+      "sourceUrl": "https://rockempire.kktix.cc/events/4e2ae0df",
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為Corner House(遠雄國際金融廣場)。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": [
+        {
+          "url": "https://rockempire.kktix.cc/events/4e2ae0df",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "19:00"
+            }
+          ],
+          "platform": "KKTIX"
         }
       ]
     },
@@ -953,11 +943,10 @@
       "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FWXUND",
       "ticketVerifiedAt": "2026-10-06",
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FWXUND",
-      "status": "unconfirmed",
+      "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為CLAPPER STUDIO 展演廳(三創生活)。",
       "verifiedAt": "2026-10-06",
       "revisions": [],
-      "statusNote": "來源本次未列出，保留原資料；不代表取消，請向官方確認。",
       "tickets": [
         {
           "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FWXUND",
@@ -977,11 +966,11 @@
     {
       "name": "文化部・演唱會",
       "url": "https://data.gov.tw/dataset/6013",
-      "checkedAt": "2026-10-06T05:57:36+08:00",
-      "lastSuccess": "2026-10-06T05:57:36+08:00",
+      "checkedAt": "2026-10-06T07:53:52+08:00",
+      "lastSuccess": "2026-10-06T07:53:52+08:00",
       "id": "moc",
       "status": "ok",
-      "message": "每日一次授權 JSON；本次 1 個活動／場館組合。只涵蓋提供者回傳資料。"
+      "message": "每日一次授權 JSON；本次 12 個活動／場館組合。只涵蓋提供者回傳資料。"
     },
     {
       "id": "kktix",
