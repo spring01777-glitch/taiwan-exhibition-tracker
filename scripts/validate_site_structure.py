@@ -20,6 +20,7 @@ for name,ids in PAGES.items():
         if not uri.scheme and not uri.netloc and uri.path and not uri.path.startswith('/'):
             assert (ROOT/uri.path).exists(),(name,uri.path)
     for asset in soup.select('script[src],link[rel=stylesheet]'):
-        assert (ROOT/(asset.get('src') or asset['href'])).is_file()
+        uri=urlsplit(asset.get('src') or asset['href'])
+        assert not uri.scheme and not uri.netloc and (ROOT/uri.path).is_file()
     assert not soup.select('img'), 'No unlicensed imagery added'
 print('PASS four-page static contracts: IDs, labels, one active shared navigation, local assets, safe links, no imagery.')
