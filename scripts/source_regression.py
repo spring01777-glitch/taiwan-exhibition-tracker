@@ -13,7 +13,9 @@ for e in moc:
     assert 'method=showEvent&' not in e['url']
     if e['sourceLinkState']=='verified':
         assert cache[e['sourceUid']]['title']==e['title']
-        assert e['url']==cache[e['sourceUid']]['url']==e['promoteUrl']
+        assert e['url']==cache[e['sourceUid']]['url']
+        if e['sourceLinkType']=='promote':assert e['url']==e['promoteUrl']
+        else:assert 'method=showEventDetail&uid='+e['sourceUid'] in e['url']
     else: assert e['url']=='https://data.gov.tw/dataset/6012'
 report={'snapshotEvents':len(moc),'verified':sum(e['sourceLinkState']=='verified' for e in moc),'fallback':sum(e['sourceLinkState']!='verified' for e in moc),'viewports':[],'external':[]}
 errors=[]

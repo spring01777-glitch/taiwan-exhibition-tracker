@@ -31,6 +31,9 @@ jobs:
           python -m unittest discover -s tests -v
           python -m py_compile scripts/update.py
           node --check app.js
+      - name: Recheck up to three previously matched official source pages
+        timeout-minutes: 2
+        run: python scripts/recover_source_links.py
       - name: Fetch official open data, preserving last success on failure
         id: update
         shell: bash
@@ -46,7 +49,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/exhibitions.json data/status.json
+          git add data/exhibitions.json data/status.json data/source-links.json data/source-link-candidates.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update official exhibition data and source status'
             git push origin HEAD:main
