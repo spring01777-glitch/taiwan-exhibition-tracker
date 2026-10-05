@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Taipei",
-  "updatedAt": "2026-10-06T00:40:47+08:00",
+  "updatedAt": "2026-10-06T00:54:12+08:00",
   "events": [
     {
       "id": "manual-forever",
@@ -390,8 +390,8 @@
     {
       "name": "文化部・演唱會",
       "url": "https://data.gov.tw/dataset/6013",
-      "checkedAt": "2026-10-06T00:40:47+08:00",
-      "lastSuccess": "2026-10-06T00:40:47+08:00",
+      "checkedAt": "2026-10-06T00:54:12+08:00",
+      "lastSuccess": "2026-10-06T00:54:12+08:00",
       "id": "moc",
       "status": "ok",
       "message": "每日一次授權 JSON；本次 12 個活動／場館組合。只涵蓋提供者回傳資料。"

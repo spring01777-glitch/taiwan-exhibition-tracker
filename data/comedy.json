@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Taipei",
-  "updatedAt": "2026-10-06T00:40:48+08:00",
+  "updatedAt": "2026-10-06T00:54:12+08:00",
   "events": [
     {
       "id": "manual-lan-1008",
@@ -158,8 +158,8 @@
     {
       "name": "文化部・綜藝（僅明確單口／脫口秀）",
       "url": "https://data.gov.tw/dataset/6009",
-      "checkedAt": "2026-10-06T00:40:48+08:00",
-      "lastSuccess": "2026-10-06T00:40:48+08:00",
+      "checkedAt": "2026-10-06T00:54:12+08:00",
+      "lastSuccess": "2026-10-06T00:54:12+08:00",
       "id": "moc",
       "status": "ok",
       "message": "每日一次授權 JSON；本次 0 個活動／場館組合。只涵蓋提供者回傳資料。"

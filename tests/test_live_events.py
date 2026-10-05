@@ -3,6 +3,9 @@ import importlib.util
 import json
 import tempfile
 import unittest
+import ssl
+from types import SimpleNamespace
+from unittest.mock import patch
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -14,6 +17,13 @@ def row():
     return dict(UID='x',category='17',title='測試演唱會',showInfo=[dict(time='2026/11/01 19:00:00',location='台北市信義區',locationName='A',price='')])
 
 class LiveEventsTests(unittest.TestCase):
+    def test_certificate_compatibility_keeps_default_tls_verification(self):
+        response=SimpleNamespace(stdout=json.dumps([row()]).encode())
+        with patch.object(live,'urlopen',side_effect=ssl.SSLCertVerificationError('strict chain check')),patch.object(live.subprocess,'run',return_value=response) as curl:
+            self.assertEqual(live.fetch('17')[0]['UID'],'x')
+            args=curl.call_args.args[0]
+            self.assertEqual(args[:2],['curl','--disable']);self.assertNotIn('--insecure',args)
+            self.assertEqual(args[-1],live.API+'17')
     def test_multi_session_and_dedup(self):
         r=row(); r['showInfo'].append(copy.deepcopy(r['showInfo'][0])); s=copy.deepcopy(r['showInfo'][0]);s['time']='2026/11/02 19:00:00'; r['showInfo'].append(s)
         out=live.normalize([r,r],'concerts',NOW)

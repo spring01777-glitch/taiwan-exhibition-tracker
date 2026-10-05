@@ -5,6 +5,8 @@ import hashlib
 import html
 import json
 import re
+import ssl
+import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -153,8 +155,16 @@ def build(kind, fetch, root=ROOT, now=None):
 
 def fetch(category):
     request = Request(API+category,headers={'User-Agent':'TaiwanLiveEventsTracker/1.0 (daily licensed open-data metadata)'})
-    with urlopen(request,timeout=30) as response:
-        raw = response.read(8_000_001)
+    try:
+        with urlopen(request,timeout=30) as response:
+            raw = response.read(8_000_001)
+    except Exception as error:
+        certificate_error=isinstance(error,ssl.SSLCertVerificationError) or isinstance(getattr(error,'reason',None),ssl.SSLCertVerificationError)
+        if not certificate_error:raise
+        # Same official URL, system TLS verification; no --insecure, trust-store
+        # edits, external proxies or inherited curl config.
+        result=subprocess.run(['curl','--disable','--fail','--silent','--show-error','--max-time','30','--max-filesize','8000000',API+category],capture_output=True,timeout=35,check=True)
+        raw=result.stdout
     if len(raw)>8_000_000:
         raise ValueError('oversized response')
     return json.loads(raw.decode('utf-8-sig'))
