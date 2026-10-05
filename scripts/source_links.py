@@ -1,4 +1,4 @@
-"""Use only title-verified official links; no guessed or unverified detail links."""
+"""Prefer verified links, then publisher-provided URLs with distinct provenance."""
 import re
 from urllib.parse import parse_qs,urlparse
 DATASET='https://data.gov.tw/dataset/6012'
@@ -12,4 +12,7 @@ def resolve_source_link(uid,title,checked,promote=''):
     valid_url=culture_url or promote_url
     verified=valid_uid and valid_url and entry.get('state')=='verified' and entry.get('title')==title
     if verified:return {'url':url,'sourceLinkState':'verified','sourceLinkCheckedAt':entry.get('checkedAt',''),'sourceLinkType':'culture' if culture_url else 'promote'}
+    provided=urlparse(promote)
+    if valid_uid and provided.scheme in ('https','http') and provided.hostname and not provided.username and not provided.password and promote!=DATASET:
+        return {'url':promote,'sourceLinkState':'source-provided','sourceLinkCheckedAt':'','sourceLinkType':'promote'}
     return {'url':DATASET,'sourceLinkState':'unavailable' if valid_uid else 'invalid-id','sourceLinkCheckedAt':entry.get('checkedAt',''),'sourceLinkType':'dataset'}

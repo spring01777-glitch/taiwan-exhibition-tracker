@@ -20,4 +20,16 @@ class SourceLinkTests(unittest.TestCase):
         url='https://www.nmns.edu.tw/exhibition/'
         cache={self.uid:{'title':'活動','url':url,'state':'verified'}}
         self.assertEqual(resolve_source_link(self.uid,'活動',cache,url)['sourceLinkType'],'promote')
-        self.assertEqual(resolve_source_link(self.uid,'活動',cache,'https://example.com/')['url'],DATASET)
+        self.assertEqual(resolve_source_link(self.uid,'活動',cache,'https://example.com/')['url'],'https://example.com/')
+    def test_provided_url_is_used_without_claiming_verification(self):
+        url='https://www.nmns.edu.tw/ch/exhibitions/galleries/life-science-hall/fantastic/'
+        for cache in ({},self.record(state='unavailable'),self.record(title='別的活動')):
+            r=resolve_source_link(self.uid,'活動',cache,url)
+            self.assertEqual(r['url'],url)
+            self.assertEqual(r['sourceLinkState'],'source-provided')
+            self.assertEqual(r['sourceLinkCheckedAt'],'')
+    def test_provided_url_rejects_unsafe_or_dataset_values(self):
+        for url in ['javascript:alert(1)','https://user:secret@example.com',DATASET,'']:
+            self.assertEqual(resolve_source_link(self.uid,'活動',{},url)['url'],DATASET)
+    def test_invalid_uid_does_not_enable_provided_link(self):
+        self.assertEqual(resolve_source_link('invalid','活動',{},'https://example.com/')['url'],DATASET)
