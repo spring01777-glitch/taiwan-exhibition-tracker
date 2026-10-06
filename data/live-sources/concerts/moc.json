@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "moc",
+  "kind": "concerts",
+  "events": [
+    {
+      "id": "d04d79ac80cdb10fa26b",
+      "source": "moc",
+      "sourceUid": "681fa5d226b3242b74a3ba7f",
+      "title": "「2026年國際沈文程日-小琉球情歌演唱會」",
+      "performers": "",
+      "region": "桃園市",
+      "venue": "桃園展演中心展演廳",
+      "address": "桃園市桃園區中正路1188號",
+      "sessions": [
+        {
+          "date": "2026-11-01",
+          "time": "15:00"
+        }
+      ],
+      "price": "3600、3200、2600、2000、1600、1200",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+      "ticketVerifiedAt": "2026-10-06",
+      "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+      "status": "scheduled",
+      "summary": "桃園市的演唱會，演出地點為桃園展演中心展演廳。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": [
+        {
+          "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-01",
+              "time": "15:00"
+            }
+          ],
+          "platform": "年代 ERA"
+        }
+      ]
+    },
+    {
+      "id": "3e81df191a9ebea564f7",
+      "source": "moc",
+      "sourceUid": "681fa5d226b3242b74a3ba7f",
+      "title": "「2026年國際沈文程日-小琉球情歌演唱會」",
+      "performers": "",
+      "region": "臺東縣",
+      "venue": "臺東縣立體育館",
+      "address": "臺東縣臺東市桂林北路52巷124號",
+      "sessions": [
+        {
+          "date": "2027-03-20",
+          "time": "15:00"
+        }
+      ],
+      "price": "3000、2800、2400、2000、1600、1200",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+      "ticketVerifiedAt": "2026-10-06",
+      "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+      "status": "scheduled",
+      "summary": "臺東縣的演唱會，演出地點為臺東縣立體育館。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": [
+        {
+          "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2027-03-20",
+              "time": "15:00"
+            }
+          ],
+          "platform": "年代 ERA"
+        }
+      ]
+    },
+    {
+      "id": "13b1942f9f6556a917de",
+      "source": "moc",
+      "sourceUid": "681fa5d226b3242b74a3ba7f",
+      "title": "「2026年國際沈文程日-小琉球情歌演唱會」",
+      "performers": "",
+      "region": "臺中市",
+      "venue": "台中中興大學惠蓀堂",
+      "address": "臺中市南區興大路145號",
+      "sessions": [
+        {
+          "date": "2027-05-08",
+          "time": "15:00"
+        }
+      ],
+      "price": "3600、3200、2800、2400、2000、1600、1200、800",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+      "ticketVerifiedAt": "2026-10-06",
+      "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": [
+        {
+          "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2027-05-08",
+              "time": "15:00"
+            }
+          ],
+          "platform": "年代 ERA"
+        }
+      ]
+    },
+    {
+      "id": "a26993a035c6e2aa39f7",
+      "source": "moc",
+      "sourceUid": "681fa5d226b3242b74a3ba7f",
+      "title": "「2026年國際沈文程日-小琉球情歌演唱會」",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心大會堂",
+      "address": "臺北市信義區信義路五段一號",
+      "sessions": [
+        {
+          "date": "2027-06-26",
+          "time": "15:00"
+        }
+      ],
+      "price": "3600、3200、2800、2400、2000、1600、1200",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+      "ticketVerifiedAt": "2026-10-06",
+      "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為台北國際會議中心大會堂。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": [
+        {
+          "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2027-06-26",
+              "time": "15:00"
+            }
+          ],
+          "platform": "年代 ERA"
+        }
+      ]
+    },
+    {
+      "id": "a5b11632459c94134689",
+      "source": "moc",
+      "sourceUid": "69ea826226b3242a48a9e604",
+      "title": "Novelbright ASIA TOUR 2026 ~PYRAMID~ IN TAIPEI",
+      "performers": "",
+      "region": "新北市",
+      "venue": "新北市五股工商展覽中心",
+      "address": "新北市五股區五權路1號",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "18:00"
+        }
+      ],
+      "price": "3900、3600、2800、2000",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "新北市的演唱會，演出地點為新北市五股工商展覽中心。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": []
+    },
+    {
+      "id": "9ea0a0cff3ea25dfaeeb",
+      "source": "moc",
+      "sourceUid": "69fce72826b3243414ccc660",
+      "title": "永遠的巨星 謝雷 2026演唱會",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄市文化中心至德堂",
+      "address": "高雄市苓雅區五福一路67號",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "19:00"
+        }
+      ],
+      "price": "4800、3500、2500、2000、1200",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為高雄市文化中心至德堂。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": []
+    },
+    {
+      "id": "8e112ff8fdbdb5455581",
+      "source": "moc",
+      "sourceUid": "6a10c26626b3243414cccad2",
+      "title": "Jason Mraz ASIA TOUR 2026 IN TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北南港展覽館一館四樓",
+      "address": "臺北市南港區經貿二路1號",
+      "sessions": [
+        {
+          "date": "2026-11-02",
+          "time": "19:30"
+        }
+      ],
+      "price": "8880、5880、5280、4880、3880、2880",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA",
+      "ticketVerifiedAt": "2026-10-06",
+      "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA",
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為台北南港展覽館一館四樓。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": [
+        {
+          "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-02",
+              "time": "19:30"
+            }
+          ],
+          "platform": "年代 ERA"
+        }
+      ]
+    },
+    {
+      "id": "a81f1b7dd139799deed2",
+      "source": "moc",
+      "sourceUid": "6a10c26926b3243414cccad3",
+      "title": "2026蔡義德【聲聲不息】演唱會",
+      "performers": "",
+      "region": "臺中市",
+      "venue": "台中中興大學惠蓀堂",
+      "address": "臺中市南區興大路145號",
+      "sessions": [
+        {
+          "date": "2026-12-26",
+          "time": "18:00"
+        },
+        {
+          "date": "2026-12-27",
+          "time": "14:30"
+        }
+      ],
+      "price": "12000、10000、6000、5000、3800、3000、2800、2200",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": []
+    },
+    {
+      "id": "3a13ea36dede363bca59",
+      "source": "moc",
+      "sourceUid": "6a18a65226b3243414cccc48",
+      "title": "【翁倩玉 陽光般的60週年演唱會-時間之歌】",
+      "performers": "",
+      "region": "臺中市",
+      "venue": "台中中興大學惠蓀堂",
+      "address": "臺中市南區興大路145號",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "15:00"
+        }
+      ],
+      "price": "5600、4800、4200、3600、3000、2400、1800、1200",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
+      "ticketVerifiedAt": "2026-10-06",
+      "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": [
+        {
+          "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "15:00"
+            }
+          ],
+          "platform": "年代 ERA"
+        }
+      ]
+    },
+    {
+      "id": "10f109474c5b4e1703f3",
+      "source": "moc",
+      "sourceUid": "6a6928c526b32427d06042dd",
+      "title": "2026林淑容【您的經典．我的歌】世界巡迴演唱會台中場",
+      "performers": "",
+      "region": "臺中市",
+      "venue": "台中中興大學惠蓀堂",
+      "address": "臺中市南區興大路145號",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "19:00"
+        }
+      ],
+      "price": "6800、5800、4800、3800、2800、1800、1000、800",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
+      "ticketVerifiedAt": "2026-10-06",
+      "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": [
+        {
+          "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "19:00"
+            }
+          ],
+          "platform": "年代 ERA"
+        }
+      ]
+    },
+    {
+      "id": "51e9fa888a758d274c06",
+      "source": "moc",
+      "sourceUid": "6a7943c8eb4345557aab58e7",
+      "title": "Paul Gilbert WROC World Tour",
+      "performers": "Paul Gilbert、特別來賓梁右群",
+      "region": "臺北市",
+      "venue": "Corner House(遠雄國際金融廣場)",
+      "address": "南港區忠孝東路六段21號1樓",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "19:00"
+        }
+      ],
+      "price": "一般 NT$2,288／VIP NT$4,288；早鳥 NT$1,800／3,800",
+      "saleAt": "2026-08-08T08:00:00+08:00",
+      "saleNote": "活動19:00開始，官方時程Paul Gilbert預定20:00；早鳥至8月底。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": "https://rockempire.kktix.cc/events/4e2ae0df",
+      "ticketVerifiedAt": "2026-10-06",
+      "sourceUrl": "https://rockempire.kktix.cc/events/4e2ae0df",
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為Corner House(遠雄國際金融廣場)。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": [
+        {
+          "url": "https://rockempire.kktix.cc/events/4e2ae0df",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "19:00"
+            }
+          ],
+          "platform": "KKTIX"
+        }
+      ]
+    },
+    {
+      "id": "6b888a009ea04178eec6",
+      "source": "moc",
+      "sourceUid": "6aac3bc626b324165c32e4ec",
+      "title": "AxMxP X VERSE CONCERT IN TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "CLAPPER STUDIO 展演廳(三創生活)",
+      "address": "臺北市中正區正守里市民大道三段2號5樓",
+      "sessions": [
+        {
+          "date": "2026-11-29",
+          "time": "17:00"
+        }
+      ],
+      "price": "5880",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FWXUND",
+      "ticketVerifiedAt": "2026-10-06",
+      "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FWXUND",
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為CLAPPER STUDIO 展演廳(三創生活)。",
+      "verifiedAt": "2026-10-06",
+      "revisions": [],
+      "tickets": [
+        {
+          "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FWXUND",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "17:00"
+            }
+          ],
+          "platform": "年代 ERA"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "name": "文化部・演唱會",
+    "url": "https://data.gov.tw/dataset/6013",
+    "checkedAt": "2026-10-06T07:53:52+08:00",
+    "lastSuccess": "2026-10-06T07:53:52+08:00",
+    "id": "moc",
+    "status": "ok",
+    "message": "每日一次授權 JSON；本次 12 個活動／場館組合。只涵蓋提供者回傳資料。"
+  },
+  "records": []
+}

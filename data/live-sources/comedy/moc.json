@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "moc",
+  "kind": "comedy",
+  "events": [],
+  "status": {
+    "name": "文化部・綜藝（僅明確單口／脫口秀）",
+    "url": "https://data.gov.tw/dataset/6009",
+    "checkedAt": "2026-10-06T07:53:54+08:00",
+    "lastSuccess": "2026-10-06T07:53:54+08:00",
+    "id": "moc",
+    "status": "ok",
+    "message": "每日一次授權 JSON；本次 0 個活動／場館組合。只涵蓋提供者回傳資料。"
+  },
+  "records": []
+}
