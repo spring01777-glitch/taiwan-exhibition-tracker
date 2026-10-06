@@ -84,7 +84,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/exhibitions.json data/status.json data/source-links.json data/source-link-candidates.json data/curated.json data/venue-source-status.json data/concerts.json data/comedy.json data/f1.json
+          git add data/exhibitions.json data/status.json data/source-links.json data/source-link-candidates.json data/curated.json data/venue-source-status.json data/concerts.json data/comedy.json data/f1.json data/live-sources/
           if ! git diff --cached --quiet; then
             git commit -m 'Update official event data and source status'
             git push origin HEAD:main

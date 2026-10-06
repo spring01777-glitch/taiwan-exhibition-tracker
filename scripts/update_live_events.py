@@ -208,6 +208,13 @@ def build(kind, fetch, root=ROOT, now=None, manual_only=False):
     coverage=read(root/'data'/'live-platform-coverage.json', {'sources':[]})
     independent_ids={s['id'] for s in source_statuses}
     sources=[source]+manual['sources']+source_statuses
+    for state in sources:
+        matrix=next((s for s in coverage['sources'] if s['id']==state['id']),None)
+        if matrix:
+            state['verifiedScopes']=[s for s in matrix.get('verifiedScopes',[]) if s['kind']==kind]
+            state['catalogTotal']=matrix.get('catalogTotal')
+            state['unreviewedCatalogItems']=matrix.get('unreviewedCatalogItems')
+            state['unknowns']=matrix.get('unknowns',[])
     for item in coverage['sources']:
         if item['id'] in independent_ids:continue
         s=copy.deepcopy(item)

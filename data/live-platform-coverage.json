@@ -1,14 +1,25 @@
 {
+  "schemaVersion": 2,
   "sources": [
     {
-      "id": "kktix",
-      "platform": "KKTIX",
-      "name": "KKTIX／卡米地・薩泰爾・演唱會主辦",
-      "url": "https://comedyclub.kktix.cc/",
-      "status": "manual",
-      "checkedAt": "2026-10-06",
+      "id": "moc",
+      "name": "文化部授權開放資料",
+      "url": "https://data.gov.tw/",
+      "status": "licensed-api",
+      "automationPermission": "licensed-open-data",
+      "checkedAt": null,
       "lastSuccess": null,
-      "message": "公開目錄與單場活動頁人工核對；合併巡演總頁、單場页與加場。已加入多城市單口專場，排除課程、即興、漫才與聊天節目。目前未取得固定自動匯入授權或穩定資料來源，並非每日重查。"
+      "verifiedScopes": [],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ],
+      "message": "每日授權 API 僅處理文化部 category 17/11 回傳；不代表全台售票活動。"
     },
     {
       "id": "tixcraft",
@@ -17,8 +28,216 @@
       "url": "https://tixcraft.com/",
       "status": "manual",
       "checkedAt": "2026-10-06",
+      "lastSuccess": "2026-10-06T09:15:59+08:00",
+      "message": "已保存下列官方詳情頁、實際場次與核對日期；輸入資料包不等於完整目錄。",
+      "automationPermission": "automation-not-approved",
+      "verifiedScopes": [
+        {
+          "kind": "concerts",
+          "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+          "reviewedAt": "2026-10-06",
+          "lastSuccess": "2026-10-06T09:15:59+08:00",
+          "status": "ok",
+          "reviewedDetailUrls": [
+            "https://tixcraft.com/activity/detail/26_5sos",
+            "https://tixcraft.com/activity/detail/26_82major",
+            "https://tixcraft.com/activity/detail/26_aaa",
+            "https://tixcraft.com/activity/detail/26_bini",
+            "https://tixcraft.com/activity/detail/26_brb",
+            "https://tixcraft.com/activity/detail/26_btskns",
+            "https://tixcraft.com/activity/detail/26_cptp",
+            "https://tixcraft.com/activity/detail/26_cw",
+            "https://tixcraft.com/activity/detail/26_domijd",
+            "https://tixcraft.com/activity/detail/26_fireball",
+            "https://tixcraft.com/activity/detail/26_fkj",
+            "https://tixcraft.com/activity/detail/26_gboyswag",
+            "https://tixcraft.com/activity/detail/26_joji",
+            "https://tixcraft.com/activity/detail/26_juiceboy",
+            "https://tixcraft.com/activity/detail/26_khalid",
+            "https://tixcraft.com/activity/detail/26_lsf",
+            "https://tixcraft.com/activity/detail/26_plavetp",
+            "https://tixcraft.com/activity/detail/26_renetp",
+            "https://tixcraft.com/activity/detail/26_shishi",
+            "https://tixcraft.com/activity/detail/26_slowdive",
+            "https://tixcraft.com/activity/detail/26_straykids",
+            "https://tixcraft.com/activity/detail/26_theboyz",
+            "https://tixcraft.com/activity/detail/26_todd",
+            "https://tixcraft.com/activity/detail/26_twskh",
+            "https://tixcraft.com/activity/detail/26_vashhsu",
+            "https://tixcraft.com/activity/detail/26_wte",
+            "https://tixcraft.com/activity/detail/26_youngk",
+            "https://tixcraft.com/activity/detail/26_yungkai"
+          ],
+          "dateRange": {
+            "from": "2026-10-20",
+            "through": "2026-12-26"
+          },
+          "reviewedInputItems": 28,
+          "storedVenueRecords": 28,
+          "storedSessions": 35,
+          "decisions": {
+            "discovered": 28,
+            "included": 28,
+            "excluded": 0,
+            "pending": 0,
+            "failed": 0
+          },
+          "pagesVisited": 1,
+          "expectedPages": 1,
+          "pageGrain": "輸入資料包；不代表平台目錄分頁",
+          "coverageComplete": false
+        }
+      ],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ]
+    },
+    {
+      "id": "kktix",
+      "platform": "KKTIX",
+      "name": "KKTIX",
+      "url": "https://kktix.com/",
+      "status": "manual",
+      "checkedAt": "2026-10-06",
+      "lastSuccess": "2026-10-06T09:16:42+08:00",
+      "message": "已保存下列官方詳情頁、實際場次與核對日期；輸入資料包不等於完整目錄。",
+      "automationPermission": "automation-not-approved",
+      "verifiedScopes": [
+        {
+          "kind": "comedy",
+          "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 未提供；不是全站完整目錄",
+          "reviewedAt": "2026-10-06",
+          "lastSuccess": "2026-10-06T09:16:42+08:00",
+          "status": "ok",
+          "reviewedDetailUrls": [
+            "https://onthebeach.kktix.cc/events/chinese-october",
+            "https://onthebeach.kktix.cc/events/english-october"
+          ],
+          "dateRange": {
+            "from": "2026-10-16",
+            "through": "2026-10-16"
+          },
+          "reviewedInputItems": 2,
+          "storedVenueRecords": 2,
+          "storedSessions": 2,
+          "decisions": {
+            "discovered": 2,
+            "included": 2,
+            "excluded": 0,
+            "pending": 0,
+            "failed": 0
+          },
+          "pagesVisited": 1,
+          "expectedPages": 1,
+          "pageGrain": "輸入資料包；不代表平台目錄分頁",
+          "coverageComplete": false
+        }
+      ],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ]
+    },
+    {
+      "id": "comedyclub",
+      "name": "卡米地官方主辦目錄",
+      "url": "https://comedyclub.kktix.cc/",
+      "status": "manual",
+      "automationPermission": "automation-not-approved",
+      "checkedAt": "2026-10-06",
+      "lastSuccess": "2026-10-06T09:16:42+08:00",
+      "verifiedScopes": [
+        {
+          "kind": "comedy",
+          "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 未提供；不是全站完整目錄",
+          "reviewedAt": "2026-10-06",
+          "lastSuccess": "2026-10-06T09:16:42+08:00",
+          "status": "ok",
+          "reviewedDetailUrls": [
+            "https://comedyclub.kktix.cc/events/allaroundyou1106",
+            "https://comedyclub.kktix.cc/events/allaroundyou1113",
+            "https://comedyclub.kktix.cc/events/buzzthreeinone",
+            "https://comedyclub.kktix.cc/events/child1205",
+            "https://comedyclub.kktix.cc/events/coldn20261114",
+            "https://comedyclub.kktix.cc/events/coldn20261121",
+            "https://comedyclub.kktix.cc/events/coldn20261128",
+            "https://comedyclub.kktix.cc/events/coldn20261212",
+            "https://comedyclub.kktix.cc/events/dangerousjokes",
+            "https://comedyclub.kktix.cc/events/kusoexplosion",
+            "https://comedyclub.kktix.cc/events/lucas20261204",
+            "https://comedyclub.kktix.cc/events/lucas202612061",
+            "https://comedyclub.kktix.cc/events/newcomer20261500",
+            "https://comedyclub.kktix.cc/events/newcomer20261900",
+            "https://comedyclub.kktix.cc/events/numbawan",
+            "https://comedyclub.kktix.cc/events/rulesofshangliu",
+            "https://comedyclub.kktix.cc/events/sexbus",
+            "https://comedyclub.kktix.cc/events/taichungcomedylive1107-2",
+            "https://comedyclub.kktix.cc/events/thecutautumn1106",
+            "https://comedyclub.kktix.cc/events/tryoutping",
+            "https://comedyclub.kktix.cc/events/veteranvsrookie26",
+            "https://comedyclub.kktix.cc/events/whyyoudonotlaugh"
+          ],
+          "dateRange": {
+            "from": "2026-10-25",
+            "through": "2026-12-13"
+          },
+          "reviewedInputItems": 26,
+          "storedVenueRecords": 22,
+          "storedSessions": 26,
+          "decisions": {
+            "discovered": 26,
+            "included": 26,
+            "excluded": 0,
+            "pending": 0,
+            "failed": 0
+          },
+          "pagesVisited": 1,
+          "expectedPages": 1,
+          "pageGrain": "輸入資料包；不代表平台目錄分頁",
+          "coverageComplete": false
+        }
+      ],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ],
+      "message": "已保存下列官方詳情頁、實際場次與核對日期；輸入資料包不等於完整目錄。"
+    },
+    {
+      "id": "satire",
+      "name": "薩泰爾官方主辦目錄",
+      "url": "",
+      "status": "manual",
+      "automationPermission": "automation-not-approved",
+      "checkedAt": null,
       "lastSuccess": null,
-      "message": "核對公開活動詳情，新增 izna、QWER、派偉俊、T.O.P。排除非官方接駁、生日見面會及票券升級。robots 禁止部分購票路徑；不進入購票流程，不安排平台爬取。"
+      "verifiedScopes": [],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ],
+      "message": "尚無獨立核對快照；目錄範圍與項目數未知。"
     },
     {
       "id": "ibon",
@@ -27,8 +246,59 @@
       "url": "https://ticket.ibon.com.tw/",
       "status": "manual",
       "checkedAt": "2026-10-06",
-      "lastSuccess": null,
-      "message": "透過公開網頁核對都暻秀高雄兩場，含票價、開賣時間；頁面需 JavaScript 載入。目前人工維護，未建置定期擷取或宣稱全站涵蓋。 雲端已複核對應活動的日期、場館及票價。"
+      "lastSuccess": "2026-10-06T09:03:17+08:00",
+      "message": "已保存下列官方詳情頁、實際場次與核對日期；輸入資料包不等於完整目錄。",
+      "automationPermission": "automation-not-approved",
+      "verifiedScopes": [
+        {
+          "kind": "concerts",
+          "scope": "雲端文字交接 supplement-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+          "reviewedAt": "2026-10-06",
+          "lastSuccess": "2026-10-06T09:03:17+08:00",
+          "status": "ok",
+          "reviewedDetailUrls": [
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39575",
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39734",
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39773",
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39776",
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39873",
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39877",
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39905",
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39909",
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39910",
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39946",
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39962",
+            "https://ticket.ibon.com.tw/ActivityInfo/Details/39971"
+          ],
+          "dateRange": {
+            "from": "2026-10-10",
+            "through": "2026-12-13"
+          },
+          "reviewedInputItems": 12,
+          "storedVenueRecords": 12,
+          "storedSessions": 17,
+          "decisions": {
+            "discovered": 12,
+            "included": 12,
+            "excluded": 0,
+            "pending": 0,
+            "failed": 0
+          },
+          "pagesVisited": 1,
+          "expectedPages": 1,
+          "pageGrain": "輸入資料包；不代表平台目錄分頁",
+          "coverageComplete": false
+        }
+      ],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ]
     },
     {
       "id": "era",
@@ -37,8 +307,48 @@
       "url": "https://ticket.com.tw/",
       "status": "manual",
       "checkedAt": "2026-10-06",
-      "lastSuccess": null,
-      "message": "已核對文化部活動的對應售票頁。基本場次由文化部每日更新；此平台連結與價格補充仍為人工核對，非每日平台查票。"
+      "lastSuccess": "2026-10-06T09:03:17+08:00",
+      "message": "已保存下列官方詳情頁、實際場次與核對日期；輸入資料包不等於完整目錄。",
+      "automationPermission": "automation-not-approved",
+      "verifiedScopes": [
+        {
+          "kind": "concerts",
+          "scope": "雲端文字交接 supplement-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+          "reviewedAt": "2026-10-06",
+          "lastSuccess": "2026-10-06T09:03:17+08:00",
+          "status": "ok",
+          "reviewedDetailUrls": [
+            "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CHP23G"
+          ],
+          "dateRange": {
+            "from": "2026-10-25",
+            "through": "2026-10-26"
+          },
+          "reviewedInputItems": 1,
+          "storedVenueRecords": 1,
+          "storedSessions": 3,
+          "decisions": {
+            "discovered": 1,
+            "included": 1,
+            "excluded": 0,
+            "pending": 0,
+            "failed": 0
+          },
+          "pagesVisited": 1,
+          "expectedPages": 1,
+          "pageGrain": "輸入資料包；不代表平台目錄分頁",
+          "coverageComplete": false
+        }
+      ],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ]
     },
     {
       "id": "kham",
@@ -47,8 +357,52 @@
       "url": "https://kham.com.tw/",
       "status": "manual",
       "checkedAt": "2026-10-06",
-      "lastSuccess": null,
-      "message": "雲端已核對小宇、鄭恩地、郭子與浮花樂隊、工藤静香的官方活動海報／座位圖，收錄四場。只記錄基本日期、場館、票價及開賣時間；福利套票不另計場次。關鍵資訊多為圖片，目前人工維護，未建置定期擷取，也不宣稱全平台涵蓋。"
+      "lastSuccess": "2026-10-06T09:15:59+08:00",
+      "message": "已保存下列官方詳情頁、實際場次與核對日期；輸入資料包不等於完整目錄。",
+      "automationPermission": "automation-not-approved",
+      "verifiedScopes": [
+        {
+          "kind": "concerts",
+          "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+          "reviewedAt": "2026-10-06",
+          "lastSuccess": "2026-10-06T09:15:59+08:00",
+          "status": "ok",
+          "reviewedDetailUrls": [
+            "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+            "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
+            "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA",
+            "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+            "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3"
+          ],
+          "dateRange": {
+            "from": "2026-10-16",
+            "through": "2026-11-21"
+          },
+          "reviewedInputItems": 5,
+          "storedVenueRecords": 5,
+          "storedSessions": 8,
+          "decisions": {
+            "discovered": 5,
+            "included": 5,
+            "excluded": 0,
+            "pending": 0,
+            "failed": 0
+          },
+          "pagesVisited": 1,
+          "expectedPages": 1,
+          "pageGrain": "輸入資料包；不代表平台目錄分頁",
+          "coverageComplete": false
+        }
+      ],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ]
     },
     {
       "id": "opentix",
@@ -57,17 +411,215 @@
       "url": "https://www.opentix.life/",
       "status": "manual",
       "checkedAt": "2026-10-06",
-      "lastSuccess": null,
-      "message": "公開搜尋與詳情頁人工核對非非藝術團隊演唱會。『脫口秀』搜尋目前列相聲、音樂喜劇與音樂會，未納入單口清單。需 JavaScript 場次元件，未建置定期擷取。 雲端已複核對應活動的日期、場館及票價。"
+      "lastSuccess": "2026-10-06T09:03:17+08:00",
+      "message": "已保存下列官方詳情頁、實際場次與核對日期；輸入資料包不等於完整目錄。",
+      "automationPermission": "automation-not-approved",
+      "verifiedScopes": [
+        {
+          "kind": "concerts",
+          "scope": "雲端文字交接 supplement-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+          "reviewedAt": "2026-10-06",
+          "lastSuccess": "2026-10-06T09:03:17+08:00",
+          "status": "ok",
+          "reviewedDetailUrls": [
+            "https://www.opentix.life/event/2065334424462708736",
+            "https://www.opentix.life/event/2085334193336229889"
+          ],
+          "dateRange": {
+            "from": "2026-10-24",
+            "through": "2027-01-01"
+          },
+          "reviewedInputItems": 2,
+          "storedVenueRecords": 2,
+          "storedSessions": 3,
+          "decisions": {
+            "discovered": 2,
+            "included": 2,
+            "excluded": 0,
+            "pending": 0,
+            "failed": 0
+          },
+          "pagesVisited": 1,
+          "expectedPages": 1,
+          "pageGrain": "輸入資料包；不代表平台目錄分頁",
+          "coverageComplete": false
+        }
+      ],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ]
     },
     {
-      "id": "club-other",
-      "name": "其他喜劇主辦／場館",
-      "url": "https://comedy.com.tw/",
+      "id": "taipei-arena",
+      "name": "臺北小巨蛋官方活動資料",
+      "url": "https://www.arena.taipei/",
       "status": "manual",
+      "automationPermission": "automation-not-approved",
       "checkedAt": "2026-10-06",
-      "lastSuccess": null,
-      "message": "卡米地官網與 KKTIX 主辦目錄可讀；薩泰爾公開目錄可讀。兩個男人網站本次讀取失敗，未據此推定無節目。尚未全面盤點其他獨立俱樂部。"
+      "lastSuccess": "2026-10-06T09:15:59+08:00",
+      "verifiedScopes": [
+        {
+          "kind": "concerts",
+          "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+          "reviewedAt": "2026-10-06",
+          "lastSuccess": "2026-10-06T09:15:59+08:00",
+          "status": "ok",
+          "reviewedDetailUrls": [
+            "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986&sms=F9A95D3F5A5C2C68",
+            "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=55BD65177B7B10B3&sms=F9A95D3F5A5C2C68",
+            "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8CCE4249EBCC0A1C&sms=F9A95D3F5A5C2C68",
+            "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8DA71330A665A8F4&sms=F9A95D3F5A5C2C68",
+            "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=C25BAEDAF3FD2862&sms=F9A95D3F5A5C2C68",
+            "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F487E50933CD78AE&sms=F9A95D3F5A5C2C68",
+            "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F5A59B45406E3E27&sms=F9A95D3F5A5C2C68"
+          ],
+          "dateRange": {
+            "from": "2026-10-09",
+            "through": "2026-12-20"
+          },
+          "reviewedInputItems": 7,
+          "storedVenueRecords": 7,
+          "storedSessions": 17,
+          "decisions": {
+            "discovered": 7,
+            "included": 7,
+            "excluded": 0,
+            "pending": 0,
+            "failed": 0
+          },
+          "pagesVisited": 1,
+          "expectedPages": 1,
+          "pageGrain": "輸入資料包；不代表平台目錄分頁",
+          "coverageComplete": false
+        }
+      ],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ],
+      "message": "已保存下列官方詳情頁、實際場次與核對日期；輸入資料包不等於完整目錄。"
+    },
+    {
+      "id": "tmc",
+      "name": "臺北流行音樂中心官方活動資料",
+      "url": "https://www.tmc.taipei/",
+      "status": "manual",
+      "automationPermission": "automation-not-approved",
+      "checkedAt": "2026-10-06",
+      "lastSuccess": "2026-10-06T09:15:59+08:00",
+      "verifiedScopes": [
+        {
+          "kind": "concerts",
+          "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+          "reviewedAt": "2026-10-06",
+          "lastSuccess": "2026-10-06T09:15:59+08:00",
+          "status": "ok",
+          "reviewedDetailUrls": [
+            "https://www.tmc.taipei/tw/blog/show/2026SingTheScene",
+            "https://www.tmc.taipei/tw/blog/show/2026TaipeiJazzFestival",
+            "https://www.tmc.taipei/tw/blog/show/DianaKrall2026",
+            "https://www.tmc.taipei/tw/blog/show/K21",
+            "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026",
+            "https://www.tmc.taipei/tw/blog/show/atarayo2026"
+          ],
+          "dateRange": {
+            "from": "2026-10-09",
+            "through": "2026-12-19"
+          },
+          "reviewedInputItems": 6,
+          "storedVenueRecords": 6,
+          "storedSessions": 11,
+          "decisions": {
+            "discovered": 6,
+            "included": 6,
+            "excluded": 0,
+            "pending": 0,
+            "failed": 0
+          },
+          "pagesVisited": 1,
+          "expectedPages": 1,
+          "pageGrain": "輸入資料包；不代表平台目錄分頁",
+          "coverageComplete": false
+        }
+      ],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ],
+      "message": "已保存下列官方詳情頁、實際場次與核對日期；輸入資料包不等於完整目錄。"
+    },
+    {
+      "id": "accupass",
+      "name": "ACCUPASS 已核實官方活動",
+      "url": "https://www.accupass.com/",
+      "status": "manual",
+      "automationPermission": "automation-not-approved",
+      "checkedAt": "2026-10-06",
+      "lastSuccess": "2026-10-06T09:16:42+08:00",
+      "verifiedScopes": [
+        {
+          "kind": "comedy",
+          "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 未提供；不是全站完整目錄",
+          "reviewedAt": "2026-10-06",
+          "lastSuccess": "2026-10-06T09:16:42+08:00",
+          "status": "ok",
+          "reviewedDetailUrls": [
+            "https://www.accupass.com/event/2607060526278581817760",
+            "https://www.accupass.com/event/2608050640532090409910",
+            "https://www.accupass.com/event/2608170251191683438973",
+            "https://www.accupass.com/event/2608190838241369706084",
+            "https://www.accupass.com/event/2609180956221061673281",
+            "https://www.accupass.com/event/2609211132271259780290",
+            "https://www.accupass.com/event/2609211132377509344040",
+            "https://www.accupass.com/event/2609250552051315174380",
+            "https://www.accupass.com/event/2610011400221552824046"
+          ],
+          "dateRange": {
+            "from": "2026-10-08",
+            "through": "2026-11-21"
+          },
+          "reviewedInputItems": 18,
+          "storedVenueRecords": 9,
+          "storedSessions": 18,
+          "decisions": {
+            "discovered": 18,
+            "included": 18,
+            "excluded": 0,
+            "pending": 0,
+            "failed": 0
+          },
+          "pagesVisited": 1,
+          "expectedPages": 1,
+          "pageGrain": "輸入資料包；不代表平台目錄分頁",
+          "coverageComplete": false
+        }
+      ],
+      "coverageComplete": false,
+      "catalogTotal": null,
+      "unreviewedCatalogItems": null,
+      "unknowns": [
+        "全目錄總數",
+        "未核對項目数量",
+        "完整排除矩陣",
+        "實際目錄分頁覆蓋"
+      ],
+      "message": "已保存下列官方詳情頁、實際場次與核對日期；輸入資料包不等於完整目錄。"
     }
   ]
 }

@@ -23,9 +23,8 @@ keep provider timestamps and never call a platform or MOC endpoint.
 Import snapshots and the registry must be committed with the generated public
 snapshot during later approved integration. The existing workflow explicitly
 stages certain data files; it does not yet stage the new MOC snapshot paths.
-Adding `data/live-sources/` to that staging step is a required integration step
-before claiming CI persists MOC snapshot history. This task leaves the shared
-workflow untouched to respect the instruction to edit only live-event files.
+The final follow-up adds `data/live-sources/` to that staging step locally,
+without changing schedules, action SHAs, permissions or deployment failure reporting.
 Reviewed platform snapshots are not modified by a daily MOC build; once committed
 they are durably read on the next build even with that workflow unchanged.
 
