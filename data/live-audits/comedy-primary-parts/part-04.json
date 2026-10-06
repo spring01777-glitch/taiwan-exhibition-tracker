@@ -1,0 +1,279 @@
+{
+  "kind": "comedy",
+  "part": 4,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "audit-23-select-oct-2026-10-29-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "大天、歐耶、瑞恩、龍龍、歐K",
+      "host": "佳諭",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-29",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-29",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-30-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "德礎、巴斯、Boss、小歐、品賢",
+      "host": "品喬",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-30",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-girls-gays-theys-2026-10-30-2130",
+      "source": "manual",
+      "title": "Ellery presents: Girls, Gays and Theys",
+      "performers": "Ellery、Bree Calhoun、Tony Baloney、Casey Li Brander、Tammy Jo",
+      "host": null,
+      "region": "臺北市",
+      "venue": "Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-30",
+          "time": "21:30"
+        }
+      ],
+      "price": "早鳥 NT$600／一般 NT$700／現場（若有餘票） NT$800",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2608170251191683438973",
+      "ticketUrl": "https://www.accupass.com/event/2608170251191683438973",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "全英文；內文演出長75分鐘但header90分鐘，保留header結束時間且提示差異；不能由9/13早鳥結束推一般票開賣",
+      "ticketOptions": [
+        {
+          "type": "早鳥",
+          "saleAt": null,
+          "priceTwd": 600,
+          "saleEndsDate": "2026-09-13"
+        },
+        {
+          "type": "一般",
+          "saleAt": null,
+          "priceTwd": 700
+        },
+        {
+          "type": "現場（若有餘票）",
+          "saleAt": null,
+          "priceTwd": 800
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608170251191683438973",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "21:30"
+            }
+          ],
+          "price": "早鳥 NT$600／一般 NT$700／現場（若有餘票） NT$800",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-thecutautumn1106-2026-11-06-2000",
+      "source": "manual",
+      "title": "【11/6 高雄場】Ellery 呈獻 THE CUT - Fall Edition 秋季場",
+      "performers": "Ellery、Evan Danger、Tammy Jo",
+      "region": "高雄市",
+      "venue": "洛克音樂藝文展演空間 Rock Music Live House",
+      "sessions": [
+        {
+          "date": "2026-11-06",
+          "time": "20:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/thecutautumn1106",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/thecutautumn1106",
+      "price": "前排互動VIP區 NT$1200／搖滾區 NT$800／一般區 NT$600",
+      "saleAt": "2026-08-07T00:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "前排互動VIP區",
+          "saleAt": "2026-08-04T00:00:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-11-06T20:00:00+08:00"
+        },
+        {
+          "type": "搖滾區",
+          "saleAt": "2026-08-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-06T20:00:00+08:00"
+        },
+        {
+          "type": "一般區",
+          "saleAt": "2026-08-07T00:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-11-06T20:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/thecutautumn1106",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-06",
+              "time": "20:00"
+            }
+          ],
+          "price": "前排互動VIP區 NT$1200／搖滾區 NT$800／一般區 NT$600",
+          "saleAt": "2026-08-07T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-allaroundyou1106-2026-11-06-2000",
+      "source": "manual",
+      "title": "【11/6 台中群島加演場】藍恩首次單口喜劇專場《All Around You》",
+      "performers": "藍恩",
+      "region": "臺中市",
+      "venue": "群島藝術園區 Islands Art Park",
+      "sessions": [
+        {
+          "date": "2026-11-06",
+          "time": "20:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/allaroundyou1106",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/allaroundyou1106",
+      "price": "一般票 NT$800",
+      "saleAt": "2026-08-03T12:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": "2026-08-03T12:00:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-06T20:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/allaroundyou1106",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-06",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般票 NT$800",
+          "saleAt": "2026-08-03T12:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    }
+  ]
+}

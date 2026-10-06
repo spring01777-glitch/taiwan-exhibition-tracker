@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "kham",
+  "kind": "concerts",
+  "events": [
+    {
+      "title": "2026 N.Flying LIVE ‘&CON5: into REM’ IN KAOHSIUNG",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄流行音樂中心",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "18:00"
+        }
+      ],
+      "price": null,
+      "saleAt": "2026-09-10T14:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 N.Flying LIVE ‘&CON5: into REM’ IN KAOHSIUNG，於高雄流行音樂中心演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "18:00"
+            }
+          ],
+          "price": null,
+          "saleAt": "2026-09-10T14:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+      "sessionFacts": [
+        {
+          "date": "2026-11-21",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+      "source": "kham",
+      "id": "c8667b16515c24a26314",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "kham",
+          "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+          "id": "c8667b16515c24a26314"
+        }
+      ]
+    },
+    {
+      "title": "2026 EUNHYUK PRE-DEBUT FANCON ‘be: WARE OF THE RABBIT’ in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北國際會議中心 TICC",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "20:00"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "16:00"
+        }
+      ],
+      "price": null,
+      "saleAt": "2026-09-11T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 EUNHYUK PRE-DEBUT FANCON ‘be: WARE OF THE RABBIT’ in TAIPEI，於臺北國際會議中心 TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "20:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "16:00"
+            }
+          ],
+          "price": null,
+          "saleAt": "2026-09-11T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+      "sessionFacts": [
+        {
+          "date": "2026-10-16",
+          "time": "20:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-10-17",
+          "time": "16:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+      "source": "kham",
+      "id": "47cf6200790f2dff659d",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "kham",
+          "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+          "id": "47cf6200790f2dff659d"
+        }
+      ]
+    },
+    {
+      "title": "彭佳慧《數著時間的日子》巡迴演唱會 高雄場",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄巨蛋",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$800／1880／2480／2880／3480／3880／4280／4680",
+      "saleAt": "2026-08-03T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "彭佳慧《數著時間的日子》巡迴演唱會 高雄場，於高雄巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$800／1880／2480／2880／3480／3880／4280／4680",
+          "saleAt": "2026-08-03T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
+      "sessionFacts": [
+        {
+          "date": "2026-11-21",
+          "time": "17:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
+      "source": "kham",
+      "id": "c978fba77d1ff329370c",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "kham",
+          "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
+          "id": "c978fba77d1ff329370c"
+        }
+      ]
+    },
+    {
+      "title": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "18:00"
+        },
+        {
+          "date": "2026-10-25",
+          "time": "18:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "MUSIC EXPO LIVE 2026 in TAIPEI，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "18:00"
+            }
+          ],
+          "price": null,
+          "saleAt": null
+        },
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXXK2O",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "18:00"
+            }
+          ],
+          "price": null,
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+      "sessionFacts": [
+        {
+          "date": "2026-10-24",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-10-25",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+      "source": "kham",
+      "id": "e93d301c67535a8fd915",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "kham",
+          "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+          "id": "e93d301c67535a8fd915"
+        }
+      ]
+    },
+    {
+      "title": "2026玖壹壹南北貳路音樂節",
+      "performers": "",
+      "region": "臺中市",
+      "venue": "臺中水湳中央公園",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": null
+        },
+        {
+          "date": "2026-11-08",
+          "time": null
+        }
+      ],
+      "price": null,
+      "saleAt": "2026-09-30T12:00:00+08:00",
+      "saleNote": "一般區預售單日票9/30 12:00起；早鳥9/13、超早鳥9/6、搖滾AB區9/2另有階段。時間與票價尚待核實。",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026玖壹壹南北貳路音樂節，於臺中水湳中央公園演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": null
+            },
+            {
+              "date": "2026-11-08",
+              "time": null
+            }
+          ],
+          "price": null,
+          "saleAt": "2026-09-30T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA",
+      "sessionFacts": [
+        {
+          "date": "2026-11-07",
+          "time": null,
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-08",
+          "time": null,
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA",
+      "source": "kham",
+      "id": "11582f4de8037cc108a7",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "kham",
+          "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA",
+          "id": "11582f4de8037cc108a7"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "id": "kham",
+    "name": "寬宏 KHAM",
+    "url": "https://kham.com.tw/",
+    "checkedAt": "2026-10-06T09:15:59+08:00",
+    "mode": "reviewed-import",
+    "discovered": 5,
+    "included": 5,
+    "excluded": 0,
+    "pending": 0,
+    "failed": 0,
+    "reasons": {
+      "OFFICIAL_REVIEWED_FORMAT": 5
+    },
+    "coverageComplete": false,
+    "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+    "pagesVisited": 1,
+    "expectedPages": 1,
+    "reviewedAt": "2026-10-06",
+    "status": "ok",
+    "lastSuccess": "2026-10-06T09:15:59+08:00",
+    "lastSuccessfulIncluded": 5,
+    "message": "本次核對匯入完成；零符合、部分範圍或完整範圍分開記錄，非全平台每日掃描。",
+    "retainedEventCount": 5
+  },
+  "records": [
+    {
+      "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-kham-nflying",
+      "unknownFields": [
+        "price"
+      ],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-kham-eunhyuk",
+      "unknownFields": [
+        "price"
+      ],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-kham-julia",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-kham-musicexpo",
+      "unknownFields": [
+        "price",
+        "saleAt"
+      ],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXXK2O"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-kham-911",
+      "unknownFields": [
+        "price",
+        "session.time"
+      ],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    }
+  ]
+}

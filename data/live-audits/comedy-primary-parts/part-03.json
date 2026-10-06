@@ -1,0 +1,269 @@
+{
+  "kind": "comedy",
+  "part": 3,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "audit-takaocb-moi-1018-2026-10-18-1800",
+      "source": "manual",
+      "title": "屏東喜劇之夜｜10月場 喜劇開港・肆我開笑",
+      "performers": "啊真、老柯、感性炸彈",
+      "host": "啊真",
+      "region": "屏東縣",
+      "venue": "肆·我 MOI.Lab",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "18:00"
+        }
+      ],
+      "price": "入場票 NT$400",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609211132377509344040",
+      "ticketUrl": "https://www.accupass.com/event/2609211132377509344040",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": null,
+      "ticketOptions": [
+        {
+          "type": "入場票",
+          "saleAt": null,
+          "priceTwd": 400,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609211132377509344040",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-18",
+              "time": "18:00"
+            }
+          ],
+          "price": "入場票 NT$400",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-23-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "德礎、藍恩、Boss、沈榮、品喬",
+      "host": "品賢",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-stage-bac-vol7-2026-10-23-2000",
+      "source": "manual",
+      "title": "笑點酒測值 vol.7",
+      "performers": "阿舜順、歐Ｋ、龍哥、小歐",
+      "host": null,
+      "region": "臺中市",
+      "venue": "STAGE 時代劇",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": "20:00"
+        }
+      ],
+      "price": "入場票 NT$600",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609180956221061673281",
+      "ticketUrl": "https://www.accupass.com/event/2609180956221061673281",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "正式票URL由來福官方Linktree核實；詳文讀自https://www.staging.accupass.com/event/2609180956221061673281（平台同源索引），正式詳頁cache miss",
+      "ticketOptions": [
+        {
+          "type": "入場票",
+          "saleAt": null,
+          "priceTwd": 600,
+          "includes": "在地生啤酒或無酒精飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609180956221061673281",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "20:00"
+            }
+          ],
+          "price": "入場票 NT$600",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-newcomer20261500-2026-10-25-1500",
+      "source": "manual",
+      "title": "【下午場 15:00】&lt;2026卡米地站立喜劇爭霸賽&gt; 之新人前哨戰",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "15:00"
+        }
+      ],
+      "category": "standup_contest",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/newcomer20261500",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/newcomer20261500",
+      "price": "一般票 NT$250／身心障礙暨陪同票 NT$125",
+      "saleAt": "2025-10-03T00:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": "2025-10-03T00:00:00+08:00",
+          "priceTwd": 250,
+          "saleEndAt": "2026-10-25T15:00:00+08:00"
+        },
+        {
+          "type": "身心障礙暨陪同票",
+          "saleAt": "2025-10-03T12:30:00+08:00",
+          "priceTwd": 125,
+          "saleEndAt": "2026-10-25T15:00:00+08:00"
+        }
+      ],
+      "saleNote": "官方一般票售期確為2025/10/03，勿自行改成2026；主持歐K，參賽者未列",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/newcomer20261500",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "15:00"
+            }
+          ],
+          "price": "一般票 NT$250／身心障礙暨陪同票 NT$125",
+          "saleAt": "2025-10-03T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-newcomer20261900-2026-10-25-1900",
+      "source": "manual",
+      "title": "【晚上場 19:00】&lt;2026卡米地站立喜劇爭霸賽&gt; 之新人前哨戰",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "19:00"
+        }
+      ],
+      "category": "standup_contest",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/newcomer20261900",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/newcomer20261900",
+      "price": "一般票 NT$250／身心障礙暨陪同票 NT$125",
+      "saleAt": "2025-10-03T00:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": "2025-10-03T00:00:00+08:00",
+          "priceTwd": 250,
+          "saleEndAt": "2026-10-25T19:00:00+08:00"
+        },
+        {
+          "type": "身心障礙暨陪同票",
+          "saleAt": "2025-10-03T12:30:00+08:00",
+          "priceTwd": 125,
+          "saleEndAt": "2026-10-25T19:00:00+08:00"
+        }
+      ],
+      "saleNote": "官方一般票售期確為2025/10/03，勿自行改成2026；主持歐K，參賽者未列",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/newcomer20261900",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "19:00"
+            }
+          ],
+          "price": "一般票 NT$250／身心障礙暨陪同票 NT$125",
+          "saleAt": "2025-10-03T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "kind": "concerts",
+  "part": 3,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "manual-26_joji",
+      "source": "manual",
+      "title": "JOJI SOLARIS",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄巨蛋",
+      "sessions": [
+        {
+          "date": "2026-11-27",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$2900–12380（含VIP）；另加系統費200",
+      "saleAt": "2026-04-30T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_joji",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_joji",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "JOJI SOLARIS，於高雄巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_joji",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-27",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$2900–12380（含VIP）；另加系統費200",
+          "saleAt": "2026-04-30T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_joji"
+      ]
+    },
+    {
+      "id": "manual-26_5sos",
+      "source": "manual",
+      "title": "5 SECONDS OF SUMMER：EVERYONE’S A STAR! WORLD TOUR",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北流行音樂中心表演廳",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$3380–8680（含VIP）；另加系統費200",
+      "saleAt": "2026-08-20T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_5sos",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_5sos",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "5 SECONDS OF SUMMER：EVERYONE’S A STAR! WORLD TOUR，於台北流行音樂中心表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_5sos",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-25",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$3380–8680（含VIP）；另加系統費200",
+          "saleAt": "2026-08-20T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_5sos"
+      ]
+    },
+    {
+      "id": "manual-26_wte",
+      "source": "manual",
+      "title": "wave to earth - the pieces tour",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心TICC",
+      "sessions": [
+        {
+          "date": "2026-11-24",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$2300–6300；另加系統費200",
+      "saleAt": "2026-05-26T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_wte",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_wte",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "wave to earth - the pieces tour，於台北國際會議中心TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_wte",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-24",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$2300–6300；另加系統費200",
+          "saleAt": "2026-05-26T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_wte"
+      ]
+    },
+    {
+      "id": "manual-26_todd",
+      "source": "manual",
+      "title": "Malcolm Todd： Do That Again Tour in Taipei",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心TICC",
+      "sessions": [
+        {
+          "date": "2026-11-23",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$1980–5180；另加系統費200",
+      "saleAt": "2026-10-03T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_todd",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_todd",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Malcolm Todd： Do That Again Tour in Taipei，於台北國際會議中心TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_todd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-23",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$1980–5180；另加系統費200",
+          "saleAt": "2026-10-03T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_todd"
+      ]
+    },
+    {
+      "id": "manual-26_btskns",
+      "source": "manual",
+      "title": "BTS WORLD TOUR ’ARIRANG’ IN KAOHSIUNG",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄國家體育場",
+      "sessions": [
+        {
+          "date": "2026-11-19",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$2980／3980／4980／5980／6980／7980；VIP9380；另加系統費200",
+      "saleAt": "2026-06-04T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_btskns",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_btskns",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "BTS WORLD TOUR ’ARIRANG’ IN KAOHSIUNG，於高雄國家體育場演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_btskns",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-19",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2980／3980／4980／5980／6980／7980；VIP9380；另加系統費200",
+          "saleAt": "2026-06-04T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_btskns"
+      ]
+    }
+  ]
+}

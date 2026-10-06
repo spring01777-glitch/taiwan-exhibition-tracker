@@ -1,0 +1,258 @@
+{
+  "kind": "comedy",
+  "part": 2,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "audit-23-select-oct-2026-10-16-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "德礎、藍恩、華旭、Boss、沈榮",
+      "host": "丹尼",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-onthebeach-english-oct-2026-10-16-2100",
+      "source": "manual",
+      "title": "Tainan Comedy Live",
+      "performers": "Evan Danger、Ellery、Casey Li Brander、Jimmy James",
+      "host": "Evan Danger",
+      "region": "臺南市",
+      "venue": "Legends Tainan 傳奇酒吧",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "21:00"
+        }
+      ],
+      "price": "Presale Ticket（內文Early Bird） NT$350／現場現金票 NT$400",
+      "saleAt": null,
+      "earlyBirdSaleAt": "2026-09-02T00:00:00+08:00",
+      "sourceUrl": "https://onthebeach.kktix.cc/events/english-october",
+      "ticketUrl": "https://onthebeach.kktix.cc/events/english-october",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "一般公開原價票開賣未明示；只可確認預售票起始",
+      "ticketOptions": [
+        {
+          "type": "Presale Ticket（內文Early Bird）",
+          "saleAt": "2026-09-02T00:00:00+08:00",
+          "priceTwd": 350,
+          "includes": "一杯飲料",
+          "saleEndsAt": "2026-10-16T00:00:00+08:00"
+        },
+        {
+          "type": "現場現金票",
+          "saleAt": null,
+          "priceTwd": 400,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://onthebeach.kktix.cc/events/english-october",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "21:00"
+            }
+          ],
+          "price": "Presale Ticket（內文Early Bird） NT$350／現場現金票 NT$400",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-craft-oct-2026-10-16-2130",
+      "source": "manual",
+      "title": "Craft comedy 2026 Oct｜Monthly Stand Up Comedy Showcase",
+      "performers": "Sam Yarbs、Bree Calhoun、Ren Wu、Will Mounger、Chloe Huang、Steve Syme、Johnathan Graff",
+      "host": null,
+      "region": "臺北市",
+      "venue": "23 Comedy Club",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "21:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2610011400221552824046",
+      "ticketUrl": "https://www.accupass.com/event/2610011400221552824046",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "官方標題、header與Time區均為2026/10/16；英文開場文誤留Saturday May16，已標衝突，不採舊段落",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2610011400221552824046",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "21:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-hondao-changhua-2026-10-17-1800",
+      "source": "manual",
+      "title": "2026 爺奶萬萬說－老朋友，有點奇怪？也有點可愛－彰化戶外場",
+      "performers": null,
+      "host": null,
+      "region": "彰化縣",
+      "venue": "晚風交誼廳",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "18:00"
+        }
+      ],
+      "price": "免費索票 NT$0",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2607060526278581817760",
+      "ticketUrl": "https://www.accupass.com/event/2607060526278581817760",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "官方巡演主頁核實時間/場館：https://www.hondao.org.tw/news/3/210；喜劇約2小時，之後在地活動到21:00-21:30，不能把全部3.5小時當喜劇演出",
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2607060526278581817760",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "18:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-takaocb-weekend-1017-2026-10-17-1930",
+      "source": "manual",
+      "title": "歡樂週末夜 2026喜劇開港拼盤秀",
+      "performers": "瑋德、光頭哥、懿霽、招弟",
+      "host": null,
+      "region": "高雄市",
+      "venue": "Cave Café 卡濰咖啡 明誠店2F",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "19:30"
+        }
+      ],
+      "price": "入場票 NT$450",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609211132271259780290",
+      "ticketUrl": "https://www.accupass.com/event/2609211132271259780290",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": null,
+      "ticketOptions": [
+        {
+          "type": "入場票",
+          "saleAt": null,
+          "priceTwd": 450
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609211132271259780290",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "19:30"
+            }
+          ],
+          "price": "入場票 NT$450",
+          "saleAt": null
+        }
+      ]
+    }
+  ]
+}

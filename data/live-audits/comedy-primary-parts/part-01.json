@@ -1,0 +1,260 @@
+{
+  "kind": "comedy",
+  "part": 1,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "audit-23-select-oct-2026-10-08-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "李安、瑞恩、品喬、黃逸豪、傑克",
+      "host": "歐K",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-08",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-08",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-09-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "龍龍、德礎、瑞恩、沈榮、巴斯",
+      "host": "丹尼",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-09",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-09",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-15-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "壯壯、歐耶、佳諭、歐K、品賢",
+      "host": "黃逸豪",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-15",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-15",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-15-2130",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "巴斯、品喬、小歐、傑克、壯壯",
+      "host": "藍恩",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-15",
+          "time": "21:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-15",
+              "time": "21:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-onthebeach-chinese-oct-2026-10-16-1900",
+      "source": "manual",
+      "title": "第一超棒臺南脫口秀",
+      "performers": "光頭哥、Ellery、JH、致葦",
+      "host": null,
+      "region": "臺南市",
+      "venue": "傳奇酒吧 Legends Tainan",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "19:00"
+        }
+      ],
+      "price": "預售票（內文稱早鳥） NT$350／現場現金票 NT$400",
+      "saleAt": null,
+      "earlyBirdSaleAt": "2026-09-02T00:00:00+08:00",
+      "sourceUrl": "https://onthebeach.kktix.cc/events/chinese-october",
+      "ticketUrl": "https://onthebeach.kktix.cc/events/chinese-october",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "2026-10-06由dot雲端瀏覽器逐頁讀取成功；一般票開賣仍未知",
+      "ticketOptions": [
+        {
+          "type": "預售票（內文稱早鳥）",
+          "saleAt": "2026-09-02T00:00:00+08:00",
+          "priceTwd": 350,
+          "includes": "一杯飲料",
+          "saleEndsAt": "2026-10-16T00:00:00+08:00"
+        },
+        {
+          "type": "現場現金票",
+          "saleAt": null,
+          "priceTwd": 400,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://onthebeach.kktix.cc/events/chinese-october",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "19:00"
+            }
+          ],
+          "price": "預售票（內文稱早鳥） NT$350／現場現金票 NT$400",
+          "saleAt": null
+        }
+      ]
+    }
+  ]
+}

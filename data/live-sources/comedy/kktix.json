@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "kktix",
+  "kind": "comedy",
+  "events": [
+    {
+      "title": "第一超棒臺南脫口秀",
+      "performers": "光頭哥、Ellery、JH、致葦",
+      "region": "臺南市",
+      "venue": "傳奇酒吧 Legends Tainan",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "19:00"
+        }
+      ],
+      "price": "預售票（內文稱早鳥） NT$350／現場現金票 NT$400",
+      "saleAt": null,
+      "ticketUrl": "https://onthebeach.kktix.cc/events/chinese-october",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "saleNote": "2026-10-06由dot雲端瀏覽器逐頁讀取成功；一般票開賣仍未知；早鳥／預售起始 2026-09-02T00:00:00+08:00（一般開賣另列）",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://onthebeach.kktix.cc/events/chinese-october",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "19:00"
+            }
+          ],
+          "price": "預售票（內文稱早鳥） NT$350／現場現金票 NT$400",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://onthebeach.kktix.cc/events/chinese-october",
+      "sessionFacts": [
+        {
+          "date": "2026-10-16",
+          "time": "19:00",
+          "performers": "光頭哥、Ellery、JH、致葦",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://onthebeach.kktix.cc/events/chinese-october",
+      "source": "kktix",
+      "id": "89a4236900de0140c5c3",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "kktix",
+          "sourceUid": "https://onthebeach.kktix.cc/events/chinese-october",
+          "id": "89a4236900de0140c5c3"
+        }
+      ]
+    },
+    {
+      "title": "Tainan Comedy Live",
+      "performers": "Evan Danger、Ellery、Casey Li Brander、Jimmy James",
+      "region": "臺南市",
+      "venue": "Legends Tainan 傳奇酒吧",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "21:00"
+        }
+      ],
+      "price": "Presale Ticket（內文Early Bird） NT$350／現場現金票 NT$400",
+      "saleAt": null,
+      "ticketUrl": "https://onthebeach.kktix.cc/events/english-october",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "saleNote": "一般公開原價票開賣未明示；只可確認預售票起始；早鳥／預售起始 2026-09-02T00:00:00+08:00（一般開賣另列）",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://onthebeach.kktix.cc/events/english-october",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "21:00"
+            }
+          ],
+          "price": "Presale Ticket（內文Early Bird） NT$350／現場現金票 NT$400",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://onthebeach.kktix.cc/events/english-october",
+      "sessionFacts": [
+        {
+          "date": "2026-10-16",
+          "time": "21:00",
+          "performers": "Evan Danger、Ellery、Casey Li Brander、Jimmy James",
+          "host": "Evan Danger"
+        }
+      ],
+      "sourceUid": "https://onthebeach.kktix.cc/events/english-october",
+      "source": "kktix",
+      "id": "7d61cfafee91322737c4",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "kktix",
+          "sourceUid": "https://onthebeach.kktix.cc/events/english-october",
+          "id": "7d61cfafee91322737c4"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "id": "kktix",
+    "name": "KKTIX",
+    "url": "https://kktix.com/",
+    "checkedAt": "2026-10-06T09:16:42+08:00",
+    "mode": "reviewed-import",
+    "discovered": 2,
+    "included": 2,
+    "excluded": 0,
+    "pending": 0,
+    "failed": 0,
+    "reasons": {
+      "OFFICIAL_REVIEWED_FORMAT": 2
+    },
+    "coverageComplete": false,
+    "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 未提供；不是全站完整目錄",
+    "pagesVisited": 1,
+    "expectedPages": 1,
+    "reviewedAt": "2026-10-06",
+    "status": "ok",
+    "lastSuccess": "2026-10-06T09:16:42+08:00",
+    "lastSuccessfulIncluded": 2,
+    "message": "本次核對匯入完成；零符合、部分範圍或完整範圍分開記錄，非全平台每日掃描。",
+    "retainedEventCount": 2
+  },
+  "records": [
+    {
+      "sourceUid": "https://onthebeach.kktix.cc/events/chinese-october",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-onthebeach-chinese-oct-2026-10-16-1900",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://onthebeach.kktix.cc/events/chinese-october"
+      ],
+      "ticketOptions": [
+        {
+          "type": "預售票（內文稱早鳥）",
+          "saleAt": "2026-09-02T00:00:00+08:00",
+          "priceTwd": 350,
+          "includes": "一杯飲料",
+          "saleEndsAt": "2026-10-16T00:00:00+08:00"
+        },
+        {
+          "type": "現場現金票",
+          "saleAt": null,
+          "priceTwd": 400,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": "2026-09-02T00:00:00+08:00",
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://onthebeach.kktix.cc/events/english-october",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-onthebeach-english-oct-2026-10-16-2100",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://onthebeach.kktix.cc/events/english-october"
+      ],
+      "ticketOptions": [
+        {
+          "type": "Presale Ticket（內文Early Bird）",
+          "saleAt": "2026-09-02T00:00:00+08:00",
+          "priceTwd": 350,
+          "includes": "一杯飲料",
+          "saleEndsAt": "2026-10-16T00:00:00+08:00"
+        },
+        {
+          "type": "現場現金票",
+          "saleAt": null,
+          "priceTwd": 400,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": "2026-09-02T00:00:00+08:00",
+      "presaleAt": null
+    }
+  ]
+}

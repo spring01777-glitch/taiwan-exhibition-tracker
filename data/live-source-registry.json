@@ -115,6 +115,42 @@
       "mode": "cloud-reviewed-import",
       "permission": "automation-not-approved",
       "scope": "待雲端核對；需區分單口、音樂劇與課程"
+    },
+    {
+      "id": "taipei-arena",
+      "name": "臺北小巨蛋官方活動資料",
+      "url": "https://www.arena.taipei/",
+      "kinds": [
+        "concerts"
+      ],
+      "adapter": "reviewed-json",
+      "mode": "cloud-reviewed-import",
+      "permission": "automation-not-approved",
+      "scope": "雲端核實缺漏清單；不是全站目錄"
+    },
+    {
+      "id": "tmc",
+      "name": "臺北流行音樂中心官方活動資料",
+      "url": "https://www.tmc.taipei/",
+      "kinds": [
+        "concerts"
+      ],
+      "adapter": "reviewed-json",
+      "mode": "cloud-reviewed-import",
+      "permission": "automation-not-approved",
+      "scope": "雲端核實缺漏清單；不是全站目錄"
+    },
+    {
+      "id": "accupass",
+      "name": "ACCUPASS 已核實官方活動",
+      "url": "https://www.accupass.com/",
+      "kinds": [
+        "comedy"
+      ],
+      "adapter": "reviewed-json",
+      "mode": "cloud-reviewed-import",
+      "permission": "automation-not-approved",
+      "scope": "雲端核實缺漏清單；不是全站目錄"
     }
   ]
 }

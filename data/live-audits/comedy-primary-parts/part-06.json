@@ -1,0 +1,287 @@
+{
+  "kind": "comedy",
+  "part": 6,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "audit-allaroundyou1114-2026-11-14-2000",
+      "source": "manual",
+      "title": "【11/14 卡米地加演場】藍恩首次單口喜劇專場《All Around You》",
+      "performers": "藍恩",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "20:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/allaroundyou1114",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/allaroundyou1114",
+      "price": "一般票 NT$800／VIP票 NT$1000",
+      "saleAt": "2026-08-03T12:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": "2026-08-03T12:00:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-14T20:00:00+08:00"
+        },
+        {
+          "type": "VIP票",
+          "saleAt": "2026-08-03T12:00:00+08:00",
+          "priceTwd": 1000,
+          "saleEndAt": "2026-11-14T20:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/allaroundyou1114",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般票 NT$800／VIP票 NT$1000",
+          "saleAt": "2026-08-03T12:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-coldn20261115-2026-11-15-1530",
+      "source": "manual",
+      "title": "【11/15 台南】涵冷娜脫口秀專場《喊卡之後》 封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "臺南市",
+      "venue": "台南 漂丿白鷺live house",
+      "sessions": [
+        {
+          "date": "2026-11-15",
+          "time": "15:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261115",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/coldn20261115",
+      "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-15T17:30:00+08:00"
+        },
+        {
+          "type": "貴人贊助區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-11-15T17:30:00+08:00"
+        },
+        {
+          "type": "VIP 感恩區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 5000,
+          "saleEndAt": "2026-11-15T17:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261115",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "15:30"
+            }
+          ],
+          "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-hondao-hsinchu-2026-11-20-1900",
+      "source": "manual",
+      "title": "2026 爺奶萬萬說－老朋友，有點奇怪？也有點可愛－新竹場",
+      "performers": null,
+      "host": null,
+      "region": "新竹市",
+      "venue": "The Local's Bistro 現場馬拉桑餐酒館",
+      "sessions": [
+        {
+          "date": "2026-11-20",
+          "time": "19:00"
+        }
+      ],
+      "price": "免費索票 NT$0",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2608190838241369706084",
+      "ticketUrl": "https://www.accupass.com/event/2608190838241369706084",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "原7/10、7/11因颱風延期；採正式11/20、11/21重新索票頁",
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608190838241369706084",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-20",
+              "time": "19:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-hondao-hsinchu-2026-11-21-1900",
+      "source": "manual",
+      "title": "2026 爺奶萬萬說－老朋友，有點奇怪？也有點可愛－新竹場",
+      "performers": null,
+      "host": null,
+      "region": "新竹市",
+      "venue": "The Local's Bistro 現場馬拉桑餐酒館",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "19:00"
+        }
+      ],
+      "price": "免費索票 NT$0",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2608190838241369706084",
+      "ticketUrl": "https://www.accupass.com/event/2608190838241369706084",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "原7/10、7/11因颱風延期；採正式11/20、11/21重新索票頁",
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608190838241369706084",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "19:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-coldn20261121-2026-11-21-1930",
+      "source": "manual",
+      "title": "【11/21 台中】涵冷娜脫口秀專場《喊卡之後》 封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "臺中市",
+      "venue": "台中群島藝術園區 大劇院",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "19:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261121",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/coldn20261121",
+      "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-21T21:00:00+08:00"
+        },
+        {
+          "type": "貴人贊助區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-11-21T21:00:00+08:00"
+        },
+        {
+          "type": "VIP 感恩區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 5000,
+          "saleEndAt": "2026-11-21T21:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261121",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    }
+  ]
+}

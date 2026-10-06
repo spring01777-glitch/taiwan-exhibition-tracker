@@ -1,0 +1,233 @@
+{
+  "kind": "concerts",
+  "part": 5,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "manual-26_yungkai",
+      "source": "manual",
+      "title": "yung kai - stay with the ocean， i’ll find you： asia tour 2026",
+      "performers": "",
+      "region": "新北市",
+      "venue": "Zepp New Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$1680–2380；另加系統費200",
+      "saleAt": "2026-08-06T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_yungkai",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_yungkai",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "yung kai - stay with the ocean， i’ll find you： asia tour 2026，於Zepp New Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_yungkai",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-11",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$1680–2380；另加系統費200",
+          "saleAt": "2026-08-06T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_yungkai"
+      ]
+    },
+    {
+      "id": "manual-26_82major",
+      "source": "manual",
+      "title": "82MAJOR ＜82CLUB ： OUT OF CONTROL＞ in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Clapper Studio",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$3680／4280；輪椅身障2140",
+      "saleAt": "2026-09-27T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_82major",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_82major",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "82MAJOR ＜82CLUB ： OUT OF CONTROL＞ in TAIPEI，於Clapper Studio演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_82major",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$3680／4280；輪椅身障2140",
+          "saleAt": "2026-09-27T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_82major"
+      ]
+    },
+    {
+      "id": "manual-26_vashhsu",
+      "source": "manual",
+      "title": "徐暐翔《愛火山的人》專場演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$1450；身障725",
+      "saleAt": "2026-09-14T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_vashhsu",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_vashhsu",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "徐暐翔《愛火山的人》專場演唱會，於Legacy Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_vashhsu",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$1450；身障725",
+          "saleAt": "2026-09-14T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_vashhsu"
+      ]
+    },
+    {
+      "id": "manual-26_shishi",
+      "source": "manual",
+      "title": "孫盛希Shi Shi [The Taste of …] 台北演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy TERA",
+      "sessions": [
+        {
+          "date": "2026-11-01",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$2500；VIP3100；身障1250",
+      "saleAt": "2026-08-18T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_shishi",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_shishi",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "孫盛希Shi Shi [The Taste of …] 台北演唱會，於Legacy TERA演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_shishi",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-01",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2500；VIP3100；身障1250",
+          "saleAt": "2026-08-18T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_shishi"
+      ]
+    },
+    {
+      "id": "manual-26_twskh",
+      "source": "manual",
+      "title": "2026 TWS TOUR ‘24/7：FOR：YOU’ IN KAOHSIUNG",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$2080／2880／3880／4880／5880／6680；另加系統費200",
+      "saleAt": "2026-07-19T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_twskh",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_twskh",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 TWS TOUR ‘24/7：FOR：YOU’ IN KAOHSIUNG，於高雄巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_twskh",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2080／2880／3880／4880／5880／6680；另加系統費200",
+          "saleAt": "2026-07-19T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_twskh"
+      ]
+    }
+  ]
+}

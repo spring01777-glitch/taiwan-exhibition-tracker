@@ -1,0 +1,335 @@
+{
+  "kind": "comedy",
+  "part": 9,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "audit-child1205-2026-12-05-1530",
+      "source": "manual",
+      "title": "2026台北喜劇節：別人家的小孩",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "底加書店",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "15:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/child1205",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/child1205",
+      "price": "早鳥票 NT$350／一般票 NT$500／貴賓票 NT$600",
+      "saleAt": "2026-11-30T23:59:00+08:00",
+      "earlyBirdSaleAt": "2026-09-30T00:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "早鳥票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 350,
+          "saleEndAt": "2026-11-30T23:59:00+08:00"
+        },
+        {
+          "type": "一般票",
+          "saleAt": "2026-11-30T23:59:00+08:00",
+          "priceTwd": 500,
+          "saleEndAt": "2026-12-05T15:30:00+08:00"
+        },
+        {
+          "type": "貴賓票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-11-04T19:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/child1205",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "15:30"
+            }
+          ],
+          "price": "早鳥票 NT$350／一般票 NT$500／貴賓票 NT$600",
+          "saleAt": "2026-11-30T23:59:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-kusoexplosion-2026-12-05-1630",
+      "source": "manual",
+      "title": "2026台北喜劇節： KUSO爆丸",
+      "performers": "下水彼得、紅拿",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "16:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/kusoexplosion",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/kusoexplosion",
+      "price": "一般票 NT$600／身心障礙既陪同席 NT$300",
+      "saleAt": "2026-10-01T00:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": "2026-10-01T00:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-12-05T16:30:00+08:00"
+        },
+        {
+          "type": "身心障礙既陪同席",
+          "saleAt": "2026-01-05T00:00:00+08:00",
+          "priceTwd": 300,
+          "saleEndAt": "2026-12-05T16:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/kusoexplosion",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "16:30"
+            }
+          ],
+          "price": "一般票 NT$600／身心障礙既陪同席 NT$300",
+          "saleAt": "2026-10-01T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-veteranvsrookie26-2026-12-05-1900",
+      "source": "manual",
+      "title": "2026台北喜劇節：老菜大對決",
+      "performers": "阿秋、皓宇、六塊錢、郭茜、阿包、俊彥、Alvis、余胖",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "19:00"
+        }
+      ],
+      "category": "standup_contest",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/veteranvsrookie26",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/veteranvsrookie26",
+      "price": "早鳥票 NT$350／一般票 NT$500／身心障礙既陪同席 NT$250",
+      "saleAt": "2026-11-30T23:59:00+08:00",
+      "earlyBirdSaleAt": "2026-09-30T00:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "早鳥票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 350,
+          "saleEndAt": "2026-11-30T23:59:00+08:00"
+        },
+        {
+          "type": "一般票",
+          "saleAt": "2026-11-30T23:59:00+08:00",
+          "priceTwd": 500,
+          "saleEndAt": "2026-12-05T19:00:00+08:00"
+        },
+        {
+          "type": "身心障礙既陪同席",
+          "saleAt": "2026-01-05T00:00:00+08:00",
+          "priceTwd": 250,
+          "saleEndAt": "2026-12-05T19:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/veteranvsrookie26",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "19:00"
+            }
+          ],
+          "price": "早鳥票 NT$350／一般票 NT$500／身心障礙既陪同席 NT$250",
+          "saleAt": "2026-11-30T23:59:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-lucas202612061-2026-12-06-2000",
+      "source": "manual",
+      "title": "2026 台北喜劇節 | 【台中】盧卡斯站立喜劇《好好做人 Be a Good Man》",
+      "performers": "盧卡斯",
+      "region": "臺中市",
+      "venue": "台中群島藝術園區大劇院",
+      "sessions": [
+        {
+          "date": "2026-12-06",
+          "time": "20:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/lucas202612061",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/lucas202612061",
+      "price": "前排選座區：四人同行票 NT$540／前排選座區：早鳥票 NT$600／前排選座區：一般票 NT$650／自由入座區：四人同行票 NT$390／自由入座區：早鳥票 NT$450／自由入座區：一般票 NT$500",
+      "saleAt": "2026-09-26T12:00:00+08:00",
+      "earlyBirdSaleAt": "2026-09-22T12:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "前排選座區：四人同行票",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "priceTwd": 540,
+          "saleEndAt": "2026-12-06T21:30:00+08:00"
+        },
+        {
+          "type": "前排選座區：早鳥票",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-09-26T12:00:00+08:00"
+        },
+        {
+          "type": "前排選座區：一般票",
+          "saleAt": "2026-09-26T12:00:00+08:00",
+          "priceTwd": 650,
+          "saleEndAt": "2026-12-06T21:30:00+08:00"
+        },
+        {
+          "type": "自由入座區：四人同行票",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "priceTwd": 390,
+          "saleEndAt": "2026-12-06T21:30:00+08:00"
+        },
+        {
+          "type": "自由入座區：早鳥票",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "priceTwd": 450,
+          "saleEndAt": "2026-09-26T12:00:00+08:00"
+        },
+        {
+          "type": "自由入座區：一般票",
+          "saleAt": "2026-09-26T12:00:00+08:00",
+          "priceTwd": 500,
+          "saleEndAt": "2026-12-06T21:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/lucas202612061",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-06",
+              "time": "20:00"
+            }
+          ],
+          "price": "前排選座區：四人同行票 NT$540／前排選座區：早鳥票 NT$600／前排選座區：一般票 NT$650／自由入座區：四人同行票 NT$390／自由入座區：早鳥票 NT$450／自由入座區：一般票 NT$500",
+          "saleAt": "2026-09-26T12:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-coldn20261212-2026-12-12-1930",
+      "source": "manual",
+      "title": "【12/12 高雄】涵冷娜脫口秀專場《喊卡之後》 封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "高雄市",
+      "venue": "高雄場 洛克音樂藝文展演空間",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "19:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261212",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/coldn20261212",
+      "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-12-12T21:30:00+08:00"
+        },
+        {
+          "type": "貴人贊助區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-12-12T21:30:00+08:00"
+        },
+        {
+          "type": "VIP 感恩區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 5000,
+          "saleEndAt": "2026-12-12T21:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261212",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    }
+  ]
+}

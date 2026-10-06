@@ -1,0 +1,274 @@
+{
+  "kind": "concerts",
+  "part": 6,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "manual-26_theboyz",
+      "source": "manual",
+      "title": "潤少╳徐晧程徐晧程╳c8ight陳全 《男孩兒 THE BOYZ》演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "WESTAR",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$990；身障495",
+      "saleAt": "2026-08-04T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_theboyz",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_theboyz",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "潤少╳徐晧程徐晧程╳c8ight陳全 《男孩兒 THE BOYZ》演唱會，於WESTAR演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_theboyz",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$990；身障495",
+          "saleAt": "2026-08-04T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_theboyz"
+      ]
+    },
+    {
+      "id": "manual-26_plavetp",
+      "source": "manual",
+      "title": "2026 PLAVE World Tour [KEEP IT MANIC] in Taipei",
+      "performers": "",
+      "region": "桃園市",
+      "venue": "國立體育大學綜合體育館",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$2900／3800／5300／6300",
+      "saleAt": "2026-07-26T12:00:00+08:00",
+      "saleNote": "10/24一般開賣2026/07/26 12:00；10/23加場2026/08/09 12:00",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_plavetp",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_plavetp",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 PLAVE World Tour [KEEP IT MANIC] in Taipei，於國立體育大學綜合體育館演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_plavetp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$2900／3800／5300／6300",
+          "saleAt": "2026-08-09T12:00:00+08:00"
+        },
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_plavetp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2900／3800／5300／6300",
+          "saleAt": "2026-07-26T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_plavetp"
+      ]
+    },
+    {
+      "id": "manual-26_cptp",
+      "source": "manual",
+      "title": "Charlie Puth - Whatever’s Clever! World Tour",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-20",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$800–5880；VIP8200–16500；另加系統費200",
+      "saleAt": "2026-06-17T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_cptp",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_cptp",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Charlie Puth - Whatever’s Clever! World Tour，於台北小巨蛋演出。",
+      "revisions": [
+        {
+          "at": "2026-06-12",
+          "note": "原10/18桃園陽光劇場改至10/20臺北小巨蛋；舊活動不重複計場",
+          "sourceUrl": "https://tixcraft.com/news/detail/1150",
+          "previousSessions": [
+            {
+              "date": "2026-10-18",
+              "time": "20:00"
+            }
+          ]
+        }
+      ],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_cptp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-20",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$800–5880；VIP8200–16500；另加系統費200",
+          "saleAt": "2026-06-17T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_cptp"
+      ]
+    },
+    {
+      "id": "audit-kham-nflying",
+      "source": "manual",
+      "title": "2026 N.Flying LIVE ‘&amp;CON5: into REM’ IN KAOHSIUNG",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄流行音樂中心",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "18:00"
+        }
+      ],
+      "price": null,
+      "saleAt": "2026-09-10T14:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 N.Flying LIVE ‘&amp;CON5: into REM’ IN KAOHSIUNG，於高雄流行音樂中心演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "18:00"
+            }
+          ],
+          "price": null,
+          "saleAt": "2026-09-10T14:00:00+08:00"
+        }
+      ],
+      "unknownFields": [
+        "price"
+      ],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG"
+      ]
+    },
+    {
+      "id": "audit-kham-eunhyuk",
+      "source": "manual",
+      "title": "2026 EUNHYUK PRE-DEBUT FANCON ‘be: WARE OF THE RABBIT’ in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北國際會議中心 TICC",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "20:00"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "16:00"
+        }
+      ],
+      "price": null,
+      "saleAt": "2026-09-11T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 EUNHYUK PRE-DEBUT FANCON ‘be: WARE OF THE RABBIT’ in TAIPEI，於臺北國際會議中心 TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "20:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "16:00"
+            }
+          ],
+          "price": null,
+          "saleAt": "2026-09-11T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [
+        "price"
+      ],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3"
+      ]
+    }
+  ]
+}

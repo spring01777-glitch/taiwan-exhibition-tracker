@@ -1,0 +1,239 @@
+{
+  "kind": "concerts",
+  "part": 9,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "audit-kimura",
+      "source": "manual",
+      "title": "TAKUYA KIMURA Live Tour 2026 Checkpoint in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$3800／4200／4800／5800；身障2100／2900",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "TAKUYA KIMURA Live Tour 2026 Checkpoint in TAIPEI，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026"
+      ],
+      "unknownFields": [
+        "saleAt"
+      ]
+    },
+    {
+      "id": "audit-sing-scene",
+      "source": "manual",
+      "title": "2026唱我們的歌 金曲再現演唱會｜我的電影K歌時代",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy TERA",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$800／1200／1600；愛心400／600／800；套組另計",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/2026SingTheScene",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026唱我們的歌 金曲再現演唱會｜我的電影K歌時代，於Legacy TERA演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/2026SingTheScene"
+      ],
+      "unknownFields": [
+        "saleAt"
+      ]
+    },
+    {
+      "id": "audit-diana",
+      "source": "manual",
+      "title": "爵士天后 戴安娜・克瑞兒 Diana Krall",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "16:00"
+        }
+      ],
+      "price": "NT$2580／2980／3280／3680／3980／4280／4980／5980",
+      "saleAt": "2026-09-17T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/DianaKrall2026",
+      "ticketUrl": "https://ticket.mna.com.tw/UTK0102_?AD_TAB_ID=P1FGAOPN&amp;TYPE=8",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "爵士天后 戴安娜・克瑞兒 Diana Krall，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "MNA售票網",
+          "url": "https://ticket.mna.com.tw/UTK0102_?AD_TAB_ID=P1FGAOPN&amp;TYPE=8",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "16:00"
+            }
+          ],
+          "price": "NT$2580／2980／3280／3680／3980／4280／4980／5980",
+          "saleAt": "2026-09-17T12:00:00+08:00"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/DianaKrall2026"
+      ],
+      "unknownFields": []
+    },
+    {
+      "id": "audit-k21",
+      "source": "manual",
+      "title": "K21 顏社二十一週年演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-12-13",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$1380／1880／2580／3380／3880／4280",
+      "saleAt": "2026-08-05T12:00:00+08:00",
+      "saleNote": "12/12場：2026/08/05 12:00；12/13加場：2026/08/13 12:00",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/K21",
+      "ticketUrl": "https://kaoinc.kktix.cc/events/kiorfd",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "K21 顏社二十一週年演唱會，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://kaoinc.kktix.cc/events/kiorfd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$1380／1880／2580／3380／3880／4280",
+          "saleAt": "2026-08-05T12:00:00+08:00"
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://kaoinc.kktix.cc/events/kiorfd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$1380／1880／2580／3380／3880／4280",
+          "saleAt": "2026-08-13T12:00:00+08:00"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/K21",
+        "https://kaoinc.kktix.cc/events/kiorfd"
+      ],
+      "unknownFields": []
+    },
+    {
+      "id": "audit-atarayo",
+      "source": "manual",
+      "title": "Atarayo ASIA TOUR 2026『夕立が去ったその後で』in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-12-19",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$2600／3000／3200／3600／3800；身障1500／1900",
+      "saleAt": "2026-09-05T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/atarayo2026",
+      "ticketUrl": "https://binliveco.kktix.cc/events/kbrte",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Atarayo ASIA TOUR 2026『夕立が去ったその後で』in TAIPEI，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://binliveco.kktix.cc/events/kbrte",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2600／3000／3200／3600／3800；身障1500／1900",
+          "saleAt": "2026-09-05T12:00:00+08:00"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/atarayo2026"
+      ],
+      "unknownFields": []
+    }
+  ]
+}

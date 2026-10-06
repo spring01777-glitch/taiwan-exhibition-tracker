@@ -1,0 +1,2300 @@
+{
+  "checkedAt": "2026-10-06",
+  "eventCount": 46,
+  "sessionCount": 71,
+  "window": {
+    "start": "2026-10-06",
+    "end": "2027-01-06"
+  },
+  "events": [
+    {
+      "id": "manual-26_gboyswag",
+      "source": "manual",
+      "title": "鼓鼓 呂思緯《我現在又在想你了》巡迴演唱會 GBOYSWAG《Missing You All Over Again》",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北流行音樂中心表演廳",
+      "sessions": [
+        {
+          "date": "2026-12-26",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$980／1580／1880／2280／2580／3280／3580；套票4580",
+      "saleAt": "2026-07-19T13:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_gboyswag",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_gboyswag",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "鼓鼓 呂思緯《我現在又在想你了》巡迴演唱會 GBOYSWAG《Missing You All Over Again》，於台北流行音樂中心表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_gboyswag",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-26",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$980／1580／1880／2280／2580／3280／3580；套票4580",
+          "saleAt": "2026-07-19T13:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_gboyswag"
+      ]
+    },
+    {
+      "id": "manual-26_straykids",
+      "source": "manual",
+      "title": "Stray Kids World Tour ＜RUN IT TAIPEI＞",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北大巨蛋",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$2880／3880／4880／5880／6880；VIP7880；另加系統費200",
+      "saleAt": "2026-09-17T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_straykids",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_straykids",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Stray Kids World Tour ＜RUN IT TAIPEI＞，於臺北大巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_straykids",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2880／3880／4880／5880／6880；VIP7880；另加系統費200",
+          "saleAt": "2026-09-17T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_straykids"
+      ]
+    },
+    {
+      "id": "manual-26_slowdive",
+      "source": "manual",
+      "title": "Slowdive 2026 Live in Taipei",
+      "performers": "",
+      "region": "新北市",
+      "venue": "Zepp New Taipei",
+      "sessions": [
+        {
+          "date": "2026-12-10",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$1880／2680／3680",
+      "saleAt": "2026-07-22T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_slowdive",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_slowdive",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Slowdive 2026 Live in Taipei，於Zepp New Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_slowdive",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-10",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$1880／2680／3680",
+          "saleAt": "2026-07-22T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_slowdive"
+      ]
+    },
+    {
+      "id": "manual-26_fkj",
+      "source": "manual",
+      "title": "FKJ – Tyber Tour in Taipei",
+      "performers": "",
+      "region": "新北市",
+      "venue": "Zepp New Taipei",
+      "sessions": [
+        {
+          "date": "2026-12-08",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$2580–3680；另加系統費200",
+      "saleAt": "2026-07-10T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_fkj",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_fkj",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "FKJ – Tyber Tour in Taipei，於Zepp New Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_fkj",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-08",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$2580–3680；另加系統費200",
+          "saleAt": "2026-07-10T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_fkj"
+      ]
+    },
+    {
+      "id": "manual-26_khalid",
+      "source": "manual",
+      "title": "Khalid： It’s Always Summer Somewhere Tour in Taipei",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心TICC",
+      "sessions": [
+        {
+          "date": "2026-12-07",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$2980–7500；另加系統費200",
+      "saleAt": "2026-07-16T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_khalid",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_khalid",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Khalid： It’s Always Summer Somewhere Tour in Taipei，於台北國際會議中心TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_khalid",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-07",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$2980–7500；另加系統費200",
+          "saleAt": "2026-07-16T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_khalid"
+      ]
+    },
+    {
+      "id": "manual-26_brb",
+      "source": "manual",
+      "title": "brb. “half/lives” Tour in Taipei",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Clapper Studio",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1680；VIP4480；另加系統費200",
+      "saleAt": "2026-07-31T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_brb",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_brb",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "brb. “half/lives” Tour in Taipei，於Clapper Studio演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_brb",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1680；VIP4480；另加系統費200",
+          "saleAt": "2026-07-31T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_brb"
+      ]
+    },
+    {
+      "id": "manual-26_renetp",
+      "source": "manual",
+      "title": "劉若英 [飛行日] 2026巡迴演唱會 台北站 Rene [Final Call] 2026 Live Tour Taipei Arena",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "18:30"
+        }
+      ],
+      "price": "NT$800／1800／2200／2800／3200／3800／4200／4500",
+      "saleAt": "2026-09-19T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_renetp",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_renetp",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "劉若英 [飛行日] 2026巡迴演唱會 台北站 Rene [Final Call] 2026 Live Tour Taipei Arena，於台北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_renetp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "18:30"
+            }
+          ],
+          "price": "NT$800／1800／2200／2800／3200／3800／4200／4500",
+          "saleAt": "2026-09-19T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_renetp"
+      ]
+    },
+    {
+      "id": "manual-26_aaa",
+      "source": "manual",
+      "title": "2026 Asia Artist Awards in Kaohsiung",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄國家體育場(世運主場館)",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "17:00"
+        },
+        {
+          "date": "2026-12-06",
+          "time": "17:00"
+        }
+      ],
+      "price": null,
+      "saleAt": "2026-09-19T13:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_aaa",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_aaa",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 Asia Artist Awards in Kaohsiung，於高雄國家體育場(世運主場館)演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_aaa",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-12-06",
+              "time": "17:00"
+            }
+          ],
+          "price": null,
+          "saleAt": "2026-09-19T13:00:00+08:00"
+        }
+      ],
+      "unknownFields": [
+        "price"
+      ],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_aaa"
+      ]
+    },
+    {
+      "id": "manual-26_domijd",
+      "source": "manual",
+      "title": "DOMi ＆ JD BECK - WHO ASKED? Tour",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Clapper Studio",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1980；另加系統費200",
+      "saleAt": "2026-08-12T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_domijd",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_domijd",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "DOMi ＆ JD BECK - WHO ASKED? Tour，於Clapper Studio演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_domijd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1980；另加系統費200",
+          "saleAt": "2026-08-12T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_domijd"
+      ]
+    },
+    {
+      "id": "manual-26_youngk",
+      "source": "manual",
+      "title": "Young K Solo Tour ＜YOUNGEST＞ in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心TICC",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$2880／3380／3880／4880；VIP另見官方",
+      "saleAt": "2026-08-27T11:00:00+08:00",
+      "saleNote": "11/29一般開賣2026/08/27 11:00；11/28加場一般開賣2026/09/01 15:00",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_youngk",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_youngk",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Young K Solo Tour ＜YOUNGEST＞ in TAIPEI，於台北國際會議中心TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_youngk",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2880／3380／3880／4880；VIP另見官方",
+          "saleAt": "2026-09-01T15:00:00+08:00"
+        },
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_youngk",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2880／3380／3880／4880；VIP另見官方",
+          "saleAt": "2026-08-27T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_youngk"
+      ]
+    },
+    {
+      "id": "manual-26_joji",
+      "source": "manual",
+      "title": "JOJI SOLARIS",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄巨蛋",
+      "sessions": [
+        {
+          "date": "2026-11-27",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$2900–12380（含VIP）；另加系統費200",
+      "saleAt": "2026-04-30T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_joji",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_joji",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "JOJI SOLARIS，於高雄巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_joji",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-27",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$2900–12380（含VIP）；另加系統費200",
+          "saleAt": "2026-04-30T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_joji"
+      ]
+    },
+    {
+      "id": "manual-26_5sos",
+      "source": "manual",
+      "title": "5 SECONDS OF SUMMER：EVERYONE’S A STAR! WORLD TOUR",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北流行音樂中心表演廳",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$3380–8680（含VIP）；另加系統費200",
+      "saleAt": "2026-08-20T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_5sos",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_5sos",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "5 SECONDS OF SUMMER：EVERYONE’S A STAR! WORLD TOUR，於台北流行音樂中心表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_5sos",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-25",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$3380–8680（含VIP）；另加系統費200",
+          "saleAt": "2026-08-20T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_5sos"
+      ]
+    },
+    {
+      "id": "manual-26_wte",
+      "source": "manual",
+      "title": "wave to earth - the pieces tour",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心TICC",
+      "sessions": [
+        {
+          "date": "2026-11-24",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$2300–6300；另加系統費200",
+      "saleAt": "2026-05-26T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_wte",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_wte",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "wave to earth - the pieces tour，於台北國際會議中心TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_wte",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-24",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$2300–6300；另加系統費200",
+          "saleAt": "2026-05-26T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_wte"
+      ]
+    },
+    {
+      "id": "manual-26_todd",
+      "source": "manual",
+      "title": "Malcolm Todd： Do That Again Tour in Taipei",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心TICC",
+      "sessions": [
+        {
+          "date": "2026-11-23",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$1980–5180；另加系統費200",
+      "saleAt": "2026-10-03T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_todd",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_todd",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Malcolm Todd： Do That Again Tour in Taipei，於台北國際會議中心TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_todd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-23",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$1980–5180；另加系統費200",
+          "saleAt": "2026-10-03T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_todd"
+      ]
+    },
+    {
+      "id": "manual-26_btskns",
+      "source": "manual",
+      "title": "BTS WORLD TOUR ’ARIRANG’ IN KAOHSIUNG",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄國家體育場",
+      "sessions": [
+        {
+          "date": "2026-11-19",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$2980／3980／4980／5980／6980／7980；VIP9380；另加系統費200",
+      "saleAt": "2026-06-04T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_btskns",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_btskns",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "BTS WORLD TOUR ’ARIRANG’ IN KAOHSIUNG，於高雄國家體育場演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_btskns",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-19",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2980／3980／4980／5980／6980／7980；VIP9380；另加系統費200",
+          "saleAt": "2026-06-04T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_btskns"
+      ]
+    },
+    {
+      "id": "manual-26_bini",
+      "source": "manual",
+      "title": "BINI：SIGNALS WORLD TOUR 2026 TAIPEI",
+      "performers": "",
+      "region": "新北市",
+      "venue": "新北市工商展覽中心",
+      "sessions": [
+        {
+          "date": "2026-11-15",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$2068／3068／4068／5068；身障1034",
+      "saleAt": "2026-05-15T10:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_bini",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_bini",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "BINI：SIGNALS WORLD TOUR 2026 TAIPEI，於新北市工商展覽中心演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_bini",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$2068／3068／4068／5068；身障1034",
+          "saleAt": "2026-05-15T10:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_bini"
+      ]
+    },
+    {
+      "id": "manual-26_fireball",
+      "source": "manual",
+      "title": "2026 FIREBALL Fest. 火球祭",
+      "performers": "",
+      "region": "桃園市",
+      "venue": "樂天桃園棒球場",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": null
+        },
+        {
+          "date": "2026-11-15",
+          "time": null
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_fireball",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_fireball",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 FIREBALL Fest. 火球祭，於樂天桃園棒球場演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_fireball",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": null
+            },
+            {
+              "date": "2026-11-15",
+              "time": null
+            }
+          ],
+          "price": null,
+          "saleAt": null
+        }
+      ],
+      "unknownFields": [
+        "price",
+        "saleAt",
+        "session.time"
+      ],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_fireball"
+      ]
+    },
+    {
+      "id": "manual-26_juiceboy",
+      "source": "manual",
+      "title": "Juice Boy《所以說永遠多長》台北演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "SUB LIVE",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1280；VIP2080；身障640",
+      "saleAt": "2026-09-28T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_juiceboy",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_juiceboy",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Juice Boy《所以說永遠多長》台北演唱會，於SUB LIVE演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_juiceboy",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1280；VIP2080；身障640",
+          "saleAt": "2026-09-28T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_juiceboy"
+      ]
+    },
+    {
+      "id": "manual-26_lsf",
+      "source": "manual",
+      "title": "2026 LE SSERAFIM TOUR ‘PUREFLOW’ IN TAIPEI",
+      "performers": "",
+      "region": "桃園市",
+      "venue": "國立體育大學綜合體育館",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "18:00"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$3680／4680／5880／6380／VIP6980；另加系統費200",
+      "saleAt": "2026-09-06T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_lsf",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_lsf",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 LE SSERAFIM TOUR ‘PUREFLOW’ IN TAIPEI，於國立體育大學綜合體育館演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_lsf",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "18:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$3680／4680／5880／6380／VIP6980；另加系統費200",
+          "saleAt": "2026-09-06T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_lsf"
+      ]
+    },
+    {
+      "id": "manual-26_cw",
+      "source": "manual",
+      "title": "CULTURE WARS LIVE IN TAIPEI 2026",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1680；另加系統費200",
+      "saleAt": "2026-10-07T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_cw",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_cw",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "CULTURE WARS LIVE IN TAIPEI 2026，於Legacy Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_cw",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1680；另加系統費200",
+          "saleAt": "2026-10-07T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_cw"
+      ]
+    },
+    {
+      "id": "manual-26_yungkai",
+      "source": "manual",
+      "title": "yung kai - stay with the ocean， i’ll find you： asia tour 2026",
+      "performers": "",
+      "region": "新北市",
+      "venue": "Zepp New Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$1680–2380；另加系統費200",
+      "saleAt": "2026-08-06T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_yungkai",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_yungkai",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "yung kai - stay with the ocean， i’ll find you： asia tour 2026，於Zepp New Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_yungkai",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-11",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$1680–2380；另加系統費200",
+          "saleAt": "2026-08-06T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_yungkai"
+      ]
+    },
+    {
+      "id": "manual-26_82major",
+      "source": "manual",
+      "title": "82MAJOR ＜82CLUB ： OUT OF CONTROL＞ in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Clapper Studio",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$3680／4280；輪椅身障2140",
+      "saleAt": "2026-09-27T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_82major",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_82major",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "82MAJOR ＜82CLUB ： OUT OF CONTROL＞ in TAIPEI，於Clapper Studio演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_82major",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$3680／4280；輪椅身障2140",
+          "saleAt": "2026-09-27T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_82major"
+      ]
+    },
+    {
+      "id": "manual-26_vashhsu",
+      "source": "manual",
+      "title": "徐暐翔《愛火山的人》專場演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$1450；身障725",
+      "saleAt": "2026-09-14T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_vashhsu",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_vashhsu",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "徐暐翔《愛火山的人》專場演唱會，於Legacy Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_vashhsu",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$1450；身障725",
+          "saleAt": "2026-09-14T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_vashhsu"
+      ]
+    },
+    {
+      "id": "manual-26_shishi",
+      "source": "manual",
+      "title": "孫盛希Shi Shi [The Taste of …] 台北演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy TERA",
+      "sessions": [
+        {
+          "date": "2026-11-01",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$2500；VIP3100；身障1250",
+      "saleAt": "2026-08-18T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_shishi",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_shishi",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "孫盛希Shi Shi [The Taste of …] 台北演唱會，於Legacy TERA演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_shishi",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-01",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2500；VIP3100；身障1250",
+          "saleAt": "2026-08-18T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_shishi"
+      ]
+    },
+    {
+      "id": "manual-26_twskh",
+      "source": "manual",
+      "title": "2026 TWS TOUR ‘24/7：FOR：YOU’ IN KAOHSIUNG",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$2080／2880／3880／4880／5880／6680；另加系統費200",
+      "saleAt": "2026-07-19T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_twskh",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_twskh",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 TWS TOUR ‘24/7：FOR：YOU’ IN KAOHSIUNG，於高雄巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_twskh",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2080／2880／3880／4880／5880／6680；另加系統費200",
+          "saleAt": "2026-07-19T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_twskh"
+      ]
+    },
+    {
+      "id": "manual-26_theboyz",
+      "source": "manual",
+      "title": "潤少╳徐晧程徐晧程╳c8ight陳全 《男孩兒 THE BOYZ》演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "WESTAR",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$990；身障495",
+      "saleAt": "2026-08-04T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_theboyz",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_theboyz",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "潤少╳徐晧程徐晧程╳c8ight陳全 《男孩兒 THE BOYZ》演唱會，於WESTAR演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_theboyz",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$990；身障495",
+          "saleAt": "2026-08-04T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_theboyz"
+      ]
+    },
+    {
+      "id": "manual-26_plavetp",
+      "source": "manual",
+      "title": "2026 PLAVE World Tour [KEEP IT MANIC] in Taipei",
+      "performers": "",
+      "region": "桃園市",
+      "venue": "國立體育大學綜合體育館",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$2900／3800／5300／6300",
+      "saleAt": "2026-07-26T12:00:00+08:00",
+      "saleNote": "10/24一般開賣2026/07/26 12:00；10/23加場2026/08/09 12:00",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_plavetp",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_plavetp",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 PLAVE World Tour [KEEP IT MANIC] in Taipei，於國立體育大學綜合體育館演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_plavetp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$2900／3800／5300／6300",
+          "saleAt": "2026-08-09T12:00:00+08:00"
+        },
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_plavetp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2900／3800／5300／6300",
+          "saleAt": "2026-07-26T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_plavetp"
+      ]
+    },
+    {
+      "id": "manual-26_cptp",
+      "source": "manual",
+      "title": "Charlie Puth - Whatever’s Clever! World Tour",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-20",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$800–5880；VIP8200–16500；另加系統費200",
+      "saleAt": "2026-06-17T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_cptp",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_cptp",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Charlie Puth - Whatever’s Clever! World Tour，於台北小巨蛋演出。",
+      "revisions": [
+        {
+          "at": "2026-06-12",
+          "note": "原10/18桃園陽光劇場改至10/20臺北小巨蛋；舊活動不重複計場",
+          "sourceUrl": "https://tixcraft.com/news/detail/1150",
+          "previousSessions": [
+            {
+              "date": "2026-10-18",
+              "time": "20:00"
+            }
+          ]
+        }
+      ],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_cptp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-20",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$800–5880；VIP8200–16500；另加系統費200",
+          "saleAt": "2026-06-17T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_cptp"
+      ]
+    },
+    {
+      "id": "audit-kham-nflying",
+      "source": "manual",
+      "title": "2026 N.Flying LIVE ‘&amp;CON5: into REM’ IN KAOHSIUNG",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄流行音樂中心",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "18:00"
+        }
+      ],
+      "price": null,
+      "saleAt": "2026-09-10T14:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 N.Flying LIVE ‘&amp;CON5: into REM’ IN KAOHSIUNG，於高雄流行音樂中心演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "18:00"
+            }
+          ],
+          "price": null,
+          "saleAt": "2026-09-10T14:00:00+08:00"
+        }
+      ],
+      "unknownFields": [
+        "price"
+      ],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F24HRG"
+      ]
+    },
+    {
+      "id": "audit-kham-eunhyuk",
+      "source": "manual",
+      "title": "2026 EUNHYUK PRE-DEBUT FANCON ‘be: WARE OF THE RABBIT’ in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北國際會議中心 TICC",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "20:00"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "16:00"
+        }
+      ],
+      "price": null,
+      "saleAt": "2026-09-11T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 EUNHYUK PRE-DEBUT FANCON ‘be: WARE OF THE RABBIT’ in TAIPEI，於臺北國際會議中心 TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "20:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "16:00"
+            }
+          ],
+          "price": null,
+          "saleAt": "2026-09-11T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [
+        "price"
+      ],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F8LOR3"
+      ]
+    },
+    {
+      "id": "audit-kham-julia",
+      "source": "manual",
+      "title": "彭佳慧《數著時間的日子》巡迴演唱會 高雄場",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄巨蛋",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$800／1880／2480／2880／3480／3880／4280／4680",
+      "saleAt": "2026-08-03T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "彭佳慧《數著時間的日子》巡迴演唱會 高雄場，於高雄巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$800／1880／2480／2880／3480／3880／4280／4680",
+          "saleAt": "2026-08-03T12:00:00+08:00"
+        }
+      ],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1D3G65D"
+      ],
+      "unknownFields": []
+    },
+    {
+      "id": "audit-kham-musicexpo",
+      "source": "manual",
+      "title": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "18:00"
+        },
+        {
+          "date": "2026-10-25",
+          "time": "18:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "MUSIC EXPO LIVE 2026 in TAIPEI，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "18:00"
+            }
+          ],
+          "price": null,
+          "saleAt": null
+        },
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXXK2O",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "18:00"
+            }
+          ],
+          "price": null,
+          "saleAt": null
+        }
+      ],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX",
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXXK2O"
+      ],
+      "unknownFields": [
+        "price",
+        "saleAt"
+      ]
+    },
+    {
+      "id": "audit-kham-911",
+      "source": "manual",
+      "title": "2026玖壹壹南北貳路音樂節",
+      "performers": "",
+      "region": "臺中市",
+      "venue": "臺中水湳中央公園",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": null
+        },
+        {
+          "date": "2026-11-08",
+          "time": null
+        }
+      ],
+      "price": null,
+      "saleAt": "2026-09-30T12:00:00+08:00",
+      "saleNote": "一般區預售單日票9/30 12:00起；早鳥9/13、超早鳥9/6、搖滾AB區9/2另有階段。時間與票價尚待核實。",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026玖壹壹南北貳路音樂節，於臺中水湳中央公園演出。",
+      "revisions": [],
+      "verificationMethod": "official poster screenshot plus official ticket text",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": null
+            },
+            {
+              "date": "2026-11-08",
+              "time": null
+            }
+          ],
+          "price": null,
+          "saleAt": "2026-09-30T12:00:00+08:00"
+        }
+      ],
+      "evidenceUrls": [
+        "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ENTKEA"
+      ],
+      "unknownFields": [
+        "price",
+        "session.time"
+      ]
+    },
+    {
+      "id": "audit-xg",
+      "source": "manual",
+      "title": "XG世界巡迴演唱會 THE CORE 台北站",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$800／2580／2980／3580／4580／5580；VIP6990／7990",
+      "saleAt": "2026-04-30T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=C25BAEDAF3FD2862&amp;sms=F9A95D3F5A5C2C68",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P196NO67",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "XG世界巡迴演唱會 THE CORE 台北站，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P196NO67",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$800／2580／2980／3580／4580／5580；VIP6990／7990",
+          "saleAt": "2026-04-30T12:00:00+08:00"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=C25BAEDAF3FD2862&amp;sms=F9A95D3F5A5C2C68"
+      ],
+      "unknownFields": []
+    },
+    {
+      "id": "audit-yuuri",
+      "source": "manual",
+      "title": "Yuuri ASIA TOUR 2026 in Taipei",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-09",
+          "time": "17:00"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$400／800／2280／3280／4280／4880／5280",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=F5A59B45406E3E27&amp;sms=F9A95D3F5A5C2C68",
+      "ticketUrl": "https://ticketplus.com.tw/activity/7acedf4b414903ac17104384cb416849",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Yuuri ASIA TOUR 2026 in Taipei，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "Ticket Plus",
+          "url": "https://ticketplus.com.tw/activity/7acedf4b414903ac17104384cb416849",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-09",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$400／800／2280／3280／4280／4880／5280",
+          "saleAt": null
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=F5A59B45406E3E27&amp;sms=F9A95D3F5A5C2C68"
+      ],
+      "unknownFields": [
+        "saleAt"
+      ]
+    },
+    {
+      "id": "audit-vaundy",
+      "source": "manual",
+      "title": "Vaundy ASIA ARENA TOUR HOBO in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-31",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-01",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$800／2880／3880／4880／5880",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=44EFCD82A9D43986&amp;sms=F9A95D3F5A5C2C68",
+      "ticketUrl": "https://ticketplus.com.tw/activity/6c3d8c24e0f00c9c84777615c001bebe",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Vaundy ASIA ARENA TOUR HOBO in TAIPEI，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "Ticket Plus",
+          "url": "https://ticketplus.com.tw/activity/6c3d8c24e0f00c9c84777615c001bebe",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$800／2880／3880／4880／5880",
+          "saleAt": null
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=44EFCD82A9D43986&amp;sms=F9A95D3F5A5C2C68"
+      ],
+      "unknownFields": [
+        "saleAt"
+      ]
+    },
+    {
+      "id": "audit-mamamoo",
+      "source": "manual",
+      "title": "MAMAMOO 2026 WORLD TOUR &lt;4WARD&gt; in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "18:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "15:00"
+        }
+      ],
+      "price": "NT$800／3280／3980／5980／6980",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=55BD65177B7B10B3&amp;sms=F9A95D3F5A5C2C68",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39961",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "MAMAMOO 2026 WORLD TOUR &lt;4WARD&gt; in TAIPEI，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39961",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "18:00"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$800／3280／3980／5980／6980",
+          "saleAt": null
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=55BD65177B7B10B3&amp;sms=F9A95D3F5A5C2C68"
+      ],
+      "unknownFields": [
+        "saleAt"
+      ]
+    },
+    {
+      "id": "audit-accusefive",
+      "source": "manual",
+      "title": "凱基金控xAccusefive告五人 [在這裡 @century] 世界巡迴演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-11-06",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-11-07",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-11-08",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$800／1550／1950／2450／2950／3250／3850",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "場馆公告附官方售票連結；本次售票詳情403，非即時票況",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=8CCE4249EBCC0A1C&amp;sms=F9A95D3F5A5C2C68",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_aftp",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "凱基金控xAccusefive告五人 [在這裡 @century] 世界巡迴演唱會，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_aftp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-06",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$800／1550／1950／2450／2950／3250／3850",
+          "saleAt": null
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=8CCE4249EBCC0A1C&amp;sms=F9A95D3F5A5C2C68"
+      ],
+      "unknownFields": [
+        "saleAt"
+      ]
+    },
+    {
+      "id": "audit-hebe",
+      "source": "manual",
+      "title": "田馥甄 要去什麼地方 2026台北小巨蛋演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-12-13",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-12-15",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-18",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-19",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-12-20",
+          "time": "18:30"
+        }
+      ],
+      "price": "NT$800／1800／2800／3200／3800／4200／4800／5200",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=8DA71330A665A8F4&amp;sms=F9A95D3F5A5C2C68",
+      "ticketUrl": "https://ticketplus.com.tw/activity/afaf206f48c75998345655952851c853",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "田馥甄 要去什麼地方 2026台北小巨蛋演唱會，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "Ticket Plus",
+          "url": "https://ticketplus.com.tw/activity/afaf206f48c75998345655952851c853",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "18:30"
+            },
+            {
+              "date": "2026-12-13",
+              "time": "18:30"
+            },
+            {
+              "date": "2026-12-15",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-18",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-19",
+              "time": "18:30"
+            },
+            {
+              "date": "2026-12-20",
+              "time": "18:30"
+            }
+          ],
+          "price": "NT$800／1800／2800／3200／3800／4200／4800／5200",
+          "saleAt": null
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=8DA71330A665A8F4&amp;sms=F9A95D3F5A5C2C68"
+      ],
+      "unknownFields": [
+        "saleAt"
+      ]
+    },
+    {
+      "id": "audit-shihhsin",
+      "source": "manual",
+      "title": "世新大學－校慶小巨蛋之夜",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-14",
+          "time": "18:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "官方列索票登記及校友報名，票價及一般公眾資格未核實；不可顯示為可直接購票",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=F487E50933CD78AE&amp;sms=F9A95D3F5A5C2C68",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "世新大學－校慶小巨蛋之夜，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&amp;s=F487E50933CD78AE&amp;sms=F9A95D3F5A5C2C68"
+      ],
+      "unknownFields": [
+        "price",
+        "saleAt"
+      ]
+    },
+    {
+      "id": "audit-kimura",
+      "source": "manual",
+      "title": "TAKUYA KIMURA Live Tour 2026 Checkpoint in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$3800／4200／4800／5800；身障2100／2900",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "TAKUYA KIMURA Live Tour 2026 Checkpoint in TAIPEI，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026"
+      ],
+      "unknownFields": [
+        "saleAt"
+      ]
+    },
+    {
+      "id": "audit-sing-scene",
+      "source": "manual",
+      "title": "2026唱我們的歌 金曲再現演唱會｜我的電影K歌時代",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy TERA",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$800／1200／1600；愛心400／600／800；套組另計",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/2026SingTheScene",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026唱我們的歌 金曲再現演唱會｜我的電影K歌時代，於Legacy TERA演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/2026SingTheScene"
+      ],
+      "unknownFields": [
+        "saleAt"
+      ]
+    },
+    {
+      "id": "audit-diana",
+      "source": "manual",
+      "title": "爵士天后 戴安娜・克瑞兒 Diana Krall",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "16:00"
+        }
+      ],
+      "price": "NT$2580／2980／3280／3680／3980／4280／4980／5980",
+      "saleAt": "2026-09-17T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/DianaKrall2026",
+      "ticketUrl": "https://ticket.mna.com.tw/UTK0102_?AD_TAB_ID=P1FGAOPN&amp;TYPE=8",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "爵士天后 戴安娜・克瑞兒 Diana Krall，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "MNA售票網",
+          "url": "https://ticket.mna.com.tw/UTK0102_?AD_TAB_ID=P1FGAOPN&amp;TYPE=8",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "16:00"
+            }
+          ],
+          "price": "NT$2580／2980／3280／3680／3980／4280／4980／5980",
+          "saleAt": "2026-09-17T12:00:00+08:00"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/DianaKrall2026"
+      ],
+      "unknownFields": []
+    },
+    {
+      "id": "audit-k21",
+      "source": "manual",
+      "title": "K21 顏社二十一週年演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-12-13",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$1380／1880／2580／3380／3880／4280",
+      "saleAt": "2026-08-05T12:00:00+08:00",
+      "saleNote": "12/12場：2026/08/05 12:00；12/13加場：2026/08/13 12:00",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/K21",
+      "ticketUrl": "https://kaoinc.kktix.cc/events/kiorfd",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "K21 顏社二十一週年演唱會，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://kaoinc.kktix.cc/events/kiorfd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$1380／1880／2580／3380／3880／4280",
+          "saleAt": "2026-08-05T12:00:00+08:00"
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://kaoinc.kktix.cc/events/kiorfd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$1380／1880／2580／3380／3880／4280",
+          "saleAt": "2026-08-13T12:00:00+08:00"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/K21",
+        "https://kaoinc.kktix.cc/events/kiorfd"
+      ],
+      "unknownFields": []
+    },
+    {
+      "id": "audit-atarayo",
+      "source": "manual",
+      "title": "Atarayo ASIA TOUR 2026『夕立が去ったその後で』in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-12-19",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$2600／3000／3200／3600／3800；身障1500／1900",
+      "saleAt": "2026-09-05T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/atarayo2026",
+      "ticketUrl": "https://binliveco.kktix.cc/events/kbrte",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Atarayo ASIA TOUR 2026『夕立が去ったその後で』in TAIPEI，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://binliveco.kktix.cc/events/kbrte",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2600／3000／3200／3600／3800；身障1500／1900",
+          "saleAt": "2026-09-05T12:00:00+08:00"
+        }
+      ],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/atarayo2026"
+      ],
+      "unknownFields": []
+    },
+    {
+      "id": "audit-taipei-jazz-mainstage",
+      "source": "manual",
+      "title": "2026臺北爵士音樂節20週年｜Jazz Right 北流主舞台",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 戶外表演空間",
+      "sessions": [
+        {
+          "date": "2026-10-09",
+          "time": null
+        },
+        {
+          "date": "2026-10-10",
+          "time": null
+        },
+        {
+          "date": "2026-10-11",
+          "time": null
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "主舞台每日確切開演時間及票務方式未核實；不把9/4–10/11整段展期展開為每日場次",
+      "ticketStatus": "官方主舞台日期已核對；票務方式未核實",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/2026TaipeiJazzFestival",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "臺北爵士音樂節主舞台於北流戶外空間連續三天演出；工作坊不納入演唱會場次。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/2026TaipeiJazzFestival"
+      ],
+      "unknownFields": [
+        "price",
+        "saleAt",
+        "session.time"
+      ]
+    }
+  ]
+}

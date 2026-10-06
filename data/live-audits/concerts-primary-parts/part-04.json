@@ -1,0 +1,253 @@
+{
+  "kind": "concerts",
+  "part": 4,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "manual-26_bini",
+      "source": "manual",
+      "title": "BINI：SIGNALS WORLD TOUR 2026 TAIPEI",
+      "performers": "",
+      "region": "新北市",
+      "venue": "新北市工商展覽中心",
+      "sessions": [
+        {
+          "date": "2026-11-15",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$2068／3068／4068／5068；身障1034",
+      "saleAt": "2026-05-15T10:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_bini",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_bini",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "BINI：SIGNALS WORLD TOUR 2026 TAIPEI，於新北市工商展覽中心演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_bini",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$2068／3068／4068／5068；身障1034",
+          "saleAt": "2026-05-15T10:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_bini"
+      ]
+    },
+    {
+      "id": "manual-26_fireball",
+      "source": "manual",
+      "title": "2026 FIREBALL Fest. 火球祭",
+      "performers": "",
+      "region": "桃園市",
+      "venue": "樂天桃園棒球場",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": null
+        },
+        {
+          "date": "2026-11-15",
+          "time": null
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_fireball",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_fireball",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 FIREBALL Fest. 火球祭，於樂天桃園棒球場演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_fireball",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": null
+            },
+            {
+              "date": "2026-11-15",
+              "time": null
+            }
+          ],
+          "price": null,
+          "saleAt": null
+        }
+      ],
+      "unknownFields": [
+        "price",
+        "saleAt",
+        "session.time"
+      ],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_fireball"
+      ]
+    },
+    {
+      "id": "manual-26_juiceboy",
+      "source": "manual",
+      "title": "Juice Boy《所以說永遠多長》台北演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "SUB LIVE",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1280；VIP2080；身障640",
+      "saleAt": "2026-09-28T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_juiceboy",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_juiceboy",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Juice Boy《所以說永遠多長》台北演唱會，於SUB LIVE演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_juiceboy",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1280；VIP2080；身障640",
+          "saleAt": "2026-09-28T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_juiceboy"
+      ]
+    },
+    {
+      "id": "manual-26_lsf",
+      "source": "manual",
+      "title": "2026 LE SSERAFIM TOUR ‘PUREFLOW’ IN TAIPEI",
+      "performers": "",
+      "region": "桃園市",
+      "venue": "國立體育大學綜合體育館",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "18:00"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$3680／4680／5880／6380／VIP6980；另加系統費200",
+      "saleAt": "2026-09-06T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_lsf",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_lsf",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 LE SSERAFIM TOUR ‘PUREFLOW’ IN TAIPEI，於國立體育大學綜合體育館演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_lsf",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "18:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$3680／4680／5880／6380／VIP6980；另加系統費200",
+          "saleAt": "2026-09-06T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_lsf"
+      ]
+    },
+    {
+      "id": "manual-26_cw",
+      "source": "manual",
+      "title": "CULTURE WARS LIVE IN TAIPEI 2026",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1680；另加系統費200",
+      "saleAt": "2026-10-07T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_cw",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_cw",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "CULTURE WARS LIVE IN TAIPEI 2026，於Legacy Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_cw",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1680；另加系統費200",
+          "saleAt": "2026-10-07T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_cw"
+      ]
+    }
+  ]
+}

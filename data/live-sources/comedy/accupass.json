@@ -1,0 +1,1127 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "accupass",
+  "kind": "comedy",
+  "events": [
+    {
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "李安、瑞恩、品喬、黃逸豪、傑克",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-08",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-10-09",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-10-15",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-10-15",
+          "time": "21:30"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-10-23",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-10-29",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-10-30",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-08",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        },
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-09",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        },
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-15",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        },
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-15",
+              "time": "21:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        },
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        },
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        },
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-29",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        },
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "sessionFacts": [
+        {
+          "date": "2026-10-08",
+          "time": "19:30",
+          "performers": "李安、瑞恩、品喬、黃逸豪、傑克",
+          "host": "歐K"
+        },
+        {
+          "date": "2026-10-09",
+          "time": "19:30",
+          "performers": "龍龍、德礎、瑞恩、沈榮、巴斯",
+          "host": "丹尼"
+        },
+        {
+          "date": "2026-10-15",
+          "time": "19:30",
+          "performers": "壯壯、歐耶、佳諭、歐K、品賢",
+          "host": "黃逸豪"
+        },
+        {
+          "date": "2026-10-15",
+          "time": "21:30",
+          "performers": "巴斯、品喬、小歐、傑克、壯壯",
+          "host": "藍恩"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "19:30",
+          "performers": "德礎、藍恩、華旭、Boss、沈榮",
+          "host": "丹尼"
+        },
+        {
+          "date": "2026-10-23",
+          "time": "19:30",
+          "performers": "德礎、藍恩、Boss、沈榮、品喬",
+          "host": "品賢"
+        },
+        {
+          "date": "2026-10-29",
+          "time": "19:30",
+          "performers": "大天、歐耶、瑞恩、龍龍、歐K",
+          "host": "佳諭"
+        },
+        {
+          "date": "2026-10-30",
+          "time": "19:30",
+          "performers": "德礎、巴斯、Boss、小歐、品賢",
+          "host": "品喬"
+        }
+      ],
+      "sourceUid": "https://www.accupass.com/event/2609250552051315174380",
+      "source": "accupass",
+      "id": "eb6b3126626262132f05",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "accupass",
+          "sourceUid": "https://www.accupass.com/event/2609250552051315174380",
+          "id": "eb6b3126626262132f05"
+        }
+      ]
+    },
+    {
+      "title": "Craft comedy 2026 Oct｜Monthly Stand Up Comedy Showcase",
+      "performers": "Sam Yarbs、Bree Calhoun、Ren Wu、Will Mounger、Chloe Huang、Steve Syme、Johnathan Graff",
+      "region": "臺北市",
+      "venue": "23 Comedy Club",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "21:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "ticketUrl": "https://www.accupass.com/event/2610011400221552824046",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "saleNote": "官方標題、header與Time區均為2026/10/16；英文開場文誤留Saturday May16，已標衝突，不採舊段落",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2610011400221552824046",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "21:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.accupass.com/event/2610011400221552824046",
+      "sessionFacts": [
+        {
+          "date": "2026-10-16",
+          "time": "21:30",
+          "performers": "Sam Yarbs、Bree Calhoun、Ren Wu、Will Mounger、Chloe Huang、Steve Syme、Johnathan Graff",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.accupass.com/event/2610011400221552824046",
+      "source": "accupass",
+      "id": "b1469af1465bc6054f7c",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "accupass",
+          "sourceUid": "https://www.accupass.com/event/2610011400221552824046",
+          "id": "b1469af1465bc6054f7c"
+        }
+      ]
+    },
+    {
+      "title": "2026 爺奶萬萬說－老朋友，有點奇怪？也有點可愛－彰化戶外場",
+      "performers": null,
+      "region": "彰化縣",
+      "venue": "晚風交誼廳",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "18:00"
+        }
+      ],
+      "price": "免費索票 NT$0",
+      "saleAt": null,
+      "ticketUrl": "https://www.accupass.com/event/2607060526278581817760",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "saleNote": "官方巡演主頁核實時間/場館：https://www.hondao.org.tw/news/3/210；喜劇約2小時，之後在地活動到21:00-21:30，不能把全部3.5小時當喜劇演出",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2607060526278581817760",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "18:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.accupass.com/event/2607060526278581817760",
+      "sessionFacts": [
+        {
+          "date": "2026-10-17",
+          "time": "18:00",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.accupass.com/event/2607060526278581817760",
+      "source": "accupass",
+      "id": "9c9be9a236c0f2ab059b",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "accupass",
+          "sourceUid": "https://www.accupass.com/event/2607060526278581817760",
+          "id": "9c9be9a236c0f2ab059b"
+        }
+      ]
+    },
+    {
+      "title": "歡樂週末夜 2026喜劇開港拼盤秀",
+      "performers": "瑋德、光頭哥、懿霽、招弟",
+      "region": "高雄市",
+      "venue": "Cave Café 卡濰咖啡 明誠店2F",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "19:30"
+        }
+      ],
+      "price": "入場票 NT$450",
+      "saleAt": null,
+      "ticketUrl": "https://www.accupass.com/event/2609211132271259780290",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "saleNote": null,
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609211132271259780290",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "19:30"
+            }
+          ],
+          "price": "入場票 NT$450",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.accupass.com/event/2609211132271259780290",
+      "sessionFacts": [
+        {
+          "date": "2026-10-17",
+          "time": "19:30",
+          "performers": "瑋德、光頭哥、懿霽、招弟",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.accupass.com/event/2609211132271259780290",
+      "source": "accupass",
+      "id": "74ef527c1151e11d8ad7",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "accupass",
+          "sourceUid": "https://www.accupass.com/event/2609211132271259780290",
+          "id": "74ef527c1151e11d8ad7"
+        }
+      ]
+    },
+    {
+      "title": "屏東喜劇之夜｜10月場 喜劇開港・肆我開笑",
+      "performers": "啊真、老柯、感性炸彈",
+      "region": "屏東縣",
+      "venue": "肆·我 MOI.Lab",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "18:00"
+        }
+      ],
+      "price": "入場票 NT$400",
+      "saleAt": null,
+      "ticketUrl": "https://www.accupass.com/event/2609211132377509344040",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "saleNote": null,
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609211132377509344040",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-18",
+              "time": "18:00"
+            }
+          ],
+          "price": "入場票 NT$400",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.accupass.com/event/2609211132377509344040",
+      "sessionFacts": [
+        {
+          "date": "2026-10-18",
+          "time": "18:00",
+          "performers": "啊真、老柯、感性炸彈",
+          "host": "啊真"
+        }
+      ],
+      "sourceUid": "https://www.accupass.com/event/2609211132377509344040",
+      "source": "accupass",
+      "id": "804dd0e3a1d3df60962b",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "accupass",
+          "sourceUid": "https://www.accupass.com/event/2609211132377509344040",
+          "id": "804dd0e3a1d3df60962b"
+        }
+      ]
+    },
+    {
+      "title": "笑點酒測值 vol.7",
+      "performers": "阿舜順、歐Ｋ、龍哥、小歐",
+      "region": "臺中市",
+      "venue": "STAGE 時代劇",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": "20:00"
+        }
+      ],
+      "price": "入場票 NT$600",
+      "saleAt": null,
+      "ticketUrl": "https://www.accupass.com/event/2609180956221061673281",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "saleNote": "正式票URL由來福官方Linktree核實；詳文讀自https://www.staging.accupass.com/event/2609180956221061673281（平台同源索引），正式詳頁cache miss",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609180956221061673281",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "20:00"
+            }
+          ],
+          "price": "入場票 NT$600",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.accupass.com/event/2609180956221061673281",
+      "sessionFacts": [
+        {
+          "date": "2026-10-23",
+          "time": "20:00",
+          "performers": "阿舜順、歐Ｋ、龍哥、小歐",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.accupass.com/event/2609180956221061673281",
+      "source": "accupass",
+      "id": "29ab251362c69c36e146",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "accupass",
+          "sourceUid": "https://www.accupass.com/event/2609180956221061673281",
+          "id": "29ab251362c69c36e146"
+        }
+      ]
+    },
+    {
+      "title": "Ellery presents: Girls, Gays and Theys",
+      "performers": "Ellery、Bree Calhoun、Tony Baloney、Casey Li Brander、Tammy Jo",
+      "region": "臺北市",
+      "venue": "Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-30",
+          "time": "21:30"
+        }
+      ],
+      "price": "早鳥 NT$600／一般 NT$700／現場（若有餘票） NT$800",
+      "saleAt": null,
+      "ticketUrl": "https://www.accupass.com/event/2608170251191683438973",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "saleNote": "全英文；內文演出長75分鐘但header90分鐘，保留header結束時間且提示差異；不能由9/13早鳥結束推一般票開賣",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608170251191683438973",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "21:30"
+            }
+          ],
+          "price": "早鳥 NT$600／一般 NT$700／現場（若有餘票） NT$800",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.accupass.com/event/2608170251191683438973",
+      "sessionFacts": [
+        {
+          "date": "2026-10-30",
+          "time": "21:30",
+          "performers": "Ellery、Bree Calhoun、Tony Baloney、Casey Li Brander、Tammy Jo",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.accupass.com/event/2608170251191683438973",
+      "source": "accupass",
+      "id": "397f8bafb746153da52c",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "accupass",
+          "sourceUid": "https://www.accupass.com/event/2608170251191683438973",
+          "id": "397f8bafb746153da52c"
+        }
+      ]
+    },
+    {
+      "title": "2026 爺奶萬萬說－老朋友，有點奇怪？也有點可愛－高雄場",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "鸚鵡螺餐酒館2F",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "14:00"
+        },
+        {
+          "date": "2026-11-07",
+          "time": "19:00"
+        }
+      ],
+      "price": "免費索票 NT$0",
+      "saleAt": null,
+      "ticketUrl": "https://www.accupass.com/event/2608050640532090409910",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "saleNote": "演出約1.5-2小時，不用header14:00-22:00當單一演出或自行推定確切end",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608050640532090409910",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "14:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        },
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608050640532090409910",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "19:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.accupass.com/event/2608050640532090409910",
+      "sessionFacts": [
+        {
+          "date": "2026-11-07",
+          "time": "14:00",
+          "performers": null,
+          "host": null
+        },
+        {
+          "date": "2026-11-07",
+          "time": "19:00",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.accupass.com/event/2608050640532090409910",
+      "source": "accupass",
+      "id": "091652a80f2d49c8c42e",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "accupass",
+          "sourceUid": "https://www.accupass.com/event/2608050640532090409910",
+          "id": "091652a80f2d49c8c42e"
+        }
+      ]
+    },
+    {
+      "title": "2026 爺奶萬萬說－老朋友，有點奇怪？也有點可愛－新竹場",
+      "performers": null,
+      "region": "新竹市",
+      "venue": "The Local's Bistro 現場馬拉桑餐酒館",
+      "sessions": [
+        {
+          "date": "2026-11-20",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "19:00"
+        }
+      ],
+      "price": "免費索票 NT$0",
+      "saleAt": null,
+      "ticketUrl": "https://www.accupass.com/event/2608190838241369706084",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "saleNote": "原7/10、7/11因颱風延期；採正式11/20、11/21重新索票頁",
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608190838241369706084",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-20",
+              "time": "19:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        },
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608190838241369706084",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "19:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.accupass.com/event/2608190838241369706084",
+      "sessionFacts": [
+        {
+          "date": "2026-11-20",
+          "time": "19:00",
+          "performers": null,
+          "host": null
+        },
+        {
+          "date": "2026-11-21",
+          "time": "19:00",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.accupass.com/event/2608190838241369706084",
+      "source": "accupass",
+      "id": "319a348572432bc3fb1c",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "accupass",
+          "sourceUid": "https://www.accupass.com/event/2608190838241369706084",
+          "id": "319a348572432bc3fb1c"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "id": "accupass",
+    "name": "ACCUPASS 已核實官方活動",
+    "url": "https://www.accupass.com/",
+    "checkedAt": "2026-10-06T09:16:42+08:00",
+    "mode": "reviewed-import",
+    "discovered": 18,
+    "included": 18,
+    "excluded": 0,
+    "pending": 0,
+    "failed": 0,
+    "reasons": {
+      "OFFICIAL_REVIEWED_FORMAT": 18
+    },
+    "coverageComplete": false,
+    "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 未提供；不是全站完整目錄",
+    "pagesVisited": 1,
+    "expectedPages": 1,
+    "reviewedAt": "2026-10-06",
+    "status": "ok",
+    "lastSuccess": "2026-10-06T09:16:42+08:00",
+    "lastSuccessfulIncluded": 18,
+    "message": "本次核對匯入完成；零符合、部分範圍或完整範圍分開記錄，非全平台每日掃描。",
+    "retainedEventCount": 9
+  },
+  "records": [
+    {
+      "sourceUid": "https://www.accupass.com/event/2609250552051315174380",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-23-select-oct-2026-10-08-1930",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2609250552051315174380"
+      ],
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2609250552051315174380",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-23-select-oct-2026-10-09-1930",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2609250552051315174380"
+      ],
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2609250552051315174380",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-23-select-oct-2026-10-15-1930",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2609250552051315174380"
+      ],
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2609250552051315174380",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-23-select-oct-2026-10-15-2130",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2609250552051315174380"
+      ],
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2609250552051315174380",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-23-select-oct-2026-10-16-1930",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2609250552051315174380"
+      ],
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2610011400221552824046",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-23-craft-oct-2026-10-16-2130",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2610011400221552824046"
+      ],
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2607060526278581817760",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-hondao-changhua-2026-10-17-1800",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2607060526278581817760"
+      ],
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2609211132271259780290",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-takaocb-weekend-1017-2026-10-17-1930",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2609211132271259780290"
+      ],
+      "ticketOptions": [
+        {
+          "type": "入場票",
+          "saleAt": null,
+          "priceTwd": 450
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2609211132377509344040",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-takaocb-moi-1018-2026-10-18-1800",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2609211132377509344040"
+      ],
+      "ticketOptions": [
+        {
+          "type": "入場票",
+          "saleAt": null,
+          "priceTwd": 400,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2609250552051315174380",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-23-select-oct-2026-10-23-1930",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2609250552051315174380"
+      ],
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2609180956221061673281",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-stage-bac-vol7-2026-10-23-2000",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2609180956221061673281"
+      ],
+      "ticketOptions": [
+        {
+          "type": "入場票",
+          "saleAt": null,
+          "priceTwd": 600,
+          "includes": "在地生啤酒或無酒精飲料"
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2609250552051315174380",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-23-select-oct-2026-10-29-1930",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2609250552051315174380"
+      ],
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2609250552051315174380",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-23-select-oct-2026-10-30-1930",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2609250552051315174380"
+      ],
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2608170251191683438973",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-23-girls-gays-theys-2026-10-30-2130",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2608170251191683438973"
+      ],
+      "ticketOptions": [
+        {
+          "type": "早鳥",
+          "saleAt": null,
+          "priceTwd": 600,
+          "saleEndsDate": "2026-09-13"
+        },
+        {
+          "type": "一般",
+          "saleAt": null,
+          "priceTwd": 700
+        },
+        {
+          "type": "現場（若有餘票）",
+          "saleAt": null,
+          "priceTwd": 800
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2608050640532090409910",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-hondao-kaohsiung-2026-11-07-1400",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2608050640532090409910"
+      ],
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2608050640532090409910",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-hondao-kaohsiung-2026-11-07-1900",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2608050640532090409910"
+      ],
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2608190838241369706084",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-hondao-hsinchu-2026-11-20-1900",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2608190838241369706084"
+      ],
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.accupass.com/event/2608190838241369706084",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-hondao-hsinchu-2026-11-21-1900",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.accupass.com/event/2608190838241369706084"
+      ],
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    }
+  ]
+}

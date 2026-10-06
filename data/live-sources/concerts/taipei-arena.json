@@ -1,0 +1,670 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "taipei-arena",
+  "kind": "concerts",
+  "events": [
+    {
+      "title": "XG世界巡迴演唱會 THE CORE 台北站",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$800／2580／2980／3580／4580／5580；VIP6990／7990",
+      "saleAt": "2026-04-30T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P196NO67",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "XG世界巡迴演唱會 THE CORE 台北站，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "寬宏 KHAM",
+          "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P196NO67",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$800／2580／2980／3580／4580／5580；VIP6990／7990",
+          "saleAt": "2026-04-30T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=C25BAEDAF3FD2862&sms=F9A95D3F5A5C2C68",
+      "sessionFacts": [
+        {
+          "date": "2026-10-17",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=C25BAEDAF3FD2862&sms=F9A95D3F5A5C2C68",
+      "source": "taipei-arena",
+      "id": "406a84b32786cf2f9253",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=C25BAEDAF3FD2862&sms=F9A95D3F5A5C2C68",
+          "id": "406a84b32786cf2f9253"
+        }
+      ]
+    },
+    {
+      "title": "Yuuri ASIA TOUR 2026 in Taipei",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-09",
+          "time": "17:00"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$400／800／2280／3280／4280／4880／5280",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://ticketplus.com.tw/activity/7acedf4b414903ac17104384cb416849",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Yuuri ASIA TOUR 2026 in Taipei，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "Ticket Plus",
+          "url": "https://ticketplus.com.tw/activity/7acedf4b414903ac17104384cb416849",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-09",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$400／800／2280／3280／4280／4880／5280",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F5A59B45406E3E27&sms=F9A95D3F5A5C2C68",
+      "sessionFacts": [
+        {
+          "date": "2026-10-09",
+          "time": "17:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-10-10",
+          "time": "17:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F5A59B45406E3E27&sms=F9A95D3F5A5C2C68",
+      "source": "taipei-arena",
+      "id": "1e32f7f3b6dd7ab4f0bd",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F5A59B45406E3E27&sms=F9A95D3F5A5C2C68",
+          "id": "1e32f7f3b6dd7ab4f0bd"
+        }
+      ]
+    },
+    {
+      "title": "Vaundy ASIA ARENA TOUR HOBO in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-31",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-01",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$800／2880／3880／4880／5880",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://ticketplus.com.tw/activity/6c3d8c24e0f00c9c84777615c001bebe",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Vaundy ASIA ARENA TOUR HOBO in TAIPEI，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "Ticket Plus",
+          "url": "https://ticketplus.com.tw/activity/6c3d8c24e0f00c9c84777615c001bebe",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$800／2880／3880／4880／5880",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986&sms=F9A95D3F5A5C2C68",
+      "sessionFacts": [
+        {
+          "date": "2026-10-31",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-01",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986&sms=F9A95D3F5A5C2C68",
+      "source": "taipei-arena",
+      "id": "3b4a5cbdb3a8df5f02bb",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986&sms=F9A95D3F5A5C2C68",
+          "id": "3b4a5cbdb3a8df5f02bb"
+        }
+      ]
+    },
+    {
+      "title": "MAMAMOO 2026 WORLD TOUR <4WARD> in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "18:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "15:00"
+        }
+      ],
+      "price": "NT$800／3280／3980／5980／6980",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39961",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "MAMAMOO 2026 WORLD TOUR <4WARD> in TAIPEI，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39961",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "18:00"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$800／3280／3980／5980／6980",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=55BD65177B7B10B3&sms=F9A95D3F5A5C2C68",
+      "sessionFacts": [
+        {
+          "date": "2026-11-28",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-29",
+          "time": "15:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=55BD65177B7B10B3&sms=F9A95D3F5A5C2C68",
+      "source": "taipei-arena",
+      "id": "e0d640fcaab620cb2b41",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=55BD65177B7B10B3&sms=F9A95D3F5A5C2C68",
+          "id": "e0d640fcaab620cb2b41"
+        }
+      ]
+    },
+    {
+      "title": "凱基金控xAccusefive告五人 [在這裡 @century] 世界巡迴演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-11-06",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-11-07",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-11-08",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$800／1550／1950／2450／2950／3250／3850",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "場馆公告附官方售票連結；本次售票詳情403，非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_aftp",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "凱基金控xAccusefive告五人 [在這裡 @century] 世界巡迴演唱會，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_aftp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-06",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$800／1550／1950／2450／2950／3250／3850",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8CCE4249EBCC0A1C&sms=F9A95D3F5A5C2C68",
+      "sessionFacts": [
+        {
+          "date": "2026-11-06",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-07",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-08",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8CCE4249EBCC0A1C&sms=F9A95D3F5A5C2C68",
+      "source": "taipei-arena",
+      "id": "e53a2e09c536ec2fd996",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8CCE4249EBCC0A1C&sms=F9A95D3F5A5C2C68",
+          "id": "e53a2e09c536ec2fd996"
+        }
+      ]
+    },
+    {
+      "title": "田馥甄 要去什麼地方 2026台北小巨蛋演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-12-13",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-12-15",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-18",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-19",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-12-20",
+          "time": "18:30"
+        }
+      ],
+      "price": "NT$800／1800／2800／3200／3800／4200／4800／5200",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://ticketplus.com.tw/activity/afaf206f48c75998345655952851c853",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "田馥甄 要去什麼地方 2026台北小巨蛋演唱會，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "Ticket Plus",
+          "url": "https://ticketplus.com.tw/activity/afaf206f48c75998345655952851c853",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "18:30"
+            },
+            {
+              "date": "2026-12-13",
+              "time": "18:30"
+            },
+            {
+              "date": "2026-12-15",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-18",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-19",
+              "time": "18:30"
+            },
+            {
+              "date": "2026-12-20",
+              "time": "18:30"
+            }
+          ],
+          "price": "NT$800／1800／2800／3200／3800／4200／4800／5200",
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8DA71330A665A8F4&sms=F9A95D3F5A5C2C68",
+      "sessionFacts": [
+        {
+          "date": "2026-12-12",
+          "time": "18:30",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-12-13",
+          "time": "18:30",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-12-15",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-12-18",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-12-19",
+          "time": "18:30",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-12-20",
+          "time": "18:30",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8DA71330A665A8F4&sms=F9A95D3F5A5C2C68",
+      "source": "taipei-arena",
+      "id": "490a1fdc7c6861a151f5",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8DA71330A665A8F4&sms=F9A95D3F5A5C2C68",
+          "id": "490a1fdc7c6861a151f5"
+        }
+      ]
+    },
+    {
+      "title": "世新大學－校慶小巨蛋之夜",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-14",
+          "time": "18:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "官方列索票登記及校友報名，票價及一般公眾資格未核實；不可顯示為可直接購票",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "status": "scheduled",
+      "summary": "世新大學－校慶小巨蛋之夜，於臺北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [],
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F487E50933CD78AE&sms=F9A95D3F5A5C2C68",
+      "sessionFacts": [
+        {
+          "date": "2026-10-14",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F487E50933CD78AE&sms=F9A95D3F5A5C2C68",
+      "source": "taipei-arena",
+      "id": "806b2c8ead2fb7eadd25",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F487E50933CD78AE&sms=F9A95D3F5A5C2C68",
+          "id": "806b2c8ead2fb7eadd25"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "id": "taipei-arena",
+    "name": "臺北小巨蛋官方活動資料",
+    "url": "https://www.arena.taipei/",
+    "checkedAt": "2026-10-06T09:15:59+08:00",
+    "mode": "reviewed-import",
+    "discovered": 7,
+    "included": 7,
+    "excluded": 0,
+    "pending": 0,
+    "failed": 0,
+    "reasons": {
+      "OFFICIAL_REVIEWED_FORMAT": 7
+    },
+    "coverageComplete": false,
+    "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+    "pagesVisited": 1,
+    "expectedPages": 1,
+    "reviewedAt": "2026-10-06",
+    "status": "ok",
+    "lastSuccess": "2026-10-06T09:15:59+08:00",
+    "lastSuccessfulIncluded": 7,
+    "message": "本次核對匯入完成；零符合、部分範圍或完整範圍分開記錄，非全平台每日掃描。",
+    "retainedEventCount": 7
+  },
+  "records": [
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=C25BAEDAF3FD2862&sms=F9A95D3F5A5C2C68",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-xg",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=C25BAEDAF3FD2862&sms=F9A95D3F5A5C2C68"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F5A59B45406E3E27&sms=F9A95D3F5A5C2C68",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-yuuri",
+      "unknownFields": [
+        "saleAt"
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F5A59B45406E3E27&sms=F9A95D3F5A5C2C68"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986&sms=F9A95D3F5A5C2C68",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-vaundy",
+      "unknownFields": [
+        "saleAt"
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986&sms=F9A95D3F5A5C2C68"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=55BD65177B7B10B3&sms=F9A95D3F5A5C2C68",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-mamamoo",
+      "unknownFields": [
+        "saleAt"
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=55BD65177B7B10B3&sms=F9A95D3F5A5C2C68"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8CCE4249EBCC0A1C&sms=F9A95D3F5A5C2C68",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-accusefive",
+      "unknownFields": [
+        "saleAt"
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8CCE4249EBCC0A1C&sms=F9A95D3F5A5C2C68"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8DA71330A665A8F4&sms=F9A95D3F5A5C2C68",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-hebe",
+      "unknownFields": [
+        "saleAt"
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8DA71330A665A8F4&sms=F9A95D3F5A5C2C68"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F487E50933CD78AE&sms=F9A95D3F5A5C2C68",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-shihhsin",
+      "unknownFields": [
+        "price",
+        "saleAt"
+      ],
+      "evidenceUrls": [
+        "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F487E50933CD78AE&sms=F9A95D3F5A5C2C68"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    }
+  ]
+}

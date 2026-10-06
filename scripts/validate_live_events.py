@@ -8,7 +8,7 @@ FIELDS={'id','title','performers','region','venue','address','sessions','price',
 def sale_time_conflicts(data):
     return [e['id'] for e in data['events'] if
         (e.get('saleAt') or any(t.get('saleAt') for t in e.get('tickets',[]))) and
-        re.search(r'一般開賣[^。；]*(?:未公布|未提供)',e.get('saleNote',''))]
+        re.search(r'一般開賣[^。；]*(?:未公布|未提供)',e.get('saleNote') or '')]
 
 def validate(strict_sale_times=False):
     for kind in ('concerts','comedy'):

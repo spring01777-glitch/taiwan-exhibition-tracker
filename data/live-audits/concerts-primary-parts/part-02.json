@@ -1,0 +1,260 @@
+{
+  "kind": "concerts",
+  "part": 2,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "manual-26_brb",
+      "source": "manual",
+      "title": "brb. “half/lives” Tour in Taipei",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Clapper Studio",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1680；VIP4480；另加系統費200",
+      "saleAt": "2026-07-31T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_brb",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_brb",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "brb. “half/lives” Tour in Taipei，於Clapper Studio演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_brb",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1680；VIP4480；另加系統費200",
+          "saleAt": "2026-07-31T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_brb"
+      ]
+    },
+    {
+      "id": "manual-26_renetp",
+      "source": "manual",
+      "title": "劉若英 [飛行日] 2026巡迴演唱會 台北站 Rene [Final Call] 2026 Live Tour Taipei Arena",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "18:30"
+        }
+      ],
+      "price": "NT$800／1800／2200／2800／3200／3800／4200／4500",
+      "saleAt": "2026-09-19T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_renetp",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_renetp",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "劉若英 [飛行日] 2026巡迴演唱會 台北站 Rene [Final Call] 2026 Live Tour Taipei Arena，於台北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_renetp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "18:30"
+            }
+          ],
+          "price": "NT$800／1800／2200／2800／3200／3800／4200／4500",
+          "saleAt": "2026-09-19T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_renetp"
+      ]
+    },
+    {
+      "id": "manual-26_aaa",
+      "source": "manual",
+      "title": "2026 Asia Artist Awards in Kaohsiung",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄國家體育場(世運主場館)",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "17:00"
+        },
+        {
+          "date": "2026-12-06",
+          "time": "17:00"
+        }
+      ],
+      "price": null,
+      "saleAt": "2026-09-19T13:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_aaa",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_aaa",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 Asia Artist Awards in Kaohsiung，於高雄國家體育場(世運主場館)演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_aaa",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-12-06",
+              "time": "17:00"
+            }
+          ],
+          "price": null,
+          "saleAt": "2026-09-19T13:00:00+08:00"
+        }
+      ],
+      "unknownFields": [
+        "price"
+      ],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_aaa"
+      ]
+    },
+    {
+      "id": "manual-26_domijd",
+      "source": "manual",
+      "title": "DOMi ＆ JD BECK - WHO ASKED? Tour",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Clapper Studio",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1980；另加系統費200",
+      "saleAt": "2026-08-12T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_domijd",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_domijd",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "DOMi ＆ JD BECK - WHO ASKED? Tour，於Clapper Studio演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_domijd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1980；另加系統費200",
+          "saleAt": "2026-08-12T12:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_domijd"
+      ]
+    },
+    {
+      "id": "manual-26_youngk",
+      "source": "manual",
+      "title": "Young K Solo Tour ＜YOUNGEST＞ in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心TICC",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$2880／3380／3880／4880；VIP另見官方",
+      "saleAt": "2026-08-27T11:00:00+08:00",
+      "saleNote": "11/29一般開賣2026/08/27 11:00；11/28加場一般開賣2026/09/01 15:00",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_youngk",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_youngk",
+      "ticketVerifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Young K Solo Tour ＜YOUNGEST＞ in TAIPEI，於台北國際會議中心TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_youngk",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2880／3380／3880／4880；VIP另見官方",
+          "saleAt": "2026-09-01T15:00:00+08:00"
+        },
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_youngk",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2880／3380／3880／4880；VIP另見官方",
+          "saleAt": "2026-08-27T11:00:00+08:00"
+        }
+      ],
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_youngk"
+      ]
+    }
+  ]
+}

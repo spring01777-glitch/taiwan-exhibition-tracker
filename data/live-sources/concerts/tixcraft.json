@@ -1,0 +1,2156 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "tixcraft",
+  "kind": "concerts",
+  "events": [
+    {
+      "title": "鼓鼓 呂思緯《我現在又在想你了》巡迴演唱會 GBOYSWAG《Missing You All Over Again》",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北流行音樂中心表演廳",
+      "sessions": [
+        {
+          "date": "2026-12-26",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$980／1580／1880／2280／2580／3280／3580；套票4580",
+      "saleAt": "2026-07-19T13:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_gboyswag",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "鼓鼓 呂思緯《我現在又在想你了》巡迴演唱會 GBOYSWAG《Missing You All Over Again》，於台北流行音樂中心表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_gboyswag",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-26",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$980／1580／1880／2280／2580／3280／3580；套票4580",
+          "saleAt": "2026-07-19T13:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_gboyswag",
+      "sessionFacts": [
+        {
+          "date": "2026-12-26",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_gboyswag",
+      "source": "tixcraft",
+      "id": "b52917e517adad8eae87",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_gboyswag",
+          "id": "b52917e517adad8eae87"
+        }
+      ]
+    },
+    {
+      "title": "Stray Kids World Tour ＜RUN IT TAIPEI＞",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北大巨蛋",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$2880／3880／4880／5880／6880；VIP7880；另加系統費200",
+      "saleAt": "2026-09-17T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_straykids",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Stray Kids World Tour ＜RUN IT TAIPEI＞，於臺北大巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_straykids",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2880／3880／4880／5880／6880；VIP7880；另加系統費200",
+          "saleAt": "2026-09-17T11:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_straykids",
+      "sessionFacts": [
+        {
+          "date": "2026-12-12",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_straykids",
+      "source": "tixcraft",
+      "id": "c6b9c9b058809240eb1f",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_straykids",
+          "id": "c6b9c9b058809240eb1f"
+        }
+      ]
+    },
+    {
+      "title": "Slowdive 2026 Live in Taipei",
+      "performers": "",
+      "region": "新北市",
+      "venue": "Zepp New Taipei",
+      "sessions": [
+        {
+          "date": "2026-12-10",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$1880／2680／3680",
+      "saleAt": "2026-07-22T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_slowdive",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Slowdive 2026 Live in Taipei，於Zepp New Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_slowdive",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-10",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$1880／2680／3680",
+          "saleAt": "2026-07-22T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_slowdive",
+      "sessionFacts": [
+        {
+          "date": "2026-12-10",
+          "time": "20:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_slowdive",
+      "source": "tixcraft",
+      "id": "23652487f005dafdf13f",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_slowdive",
+          "id": "23652487f005dafdf13f"
+        }
+      ]
+    },
+    {
+      "title": "FKJ – Tyber Tour in Taipei",
+      "performers": "",
+      "region": "新北市",
+      "venue": "Zepp New Taipei",
+      "sessions": [
+        {
+          "date": "2026-12-08",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$2580–3680；另加系統費200",
+      "saleAt": "2026-07-10T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_fkj",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "FKJ – Tyber Tour in Taipei，於Zepp New Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_fkj",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-08",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$2580–3680；另加系統費200",
+          "saleAt": "2026-07-10T11:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_fkj",
+      "sessionFacts": [
+        {
+          "date": "2026-12-08",
+          "time": "20:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_fkj",
+      "source": "tixcraft",
+      "id": "4ec4d0da11c082da766f",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_fkj",
+          "id": "4ec4d0da11c082da766f"
+        }
+      ]
+    },
+    {
+      "title": "Khalid： It’s Always Summer Somewhere Tour in Taipei",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心TICC",
+      "sessions": [
+        {
+          "date": "2026-12-07",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$2980–7500；另加系統費200",
+      "saleAt": "2026-07-16T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_khalid",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Khalid： It’s Always Summer Somewhere Tour in Taipei，於台北國際會議中心TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_khalid",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-07",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$2980–7500；另加系統費200",
+          "saleAt": "2026-07-16T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_khalid",
+      "sessionFacts": [
+        {
+          "date": "2026-12-07",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_khalid",
+      "source": "tixcraft",
+      "id": "4f439a9f55c79f52d154",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_khalid",
+          "id": "4f439a9f55c79f52d154"
+        }
+      ]
+    },
+    {
+      "title": "brb. “half/lives” Tour in Taipei",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Clapper Studio",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1680；VIP4480；另加系統費200",
+      "saleAt": "2026-07-31T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_brb",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "brb. “half/lives” Tour in Taipei，於Clapper Studio演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_brb",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1680；VIP4480；另加系統費200",
+          "saleAt": "2026-07-31T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_brb",
+      "sessionFacts": [
+        {
+          "date": "2026-12-05",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_brb",
+      "source": "tixcraft",
+      "id": "2f5abd804e12889531f1",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_brb",
+          "id": "2f5abd804e12889531f1"
+        }
+      ]
+    },
+    {
+      "title": "劉若英 [飛行日] 2026巡迴演唱會 台北站 Rene [Final Call] 2026 Live Tour Taipei Arena",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "18:30"
+        }
+      ],
+      "price": "NT$800／1800／2200／2800／3200／3800／4200／4500",
+      "saleAt": "2026-09-19T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_renetp",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "劉若英 [飛行日] 2026巡迴演唱會 台北站 Rene [Final Call] 2026 Live Tour Taipei Arena，於台北小巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_renetp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "18:30"
+            }
+          ],
+          "price": "NT$800／1800／2200／2800／3200／3800／4200／4500",
+          "saleAt": "2026-09-19T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_renetp",
+      "sessionFacts": [
+        {
+          "date": "2026-12-05",
+          "time": "18:30",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_renetp",
+      "source": "tixcraft",
+      "id": "1b5e0d9a5c92514d3eec",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_renetp",
+          "id": "1b5e0d9a5c92514d3eec"
+        }
+      ]
+    },
+    {
+      "title": "2026 Asia Artist Awards in Kaohsiung",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄國家體育場(世運主場館)",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "17:00"
+        },
+        {
+          "date": "2026-12-06",
+          "time": "17:00"
+        }
+      ],
+      "price": null,
+      "saleAt": "2026-09-19T13:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_aaa",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 Asia Artist Awards in Kaohsiung，於高雄國家體育場(世運主場館)演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_aaa",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-12-06",
+              "time": "17:00"
+            }
+          ],
+          "price": null,
+          "saleAt": "2026-09-19T13:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_aaa",
+      "sessionFacts": [
+        {
+          "date": "2026-12-05",
+          "time": "17:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-12-06",
+          "time": "17:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_aaa",
+      "source": "tixcraft",
+      "id": "9e26ecce473e14f9f05d",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_aaa",
+          "id": "9e26ecce473e14f9f05d"
+        }
+      ]
+    },
+    {
+      "title": "DOMi ＆ JD BECK - WHO ASKED? Tour",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Clapper Studio",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1980；另加系統費200",
+      "saleAt": "2026-08-12T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_domijd",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "DOMi ＆ JD BECK - WHO ASKED? Tour，於Clapper Studio演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_domijd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1980；另加系統費200",
+          "saleAt": "2026-08-12T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_domijd",
+      "sessionFacts": [
+        {
+          "date": "2026-12-04",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_domijd",
+      "source": "tixcraft",
+      "id": "daf6e58e55c27ab40c3d",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_domijd",
+          "id": "daf6e58e55c27ab40c3d"
+        }
+      ]
+    },
+    {
+      "title": "Young K Solo Tour ＜YOUNGEST＞ in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心TICC",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$2880／3380／3880／4880；VIP另見官方",
+      "saleAt": "2026-08-27T11:00:00+08:00",
+      "saleNote": "11/29一般開賣2026/08/27 11:00；11/28加場一般開賣2026/09/01 15:00",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_youngk",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Young K Solo Tour ＜YOUNGEST＞ in TAIPEI，於台北國際會議中心TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_youngk",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2880／3380／3880／4880；VIP另見官方",
+          "saleAt": "2026-09-01T15:00:00+08:00"
+        },
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_youngk",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2880／3380／3880／4880；VIP另見官方",
+          "saleAt": "2026-08-27T11:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_youngk",
+      "sessionFacts": [
+        {
+          "date": "2026-11-28",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_youngk",
+      "source": "tixcraft",
+      "id": "3f78d7744dbe693dbfc0",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_youngk",
+          "id": "3f78d7744dbe693dbfc0"
+        }
+      ]
+    },
+    {
+      "title": "JOJI SOLARIS",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄巨蛋",
+      "sessions": [
+        {
+          "date": "2026-11-27",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$2900–12380（含VIP）；另加系統費200",
+      "saleAt": "2026-04-30T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_joji",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "JOJI SOLARIS，於高雄巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_joji",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-27",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$2900–12380（含VIP）；另加系統費200",
+          "saleAt": "2026-04-30T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_joji",
+      "sessionFacts": [
+        {
+          "date": "2026-11-27",
+          "time": "20:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_joji",
+      "source": "tixcraft",
+      "id": "a7dc60d4b9e3fd7cdbc8",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_joji",
+          "id": "a7dc60d4b9e3fd7cdbc8"
+        }
+      ]
+    },
+    {
+      "title": "5 SECONDS OF SUMMER：EVERYONE’S A STAR! WORLD TOUR",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北流行音樂中心表演廳",
+      "sessions": [
+        {
+          "date": "2026-11-25",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$3380–8680（含VIP）；另加系統費200",
+      "saleAt": "2026-08-20T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_5sos",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "5 SECONDS OF SUMMER：EVERYONE’S A STAR! WORLD TOUR，於台北流行音樂中心表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_5sos",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-25",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$3380–8680（含VIP）；另加系統費200",
+          "saleAt": "2026-08-20T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_5sos",
+      "sessionFacts": [
+        {
+          "date": "2026-11-25",
+          "time": "20:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_5sos",
+      "source": "tixcraft",
+      "id": "49b574ddc6f348728a8b",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_5sos",
+          "id": "49b574ddc6f348728a8b"
+        }
+      ]
+    },
+    {
+      "title": "wave to earth - the pieces tour",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心TICC",
+      "sessions": [
+        {
+          "date": "2026-11-24",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$2300–6300；另加系統費200",
+      "saleAt": "2026-05-26T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_wte",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "wave to earth - the pieces tour，於台北國際會議中心TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_wte",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-24",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$2300–6300；另加系統費200",
+          "saleAt": "2026-05-26T11:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_wte",
+      "sessionFacts": [
+        {
+          "date": "2026-11-24",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_wte",
+      "source": "tixcraft",
+      "id": "c0292a94b0a87db57be4",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_wte",
+          "id": "c0292a94b0a87db57be4"
+        }
+      ]
+    },
+    {
+      "title": "Malcolm Todd： Do That Again Tour in Taipei",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心TICC",
+      "sessions": [
+        {
+          "date": "2026-11-23",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$1980–5180；另加系統費200",
+      "saleAt": "2026-10-03T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_todd",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Malcolm Todd： Do That Again Tour in Taipei，於台北國際會議中心TICC演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_todd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-23",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$1980–5180；另加系統費200",
+          "saleAt": "2026-10-03T11:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_todd",
+      "sessionFacts": [
+        {
+          "date": "2026-11-23",
+          "time": "20:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_todd",
+      "source": "tixcraft",
+      "id": "86f756e92b35a72b10f5",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_todd",
+          "id": "86f756e92b35a72b10f5"
+        }
+      ]
+    },
+    {
+      "title": "BTS WORLD TOUR ’ARIRANG’ IN KAOHSIUNG",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄國家體育場",
+      "sessions": [
+        {
+          "date": "2026-11-19",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$2980／3980／4980／5980／6980／7980；VIP9380；另加系統費200",
+      "saleAt": "2026-06-04T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_btskns",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "BTS WORLD TOUR ’ARIRANG’ IN KAOHSIUNG，於高雄國家體育場演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_btskns",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-19",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2980／3980／4980／5980／6980／7980；VIP9380；另加系統費200",
+          "saleAt": "2026-06-04T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_btskns",
+      "sessionFacts": [
+        {
+          "date": "2026-11-19",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-21",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_btskns",
+      "source": "tixcraft",
+      "id": "631d44a782e4ac90d49e",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_btskns",
+          "id": "631d44a782e4ac90d49e"
+        }
+      ]
+    },
+    {
+      "title": "BINI：SIGNALS WORLD TOUR 2026 TAIPEI",
+      "performers": "",
+      "region": "新北市",
+      "venue": "新北市工商展覽中心",
+      "sessions": [
+        {
+          "date": "2026-11-15",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$2068／3068／4068／5068；身障1034",
+      "saleAt": "2026-05-15T10:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_bini",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "BINI：SIGNALS WORLD TOUR 2026 TAIPEI，於新北市工商展覽中心演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_bini",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$2068／3068／4068／5068；身障1034",
+          "saleAt": "2026-05-15T10:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_bini",
+      "sessionFacts": [
+        {
+          "date": "2026-11-15",
+          "time": "17:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_bini",
+      "source": "tixcraft",
+      "id": "4bc7d61919cc586eb54b",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_bini",
+          "id": "4bc7d61919cc586eb54b"
+        }
+      ]
+    },
+    {
+      "title": "2026 FIREBALL Fest. 火球祭",
+      "performers": "",
+      "region": "桃園市",
+      "venue": "樂天桃園棒球場",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": null
+        },
+        {
+          "date": "2026-11-15",
+          "time": null
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_fireball",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 FIREBALL Fest. 火球祭，於樂天桃園棒球場演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_fireball",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": null
+            },
+            {
+              "date": "2026-11-15",
+              "time": null
+            }
+          ],
+          "price": null,
+          "saleAt": null
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_fireball",
+      "sessionFacts": [
+        {
+          "date": "2026-11-14",
+          "time": null,
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-15",
+          "time": null,
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_fireball",
+      "source": "tixcraft",
+      "id": "a2d9bfda210f9ea1db73",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_fireball",
+          "id": "a2d9bfda210f9ea1db73"
+        }
+      ]
+    },
+    {
+      "title": "Juice Boy《所以說永遠多長》台北演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "SUB LIVE",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1280；VIP2080；身障640",
+      "saleAt": "2026-09-28T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_juiceboy",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Juice Boy《所以說永遠多長》台北演唱會，於SUB LIVE演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_juiceboy",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1280；VIP2080；身障640",
+          "saleAt": "2026-09-28T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_juiceboy",
+      "sessionFacts": [
+        {
+          "date": "2026-11-14",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_juiceboy",
+      "source": "tixcraft",
+      "id": "2c14f25e26b73469cf8c",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_juiceboy",
+          "id": "2c14f25e26b73469cf8c"
+        }
+      ]
+    },
+    {
+      "title": "2026 LE SSERAFIM TOUR ‘PUREFLOW’ IN TAIPEI",
+      "performers": "",
+      "region": "桃園市",
+      "venue": "國立體育大學綜合體育館",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "18:00"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$3680／4680／5880／6380／VIP6980；另加系統費200",
+      "saleAt": "2026-09-06T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_lsf",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 LE SSERAFIM TOUR ‘PUREFLOW’ IN TAIPEI，於國立體育大學綜合體育館演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_lsf",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "18:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$3680／4680／5880／6380／VIP6980；另加系統費200",
+          "saleAt": "2026-09-06T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_lsf",
+      "sessionFacts": [
+        {
+          "date": "2026-11-14",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-15",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_lsf",
+      "source": "tixcraft",
+      "id": "dea59e2a69d5cdcc6411",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_lsf",
+          "id": "dea59e2a69d5cdcc6411"
+        }
+      ]
+    },
+    {
+      "title": "CULTURE WARS LIVE IN TAIPEI 2026",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1680；另加系統費200",
+      "saleAt": "2026-10-07T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_cw",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "CULTURE WARS LIVE IN TAIPEI 2026，於Legacy Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_cw",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1680；另加系統費200",
+          "saleAt": "2026-10-07T11:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_cw",
+      "sessionFacts": [
+        {
+          "date": "2026-11-13",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_cw",
+      "source": "tixcraft",
+      "id": "d8378753f04224c4783d",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_cw",
+          "id": "d8378753f04224c4783d"
+        }
+      ]
+    },
+    {
+      "title": "yung kai - stay with the ocean， i’ll find you： asia tour 2026",
+      "performers": "",
+      "region": "新北市",
+      "venue": "Zepp New Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$1680–2380；另加系統費200",
+      "saleAt": "2026-08-06T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_yungkai",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "yung kai - stay with the ocean， i’ll find you： asia tour 2026，於Zepp New Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_yungkai",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-11",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$1680–2380；另加系統費200",
+          "saleAt": "2026-08-06T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_yungkai",
+      "sessionFacts": [
+        {
+          "date": "2026-11-11",
+          "time": "20:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_yungkai",
+      "source": "tixcraft",
+      "id": "93fe436aa2726f2e00e8",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_yungkai",
+          "id": "93fe436aa2726f2e00e8"
+        }
+      ]
+    },
+    {
+      "title": "82MAJOR ＜82CLUB ： OUT OF CONTROL＞ in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Clapper Studio",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$3680／4280；輪椅身障2140",
+      "saleAt": "2026-09-27T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_82major",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "82MAJOR ＜82CLUB ： OUT OF CONTROL＞ in TAIPEI，於Clapper Studio演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_82major",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$3680／4280；輪椅身障2140",
+          "saleAt": "2026-09-27T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_82major",
+      "sessionFacts": [
+        {
+          "date": "2026-11-08",
+          "time": "17:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_82major",
+      "source": "tixcraft",
+      "id": "e2e7911710c00bf8b158",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_82major",
+          "id": "e2e7911710c00bf8b158"
+        }
+      ]
+    },
+    {
+      "title": "徐暐翔《愛火山的人》專場演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$1450；身障725",
+      "saleAt": "2026-09-14T11:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_vashhsu",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "徐暐翔《愛火山的人》專場演唱會，於Legacy Taipei演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_vashhsu",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$1450；身障725",
+          "saleAt": "2026-09-14T11:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_vashhsu",
+      "sessionFacts": [
+        {
+          "date": "2026-11-08",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_vashhsu",
+      "source": "tixcraft",
+      "id": "ac64ca56c6398dc6f816",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_vashhsu",
+          "id": "ac64ca56c6398dc6f816"
+        }
+      ]
+    },
+    {
+      "title": "孫盛希Shi Shi [The Taste of …] 台北演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy TERA",
+      "sessions": [
+        {
+          "date": "2026-11-01",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$2500；VIP3100；身障1250",
+      "saleAt": "2026-08-18T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_shishi",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "孫盛希Shi Shi [The Taste of …] 台北演唱會，於Legacy TERA演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_shishi",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-01",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2500；VIP3100；身障1250",
+          "saleAt": "2026-08-18T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_shishi",
+      "sessionFacts": [
+        {
+          "date": "2026-11-01",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_shishi",
+      "source": "tixcraft",
+      "id": "9df88942f4a79c35b5f7",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_shishi",
+          "id": "9df88942f4a79c35b5f7"
+        }
+      ]
+    },
+    {
+      "title": "2026 TWS TOUR ‘24/7：FOR：YOU’ IN KAOHSIUNG",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$2080／2880／3880／4880／5880／6680；另加系統費200",
+      "saleAt": "2026-07-19T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_twskh",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 TWS TOUR ‘24/7：FOR：YOU’ IN KAOHSIUNG，於高雄巨蛋演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_twskh",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2080／2880／3880／4880／5880／6680；另加系統費200",
+          "saleAt": "2026-07-19T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_twskh",
+      "sessionFacts": [
+        {
+          "date": "2026-10-24",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_twskh",
+      "source": "tixcraft",
+      "id": "bb2dee89079ad5874834",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_twskh",
+          "id": "bb2dee89079ad5874834"
+        }
+      ]
+    },
+    {
+      "title": "潤少╳徐晧程徐晧程╳c8ight陳全 《男孩兒 THE BOYZ》演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "WESTAR",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$990；身障495",
+      "saleAt": "2026-08-04T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_theboyz",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "潤少╳徐晧程徐晧程╳c8ight陳全 《男孩兒 THE BOYZ》演唱會，於WESTAR演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_theboyz",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$990；身障495",
+          "saleAt": "2026-08-04T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_theboyz",
+      "sessionFacts": [
+        {
+          "date": "2026-10-24",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_theboyz",
+      "source": "tixcraft",
+      "id": "604cb992c71c548c97d7",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_theboyz",
+          "id": "604cb992c71c548c97d7"
+        }
+      ]
+    },
+    {
+      "title": "2026 PLAVE World Tour [KEEP IT MANIC] in Taipei",
+      "performers": "",
+      "region": "桃園市",
+      "venue": "國立體育大學綜合體育館",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$2900／3800／5300／6300",
+      "saleAt": "2026-07-26T12:00:00+08:00",
+      "saleNote": "10/24一般開賣2026/07/26 12:00；10/23加場2026/08/09 12:00",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_plavetp",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "2026 PLAVE World Tour [KEEP IT MANIC] in Taipei，於國立體育大學綜合體育館演出。",
+      "revisions": [],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_plavetp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$2900／3800／5300／6300",
+          "saleAt": "2026-08-09T12:00:00+08:00"
+        },
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_plavetp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2900／3800／5300／6300",
+          "saleAt": "2026-07-26T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_plavetp",
+      "sessionFacts": [
+        {
+          "date": "2026-10-23",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-10-24",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_plavetp",
+      "source": "tixcraft",
+      "id": "4f056d772035d1ca59c2",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_plavetp",
+          "id": "4f056d772035d1ca59c2"
+        }
+      ]
+    },
+    {
+      "title": "Charlie Puth - Whatever’s Clever! World Tour",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北小巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-20",
+          "time": "20:00"
+        }
+      ],
+      "price": "NT$800–5880；VIP8200–16500；另加系統費200",
+      "saleAt": "2026-06-17T12:00:00+08:00",
+      "saleNote": "一般開賣；不同場次預售或加場依官方公告",
+      "ticketStatus": "官方資料已核對；非即時票況",
+      "ticketUrl": "https://tixcraft.com/activity/detail/26_cptp",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Charlie Puth - Whatever’s Clever! World Tour，於台北小巨蛋演出。",
+      "revisions": [
+        {
+          "at": "2026-06-12",
+          "note": "原10/18桃園陽光劇場改至10/20臺北小巨蛋；舊活動不重複計場",
+          "sourceUrl": "https://tixcraft.com/news/detail/1150",
+          "previousSessions": [
+            {
+              "date": "2026-10-18",
+              "time": "20:00"
+            }
+          ]
+        }
+      ],
+      "verificationMethod": "official public event detail review",
+      "tickets": [
+        {
+          "platform": "拓元 tixCraft",
+          "url": "https://tixcraft.com/activity/detail/26_cptp",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-20",
+              "time": "20:00"
+            }
+          ],
+          "price": "NT$800–5880；VIP8200–16500；另加系統費200",
+          "saleAt": "2026-06-17T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_cptp",
+      "sessionFacts": [
+        {
+          "date": "2026-10-20",
+          "time": "20:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://tixcraft.com/activity/detail/26_cptp",
+      "source": "tixcraft",
+      "id": "a19a01c6d4b064c0ed5a",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tixcraft",
+          "sourceUid": "https://tixcraft.com/activity/detail/26_cptp",
+          "id": "a19a01c6d4b064c0ed5a"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "id": "tixcraft",
+    "name": "拓元 tixCraft",
+    "url": "https://tixcraft.com/",
+    "checkedAt": "2026-10-06T09:15:59+08:00",
+    "mode": "reviewed-import",
+    "discovered": 28,
+    "included": 28,
+    "excluded": 0,
+    "pending": 0,
+    "failed": 0,
+    "reasons": {
+      "OFFICIAL_REVIEWED_FORMAT": 28
+    },
+    "coverageComplete": false,
+    "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+    "pagesVisited": 1,
+    "expectedPages": 1,
+    "reviewedAt": "2026-10-06",
+    "status": "ok",
+    "lastSuccess": "2026-10-06T09:15:59+08:00",
+    "lastSuccessfulIncluded": 28,
+    "message": "本次核對匯入完成；零符合、部分範圍或完整範圍分開記錄，非全平台每日掃描。",
+    "retainedEventCount": 28
+  },
+  "records": [
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_gboyswag",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_gboyswag",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_gboyswag"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_straykids",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_straykids",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_straykids"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_slowdive",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_slowdive",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_slowdive"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_fkj",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_fkj",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_fkj"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_khalid",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_khalid",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_khalid"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_brb",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_brb",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_brb"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_renetp",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_renetp",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_renetp"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_aaa",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_aaa",
+      "unknownFields": [
+        "price"
+      ],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_aaa"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_domijd",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_domijd",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_domijd"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_youngk",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_youngk",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_youngk"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_joji",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_joji",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_joji"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_5sos",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_5sos",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_5sos"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_wte",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_wte",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_wte"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_todd",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_todd",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_todd"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_btskns",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_btskns",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_btskns"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_bini",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_bini",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_bini"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_fireball",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_fireball",
+      "unknownFields": [
+        "price",
+        "saleAt",
+        "session.time"
+      ],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_fireball"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_juiceboy",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_juiceboy",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_juiceboy"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_lsf",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_lsf",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_lsf"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_cw",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_cw",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_cw"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_yungkai",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_yungkai",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_yungkai"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_82major",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_82major",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_82major"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_vashhsu",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_vashhsu",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_vashhsu"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_shishi",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_shishi",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_shishi"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_twskh",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_twskh",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_twskh"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_theboyz",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_theboyz",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_theboyz"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_plavetp",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_plavetp",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_plavetp"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://tixcraft.com/activity/detail/26_cptp",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "manual-26_cptp",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://tixcraft.com/activity/detail/26_cptp"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    }
+  ]
+}

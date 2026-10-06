@@ -214,17 +214,32 @@ def source_snapshots(root,kind,legacy_events=(),legacy_sources=()):
                             {'id':sid,'name':sid,'status':'pending','message':'既有來源保留；尚待清冊登記及核對。','url':'','coverageComplete':False}))
     return events,statuses
 
+def venue_identity(value):
+    # The cloud-reviewed Red House entries name the same second-floor room.
+    if '西門紅樓' in value:
+        value=re.sub(r'The\s+Red\s+House','',value,flags=re.I)
+    return normalized(value)
+
+def program_identity(event):
+    if event.get('programKey'):return event['programKey']
+    title=event['title']
+    if '藍恩' in title and 'all around you' in title.casefold():return 'lan-all-around-you'
+    if '涵冷娜' in title and '喊卡之後' in title:return 'coldn-after-cut'
+    return None
+
 def reconcile(events):
     """Keep source identity and merge only same-place, corroborated sessions."""
     result=[]
     for raw in events:
         e=copy.deepcopy(raw);e['region']=e['region'].replace('台','臺')
+        key=program_identity(e)
+        if key:e['programKey']=key
         refs=e.setdefault('sourceRefs',[{'source':e['source'],'sourceUid':e.get('sourceUid'),'id':e['id']}])
         scope=lambda x:{(s['date'],s.get('time') or '') for s in x['sessions']}
         urls=lambda x:{t['url'] for t in x.get('tickets',[]) if t.get('url')}|({x['sourceUrl']} if x.get('sourceUrl') and 'data.gov.tw/dataset/' not in x['sourceUrl'] else set())
         before=None
         for candidate in result:
-            if (normalized(e['region']),normalized(e['venue']))!=(normalized(candidate['region']),normalized(candidate['venue'])):continue
+            if (normalized(e['region']),venue_identity(e['venue']))!=(normalized(candidate['region']),venue_identity(candidate['venue'])):continue
             stable=bool(e.get('sourceUid') and any(r['source']==e['source'] and r.get('sourceUid')==e['sourceUid'] for r in candidate['sourceRefs']))
             corroborated=normalized(e['title'])==normalized(candidate['title']) or bool(urls(e)&urls(candidate))
             program=bool(e.get('programKey') and e.get('programKey')==candidate.get('programKey'))

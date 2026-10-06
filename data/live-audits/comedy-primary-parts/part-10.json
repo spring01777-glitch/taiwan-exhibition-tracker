@@ -1,0 +1,71 @@
+{
+  "kind": "comedy",
+  "part": 10,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "audit-coldn20261213-2026-12-13-1430",
+      "source": "manual",
+      "title": "【12/13 高雄】涵冷娜脫口秀專場《喊卡之後》 封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "高雄市",
+      "venue": "高雄場 洛克音樂藝文展演空間",
+      "sessions": [
+        {
+          "date": "2026-12-13",
+          "time": "14:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261213",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/coldn20261213",
+      "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-12-13T16:30:00+08:00"
+        },
+        {
+          "type": "貴人贊助區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-12-13T16:30:00+08:00"
+        },
+        {
+          "type": "VIP 感恩區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 5000,
+          "saleEndAt": "2026-12-13T16:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261213",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "14:30"
+            }
+          ],
+          "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    }
+  ]
+}

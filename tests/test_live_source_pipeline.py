@@ -1,5 +1,6 @@
 """Only synthetic fixtures: pagination, classification, retention and identity."""
 import copy
+import html
 import json
 import sys
 import tempfile
@@ -207,5 +208,38 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(len(events),1);self.assertEqual(len(events[0]['sessions']),2)
             self.assertEqual(len(events[0]['sessionFacts']),2)
             self.assertEqual(events[0]['sessionFacts'][1]['performers'],'Fixture performer 1')
+
+    def test_complete_cloud_batches_and_two_daily_rebuilds(self):
+        repo=Path(__file__).resolve().parents[1]
+        for kind,total in (('concerts',(46,71)),('comedy',(46,46))):
+            parts=list((repo/f'data/live-audits/{kind}-primary-parts').glob('part-*.json'))
+            self.assertEqual(len(parts),10)
+            payload=sources.read(repo/f'data/live-audits/{kind}-primary-20261006.json',{})
+            self.assertEqual((len(payload['events']),sum(len(e['sessions']) for e in payload['events'])),total)
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            for name in ('live-source-registry.json','concerts-manual.json','comedy-manual.json','concerts.json','comedy.json','live-event-links.json','live-platform-coverage.json'):
+                sources.write(root/'data'/name,sources.read(repo/'data'/name,{}))
+            for path in (repo/'data/live-sources').rglob('*.json'):
+                sources.write(root/'data/live-sources'/path.relative_to(repo/'data/live-sources'),sources.read(path,{}))
+            for day in ('2026-10-07T09:00:00+08:00','2026-10-08T09:00:00+08:00'):
+                for kind,expected in (('concerts',(85,122)),('comedy',(60,85))):
+                    payload=sources.read(repo/f'data/live-audits/{kind}-primary-20261006.json',{})
+                    self.assertTrue(all(sources.import_canonical(root,kind,payload,day,'primary-20261006').values()))
+                    # A daily MOC response without usable new facts must not wash out providers.
+                    live.build(kind,lambda _:[{'category':'11','UID':'ambiguous','title':'Generic unknown show'}],root,day)
+                    events=sources.read(root/f'data/{kind}.json',{})['events']
+                    self.assertEqual((len(events),sum(len(e['sessions']) for e in events)),expected)
+                    for raw in payload['events']:
+                        for session in raw['sessions']:
+                            official_url=html.unescape(raw['sourceUrl'])
+                            self.assertTrue(any((session['date'],session.get('time')) in {(s['date'],s.get('time')) for s in e['sessions']} and sources.normalized(e['region'])==sources.normalized(raw['region']) and sources.venue_identity(e['venue'])==sources.venue_identity(html.unescape(raw['venue'])) and (official_url in {r.get('sourceUid') for r in e.get('sourceRefs',[])} or official_url==e['sourceUrl']) for e in events),raw['id'])
+                    self.assertTrue(all(e['verifiedAt']=='2026-10-06' for e in events if e['source'] not in ('manual','moc')))
+            comedy=sources.read(root/'data/comedy.json',{})['events']
+            selection=next(e for e in comedy if '二三嚴選' in e['title'])
+            self.assertEqual(len(selection['sessionFacts']),8)
+            self.assertTrue(all(f['performers'] for f in selection['sessionFacts']))
+            self.assertEqual(len(next(e for e in comedy if e['id']=='manual-lan-1008')['sessions']),6)
+            self.assertEqual(len(next(e for e in comedy if e['id']=='manual-coldn')['sessions']),2)
 
 if __name__=='__main__':unittest.main()

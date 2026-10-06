@@ -1,0 +1,51 @@
+{
+  "kind": "concerts",
+  "part": 10,
+  "parts": 10,
+  "checkedAt": "2026-10-06",
+  "events": [
+    {
+      "id": "audit-taipei-jazz-mainstage",
+      "source": "manual",
+      "title": "2026臺北爵士音樂節20週年｜Jazz Right 北流主舞台",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 戶外表演空間",
+      "sessions": [
+        {
+          "date": "2026-10-09",
+          "time": null
+        },
+        {
+          "date": "2026-10-10",
+          "time": null
+        },
+        {
+          "date": "2026-10-11",
+          "time": null
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "主舞台每日確切開演時間及票務方式未核實；不把9/4–10/11整段展期展開為每日場次",
+      "ticketStatus": "官方主舞台日期已核對；票務方式未核實",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/2026TaipeiJazzFestival",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "臺北爵士音樂節主舞台於北流戶外空間連續三天演出；工作坊不納入演唱會場次。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/2026TaipeiJazzFestival"
+      ],
+      "unknownFields": [
+        "price",
+        "saleAt",
+        "session.time"
+      ]
+    }
+  ]
+}

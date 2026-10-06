@@ -1,0 +1,2643 @@
+{
+  "checkedAt": "2026-10-06",
+  "eventCount": 46,
+  "sessionCount": 46,
+  "events": [
+    {
+      "id": "audit-23-select-oct-2026-10-08-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "李安、瑞恩、品喬、黃逸豪、傑克",
+      "host": "歐K",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-08",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-08",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-09-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "龍龍、德礎、瑞恩、沈榮、巴斯",
+      "host": "丹尼",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-09",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-09",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-15-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "壯壯、歐耶、佳諭、歐K、品賢",
+      "host": "黃逸豪",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-15",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-15",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-15-2130",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "巴斯、品喬、小歐、傑克、壯壯",
+      "host": "藍恩",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-15",
+          "time": "21:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-15",
+              "time": "21:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-onthebeach-chinese-oct-2026-10-16-1900",
+      "source": "manual",
+      "title": "第一超棒臺南脫口秀",
+      "performers": "光頭哥、Ellery、JH、致葦",
+      "host": null,
+      "region": "臺南市",
+      "venue": "傳奇酒吧 Legends Tainan",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "19:00"
+        }
+      ],
+      "price": "預售票（內文稱早鳥） NT$350／現場現金票 NT$400",
+      "saleAt": null,
+      "earlyBirdSaleAt": "2026-09-02T00:00:00+08:00",
+      "sourceUrl": "https://onthebeach.kktix.cc/events/chinese-october",
+      "ticketUrl": "https://onthebeach.kktix.cc/events/chinese-october",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "2026-10-06由dot雲端瀏覽器逐頁讀取成功；一般票開賣仍未知",
+      "ticketOptions": [
+        {
+          "type": "預售票（內文稱早鳥）",
+          "saleAt": "2026-09-02T00:00:00+08:00",
+          "priceTwd": 350,
+          "includes": "一杯飲料",
+          "saleEndsAt": "2026-10-16T00:00:00+08:00"
+        },
+        {
+          "type": "現場現金票",
+          "saleAt": null,
+          "priceTwd": 400,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://onthebeach.kktix.cc/events/chinese-october",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "19:00"
+            }
+          ],
+          "price": "預售票（內文稱早鳥） NT$350／現場現金票 NT$400",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-16-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "德礎、藍恩、華旭、Boss、沈榮",
+      "host": "丹尼",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-onthebeach-english-oct-2026-10-16-2100",
+      "source": "manual",
+      "title": "Tainan Comedy Live",
+      "performers": "Evan Danger、Ellery、Casey Li Brander、Jimmy James",
+      "host": "Evan Danger",
+      "region": "臺南市",
+      "venue": "Legends Tainan 傳奇酒吧",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "21:00"
+        }
+      ],
+      "price": "Presale Ticket（內文Early Bird） NT$350／現場現金票 NT$400",
+      "saleAt": null,
+      "earlyBirdSaleAt": "2026-09-02T00:00:00+08:00",
+      "sourceUrl": "https://onthebeach.kktix.cc/events/english-october",
+      "ticketUrl": "https://onthebeach.kktix.cc/events/english-october",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "一般公開原價票開賣未明示；只可確認預售票起始",
+      "ticketOptions": [
+        {
+          "type": "Presale Ticket（內文Early Bird）",
+          "saleAt": "2026-09-02T00:00:00+08:00",
+          "priceTwd": 350,
+          "includes": "一杯飲料",
+          "saleEndsAt": "2026-10-16T00:00:00+08:00"
+        },
+        {
+          "type": "現場現金票",
+          "saleAt": null,
+          "priceTwd": 400,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://onthebeach.kktix.cc/events/english-october",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "21:00"
+            }
+          ],
+          "price": "Presale Ticket（內文Early Bird） NT$350／現場現金票 NT$400",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-craft-oct-2026-10-16-2130",
+      "source": "manual",
+      "title": "Craft comedy 2026 Oct｜Monthly Stand Up Comedy Showcase",
+      "performers": "Sam Yarbs、Bree Calhoun、Ren Wu、Will Mounger、Chloe Huang、Steve Syme、Johnathan Graff",
+      "host": null,
+      "region": "臺北市",
+      "venue": "23 Comedy Club",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "21:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2610011400221552824046",
+      "ticketUrl": "https://www.accupass.com/event/2610011400221552824046",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "官方標題、header與Time區均為2026/10/16；英文開場文誤留Saturday May16，已標衝突，不採舊段落",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2610011400221552824046",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "21:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-hondao-changhua-2026-10-17-1800",
+      "source": "manual",
+      "title": "2026 爺奶萬萬說－老朋友，有點奇怪？也有點可愛－彰化戶外場",
+      "performers": null,
+      "host": null,
+      "region": "彰化縣",
+      "venue": "晚風交誼廳",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "18:00"
+        }
+      ],
+      "price": "免費索票 NT$0",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2607060526278581817760",
+      "ticketUrl": "https://www.accupass.com/event/2607060526278581817760",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "官方巡演主頁核實時間/場館：https://www.hondao.org.tw/news/3/210；喜劇約2小時，之後在地活動到21:00-21:30，不能把全部3.5小時當喜劇演出",
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2607060526278581817760",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "18:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-takaocb-weekend-1017-2026-10-17-1930",
+      "source": "manual",
+      "title": "歡樂週末夜 2026喜劇開港拼盤秀",
+      "performers": "瑋德、光頭哥、懿霽、招弟",
+      "host": null,
+      "region": "高雄市",
+      "venue": "Cave Café 卡濰咖啡 明誠店2F",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "19:30"
+        }
+      ],
+      "price": "入場票 NT$450",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609211132271259780290",
+      "ticketUrl": "https://www.accupass.com/event/2609211132271259780290",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": null,
+      "ticketOptions": [
+        {
+          "type": "入場票",
+          "saleAt": null,
+          "priceTwd": 450
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609211132271259780290",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "19:30"
+            }
+          ],
+          "price": "入場票 NT$450",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-takaocb-moi-1018-2026-10-18-1800",
+      "source": "manual",
+      "title": "屏東喜劇之夜｜10月場 喜劇開港・肆我開笑",
+      "performers": "啊真、老柯、感性炸彈",
+      "host": "啊真",
+      "region": "屏東縣",
+      "venue": "肆·我 MOI.Lab",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "18:00"
+        }
+      ],
+      "price": "入場票 NT$400",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609211132377509344040",
+      "ticketUrl": "https://www.accupass.com/event/2609211132377509344040",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": null,
+      "ticketOptions": [
+        {
+          "type": "入場票",
+          "saleAt": null,
+          "priceTwd": 400,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609211132377509344040",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-18",
+              "time": "18:00"
+            }
+          ],
+          "price": "入場票 NT$400",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-23-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "德礎、藍恩、Boss、沈榮、品喬",
+      "host": "品賢",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-stage-bac-vol7-2026-10-23-2000",
+      "source": "manual",
+      "title": "笑點酒測值 vol.7",
+      "performers": "阿舜順、歐Ｋ、龍哥、小歐",
+      "host": null,
+      "region": "臺中市",
+      "venue": "STAGE 時代劇",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": "20:00"
+        }
+      ],
+      "price": "入場票 NT$600",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609180956221061673281",
+      "ticketUrl": "https://www.accupass.com/event/2609180956221061673281",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "正式票URL由來福官方Linktree核實；詳文讀自https://www.staging.accupass.com/event/2609180956221061673281（平台同源索引），正式詳頁cache miss",
+      "ticketOptions": [
+        {
+          "type": "入場票",
+          "saleAt": null,
+          "priceTwd": 600,
+          "includes": "在地生啤酒或無酒精飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609180956221061673281",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "20:00"
+            }
+          ],
+          "price": "入場票 NT$600",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-newcomer20261500-2026-10-25-1500",
+      "source": "manual",
+      "title": "【下午場 15:00】&lt;2026卡米地站立喜劇爭霸賽&gt; 之新人前哨戰",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "15:00"
+        }
+      ],
+      "category": "standup_contest",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/newcomer20261500",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/newcomer20261500",
+      "price": "一般票 NT$250／身心障礙暨陪同票 NT$125",
+      "saleAt": "2025-10-03T00:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": "2025-10-03T00:00:00+08:00",
+          "priceTwd": 250,
+          "saleEndAt": "2026-10-25T15:00:00+08:00"
+        },
+        {
+          "type": "身心障礙暨陪同票",
+          "saleAt": "2025-10-03T12:30:00+08:00",
+          "priceTwd": 125,
+          "saleEndAt": "2026-10-25T15:00:00+08:00"
+        }
+      ],
+      "saleNote": "官方一般票售期確為2025/10/03，勿自行改成2026；主持歐K，參賽者未列",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/newcomer20261500",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "15:00"
+            }
+          ],
+          "price": "一般票 NT$250／身心障礙暨陪同票 NT$125",
+          "saleAt": "2025-10-03T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-newcomer20261900-2026-10-25-1900",
+      "source": "manual",
+      "title": "【晚上場 19:00】&lt;2026卡米地站立喜劇爭霸賽&gt; 之新人前哨戰",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "19:00"
+        }
+      ],
+      "category": "standup_contest",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/newcomer20261900",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/newcomer20261900",
+      "price": "一般票 NT$250／身心障礙暨陪同票 NT$125",
+      "saleAt": "2025-10-03T00:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": "2025-10-03T00:00:00+08:00",
+          "priceTwd": 250,
+          "saleEndAt": "2026-10-25T19:00:00+08:00"
+        },
+        {
+          "type": "身心障礙暨陪同票",
+          "saleAt": "2025-10-03T12:30:00+08:00",
+          "priceTwd": 125,
+          "saleEndAt": "2026-10-25T19:00:00+08:00"
+        }
+      ],
+      "saleNote": "官方一般票售期確為2025/10/03，勿自行改成2026；主持歐K，參賽者未列",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/newcomer20261900",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "19:00"
+            }
+          ],
+          "price": "一般票 NT$250／身心障礙暨陪同票 NT$125",
+          "saleAt": "2025-10-03T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-29-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "大天、歐耶、瑞恩、龍龍、歐K",
+      "host": "佳諭",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-29",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-29",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-select-oct-2026-10-30-1930",
+      "source": "manual",
+      "title": "2026｜10月｜《二三嚴選》｜中文單口喜劇拼盤",
+      "performers": "德礎、巴斯、Boss、小歐、品賢",
+      "host": "品喬",
+      "region": "臺北市",
+      "venue": "二三喜劇 Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-30",
+          "time": "19:30"
+        }
+      ],
+      "price": "一般票 NT$500",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "ticketUrl": "https://www.accupass.com/event/2609250552051315174380",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "10/1場次在窗口外；10/22及10/29 21:30即興互動場另列；不從整月range推定每日演出",
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": null,
+          "priceTwd": 500,
+          "includes": "一杯飲料"
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2609250552051315174380",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般票 NT$500",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-23-girls-gays-theys-2026-10-30-2130",
+      "source": "manual",
+      "title": "Ellery presents: Girls, Gays and Theys",
+      "performers": "Ellery、Bree Calhoun、Tony Baloney、Casey Li Brander、Tammy Jo",
+      "host": null,
+      "region": "臺北市",
+      "venue": "Two Three Comedy",
+      "sessions": [
+        {
+          "date": "2026-10-30",
+          "time": "21:30"
+        }
+      ],
+      "price": "早鳥 NT$600／一般 NT$700／現場（若有餘票） NT$800",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2608170251191683438973",
+      "ticketUrl": "https://www.accupass.com/event/2608170251191683438973",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "全英文；內文演出長75分鐘但header90分鐘，保留header結束時間且提示差異；不能由9/13早鳥結束推一般票開賣",
+      "ticketOptions": [
+        {
+          "type": "早鳥",
+          "saleAt": null,
+          "priceTwd": 600,
+          "saleEndsDate": "2026-09-13"
+        },
+        {
+          "type": "一般",
+          "saleAt": null,
+          "priceTwd": 700
+        },
+        {
+          "type": "現場（若有餘票）",
+          "saleAt": null,
+          "priceTwd": 800
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608170251191683438973",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "21:30"
+            }
+          ],
+          "price": "早鳥 NT$600／一般 NT$700／現場（若有餘票） NT$800",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-thecutautumn1106-2026-11-06-2000",
+      "source": "manual",
+      "title": "【11/6 高雄場】Ellery 呈獻 THE CUT - Fall Edition 秋季場",
+      "performers": "Ellery、Evan Danger、Tammy Jo",
+      "region": "高雄市",
+      "venue": "洛克音樂藝文展演空間 Rock Music Live House",
+      "sessions": [
+        {
+          "date": "2026-11-06",
+          "time": "20:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/thecutautumn1106",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/thecutautumn1106",
+      "price": "前排互動VIP區 NT$1200／搖滾區 NT$800／一般區 NT$600",
+      "saleAt": "2026-08-07T00:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "前排互動VIP區",
+          "saleAt": "2026-08-04T00:00:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-11-06T20:00:00+08:00"
+        },
+        {
+          "type": "搖滾區",
+          "saleAt": "2026-08-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-06T20:00:00+08:00"
+        },
+        {
+          "type": "一般區",
+          "saleAt": "2026-08-07T00:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-11-06T20:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/thecutautumn1106",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-06",
+              "time": "20:00"
+            }
+          ],
+          "price": "前排互動VIP區 NT$1200／搖滾區 NT$800／一般區 NT$600",
+          "saleAt": "2026-08-07T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-allaroundyou1106-2026-11-06-2000",
+      "source": "manual",
+      "title": "【11/6 台中群島加演場】藍恩首次單口喜劇專場《All Around You》",
+      "performers": "藍恩",
+      "region": "臺中市",
+      "venue": "群島藝術園區 Islands Art Park",
+      "sessions": [
+        {
+          "date": "2026-11-06",
+          "time": "20:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/allaroundyou1106",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/allaroundyou1106",
+      "price": "一般票 NT$800",
+      "saleAt": "2026-08-03T12:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": "2026-08-03T12:00:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-06T20:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/allaroundyou1106",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-06",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般票 NT$800",
+          "saleAt": "2026-08-03T12:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-hondao-kaohsiung-2026-11-07-1400",
+      "source": "manual",
+      "title": "2026 爺奶萬萬說－老朋友，有點奇怪？也有點可愛－高雄場",
+      "performers": null,
+      "host": null,
+      "region": "高雄市",
+      "venue": "鸚鵡螺餐酒館2F",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "14:00"
+        }
+      ],
+      "price": "免費索票 NT$0",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2608050640532090409910",
+      "ticketUrl": "https://www.accupass.com/event/2608050640532090409910",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "演出約1.5-2小時，不用header14:00-22:00當單一演出或自行推定確切end",
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608050640532090409910",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "14:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-hondao-kaohsiung-2026-11-07-1900",
+      "source": "manual",
+      "title": "2026 爺奶萬萬說－老朋友，有點奇怪？也有點可愛－高雄場",
+      "performers": null,
+      "host": null,
+      "region": "高雄市",
+      "venue": "鸚鵡螺餐酒館2F",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "19:00"
+        }
+      ],
+      "price": "免費索票 NT$0",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2608050640532090409910",
+      "ticketUrl": "https://www.accupass.com/event/2608050640532090409910",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "演出約1.5-2小時，不用header14:00-22:00當單一演出或自行推定確切end",
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608050640532090409910",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "19:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-taichungcomedylive1107-2-2026-11-07-2100",
+      "source": "manual",
+      "title": "【11/7】TAICHUNG COMEDY LIVE!!!",
+      "performers": "Evan Danger、Shen Jong、Mandy Yu、Lele Farley、Chloe",
+      "region": "臺中市",
+      "venue": "群島藝術園區",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "21:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/taichungcomedylive1107-2",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/taichungcomedylive1107-2",
+      "price": "早鳥票 NT$450",
+      "saleAt": null,
+      "earlyBirdSaleAt": "2026-09-24T00:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "早鳥票",
+          "saleAt": "2026-09-24T00:00:00+08:00",
+          "priceTwd": 450,
+          "saleEndAt": "2026-11-07T21:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/taichungcomedylive1107-2",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "21:00"
+            }
+          ],
+          "price": "早鳥票 NT$450",
+          "saleAt": null
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-allaroundyou1113-2026-11-13-2000",
+      "source": "manual",
+      "title": "【11/13卡米地加演場】藍恩首次單口喜劇專場《All Around You》",
+      "performers": "藍恩",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "20:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/allaroundyou1113",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/allaroundyou1113",
+      "price": "一般票 NT$800／VIP票 NT$1000",
+      "saleAt": "2026-08-03T12:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": "2026-08-03T12:00:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-13T20:00:00+08:00"
+        },
+        {
+          "type": "VIP票",
+          "saleAt": "2026-08-03T12:00:00+08:00",
+          "priceTwd": 1000,
+          "saleEndAt": "2026-11-13T20:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/allaroundyou1113",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般票 NT$800／VIP票 NT$1000",
+          "saleAt": "2026-08-03T12:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-coldn20261114-2026-11-14-1930",
+      "source": "manual",
+      "title": "【11/14 台南】涵冷娜脫口秀專場《喊卡之後》 封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "臺南市",
+      "venue": "台南 漂丿白鷺live house",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "19:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261114",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/coldn20261114",
+      "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-14T21:30:00+08:00"
+        },
+        {
+          "type": "貴人贊助區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-11-14T21:30:00+08:00"
+        },
+        {
+          "type": "VIP 感恩區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 5000,
+          "saleEndAt": "2026-11-14T21:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261114",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-allaroundyou1114-2026-11-14-2000",
+      "source": "manual",
+      "title": "【11/14 卡米地加演場】藍恩首次單口喜劇專場《All Around You》",
+      "performers": "藍恩",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "20:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/allaroundyou1114",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/allaroundyou1114",
+      "price": "一般票 NT$800／VIP票 NT$1000",
+      "saleAt": "2026-08-03T12:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": "2026-08-03T12:00:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-14T20:00:00+08:00"
+        },
+        {
+          "type": "VIP票",
+          "saleAt": "2026-08-03T12:00:00+08:00",
+          "priceTwd": 1000,
+          "saleEndAt": "2026-11-14T20:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/allaroundyou1114",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "20:00"
+            }
+          ],
+          "price": "一般票 NT$800／VIP票 NT$1000",
+          "saleAt": "2026-08-03T12:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-coldn20261115-2026-11-15-1530",
+      "source": "manual",
+      "title": "【11/15 台南】涵冷娜脫口秀專場《喊卡之後》 封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "臺南市",
+      "venue": "台南 漂丿白鷺live house",
+      "sessions": [
+        {
+          "date": "2026-11-15",
+          "time": "15:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261115",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/coldn20261115",
+      "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-15T17:30:00+08:00"
+        },
+        {
+          "type": "貴人贊助區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-11-15T17:30:00+08:00"
+        },
+        {
+          "type": "VIP 感恩區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 5000,
+          "saleEndAt": "2026-11-15T17:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261115",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "15:30"
+            }
+          ],
+          "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-hondao-hsinchu-2026-11-20-1900",
+      "source": "manual",
+      "title": "2026 爺奶萬萬說－老朋友，有點奇怪？也有點可愛－新竹場",
+      "performers": null,
+      "host": null,
+      "region": "新竹市",
+      "venue": "The Local's Bistro 現場馬拉桑餐酒館",
+      "sessions": [
+        {
+          "date": "2026-11-20",
+          "time": "19:00"
+        }
+      ],
+      "price": "免費索票 NT$0",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2608190838241369706084",
+      "ticketUrl": "https://www.accupass.com/event/2608190838241369706084",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "原7/10、7/11因颱風延期；採正式11/20、11/21重新索票頁",
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608190838241369706084",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-20",
+              "time": "19:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-hondao-hsinchu-2026-11-21-1900",
+      "source": "manual",
+      "title": "2026 爺奶萬萬說－老朋友，有點奇怪？也有點可愛－新竹場",
+      "performers": null,
+      "host": null,
+      "region": "新竹市",
+      "venue": "The Local's Bistro 現場馬拉桑餐酒館",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "19:00"
+        }
+      ],
+      "price": "免費索票 NT$0",
+      "saleAt": null,
+      "earlyBirdSaleAt": null,
+      "sourceUrl": "https://www.accupass.com/event/2608190838241369706084",
+      "ticketUrl": "https://www.accupass.com/event/2608190838241369706084",
+      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "category": "standup",
+      "status": "scheduled",
+      "saleNote": "原7/10、7/11因颱風延期；採正式11/20、11/21重新索票頁",
+      "ticketOptions": [
+        {
+          "type": "免費索票",
+          "saleAt": null,
+          "priceTwd": 0
+        }
+      ],
+      "revisions": [],
+      "tickets": [
+        {
+          "platform": "ACCUPASS",
+          "url": "https://www.accupass.com/event/2608190838241369706084",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "19:00"
+            }
+          ],
+          "price": "免費索票 NT$0",
+          "saleAt": null
+        }
+      ]
+    },
+    {
+      "id": "audit-coldn20261121-2026-11-21-1930",
+      "source": "manual",
+      "title": "【11/21 台中】涵冷娜脫口秀專場《喊卡之後》 封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "臺中市",
+      "venue": "台中群島藝術園區 大劇院",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "19:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261121",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/coldn20261121",
+      "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-21T21:00:00+08:00"
+        },
+        {
+          "type": "貴人贊助區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-11-21T21:00:00+08:00"
+        },
+        {
+          "type": "VIP 感恩區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 5000,
+          "saleEndAt": "2026-11-21T21:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261121",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-coldn20261122-2026-11-22-1430",
+      "source": "manual",
+      "title": "【11/22 台中】涵冷娜脫口秀專場《喊卡之後》 封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "臺中市",
+      "venue": "台中群島藝術園區 大劇院",
+      "sessions": [
+        {
+          "date": "2026-11-22",
+          "time": "14:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261122",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/coldn20261122",
+      "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-22T16:30:00+08:00"
+        },
+        {
+          "type": "貴人贊助區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-11-22T16:30:00+08:00"
+        },
+        {
+          "type": "VIP 感恩區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 5000,
+          "saleEndAt": "2026-11-22T16:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261122",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-22",
+              "time": "14:30"
+            }
+          ],
+          "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-dangerousjokes-2026-11-28-1730",
+      "source": "manual",
+      "title": "2026台北喜劇節：品客大叔 2026單口喜劇專場《危險發言》",
+      "performers": "品客大叔",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "17:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/dangerousjokes",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/dangerousjokes",
+      "price": "預售票 NT$450／一般票 NT$500／身心障礙既陪同席 NT$250",
+      "saleAt": "2026-10-28T00:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "預售票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 450,
+          "saleEndAt": "2026-10-28T00:00:00+08:00"
+        },
+        {
+          "type": "一般票",
+          "saleAt": "2026-10-28T00:00:00+08:00",
+          "priceTwd": 500,
+          "saleEndAt": "2026-11-28T17:30:00+08:00"
+        },
+        {
+          "type": "身心障礙既陪同席",
+          "saleAt": "2026-01-05T00:00:00+08:00",
+          "priceTwd": 250,
+          "saleEndAt": "2026-11-28T17:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": "2026-09-30T00:00:00+08:00",
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/dangerousjokes",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "17:30"
+            }
+          ],
+          "price": "預售票 NT$450／一般票 NT$500／身心障礙既陪同席 NT$250",
+          "saleAt": "2026-10-28T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-coldn20261128-2026-11-28-1930",
+      "source": "manual",
+      "title": "2026 台北喜劇節 | 【11/28 台北】涵冷娜脫口秀專場《喊卡之後》 封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "臺北市",
+      "venue": "西門紅樓 The Red House 二樓劇場",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "19:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261128",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/coldn20261128",
+      "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-11-28T21:30:00+08:00"
+        },
+        {
+          "type": "貴人贊助區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-11-28T21:30:00+08:00"
+        },
+        {
+          "type": "VIP 感恩區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 5000,
+          "saleEndAt": "2026-11-28T21:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261128",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-rulesofshangliu-2026-11-28-1930",
+      "source": "manual",
+      "title": "2026台北喜劇節：Jimmy Stone 石峻旻 人生首部喜劇專場《上流法則》",
+      "performers": "Jimmy Stone 石峻旻",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "19:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/rulesofshangliu",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/rulesofshangliu",
+      "price": "早鳥票 NT$650／上流票 NT$3666／一般票 NT$750／身心障礙既陪同席 NT$350",
+      "saleAt": "2026-11-12T00:00:00+08:00",
+      "earlyBirdSaleAt": "2026-09-30T00:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "早鳥票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 650,
+          "saleEndAt": "2026-11-11T23:59:00+08:00"
+        },
+        {
+          "type": "上流票",
+          "saleAt": "2026-10-01T00:00:00+08:00",
+          "priceTwd": 3666,
+          "saleEndAt": "2026-11-28T19:30:00+08:00"
+        },
+        {
+          "type": "一般票",
+          "saleAt": "2026-11-12T00:00:00+08:00",
+          "priceTwd": 750,
+          "saleEndAt": "2026-11-28T19:30:00+08:00"
+        },
+        {
+          "type": "身心障礙既陪同席",
+          "saleAt": "2026-01-05T00:00:00+08:00",
+          "priceTwd": 350,
+          "saleEndAt": "2026-11-28T19:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/rulesofshangliu",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "19:30"
+            }
+          ],
+          "price": "早鳥票 NT$650／上流票 NT$3666／一般票 NT$750／身心障礙既陪同席 NT$350",
+          "saleAt": "2026-11-12T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-tryoutping-2026-11-28-2000",
+      "source": "manual",
+      "title": "2026台北喜劇節：為了明年 先辦tryout",
+      "performers": "品賢",
+      "region": "臺北市",
+      "venue": "底加書店",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "20:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/tryoutping",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/tryoutping",
+      "price": "早鳥票 NT$350／一般票 NT$399",
+      "saleAt": "2026-11-21T00:00:00+08:00",
+      "earlyBirdSaleAt": "2026-09-30T00:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "早鳥票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 350,
+          "saleEndAt": "2026-11-21T00:00:00+08:00"
+        },
+        {
+          "type": "一般票",
+          "saleAt": "2026-11-21T00:00:00+08:00",
+          "priceTwd": 399,
+          "saleEndAt": "2026-11-28T20:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/tryoutping",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "20:00"
+            }
+          ],
+          "price": "早鳥票 NT$350／一般票 NT$399",
+          "saleAt": "2026-11-21T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-numbawan-2026-11-28-2130",
+      "source": "manual",
+      "title": "2026台北喜劇節：第一超棒國際明星中文脫口秀",
+      "performers": "沈榮、光頭哥、Ellery、阿秋、麥麥",
+      "region": "臺北市",
+      "venue": "二三喜劇 TWO THREE COMEDY",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "21:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/numbawan",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/numbawan",
+      "price": "預售票 NT$500／一般票 NT$600",
+      "saleAt": "2026-11-25T00:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "預售票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 500,
+          "saleEndAt": "2026-11-25T00:00:00+08:00"
+        },
+        {
+          "type": "一般票",
+          "saleAt": "2026-11-25T00:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-11-28T21:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": "2026-09-30T00:00:00+08:00",
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/numbawan",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "21:30"
+            }
+          ],
+          "price": "預售票 NT$500／一般票 NT$600",
+          "saleAt": "2026-11-25T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-buzzthreeinone-2026-12-03-1930",
+      "source": "manual",
+      "title": "2026台北喜劇節：《崔斯墨圖》巴斯喜劇專場精選",
+      "performers": "巴斯",
+      "region": "臺北市",
+      "venue": "二三喜劇 TWO THREE COMEDY",
+      "sessions": [
+        {
+          "date": "2026-12-03",
+          "time": "19:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/buzzthreeinone",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/buzzthreeinone",
+      "price": "早鳥票 NT$500／一般票 NT$600",
+      "saleAt": "2026-11-30T00:00:00+08:00",
+      "earlyBirdSaleAt": "2026-09-30T00:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "早鳥票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 500,
+          "saleEndAt": "2026-11-30T00:00:00+08:00"
+        },
+        {
+          "type": "一般票",
+          "saleAt": "2026-11-30T00:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-12-03T19:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/buzzthreeinone",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-03",
+              "time": "19:30"
+            }
+          ],
+          "price": "早鳥票 NT$500／一般票 NT$600",
+          "saleAt": "2026-11-30T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-whyyoudonotlaugh-2026-12-04-None",
+      "source": "manual",
+      "title": "2026台北喜劇節：這樣你還笑不出來？",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "月半窩",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": null
+        }
+      ],
+      "category": "standup_contest",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/whyyoudonotlaugh",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/whyyoudonotlaugh",
+      "price": "早鳥票 NT$350／一般票 NT$500／貴賓票 NT$600",
+      "saleAt": "2026-11-30T23:59:00+08:00",
+      "earlyBirdSaleAt": "2026-09-30T00:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "早鳥票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 350,
+          "saleEndAt": "2026-11-30T23:59:00+08:00"
+        },
+        {
+          "type": "一般票",
+          "saleAt": "2026-11-30T23:59:00+08:00",
+          "priceTwd": 500,
+          "saleEndAt": "2026-12-04T19:30:00+08:00"
+        },
+        {
+          "type": "貴賓票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-11-04T19:30:00+08:00"
+        }
+      ],
+      "saleNote": "官方頁首19:30，內文19:00-21:00；時間衝突待主辦確認",
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/whyyoudonotlaugh",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": null
+            }
+          ],
+          "price": "早鳥票 NT$350／一般票 NT$500／貴賓票 NT$600",
+          "saleAt": "2026-11-30T23:59:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-sexbus-2026-12-04-1930",
+      "source": "manual",
+      "title": "2026 台北喜劇節 | 閨蜜該該叫《性愛巴士》最色脫口秀(18禁)",
+      "performers": "閨蜜該該叫",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "19:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/sexbus",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/sexbus",
+      "price": "身經百戰 VIP席 NT$899／閱人無數 一般席 NT$699",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "身經百戰 VIP席",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 899,
+          "saleEndAt": "2026-12-04T21:00:00+08:00"
+        },
+        {
+          "type": "閱人無數 一般席",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 699,
+          "saleEndAt": "2026-12-04T21:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/sexbus",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "19:30"
+            }
+          ],
+          "price": "身經百戰 VIP席 NT$899／閱人無數 一般席 NT$699",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-lucas20261204-2026-12-04-2000",
+      "source": "manual",
+      "title": "2026 台北喜劇節 |【台北】盧卡斯站立喜劇《好好做人 Be a Good Man》",
+      "performers": "盧卡斯",
+      "region": "臺北市",
+      "venue": "中影八德大樓 演講廳",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "20:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/lucas20261204",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/lucas20261204",
+      "price": "VIP區：四人同行票 NT$890／VIP區：早鳥票 NT$950／VIP區：一般票 NT$1000／CAT 1：四人同行票 NT$690／CAT 1：早鳥票 NT$750／CAT 1：一般票 NT$800／CAT 2：四人同行票 NT$590／CAT 2：早鳥票 NT$650／CAT 2：一般票 NT$700／CAT 3：四人同行票 NT$490／CAT 3：早鳥票 NT$550／CAT 3：一般票 NT$600",
+      "saleAt": "2026-09-12T12:00:00+08:00",
+      "earlyBirdSaleAt": "2026-09-12T12:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "VIP區：四人同行票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 890,
+          "saleEndAt": "2026-12-04T20:00:00+08:00"
+        },
+        {
+          "type": "VIP區：早鳥票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 950,
+          "saleEndAt": "2026-09-26T12:00:00+08:00"
+        },
+        {
+          "type": "VIP區：一般票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 1000,
+          "saleEndAt": "2026-12-04T20:00:00+08:00"
+        },
+        {
+          "type": "CAT 1：四人同行票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 690,
+          "saleEndAt": "2026-12-04T20:00:00+08:00"
+        },
+        {
+          "type": "CAT 1：早鳥票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 750,
+          "saleEndAt": "2026-09-26T12:00:00+08:00"
+        },
+        {
+          "type": "CAT 1：一般票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-12-04T20:00:00+08:00"
+        },
+        {
+          "type": "CAT 2：四人同行票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 590,
+          "saleEndAt": "2026-12-04T20:00:00+08:00"
+        },
+        {
+          "type": "CAT 2：早鳥票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 650,
+          "saleEndAt": "2026-09-26T12:00:00+08:00"
+        },
+        {
+          "type": "CAT 2：一般票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 700,
+          "saleEndAt": "2026-12-04T20:00:00+08:00"
+        },
+        {
+          "type": "CAT 3：四人同行票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 490,
+          "saleEndAt": "2026-12-04T20:00:00+08:00"
+        },
+        {
+          "type": "CAT 3：早鳥票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 550,
+          "saleEndAt": "2026-09-26T12:00:00+08:00"
+        },
+        {
+          "type": "CAT 3：一般票",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-12-04T20:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/lucas20261204",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "20:00"
+            }
+          ],
+          "price": "VIP區：四人同行票 NT$890／VIP區：早鳥票 NT$950／VIP區：一般票 NT$1000／CAT 1：四人同行票 NT$690／CAT 1：早鳥票 NT$750／CAT 1：一般票 NT$800／CAT 2：四人同行票 NT$590／CAT 2：早鳥票 NT$650／CAT 2：一般票 NT$700／CAT 3：四人同行票 NT$490／CAT 3：早鳥票 NT$550／CAT 3：一般票 NT$600",
+          "saleAt": "2026-09-12T12:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-child1205-2026-12-05-1530",
+      "source": "manual",
+      "title": "2026台北喜劇節：別人家的小孩",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "底加書店",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "15:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/child1205",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/child1205",
+      "price": "早鳥票 NT$350／一般票 NT$500／貴賓票 NT$600",
+      "saleAt": "2026-11-30T23:59:00+08:00",
+      "earlyBirdSaleAt": "2026-09-30T00:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "早鳥票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 350,
+          "saleEndAt": "2026-11-30T23:59:00+08:00"
+        },
+        {
+          "type": "一般票",
+          "saleAt": "2026-11-30T23:59:00+08:00",
+          "priceTwd": 500,
+          "saleEndAt": "2026-12-05T15:30:00+08:00"
+        },
+        {
+          "type": "貴賓票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-11-04T19:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/child1205",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "15:30"
+            }
+          ],
+          "price": "早鳥票 NT$350／一般票 NT$500／貴賓票 NT$600",
+          "saleAt": "2026-11-30T23:59:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-kusoexplosion-2026-12-05-1630",
+      "source": "manual",
+      "title": "2026台北喜劇節： KUSO爆丸",
+      "performers": "下水彼得、紅拿",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "16:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/kusoexplosion",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/kusoexplosion",
+      "price": "一般票 NT$600／身心障礙既陪同席 NT$300",
+      "saleAt": "2026-10-01T00:00:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般票",
+          "saleAt": "2026-10-01T00:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-12-05T16:30:00+08:00"
+        },
+        {
+          "type": "身心障礙既陪同席",
+          "saleAt": "2026-01-05T00:00:00+08:00",
+          "priceTwd": 300,
+          "saleEndAt": "2026-12-05T16:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/kusoexplosion",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "16:30"
+            }
+          ],
+          "price": "一般票 NT$600／身心障礙既陪同席 NT$300",
+          "saleAt": "2026-10-01T00:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-veteranvsrookie26-2026-12-05-1900",
+      "source": "manual",
+      "title": "2026台北喜劇節：老菜大對決",
+      "performers": "阿秋、皓宇、六塊錢、郭茜、阿包、俊彥、Alvis、余胖",
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "19:00"
+        }
+      ],
+      "category": "standup_contest",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/veteranvsrookie26",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/veteranvsrookie26",
+      "price": "早鳥票 NT$350／一般票 NT$500／身心障礙既陪同席 NT$250",
+      "saleAt": "2026-11-30T23:59:00+08:00",
+      "earlyBirdSaleAt": "2026-09-30T00:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "早鳥票",
+          "saleAt": "2026-09-30T00:00:00+08:00",
+          "priceTwd": 350,
+          "saleEndAt": "2026-11-30T23:59:00+08:00"
+        },
+        {
+          "type": "一般票",
+          "saleAt": "2026-11-30T23:59:00+08:00",
+          "priceTwd": 500,
+          "saleEndAt": "2026-12-05T19:00:00+08:00"
+        },
+        {
+          "type": "身心障礙既陪同席",
+          "saleAt": "2026-01-05T00:00:00+08:00",
+          "priceTwd": 250,
+          "saleEndAt": "2026-12-05T19:00:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/veteranvsrookie26",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "19:00"
+            }
+          ],
+          "price": "早鳥票 NT$350／一般票 NT$500／身心障礙既陪同席 NT$250",
+          "saleAt": "2026-11-30T23:59:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-lucas202612061-2026-12-06-2000",
+      "source": "manual",
+      "title": "2026 台北喜劇節 | 【台中】盧卡斯站立喜劇《好好做人 Be a Good Man》",
+      "performers": "盧卡斯",
+      "region": "臺中市",
+      "venue": "台中群島藝術園區大劇院",
+      "sessions": [
+        {
+          "date": "2026-12-06",
+          "time": "20:00"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/lucas202612061",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/lucas202612061",
+      "price": "前排選座區：四人同行票 NT$540／前排選座區：早鳥票 NT$600／前排選座區：一般票 NT$650／自由入座區：四人同行票 NT$390／自由入座區：早鳥票 NT$450／自由入座區：一般票 NT$500",
+      "saleAt": "2026-09-26T12:00:00+08:00",
+      "earlyBirdSaleAt": "2026-09-22T12:00:00+08:00",
+      "ticketOptions": [
+        {
+          "type": "前排選座區：四人同行票",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "priceTwd": 540,
+          "saleEndAt": "2026-12-06T21:30:00+08:00"
+        },
+        {
+          "type": "前排選座區：早鳥票",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "priceTwd": 600,
+          "saleEndAt": "2026-09-26T12:00:00+08:00"
+        },
+        {
+          "type": "前排選座區：一般票",
+          "saleAt": "2026-09-26T12:00:00+08:00",
+          "priceTwd": 650,
+          "saleEndAt": "2026-12-06T21:30:00+08:00"
+        },
+        {
+          "type": "自由入座區：四人同行票",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "priceTwd": 390,
+          "saleEndAt": "2026-12-06T21:30:00+08:00"
+        },
+        {
+          "type": "自由入座區：早鳥票",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "priceTwd": 450,
+          "saleEndAt": "2026-09-26T12:00:00+08:00"
+        },
+        {
+          "type": "自由入座區：一般票",
+          "saleAt": "2026-09-26T12:00:00+08:00",
+          "priceTwd": 500,
+          "saleEndAt": "2026-12-06T21:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/lucas202612061",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-06",
+              "time": "20:00"
+            }
+          ],
+          "price": "前排選座區：四人同行票 NT$540／前排選座區：早鳥票 NT$600／前排選座區：一般票 NT$650／自由入座區：四人同行票 NT$390／自由入座區：早鳥票 NT$450／自由入座區：一般票 NT$500",
+          "saleAt": "2026-09-26T12:00:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-coldn20261212-2026-12-12-1930",
+      "source": "manual",
+      "title": "【12/12 高雄】涵冷娜脫口秀專場《喊卡之後》 封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "高雄市",
+      "venue": "高雄場 洛克音樂藝文展演空間",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "19:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261212",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/coldn20261212",
+      "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-12-12T21:30:00+08:00"
+        },
+        {
+          "type": "貴人贊助區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-12-12T21:30:00+08:00"
+        },
+        {
+          "type": "VIP 感恩區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 5000,
+          "saleEndAt": "2026-12-12T21:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261212",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "19:30"
+            }
+          ],
+          "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "id": "audit-coldn20261213-2026-12-13-1430",
+      "source": "manual",
+      "title": "【12/13 高雄】涵冷娜脫口秀專場《喊卡之後》 封箱巡迴",
+      "performers": "涵冷娜",
+      "region": "高雄市",
+      "venue": "高雄場 洛克音樂藝文展演空間",
+      "sessions": [
+        {
+          "date": "2026-12-13",
+          "time": "14:30"
+        }
+      ],
+      "category": "standup",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/coldn20261213",
+      "ticketUrl": "https://comedyclub.kktix.cc/events/coldn20261213",
+      "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+      "saleAt": "2026-10-04T12:30:00+08:00",
+      "earlyBirdSaleAt": null,
+      "ticketOptions": [
+        {
+          "type": "一般區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 800,
+          "saleEndAt": "2026-12-13T16:30:00+08:00"
+        },
+        {
+          "type": "貴人贊助區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 1200,
+          "saleEndAt": "2026-12-13T16:30:00+08:00"
+        },
+        {
+          "type": "VIP 感恩區",
+          "saleAt": "2026-10-04T12:30:00+08:00",
+          "priceTwd": 5000,
+          "saleEndAt": "2026-12-13T16:30:00+08:00"
+        }
+      ],
+      "saleNote": null,
+      "verifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "presaleAt": null,
+      "sourceVerifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-06",
+      "ticketStatus": "活動與票種已核；非即時庫存",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/coldn20261213",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "14:30"
+            }
+          ],
+          "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
+          "saleAt": "2026-10-04T12:30:00+08:00"
+        }
+      ],
+      "revisions": []
+    }
+  ]
+}

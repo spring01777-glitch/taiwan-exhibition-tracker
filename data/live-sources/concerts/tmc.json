@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "tmc",
+  "kind": "concerts",
+  "events": [
+    {
+      "title": "TAKUYA KIMURA Live Tour 2026 Checkpoint in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:00"
+        }
+      ],
+      "price": "NT$3800／4200／4800／5800；身障2100／2900",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "status": "scheduled",
+      "summary": "TAKUYA KIMURA Live Tour 2026 Checkpoint in TAIPEI，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [],
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026",
+      "sessionFacts": [
+        {
+          "date": "2026-11-13",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026",
+      "source": "tmc",
+      "id": "5a2f499bc320050d706d",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tmc",
+          "sourceUid": "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026",
+          "id": "5a2f499bc320050d706d"
+        }
+      ]
+    },
+    {
+      "title": "2026唱我們的歌 金曲再現演唱會｜我的電影K歌時代",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "Legacy TERA",
+      "sessions": [
+        {
+          "date": "2026-11-21",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$800／1200／1600；愛心400／600／800；套組另計",
+      "saleAt": null,
+      "saleNote": "開賣時間未核實，請至官方確認",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "status": "scheduled",
+      "summary": "2026唱我們的歌 金曲再現演唱會｜我的電影K歌時代，於Legacy TERA演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [],
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/2026SingTheScene",
+      "sessionFacts": [
+        {
+          "date": "2026-11-21",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/2026SingTheScene",
+      "source": "tmc",
+      "id": "a106df9194cdbf76ac29",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tmc",
+          "sourceUid": "https://www.tmc.taipei/tw/blog/show/2026SingTheScene",
+          "id": "a106df9194cdbf76ac29"
+        }
+      ]
+    },
+    {
+      "title": "爵士天后 戴安娜・克瑞兒 Diana Krall",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-11-29",
+          "time": "16:00"
+        }
+      ],
+      "price": "NT$2580／2980／3280／3680／3980／4280／4980／5980",
+      "saleAt": "2026-09-17T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://ticket.mna.com.tw/UTK0102_?AD_TAB_ID=P1FGAOPN&TYPE=8",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "爵士天后 戴安娜・克瑞兒 Diana Krall，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "MNA售票網",
+          "url": "https://ticket.mna.com.tw/UTK0102_?AD_TAB_ID=P1FGAOPN&TYPE=8",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "16:00"
+            }
+          ],
+          "price": "NT$2580／2980／3280／3680／3980／4280／4980／5980",
+          "saleAt": "2026-09-17T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/DianaKrall2026",
+      "sessionFacts": [
+        {
+          "date": "2026-11-28",
+          "time": "19:30",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-11-29",
+          "time": "16:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/DianaKrall2026",
+      "source": "tmc",
+      "id": "d173c4a25563354bc411",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tmc",
+          "sourceUid": "https://www.tmc.taipei/tw/blog/show/DianaKrall2026",
+          "id": "d173c4a25563354bc411"
+        }
+      ]
+    },
+    {
+      "title": "K21 顏社二十一週年演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-12-13",
+          "time": "17:00"
+        }
+      ],
+      "price": "NT$1380／1880／2580／3380／3880／4280",
+      "saleAt": "2026-08-05T12:00:00+08:00",
+      "saleNote": "12/12場：2026/08/05 12:00；12/13加場：2026/08/13 12:00",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://kaoinc.kktix.cc/events/kiorfd",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "K21 顏社二十一週年演唱會，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://kaoinc.kktix.cc/events/kiorfd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$1380／1880／2580／3380／3880／4280",
+          "saleAt": "2026-08-05T12:00:00+08:00"
+        },
+        {
+          "platform": "KKTIX",
+          "url": "https://kaoinc.kktix.cc/events/kiorfd",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$1380／1880／2580／3380／3880／4280",
+          "saleAt": "2026-08-13T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/K21",
+      "sessionFacts": [
+        {
+          "date": "2026-12-12",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-12-13",
+          "time": "17:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/K21",
+      "source": "tmc",
+      "id": "cdf081b71dd024aee0c7",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tmc",
+          "sourceUid": "https://www.tmc.taipei/tw/blog/show/K21",
+          "id": "cdf081b71dd024aee0c7"
+        }
+      ]
+    },
+    {
+      "title": "Atarayo ASIA TOUR 2026『夕立が去ったその後で』in TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "sessions": [
+        {
+          "date": "2026-12-19",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$2600／3000／3200／3600／3800；身障1500／1900",
+      "saleAt": "2026-09-05T12:00:00+08:00",
+      "saleNote": "一般開賣日期；各階段及加場見官方",
+      "ticketStatus": "官方活動資料已核對；非即時票況",
+      "ticketUrl": "https://binliveco.kktix.cc/events/kbrte",
+      "ticketVerifiedAt": "2026-10-06",
+      "status": "scheduled",
+      "summary": "Atarayo ASIA TOUR 2026『夕立が去ったその後で』in TAIPEI，於臺北流行音樂中心 表演廳演出。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://binliveco.kktix.cc/events/kbrte",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$2600／3000／3200／3600／3800；身障1500／1900",
+          "saleAt": "2026-09-05T12:00:00+08:00"
+        }
+      ],
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/atarayo2026",
+      "sessionFacts": [
+        {
+          "date": "2026-12-19",
+          "time": "19:00",
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/atarayo2026",
+      "source": "tmc",
+      "id": "4e75617750e2efcdbca4",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tmc",
+          "sourceUid": "https://www.tmc.taipei/tw/blog/show/atarayo2026",
+          "id": "4e75617750e2efcdbca4"
+        }
+      ]
+    },
+    {
+      "title": "2026臺北爵士音樂節20週年｜Jazz Right 北流主舞台",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 戶外表演空間",
+      "sessions": [
+        {
+          "date": "2026-10-09",
+          "time": null
+        },
+        {
+          "date": "2026-10-10",
+          "time": null
+        },
+        {
+          "date": "2026-10-11",
+          "time": null
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "主舞台每日確切開演時間及票務方式未核實；不把9/4–10/11整段展期展開為每日場次",
+      "ticketStatus": "官方主舞台日期已核對；票務方式未核實",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "status": "scheduled",
+      "summary": "臺北爵士音樂節主舞台於北流戶外空間連續三天演出；工作坊不納入演唱會場次。",
+      "revisions": [],
+      "verificationMethod": "official venue event detail",
+      "tickets": [],
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/2026TaipeiJazzFestival",
+      "sessionFacts": [
+        {
+          "date": "2026-10-09",
+          "time": null,
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-10-10",
+          "time": null,
+          "performers": "",
+          "host": null
+        },
+        {
+          "date": "2026-10-11",
+          "time": null,
+          "performers": "",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/2026TaipeiJazzFestival",
+      "source": "tmc",
+      "id": "a61e64ada72c6c572e99",
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "tmc",
+          "sourceUid": "https://www.tmc.taipei/tw/blog/show/2026TaipeiJazzFestival",
+          "id": "a61e64ada72c6c572e99"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "id": "tmc",
+    "name": "臺北流行音樂中心官方活動資料",
+    "url": "https://www.tmc.taipei/",
+    "checkedAt": "2026-10-06T09:15:59+08:00",
+    "mode": "reviewed-import",
+    "discovered": 6,
+    "included": 6,
+    "excluded": 0,
+    "pending": 0,
+    "failed": 0,
+    "reasons": {
+      "OFFICIAL_REVIEWED_FORMAT": 6
+    },
+    "coverageComplete": false,
+    "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+    "pagesVisited": 1,
+    "expectedPages": 1,
+    "reviewedAt": "2026-10-06",
+    "status": "ok",
+    "lastSuccess": "2026-10-06T09:15:59+08:00",
+    "lastSuccessfulIncluded": 6,
+    "message": "本次核對匯入完成；零符合、部分範圍或完整範圍分開記錄，非全平台每日掃描。",
+    "retainedEventCount": 6
+  },
+  "records": [
+    {
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-kimura",
+      "unknownFields": [
+        "saleAt"
+      ],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/2026SingTheScene",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-sing-scene",
+      "unknownFields": [
+        "saleAt"
+      ],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/2026SingTheScene"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/DianaKrall2026",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-diana",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/DianaKrall2026"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/K21",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-k21",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/K21",
+        "https://kaoinc.kktix.cc/events/kiorfd"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/atarayo2026",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-atarayo",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/atarayo2026"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/2026TaipeiJazzFestival",
+      "pageId": "primary-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "audit-taipei-jazz-mainstage",
+      "unknownFields": [
+        "price",
+        "saleAt",
+        "session.time"
+      ],
+      "evidenceUrls": [
+        "https://www.tmc.taipei/tw/blog/show/2026TaipeiJazzFestival"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    }
+  ]
+}

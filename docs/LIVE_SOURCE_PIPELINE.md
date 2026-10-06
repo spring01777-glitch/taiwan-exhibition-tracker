@@ -100,10 +100,10 @@ unnamed specials, unknown verified platforms, unsafe URLs, source errors,
 second rebuild, legacy sources, multi-city additions, session ordering, overlap
 deduplication and cross-year dates. Existing sale-time corrections remain tested.
 
-The parent still needs to supply the real reviewed manifests, confirm source
-catalog URLs/permission and scope, import/rebuild and assess included/pending
-counts against that inventory. The code alone does not resolve the currently
-small public catalog. Culture Ministry exhibition ValueError and Pier-2 URLError
+The parent still needs to supply full-catalog coverage/exclusion manifests,
+confirm automation permission and scope, and assess included/pending counts
+against that inventory. Selected verified batches are imported below; they
+do not establish nationwide completeness. Culture Ministry exhibition ValueError and Pier-2 URLError
 are separate existing failures and are not fixed by this live-event work.
 Cloud browser QA, integration against newer main, and any publication remain
 with the parent under the existing approval restrictions.
@@ -116,10 +116,9 @@ All failed because the current Windows Python runtime lacks os.setxattr; the
 required metadata could not be applied/verified. The official helper was not
 modified and no fallback download URL or metadata-free artifact was used.
 None of those archives was safely materialized, unpacked or imported here.
-The supplied aggregate counts (concerts 61 new groups/94 sessions, comedy 46
-missing sessions) therefore remain parent research claims, not local import
-verification. A supported consumer environment or parent-provided canonical
-text inputs are still required to finish that integration.
+At that point the supplied aggregate counts were unverified locally. The later
+canonical text handoff below resolved the fact import without claiming Library
+ZIP materialization.
 
 ## Parent text handoff follow-up
 
@@ -142,12 +141,36 @@ Two offline rebuilds/reimports retain the supplement idempotently and keep
 review dates at 2026-10-06. tripleS remains scheduled with Xinyu's absence
 noted; autumn festival times and all unverified general sale times stay null.
 
-The main concert text contains an actual `2144 tokens truncated` marker and
-the comedy text contains an actual `3067 tokens truncated` marker inside JSON.
-These two inputs are incomplete and have not been reconstructed, imported or
-counted as complete. Their missing content needs a complete text handoff,
-preferably JSON chunks of 5–10 events, or standalone JSON Library items readable
-with the supported text-read route. No further ZIP materialization is requested.
+The initial main concert/comedy text contained actual truncation markers and
+was not imported. A subsequent complete ten-part handoff for each kind resolved
+this blocker, as recorded below. No further ZIP materialization is requested.
 The supplied full-catalog coverage/exclusion matrices have also not arrived as
 complete text; imported source states therefore explicitly say selected verified
 missing items, coverage incomplete, and manual reviewed import, not daily scanning.
+
+## Complete ten-part handoff verified locally
+
+All ten concert parts and ten comedy parts are saved under
+`data/live-audits/{concerts|comedy}-primary-parts/`, with validated aggregate
+JSON files alongside the supplement. Concert primary contains 46 groups / 71
+actual sessions; supplement contains 15 / 23. Together they add 61 / 94 to the
+baseline 24 / 28, producing **85 venue records / 122 sessions**. Comedy primary
+contains 46 newly verified sessions. Its baseline 29 records / 39 sessions now
+produces **60 venue records / 85 sessions** after same-program/place merging.
+
+The explicitly reviewed 藍恩《All Around You》 and 涵冷娜《喊卡之後》 programs
+can union disjoint added dates at the same place. The Red House bilingual
+second-floor venue name is a narrow verified alias. Different cities/rooms
+remain separate. Eight 二三嚴選 sessions share one source detail page/card and
+retain each session's performers and host. Individual ticket sale times remain
+scoped; early-bird/presale information stays distinct from general sale time.
+Cancelled baseline events remain cancelled and unknown conflicting times stay
+null. No interpolated BTS date or superseded Charlie Puth venue/date was added.
+
+All 71 Python tests pass, including actual complete-batch imports followed by
+two simulated daily MOC rebuilds and a per-session official-URL/place/date match.
+224,056 frontend filter combinations pass; real render contracts produce 85
+concert and 60 comedy cards; four-page static contracts pass. Strict public
+schema/sale-time checks pass with zero sale-time conflicts. Browser/source
+research is reserved for the parent cloud environment; no local browser was
+opened. This is a local-only delivery with no remote push or publication.
