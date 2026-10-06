@@ -12,6 +12,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from live_sources import classify,source_snapshots,snapshot_path,reconcile,import_reviewed
+from live_sources import read as source_read, write as source_write
 
 ROOT = Path(__file__).resolve().parents[1]
 TW = timezone(timedelta(hours=8))
@@ -27,7 +30,7 @@ def safe_url(v):
 
 def platform(url):
     host = (urlsplit(url).hostname or '').lower()
-    if host.endswith('.kktix.cc') or host == 'kktix.com': return 'KKTIX'
+    if host.endswith('.kktix.cc') or host in ('kktix.com','www.kktix.com'): return 'KKTIX'
     return {'tixcraft.com':'拓元 tixCraft','ticket.com.tw':'年代 ERA','kham.com.tw':'寬宏 KHAM','ticket.ibon.com.tw':'ibon','www.opentix.life':'OPENTIX','opentix.life':'OPENTIX'}.get(host)
 
 def normalize_tickets(event):
@@ -39,13 +42,16 @@ def normalize_tickets(event):
     merged = {}
     for t in tickets:
         url = safe_url(t.get('url'))
-        if not url or not platform(url) or not t.get('checkedAt') or urlsplit(url).path in ('','/'):
+        label=platform(url) or clean(t.get('platform'))
+        if not url or not label or not t.get('checkedAt') or urlsplit(url).path in ('','/'):
             continue
+        try:datetime.strptime(t['checkedAt'],'%Y-%m-%d')
+        except (TypeError,ValueError):continue
         scoped = [dict(date=s['date'],time=s.get('time')) for s in t.get('sessions',[]) if (s.get('date'),s.get('time')) in valid]
         if not scoped: continue
         key=(url,t.get('price'),t.get('saleAt'))
         if key not in merged:
-            merged[key]=dict(t,url=url,platform=platform(url),sessions=[])
+            merged[key]=dict(t,url=url,platform=label,sessions=[])
         for s in scoped:
             if s not in merged[key]['sessions']:merged[key]['sessions'].append(s)
     return list(merged.values())
@@ -61,7 +67,9 @@ def session(v):
         datetime.strptime(clock, '%H:%M')
     return {'date': day, 'time': clock}
 
-def normalize(rows, kind, now):
+def normalize(rows, kind, now, diagnostics=None):
+    counts=diagnostics if diagnostics is not None else {}
+    counts.update(discovered=len(rows) if isinstance(rows,list) else None,included=0,excluded=0,pending=0,failed=0,reasons={})
     if not isinstance(rows, list) or not rows:
         raise ValueError('empty or malformed provider response')
     events = {}
@@ -70,19 +78,19 @@ def normalize(rows, kind, now):
     if not any(isinstance(r, dict) and str(r.get('category')) == category for r in rows):
         raise ValueError('unexpected provider category')
     for row in rows:
+        decision=None
         try:
             if str(row.get('category')) != category:
+                counts['excluded']+=1
+                counts['reasons']['OTHER_CATEGORY']=counts['reasons'].get('OTHER_CATEGORY',0)+1
                 continue
             title = clean(row['title'])
             if not title or '\ufffd' in title:
                 raise ValueError('bad title encoding')
-            # Exclude ticket upgrades and fan meetings; comedy category is explicit.
-            if kind == 'concerts' and re.search(r'upgrade|fan.?meeting|粉絲見面|見面會', title, re.I):
-                continue
-            if kind == 'comedy' and not re.search(r'脫口秀|單口喜劇|站立喜劇|stand.?up', title, re.I):
-                continue
-            if kind == 'comedy' and re.search(r'課程|研討會|工作坊', title):
-                continue
+            decision,reason=classify(kind,row)
+            counts[decision]+=1
+            counts['reasons'][reason]=counts['reasons'].get(reason,0)+1
+            if decision!='included':continue
             shows = row.get('showInfo') or row.get('showinfo')
             if not isinstance(shows, list) or not shows:
                 raise ValueError('missing sessions')
@@ -102,8 +110,12 @@ def normalize(rows, kind, now):
                     events[key]['sessions'].append(s)
                 if price and price != events[key]['price']:
                     events[key]['price'] = '各場次票價不同，請見官方資訊'
-        except (ValueError, KeyError, TypeError):
+        except (ValueError, KeyError, TypeError, AttributeError):
             bad += 1
+            if decision=='included':counts['included']-=1;counts['reasons'][reason]-=1
+            counts['failed']+=1
+            counts['reasons']['INVALID_PROVIDER_FACTS']=counts['reasons'].get('INVALID_PROVIDER_FACTS',0)+1
+    counts['eventCount']=len(events)
     if bad > max(0, len(rows) * .2):
         raise ValueError(f'malformed records: {bad}/{len(rows)}')
     if kind == 'concerts' and not events:
@@ -151,23 +163,30 @@ def build(kind, fetch, root=ROOT, now=None, manual_only=False):
     category = '17' if kind=='concerts' else '11'
     source = {'name':'文化部・演唱會' if kind=='concerts' else '文化部・綜藝（僅明確單口／脫口秀）','url':'https://data.gov.tw/dataset/6013' if kind=='concerts' else 'https://data.gov.tw/dataset/6009','checkedAt':now,'lastSuccess':next((s.get('lastSuccess') for s in previous['sources'] if s.get('id')=='moc'),None),'id':'moc'}
     success = True
+    saved=source_read(snapshot_path(root,kind,'moc'),None)
+    previous_moc=saved['events'] if saved else [e for e in previous['events'] if e['source']=='moc']
+    if saved:source=copy.deepcopy(saved['status'])
     if manual_only:
-        moc = [e for e in previous['events'] if e['source']=='moc']
-        source = copy.deepcopy(next((s for s in previous['sources'] if s.get('id')=='moc'), dict(source,status='error',checkedAt=None,message='No previous MOC data')))
+        moc=previous_moc
+        if not saved:source=copy.deepcopy(next((s for s in previous['sources'] if s.get('id')=='moc'),dict(source,status='error',checkedAt=None,message='No previous MOC data')))
     else:
+        counts={'discovered':None,'included':None,'excluded':None,'pending':None,'failed':None,'reasons':{}}
         try:
-            incoming = normalize(fetch(category),kind,now)
-            moc = merge(previous['events'], incoming, now)
-            source.update(status='ok',lastSuccess=now,message=f'每日一次授權 JSON；本次 {len(incoming)} 個活動／場館組合。只涵蓋提供者回傳資料。')
+            incoming=normalize(fetch(category),kind,now,counts)
+            moc=merge(previous_moc,incoming,now)
+            source.update(status='ok',lastSuccess=now,checkedAt=now,**counts,coverageComplete=False,
+                          scope=f'文化部 category {category} 單次授權 JSON；不代表全台完整目錄',pagesVisited=1,expectedPages=None,
+                          message=f'授權 JSON 解析完成；納入 {len(incoming)} 個活動／場館，待分類 {counts["pending"]} 筆；不是全平台完整涵蓋。')
         except Exception as error:
-            success = False
-            moc = [e for e in previous['events'] if e['source']=='moc']
-            source.update(status='error',message='更新失敗，保留最後成功資料。'+type(error).__name__)
-    # Manual records have stable ids and take precedence over identical title/venue/sessions.
-    events = copy.deepcopy(manual['events'])
-    signature = lambda e:(clean(e['title']).casefold(),e['region'],e['venue'],tuple((s['date'],s.get('time')) for s in e['sessions']))
-    known = {signature(e) for e in events}
-    events.extend(e for e in moc if signature(e) not in known)
+            success=False
+            moc=previous_moc
+            source.update(status='error',checkedAt=now,**counts,coverageComplete=False,message='更新失敗，保留最後成功資料。'+type(error).__name__)
+        source_write(snapshot_path(root,kind,'moc'),{'schemaVersion':1,'sourceId':'moc','kind':kind,'events':moc,'status':source})
+    events=copy.deepcopy(manual['events'])
+    independent,source_statuses=source_snapshots(root,kind,previous['events'],previous['sources'])
+    success=success and not any(s.get('status')=='error' for s in source_statuses)
+    events.extend(independent)
+    events.extend(moc)
     reviewed = read(root/'data'/'live-event-links.json', {})
     for e in events:
         e['region']=e['region'].replace('台','臺')
@@ -184,9 +203,13 @@ def build(kind, fetch, root=ROOT, now=None, manual_only=False):
             if review.get('facts', {}).get('region'):
                 e['summary'] = e['region']+'的演唱會，演出地點為'+e['venue']+'。'
         e['tickets']=normalize_tickets(e)
+    events=reconcile(events)
+    for e in events:e['tickets']=normalize_tickets(e)
     coverage=read(root/'data'/'live-platform-coverage.json', {'sources':[]})
-    sources=[source]+manual['sources']
+    independent_ids={s['id'] for s in source_statuses}
+    sources=[source]+manual['sources']+source_statuses
     for item in coverage['sources']:
+        if item['id'] in independent_ids:continue
         s=copy.deepcopy(item)
         covered=[e for e in events if any(t['platform']==s.get('platform') for t in e['tickets'])] if s.get('platform') else []
         s['eventCount']=len(covered)
@@ -217,7 +240,15 @@ if __name__=='__main__':
     parser.add_argument('--concert-input',type=Path)
     parser.add_argument('--comedy-input',type=Path)
     parser.add_argument('--manual-only',action='store_true',help='Offline rebuild; retains MOC source timestamps')
+    parser.add_argument('--reviewed-input',type=Path,help='Offline cloud-reviewed adapter JSON')
+    parser.add_argument('--source-id')
+    parser.add_argument('--kind',choices=('concerts','comedy'))
     args=parser.parse_args()
+    if args.reviewed_input:
+        if not args.source_id or not args.kind:parser.error('reviewed input requires source-id and kind')
+        okay=import_reviewed(ROOT,args.kind,args.source_id,read(args.reviewed_input,{}),stamp())
+        build(args.kind,lambda _:None,manual_only=True)
+        sys.exit(0 if okay else 1)
     def provider(category):
         path=args.concert_input if category=='17' else args.comedy_input
         return read(path,[]) if path else fetch(category)

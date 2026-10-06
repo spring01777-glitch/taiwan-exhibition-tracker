@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {"id":"moc","name":"文化部授權開放資料","url":"https://data.gov.tw/","kinds":["concerts","comedy"],"adapter":"moc-json","mode":"daily-licensed-api","permission":"licensed-open-data","scope":"文化部 category 17/11 回傳；並非全台售票平台完整目錄"},
+    {"id":"tixcraft","name":"拓元 tixCraft","url":"https://tixcraft.com/","kinds":["concerts","comedy"],"adapter":"reviewed-json","mode":"cloud-reviewed-import","permission":"automation-not-approved","scope":"待雲端目錄核對匯入；分頁範圍由每次清冊記錄"},
+    {"id":"kktix","name":"KKTIX","url":"https://kktix.com/","kinds":["concerts","comedy"],"adapter":"reviewed-json","mode":"cloud-reviewed-import","permission":"automation-not-approved","scope":"待雲端目錄核對匯入；不是全 KKTIX"},
+    {"id":"comedyclub","name":"卡米地官方主辦目錄","url":"https://comedyclub.kktix.cc/","kinds":["comedy"],"adapter":"reviewed-json","mode":"cloud-reviewed-import","permission":"automation-not-approved","scope":"卡米地公開主辦目錄；分頁與排除項目需記錄"},
+    {"id":"satire","name":"薩泰爾官方主辦目錄","url":"","kinds":["comedy"],"adapter":"reviewed-json","mode":"cloud-reviewed-import","permission":"automation-not-approved","scope":"待雲端確認目錄範圍及主辦連結"},
+    {"id":"ibon","name":"ibon 售票","url":"https://ticket.ibon.com.tw/","kinds":["concerts","comedy"],"adapter":"reviewed-json","mode":"cloud-reviewed-import","permission":"automation-not-approved","scope":"待雲端核對；不啟用自動官網抓取"},
+    {"id":"era","name":"年代 ERA","url":"https://ticket.com.tw/","kinds":["concerts","comedy"],"adapter":"reviewed-json","mode":"cloud-reviewed-import","permission":"automation-not-approved","scope":"待雲端核對；不啟用自動官網抓取"},
+    {"id":"kham","name":"寬宏 KHAM","url":"https://kham.com.tw/","kinds":["concerts","comedy"],"adapter":"reviewed-json","mode":"cloud-reviewed-import","permission":"automation-not-approved","scope":"待雲端核對；不啟用自動官網抓取"},
+    {"id":"opentix","name":"OPENTIX","url":"https://www.opentix.life/","kinds":["concerts","comedy"],"adapter":"reviewed-json","mode":"cloud-reviewed-import","permission":"automation-not-approved","scope":"待雲端核對；需區分單口、音樂劇與課程"}
+  ]
+}

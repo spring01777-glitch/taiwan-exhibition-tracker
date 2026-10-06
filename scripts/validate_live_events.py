@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
-FIELDS={'id','title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','sourceUrl','source','sourceUid','status','statusNote','summary','verifiedAt','revisions','tickets','cloudReviewPending','verificationMethod'}
+FIELDS={'id','title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','sourceUrl','source','sourceUid','status','statusNote','summary','verifiedAt','revisions','tickets','cloudReviewPending','verificationMethod','sourceRefs'}
 def sale_time_conflicts(data):
     return [e['id'] for e in data['events'] if
         (e.get('saleAt') or any(t.get('saleAt') for t in e.get('tickets',[]))) and
@@ -36,7 +36,7 @@ def validate(strict_sale_times=False):
             for t in e['tickets']:
                 assert set(t)<={'platform','url','checkedAt','sessions','price','saleAt'}
                 p=urlsplit(t['url']);assert p.scheme=='https' and p.hostname and p.path not in ('','/') and not p.username and not p.password
-                assert t['platform'] in ('KKTIX','拓元 tixCraft','年代 ERA','寬宏 KHAM','ibon','OPENTIX')
+                assert isinstance(t['platform'],str) and 0<len(t['platform'])<=80 and '<' not in t['platform']
                 datetime.strptime(t['checkedAt'],'%Y-%m-%d')
                 assert t['sessions'] and all((s['date'],s.get('time')) in scopes for s in t['sessions'])
                 key=(t['url'],t.get('price'),t.get('saleAt'));assert key not in seen;seen.add(key)

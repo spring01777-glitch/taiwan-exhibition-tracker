@@ -2,7 +2,7 @@
 (function(root){
  'use strict';
  const todayTW=(now=new Date())=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
- const platformOf=u=>{try{const h=new URL(u).hostname;return h.endsWith('.kktix.cc')?'KKTIX':({'tixcraft.com':'拓元 tixCraft','ticket.com.tw':'年代 ERA','kham.com.tw':'寬宏 KHAM','ticket.ibon.com.tw':'ibon','www.opentix.life':'OPENTIX','opentix.life':'OPENTIX'})[h]||'';}catch{return '';}};
+ const platformOf=u=>{try{const h=new URL(u).hostname;return (h.endsWith('.kktix.cc')||h==='kktix.com'||h==='www.kktix.com')?'KKTIX':({'tixcraft.com':'拓元 tixCraft','ticket.com.tw':'年代 ERA','kham.com.tw':'寬宏 KHAM','ticket.ibon.com.tw':'ibon','www.opentix.life':'OPENTIX','opentix.life':'OPENTIX'})[h]||'';}catch{return '';}};
  const tickets=e=>e.tickets||(e.ticketVerifiedAt&&platformOf(e.ticketUrl)?[{url:e.ticketUrl,platform:platformOf(e.ticketUrl),checkedAt:e.ticketVerifiedAt,sessions:e.sessions}]:[]);
  const sessionTickets=(e,s)=>tickets(e).filter(t=>t.checkedAt&&t.sessions?.some(q=>q.date===s.date&&(q.time||null)===(s.time||null)));
  const sessions=(e,f={},today=todayTW())=>e.sessions.filter(s=>(!f.date||s.date===f.date)&&(f.view==='all'||(e.status!=='cancelled'&&s.status!=='cancelled'&&s.date>=today))&&(!f.platform||(f.platform==='未核對'?sessionTickets(e,s).length===0:sessionTickets(e,s).some(t=>t.platform===f.platform))));
@@ -44,6 +44,8 @@
  fetch(document.body.dataset.events||'data/concerts.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json();}).then(data=>{
   events=data.events;$('active-count').textContent=events.filter(e=>matches(e,{view:'upcoming'})).length;
   $('updated').textContent='最近產出 '+time(data.updatedAt)+'；非即時票況，人工來源未每日重查';
-  $('source-status').innerHTML=data.sources.map(s=>`<div class="source-row"><div><strong>${esc(s.name)}</strong><p>${esc(s.message)}</p>${s.platform?`<p>已收錄 ${s.eventCount||0} 個活動・${s.sessionCount||0} 場次</p>`:''}<small>${s.status==='manual'?'最近人工查看：'+time(s.checkedAt):'最後成功：'+time(s.lastSuccess)+'；最後嘗試：'+time(s.checkedAt)}</small></div><span class="state ${s.status==='error'?'error':''}">${esc(s.status==='ok'?'每日資料更新成功':s.status==='manual'?'人工維護':'更新失敗・保留舊資料')}</span>${link(s.url,'來源覆蓋參考')}</div>`).join('');render();
+  const coverageText=s=>s.discovered!==undefined?`<p>本次發現 ${esc(s.discovered??'未核對')}；納入 ${esc(s.included??'未核對')}；排除 ${esc(s.excluded??'未核對')}；待確認 ${esc(s.pending??'未核對')}；失敗 ${esc(s.failed??'未核對')}</p><p>盤點日期 ${esc(s.reviewedAt||'未提供')}；${esc(s.scope||'範圍尚未核對')}；頁面 ${esc(s.pagesVisited??0)}／${esc(s.expectedPages??'未知')}；${s.coverageComplete?'所述範圍分頁完成':'涵蓋尚未完成／未核實'}</p>`:'';
+  const stateText=s=>s.status==='ok'?'本次處理完成':s.status==='manual'?'人工維護':s.status==='pending'?'尚待來源核對':'更新失敗／保留舊資料';
+  $('source-status').innerHTML=data.sources.map(s=>`<div class="source-row"><div><strong>${esc(s.name)}</strong><p>${esc(s.message)}</p>${coverageText(s)}${s.platform?`<p>已收錄 ${s.eventCount||0} 個活動・${s.sessionCount||0} 場次</p>`:''}<small>${s.status==='manual'?'最近人工查看：'+time(s.checkedAt):'最後成功：'+time(s.lastSuccess)+'；最後嘗試：'+time(s.checkedAt)}</small></div><span class="state ${s.status==='error'?'error':''}">${esc(stateText(s))}</span>${link(s.url,'來源／授權參考')}</div>`).join('');render();
  }).catch(()=>{$('updated').textContent='資料讀取失敗，請稍後重新整理。';$('results').textContent=`無法讀取${document.body.dataset.events?.includes('comedy')?'脫口秀':'演唱會'}資料，請稍後重試。`;});
 })(typeof globalThis!=='undefined'?globalThis:this);
