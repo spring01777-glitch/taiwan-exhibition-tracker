@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "opentix",
+  "kind": "concerts",
+  "events": [
+    {
+      "title": "2026池上秋收稻穗藝術節《愛在秋收，縱谷傳唱》",
+      "region": "臺東縣",
+      "venue": "臺東縣池上鄉萬安社區天堂路稻田區_萬新道路",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "14:30"
+        },
+        {
+          "date": "2026-10-25",
+          "time": "14:30"
+        }
+      ],
+      "price": "1000／1500／2000／2500",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://www.opentix.life/event/2065334424462708736",
+      "performers": "張信哲、洪佩瑜、葛西瓦",
+      "sourceUrl": "https://www.opentix.life/event/2065334424462708736",
+      "saleNote": "官方公開場次列表兩場顯示完售",
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2065334424462708736",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "14:30"
+            }
+          ],
+          "price": "1000／1500／2000／2500",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-10-24",
+          "time": "14:30",
+          "performers": "張信哲、洪佩瑜、葛西瓦",
+          "host": null
+        },
+        {
+          "date": "2026-10-25",
+          "time": "14:30",
+          "performers": "張信哲、洪佩瑜、葛西瓦",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.opentix.life/event/2065334424462708736",
+      "source": "opentix",
+      "id": "869eaa87eac1f8ece4b2",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2065334424462708736",
+          "id": "869eaa87eac1f8ece4b2"
+        }
+      ]
+    },
+    {
+      "title": "《戀戀40─陳明章現場作品四十年》新年音樂會",
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心音樂廳",
+      "sessions": [
+        {
+          "date": "2027-01-01",
+          "time": "14:30"
+        }
+      ],
+      "price": "600／1000／1600／2000／2400／2800",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://www.opentix.life/event/2085334193336229889",
+      "performers": "陳明章",
+      "sourceUrl": "https://www.opentix.life/event/2085334193336229889",
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2085334193336229889",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2027-01-01",
+              "time": "14:30"
+            }
+          ],
+          "price": "600／1000／1600／2000／2400／2800",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2027-01-01",
+          "time": "14:30",
+          "performers": "陳明章",
+          "host": null
+        }
+      ],
+      "sourceUid": "https://www.opentix.life/event/2085334193336229889",
+      "source": "opentix",
+      "id": "95bee9886c18396fc6d9",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2085334193336229889",
+          "id": "95bee9886c18396fc6d9"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "id": "opentix",
+    "name": "OPENTIX",
+    "url": "https://www.opentix.life/",
+    "checkedAt": "2026-10-06T09:03:17+08:00",
+    "mode": "reviewed-import",
+    "discovered": 2,
+    "included": 2,
+    "excluded": 0,
+    "pending": 0,
+    "failed": 0,
+    "reasons": {
+      "OFFICIAL_REVIEWED_FORMAT": 2
+    },
+    "coverageComplete": false,
+    "scope": "雲端文字交接 supplement-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+    "pagesVisited": 1,
+    "expectedPages": 1,
+    "reviewedAt": "2026-10-06",
+    "status": "ok",
+    "lastSuccess": "2026-10-06T09:03:17+08:00",
+    "lastSuccessfulIncluded": 2,
+    "message": "本次核對匯入完成；零符合、部分範圍或完整範圍分開記錄，非全平台每日掃描。",
+    "retainedEventCount": 2
+  },
+  "records": [
+    {
+      "sourceUid": "https://www.opentix.life/event/2065334424462708736",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "opentix-2065334424462708736",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.opentix.life/event/2065334424462708736"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2085334193336229889",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "opentix-2085334193336229889",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://www.opentix.life/event/2085334193336229889"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    }
+  ]
+}

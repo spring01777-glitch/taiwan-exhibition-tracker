@@ -1,0 +1,358 @@
+{
+  "checkedAt": "2026-10-06",
+  "window": {
+    "start": "2026-10-06",
+    "end": "2027-01-06"
+  },
+  "eventCount": 15,
+  "sessionCount": 23,
+  "events": [
+    {
+      "id": "ibon-39909",
+      "title": "TPE48–RESET公演",
+      "source": "ibon",
+      "region": "臺北市",
+      "venue": "華山1914文化創意產業園區 烏梅劇院",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "14:30"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "11:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "17:00"
+        }
+      ],
+      "price": "一般票1000；身障票500",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39909",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39909",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "ibon-39734",
+      "title": "2026 秋Out 音樂節",
+      "source": "ibon",
+      "region": "臺北市",
+      "venue": "台北自來水園區、公館水岸廣場、古亭河濱公園",
+      "sessions": [
+        {
+          "date": "2026-10-10",
+          "time": null
+        },
+        {
+          "date": "2026-10-11",
+          "time": null
+        }
+      ],
+      "price": "單日1980／雙日2980；專場獨賣999／1314",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39734",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39734",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "ibon-39877",
+      "title": "2026 tripleS World Tour ＜ANDLESS＞ in Taipei",
+      "source": "ibon",
+      "region": "臺北市",
+      "venue": "台北國際會議中心 TICC",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "19:00"
+        }
+      ],
+      "price": "1600／2600／3600／4800／6000；身障席3000",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39877",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39877",
+      "verifiedAt": "2026-10-06",
+      "notes": "Xinyu不參演；官方異動公告確認日期與行程照常，福利加購不另計活動",
+      "performers": null
+    },
+    {
+      "id": "ibon-39873",
+      "title": "2026 BANG YONGGUK WORLD TOUR「HAEBANG」in Taipei",
+      "source": "ibon",
+      "region": "臺北市",
+      "venue": "CORNER MAX",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "18:30"
+        }
+      ],
+      "price": "2580／3280；身障1290／1640",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39873",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39873",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "ibon-39910",
+      "title": "《流光穿梭 十年傳說》傳說十週年演唱會",
+      "source": "ibon",
+      "region": "臺北市",
+      "venue": "臺北大巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-31",
+          "time": "19:00"
+        }
+      ],
+      "price": "790／2490／2990／3490；身障1245／1495",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39910",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39910",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "ibon-39575",
+      "title": "Pami in Taipei 2026",
+      "source": "ibon",
+      "region": "臺北市",
+      "venue": "The Wall Live House",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "20:00"
+        }
+      ],
+      "price": "預售1600／雙人3000／現場1800／愛心800",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39575",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39575",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "ibon-39905",
+      "title": "Melodies in the Thai Breeze 1st Music Concert in Taipei",
+      "source": "ibon",
+      "region": "臺北市",
+      "venue": "西門 WESTAR",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "time": "15:30"
+        }
+      ],
+      "price": "2600／4100；愛心1600",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39905",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39905",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "ibon-39946",
+      "title": "厄倫蒂兒 Earendel 《THE SIGNAL》首場個人演唱會",
+      "source": "ibon",
+      "region": "新北市",
+      "venue": "Zepp New Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "19:00"
+        }
+      ],
+      "price": "2000／2600／VIP套票3200；愛心1600",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39946",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39946",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "ibon-39773",
+      "title": "2026 KANA–BOON「CRITICAL HIT PARADE in TAIPEI」",
+      "source": "ibon",
+      "region": "臺北市",
+      "venue": "Legacy Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-15",
+          "time": "18:00"
+        }
+      ],
+      "price": "預售1800／VIP2400／現場2200；愛心1100",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39773",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39773",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "ibon-39776",
+      "title": "時速36公里首度海外公演 “市民薄明” Tour 追加 台北站",
+      "source": "ibon",
+      "region": "臺北市",
+      "venue": "PIPE Live Music",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "19:30"
+        }
+      ],
+      "price": "預售1300／雙人2400／現場1600；愛心650",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39776",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39776",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "ibon-39962",
+      "title": "青春群像錄初次台北巡演2026 with Marie Louise",
+      "source": "ibon",
+      "region": "臺北市",
+      "venue": "野地方 Wildlab",
+      "sessions": [
+        {
+          "date": "2026-12-13",
+          "time": "19:30"
+        }
+      ],
+      "price": "預售1400／現場1600；身障700",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39962",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39962",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "ibon-39971",
+      "title": "2026 OPEN！ DREAM WORLD 夢想音樂節",
+      "source": "ibon",
+      "region": "高雄市",
+      "venue": "高雄夢時代正對面廣場",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-12-05",
+          "time": "18:30"
+        }
+      ],
+      "price": "預售1000／3000／4000；愛心750（含1元福利）",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39971",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39971",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "era-P1CHP23G",
+      "title": "《大學城經典演唱會》～青春不散場・歌聲再飛揚",
+      "source": "era",
+      "region": "臺北市",
+      "venue": "Legacy TERA",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-10-26",
+          "time": "14:00"
+        },
+        {
+          "date": "2026-10-26",
+          "time": "18:30"
+        }
+      ],
+      "price": "1500／2000／2500／3000",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CHP23G",
+      "ticketUrl": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CHP23G",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": null
+    },
+    {
+      "id": "opentix-2065334424462708736",
+      "title": "2026池上秋收稻穗藝術節《愛在秋收，縱谷傳唱》",
+      "source": "opentix",
+      "region": "臺東縣",
+      "venue": "臺東縣池上鄉萬安社區天堂路稻田區_萬新道路",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "14:30"
+        },
+        {
+          "date": "2026-10-25",
+          "time": "14:30"
+        }
+      ],
+      "price": "1000／1500／2000／2500",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://www.opentix.life/event/2065334424462708736",
+      "ticketUrl": "https://www.opentix.life/event/2065334424462708736",
+      "verifiedAt": "2026-10-06",
+      "notes": "官方公開場次列表兩場顯示完售",
+      "performers": "張信哲、洪佩瑜、葛西瓦"
+    },
+    {
+      "id": "opentix-2085334193336229889",
+      "title": "《戀戀40─陳明章現場作品四十年》新年音樂會",
+      "source": "opentix",
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心音樂廳",
+      "sessions": [
+        {
+          "date": "2027-01-01",
+          "time": "14:30"
+        }
+      ],
+      "price": "600／1000／1600／2000／2400／2800",
+      "saleAt": null,
+      "status": "scheduled",
+      "sourceUrl": "https://www.opentix.life/event/2085334193336229889",
+      "ticketUrl": "https://www.opentix.life/event/2085334193336229889",
+      "verifiedAt": "2026-10-06",
+      "notes": null,
+      "performers": "陳明章"
+    }
+  ]
+}

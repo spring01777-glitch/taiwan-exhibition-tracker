@@ -13,7 +13,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 sys.path.insert(0,str(Path(__file__).resolve().parent))
-from live_sources import classify,source_snapshots,snapshot_path,reconcile,import_reviewed
+from live_sources import classify,source_snapshots,snapshot_path,reconcile,import_reviewed,import_canonical
 from live_sources import read as source_read, write as source_write
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -241,9 +241,16 @@ if __name__=='__main__':
     parser.add_argument('--comedy-input',type=Path)
     parser.add_argument('--manual-only',action='store_true',help='Offline rebuild; retains MOC source timestamps')
     parser.add_argument('--reviewed-input',type=Path,help='Offline cloud-reviewed adapter JSON')
+    parser.add_argument('--canonical-input',type=Path,help='Complete parent research JSON, offline text handoff')
+    parser.add_argument('--batch-id')
     parser.add_argument('--source-id')
     parser.add_argument('--kind',choices=('concerts','comedy'))
     args=parser.parse_args()
+    if args.canonical_input:
+        if not args.kind or not args.batch_id:parser.error('canonical input requires kind and batch-id')
+        outcomes=import_canonical(ROOT,args.kind,read(args.canonical_input,{}),stamp(),args.batch_id)
+        built=build(args.kind,lambda _:None,manual_only=True)
+        sys.exit(0 if all(outcomes.values()) and built else 1)
     if args.reviewed_input:
         if not args.source_id or not args.kind:parser.error('reviewed input requires source-id and kind')
         okay=import_reviewed(ROOT,args.kind,args.source_id,read(args.reviewed_input,{}),stamp())

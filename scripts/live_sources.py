@@ -5,6 +5,7 @@ from permission to automate a provider, and from measured catalog completeness.
 """
 import copy
 import hashlib
+import html
 import json
 import re
 import unicodedata
@@ -92,7 +93,7 @@ def validate_event(raw,sid,now):
     e.setdefault('tickets',[]);e.setdefault('status','scheduled');e.setdefault('revisions',[])
     e['verifiedAt']=now[:10]
     if e['status'] not in ('scheduled','changed','unconfirmed','cancelled','rescheduled'):raise ValueError('invalid event status')
-    allowed={'id','source','sourceUid','title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','tickets','status','statusNote','summary','verifiedAt','revisions'}
+    allowed={'id','source','sourceUid','title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','tickets','status','statusNote','summary','verifiedAt','revisions','verificationMethod','sessionFacts','programKey'}
     # Classification evidence and provider prose never enter the public snapshot.
     if set(e)-allowed-{'sourceUrl'}:raise ValueError('unsupported public fact field')
     for t in e['tickets']:
@@ -109,7 +110,7 @@ def validate_event(raw,sid,now):
 def retain_missing(previous,incoming,complete=False):
     """No disappearance is interpreted as cancellation, nor as deletion."""
     by_id={e['id']:copy.deepcopy(e) for e in previous}
-    for raw in incoming:
+    for raw in reconcile(incoming):
         e=copy.deepcopy(raw);before=by_id.get(e['id'])
         if before:
             e['revisions']=copy.deepcopy(before.get('revisions',[]))
@@ -169,7 +170,13 @@ def import_reviewed(root,kind,sid,payload,now):
                     except (KeyError,ValueError,TypeError):decision,reason='failed','INVALID_REVIEWED_FACTS'
                 status[decision]+=1
                 status['reasons'][reason]=status['reasons'].get(reason,0)+1
-                records.append({'sourceUid':uid,'pageId':page['id'],'decision':decision,'reason':reason})
+                metadata=item.get('metadata',{})
+                evidence_urls=[checked_url(u) for u in metadata.get('evidenceUrls',[])]
+                records.append({'sourceUid':uid,'pageId':page['id'],'decision':decision,'reason':reason,
+                                'originalId':str(metadata.get('originalId','')),
+                                'unknownFields':metadata.get('unknownFields',[]),'evidenceUrls':evidence_urls,
+                                'ticketOptions':metadata.get('ticketOptions',[]),
+                                'earlyBirdSaleAt':metadata.get('earlyBirdSaleAt'),'presaleAt':metadata.get('presaleAt')})
         if not status['discovered']:raise ValueError('empty discovery response')
         if status['failed']:raise ValueError('invalid reviewed facts')
         status.update(status='ok',lastSuccess=now,lastSuccessfulIncluded=status['included'],
@@ -220,7 +227,8 @@ def reconcile(events):
             if (normalized(e['region']),normalized(e['venue']))!=(normalized(candidate['region']),normalized(candidate['venue'])):continue
             stable=bool(e.get('sourceUid') and any(r['source']==e['source'] and r.get('sourceUid')==e['sourceUid'] for r in candidate['sourceRefs']))
             corroborated=normalized(e['title'])==normalized(candidate['title']) or bool(urls(e)&urls(candidate))
-            if stable or (corroborated and scope(e)&scope(candidate) and normalized(e['venue']) not in ('場館未提供','unknown','')):
+            program=bool(e.get('programKey') and e.get('programKey')==candidate.get('programKey'))
+            if stable or program or (corroborated and scope(e)&scope(candidate) and normalized(e['venue']) not in ('場館未提供','unknown','')):
                 before=candidate;break
         if before is None:result.append(e);continue
         for s in e['sessions']:
@@ -228,5 +236,69 @@ def reconcile(events):
         for r in refs:
             if r not in before['sourceRefs']:before['sourceRefs'].append(r)
         before.setdefault('tickets',[]).extend(e.get('tickets',[]))
+        for fact in e.get('sessionFacts',[]):
+            if fact not in before.setdefault('sessionFacts',[]):before['sessionFacts'].append(fact)
     for e in result:e['sessions'].sort(key=lambda s:(s['date'],s.get('time') or ''))
     return result
+
+
+def import_canonical(root,kind,payload,now,batch_id):
+    """Adapt complete, parent-supplied text facts, without Library byte claims."""
+    if kind not in KINDS or not re.fullmatch(r'[a-z0-9-]+',batch_id):raise ValueError('invalid canonical batch')
+    raw_events=payload['events']
+    if not isinstance(raw_events,list) or not raw_events:raise ValueError('empty canonical batch')
+    if payload.get('eventCount',len(raw_events))!=len(raw_events):raise ValueError('canonical count mismatch')
+    total_sessions=sum(len(e['sessions']) for e in raw_events)
+    if payload.get('sessionCount',total_sessions)!=total_sessions:raise ValueError('canonical session count mismatch')
+    reviewed=payload.get('verifiedAt') or payload.get('checkedAt')
+    registry=load_registry(root)
+    hosts={'tixcraft.com':'tixcraft','kham.com.tw':'kham','ticket.ibon.com.tw':'ibon','ticket.com.tw':'era',
+           'www.opentix.life':'opentix','opentix.life':'opentix','comedyclub.kktix.cc':'comedyclub',
+           'www.arena.taipei':'taipei-arena','www.tmc.taipei':'tmc','www.accupass.com':'accupass'}
+    bundles={}
+    for original in raw_events:
+        url=checked_url(html.unescape(original['sourceUrl']))
+        host=urlsplit(url).hostname
+        sid=hosts.get(host,'kktix' if host.endswith('.kktix.cc') or host in ('kktix.com','www.kktix.com') else None)
+        if not sid:raise ValueError('canonical source requires registry mapping')
+        entry=next((s for s in registry if s['id']==sid),None)
+        if entry is None:
+            entry={'id':sid,'name':{'taipei-arena':'臺北小巨蛋官方活動資料','tmc':'臺北流行音樂中心官方活動資料','accupass':'ACCUPASS 已核實官方活動'}.get(sid,sid),
+                   'url':'https://'+host+'/','kinds':[kind],'adapter':'reviewed-json','mode':'cloud-reviewed-import',
+                   'permission':'automation-not-approved','scope':'雲端核實缺漏清單；不是全站目錄'}
+            registry.append(entry)
+        allowed={'title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','status','statusNote','summary','revisions','tickets','verificationMethod','programKey'}
+        e={k:copy.deepcopy(v) for k,v in original.items() if k in allowed}
+        e['sourceUrl']=url
+        for field in ('title','venue','summary','performers'):
+            if e.get(field):e[field]=html.unescape(e[field])
+        if original.get('notes'):
+            e['saleNote']='；'.join(v for v in (e.get('saleNote'),original['notes']) if v)
+        if original.get('earlyBirdSaleAt') or original.get('presaleAt'):
+            e['saleNote']='；'.join(v for v in (e.get('saleNote'),'早鳥／預售起始 '+str(original.get('earlyBirdSaleAt') or original.get('presaleAt'))+'（一般開賣另列）') if v)
+        if 'tickets' not in e:
+            ticket_url=checked_url(html.unescape(original['ticketUrl'])) if original.get('ticketUrl') else None
+            label={'ibon':'ibon','era':'年代 ERA','opentix':'OPENTIX'}.get(sid,entry['name'])
+            e['tickets']=[{'platform':label,'url':ticket_url,'checkedAt':original.get('ticketVerifiedAt') or original['verifiedAt'],
+                          'sessions':copy.deepcopy(e['sessions']),'price':e.get('price'),'saleAt':e.get('saleAt')}] if ticket_url else []
+        for t in e['tickets']:t['url']=html.unescape(t['url'])
+        if e.get('ticketUrl'):
+            e['ticketUrl']=html.unescape(e['ticketUrl'])
+            e['ticketVerifiedAt']=e.get('ticketVerifiedAt') or original['verifiedAt']
+        e['sessionFacts']=[{'date':s['date'],'time':s.get('time'),'performers':e.get('performers'),'host':original.get('host')} for s in e['sessions']]
+        # Official detail URL identifies repeated rows of one event's sessions.
+        # Separate places remain separate identities; complete new sessions union.
+        item={'sourceUid':url,'officialFactsReviewed':True,'evidence':{'reviewedKind':kind},'event':e,
+              'metadata':{'originalId':original['id'],'evidenceUrls':[html.unescape(u) for u in original.get('evidenceUrls',[url])],
+                          'unknownFields':original.get('unknownFields',[]),'ticketOptions':original.get('ticketOptions',[]),
+                          'earlyBirdSaleAt':original.get('earlyBirdSaleAt'),'presaleAt':original.get('presaleAt')}}
+        bundles.setdefault(sid,[]).append(item)
+    write(root/'data/live-source-registry.json',{'schemaVersion':1,'sources':registry})
+    outcomes={}
+    for sid,items in bundles.items():
+        manifest={'sourceId':sid,'kind':kind,'reviewedAt':reviewed,
+                  'traversal':{'scope':f'雲端文字交接 {batch_id} 的已核缺漏清單；研究窗口 {payload.get("window","未提供")}；不是全站完整目錄',
+                               'expectedPageIds':[batch_id],'complete':False},
+                  'pages':[{'id':batch_id,'url':items[0]['event']['sourceUrl'],'items':items}]}
+        outcomes[sid]=import_reviewed(root,kind,sid,manifest,now)
+    return outcomes

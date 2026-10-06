@@ -1,0 +1,944 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "ibon",
+  "kind": "concerts",
+  "events": [
+    {
+      "title": "TPE48–RESET公演",
+      "region": "臺北市",
+      "venue": "華山1914文化創意產業園區 烏梅劇院",
+      "sessions": [
+        {
+          "date": "2026-10-16",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "14:30"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "11:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "17:00"
+        }
+      ],
+      "price": "一般票1000；身障票500",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39909",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39909",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39909",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "18:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "17:00"
+            }
+          ],
+          "price": "一般票1000；身障票500",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-10-16",
+          "time": "18:30",
+          "performers": null,
+          "host": null
+        },
+        {
+          "date": "2026-10-17",
+          "time": "14:30",
+          "performers": null,
+          "host": null
+        },
+        {
+          "date": "2026-10-18",
+          "time": "11:00",
+          "performers": null,
+          "host": null
+        },
+        {
+          "date": "2026-10-18",
+          "time": "17:00",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39909",
+      "source": "ibon",
+      "id": "28da276039115a4a0a54",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39909",
+          "id": "28da276039115a4a0a54"
+        }
+      ]
+    },
+    {
+      "title": "2026 秋Out 音樂節",
+      "region": "臺北市",
+      "venue": "台北自來水園區、公館水岸廣場、古亭河濱公園",
+      "sessions": [
+        {
+          "date": "2026-10-10",
+          "time": null
+        },
+        {
+          "date": "2026-10-11",
+          "time": null
+        }
+      ],
+      "price": "單日1980／雙日2980；專場獨賣999／1314",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39734",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39734",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39734",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": null
+            },
+            {
+              "date": "2026-10-11",
+              "time": null
+            }
+          ],
+          "price": "單日1980／雙日2980；專場獨賣999／1314",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-10-10",
+          "time": null,
+          "performers": null,
+          "host": null
+        },
+        {
+          "date": "2026-10-11",
+          "time": null,
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39734",
+      "source": "ibon",
+      "id": "d8c1e34dce60111c982e",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39734",
+          "id": "d8c1e34dce60111c982e"
+        }
+      ]
+    },
+    {
+      "title": "2026 tripleS World Tour ＜ANDLESS＞ in Taipei",
+      "region": "臺北市",
+      "venue": "台北國際會議中心 TICC",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "19:00"
+        }
+      ],
+      "price": "1600／2600／3600／4800／6000；身障席3000",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39877",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39877",
+      "saleNote": "Xinyu不參演；官方異動公告確認日期與行程照常，福利加購不另計活動",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39877",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-18",
+              "time": "19:00"
+            }
+          ],
+          "price": "1600／2600／3600／4800／6000；身障席3000",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-10-18",
+          "time": "19:00",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39877",
+      "source": "ibon",
+      "id": "5a6f38a63e83dee4596c",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39877",
+          "id": "5a6f38a63e83dee4596c"
+        }
+      ]
+    },
+    {
+      "title": "2026 BANG YONGGUK WORLD TOUR「HAEBANG」in Taipei",
+      "region": "臺北市",
+      "venue": "CORNER MAX",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "18:30"
+        }
+      ],
+      "price": "2580／3280；身障1290／1640",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39873",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39873",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39873",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-18",
+              "time": "18:30"
+            }
+          ],
+          "price": "2580／3280；身障1290／1640",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-10-18",
+          "time": "18:30",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39873",
+      "source": "ibon",
+      "id": "69b828f9561107b6badd",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39873",
+          "id": "69b828f9561107b6badd"
+        }
+      ]
+    },
+    {
+      "title": "《流光穿梭 十年傳說》傳說十週年演唱會",
+      "region": "臺北市",
+      "venue": "臺北大巨蛋",
+      "sessions": [
+        {
+          "date": "2026-10-31",
+          "time": "19:00"
+        }
+      ],
+      "price": "790／2490／2990／3490；身障1245／1495",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39910",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39910",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39910",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "19:00"
+            }
+          ],
+          "price": "790／2490／2990／3490；身障1245／1495",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-10-31",
+          "time": "19:00",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39910",
+      "source": "ibon",
+      "id": "1c2342889f1d9032daf0",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39910",
+          "id": "1c2342889f1d9032daf0"
+        }
+      ]
+    },
+    {
+      "title": "Pami in Taipei 2026",
+      "region": "臺北市",
+      "venue": "The Wall Live House",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "20:00"
+        }
+      ],
+      "price": "預售1600／雙人3000／現場1800／愛心800",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39575",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39575",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39575",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "20:00"
+            }
+          ],
+          "price": "預售1600／雙人3000／現場1800／愛心800",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-11-07",
+          "time": "20:00",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39575",
+      "source": "ibon",
+      "id": "131f6be184b7c028d47b",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39575",
+          "id": "131f6be184b7c028d47b"
+        }
+      ]
+    },
+    {
+      "title": "Melodies in the Thai Breeze 1st Music Concert in Taipei",
+      "region": "臺北市",
+      "venue": "西門 WESTAR",
+      "sessions": [
+        {
+          "date": "2026-11-08",
+          "time": "15:30"
+        }
+      ],
+      "price": "2600／4100；愛心1600",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39905",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39905",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39905",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "15:30"
+            }
+          ],
+          "price": "2600／4100；愛心1600",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-11-08",
+          "time": "15:30",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39905",
+      "source": "ibon",
+      "id": "d8eb03126247549bb3f7",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39905",
+          "id": "d8eb03126247549bb3f7"
+        }
+      ]
+    },
+    {
+      "title": "厄倫蒂兒 Earendel 《THE SIGNAL》首場個人演唱會",
+      "region": "新北市",
+      "venue": "Zepp New Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "19:00"
+        }
+      ],
+      "price": "2000／2600／VIP套票3200；愛心1600",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39946",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39946",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39946",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "19:00"
+            }
+          ],
+          "price": "2000／2600／VIP套票3200；愛心1600",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-11-14",
+          "time": "19:00",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39946",
+      "source": "ibon",
+      "id": "2f9ff397fa50b6a8da8d",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39946",
+          "id": "2f9ff397fa50b6a8da8d"
+        }
+      ]
+    },
+    {
+      "title": "2026 KANA–BOON「CRITICAL HIT PARADE in TAIPEI」",
+      "region": "臺北市",
+      "venue": "Legacy Taipei",
+      "sessions": [
+        {
+          "date": "2026-11-15",
+          "time": "18:00"
+        }
+      ],
+      "price": "預售1800／VIP2400／現場2200；愛心1100",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39773",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39773",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39773",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "18:00"
+            }
+          ],
+          "price": "預售1800／VIP2400／現場2200；愛心1100",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-11-15",
+          "time": "18:00",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39773",
+      "source": "ibon",
+      "id": "0377a0b384fe3431be28",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39773",
+          "id": "0377a0b384fe3431be28"
+        }
+      ]
+    },
+    {
+      "title": "時速36公里首度海外公演 “市民薄明” Tour 追加 台北站",
+      "region": "臺北市",
+      "venue": "PIPE Live Music",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "19:30"
+        }
+      ],
+      "price": "預售1300／雙人2400／現場1600；愛心650",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39776",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39776",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39776",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "19:30"
+            }
+          ],
+          "price": "預售1300／雙人2400／現場1600；愛心650",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-12-05",
+          "time": "19:30",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39776",
+      "source": "ibon",
+      "id": "91929ef24d5adc7291ce",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39776",
+          "id": "91929ef24d5adc7291ce"
+        }
+      ]
+    },
+    {
+      "title": "青春群像錄初次台北巡演2026 with Marie Louise",
+      "region": "臺北市",
+      "venue": "野地方 Wildlab",
+      "sessions": [
+        {
+          "date": "2026-12-13",
+          "time": "19:30"
+        }
+      ],
+      "price": "預售1400／現場1600；身障700",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39962",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39962",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39962",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "19:30"
+            }
+          ],
+          "price": "預售1400／現場1600；身障700",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-12-13",
+          "time": "19:30",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39962",
+      "source": "ibon",
+      "id": "bb4ee5d8dcb6bc142e14",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39962",
+          "id": "bb4ee5d8dcb6bc142e14"
+        }
+      ]
+    },
+    {
+      "title": "2026 OPEN！ DREAM WORLD 夢想音樂節",
+      "region": "高雄市",
+      "venue": "高雄夢時代正對面廣場",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-12-05",
+          "time": "18:30"
+        }
+      ],
+      "price": "預售1000／3000／4000；愛心750（含1元福利）",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39971",
+      "performers": null,
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39971",
+      "tickets": [
+        {
+          "platform": "ibon",
+          "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39971",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "18:30"
+            },
+            {
+              "date": "2026-12-05",
+              "time": "18:30"
+            }
+          ],
+          "price": "預售1000／3000／4000；愛心750（含1元福利）",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-12-04",
+          "time": "18:30",
+          "performers": null,
+          "host": null
+        },
+        {
+          "date": "2026-12-05",
+          "time": "18:30",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39971",
+      "source": "ibon",
+      "id": "689817749c9c044e1f12",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "ibon",
+          "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39971",
+          "id": "689817749c9c044e1f12"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "id": "ibon",
+    "name": "ibon 售票",
+    "url": "https://ticket.ibon.com.tw/",
+    "checkedAt": "2026-10-06T09:03:17+08:00",
+    "mode": "reviewed-import",
+    "discovered": 12,
+    "included": 12,
+    "excluded": 0,
+    "pending": 0,
+    "failed": 0,
+    "reasons": {
+      "OFFICIAL_REVIEWED_FORMAT": 12
+    },
+    "coverageComplete": false,
+    "scope": "雲端文字交接 supplement-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+    "pagesVisited": 1,
+    "expectedPages": 1,
+    "reviewedAt": "2026-10-06",
+    "status": "ok",
+    "lastSuccess": "2026-10-06T09:03:17+08:00",
+    "lastSuccessfulIncluded": 12,
+    "message": "本次核對匯入完成；零符合、部分範圍或完整範圍分開記錄，非全平台每日掃描。",
+    "retainedEventCount": 12
+  },
+  "records": [
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39909",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39909",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39909"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39734",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39734",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39734"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39877",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39877",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39877"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39873",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39873",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39873"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39910",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39910",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39910"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39575",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39575",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39575"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39905",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39905",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39905"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39946",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39946",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39946"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39773",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39773",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39773"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39776",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39776",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39776"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39962",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39962",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39962"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    },
+    {
+      "sourceUid": "https://ticket.ibon.com.tw/ActivityInfo/Details/39971",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "ibon-39971",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.ibon.com.tw/ActivityInfo/Details/39971"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    }
+  ]
+}

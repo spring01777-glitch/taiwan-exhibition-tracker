@@ -120,3 +120,34 @@ The supplied aggregate counts (concerts 61 new groups/94 sessions, comedy 46
 missing sessions) therefore remain parent research claims, not local import
 verification. A supported consumer environment or parent-provided canonical
 text inputs are still required to finish that integration.
+
+## Parent text handoff follow-up
+
+The parent subsequently supplied canonical facts directly in task text. This
+is a separate evidence handoff and does not change the failed Library byte
+materialization history. `--canonical-input FILE --kind concerts --batch-id ID`
+adapts a complete JSON batch, groups by reviewed official source host and
+imports the persistent snapshots. Counts supplied in the batch must match.
+Unknowns stay null; HTML entities in fact text and URLs are decoded. Evidence
+URLs, original record IDs, unknown fields and ticket-type facts remain in the
+source decision ledger. Actual session scopes/sale times stay on tickets.
+Repeated rows of one source detail page union their sessions, with individual
+performers/hosts retained in sessionFacts and shown in the session details.
+
+The complete supplementary concert text (15 groups, 23 sessions) is stored in
+`data/live-audits/concerts-supplement-20261006.json` and imported into ibon,
+ERA and OPENTIX source snapshots. Public concert output is now 39 groups and
+51 sessions (previous 24/28 plus 15/23); the comedy output remains 29/39.
+Two offline rebuilds/reimports retain the supplement idempotently and keep
+review dates at 2026-10-06. tripleS remains scheduled with Xinyu's absence
+noted; autumn festival times and all unverified general sale times stay null.
+
+The main concert text contains an actual `2144 tokens truncated` marker and
+the comedy text contains an actual `3067 tokens truncated` marker inside JSON.
+These two inputs are incomplete and have not been reconstructed, imported or
+counted as complete. Their missing content needs a complete text handoff,
+preferably JSON chunks of 5–10 events, or standalone JSON Library items readable
+with the supported text-read route. No further ZIP materialization is requested.
+The supplied full-catalog coverage/exclusion matrices have also not arrived as
+complete text; imported source states therefore explicitly say selected verified
+missing items, coverage incomplete, and manual reviewed import, not daily scanning.

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "era",
+  "kind": "concerts",
+  "events": [
+    {
+      "title": "《大學城經典演唱會》～青春不散場・歌聲再飛揚",
+      "region": "臺北市",
+      "venue": "Legacy TERA",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "18:30"
+        },
+        {
+          "date": "2026-10-26",
+          "time": "14:00"
+        },
+        {
+          "date": "2026-10-26",
+          "time": "18:30"
+        }
+      ],
+      "price": "1500／2000／2500／3000",
+      "saleAt": null,
+      "status": "scheduled",
+      "ticketUrl": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CHP23G",
+      "performers": null,
+      "sourceUrl": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CHP23G",
+      "tickets": [
+        {
+          "platform": "年代 ERA",
+          "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CHP23G",
+          "checkedAt": "2026-10-06",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "18:30"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "18:30"
+            }
+          ],
+          "price": "1500／2000／2500／3000",
+          "saleAt": null
+        }
+      ],
+      "ticketVerifiedAt": "2026-10-06",
+      "sessionFacts": [
+        {
+          "date": "2026-10-25",
+          "time": "18:30",
+          "performers": null,
+          "host": null
+        },
+        {
+          "date": "2026-10-26",
+          "time": "14:00",
+          "performers": null,
+          "host": null
+        },
+        {
+          "date": "2026-10-26",
+          "time": "18:30",
+          "performers": null,
+          "host": null
+        }
+      ],
+      "sourceUid": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CHP23G",
+      "source": "era",
+      "id": "0c7803555dec56c9c41d",
+      "summary": "官方活動基本資料；詳細規定請見來源。",
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "revisions": [],
+      "verifiedAt": "2026-10-06",
+      "sourceRefs": [
+        {
+          "source": "era",
+          "sourceUid": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CHP23G",
+          "id": "0c7803555dec56c9c41d"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "id": "era",
+    "name": "年代 ERA",
+    "url": "https://ticket.com.tw/",
+    "checkedAt": "2026-10-06T09:03:17+08:00",
+    "mode": "reviewed-import",
+    "discovered": 1,
+    "included": 1,
+    "excluded": 0,
+    "pending": 0,
+    "failed": 0,
+    "reasons": {
+      "OFFICIAL_REVIEWED_FORMAT": 1
+    },
+    "coverageComplete": false,
+    "scope": "雲端文字交接 supplement-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+    "pagesVisited": 1,
+    "expectedPages": 1,
+    "reviewedAt": "2026-10-06",
+    "status": "ok",
+    "lastSuccess": "2026-10-06T09:03:17+08:00",
+    "lastSuccessfulIncluded": 1,
+    "message": "本次核對匯入完成；零符合、部分範圍或完整範圍分開記錄，非全平台每日掃描。",
+    "retainedEventCount": 1
+  },
+  "records": [
+    {
+      "sourceUid": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CHP23G",
+      "pageId": "supplement-20261006",
+      "decision": "included",
+      "reason": "OFFICIAL_REVIEWED_FORMAT",
+      "originalId": "era-P1CHP23G",
+      "unknownFields": [],
+      "evidenceUrls": [
+        "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CHP23G"
+      ],
+      "ticketOptions": [],
+      "earlyBirdSaleAt": null,
+      "presaleAt": null
+    }
+  ]
+}

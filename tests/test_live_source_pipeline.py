@@ -163,4 +163,49 @@ class PipelineTests(unittest.TestCase):
             future=envelope();future['reviewedAt']='2026-10-08'
             self.assertFalse(sources.import_reviewed(root,'comedy','test-source',future,'2026-10-07T09:00:00+08:00'))
 
+    def test_canonical_text_supplement_persists_twice_without_network(self):
+        repo=Path(__file__).resolve().parents[1]
+        payload=sources.read(repo/'data/live-audits/concerts-supplement-20261006.json',{})
+        self.assertEqual((len(payload['events']),sum(len(e['sessions']) for e in payload['events'])),(15,23))
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            for name in ('live-source-registry.json','concerts-manual.json','concerts.json','live-event-links.json','live-platform-coverage.json'):
+                sources.write(root/'data'/name,sources.read(repo/'data'/name,{}))
+            # Begin with the actual current catalog, then reimport idempotently.
+            for day in (NOW,'2026-10-07T09:00:00+08:00'):
+                outcomes=sources.import_canonical(root,'concerts',payload,day,'supplement-20261006')
+                self.assertTrue(all(outcomes.values()))
+                self.assertTrue(live.build('concerts',lambda _:self.fail('network'),root,day,manual_only=True))
+                events=sources.read(root/'data/concerts.json',{})['events']
+                supplement=[e for e in events if e.get('source') in ('ibon','era','opentix')]
+                self.assertEqual((len(supplement),sum(len(e['sessions']) for e in supplement)),(15,23))
+                triples=next(e for e in supplement if 'tripleS' in e['title'])
+                self.assertEqual(triples['status'],'scheduled');self.assertIn('Xinyu不參演',triples['saleNote'])
+                autumn=next(e for e in supplement if '秋Out' in e['title'])
+                self.assertTrue(all(s['time'] is None for s in autumn['sessions']))
+                self.assertTrue(all(e['saleAt'] is None for e in supplement))
+                self.assertTrue(all(e['verifiedAt']=='2026-10-06' for e in supplement))
+                for sid in outcomes:
+                    state=sources.read(sources.snapshot_path(root,'concerts',sid),{})['status']
+                    self.assertFalse(state['coverageComplete'])
+                    self.assertEqual(state['mode'],'reviewed-import')
+
+    def test_canonical_shared_page_unions_sessions_and_preserves_lineups(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=self.root(tmp)
+            # Registered official KKTIX adapter, not an automated crawler.
+            registry=sources.load_registry(root)
+            registry.append({'id':'kktix','name':'Synthetic KKTIX','url':'https://kktix.com','kinds':['comedy'],'adapter':'reviewed-json'})
+            sources.write(root/'data/live-source-registry.json',{'schemaVersion':1,'sources':registry})
+            records=[]
+            for index,date in enumerate(('2026-11-01','2026-11-02')):
+                e=event(str(index),date=date);e.update(id=str(index),sourceUrl='https://example.kktix.cc/events/shared',verifiedAt='2026-10-06',performers=f'Fixture performer {index}',host=f'Fixture host {index}')
+                records.append(e)
+            outcomes=sources.import_canonical(root,'comedy',{'checkedAt':'2026-10-06','events':records},NOW,'synthetic-test')
+            self.assertTrue(all(outcomes.values()))
+            events=sources.read(sources.snapshot_path(root,'comedy','kktix'),{})['events']
+            self.assertEqual(len(events),1);self.assertEqual(len(events[0]['sessions']),2)
+            self.assertEqual(len(events[0]['sessionFacts']),2)
+            self.assertEqual(events[0]['sessionFacts'][1]['performers'],'Fixture performer 1')
+
 if __name__=='__main__':unittest.main()

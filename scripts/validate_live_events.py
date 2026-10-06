@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
-FIELDS={'id','title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','sourceUrl','source','sourceUid','status','statusNote','summary','verifiedAt','revisions','tickets','cloudReviewPending','verificationMethod','sourceRefs'}
+FIELDS={'id','title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','sourceUrl','source','sourceUid','status','statusNote','summary','verifiedAt','revisions','tickets','cloudReviewPending','verificationMethod','sourceRefs','sessionFacts','programKey'}
 def sale_time_conflicts(data):
     return [e['id'] for e in data['events'] if
         (e.get('saleAt') or any(t.get('saleAt') for t in e.get('tickets',[]))) and
