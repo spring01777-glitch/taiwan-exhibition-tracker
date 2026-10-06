@@ -6,11 +6,23 @@
   "status": {
     "name": "文化部・綜藝（僅明確單口／脫口秀）",
     "url": "https://data.gov.tw/dataset/6009",
-    "checkedAt": "2026-10-06T07:53:54+08:00",
-    "lastSuccess": "2026-10-06T07:53:54+08:00",
+    "checkedAt": "2026-10-06T09:29:52+08:00",
+    "lastSuccess": "2026-10-06T09:29:52+08:00",
     "id": "moc",
     "status": "ok",
-    "message": "每日一次授權 JSON；本次 0 個活動／場館組合。只涵蓋提供者回傳資料。"
-  },
-  "records": []
+    "message": "授權 JSON 解析完成；納入 0 個活動／場館，待分類 1 筆；不是全平台完整涵蓋。",
+    "discovered": 1,
+    "included": 0,
+    "excluded": 0,
+    "pending": 1,
+    "failed": 0,
+    "reasons": {
+      "INSUFFICIENT_STANDUP_EVIDENCE": 1
+    },
+    "eventCount": 0,
+    "coverageComplete": false,
+    "scope": "文化部 category 11 單次授權 JSON；不代表全台完整目錄",
+    "pagesVisited": 1,
+    "expectedPages": null
+  }
 }

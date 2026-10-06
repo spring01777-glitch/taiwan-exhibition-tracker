@@ -1,36 +1,50 @@
 {
-  "generatedAt": "2026-10-06T07:53:50+08:00",
+  "generatedAt": "2026-10-06T09:29:49+08:00",
   "sources": {
     "moc": {
       "state": "ok",
-      "lastAttempt": "2026-10-06T07:53:50+08:00",
-      "lastSuccess": "2026-10-06T07:53:50+08:00",
+      "lastAttempt": "2026-10-06T09:29:49+08:00",
+      "lastSuccess": "2026-10-06T09:29:49+08:00",
       "count": 302,
       "rejected": 0,
+      "attemptCounts": {
+        "inputCount": 302,
+        "validCount": 302,
+        "rejectedCount": 0,
+        "eventCount": 302,
+        "rejectedReasons": {},
+        "previousActiveCount": 299
+      },
       "message": "官方開放資料更新成功"
     },
     "songshan": {
       "state": "ok",
-      "lastAttempt": "2026-10-06T07:52:26+08:00",
-      "lastSuccess": "2026-10-06T07:52:49+08:00",
+      "lastAttempt": "2026-10-06T09:28:29+08:00",
+      "lastSuccess": "2026-10-06T09:28:52+08:00",
       "count": 16,
       "checkedCount": 16,
+      "attemptedCount": 16,
+      "lastSuccessfulCheckedCount": 16,
       "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
     },
     "huashan": {
       "state": "ok",
-      "lastAttempt": "2026-10-06T07:52:49+08:00",
-      "lastSuccess": "2026-10-06T07:53:30+08:00",
+      "lastAttempt": "2026-10-06T09:28:52+08:00",
+      "lastSuccess": "2026-10-06T09:29:30+08:00",
       "count": 18,
       "checkedCount": 18,
+      "attemptedCount": 18,
+      "lastSuccessfulCheckedCount": 18,
       "message": "每日官網基本事實更新成功；公開首頁及已收錄的無查詢參數詳情；分頁受 robots 限制，未保證完整；8筆狀態仍待確認"
     },
     "pier2": {
       "state": "ok",
-      "lastAttempt": "2026-10-06T07:53:30+08:00",
-      "lastSuccess": "2026-10-06T07:53:50+08:00",
+      "lastAttempt": "2026-10-06T09:29:30+08:00",
+      "lastSuccess": "2026-10-06T09:29:48+08:00",
       "count": 12,
       "checkedCount": 12,
+      "attemptedCount": 12,
+      "lastSuccessfulCheckedCount": 12,
       "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
     }
   }
