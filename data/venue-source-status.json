@@ -1,32 +1,35 @@
 {
   "songshan": {
     "state": "ok",
-    "lastAttempt": "2026-10-06T14:57:51+08:00",
-    "lastSuccess": "2026-10-06T14:58:13+08:00",
-    "count": 16,
-    "checkedCount": 16,
-    "attemptedCount": 16,
-    "lastSuccessfulCheckedCount": 16,
+    "lastAttempt": "2026-10-07T09:35:15+08:00",
+    "lastSuccess": "2026-10-07T09:35:39+08:00",
+    "count": 17,
+    "checkedCount": 17,
+    "attemptedCount": 17,
+    "lastSuccessfulCheckedCount": 17,
     "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
   },
   "huashan": {
     "state": "ok",
-    "lastAttempt": "2026-10-06T14:58:13+08:00",
-    "lastSuccess": "2026-10-06T14:58:57+08:00",
-    "count": 18,
-    "checkedCount": 18,
-    "attemptedCount": 18,
-    "lastSuccessfulCheckedCount": 18,
+    "lastAttempt": "2026-10-07T09:35:39+08:00",
+    "lastSuccess": "2026-10-07T09:36:37+08:00",
+    "count": 19,
+    "checkedCount": 19,
+    "attemptedCount": 19,
+    "lastSuccessfulCheckedCount": 19,
     "message": "每日官網基本事實更新成功；公開首頁及已收錄的無查詢參數詳情；分頁受 robots 限制，未保證完整；8筆狀態仍待確認"
   },
   "pier2": {
-    "state": "ok",
-    "lastAttempt": "2026-10-06T14:58:57+08:00",
+    "state": "error",
+    "lastAttempt": "2026-10-07T09:36:37+08:00",
     "lastSuccess": "2026-10-06T14:59:16+08:00",
     "count": 12,
-    "checkedCount": 12,
+    "checkedCount": 11,
     "attemptedCount": 12,
     "lastSuccessfulCheckedCount": 12,
-    "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
+    "message": "每日官網更新未完成；本次成功核對11筆，保留最後成功12筆；請查官方",
+    "failureStage": "detail-parse",
+    "reasonCode": "VALIDATION_ERROR",
+    "reason": "missing title or venue"
   }
 }

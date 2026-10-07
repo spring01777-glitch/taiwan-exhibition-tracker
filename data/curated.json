@@ -1,965 +1,5 @@
 [
   {
-    "id": "songshan-pharaoh-2026",
-    "title": "《消失的法老》古夫金字塔 VR 沉浸體驗",
-    "start": "2026-01-29",
-    "end": "2026-11-30",
-    "region": "臺北市",
-    "venue": "松山文創園區 · XR 沉浸玩家 (A7 E203 東向製菸工廠二樓)",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：付費、採場次預約；詳情未列金額",
-    "category": "沉浸體驗",
-    "summary": "於XR 沉浸玩家 (A7 E203 東向製菸工廠二樓)舉辦的沉浸體驗活動，日期為2026-01-29至2026-11-30。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/840b0803-826e-407f-bd62-8447b51cf9c2",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T19:00:00+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "《消失的法老》古夫金字塔 VR 沉浸體驗",
-        "start": "2026-01-29",
-        "end": "2026-11-30",
-        "price": "付費、採場次預約；詳情未列金額",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-9176cee50ef3e628",
-    "title": "松菸夜光花園 光影展 THE LUMINOUS GARDEN",
-    "start": "2026-01-31",
-    "end": "2026-12-31",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 巴洛克花園 Songshan Cultural and Creative Park︱Baroque Garden",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：免費",
-    "category": "光影藝術",
-    "summary": "於松山文創園區 巴洛克花園 Songshan Cultural and Creative Park︱Baroque Garden舉辦的光影藝術活動，日期為2026-01-31至2026-12-31。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/07e87658-6bea-4715-b633-5e44cd2d9e30",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "松菸夜光花園 光影展 THE LUMINOUS GARDEN",
-        "start": "2026-01-31",
-        "end": "2026-12-31",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-540fcfec15f5daa3",
-    "title": "小熊維尼—友你相繪 100 週年限定快閃店",
-    "start": "2026-07-10",
-    "end": "2026-10-11",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 北向製菸工廠",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：免費入場；商品及體驗另計",
-    "category": "快閃店",
-    "summary": "於松山文創園區 北向製菸工廠舉辦的快閃店活動，日期為2026-07-10至2026-10-11。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/4a7f533a-7537-4dd0-af44-d074a73d47c2",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "小熊維尼—友你相繪 100 週年限定快閃店",
-        "start": "2026-07-10",
-        "end": "2026-10-11",
-        "price": "免費入場；商品及體驗另計",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-68bdfdd54b150e16",
-    "title": "100% 哆啦 A 夢櫻花節 in 台北",
-    "start": "2026-07-10",
-    "end": "2026-10-11",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 北向製菸工廠一樓 東側",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：免費入場；商品另計",
-    "category": "快閃店",
-    "summary": "於松山文創園區 北向製菸工廠一樓 東側舉辦的快閃店活動，日期為2026-07-10至2026-10-11。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/8e248f11-734d-4987-bbbe-7bfceab13e3e",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "100% 哆啦 A 夢櫻花節 in 台北",
-        "start": "2026-07-10",
-        "end": "2026-10-11",
-        "price": "免費入場；商品另計",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-0d1927821827c107",
-    "title": "松山文創園區藝術窗框計畫",
-    "start": "2026-08-01",
-    "end": "2026-11-01",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 文創大街、北向製菸工廠窗框",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：免費",
-    "category": "藝術",
-    "summary": "於松山文創園區 文創大街、北向製菸工廠窗框舉辦的藝術活動，日期為2026-08-01至2026-11-01。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/8edf6d1e-37fb-41ed-bb12-6b86f30fd6d0",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "松山文創園區藝術窗框計畫",
-        "start": "2026-08-01",
-        "end": "2026-11-01",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-0d2c8a087f007bba",
-    "title": "2026 史上最強球鞋與潮流展會",
-    "start": "2026-10-10",
-    "end": "2026-10-11",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 1 號倉庫",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：一日票280元／二日票360元；現場購票",
-    "category": "潮流展會",
-    "summary": "於松山文創園區 1 號倉庫舉辦的潮流展會活動，日期為2026-10-10至2026-10-11。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/49261597-9309-4d32-9a48-27e68fa3b35d",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "2026 史上最強球鞋與潮流展會",
-        "start": "2026-10-10",
-        "end": "2026-10-11",
-        "price": "一日票280元／二日票360元；現場購票",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-f6225afba573cda9",
-    "title": "毛孩藝術生活節 FURever Art Festival : IM”PAW”SIBLE",
-    "start": "2026-12-18",
-    "end": "2026-12-20",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 2 號倉庫",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：免費入場；商品另計",
-    "category": "藝術／市集",
-    "summary": "於松山文創園區 2 號倉庫舉辦的藝術／市集活動，日期為2026-12-18至2026-12-20。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/c738025c-425f-4fdb-b7f0-79fcf49c7dc1",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "毛孩藝術生活節 FURever Art Festival : IM”PAW”SIBLE",
-        "start": "2026-12-18",
-        "end": "2026-12-20",
-        "price": "免費入場；商品另計",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-busan-2026",
-    "title": "釜山・匯流成潮｜國際設計交流展 BUSAN VIBE: WAVE",
-    "start": "2026-09-08",
-    "end": "2026-11-08",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 台灣設計館 02 展間",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：全票100元／團體80元／優待免費；週一休館",
-    "category": "設計",
-    "summary": "於台灣設計館 02 展間舉辦的設計活動，日期為2026-09-08至2026-11-08。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/ad5c73ca-d05a-450a-b4ce-fcd617e8b353",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T19:00:00+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "釜山・匯流成潮｜國際設計交流展 BUSAN VIBE: WAVE",
-        "start": "2026-09-08",
-        "end": "2026-11-08",
-        "price": "全票100元／團體80元／優待免費；週一休館",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-ab58a4fd52803527",
-    "title": "璞石策展系列 Vol.1《Living Minerals｜礦物生活美學特展》",
-    "start": "2026-09-22",
-    "end": "2026-10-11",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 檢查室",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：免費",
-    "category": "礦物／工藝",
-    "summary": "於松山文創園區 檢查室舉辦的礦物／工藝活動，日期為2026-09-22至2026-10-11。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/ddf676a8-1a74-4737-b739-34d2ce4b7bf1",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "璞石策展系列 Vol.1《Living Minerals｜礦物生活美學特展》",
-        "start": "2026-09-22",
-        "end": "2026-10-11",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-5cbd028918bbb99d",
-    "title": "2026 台灣國際珍稀茶葉博覽會",
-    "start": "2026-10-23",
-    "end": "2026-10-26",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 1 號倉庫",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：全票150元；另有官方限量索票",
-    "category": "茶文化展會",
-    "summary": "於松山文創園區 1 號倉庫舉辦的茶文化展會活動，日期為2026-10-23至2026-10-26。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/ca3efca9-30a4-44e7-b701-c57a33bce080",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "2026 台灣國際珍稀茶葉博覽會",
-        "start": "2026-10-23",
-        "end": "2026-10-26",
-        "price": "全票150元；另有官方限量索票",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-d2ffc7489bd3c80f",
-    "title": "ELLE Weekend 穿條紋，享受法式鬆弛好週末",
-    "start": "2026-10-31",
-    "end": "2026-11-01",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 巴洛克花園、南向製菸工廠",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：自由入場；官網未列入場票價",
-    "category": "生活／市集",
-    "summary": "於松山文創園區 巴洛克花園、南向製菸工廠舉辦的生活／市集活動，日期為2026-10-31至2026-11-01。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/276c0a6c-1a8a-4884-a4f4-31e4dabb0982",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "ELLE Weekend 穿條紋，享受法式鬆弛好週末",
-        "start": "2026-10-31",
-        "end": "2026-11-01",
-        "price": "自由入場；官網未列入場票價",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-128112f1fcf19b1b",
-    "title": "瓦奇菲爾德皮革工房 50 週年特展 快閃店",
-    "start": "2026-10-03",
-    "end": "2026-10-13",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 藝思空間",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "皮革工藝／快閃店",
-    "summary": "於松山文創園區 藝思空間舉辦的皮革工藝／快閃店活動，日期為2026-10-03至2026-10-13。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/5fd2284e-9388-4773-8c4f-6a2e83fe809d",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "瓦奇菲爾德皮革工房 50 週年特展 快閃店",
-        "start": "2026-10-03",
-        "end": "2026-10-13",
-        "price": "官網未提供票價，請洽官方",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-8e403ed2ab8c8ee6",
-    "title": "粹 · 本質 | 2026 年 iF 設計獎獲獎作品展 (V)",
-    "start": "2026-10-06",
-    "end": "2026-10-31",
-    "region": "臺北市",
-    "venue": "松山文創園區 · iF 台北設計沙龍 松山文創園區 西向製菸工廠二樓 A7 W207",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：免費",
-    "category": "設計",
-    "summary": "於iF 台北設計沙龍 松山文創園區 西向製菸工廠二樓 A7 W207舉辦的設計活動，日期為2026-10-06至2026-10-31。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/16e1c9b4-21c0-4c7d-814f-06e0569a8ae2",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "粹 · 本質 | 2026 年 iF 設計獎獲獎作品展 (V)",
-        "start": "2026-10-06",
-        "end": "2026-10-31",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-f995fd488bfc99cf",
-    "title": "島礦祭 Mineral Island Festa 2026",
-    "start": "2026-10-09",
-    "end": "2026-10-11",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 南向製菸工廠",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：入場票價未提供；手作課程另收費",
-    "category": "礦物／市集",
-    "summary": "於松山文創園區 南向製菸工廠舉辦的礦物／市集活動，日期為2026-10-09至2026-10-11。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/bb5a8c36-a5b8-454b-8ed4-ae06730db0d3",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "島礦祭 Mineral Island Festa 2026",
-        "start": "2026-10-09",
-        "end": "2026-10-11",
-        "price": "入場票價未提供；手作課程另收費",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-f8809f6bd22e2d57",
-    "title": "2026 臺北設計獎入圍作品展",
-    "start": "2026-10-09",
-    "end": "2026-10-11",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 台灣設計館 03、04 展間",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：免費",
-    "category": "設計",
-    "summary": "於台灣設計館 03、04 展間舉辦的設計活動，日期為2026-10-09至2026-10-11。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/612f10c3-3123-4ca6-9556-016217eb0ce2",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "2026 臺北設計獎入圍作品展",
-        "start": "2026-10-09",
-        "end": "2026-10-11",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-1a4c521821e54abd",
-    "title": "《AHA 原來如此！教科書設計展》",
-    "start": "2026-10-14",
-    "end": "2026-11-08",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 台灣設計館 01 展間",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "設計／教育",
-    "summary": "於台灣設計館 01 展間舉辦的設計／教育活動，日期為2026-10-14至2026-11-08。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/429e79b0-fed3-46f6-850e-47fa04b2ea86",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:13+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "《AHA 原來如此！教科書設計展》",
-        "start": "2026-10-14",
-        "end": "2026-11-08",
-        "price": "官網未提供票價，請洽官方",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-ab8d39619d72b7aa",
-    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
-    "title": "光合系 X 未來市",
-    "start": "2026-09-04",
-    "end": "2026-10-08",
-    "region": "臺北市",
-    "venue": "華山1914 · 中1A館",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "快閃店",
-    "summary": "於中1A館舉辦的快閃店活動，日期為2026-09-04至2026-10-08。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/event-%E5%85%89%E5%90%88%E7%B3%BBX%E6%9C%AA%E4%BE%86%E5%B8%82",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "光合系 X 未來市",
-        "start": "2026-09-04",
-        "end": "2026-10-08",
-        "price": "官網未提供票價，請洽官方",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-toy-2026",
-    "title": "2026 台北國際玩具創作大展 Taipei Toy Festival",
-    "start": "2026-10-08",
-    "end": "2026-10-11",
-    "region": "臺北市",
-    "venue": "華山1914 · 東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟 / 中4A館 紅酒作業場 / 中2館 / 中4B館 米酒作業場",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：付費；詳情未列金額，請查官方售票",
-    "category": "藝術玩具",
-    "summary": "於東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟 / 中4A館 紅酒作業場 / 中2館 / 中4B館 米酒作業場舉辦的藝術玩具活動，日期為2026-10-08至2026-10-11。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/2026%20%E5%8F%B0%E5%8C%97%E5%9C%8B%E9%9A%9B%E7%8E%A9%E5%85%B7%E5%89%B5%E4%BD%9C%E5%A4%A7%E5%B1%95%20Taipei%20Toy%20Festival",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T19:00:00+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "2026 台北國際玩具創作大展 Taipei Toy Festival",
-        "start": "2026-10-08",
-        "end": "2026-10-11",
-        "price": "付費；詳情未列金額，請查官方售票",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-2b132ac7a08cbf0f",
-    "title": "方舟玩具大交流會DX",
-    "start": "2026-10-08",
-    "end": "2026-10-11",
-    "region": "臺北市",
-    "venue": "華山1914 · 西1館 第二乾餾場",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：追蹤官方IG可免費入場",
-    "category": "玩具／市集",
-    "summary": "於西1館 第二乾餾場舉辦的玩具／市集活動，日期為2026-10-08至2026-10-11。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/%E6%96%B9%E8%88%9F%E7%8E%A9%E5%85%B7%E5%A4%A7%E4%BA%A4%E6%B5%81%E6%9C%83DX",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "方舟玩具大交流會DX",
-        "start": "2026-10-08",
-        "end": "2026-10-11",
-        "price": "追蹤官方IG可免費入場",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-3376189cf083ea06",
-    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
-    "title": "MUFFIN CORNER 快閃店",
-    "start": "2026-09-19",
-    "end": "2026-10-12",
-    "region": "臺北市",
-    "venue": "華山1914 · 中5B館 鍋爐室",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "快閃店",
-    "summary": "於中5B館 鍋爐室舉辦的快閃店活動，日期為2026-09-19至2026-10-12。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/event-MUFFINCORNER%E5%BF%AB%E9%96%83%E5%BA%97",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "MUFFIN CORNER 快閃店",
-        "start": "2026-09-19",
-        "end": "2026-10-12",
-        "price": "官網未提供票價，請洽官方",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-3d5d3262f99298f1",
-    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
-    "title": "PUPPET SUNSUN POP UP SHOP Fruits Party",
-    "start": "2026-09-19",
-    "end": "2026-10-12",
-    "region": "臺北市",
-    "venue": "華山1914 · 中5B館 鍋爐室",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "快閃店",
-    "summary": "於中5B館 鍋爐室舉辦的快閃店活動，日期為2026-09-19至2026-10-12。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/event-PUPPETSUNSUNPOPUPSHOPFruitsParty",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "PUPPET SUNSUN POP UP SHOP Fruits Party",
-        "start": "2026-09-19",
-        "end": "2026-10-12",
-        "price": "官網未提供票價，請洽官方",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-e9d1a4bce9122f89",
-    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
-    "title": "JNP 紀念品 by plain-me 快閃店",
-    "start": "2026-08-13",
-    "end": "2026-10-12",
-    "region": "臺北市",
-    "venue": "華山1914 · 中4E館 配電室",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "快閃店",
-    "summary": "於中4E館 配電室舉辦的快閃店活動，日期為2026-08-13至2026-10-12。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/event-JNP%E7%B4%80%E5%BF%B5%E5%93%81byplainme%E5%BF%AB%E9%96%83%E5%BA%97",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "JNP 紀念品 by plain-me  快閃店",
-        "start": "2026-08-13",
-        "end": "2026-10-12",
-        "price": "官網未提供票價，請洽官方",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-d26ee92d799111b7",
-    "title": "2026伊甸基金會第13屆無障礙生活節",
-    "start": "2026-10-16",
-    "end": "2026-10-18",
-    "region": "臺北市",
-    "venue": "華山1914 · 中5B館 鍋爐室",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：免費",
-    "category": "共融／展覽",
-    "summary": "於中5B館 鍋爐室舉辦的共融／展覽活動，日期為2026-10-16至2026-10-18。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/2026%E4%BC%8A%E7%94%B8%E5%9F%BA%E9%87%91%E6%9C%83%E7%AC%AC13%E5%B1%86%E7%84%A1%E9%9A%9C%E7%A4%99%E7%94%9F%E6%B4%BB%E7%AF%80",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "2026伊甸基金會第13屆無障礙生活節",
-        "start": "2026-10-16",
-        "end": "2026-10-18",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-66f8d7badbd67da6",
-    "title": "愛手創國際手作設計節 靈感午茶會",
-    "start": "2026-10-16",
-    "end": "2026-10-18",
-    "region": "臺北市",
-    "venue": "華山1914 · 東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：預售單人198元／雙人360元／三人480元；現場全票228元",
-    "category": "手作／市集",
-    "summary": "於東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟舉辦的手作／市集活動，日期為2026-10-16至2026-10-18。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/%E6%84%9B%E6%89%8B%E5%89%B5%E5%9C%8B%E9%9A%9B%E6%89%8B%E4%BD%9C%E8%A8%AD%E8%A8%88%E7%AF%80%20%E9%9D%88%E6%84%9F%E5%8D%88%E8%8C%B6%E6%9C%83%20",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "愛手創國際手作設計節 靈感午茶會",
-        "start": "2026-10-16",
-        "end": "2026-10-18",
-        "price": "預售單人198元／雙人360元／三人480元；現場全票228元",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-73ee8dbdbc192851",
-    "title": "牡蠣寶寶主題養殖中心快閃店",
-    "start": "2026-09-25",
-    "end": "2026-10-18",
-    "region": "臺北市",
-    "venue": "華山1914 · 中7A館 維修工場",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "快閃店",
-    "summary": "於中7A館 維修工場舉辦的快閃店活動，日期為2026-09-25至2026-10-18。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/%E7%89%A1%E8%A0%A3%E5%AF%B6%E5%AF%B6%E4%B8%BB%E9%A1%8C%E9%A4%8A%E6%AE%96%E4%B8%AD%E5%BF%83%E5%BF%AB%E9%96%83%E5%BA%97",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "牡蠣寶寶主題養殖中心快閃店",
-        "start": "2026-09-25",
-        "end": "2026-10-18",
-        "price": "官網未提供票價，請洽官方",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-panorama-2026",
-    "title": "《台灣光華雜誌》50 週年攝影展──照見台灣",
-    "start": "2026-10-09",
-    "end": "2026-10-19",
-    "region": "臺北市",
-    "venue": "華山1914 · 西2館 第三乾餾場",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：免費",
-    "category": "攝影",
-    "summary": "於西2館 第三乾餾場舉辦的攝影活動，日期為2026-10-09至2026-10-19。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/%E3%80%8A%E5%8F%B0%E7%81%A3%E5%85%89%E8%8F%AF%E9%9B%9C%E8%AA%8C%E3%80%8B50%20%E9%80%B1%E5%B9%B4%E6%94%9D%E5%BD%B1%E5%B1%95%E2%94%80%E2%94%80%E7%85%A7%E8%A6%8B%E5%8F%B0%E7%81%A3",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T19:00:00+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "《台灣光華雜誌》50 週年攝影展──照見台灣",
-        "start": "2026-10-09",
-        "end": "2026-10-19",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-fa0392bc022e8777",
-    "title": "蜜境探險 豐收寶藏 MEGA哩做夥 安心投資生活",
-    "start": "2026-10-23",
-    "end": "2026-10-25",
-    "region": "臺北市",
-    "venue": "華山1914 · 中7B館 維修工場",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：免費",
-    "category": "體驗／講座",
-    "summary": "於中7B館 維修工場舉辦的體驗／講座活動，日期為2026-10-23至2026-10-25。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/%E8%9C%9C%E5%A2%83%E6%8E%A2%E9%9A%AA%E3%80%80%E8%B1%90%E6%94%B6%E5%AF%B6%E8%97%8F%20MEGA%E5%93%A9%E5%81%9A%E5%A4%A5%E3%80%80%E5%AE%89%E5%BF%83%E6%8A%95%E8%B3%87%E7%94%9F%E6%B4%BB",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "蜜境探險　豐收寶藏 MEGA哩做夥　安心投資生活",
-        "start": "2026-10-23",
-        "end": "2026-10-25",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-87ccffb983ef188c",
-    "title": "2026 全家 x RE-THINK 「這還好吧！？」生活環境觀察展",
-    "start": "2026-10-16",
-    "end": "2026-10-26",
-    "region": "臺北市",
-    "venue": "華山1914 · 中2館",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：免費",
-    "category": "環境／展覽",
-    "summary": "於中2館舉辦的環境／展覽活動，日期為2026-10-16至2026-10-26。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/2026%20%E5%85%A8%E5%AE%B6%20x%20RE-THINK%20%E3%80%8C%E9%80%99%E9%82%84%E5%A5%BD%E5%90%A7%EF%BC%81%EF%BC%9F%E3%80%8D%E7%94%9F%E6%B4%BB%E7%92%B0%E5%A2%83%E8%A7%80%E5%AF%9F%E5%B1%95",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "2026 全家 x RE-THINK 「這還好吧！？」生活環境觀察展",
-        "start": "2026-10-16",
-        "end": "2026-10-26",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-86224307d2d356a4",
-    "title": "SIF in Taipei 首爾插畫展 台北站",
-    "start": "2026-10-23",
-    "end": "2026-10-26",
-    "region": "臺北市",
-    "venue": "華山1914 · 東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：現場一般220元／優待125元；早鳥160元、雙人270元、四人500元",
-    "category": "插畫",
-    "summary": "於東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟舉辦的插畫活動，日期為2026-10-23至2026-10-26。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/event-SIFinTaipei%E9%A6%96%E7%88%BE%E6%8F%92%E7%95%AB%E5%B1%95%E5%8F%B0%E5%8C%97%E7%AB%99",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "SIF in Taipei 首爾插畫展 台北站",
-        "start": "2026-10-23",
-        "end": "2026-10-26",
-        "price": "現場一般220元／優待125元；早鳥160元、雙人270元、四人500元",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-23f3264dec74350c",
-    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
-    "title": "ZENLET Pop-up Store",
-    "start": "2026-08-26",
-    "end": "2026-10-27",
-    "region": "臺北市",
-    "venue": "華山1914 · 中3B 1F 玻璃屋",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "快閃店",
-    "summary": "於中3B 1F 玻璃屋舉辦的快閃店活動，日期為2026-08-26至2026-10-27。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/event-ZENLETPopupStore",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "ZENLET Pop-up Store",
-        "start": "2026-08-26",
-        "end": "2026-10-27",
-        "price": "官網未提供票價，請洽官方",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-449e57ad30d4fbe4",
-    "title": "林貞粿行",
-    "start": "2026-09-15",
-    "end": "2026-10-28",
-    "region": "臺北市",
-    "venue": "華山1914 · 小確幸前廣場",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供入場票價；商品另計",
-    "category": "飲食／快閃店",
-    "summary": "於小確幸前廣場舉辦的飲食／快閃店活動，日期為2026-09-15至2026-10-28。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/%E6%9E%97%E8%B2%9E%E7%B2%BF%E8%A1%8C",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "林貞粿行",
-        "start": "2026-09-15",
-        "end": "2026-10-28",
-        "price": "官網未提供入場票價；商品另計",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-38399728e7dbdfe8",
-    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
-    "title": "台灣滿枝枒_芬芳美麗",
-    "start": "2026-06-23",
-    "end": "2026-12-08",
-    "region": "臺北市",
-    "venue": "華山1914 · 東1A館 車庫工坊",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "香氛／快閃店",
-    "summary": "於東1A館 車庫工坊舉辦的香氛／快閃店活動，日期為2026-06-23至2026-12-08。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/event-%E5%8F%B0%E7%81%A3%E6%BB%BF%E6%9E%9D%E6%9E%92%E8%8A%AC%E8%8A%B3%E7%BE%8E%E9%BA%97",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "台灣滿枝枒_芬芳美麗",
-        "start": "2026-06-23",
-        "end": "2026-12-08",
-        "price": "官網未提供票價，請洽官方",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-1073dc830070c4ed",
-    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
-    "title": "大春煉皂 華山限定特展",
-    "start": "2026-09-07",
-    "end": "2027-01-04",
-    "region": "臺北市",
-    "venue": "華山1914 · 芳釀所",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "品牌／展覽",
-    "summary": "於芳釀所舉辦的品牌／展覽活動，日期為2026-09-07至2027-01-04。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/event-%E5%A4%A7%E6%98%A5%E7%85%89%E7%9A%82%E8%8F%AF%E5%B1%B1%E9%99%90%E5%AE%9A%E7%89%B9%E5%B1%95",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "大春煉皂 華山限定特展",
-        "start": "2026-09-07",
-        "end": "2027-01-04",
-        "price": "官網未提供票價，請洽官方",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "huashan-a270dd094104e4b8",
-    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
-    "title": "李亭香",
-    "start": "2026-07-28",
-    "end": "2027-05-31",
-    "region": "臺北市",
-    "venue": "華山1914 · 芳釀所",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供入場票價；商品另計",
-    "category": "飲食／快閃店",
-    "summary": "於芳釀所舉辦的飲食／快閃店活動，日期為2026-07-28至2027-05-31。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/event-%E6%9D%8E%E4%BA%AD%E9%A6%99",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-06T14:58:57+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "李亭香",
-        "start": "2026-07-28",
-        "end": "2027-05-31",
-        "price": "官網未提供入場票價；商品另計",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
     "id": "pier2-1967",
     "title": "2026高雄漾藝術博覽會 YOUNG ART KAOHSIUNG",
     "start": "2026-11-13",
@@ -1308,6 +348,1006 @@
         "end": "2026-12-20",
         "price": "付費；場館頁未列金額，請查官方購票資訊",
         "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-pharaoh-2026",
+    "title": "《消失的法老》古夫金字塔 VR 沉浸體驗",
+    "start": "2026-01-29",
+    "end": "2026-11-30",
+    "region": "臺北市",
+    "venue": "松山文創園區 · XR 沉浸玩家 (A7 E203 東向製菸工廠二樓)",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：付費、採場次預約；詳情未列金額",
+    "category": "沉浸體驗",
+    "summary": "於XR 沉浸玩家 (A7 E203 東向製菸工廠二樓)舉辦的沉浸體驗活動，日期為2026-01-29至2026-11-30。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/840b0803-826e-407f-bd62-8447b51cf9c2",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T19:00:00+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "《消失的法老》古夫金字塔 VR 沉浸體驗",
+        "start": "2026-01-29",
+        "end": "2026-11-30",
+        "price": "付費、採場次預約；詳情未列金額",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-9176cee50ef3e628",
+    "title": "松菸夜光花園 光影展 THE LUMINOUS GARDEN",
+    "start": "2026-01-31",
+    "end": "2026-12-31",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 巴洛克花園 Songshan Cultural and Creative Park︱Baroque Garden",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：免費",
+    "category": "光影藝術",
+    "summary": "於松山文創園區 巴洛克花園 Songshan Cultural and Creative Park︱Baroque Garden舉辦的光影藝術活動，日期為2026-01-31至2026-12-31。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/07e87658-6bea-4715-b633-5e44cd2d9e30",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "松菸夜光花園 光影展 THE LUMINOUS GARDEN",
+        "start": "2026-01-31",
+        "end": "2026-12-31",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-540fcfec15f5daa3",
+    "title": "小熊維尼—友你相繪 100 週年限定快閃店",
+    "start": "2026-07-10",
+    "end": "2026-10-11",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 北向製菸工廠",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：免費入場；商品及體驗另計",
+    "category": "快閃店",
+    "summary": "於松山文創園區 北向製菸工廠舉辦的快閃店活動，日期為2026-07-10至2026-10-11。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/4a7f533a-7537-4dd0-af44-d074a73d47c2",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "小熊維尼—友你相繪 100 週年限定快閃店",
+        "start": "2026-07-10",
+        "end": "2026-10-11",
+        "price": "免費入場；商品及體驗另計",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-68bdfdd54b150e16",
+    "title": "100% 哆啦 A 夢櫻花節 in 台北",
+    "start": "2026-07-10",
+    "end": "2026-10-11",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 北向製菸工廠一樓 東側",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：免費入場；商品另計",
+    "category": "快閃店",
+    "summary": "於松山文創園區 北向製菸工廠一樓 東側舉辦的快閃店活動，日期為2026-07-10至2026-10-11。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/8e248f11-734d-4987-bbbe-7bfceab13e3e",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "100% 哆啦 A 夢櫻花節 in 台北",
+        "start": "2026-07-10",
+        "end": "2026-10-11",
+        "price": "免費入場；商品另計",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-0d1927821827c107",
+    "title": "松山文創園區藝術窗框計畫",
+    "start": "2026-08-01",
+    "end": "2026-11-01",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 文創大街、北向製菸工廠窗框",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：免費",
+    "category": "藝術",
+    "summary": "於松山文創園區 文創大街、北向製菸工廠窗框舉辦的藝術活動，日期為2026-08-01至2026-11-01。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/8edf6d1e-37fb-41ed-bb12-6b86f30fd6d0",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "松山文創園區藝術窗框計畫",
+        "start": "2026-08-01",
+        "end": "2026-11-01",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-0d2c8a087f007bba",
+    "title": "2026 史上最強球鞋與潮流展會",
+    "start": "2026-10-10",
+    "end": "2026-10-11",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 1 號倉庫",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：一日票280元／二日票360元；現場購票",
+    "category": "潮流展會",
+    "summary": "於松山文創園區 1 號倉庫舉辦的潮流展會活動，日期為2026-10-10至2026-10-11。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/49261597-9309-4d32-9a48-27e68fa3b35d",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "2026 史上最強球鞋與潮流展會",
+        "start": "2026-10-10",
+        "end": "2026-10-11",
+        "price": "一日票280元／二日票360元；現場購票",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-f6225afba573cda9",
+    "title": "毛孩藝術生活節 FURever Art Festival : IM”PAW”SIBLE",
+    "start": "2026-12-18",
+    "end": "2026-12-20",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 2 號倉庫",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：免費入場；商品另計",
+    "category": "藝術／市集",
+    "summary": "於松山文創園區 2 號倉庫舉辦的藝術／市集活動，日期為2026-12-18至2026-12-20。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/c738025c-425f-4fdb-b7f0-79fcf49c7dc1",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "毛孩藝術生活節 FURever Art Festival : IM”PAW”SIBLE",
+        "start": "2026-12-18",
+        "end": "2026-12-20",
+        "price": "免費入場；商品另計",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-busan-2026",
+    "title": "釜山・匯流成潮｜國際設計交流展 BUSAN VIBE: WAVE",
+    "start": "2026-09-08",
+    "end": "2026-11-08",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 台灣設計館 02 展間",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：全票100元／團體80元／優待免費；週一休館",
+    "category": "設計",
+    "summary": "於台灣設計館 02 展間舉辦的設計活動，日期為2026-09-08至2026-11-08。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/ad5c73ca-d05a-450a-b4ce-fcd617e8b353",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T19:00:00+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "釜山・匯流成潮｜國際設計交流展 BUSAN VIBE: WAVE",
+        "start": "2026-09-08",
+        "end": "2026-11-08",
+        "price": "全票100元／團體80元／優待免費；週一休館",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-ab58a4fd52803527",
+    "title": "璞石策展系列 Vol.1《Living Minerals｜礦物生活美學特展》",
+    "start": "2026-09-22",
+    "end": "2026-10-11",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 檢查室",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：免費",
+    "category": "礦物／工藝",
+    "summary": "於松山文創園區 檢查室舉辦的礦物／工藝活動，日期為2026-09-22至2026-10-11。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/ddf676a8-1a74-4737-b739-34d2ce4b7bf1",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "璞石策展系列 Vol.1《Living Minerals｜礦物生活美學特展》",
+        "start": "2026-09-22",
+        "end": "2026-10-11",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-5cbd028918bbb99d",
+    "title": "2026 台灣國際珍稀茶葉博覽會",
+    "start": "2026-10-23",
+    "end": "2026-10-26",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 1 號倉庫",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：全票150元；另有官方限量索票",
+    "category": "茶文化展會",
+    "summary": "於松山文創園區 1 號倉庫舉辦的茶文化展會活動，日期為2026-10-23至2026-10-26。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/ca3efca9-30a4-44e7-b701-c57a33bce080",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "2026 台灣國際珍稀茶葉博覽會",
+        "start": "2026-10-23",
+        "end": "2026-10-26",
+        "price": "全票150元；另有官方限量索票",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-d2ffc7489bd3c80f",
+    "title": "ELLE Weekend 穿條紋，享受法式鬆弛好週末",
+    "start": "2026-10-31",
+    "end": "2026-11-01",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 巴洛克花園、南向製菸工廠",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：自由入場；官網未列入場票價",
+    "category": "生活／市集",
+    "summary": "於松山文創園區 巴洛克花園、南向製菸工廠舉辦的生活／市集活動，日期為2026-10-31至2026-11-01。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/276c0a6c-1a8a-4884-a4f4-31e4dabb0982",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "ELLE Weekend 穿條紋，享受法式鬆弛好週末",
+        "start": "2026-10-31",
+        "end": "2026-11-01",
+        "price": "自由入場；官網未列入場票價",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-128112f1fcf19b1b",
+    "title": "瓦奇菲爾德皮革工房 50 週年特展 快閃店",
+    "start": "2026-10-03",
+    "end": "2026-10-13",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 藝思空間",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "皮革工藝／快閃店",
+    "summary": "於松山文創園區 藝思空間舉辦的皮革工藝／快閃店活動，日期為2026-10-03至2026-10-13。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/5fd2284e-9388-4773-8c4f-6a2e83fe809d",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "瓦奇菲爾德皮革工房 50 週年特展 快閃店",
+        "start": "2026-10-03",
+        "end": "2026-10-13",
+        "price": "官網未提供票價，請洽官方",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-8e403ed2ab8c8ee6",
+    "title": "粹 · 本質 | 2026 年 iF 設計獎獲獎作品展 (V)",
+    "start": "2026-10-06",
+    "end": "2026-10-31",
+    "region": "臺北市",
+    "venue": "松山文創園區 · iF 台北設計沙龍 松山文創園區 西向製菸工廠二樓 A7 W207",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：免費",
+    "category": "設計",
+    "summary": "於iF 台北設計沙龍 松山文創園區 西向製菸工廠二樓 A7 W207舉辦的設計活動，日期為2026-10-06至2026-10-31。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/16e1c9b4-21c0-4c7d-814f-06e0569a8ae2",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "粹 · 本質 | 2026 年 iF 設計獎獲獎作品展 (V)",
+        "start": "2026-10-06",
+        "end": "2026-10-31",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-f995fd488bfc99cf",
+    "title": "島礦祭 Mineral Island Festa 2026",
+    "start": "2026-10-09",
+    "end": "2026-10-11",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 南向製菸工廠",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：入場票價未提供；手作課程另收費",
+    "category": "礦物／市集",
+    "summary": "於松山文創園區 南向製菸工廠舉辦的礦物／市集活動，日期為2026-10-09至2026-10-11。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/bb5a8c36-a5b8-454b-8ed4-ae06730db0d3",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "島礦祭 Mineral Island Festa 2026",
+        "start": "2026-10-09",
+        "end": "2026-10-11",
+        "price": "入場票價未提供；手作課程另收費",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-f8809f6bd22e2d57",
+    "title": "2026 臺北設計獎入圍作品展",
+    "start": "2026-10-09",
+    "end": "2026-10-11",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 台灣設計館 03、04 展間",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：免費",
+    "category": "設計",
+    "summary": "於台灣設計館 03、04 展間舉辦的設計活動，日期為2026-10-09至2026-10-11。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/612f10c3-3123-4ca6-9556-016217eb0ce2",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "2026 臺北設計獎入圍作品展",
+        "start": "2026-10-09",
+        "end": "2026-10-11",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-1a4c521821e54abd",
+    "title": "《AHA 原來如此！教科書設計展》",
+    "start": "2026-10-14",
+    "end": "2026-11-08",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 台灣設計館 01 展間",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "設計／教育",
+    "summary": "於台灣設計館 01 展間舉辦的設計／教育活動，日期為2026-10-14至2026-11-08。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/429e79b0-fed3-46f6-850e-47fa04b2ea86",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "《AHA 原來如此！教科書設計展》",
+        "start": "2026-10-14",
+        "end": "2026-11-08",
+        "price": "官網未提供票價，請洽官方",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-d1ef7fbc4e7a2891",
+    "title": "BEAMS 50TH MARKET LIFE EXHIBITION",
+    "start": "2026-10-17",
+    "end": "2026-10-18",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 1 號倉庫",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "官網未提供結構化票價，請查官方",
+    "category": "展演",
+    "summary": "於松山文創園區 1 號倉庫舉辦的展演活動，日期為2026-10-17至2026-10-18。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/8ed8fb24-e6a8-402e-b008-c8ee60574764",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-07T09:35:39+08:00",
+    "lastSeen": "2026-10-07T09:35:39+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "huashan-ab8d39619d72b7aa",
+    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
+    "title": "光合系 X 未來市",
+    "start": "2026-09-04",
+    "end": "2026-10-08",
+    "region": "臺北市",
+    "venue": "華山1914 · 中1A館",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "快閃店",
+    "summary": "於中1A館舉辦的快閃店活動，日期為2026-09-04至2026-10-08。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/event-%E5%85%89%E5%90%88%E7%B3%BBX%E6%9C%AA%E4%BE%86%E5%B8%82",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "光合系 X 未來市",
+        "start": "2026-09-04",
+        "end": "2026-10-08",
+        "price": "官網未提供票價，請洽官方",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-toy-2026",
+    "title": "2026 台北國際玩具創作大展 Taipei Toy Festival",
+    "start": "2026-10-08",
+    "end": "2026-10-11",
+    "region": "臺北市",
+    "venue": "華山1914 · 東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟 / 中4A館 紅酒作業場 / 中2館 / 中4B館 米酒作業場",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：付費；詳情未列金額，請查官方售票",
+    "category": "藝術玩具",
+    "summary": "於東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟 / 中4A館 紅酒作業場 / 中2館 / 中4B館 米酒作業場舉辦的藝術玩具活動，日期為2026-10-08至2026-10-11。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/2026%20%E5%8F%B0%E5%8C%97%E5%9C%8B%E9%9A%9B%E7%8E%A9%E5%85%B7%E5%89%B5%E4%BD%9C%E5%A4%A7%E5%B1%95%20Taipei%20Toy%20Festival",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T19:00:00+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "2026 台北國際玩具創作大展 Taipei Toy Festival",
+        "start": "2026-10-08",
+        "end": "2026-10-11",
+        "price": "付費；詳情未列金額，請查官方售票",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-2b132ac7a08cbf0f",
+    "title": "方舟玩具大交流會DX",
+    "start": "2026-10-08",
+    "end": "2026-10-11",
+    "region": "臺北市",
+    "venue": "華山1914 · 西1館 第二乾餾場",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：追蹤官方IG可免費入場",
+    "category": "玩具／市集",
+    "summary": "於西1館 第二乾餾場舉辦的玩具／市集活動，日期為2026-10-08至2026-10-11。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/%E6%96%B9%E8%88%9F%E7%8E%A9%E5%85%B7%E5%A4%A7%E4%BA%A4%E6%B5%81%E6%9C%83DX",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "方舟玩具大交流會DX",
+        "start": "2026-10-08",
+        "end": "2026-10-11",
+        "price": "追蹤官方IG可免費入場",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-3376189cf083ea06",
+    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
+    "title": "MUFFIN CORNER 快閃店",
+    "start": "2026-09-19",
+    "end": "2026-10-12",
+    "region": "臺北市",
+    "venue": "華山1914 · 中5B館 鍋爐室",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "快閃店",
+    "summary": "於中5B館 鍋爐室舉辦的快閃店活動，日期為2026-09-19至2026-10-12。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/event-MUFFINCORNER%E5%BF%AB%E9%96%83%E5%BA%97",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "MUFFIN CORNER 快閃店",
+        "start": "2026-09-19",
+        "end": "2026-10-12",
+        "price": "官網未提供票價，請洽官方",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-3d5d3262f99298f1",
+    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
+    "title": "PUPPET SUNSUN POP UP SHOP Fruits Party",
+    "start": "2026-09-19",
+    "end": "2026-10-12",
+    "region": "臺北市",
+    "venue": "華山1914 · 中5B館 鍋爐室",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "快閃店",
+    "summary": "於中5B館 鍋爐室舉辦的快閃店活動，日期為2026-09-19至2026-10-12。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/event-PUPPETSUNSUNPOPUPSHOPFruitsParty",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "PUPPET SUNSUN POP UP SHOP Fruits Party",
+        "start": "2026-09-19",
+        "end": "2026-10-12",
+        "price": "官網未提供票價，請洽官方",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-e9d1a4bce9122f89",
+    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
+    "title": "JNP 紀念品 by plain-me 快閃店",
+    "start": "2026-08-13",
+    "end": "2026-10-12",
+    "region": "臺北市",
+    "venue": "華山1914 · 中4E館 配電室",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "快閃店",
+    "summary": "於中4E館 配電室舉辦的快閃店活動，日期為2026-08-13至2026-10-12。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/event-JNP%E7%B4%80%E5%BF%B5%E5%93%81byplainme%E5%BF%AB%E9%96%83%E5%BA%97",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "JNP 紀念品 by plain-me  快閃店",
+        "start": "2026-08-13",
+        "end": "2026-10-12",
+        "price": "官網未提供票價，請洽官方",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-d26ee92d799111b7",
+    "title": "2026伊甸基金會第13屆無障礙生活節",
+    "start": "2026-10-16",
+    "end": "2026-10-18",
+    "region": "臺北市",
+    "venue": "華山1914 · 中5B館 鍋爐室",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：免費",
+    "category": "共融／展覽",
+    "summary": "於中5B館 鍋爐室舉辦的共融／展覽活動，日期為2026-10-16至2026-10-18。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/2026%E4%BC%8A%E7%94%B8%E5%9F%BA%E9%87%91%E6%9C%83%E7%AC%AC13%E5%B1%86%E7%84%A1%E9%9A%9C%E7%A4%99%E7%94%9F%E6%B4%BB%E7%AF%80",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "2026伊甸基金會第13屆無障礙生活節",
+        "start": "2026-10-16",
+        "end": "2026-10-18",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-66f8d7badbd67da6",
+    "title": "愛手創國際手作設計節 靈感午茶會",
+    "start": "2026-10-16",
+    "end": "2026-10-18",
+    "region": "臺北市",
+    "venue": "華山1914 · 東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：預售單人198元／雙人360元／三人480元；現場全票228元",
+    "category": "手作／市集",
+    "summary": "於東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟舉辦的手作／市集活動，日期為2026-10-16至2026-10-18。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/%E6%84%9B%E6%89%8B%E5%89%B5%E5%9C%8B%E9%9A%9B%E6%89%8B%E4%BD%9C%E8%A8%AD%E8%A8%88%E7%AF%80%20%E9%9D%88%E6%84%9F%E5%8D%88%E8%8C%B6%E6%9C%83%20",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "愛手創國際手作設計節 靈感午茶會",
+        "start": "2026-10-16",
+        "end": "2026-10-18",
+        "price": "預售單人198元／雙人360元／三人480元；現場全票228元",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-73ee8dbdbc192851",
+    "title": "牡蠣寶寶主題養殖中心快閃店",
+    "start": "2026-09-25",
+    "end": "2026-10-18",
+    "region": "臺北市",
+    "venue": "華山1914 · 中7A館 維修工場",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "快閃店",
+    "summary": "於中7A館 維修工場舉辦的快閃店活動，日期為2026-09-25至2026-10-18。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/%E7%89%A1%E8%A0%A3%E5%AF%B6%E5%AF%B6%E4%B8%BB%E9%A1%8C%E9%A4%8A%E6%AE%96%E4%B8%AD%E5%BF%83%E5%BF%AB%E9%96%83%E5%BA%97",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "牡蠣寶寶主題養殖中心快閃店",
+        "start": "2026-09-25",
+        "end": "2026-10-18",
+        "price": "官網未提供票價，請洽官方",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-panorama-2026",
+    "title": "《台灣光華雜誌》50 週年攝影展──照見台灣",
+    "start": "2026-10-09",
+    "end": "2026-10-19",
+    "region": "臺北市",
+    "venue": "華山1914 · 西2館 第三乾餾場",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：免費",
+    "category": "攝影",
+    "summary": "於西2館 第三乾餾場舉辦的攝影活動，日期為2026-10-09至2026-10-19。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/%E3%80%8A%E5%8F%B0%E7%81%A3%E5%85%89%E8%8F%AF%E9%9B%9C%E8%AA%8C%E3%80%8B50%20%E9%80%B1%E5%B9%B4%E6%94%9D%E5%BD%B1%E5%B1%95%E2%94%80%E2%94%80%E7%85%A7%E8%A6%8B%E5%8F%B0%E7%81%A3",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T19:00:00+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "《台灣光華雜誌》50 週年攝影展──照見台灣",
+        "start": "2026-10-09",
+        "end": "2026-10-19",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-fa0392bc022e8777",
+    "title": "蜜境探險 豐收寶藏 MEGA哩做夥 安心投資生活",
+    "start": "2026-10-23",
+    "end": "2026-10-25",
+    "region": "臺北市",
+    "venue": "華山1914 · 中7B館 維修工場",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：免費",
+    "category": "體驗／講座",
+    "summary": "於中7B館 維修工場舉辦的體驗／講座活動，日期為2026-10-23至2026-10-25。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/%E8%9C%9C%E5%A2%83%E6%8E%A2%E9%9A%AA%E3%80%80%E8%B1%90%E6%94%B6%E5%AF%B6%E8%97%8F%20MEGA%E5%93%A9%E5%81%9A%E5%A4%A5%E3%80%80%E5%AE%89%E5%BF%83%E6%8A%95%E8%B3%87%E7%94%9F%E6%B4%BB",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "蜜境探險　豐收寶藏 MEGA哩做夥　安心投資生活",
+        "start": "2026-10-23",
+        "end": "2026-10-25",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-ba441920a0cc68b6",
+    "title": "HUMANITY｜教育部藝術與設計菁英海外培訓計畫 返國學員年度成果展",
+    "start": "2026-10-22",
+    "end": "2026-10-26",
+    "region": "臺北市",
+    "venue": "華山1914 · 中4B館 米酒作業場",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "官網未提供結構化票價，請查官方",
+    "category": "展演",
+    "summary": "於中4B館 米酒作業場舉辦的展演活動，日期為2026-10-22至2026-10-26。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/HUMANITY%EF%BD%9C%E6%95%99%E8%82%B2%E9%83%A8%E8%97%9D%E8%A1%93%E8%88%87%E8%A8%AD%E8%A8%88%E8%8F%81%E8%8B%B1%E6%B5%B7%E5%A4%96%E5%9F%B9%E8%A8%93%E8%A8%88%E7%95%AB%20%E8%BF%94%E5%9C%8B%E5%AD%B8%E5%93%A1%E5%B9%B4%E5%BA%A6%E6%88%90%E6%9E%9C%E5%B1%95",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-07T09:36:37+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "huashan-87ccffb983ef188c",
+    "title": "2026 全家 x RE-THINK 「這還好吧！？」生活環境觀察展",
+    "start": "2026-10-16",
+    "end": "2026-10-26",
+    "region": "臺北市",
+    "venue": "華山1914 · 中2館",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：免費",
+    "category": "環境／展覽",
+    "summary": "於中2館舉辦的環境／展覽活動，日期為2026-10-16至2026-10-26。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/2026%20%E5%85%A8%E5%AE%B6%20x%20RE-THINK%20%E3%80%8C%E9%80%99%E9%82%84%E5%A5%BD%E5%90%A7%EF%BC%81%EF%BC%9F%E3%80%8D%E7%94%9F%E6%B4%BB%E7%92%B0%E5%A2%83%E8%A7%80%E5%AF%9F%E5%B1%95",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "2026 全家 x RE-THINK 「這還好吧！？」生活環境觀察展",
+        "start": "2026-10-16",
+        "end": "2026-10-26",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-86224307d2d356a4",
+    "title": "SIF in Taipei 首爾插畫展 台北站",
+    "start": "2026-10-23",
+    "end": "2026-10-26",
+    "region": "臺北市",
+    "venue": "華山1914 · 東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：現場一般220元／優待125元；早鳥160元、雙人270元、四人500元",
+    "category": "插畫",
+    "summary": "於東2A館 四連棟 / 東2B館 四連棟 / 東2C館 四連棟 / 東2D館 四連棟舉辦的插畫活動，日期為2026-10-23至2026-10-26。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/event-SIFinTaipei%E9%A6%96%E7%88%BE%E6%8F%92%E7%95%AB%E5%B1%95%E5%8F%B0%E5%8C%97%E7%AB%99",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "SIF in Taipei 首爾插畫展 台北站",
+        "start": "2026-10-23",
+        "end": "2026-10-26",
+        "price": "現場一般220元／優待125元；早鳥160元、雙人270元、四人500元",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-23f3264dec74350c",
+    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
+    "title": "ZENLET Pop-up Store",
+    "start": "2026-08-26",
+    "end": "2026-10-27",
+    "region": "臺北市",
+    "venue": "華山1914 · 中3B 1F 玻璃屋",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "快閃店",
+    "summary": "於中3B 1F 玻璃屋舉辦的快閃店活動，日期為2026-08-26至2026-10-27。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/event-ZENLETPopupStore",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "ZENLET Pop-up Store",
+        "start": "2026-08-26",
+        "end": "2026-10-27",
+        "price": "官網未提供票價，請洽官方",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-449e57ad30d4fbe4",
+    "title": "林貞粿行",
+    "start": "2026-09-15",
+    "end": "2026-10-28",
+    "region": "臺北市",
+    "venue": "華山1914 · 小確幸前廣場",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供入場票價；商品另計",
+    "category": "飲食／快閃店",
+    "summary": "於小確幸前廣場舉辦的飲食／快閃店活動，日期為2026-09-15至2026-10-28。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/%E6%9E%97%E8%B2%9E%E7%B2%BF%E8%A1%8C",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "林貞粿行",
+        "start": "2026-09-15",
+        "end": "2026-10-28",
+        "price": "官網未提供入場票價；商品另計",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-38399728e7dbdfe8",
+    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
+    "title": "台灣滿枝枒_芬芳美麗",
+    "start": "2026-06-23",
+    "end": "2026-12-08",
+    "region": "臺北市",
+    "venue": "華山1914 · 東1A館 車庫工坊",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "香氛／快閃店",
+    "summary": "於東1A館 車庫工坊舉辦的香氛／快閃店活動，日期為2026-06-23至2026-12-08。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/event-%E5%8F%B0%E7%81%A3%E6%BB%BF%E6%9E%9D%E6%9E%92%E8%8A%AC%E8%8A%B3%E7%BE%8E%E9%BA%97",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "台灣滿枝枒_芬芳美麗",
+        "start": "2026-06-23",
+        "end": "2026-12-08",
+        "price": "官網未提供票價，請洽官方",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-1073dc830070c4ed",
+    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
+    "title": "大春煉皂 華山限定特展",
+    "start": "2026-09-07",
+    "end": "2027-01-04",
+    "region": "臺北市",
+    "venue": "華山1914 · 芳釀所",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "品牌／展覽",
+    "summary": "於芳釀所舉辦的品牌／展覽活動，日期為2026-09-07至2027-01-04。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/event-%E5%A4%A7%E6%98%A5%E7%85%89%E7%9A%82%E8%8F%AF%E5%B1%B1%E9%99%90%E5%AE%9A%E7%89%B9%E5%B1%95",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "大春煉皂 華山限定特展",
+        "start": "2026-09-07",
+        "end": "2027-01-04",
+        "price": "官網未提供票價，請洽官方",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-a270dd094104e4b8",
+    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
+    "title": "李亭香",
+    "start": "2026-07-28",
+    "end": "2027-05-31",
+    "region": "臺北市",
+    "venue": "華山1914 · 芳釀所",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供入場票價；商品另計",
+    "category": "飲食／快閃店",
+    "summary": "於芳釀所舉辦的飲食／快閃店活動，日期為2026-07-28至2027-05-31。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/event-%E6%9D%8E%E4%BA%AD%E9%A6%99",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-07T09:36:37+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "李亭香",
+        "start": "2026-07-28",
+        "end": "2027-05-31",
+        "price": "官網未提供入場票價；商品另計",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
       }
     ]
   }
