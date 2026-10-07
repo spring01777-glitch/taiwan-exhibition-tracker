@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Taipei",
-  "updatedAt": "2026-10-06T14:59:20+08:00",
+  "updatedAt": "2026-10-07T09:33:51+08:00",
   "events": [
     {
       "id": "manual-lan-1008",
@@ -1583,7 +1583,7 @@
         {
           "platform": "KKTIX",
           "url": "https://comedyclub.kktix.cc/events/chuunibyou1023",
-          "checkedAt": "2026-10-06",
+          "checkedAt": "2026-10-07",
           "sessions": [
             {
               "date": "2026-10-23",
@@ -1591,12 +1591,12 @@
             }
           ],
           "price": "一般 NT$950；雙人 NT$1,800；VIP NT$1,600；早鳥另計",
-          "saleAt": null
+          "saleAt": "2026-08-22T00:00:00+08:00"
         },
         {
           "platform": "KKTIX",
           "url": "https://comedyclub.kktix.cc/events/chuunibyou1024",
-          "checkedAt": "2026-10-06",
+          "checkedAt": "2026-10-07",
           "sessions": [
             {
               "date": "2026-10-24",
@@ -1604,17 +1604,17 @@
             }
           ],
           "price": "一般 NT$950；雙人 NT$1,800；VIP NT$1,600；早鳥另計",
-          "saleAt": null
+          "saleAt": "2026-08-22T00:00:00+08:00"
         }
       ],
       "price": "一般 NT$950；雙人 NT$1,800；VIP NT$1,600；早鳥另計",
-      "saleAt": null,
-      "saleNote": "官方頁首 19:00 與節目文字 19:30 衝突，演出時間待主辦確認；各票種開賣時間不同。",
+      "saleAt": "2026-08-22T00:00:00+08:00",
+      "saleNote": "一般票及雙人票 2026/08/22 00:00 開賣；VIP 7/17 12:00、優惠票 8/21 00:00。官方頁首 19:00 與節目文字 19:30 仍衝突，演出時間待主辦確認。",
       "ticketStatus": "活動售票頁已核對；非即時票況",
       "sourceUrl": "https://comedyclub.kktix.cc/events/chuunibyou1023",
       "ticketUrl": null,
-      "ticketVerifiedAt": null,
-      "verifiedAt": "2026-10-06",
+      "ticketVerifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-07",
       "status": "scheduled",
       "summary": "巴斯於西門紅樓 二樓劇場演出。",
       "revisions": [],

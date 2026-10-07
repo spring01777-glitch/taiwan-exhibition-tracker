@@ -173,3 +173,8 @@ concert and 60 comedy cards; four-page static contracts pass. Strict public
 schema/sale-time checks pass with zero sale-time conflicts. Browser/source
 research is reserved for the parent cloud environment; no local browser was
 opened. This is a local-only delivery with no remote push or publication.
+
+
+## Scheduled official-page review: 2026-10-07
+
+Reviewed selected catalogs and 12 detail pages, recorded in `data/live-audits/weekly-review-20261007.json`. This is a partial agent review, not full-platform coverage. General sale for both Bas Narcissus tickets is now 2026-08-22 00:00 Taiwan, supported by the ticket tables on the two KKTIX detail pages. VIP and discount starts remain distinct. The 19:00 header versus 19:30 description conflict remains unresolved; show times stay null. Other compared facts were retained. Dynamic fields unavailable on ibon/OPENTIX/KHAM were not reverified. No cancellation or disappearance inferred. Counts remain 85/122 concerts and 60/85 comedy. Publication and exact-run evidence are maintained in the existing local release review.

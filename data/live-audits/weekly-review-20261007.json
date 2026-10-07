@@ -1,0 +1,109 @@
+{
+  "reviewedAt": "2026-10-07",
+  "baseline": "95473c2",
+  "scope": "Selected official catalogs and 12 detail pages for upcoming events; not a complete catalog or nationwide audit.",
+  "window": {
+    "start": "2026-10-07",
+    "end": "2027-01-05"
+  },
+  "coverageComplete": false,
+  "catalogs": [
+    {
+      "url": "https://tixcraft.com/",
+      "result": "Visible upcoming links only; no complete catalog traversal."
+    },
+    {
+      "url": "https://comedyclub.kktix.cc/",
+      "result": "Selected October stand-up details; other formats not imported."
+    },
+    {
+      "url": "https://ticket.com.tw/",
+      "result": "Upcoming homepage links; no complete catalog traversal."
+    },
+    {
+      "url": "https://www.accupass.com/",
+      "result": "Read failed; official event detail accessible. No inference of missing events."
+    }
+  ],
+  "details": [
+    {
+      "sourceId": "ibon",
+      "url": "https://ticket.ibon.com.tw/ActivityInfo/Details/39978",
+      "result": "Title only; sessions and sale facts unavailable; retained prior facts."
+    },
+    {
+      "sourceId": "opentix",
+      "url": "https://www.opentix.life/event/2087082647347310593",
+      "result": "Date 10/24 and venue visible; dynamic session/price fields unavailable; retained."
+    },
+    {
+      "sourceId": "kham",
+      "url": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DF32E2",
+      "result": "Title visible; session/price not in retrieved text; retained."
+    },
+    {
+      "sourceId": "comedyclub",
+      "url": "https://comedyclub.kktix.cc/events/swinghongcomedy1017",
+      "result": "10/17 20:00, venue and general sale 10/1 00:00 agree with stored facts."
+    },
+    {
+      "sourceId": "comedyclub",
+      "url": "https://comedyclub.kktix.cc/events/get20261018",
+      "result": "10/18 15:00, venue, general prices 799/1499 and sale 7/27 19:00 agree."
+    },
+    {
+      "sourceId": "comedyclub",
+      "url": "https://comedyclub.kktix.cc/events/taipeicomedylive1023",
+      "result": "10/23 22:00, presale 350/door 400 and sale 1/5 00:00 agree."
+    },
+    {
+      "sourceId": "comedyclub",
+      "url": "https://comedyclub.kktix.cc/events/chuunibyou1023",
+      "result": "General ticket sale 8/22 00:00 added; header/body time conflict retained."
+    },
+    {
+      "sourceId": "comedyclub",
+      "url": "https://comedyclub.kktix.cc/events/chuunibyou1024",
+      "result": "General ticket sale 8/22 00:00 added; header/body time conflict retained."
+    },
+    {
+      "sourceId": "era",
+      "url": "https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CHP23G",
+      "result": "Three sessions 10/25 18:30, 10/26 14:00 and 18:30; prices 1500/2000/2500/3000 agree."
+    },
+    {
+      "sourceId": "taipei-arena",
+      "url": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=C25BAEDAF3FD2862&sms=F9A95D3F5A5C2C68",
+      "result": "Title/date accessible; no changes made from partial review."
+    },
+    {
+      "sourceId": "tmc",
+      "url": "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026",
+      "result": "11/13 19:00 and 11/14 18:00, venue and prices agree; no assumption of general ticket sale."
+    },
+    {
+      "sourceId": "accupass",
+      "url": "https://www.accupass.com/event/2609250552051315174380",
+      "result": "Eight future stand-up sessions and price 500 agree; excluded interactive sessions retained; monthly range not expanded."
+    }
+  ],
+  "change": {
+    "event": "巴斯2026單口喜劇專場《中二病 Narcissus》",
+    "field": "saleAt and scoped ticket saleAt",
+    "before": null,
+    "after": "2026-08-22T00:00:00+08:00",
+    "eventTime": "unknown: page header 19:00 conflicts with body 19:30",
+    "generalSale": "2026-08-22 00:00",
+    "vipSale": "2026-07-17 12:00",
+    "discountSale": "2026-08-21 00:00"
+  },
+  "unknownCatalogs": [
+    "satire catalog URL remains unverified; no guessed URL"
+  ],
+  "counts": {
+    "concerts": 85,
+    "concertSessions": 122,
+    "comedy": 60,
+    "comedySessions": 85
+  }
+}
