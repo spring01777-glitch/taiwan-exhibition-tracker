@@ -1,8 +1,8 @@
 {
   "songshan": {
     "state": "ok",
-    "lastAttempt": "2026-10-07T09:35:15+08:00",
-    "lastSuccess": "2026-10-07T09:35:39+08:00",
+    "lastAttempt": "2026-10-07T14:39:22+08:00",
+    "lastSuccess": "2026-10-07T14:39:46+08:00",
     "count": 17,
     "checkedCount": 17,
     "attemptedCount": 17,
@@ -11,17 +11,17 @@
   },
   "huashan": {
     "state": "ok",
-    "lastAttempt": "2026-10-07T09:35:39+08:00",
-    "lastSuccess": "2026-10-07T09:36:37+08:00",
-    "count": 19,
-    "checkedCount": 19,
-    "attemptedCount": 19,
-    "lastSuccessfulCheckedCount": 19,
+    "lastAttempt": "2026-10-07T14:39:46+08:00",
+    "lastSuccess": "2026-10-07T14:40:43+08:00",
+    "count": 22,
+    "checkedCount": 22,
+    "attemptedCount": 22,
+    "lastSuccessfulCheckedCount": 22,
     "message": "每日官網基本事實更新成功；公開首頁及已收錄的無查詢參數詳情；分頁受 robots 限制，未保證完整；8筆狀態仍待確認"
   },
   "pier2": {
     "state": "error",
-    "lastAttempt": "2026-10-07T09:36:37+08:00",
+    "lastAttempt": "2026-10-07T14:40:43+08:00",
     "lastSuccess": "2026-10-06T14:59:16+08:00",
     "count": 12,
     "checkedCount": 11,
