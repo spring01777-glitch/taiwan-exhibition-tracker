@@ -143,7 +143,9 @@
   "695053d026b32416dc34915f": {
     "title": "呂碧銓文物常態展（田中鎮碧銓文物館）",
     "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=695053d026b32416dc34915f",
-    "previousTitleMatched": true
+    "previousTitleMatched": true,
+    "lastAttempt": "2026-10-08T14:45:40+08:00",
+    "lastResult": "unavailable"
   },
   "695053d026b32416dc349160": {
     "title": "鹿港民俗文物典藏展",

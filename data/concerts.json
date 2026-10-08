@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Taipei",
-  "updatedAt": "2026-10-07T14:41:05+08:00",
+  "updatedAt": "2026-10-08T14:47:48+08:00",
   "events": [
     {
       "id": "manual-forever",
@@ -4525,7 +4525,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "桃園市的演唱會，演出地點為桃園展演中心展演廳。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [
         {
@@ -4572,7 +4572,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺東縣的演唱會，演出地點為臺東縣立體育館。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [
         {
@@ -4619,7 +4619,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [
         {
@@ -4666,7 +4666,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北國際會議中心大會堂。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [
         {
@@ -4713,7 +4713,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "新北市的演唱會，演出地點為新北市五股工商展覽中心。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -4748,7 +4748,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "高雄市的演唱會，演出地點為高雄市文化中心至德堂。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -4783,7 +4783,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北南港展覽館一館四樓。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [
         {
@@ -4834,7 +4834,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -4869,7 +4869,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [
         {
@@ -4916,7 +4916,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [
         {
@@ -4963,7 +4963,7 @@
       "sourceUrl": "https://rockempire.kktix.cc/events/4e2ae0df",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為Corner House(遠雄國際金融廣場)。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [
         {
@@ -5010,7 +5010,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FWXUND",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為CLAPPER STUDIO 展演廳(三創生活)。",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-10-08",
       "revisions": [],
       "tickets": [
         {
@@ -5038,8 +5038,8 @@
     {
       "name": "文化部・演唱會",
       "url": "https://data.gov.tw/dataset/6013",
-      "checkedAt": "2026-10-07T14:41:05+08:00",
-      "lastSuccess": "2026-10-07T14:41:05+08:00",
+      "checkedAt": "2026-10-08T14:47:48+08:00",
+      "lastSuccess": "2026-10-08T14:47:48+08:00",
       "id": "moc",
       "status": "ok",
       "message": "授權 JSON 解析完成；納入 12 個活動／場館，待分類 0 筆；不是全平台完整涵蓋。",
