@@ -1,0 +1,61 @@
+{
+  "reviewedAt": "2026-10-09",
+  "integratedAt": "2026-10-10",
+  "reviewBaseline": "446e0d6",
+  "integrationBaseline": "2aac074",
+  "coverageComplete": false,
+  "scope": "Selected11 official detail pages and2 organizer catalogs; not all12 sources or nationwide coverage. First detail is historical reference.",
+  "detailUrls": [
+    "https://comedyclub.kktix.cc/events/allaroundyou1008",
+    "https://comedyclub.kktix.cc/events/allaroundyou1009",
+    "https://comedyclub.kktix.cc/events/thecutautumn1010",
+    "https://strnetwork.kktix.cc/events/76d77258",
+    "https://www.accupass.com/event/2610011400221552824046",
+    "https://tixcraft.com/activity/detail/26_izna",
+    "https://tixcraft.com/activity/detail/26_qwer",
+    "https://www.tmc.taipei/tw/blog/show/2026TaipeiJazzFestival",
+    "https://strnetwork.kktix.cc/events/kiewge",
+    "https://strnetwork.kktix.cc/events/kloreg",
+    "https://strnetwork.kktix.cc/events/loeger"
+  ],
+  "catalogUrls": [
+    "https://comedyclub.kktix.cc/",
+    "https://strnetwork.kktix.cc/"
+  ],
+  "changes": [
+    {
+      "eventId": "manual-atsuko",
+      "field": "tickets.saleAt",
+      "tickets": [
+        {
+          "url": "https://strnetwork.kktix.cc/events/kloreg",
+          "date": "2026-11-29",
+          "time": "16:00",
+          "saleAt": "2026-08-17T12:00:00+08:00"
+        },
+        {
+          "url": "https://strnetwork.kktix.cc/events/loeger",
+          "date": "2026-11-29",
+          "time": "19:00",
+          "saleAt": "2026-07-17T10:00:00+08:00"
+        }
+      ],
+      "eventSaleAt": null,
+      "restrictedViewSaleAt": "2026-07-28T12:00:00+08:00"
+    },
+    {
+      "sourceId": "satire",
+      "field": "url",
+      "before": "",
+      "after": "https://strnetwork.kktix.cc/",
+      "evidence": "Linked organizer from official Jiaoying detail page",
+      "permission": "automation-not-approved unchanged"
+    }
+  ],
+  "limitations": [
+    "QWER exact session times not reverified from extracted text.",
+    "Existing conflicting source facts remain unresolved.",
+    "Disappearance is not cancellation; no real-time remaining-ticket claims."
+  ],
+  "priorPublication": "2026-10-09 command rejected by policy before commit or push; retained local corrections."
+}

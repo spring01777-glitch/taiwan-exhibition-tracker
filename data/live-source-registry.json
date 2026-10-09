@@ -55,14 +55,14 @@
     {
       "id": "satire",
       "name": "薩泰爾官方主辦目錄",
-      "url": "",
+      "url": "https://strnetwork.kktix.cc/",
       "kinds": [
         "comedy"
       ],
       "adapter": "reviewed-json",
       "mode": "cloud-reviewed-import",
       "permission": "automation-not-approved",
-      "scope": "待雲端確認目錄範圍及主辦連結"
+      "scope": "2026-10-09 由薩泰爾官方活動頁主辦連結確認目錄；僅核對近期可見活動，不代表完整目錄；維持人工核對匯入"
     },
     {
       "id": "ibon",

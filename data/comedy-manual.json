@@ -1237,7 +1237,7 @@
         {
           "platform": "KKTIX",
           "url": "https://strnetwork.kktix.cc/events/kloreg",
-          "checkedAt": "2026-10-06",
+          "checkedAt": "2026-10-09",
           "sessions": [
             {
               "date": "2026-11-29",
@@ -1245,12 +1245,12 @@
             }
           ],
           "price": "NT$1,500／2,000／2,600",
-          "saleAt": null
+          "saleAt": "2026-08-17T12:00:00+08:00"
         },
         {
           "platform": "KKTIX",
           "url": "https://strnetwork.kktix.cc/events/loeger",
-          "checkedAt": "2026-10-06",
+          "checkedAt": "2026-10-09",
           "sessions": [
             {
               "date": "2026-11-29",
@@ -1258,17 +1258,17 @@
             }
           ],
           "price": "NT$1,000（視線受限）／1,500／2,000／2,600",
-          "saleAt": null
+          "saleAt": "2026-07-17T10:00:00+08:00"
         }
       ],
       "price": "各場票價不同，請見場次購票資訊",
       "saleAt": null,
-      "saleNote": "一般開賣時間未公布／來源未提供。",
+      "saleNote": "11/29 16:00 加場一般票：2026/08/17 12:00；19:00 晚場一般票：2026/07/17 10:00；晚場視線受限席另於 7/28 12:00 啟售。各場分開核對，不混用開賣時間。",
       "ticketStatus": "活動售票頁已核對；非即時票況",
       "sourceUrl": "https://strnetwork.kktix.cc/events/kloreg",
       "ticketUrl": null,
       "ticketVerifiedAt": null,
-      "verifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-09",
       "status": "scheduled",
       "summary": "英文單口巡演，同日午晚兩場；晚場二樓有視線受限席。",
       "revisions": []

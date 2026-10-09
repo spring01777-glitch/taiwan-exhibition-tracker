@@ -178,3 +178,8 @@ opened. This is a local-only delivery with no remote push or publication.
 ## Scheduled official-page review: 2026-10-07
 
 Reviewed selected catalogs and 12 detail pages, recorded in `data/live-audits/weekly-review-20261007.json`. This is a partial agent review, not full-platform coverage. General sale for both Bas Narcissus tickets is now 2026-08-22 00:00 Taiwan, supported by the ticket tables on the two KKTIX detail pages. VIP and discount starts remain distinct. The 19:00 header versus 19:30 description conflict remains unresolved; show times stay null. Other compared facts were retained. Dynamic fields unavailable on ibon/OPENTIX/KHAM were not reverified. No cancellation or disappearance inferred. Counts remain 85/122 concerts and 60/85 comedy. Publication and exact-run evidence are maintained in the existing local release review.
+
+
+## 2026-10-10 integration of the October 9 review
+
+The user authorized Git and Notion synchronization directly. The preserved October9 correction was applied to latest remote2aac074 in an isolated worktree. Review evidence is in `data/live-audits/weekly-review-20261009.json`:11 detail pages and2 organizer catalogs, not complete coverage. Atsuko November29 afternoon general sale is August17 12:00; evening general sale is July17 10:00, with restricted-view tickets separately July28 12:00. Card-level saleAt remains null because sessions differ. Satire organizer URL is confirmed via its official event; existing reviewed-json and access restrictions remain. The October9 rejected publication did not execute; actual current Git, deployment and Notion results are recorded in the release review.
