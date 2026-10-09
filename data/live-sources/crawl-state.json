@@ -697,7 +697,7 @@
         }
       },
       "https://www.opentix.life/event/2070074346117287937": {
-        "lastmod": "2026-10-09T23:29:11.000Z",
+        "lastmod": "2026-10-09T23:36:00.000Z",
         "facts": {
           "title": "吳念真國民戲劇《人間條件三》台北上午零時",
           "venue": "國家戲劇院",
@@ -8432,7 +8432,7 @@
         }
       },
       "https://www.opentix.life/event/2086734015886159873": {
-        "lastmod": "2026-10-09T17:27:23.000Z",
+        "lastmod": "2026-10-09T23:34:02.000Z",
         "facts": {
           "title": "銀河谷音劇團《屁屁偵探》南方島嶼的神秘遺跡",
           "venue": "新北市藝文中心演藝廳",
@@ -10166,7 +10166,7 @@
         }
       },
       "https://www.opentix.life/event/2084103951716229121": {
-        "lastmod": "2026-10-09T16:48:42.000Z",
+        "lastmod": "2026-10-09T23:34:12.000Z",
         "facts": {
           "title": "琴鍵交鋒",
           "venue": "臺南文化中心演藝廳",
@@ -18067,9 +18067,6144 @@
             ]
           }
         }
+      },
+      "https://www.opentix.life/event/2064989613489934337": {
+        "lastmod": "2026-10-09T14:50:09.000Z",
+        "facts": {
+          "title": "2026朱宗慶打擊樂團擊樂劇場《六部曲》",
+          "venue": "嘉義縣表演藝術中心演藝廳",
+          "address": "嘉義縣 民雄鄉建國路二段265號",
+          "region": "嘉義縣",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–3,000",
+          "saleAt": "2026-07-07T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2078482062961602561": {
+        "lastmod": "2026-10-09T14:50:09.000Z",
+        "facts": {
+          "title": "NTSO水藍，庄司紗矢香與國臺交",
+          "venue": "臺北市中山堂中正廳",
+          "address": "臺北市 中正區延平南路98號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-03-06",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$100–2,000",
+          "saleAt": "2026-07-29T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095361606066839553": {
+        "lastmod": "2026-10-09T14:48:31.000Z",
+        "facts": {
+          "title": "殺羊人",
+          "venue": "國家電影及視聽文化中心-大影格",
+          "address": "新北市 新莊區文藝路2號",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-10-11",
+              "time": "12:10"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$220",
+          "saleAt": "2026-09-18T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2072648619043909632": {
+        "lastmod": "2026-10-09T14:45:51.000Z",
+        "facts": {
+          "title": "富邦世紀音樂盛宴：NSO歲末饗宴《法蘭西群星》",
+          "venue": "國家音樂廳",
+          "address": "臺北市 中正區中山南路21-1號，信義路側",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-30",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–5,200",
+          "saleAt": "2026-10-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2105120900576104449": {
+        "lastmod": "2026-10-09T14:45:14.000Z",
+        "facts": {
+          "title": "2026聖采琪聯合弦樂團巡迴音樂會",
+          "venue": "臺中國家歌劇院小劇場",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-12-26",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$300–800",
+          "saleAt": "2026-10-07T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2076950496921640960": {
+        "lastmod": "2026-10-09T14:44:50.000Z",
+        "facts": {
+          "title": "大開兒童歌舞劇-好久茶的祕密2《夢幻雞排大冒險》",
+          "venue": "臺中市葫蘆墩文化中心演奏廳",
+          "address": "臺中市 豐原區圓環東路782號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$200–600",
+          "saleAt": "2026-07-31T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2055198355043160065": {
+        "lastmod": "2026-10-09T14:44:22.000Z",
+        "facts": {
+          "title": "《英雄點點名》勇者集結—夢幻聯名首演場！",
+          "venue": "臺北市藝文推廣處城市舞台",
+          "address": "臺北市 松山區八德路三段25號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–2,200",
+          "saleAt": "2026-05-22T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2082315899354886144": {
+        "lastmod": "2026-10-09T14:44:18.000Z",
+        "facts": {
+          "title": "浮生詩境－謝維庭2026鋼琴獨奏會",
+          "venue": "國家音樂廳",
+          "address": "臺北市 中正區中山南路21-1號，信義路側",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-29",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–2,500",
+          "saleAt": "2026-08-03T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2048966343179272192": {
+        "lastmod": "2026-10-09T14:43:49.000Z",
+        "facts": {
+          "title": "【相聲瓦舍】《啖噓呵嘻吸吹呼》",
+          "venue": "衛武營國家藝術文化中心戲劇院",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–2,000",
+          "saleAt": "2026-05-14T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "excluded",
+              "OTHER_PERFORMANCE_FORMAT"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095404639789457408": {
+        "lastmod": "2026-10-09T14:42:27.000Z",
+        "facts": {
+          "title": "【2026臺中國際動畫影展】雲中女孩",
+          "venue": "台中iFG遠雄廣場威秀影城第二廳",
+          "address": "臺中市 東區復興路四段186號4F",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$140",
+          "saleAt": "2026-09-11T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2087455372729430017": {
+        "lastmod": "2026-10-09T14:41:49.000Z",
+        "facts": {
+          "title": "2026一夫樂集房角石管樂團年度公演－來自世界的明信片",
+          "venue": "功學社音樂廳",
+          "address": "新北市 蘆洲區中山二路162號2樓",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-09-15T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2086778741904691201": {
+        "lastmod": "2026-10-09T14:40:15.000Z",
+        "facts": {
+          "title": "《天才炫技》馬丁・賈西亞・賈西亞╳高市交",
+          "venue": "衛武營國家藝術文化中心音樂廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-11-22",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–2,000",
+          "saleAt": "2026-09-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "excluded",
+              "OTHER_PERFORMANCE_FORMAT"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2094346204818124801": {
+        "lastmod": "2026-10-09T14:40:12.000Z",
+        "facts": {
+          "title": "一屍8底｜高雄電影節",
+          "venue": "內惟藝術中心 Reel ONE 1廳",
+          "address": "高雄市 鼓山區馬卡道路329號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$230",
+          "saleAt": "2026-09-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2089887700019679233": {
+        "lastmod": "2026-10-09T14:39:52.000Z",
+        "facts": {
+          "title": "台中愛樂管絃樂團2026二十五週年公演《人海中遇見你》跨界音樂會",
+          "venue": "臺中市中山堂",
+          "address": "臺中市 北區學士路98號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–3,000",
+          "saleAt": "2026-09-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2099703237643980800": {
+        "lastmod": "2026-10-09T14:39:03.000Z",
+        "facts": {
+          "title": "謝宇威音樂作品合唱音樂會《為你而歌》",
+          "venue": "台北生技園區多功能廳",
+          "address": "臺北市 南港區忠孝東路七段508號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-25",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–1,000",
+          "saleAt": "2026-09-30T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2071788709521534976": {
+        "lastmod": "2026-10-09T14:37:55.000Z",
+        "facts": {
+          "title": "《光影與詩》馬利歐．凡薩戈、帕斯卡．羅傑與NSO",
+          "venue": "國家音樂廳",
+          "address": "臺北市 中正區中山南路21-1號，信義路側",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-10",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–3,600",
+          "saleAt": "2026-10-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100157616404054017": {
+        "lastmod": "2026-10-09T14:37:10.000Z",
+        "facts": {
+          "title": "《台語歌劇—行出性命的光》台灣首位女醫師蔡阿信的生命之歌",
+          "venue": "衛武營國家藝術文化中心歌劇院",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-12-24",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-25",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–3,000",
+          "saleAt": "2026-09-18T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2080142462134394880": {
+        "lastmod": "2026-10-09T14:36:51.000Z",
+        "facts": {
+          "title": "【2026 TSO 特別企劃】國王歌手與TSO的聖誕音樂會",
+          "venue": "國家音樂廳",
+          "address": "臺北市 中正區中山南路21-1號，信義路側",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-18",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–2,500",
+          "saleAt": "2026-07-30T14:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2059834497252855809": {
+        "lastmod": "2026-10-09T14:36:25.000Z",
+        "facts": {
+          "title": "2026臺南藝術節：閱時《萬象園》吳園版",
+          "venue": "臺南市吳園藝文中心公會堂表演廳",
+          "address": "臺南市 中西區民權路二段30號",
+          "region": "臺南市",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$800",
+          "saleAt": "2026-06-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095106310969434112": {
+        "lastmod": "2026-10-09T14:35:24.000Z",
+        "facts": {
+          "title": "【2026 Open House】興傳奇青年劇場 《馬上封侯》",
+          "venue": "衛武營國家藝術文化中心歌劇院",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$0",
+          "saleAt": "2026-09-29T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2079031059979235329": {
+        "lastmod": "2026-10-09T14:35:23.000Z",
+        "facts": {
+          "title": "【2026嘉義民族音樂節】《時光隧道下的兩端IX》——溯",
+          "venue": "嘉義縣表演藝術中心演藝廳",
+          "address": "嘉義縣 民雄鄉建國路二段265號",
+          "region": "嘉義縣",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$300–1,200",
+          "saleAt": "2026-07-22T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2082004320853954561": {
+        "lastmod": "2026-10-09T14:34:25.000Z",
+        "facts": {
+          "title": "九歌兒童劇團《大樹、小鳥與牽牛花》",
+          "venue": "臺中市葫蘆墩文化中心演講廳",
+          "address": "臺中市 豐原區圓環東路782號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$100–200",
+          "saleAt": "2026-08-07T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2085664559789076480": {
+        "lastmod": "2026-10-09T14:33:46.000Z",
+        "facts": {
+          "title": "2026中國信託新舞臺藝術節 約恩．布爾熱瓦舞團《誰會跌倒》",
+          "venue": "臺北表演藝術中心 球劇場",
+          "address": "臺北市 士林區劍潭路1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-20",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$400–2,600",
+          "saleAt": "2026-09-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "excluded",
+              "OTHER_PERFORMANCE_FORMAT"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095509822174994433": {
+        "lastmod": "2026-10-09T14:31:44.000Z",
+        "facts": {
+          "title": "「十載新聲~樂動山海」桃園市國樂團十周年慶音樂會",
+          "venue": "中壢藝術館音樂廳",
+          "address": "桃園市 中壢區中美路16號",
+          "region": "桃園市",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–1,000",
+          "saleAt": "2026-09-21T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2059552805450129408": {
+        "lastmod": "2026-10-09T14:30:43.000Z",
+        "facts": {
+          "title": "鬼王鍾馗",
+          "venue": "大東文化藝術中心",
+          "address": "高雄市 鳳山區光遠路161號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–3,000",
+          "saleAt": "2026-06-12T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2076923186045493249": {
+        "lastmod": "2026-10-09T14:30:43.000Z",
+        "facts": {
+          "title": "2026 NTT遇見巨人—羅伯．勒帕吉╳柏林雷寧廣場劇院《信仰、金錢、戰爭與愛》",
+          "venue": "臺中國家歌劇院中劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-11-27",
+              "time": "18:00"
+            },
+            {
+              "date": "2026-11-28",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$700–2,000",
+          "saleAt": "2026-08-04T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2078048579470028801": {
+        "lastmod": "2026-10-09T14:30:09.000Z",
+        "facts": {
+          "title": "逝去的時光—陸軼文 X 于源春 X TCO",
+          "venue": "臺北市中山堂中正廳",
+          "address": "臺北市 中正區延平南路98號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$300–1,000",
+          "saleAt": "2026-08-07T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100441920726749184": {
+        "lastmod": "2026-10-09T14:29:06.000Z",
+        "facts": {
+          "title": "親子音樂劇《誰偷走了我的字？》",
+          "venue": "馬祖梅石藝文中心",
+          "address": "連江縣 南竿鄉清水村29號",
+          "region": "連江縣",
+          "sessions": [
+            {
+              "date": "2026-10-11",
+              "time": "10:30"
+            }
+          ],
+          "price": "NT$300–600",
+          "saleAt": "2026-09-23T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2090018884800319489": {
+        "lastmod": "2026-10-09T14:25:57.000Z",
+        "facts": {
+          "title": "洪伯定克《糖果屋》—台北愛樂歌劇坊",
+          "venue": "國立臺灣藝術教育館南海劇場",
+          "address": "臺北市 中正區南海路47號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-19",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-20",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–2,000",
+          "saleAt": "2026-08-31T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2092829498235555841": {
+        "lastmod": "2026-10-09T14:25:22.000Z",
+        "facts": {
+          "title": "《看見幻貓又何妨》｜TTXC XR DREAMLAND",
+          "venue": "高雄駁二藝術特區 自行車倉庫",
+          "address": "高雄市 鹽埕區新化街87號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "18:20"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "11:20"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "13:20"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "15:20"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "16:20"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "17:20"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "18:20"
+            }
+          ],
+          "price": "NT$300",
+          "saleAt": "2026-09-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2082037328271515648": {
+        "lastmod": "2026-10-09T14:25:22.000Z",
+        "facts": {
+          "title": "2026莫比斯圓環創作公社《非常譯外：群盲》",
+          "venue": "牯嶺街小劇場一樓實驗劇場",
+          "address": "臺北市 中正區牯嶺街5巷2號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$800",
+          "saleAt": "2026-08-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2078041749721079808": {
+        "lastmod": "2026-10-09T14:25:03.000Z",
+        "facts": {
+          "title": "傳奇戲樓《藝決天下・四部曲》興傳奇青年劇場",
+          "venue": "板橋放送所 CLT 戲劇館-傳奇戲樓",
+          "address": "新北市 板橋區民族路130巷67號",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "15:30"
+            }
+          ],
+          "price": "NT$600–2,500",
+          "saleAt": "2026-07-29T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2071531444179013633": {
+        "lastmod": "2026-10-09T14:22:46.000Z",
+        "facts": {
+          "title": "勇源音樂饗宴：四十週年系列《馬勒第八，千人》",
+          "venue": "國家音樂廳",
+          "address": "臺北市 中正區中山南路21-1號，信義路側",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-27",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-28",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–8,888",
+          "saleAt": "2026-09-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2087379295709708289": {
+        "lastmod": "2026-10-09T14:22:35.000Z",
+        "facts": {
+          "title": "米特動物樂園《表演廳的秘密》",
+          "venue": "功學社音樂廳",
+          "address": "新北市 蘆洲區中山二路162號2樓",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "10:00"
+            }
+          ],
+          "price": "NT$600–1,200",
+          "saleAt": "2026-08-26T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2093190861084594177": {
+        "lastmod": "2026-10-09T14:20:53.000Z",
+        "facts": {
+          "title": "《眾人之城：阿姆斯特丹1652》｜TTXC XR DREAMLAND",
+          "venue": "高雄駁二藝術特區 大勇區P3倉庫",
+          "address": "高雄市 鹽埕區大勇路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "18:10"
+            }
+          ],
+          "price": "NT$300",
+          "saleAt": "2026-09-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100923426582679553": {
+        "lastmod": "2026-10-09T14:20:31.000Z",
+        "facts": {
+          "title": "《西門町一番地》2026年末歡樂場",
+          "venue": "西門紅樓二樓劇場",
+          "address": "臺北市 萬華區成都路10號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-25",
+              "time": "12:30"
+            },
+            {
+              "date": "2026-12-25",
+              "time": "18:00"
+            },
+            {
+              "date": "2026-12-26",
+              "time": "12:30"
+            },
+            {
+              "date": "2026-12-31",
+              "time": "22:30"
+            },
+            {
+              "date": "2027-01-01",
+              "time": "18:00"
+            },
+            {
+              "date": "2027-01-02",
+              "time": "12:30"
+            },
+            {
+              "date": "2027-01-02",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$2,000–3,500",
+          "saleAt": "2026-09-25T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2010907685806804993": {
+        "lastmod": "2026-10-09T14:20:25.000Z",
+        "facts": {
+          "title": "巴洛克獨奏家樂團《倫敦巴赫》",
+          "venue": "臺中國家歌劇院小劇場",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$800–2,200",
+          "saleAt": "2026-01-16T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2084178428940558336": {
+        "lastmod": "2026-10-09T14:20:18.000Z",
+        "facts": {
+          "title": "《看不見》親子繪本說故事",
+          "venue": "國家兩廳院表演藝術圖書館",
+          "address": "臺北市 中正區中山南路21-1號，國家戲劇院 B1",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "11:30"
+            }
+          ],
+          "price": "NT$350",
+          "saleAt": "2026-09-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095807381356576769": {
+        "lastmod": "2026-10-09T14:19:38.000Z",
+        "facts": {
+          "title": "森聲",
+          "venue": "苗栗縣政府文化觀光局中正堂",
+          "address": "苗栗縣 苗栗市自治路50號",
+          "region": "苗栗縣",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$200–500",
+          "saleAt": "2026-09-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/1986704187991719937": {
+        "lastmod": "2026-10-09T14:16:31.000Z",
+        "facts": {
+          "title": "文山劇場2026年《親子玩藝》活動系列",
+          "venue": "文山劇場",
+          "address": "臺北市 文山區景文街32號，捷運景美站1號出口",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-12-05",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-12-12",
+              "time": "10:00"
+            }
+          ],
+          "price": "NT$200",
+          "saleAt": "2026-09-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2082346375042473985": {
+        "lastmod": "2026-10-09T14:15:24.000Z",
+        "facts": {
+          "title": "巔峰重逢 柴一與貝九",
+          "venue": "衛武營國家藝術文化中心音樂廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-12-25",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–5,000",
+          "saleAt": "2026-08-26T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2071880730163281921": {
+        "lastmod": "2026-10-09T14:13:41.000Z",
+        "facts": {
+          "title": "桑梓之歌",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-11",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$800–1,200",
+          "saleAt": "2026-07-03T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2101877091841122304": {
+        "lastmod": "2026-10-09T14:11:03.000Z",
+        "facts": {
+          "title": "時光之匣：收藏我們的每一段舞動",
+          "venue": "國立臺灣戲曲學院木柵校區表藝館",
+          "address": "臺北市 文山區木柵路三段66巷8-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-01-10",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-09-29T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2088961398867980288": {
+        "lastmod": "2026-10-09T14:10:45.000Z",
+        "facts": {
+          "title": "維奧爾琴的巴赫宇宙",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-18",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$800–2,400",
+          "saleAt": "2026-08-17T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2094373685952045057": {
+        "lastmod": "2026-10-09T14:09:58.000Z",
+        "facts": {
+          "title": "肯尼斯布萊納之亨利五世｜高雄電影節",
+          "venue": "內惟藝術中心 Reel ONE 1廳",
+          "address": "高雄市 鼓山區馬卡道路329號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "19:10"
+            }
+          ],
+          "price": "NT$230",
+          "saleAt": "2026-09-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2077678411348267009": {
+        "lastmod": "2026-10-09T14:09:38.000Z",
+        "facts": {
+          "title": "2026秋天藝術節【藝術家對談】巴奈回家",
+          "venue": "國家戲劇院四樓交誼廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-11",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$0",
+          "saleAt": "2026-09-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2063953665408139264": {
+        "lastmod": "2026-10-09T14:08:42.000Z",
+        "facts": {
+          "title": "《行·城·記憶》聲音的旅行",
+          "venue": "衛武營國家藝術文化中心音樂廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$300–1,200",
+          "saleAt": "2026-07-17T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2093244680865742849": {
+        "lastmod": "2026-10-09T14:08:05.000Z",
+        "facts": {
+          "title": "《花嘿盆》｜TTXC XR DREAMLAND",
+          "venue": "高雄駁二藝術特區 大勇區P3倉庫",
+          "address": "高雄市 鹽埕區大勇路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "18:15"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "11:30"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "12:15"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "13:45"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "16:45"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "17:30"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "18:15"
+            }
+          ],
+          "price": "NT$300",
+          "saleAt": "2026-09-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2091166494271918081": {
+        "lastmod": "2026-10-09T14:02:05.000Z",
+        "facts": {
+          "title": "2026夢想家舞蹈製所「夢．嶼」年度舞蹈成果展",
+          "venue": "彰化縣文化局員林演藝廳表演廳",
+          "address": "彰化縣 員林市員林大道二段99號",
+          "region": "彰化縣",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "18:30"
+            }
+          ],
+          "price": "NT$300–500",
+          "saleAt": "2026-09-06T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2051489300031848448": {
+        "lastmod": "2026-10-09T14:01:49.000Z",
+        "facts": {
+          "title": "臺灣豫劇團2026飆戲「熱血X戲魂」",
+          "venue": "臺灣豫劇團大排練場",
+          "address": "高雄市 左營區實踐路102號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-12-13",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$100",
+          "saleAt": "2026-07-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2089184609844899841": {
+        "lastmod": "2026-10-09T14:01:26.000Z",
+        "facts": {
+          "title": "職男人生3-達成激笑",
+          "venue": "新竹縣政府文化局演藝廳",
+          "address": "新竹縣 竹北市縣政九路146號",
+          "region": "新竹縣",
+          "sessions": [
+            {
+              "date": "2026-12-18",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-19",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-12-19",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–1,200",
+          "saleAt": "2026-09-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "excluded",
+              "OTHER_PERFORMANCE_FORMAT"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2092893907411574784": {
+        "lastmod": "2026-10-09T14:00:42.000Z",
+        "facts": {
+          "title": "樂舞高熊-城市青年藝術共鳴",
+          "venue": "大東文化藝術中心",
+          "address": "高雄市 鳳山區光遠路161號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-28",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$800–1,200",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2085302668497403905": {
+        "lastmod": "2026-10-09T14:00:06.000Z",
+        "facts": {
+          "title": "絲語．一瞬: 一場絲竹的敘事",
+          "venue": "衛武營國家藝術文化中心表演廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–800",
+          "saleAt": "2026-09-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2083002657423384577": {
+        "lastmod": "2026-10-09T13:59:44.000Z",
+        "facts": {
+          "title": "2026藝術節-SPIDERHORSE A Cappella瘋台灣巡迴音樂會-宜蘭場",
+          "venue": "國立宜蘭高中音樂館",
+          "address": "宜蘭縣 宜蘭市建軍里復興路三段8號",
+          "region": "宜蘭縣",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$400–1,000",
+          "saleAt": "2026-08-07T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2087432604631662593": {
+        "lastmod": "2026-10-09T13:58:48.000Z",
+        "facts": {
+          "title": "2027《梨園盛世》名角大匯演",
+          "venue": "臺灣戲曲中心大表演廳",
+          "address": "臺北市 士林區文林路751號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-01-22",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-01-23",
+              "time": "14:30"
+            },
+            {
+              "date": "2027-01-24",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–3,000",
+          "saleAt": "2026-09-23T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2094994026796392449": {
+        "lastmod": "2026-10-09T13:58:11.000Z",
+        "facts": {
+          "title": "音樂的繪本動物樂團【聖誕音狐響叮噹】",
+          "venue": "臺南虹韻文創中心綜合演藝廳",
+          "address": "臺南市 南區新忠路14號",
+          "region": "臺南市",
+          "sessions": [
+            {
+              "date": "2026-12-25",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$650–1,850",
+          "saleAt": "2026-09-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2013457114793156609": {
+        "lastmod": "2026-10-09T13:58:10.000Z",
+        "facts": {
+          "title": "果陀劇場《深夜小狗神秘習題》",
+          "venue": "臺北表演藝術中心 球劇場",
+          "address": "臺北市 士林區劍潭路1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-29",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$1,000–3,000",
+          "saleAt": "2026-02-04T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2090328844729270272": {
+        "lastmod": "2026-10-09T13:54:28.000Z",
+        "facts": {
+          "title": "【女性影展】煙硝下的斑斕",
+          "venue": "光點華山電影館 1廳",
+          "address": "臺北市 中正區八德路一段1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "21:10"
+            }
+          ],
+          "price": "NT$0–240",
+          "saleAt": "2026-09-22T20:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2073788889504477185": {
+        "lastmod": "2026-10-09T13:52:20.000Z",
+        "facts": {
+          "title": "NSO室內樂《舞動波希米亞》",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$400–600",
+          "saleAt": "2026-08-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2083498970180161537": {
+        "lastmod": "2026-10-09T13:52:05.000Z",
+        "facts": {
+          "title": "《鬼谷第貳部》",
+          "venue": "彰化縣文化局員林演藝廳小劇場",
+          "address": "彰化縣 員林市員林大道二段99號",
+          "region": "彰化縣",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$400–600",
+          "saleAt": "2026-08-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2083033941207064577": {
+        "lastmod": "2026-10-09T13:50:12.000Z",
+        "facts": {
+          "title": "再造之境-2026楊欣展鋼琴獨奏會",
+          "venue": "臺中國家歌劇院小劇場",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-10-11",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$400",
+          "saleAt": "2026-08-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2105469963221512193": {
+        "lastmod": "2026-10-09T13:48:54.000Z",
+        "facts": {
+          "title": "2026廖承羿個人製作【承載光廊】",
+          "venue": "國立臺灣體育運動大學 文英館圓夢廳",
+          "address": "臺中市 北區雙十路一段10之5號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–1,500",
+          "saleAt": "2026-10-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2084842816400236545": {
+        "lastmod": "2026-10-09T13:48:14.000Z",
+        "facts": {
+          "title": "【 美麗蛻變 】二十二周年慈善音樂會",
+          "venue": "臺南文化中心演藝廳",
+          "address": "臺南市 東區中華東路三段332號",
+          "region": "臺南市",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–1,200",
+          "saleAt": "2026-08-24T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100525514221658113": {
+        "lastmod": "2026-10-09T13:47:04.000Z",
+        "facts": {
+          "title": "《好年》新年音樂會",
+          "venue": "大東文化藝術中心",
+          "address": "高雄市 鳳山區光遠路161號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2027-01-17",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–1,000",
+          "saleAt": "2026-10-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2083161007938134017": {
+        "lastmod": "2026-10-09T13:47:03.000Z",
+        "facts": {
+          "title": "高雄市管樂團《聲動不朽》－經典音樂劇選粹",
+          "venue": "衛武營國家藝術文化中心音樂廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$600–2,000",
+          "saleAt": "2026-08-05T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2053719432722923520": {
+        "lastmod": "2026-10-09T13:45:16.000Z",
+        "facts": {
+          "title": "臺南文化中心42週年館慶《幾米男孩的100次勇敢》",
+          "venue": "臺南文化中心演藝廳",
+          "address": "臺南市 東區中華東路三段332號",
+          "region": "臺南市",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$800–2,500",
+          "saleAt": "2026-06-05T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2068984452018319361": {
+        "lastmod": "2026-10-09T13:45:13.000Z",
+        "facts": {
+          "title": "2026 NTT遇見巨人─莫札特歌劇《女人皆如此》",
+          "venue": "臺中國家歌劇院大劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-10-29",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–6,000",
+          "saleAt": "2026-08-04T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2073017191612608513": {
+        "lastmod": "2026-10-09T13:45:07.000Z",
+        "facts": {
+          "title": "明華園黃字戲劇團《 雲萬里 》",
+          "venue": "恆春文化中心劇場館表演廳",
+          "address": "屏東縣 恆春鎮東門路1巷18號1樓",
+          "region": "屏東縣",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300",
+          "saleAt": "2026-07-07T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2090271128120614912": {
+        "lastmod": "2026-10-09T13:44:45.000Z",
+        "facts": {
+          "title": "《弦舞歐洲》富爾敦室內樂團 2026 臺灣巡迴音樂會",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-22",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–1,000",
+          "saleAt": "2026-09-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2089958531710963713": {
+        "lastmod": "2026-10-09T13:43:09.000Z",
+        "facts": {
+          "title": "2026黑白極致 巨擘對話-名家音樂會",
+          "venue": "新竹市文化局演藝廳音樂廳",
+          "address": "新竹市 北區東大路二段17號",
+          "region": "新竹市",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$400–2,400",
+          "saleAt": "2026-09-11T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2061378050374123521": {
+        "lastmod": "2026-10-09T13:41:11.000Z",
+        "facts": {
+          "title": "奇美音樂節【燦爛的深邃：布拉姆斯與他的時代】百煉鋼與繞指柔：克拉拉、舒曼與布拉姆斯的內心話",
+          "venue": "奇美博物館奇美廳",
+          "address": "臺南市 仁德區文華路二段66號",
+          "region": "臺南市",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–1,500",
+          "saleAt": "2026-07-06T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2093213577971896321": {
+        "lastmod": "2026-10-09T13:40:51.000Z",
+        "facts": {
+          "title": "《快樂鳥拾光》｜TTXC XR DREAMLAND",
+          "venue": "高雄駁二藝術特區 大勇區P3倉庫",
+          "address": "高雄市 鹽埕區大勇路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "11:10"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "11:45"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "12:20"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "12:55"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "14:05"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "15:15"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "15:50"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "16:25"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "17:00"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "17:35"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "18:10"
+            }
+          ],
+          "price": "NT$300",
+          "saleAt": "2026-09-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2071434148963651585": {
+        "lastmod": "2026-10-09T13:35:18.000Z",
+        "facts": {
+          "title": "尋茶",
+          "venue": "南投縣政府文化局演藝廳",
+          "address": "南投縣 南投市建國路135號",
+          "region": "南投縣",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$300",
+          "saleAt": "2026-07-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100791990411268096": {
+        "lastmod": "2026-10-09T13:33:52.000Z",
+        "facts": {
+          "title": "米特動物樂園《表演廳的秘密》",
+          "venue": "馬祖梅石藝文中心",
+          "address": "連江縣 南竿鄉清水村29號",
+          "region": "連江縣",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–600",
+          "saleAt": "2026-09-23T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2064988549014851585": {
+        "lastmod": "2026-10-09T13:33:20.000Z",
+        "facts": {
+          "title": "極地之光管弦樂團《德意志浪漫交響》",
+          "venue": "衛武營國家藝術文化中心音樂廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-11-27",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$300–1,200",
+          "saleAt": "2026-07-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2080145455874727937": {
+        "lastmod": "2026-10-09T13:31:27.000Z",
+        "facts": {
+          "title": "2026中國信託新舞臺藝術節 曼波男孩舞團《A4》",
+          "venue": "臺北表演藝術中心 球劇場",
+          "address": "臺北市 士林區劍潭路1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$800–3,000",
+          "saleAt": "2026-08-11T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2092919003811454977": {
+        "lastmod": "2026-10-09T13:30:20.000Z",
+        "facts": {
+          "title": "【女性影展】里昂的跫音",
+          "venue": "光點華山電影館 2廳",
+          "address": "臺北市 中正區八德路一段1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "15:30"
+            }
+          ],
+          "price": "NT$0–240",
+          "saleAt": "2026-09-22T20:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2054397673570603009": {
+        "lastmod": "2026-10-09T13:29:44.000Z",
+        "facts": {
+          "title": "2026臺東藝術節：布拉瑞揚舞團《我・我們》第三部曲",
+          "venue": "臺東縣政府文化處藝文中心演藝廳",
+          "address": "臺東縣 臺東市南京路25號",
+          "region": "臺東縣",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–900",
+          "saleAt": "2026-05-21T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2099314057961340929": {
+        "lastmod": "2026-10-09T13:28:25.000Z",
+        "facts": {
+          "title": "盜火劇團 權力首部曲《椅仔》",
+          "venue": "牯嶺街小劇場一樓實驗劇場",
+          "address": "臺北市 中正區牯嶺街5巷2號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-05",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-12-05",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-06",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$1,000–1,500",
+          "saleAt": "2026-09-16T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2092172422094131201": {
+        "lastmod": "2026-10-09T13:24:21.000Z",
+        "facts": {
+          "title": "米特動物樂園 X 動物警探達克比《達克比出任務：樂園怪蛋事件》",
+          "venue": "臺北市政大樓親子劇場",
+          "address": "臺北市 信義區市府路1號2樓",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-01-16",
+              "time": "10:30"
+            },
+            {
+              "date": "2027-01-16",
+              "time": "15:00"
+            },
+            {
+              "date": "2027-01-17",
+              "time": "10:30"
+            },
+            {
+              "date": "2027-01-17",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$900–2,000",
+          "saleAt": "2026-09-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2068963950904086528": {
+        "lastmod": "2026-10-09T13:23:42.000Z",
+        "facts": {
+          "title": "力晶2026藝文饗宴 —聖馬丁學院管弦樂團 x 貝爾",
+          "venue": "國家音樂廳",
+          "address": "臺北市 中正區中山南路21-1號，信義路側",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-13",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1,000–5,800",
+          "saleAt": "2026-06-26T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2084488881764413441": {
+        "lastmod": "2026-10-09T13:22:06.000Z",
+        "facts": {
+          "title": "【府中15】VR特展《全能元神宮改造王》",
+          "venue": "府中15 5F展覽室",
+          "address": "新北市 板橋區府中路15號5樓",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-10-26",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-27",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-27",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-27",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-28",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-28",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-28",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-29",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-29",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-29",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-30",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-30",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-30",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-03",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-03",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-03",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-04",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-04",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-04",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-05",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-05",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-05",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-06",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-06",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-06",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-09",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-09",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-09",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-10",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-10",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-10",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-11",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-11",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-11",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-12",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-12",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-12",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-13",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-13",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-13",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-16",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-16",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-16",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-17",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-17",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-17",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-18",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-18",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-18",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-19",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-19",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-19",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-20",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-20",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-20",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "10:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "13:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$100",
+          "saleAt": "2026-08-28T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2094680833022025729": {
+        "lastmod": "2026-10-09T13:18:41.000Z",
+        "facts": {
+          "title": "James Dekleva鋼琴獨奏會｜柴可夫斯基《胡桃鉗》",
+          "venue": "誠品表演廳",
+          "address": "臺北市 信義區菸廠路88號B1",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-03",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–2,000",
+          "saleAt": "2026-09-16T10:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2078431536318390273": {
+        "lastmod": "2026-10-09T13:17:17.000Z",
+        "facts": {
+          "title": "NTSO范努斯敦，劉孟捷與國臺交",
+          "venue": "臺中國家歌劇院大劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$100–2,000",
+          "saleAt": "2026-07-29T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2088117837816233984": {
+        "lastmod": "2026-10-09T13:17:16.000Z",
+        "facts": {
+          "title": "豬探長小劇場《松鼠大亨驚魂記》",
+          "venue": "臺北市藝文推廣處城市舞台",
+          "address": "臺北市 松山區八德路三段25號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-28",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–2,000",
+          "saleAt": "2026-08-26T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2074406726149365761": {
+        "lastmod": "2026-10-09T13:16:53.000Z",
+        "facts": {
+          "title": "琴弦上的六重風景—《從英倫漫步走向安達盧西亞》",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-14",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–1,200",
+          "saleAt": "2026-07-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2090405604046524417": {
+        "lastmod": "2026-10-09T13:13:35.000Z",
+        "facts": {
+          "title": "【2026KIPF】永興樂X不可無料《大猩猩找不到音》",
+          "venue": "高雄市皮影戲館3樓劇場",
+          "address": "高雄市 岡山區岡山南路42號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-08-25T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2067437498881695745": {
+        "lastmod": "2026-10-09T13:12:27.000Z",
+        "facts": {
+          "title": "《Dolores-離家那天》",
+          "venue": "牯嶺街小劇場二樓藝文空間",
+          "address": "臺北市 中正區牯嶺街5巷2號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-16",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$800–1,200",
+          "saleAt": "2026-07-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2099794023431028737": {
+        "lastmod": "2026-10-09T13:11:00.000Z",
+        "facts": {
+          "title": "大漢天聲-陸軍樂隊民國115年訓練成果發表音樂會",
+          "venue": "臺中國家歌劇院大劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-11-11",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$100",
+          "saleAt": "2026-09-28T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2090769931152023552": {
+        "lastmod": "2026-10-09T13:09:24.000Z",
+        "facts": {
+          "title": "【2026KIPF】東華皮影劇團《「俠影江湖」大俠不只是我?! 》",
+          "venue": "高雄市岡山文化中心演講廳",
+          "address": "高雄市 岡山區岡山南路43號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300",
+          "saleAt": "2026-08-25T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2041775304994054145": {
+        "lastmod": "2026-10-09T13:06:22.000Z",
+        "facts": {
+          "title": "《原來你佇咧》",
+          "venue": "米倉劇場",
+          "address": "桃園市 桃園區新生路169號",
+          "region": "桃園市",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$200",
+          "saleAt": "2026-07-21T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100488804878188544": {
+        "lastmod": "2026-10-09T13:04:55.000Z",
+        "facts": {
+          "title": "2027 台日國際交流芭蕾 Gala",
+          "venue": "四號公園文創演藝廳",
+          "address": "新北市 中和區中安街85號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2027-01-23",
+              "time": "18:00"
+            }
+          ],
+          "price": "NT$800–2,500",
+          "saleAt": "2026-09-23T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2094716231306813441": {
+        "lastmod": "2026-10-09T13:04:33.000Z",
+        "facts": {
+          "title": "蒙特婁，我的愛｜高雄電影節",
+          "venue": "高雄市電影館 3樓",
+          "address": "高雄市 鹽埕區河西路10號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "15:20"
+            }
+          ],
+          "price": "NT$230",
+          "saleAt": "2026-09-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2047597722530205696": {
+        "lastmod": "2026-10-09T13:03:44.000Z",
+        "facts": {
+          "title": "圓潤的魔法 波特羅特展",
+          "venue": "中正紀念堂1展廳",
+          "address": "臺北市 中正區中山南路21號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-06-19",
+              "time": "10:00"
+            }
+          ],
+          "price": "NT$490",
+          "saleAt": "2026-05-04T00:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2094731432715825153": {
+        "lastmod": "2026-10-09T12:56:28.000Z",
+        "facts": {
+          "title": "海草之家｜高雄電影節",
+          "venue": "內惟藝術中心 Reel TWO 2廳",
+          "address": "高雄市 鼓山區馬卡道路329號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-11",
+              "time": "19:20"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "17:20"
+            }
+          ],
+          "price": "NT$230",
+          "saleAt": "2026-09-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095429358134173697": {
+        "lastmod": "2026-10-09T12:53:11.000Z",
+        "facts": {
+          "title": "火山爆發遇見你｜高雄電影節",
+          "venue": "內惟藝術中心 Reel TWO 2廳",
+          "address": "高雄市 鼓山區馬卡道路329號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-15",
+              "time": "19:40"
+            }
+          ],
+          "price": "NT$230",
+          "saleAt": "2026-09-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2104894666075901953": {
+        "lastmod": "2026-10-09T12:51:55.000Z",
+        "facts": {
+          "title": "2026青銀有約：秋天思辨版",
+          "venue": "國家兩廳院",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "10:00"
+            }
+          ],
+          "price": "NT$1,000",
+          "saleAt": "2026-10-05T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
       }
     },
-    "pendingPages": 823,
+    "pendingPages": 726,
     "listed": 1115
   }
 }
