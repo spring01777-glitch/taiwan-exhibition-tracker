@@ -1274,24 +1274,1064 @@
           "id": "b0fb99e33a5acfd46b78"
         }
       ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2084948759163445249",
+      "title": "《溯音‧續章》許常惠逝世二十五週年紀念音樂會",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心音樂廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$600–1,800",
+      "saleAt": "2026-09-10T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2084948759163445249",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2084948759163445249",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "93e3e3113ef5487d9d04",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2084948759163445249",
+          "id": "93e3e3113ef5487d9d04"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2062012882677915648",
+      "title": "王羽佳XR音樂會《羽火共舞》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家兩廳院實驗劇場",
+      "address": "臺北市 中正區中山南路21-1號",
+      "sessions": [
+        {
+          "date": "2026-10-10",
+          "time": "10:30"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "13:10"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "14:20"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "15:30"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "18:10"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "19:20"
+        },
+        {
+          "date": "2026-10-10",
+          "time": "20:30"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "10:30"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "13:10"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "14:20"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "15:30"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "18:10"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "19:20"
+        },
+        {
+          "date": "2026-10-11",
+          "time": "20:30"
+        },
+        {
+          "date": "2026-10-12",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-10-12",
+          "time": "20:10"
+        },
+        {
+          "date": "2026-10-13",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-10-13",
+          "time": "20:10"
+        },
+        {
+          "date": "2026-10-14",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-10-14",
+          "time": "20:10"
+        },
+        {
+          "date": "2026-10-15",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-10-15",
+          "time": "20:10"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "20:10"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "10:30"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "13:10"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "14:20"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "15:30"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "18:10"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "19:20"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "10:30"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "13:10"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "14:20"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "15:30"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "18:10"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "19:20"
+        },
+        {
+          "date": "2026-10-19",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-10-19",
+          "time": "20:10"
+        },
+        {
+          "date": "2026-10-20",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-10-20",
+          "time": "20:10"
+        },
+        {
+          "date": "2026-10-21",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-10-21",
+          "time": "20:10"
+        },
+        {
+          "date": "2026-10-22",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-10-22",
+          "time": "20:10"
+        },
+        {
+          "date": "2026-10-23",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-10-23",
+          "time": "20:10"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "10:30"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "13:10"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "14:20"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "15:30"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "18:10"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "19:20"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "20:30"
+        }
+      ],
+      "price": "NT$1,500–1,800",
+      "saleAt": "2026-07-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2062012882677915648",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-10-10",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "13:10"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "15:30"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "19:20"
+            },
+            {
+              "date": "2026-10-10",
+              "time": "20:30"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "13:10"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "15:30"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "19:20"
+            },
+            {
+              "date": "2026-10-11",
+              "time": "20:30"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-12",
+              "time": "20:10"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-13",
+              "time": "20:10"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-14",
+              "time": "20:10"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-15",
+              "time": "20:10"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "20:10"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "13:10"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "15:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "19:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "13:10"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "15:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "19:20"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-19",
+              "time": "20:10"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-20",
+              "time": "20:10"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "20:10"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-22",
+              "time": "20:10"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-23",
+              "time": "20:10"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "13:10"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "14:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "15:30"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "18:10"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "19:20"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "20:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家兩廳院實驗劇場。",
+      "sourceUrl": "https://www.opentix.life/event/2062012882677915648",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "665765f77ee7abd0c5a8",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2062012882677915648",
+          "id": "665765f77ee7abd0c5a8"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2092850947110248449",
+      "title": "2026鍾家瑋鋼琴獨奏會 變奏曲~系列三",
+      "performers": null,
+      "region": "臺中市",
+      "venue": "臺中國家歌劇院小劇場",
+      "address": "臺中市 西屯區惠來路二段101號",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$500–800",
+      "saleAt": "2026-09-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2092850947110248449",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-11-11",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為臺中國家歌劇院小劇場。",
+      "sourceUrl": "https://www.opentix.life/event/2092850947110248449",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "16feeda2d97897a1c1ef",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2092850947110248449",
+          "id": "16feeda2d97897a1c1ef"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2089278164781281281",
+      "title": "《創世之聲．啟程》",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心音樂廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2026-12-06",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$300–2,000",
+      "saleAt": "2026-09-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2089278164781281281",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-12-06",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2089278164781281281",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "f032ee12e556389abdbb",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2089278164781281281",
+          "id": "f032ee12e556389abdbb"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2100491251944562689",
+      "title": "木樓合唱團《人聲旅歌：源自史詩、火焰與聲的歸宿》",
+      "performers": null,
+      "region": "臺中市",
+      "venue": "臺中國家歌劇院中劇院",
+      "address": "臺中市 西屯區惠來路二段101號",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$400–2,000",
+      "saleAt": "2026-09-24T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2100491251944562689",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為臺中國家歌劇院中劇院。",
+      "sourceUrl": "https://www.opentix.life/event/2100491251944562689",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "e183ea3278c1cb7a476f",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2100491251944562689",
+          "id": "e183ea3278c1cb7a476f"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2101909771166461952",
+      "title": "《海的那一端，風正吹來》｜精選宮崎駿動畫經典配樂",
+      "performers": null,
+      "region": "臺中市",
+      "venue": "臺中市中山堂",
+      "address": "臺中市 北區學士路98號",
+      "sessions": [
+        {
+          "date": "2026-11-15",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$400",
+      "saleAt": "2026-10-02T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2101909771166461952",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為臺中市中山堂。",
+      "sourceUrl": "https://www.opentix.life/event/2101909771166461952",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "ad0df4fe8a7aaadd3ab8",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2101909771166461952",
+          "id": "ad0df4fe8a7aaadd3ab8"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2092559448512712705",
+      "title": "交響樂的天空XII 琴的魔手",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心音樂廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2026-12-15",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$300–1,000",
+      "saleAt": "2026-10-01T10:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2092559448512712705",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-12-15",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2092559448512712705",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "778f41e2c094b03e8d55",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2092559448512712705",
+          "id": "778f41e2c094b03e8d55"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/1955833404180180992",
+      "title": "2026風動室內樂團《無限》宮崎駿動畫音樂精選",
+      "performers": null,
+      "region": "桃園市",
+      "venue": "桃園展演中心展演廳",
+      "address": "桃園市 桃園區中正路1188號",
+      "sessions": [
+        {
+          "date": "2026-10-31",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$800–2,200",
+      "saleAt": "2026-04-06T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/1955833404180180992",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "桃園市的演唱會，演出地點為桃園展演中心展演廳。",
+      "sourceUrl": "https://www.opentix.life/event/1955833404180180992",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "1d3e845c19d3119d5f32",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/1955833404180180992",
+          "id": "1d3e845c19d3119d5f32"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2080555910091567105",
+      "title": "《五行說：木》2026年拉縴人青年合唱團年度音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家兩廳院演奏廳",
+      "address": "臺北市 中正區中山南路21-1號",
+      "sessions": [
+        {
+          "date": "2026-10-11",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$500–1,200",
+      "saleAt": "2026-08-28T18:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2080555910091567105",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-10-11",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家兩廳院演奏廳。",
+      "sourceUrl": "https://www.opentix.life/event/2080555910091567105",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "c2e9f362584db868f9db",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2080555910091567105",
+          "id": "c2e9f362584db868f9db"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2100827884116025345",
+      "title": "HIGH FIVE!",
+      "performers": null,
+      "region": "新北市",
+      "venue": "新北市藝文中心演藝廳",
+      "address": "新北市 板橋區莊敬路62號",
+      "sessions": [
+        {
+          "date": "2026-10-11",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$200",
+      "saleAt": "2026-09-25T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2100827884116025345",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-10-11",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "新北市的演唱會，演出地點為新北市藝文中心演藝廳。",
+      "sourceUrl": "https://www.opentix.life/event/2100827884116025345",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "c48f6b8204583d511439",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2100827884116025345",
+          "id": "c48f6b8204583d511439"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2068970591988879361",
+      "title": "2027風動室內樂團《無限》ACG交響音樂會",
+      "performers": null,
+      "region": "臺中市",
+      "venue": "臺中市中山堂",
+      "address": "臺中市 北區學士路98號",
+      "sessions": [
+        {
+          "date": "2027-01-08",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$800–2,200",
+      "saleAt": "2026-07-06T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2068970591988879361",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2027-01-08",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為臺中市中山堂。",
+      "sourceUrl": "https://www.opentix.life/event/2068970591988879361",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "e468b0741133eee4f006",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2068970591988879361",
+          "id": "e468b0741133eee4f006"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2077603220684337153",
+      "title": "【TCO】音緣－吳大江作品音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北市中山堂中正廳",
+      "address": "臺北市 中正區延平南路98號",
+      "sessions": [
+        {
+          "date": "2026-12-26",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$300–1,000",
+      "saleAt": "2026-08-07T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2077603220684337153",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-12-26",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北市中山堂中正廳。",
+      "sourceUrl": "https://www.opentix.life/event/2077603220684337153",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "f1f436a699580de5bc54",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2077603220684337153",
+          "id": "f1f436a699580de5bc54"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2096875249670557696",
+      "title": "【金．聲相遇】",
+      "performers": null,
+      "region": "新竹市",
+      "venue": "國立陽明交通大學光復校區大禮堂",
+      "address": "新竹市 東區大學路1001號",
+      "sessions": [
+        {
+          "date": "2026-10-31",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$300–500",
+      "saleAt": "2026-09-23T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2096875249670557696",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "19:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "新竹市的演唱會，演出地點為國立陽明交通大學光復校區大禮堂。",
+      "sourceUrl": "https://www.opentix.life/event/2096875249670557696",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "79509d90a193a43e4bd1",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2096875249670557696",
+          "id": "79509d90a193a43e4bd1"
+        }
+      ]
     }
   ],
   "status": {
     "id": "opentix",
     "name": "OPENTIX",
     "url": "https://www.opentix.life/",
-    "checkedAt": "2026-10-10T07:30:35+08:00",
+    "checkedAt": "2026-10-10T07:33:29+08:00",
     "mode": "daily-crawl",
-    "discovered": 200,
-    "included": 24,
-    "excluded": 31,
-    "pending": 138,
+    "discovered": 292,
+    "included": 37,
+    "excluded": 43,
+    "pending": 205,
     "failed": 7,
     "reasons": {
-      "INSUFFICIENT_CONCERT_EVIDENCE": 138,
-      "CONCERT_EVIDENCE": 24,
-      "PAST_EVENT": 4,
-      "COURSE_OR_MUSICAL": 27,
+      "INSUFFICIENT_CONCERT_EVIDENCE": 205,
+      "CONCERT_EVIDENCE": 37,
+      "PAST_EVENT": 7,
+      "COURSE_OR_MUSICAL": 36,
       "NO_STRUCTURED_EVENT": 7
     },
     "coverageComplete": false,
@@ -1300,11 +2340,11 @@
     "expectedPages": null,
     "reviewedAt": "2026-10-10",
     "status": "ok",
-    "lastSuccess": "2026-10-10T07:30:35+08:00",
-    "lastSuccessfulIncluded": 24,
-    "message": "每日公開資料自動更新完成；納入 24 筆，待分類 138 筆；不代表完整目錄。",
-    "retainedEventCount": 25,
-    "pendingPages": 915,
+    "lastSuccess": "2026-10-10T07:33:29+08:00",
+    "lastSuccessfulIncluded": 37,
+    "message": "每日公開資料自動更新完成；納入 37 筆，待分類 205 筆；不代表完整目錄。",
+    "retainedEventCount": 38,
+    "pendingPages": 823,
     "listedPages": 1115
   },
   "records": [
