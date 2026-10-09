@@ -27,7 +27,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "桃園市的演唱會，演出地點為桃園展演中心展演廳。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     },
     {
@@ -54,7 +54,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺東縣的演唱會，演出地點為臺東縣立體育館。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     },
     {
@@ -81,7 +81,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     },
     {
@@ -108,7 +108,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北國際會議中心大會堂。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     },
     {
@@ -135,7 +135,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "新北市的演唱會，演出地點為新北市五股工商展覽中心。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     },
     {
@@ -162,7 +162,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "高雄市的演唱會，演出地點為高雄市文化中心至德堂。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     },
     {
@@ -189,7 +189,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北南港展覽館一館四樓。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     },
     {
@@ -220,7 +220,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     },
     {
@@ -247,7 +247,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     },
     {
@@ -274,7 +274,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     },
     {
@@ -301,7 +301,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "地區未公布的演唱會，演出地點為Corner House(遠雄國際金融廣場)。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     },
     {
@@ -328,15 +328,15 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為CLAPPER STUDIO 展演廳(三創生活)。",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-10-10",
       "revisions": []
     }
   ],
   "status": {
     "name": "文化部・演唱會",
     "url": "https://data.gov.tw/dataset/6013",
-    "checkedAt": "2026-10-09T14:55:37+08:00",
-    "lastSuccess": "2026-10-09T14:55:37+08:00",
+    "checkedAt": "2026-10-10T07:01:22+08:00",
+    "lastSuccess": "2026-10-10T07:01:22+08:00",
     "id": "moc",
     "status": "ok",
     "message": "授權 JSON 解析完成；納入 12 個活動／場館，待分類 0 筆；不是全平台完整涵蓋。",

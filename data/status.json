@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-10-09T14:55:31+08:00",
+  "generatedAt": "2026-10-10T07:01:19+08:00",
   "sources": {
     "moc": {
       "state": "ok",
-      "lastAttempt": "2026-10-09T14:55:31+08:00",
-      "lastSuccess": "2026-10-09T14:55:31+08:00",
-      "count": 298,
+      "lastAttempt": "2026-10-10T07:01:19+08:00",
+      "lastSuccess": "2026-10-10T07:01:19+08:00",
+      "count": 297,
       "rejected": 0,
       "attemptCounts": {
-        "inputCount": 298,
-        "validCount": 298,
+        "inputCount": 297,
+        "validCount": 297,
         "rejectedCount": 0,
-        "eventCount": 298,
+        "eventCount": 297,
         "rejectedReasons": {},
-        "previousActiveCount": 295
+        "previousActiveCount": 294
       },
       "message": "官方開放資料更新成功"
     },
     "songshan": {
       "state": "error",
-      "lastAttempt": "2026-10-09T14:53:27+08:00",
+      "lastAttempt": "2026-10-10T06:59:22+08:00",
       "lastSuccess": "2026-10-08T14:46:19+08:00",
       "count": 19,
       "checkedCount": 19,
@@ -32,8 +32,8 @@
     },
     "huashan": {
       "state": "ok",
-      "lastAttempt": "2026-10-09T14:53:54+08:00",
-      "lastSuccess": "2026-10-09T14:55:02+08:00",
+      "lastAttempt": "2026-10-10T06:59:50+08:00",
+      "lastSuccess": "2026-10-10T07:00:59+08:00",
       "count": 23,
       "checkedCount": 22,
       "attemptedCount": 22,
@@ -42,7 +42,7 @@
     },
     "pier2": {
       "state": "error",
-      "lastAttempt": "2026-10-09T14:55:02+08:00",
+      "lastAttempt": "2026-10-10T07:00:59+08:00",
       "lastSuccess": "2026-10-06T14:59:16+08:00",
       "count": 12,
       "checkedCount": 11,

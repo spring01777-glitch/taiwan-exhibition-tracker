@@ -1,7 +1,7 @@
 {
   "songshan": {
     "state": "error",
-    "lastAttempt": "2026-10-09T14:53:27+08:00",
+    "lastAttempt": "2026-10-10T06:59:22+08:00",
     "lastSuccess": "2026-10-08T14:46:19+08:00",
     "count": 19,
     "checkedCount": 19,
@@ -14,8 +14,8 @@
   },
   "huashan": {
     "state": "ok",
-    "lastAttempt": "2026-10-09T14:53:54+08:00",
-    "lastSuccess": "2026-10-09T14:55:02+08:00",
+    "lastAttempt": "2026-10-10T06:59:50+08:00",
+    "lastSuccess": "2026-10-10T07:00:59+08:00",
     "count": 23,
     "checkedCount": 22,
     "attemptedCount": 22,
@@ -24,7 +24,7 @@
   },
   "pier2": {
     "state": "error",
-    "lastAttempt": "2026-10-09T14:55:02+08:00",
+    "lastAttempt": "2026-10-10T07:00:59+08:00",
     "lastSuccess": "2026-10-06T14:59:16+08:00",
     "count": 12,
     "checkedCount": 11,
