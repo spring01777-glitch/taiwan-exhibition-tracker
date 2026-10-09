@@ -1,4 +1,7 @@
-"""Daily licensed metadata only; never crawls ticket platforms. Standard library."""
+"""Daily licensed MOC metadata plus snapshots; never crawls ticket platforms.
+
+Low-risk public feeds are refreshed beforehand by crawl_live_sources.py.
+"""
 import argparse
 import copy
 import hashlib

@@ -221,7 +221,11 @@ class PipelineTests(unittest.TestCase):
             for name in ('live-source-registry.json','concerts-manual.json','comedy-manual.json','concerts.json','comedy.json','live-event-links.json','live-platform-coverage.json'):
                 sources.write(root/'data'/name,sources.read(repo/'data'/name,{}))
             for path in (repo/'data/live-sources').rglob('*.json'):
-                sources.write(root/'data/live-sources'/path.relative_to(repo/'data/live-sources'),sources.read(path,{}))
+                saved=sources.read(path,{})
+                # Daily-crawled snapshots change every day; rebuild those
+                # sources only from the frozen audit batches below.
+                if not isinstance(saved,dict) or saved.get('status',{}).get('mode')=='daily-crawl' or path.name=='crawl-state.json':continue
+                sources.write(root/'data/live-sources'/path.relative_to(repo/'data/live-sources'),saved)
             for day in ('2026-10-07T09:00:00+08:00','2026-10-08T09:00:00+08:00'):
                 for kind,expected in (('concerts',(85,122)),('comedy',(60,85))):
                     payload=sources.read(repo/f'data/live-audits/{kind}-primary-20261006.json',{})

@@ -37,3 +37,10 @@ class DailyVenueTests(unittest.TestCase):
         incoming={**old,'end':'2026-10-25'}
         result=keep_source([old], [incoming], '2026-10-06')
         self.assertEqual(result[0]['firstSeen'],'2026-10-01');self.assertEqual(result[0]['revisions'][0]['end'],'2026-10-20')
+    def test_single_official_date_is_one_day_event(self):
+        body='<p class="inner_title">博覽會</p><div class="under"><p class="date">2026-10-15</p><p class="place">多功能展演廳</p></div>'
+        e=parse_detail('songshan',body,'https://www.songshanculturalpark.org/exhibition/activity/b',{}, {})
+        self.assertEqual((e['start'],e['end']),('2026-10-15','2026-10-15'))
+    def test_pier_page_without_venue_is_an_item_error(self):
+        body='<h1>論壇</h1><div class="datearea"><div class="starttime"><div class="y">2026</div><div class="d">10.24</div></div><div class="endtime"><div class="y">2026</div><div class="d">11.21</div></div></div>'
+        with self.assertRaisesRegex(ValueError,'missing title or venue'):parse_detail('pier2',body,'url',{'venue':''},{})

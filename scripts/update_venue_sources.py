@@ -22,6 +22,8 @@ SOURCES={
     'pier2':{'base':'https://pier2.org','list':'/exhibition/','privacy':'/privacy/','name':'駁二藝術特區','region':'高雄市','address':'高雄市鹽埕區大勇路1號','prefix':'/exhibition/info/'},
 }
 MAX_DETAILS=24
+MAX_SKIP_RATIO=.2
+ITEM_REASONS={'two explicit dates required','reversed dates','missing title or venue'}
 
 def soup_of(body):return BeautifulSoup(body,'html.parser')
 def text(node):return clean(node.get_text(' ',strip=True)) if node else ''
@@ -85,6 +87,8 @@ def discover(source,body):
     return items
 
 def bounds(values):
+    # A single explicit official date is a one-day event, not a guessed range.
+    if len(values)==1:values=values*2
     if len(values)!=2:raise ValueError('two explicit dates required')
     start,end=[date(x.replace('.','-')) for x in values]
     if end<start:raise ValueError('reversed dates')
@@ -168,7 +172,7 @@ def run(browser=None,source_names=None):
     for source,c in SOURCES.items():
         if source_names and source not in source_names:continue
         now=datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds')
-        previous=[e for e in seeds if e['source']==source];rendered=None;reader=None;stage='prepare';attempted=0;checked=0
+        previous=[e for e in seeds if e['source']==source];rendered=None;reader=None;stage='prepare';attempted=0;checked=0;skipped=[]
         try:
             reader=PublicReader(c);reader.prepare(policies[source])
             if source=='pier2':
@@ -197,7 +201,18 @@ def run(browser=None,source_names=None):
             for url,hint in targets.items():
                 print(json.dumps({'source':source,'readingUrl':url},ensure_ascii=True),flush=True)
                 stage='detail-fetch';attempted+=1;body=get(url)
-                stage='detail-parse';event=parse_detail(source,body,url,hint,by_url.get(url,{}));checked+=1
+                stage='detail-parse'
+                try:event=parse_detail(source,body,url,hint,by_url.get(url,{}))
+                except ValueError as item_error:
+                    # One incomplete official page (e.g. no venue published) must
+                    # not discard every other verified fact. Keep its prior record
+                    # unchanged; a new incomplete activity is simply not added.
+                    skipped.append({'url':url,'reason':str(item_error) if str(item_error) in ITEM_REASONS else 'VALIDATION_ERROR'})
+                    if len(skipped)>max(1,len(targets)*MAX_SKIP_RATIO):raise ValueError('too many incomplete detail pages')
+                    if url in by_url:incoming.append(by_url[url])
+                    print(json.dumps({'source':source,'skippedUrl':url},ensure_ascii=True),flush=True)
+                    continue
+                checked+=1
                 if event['end']>=now[:10] or url in by_url:incoming.append(event)
                 print(json.dumps({'source':source,'checkedId':event['id']},ensure_ascii=True),flush=True)
             succeeded_at=datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds')
@@ -205,10 +220,10 @@ def run(browser=None,source_names=None):
             seeds=[e for e in seeds if e['source']!=source]+updated
             uncertain=sum(bool(e.get('verificationNote')) for e in updated)
             scope='公開首頁及已收錄的無查詢參數詳情；分頁受 robots 限制，未保證完整' if source=='huashan' else '公開展演清單及已收錄活動；不保證全場館活動完整'
-            status[source]={'state':'ok','lastAttempt':now,'lastSuccess':succeeded_at,'count':len(updated),'checkedCount':checked,'attemptedCount':attempted,'lastSuccessfulCheckedCount':checked,'message':f'每日官網基本事實更新成功；{scope}'+(f'；{uncertain}筆狀態仍待確認' if uncertain else '')}
+            status[source]={'state':'ok','lastAttempt':now,'lastSuccess':succeeded_at,'count':len(updated),'checkedCount':checked,'attemptedCount':attempted,'lastSuccessfulCheckedCount':checked,'skipped':skipped,'message':f'每日官網基本事實更新成功；{scope}'+(f'；{uncertain}筆狀態仍待確認' if uncertain else '')+(f'；{len(skipped)}筆官網資訊不完整，暫不更新' if skipped else '')}
         except Exception as e:
             failures+=1
-            safe_reasons={'privacy policy not found','non-public or query URL rejected','robots disallows URL','robots disallows public list','official policy changed; manual review required','empty public list or changed structure','two explicit dates required','reversed dates','missing title or venue','empty facts; preserve last success','more than 50% source loss; preserve last success','existing browser unavailable','public list exceeds daily detail cap; review required','public page unavailable','unexpected redirect host','response too large'}
+            safe_reasons={'privacy policy not found','non-public or query URL rejected','robots disallows URL','robots disallows public list','official policy changed; manual review required','empty public list or changed structure','two explicit dates required','reversed dates','missing title or venue','empty facts; preserve last success','more than 50% source loss; preserve last success','existing browser unavailable','public list exceeds daily detail cap; review required','public page unavailable','unexpected redirect host','response too large','too many incomplete detail pages'}
             reason=str(e) if str(e) in safe_reasons else f'HTTP {e.code}' if isinstance(e,HTTPError) else type(e).__name__
             prior_status=status.get(source,{})
             stage=reader.stage if stage=='prepare' and reader else stage
