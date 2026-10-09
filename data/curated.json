@@ -868,35 +868,6 @@
     "revisions": []
   },
   {
-    "id": "huashan-ab8d39619d72b7aa",
-    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
-    "title": "光合系 X 未來市",
-    "start": "2026-09-04",
-    "end": "2026-10-08",
-    "region": "臺北市",
-    "venue": "華山1914 · 中1A館",
-    "address": "臺北市中正區八德路一段1號",
-    "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "快閃店",
-    "summary": "於中1A館舉辦的快閃店活動，日期為2026-09-04至2026-10-08。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/event-%E5%85%89%E5%90%88%E7%B3%BBX%E6%9C%AA%E4%BE%86%E5%B8%82",
-    "source": "huashan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "光合系 X 未來市",
-        "start": "2026-09-04",
-        "end": "2026-10-08",
-        "price": "官網未提供票價，請洽官方",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
     "id": "huashan-929ce07e16036c87",
     "title": "華山CEBU宿霧航空快閃活動",
     "start": "2026-10-09",
@@ -905,16 +876,24 @@
     "venue": "華山1914 · 華山劇場",
     "address": "臺北市中正區八德路一段1號",
     "park": "huashan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於華山劇場舉辦的展演活動，日期為2026-10-09至2026-10-11。開放時段與入場條件請查官方。",
     "url": "https://www.huashan1914.com/exhibition/%E8%8F%AF%E5%B1%B1CEBU%E5%AE%BF%E9%9C%A7%E8%88%AA%E7%A9%BA%E5%BF%AB%E9%96%83%E6%B4%BB%E5%8B%95",
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-08T14:47:25+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "華山CEBU宿霧航空快閃活動",
+        "start": "2026-10-09",
+        "end": "2026-10-11",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-10-08T14:47:25+08:00"
+      }
+    ]
   },
   {
     "id": "huashan-toy-2026",
@@ -932,7 +911,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T19:00:00+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -960,7 +939,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -989,7 +968,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1018,7 +997,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1047,7 +1026,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1075,7 +1054,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-07T14:40:43+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1103,7 +1082,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-07T14:40:43+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1131,7 +1110,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-07T14:40:43+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1159,7 +1138,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1187,7 +1166,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1215,7 +1194,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1243,7 +1222,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T19:00:00+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1271,7 +1250,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1299,7 +1278,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-07T09:36:37+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1327,7 +1306,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1355,7 +1334,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1384,7 +1363,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1412,7 +1391,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1441,7 +1420,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1470,7 +1449,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1499,7 +1478,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "lastSeen": "2026-10-09T14:55:02+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1507,6 +1486,35 @@
         "start": "2026-07-28",
         "end": "2027-05-31",
         "price": "官網未提供入場票價；商品另計",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-ab8d39619d72b7aa",
+    "verificationNote": "官網分類為歷史活動，但公告日期仍在展期內；狀態待確認。",
+    "title": "光合系 X 未來市",
+    "start": "2026-09-04",
+    "end": "2026-10-08",
+    "region": "臺北市",
+    "venue": "華山1914 · 中1A館",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "快閃店",
+    "summary": "於中1A館舉辦的快閃店活動，日期為2026-09-04至2026-10-08。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/event-%E5%85%89%E5%90%88%E7%B3%BBX%E6%9C%AA%E4%BE%86%E5%B8%82",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-08T14:47:25+08:00",
+    "missingFromSource": true,
+    "revisions": [
+      {
+        "title": "光合系 X 未來市",
+        "start": "2026-09-04",
+        "end": "2026-10-08",
+        "price": "官網未提供票價，請洽官方",
         "lastSeen": "2026-10-05T20:09:46+08:00"
       }
     ]
