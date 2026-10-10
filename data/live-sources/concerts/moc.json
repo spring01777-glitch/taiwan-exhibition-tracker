@@ -335,8 +335,8 @@
   "status": {
     "name": "文化部・演唱會",
     "url": "https://data.gov.tw/dataset/6013",
-    "checkedAt": "2026-10-10T12:16:39+08:00",
-    "lastSuccess": "2026-10-10T12:16:39+08:00",
+    "checkedAt": "2026-10-10T14:34:38+08:00",
+    "lastSuccess": "2026-10-10T14:34:38+08:00",
     "id": "moc",
     "status": "ok",
     "message": "授權 JSON 解析完成；納入 12 個活動／場館，待分類 0 筆；不是全平台完整涵蓋。",

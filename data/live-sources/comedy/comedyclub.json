@@ -2312,7 +2312,7 @@
     "id": "comedyclub",
     "name": "卡米地官方主辦目錄",
     "url": "https://comedyclub.kktix.cc/",
-    "checkedAt": "2026-10-10T12:13:23+08:00",
+    "checkedAt": "2026-10-10T14:31:34+08:00",
     "mode": "daily-crawl",
     "discovered": 100,
     "included": 31,
@@ -2331,7 +2331,7 @@
     "expectedPages": null,
     "reviewedAt": "2026-10-10",
     "status": "ok",
-    "lastSuccess": "2026-10-10T12:13:23+08:00",
+    "lastSuccess": "2026-10-10T14:31:34+08:00",
     "lastSuccessfulIncluded": 31,
     "message": "每日公開資料自動更新完成；納入 31 筆，待分類 43 筆；不代表完整目錄。",
     "retainedEventCount": 39
