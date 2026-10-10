@@ -439,7 +439,7 @@
     "id": "tmc",
     "name": "臺北流行音樂中心官方活動資料",
     "url": "https://www.tmc.taipei/",
-    "checkedAt": "2026-10-10T07:59:28+08:00",
+    "checkedAt": "2026-10-10T12:13:23+08:00",
     "mode": "daily-crawl",
     "discovered": 12,
     "included": 7,
@@ -459,7 +459,7 @@
     "expectedPages": null,
     "reviewedAt": "2026-10-10",
     "status": "ok",
-    "lastSuccess": "2026-10-10T07:59:28+08:00",
+    "lastSuccess": "2026-10-10T12:13:23+08:00",
     "lastSuccessfulIncluded": 7,
     "message": "每日公開資料自動更新完成；納入 7 筆，待分類 2 筆；不代表完整目錄。",
     "retainedEventCount": 8

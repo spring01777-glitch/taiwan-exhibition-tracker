@@ -1470,21 +1470,7 @@
       "verificationMethod": "daily-crawl",
       "revisions": [],
       "source": "comedyclub",
-      "id": "c2ee79f8c8dc7b1d48f9",
-      "verifiedAt": "2026-10-10",
       "programKey": "coldn-after-cut",
-      "sourceRefs": [
-        {
-          "source": "comedyclub",
-          "sourceUid": "https://comedyclub.kktix.cc/events/coldn20261213",
-          "id": "c2ee79f8c8dc7b1d48f9"
-        },
-        {
-          "source": "comedyclub",
-          "sourceUid": "https://comedyclub.kktix.cc/events/coldn20261212",
-          "id": "325e8cc1167687631bce"
-        }
-      ],
       "sessionFacts": [
         {
           "date": "2026-12-12",
@@ -1497,6 +1483,20 @@
           "time": "14:30",
           "performers": "涵冷娜",
           "host": null
+        }
+      ],
+      "id": "c2ee79f8c8dc7b1d48f9",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/coldn20261213",
+          "id": "c2ee79f8c8dc7b1d48f9"
+        },
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/coldn20261212",
+          "id": "325e8cc1167687631bce"
         }
       ]
     },
@@ -2035,21 +2035,7 @@
       "verificationMethod": "daily-crawl",
       "revisions": [],
       "source": "comedyclub",
-      "id": "dae8f8fcea42fdb308a6",
-      "verifiedAt": "2026-10-10",
       "programKey": "coldn-after-cut",
-      "sourceRefs": [
-        {
-          "source": "comedyclub",
-          "sourceUid": "https://comedyclub.kktix.cc/events/coldn20261122",
-          "id": "dae8f8fcea42fdb308a6"
-        },
-        {
-          "source": "comedyclub",
-          "sourceUid": "https://comedyclub.kktix.cc/events/coldn20261121",
-          "id": "3e76dba1fcdd12261b86"
-        }
-      ],
       "sessionFacts": [
         {
           "date": "2026-11-21",
@@ -2062,6 +2048,20 @@
           "time": "14:30",
           "performers": "涵冷娜",
           "host": null
+        }
+      ],
+      "id": "dae8f8fcea42fdb308a6",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/coldn20261122",
+          "id": "dae8f8fcea42fdb308a6"
+        },
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/coldn20261121",
+          "id": "3e76dba1fcdd12261b86"
         }
       ]
     },
@@ -2199,9 +2199,9 @@
       "verificationMethod": "daily-crawl",
       "revisions": [],
       "source": "comedyclub",
+      "programKey": "coldn-after-cut",
       "id": "ba8a44bafae678c4fefc",
       "verifiedAt": "2026-10-10",
-      "programKey": "coldn-after-cut",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2296,9 +2296,9 @@
       "verificationMethod": "daily-crawl",
       "revisions": [],
       "source": "comedyclub",
+      "programKey": "lan-all-around-you",
       "id": "b089717086520c8b2b68",
       "verifiedAt": "2026-10-10",
-      "programKey": "lan-all-around-you",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2312,7 +2312,7 @@
     "id": "comedyclub",
     "name": "卡米地官方主辦目錄",
     "url": "https://comedyclub.kktix.cc/",
-    "checkedAt": "2026-10-10T07:59:28+08:00",
+    "checkedAt": "2026-10-10T12:13:23+08:00",
     "mode": "daily-crawl",
     "discovered": 100,
     "included": 31,
@@ -2331,7 +2331,7 @@
     "expectedPages": null,
     "reviewedAt": "2026-10-10",
     "status": "ok",
-    "lastSuccess": "2026-10-10T07:59:28+08:00",
+    "lastSuccess": "2026-10-10T12:13:23+08:00",
     "lastSuccessfulIncluded": 31,
     "message": "每日公開資料自動更新完成；納入 31 筆，待分類 43 筆；不代表完整目錄。",
     "retainedEventCount": 39
