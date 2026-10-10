@@ -42,9 +42,9 @@ GENRES=(
     # Order matters: the first matching rule wins.
     ('爵士','爵士|\\bjazz\\b'),
     ('合唱／聲樂','合唱|唱詩|聖歌|聲樂|獨唱會|女高音|男高音|次女高音|美聲|a\\s?cappella|阿卡貝拉|\\bchoir\\b|\\bchorus\\b|\\bvocal ensemble\\b'),
-    ('國樂／傳統','國樂|絲竹|南管|北管|二胡|琵琶|古箏|古琴|揚琴|笙|嗩吶|笛韻|竹笛|胡琴|客家八音|戲曲音樂|(?-i:\\bTCO\\b)|\\bchinese orchestra\\b'),
+    ('國樂／傳統','國樂|絲竹|南管|北管|二胡|琵琶|古箏|古琴|揚琴|笙|嗩吶|笛韻|竹笛|胡琴|客家八音|戲曲音樂|(?-i:(?<![A-Za-z])TCO(?![A-Za-z]))|\\bchinese orchestra\\b'),
     ('管樂','管樂|軍樂|陸軍樂隊|海軍樂隊|空軍樂隊|\\bwind (?:band|ensemble|orchestra)\\b|\\bbrass\\b'),
-    ('古典／室內樂','交響|管弦|室內樂|獨奏會|協奏|奏鳴|愛樂|弦樂|絃樂|四重奏|三重奏|二重奏|擊樂|鋼琴|小提琴|中提琴|大提琴|管風琴|長笛|豎琴|指揮|莫札特|貝多芬|巴赫|蕭邦|布拉姆斯|柴可夫斯基|馬勒|德布西|拉赫曼尼諾夫|舒伯特|海頓|韋瓦第|(?-i:\\b[A-Z]{1,3}SO\\b)|\\bsymphon|\\bphilharmon|\\borchestra\\b|\\brecital\\b|\\bquartet\\b|\\bpiano\\b|\\bviolin\\b|\\bcello\\b|\\borgan\\b'),
+    ('古典／室內樂','交響|管弦|室內樂|獨奏會|協奏|奏鳴|愛樂|弦樂|絃樂|四重奏|三重奏|二重奏|擊樂|鋼琴|小提琴|中提琴|大提琴|管風琴|長笛|豎琴|指揮|莫札特|貝多芬|巴赫|蕭邦|布拉姆斯|柴可夫斯基|馬勒|德布西|拉赫曼尼諾夫|舒伯特|海頓|韋瓦第|(?-i:(?<![A-Za-z])[A-Z]{1,3}SO(?![A-Za-z]))|\\bsymphon|\\bphilharmon|\\borchestra\\b|\\brecital\\b|\\bquartet\\b|\\bpiano\\b|\\bviolin\\b|\\bcello\\b|\\borgan\\b'),
     ('流行／搖滾演唱會','演唱會|巡迴|巡演|\\btour\\b|\\blive\\b|\\bconcert\\b|fan ?con|\\bfestival\\b|音樂節|專場|演出會'),
 )
 

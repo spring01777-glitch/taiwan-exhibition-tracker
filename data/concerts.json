@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Taipei",
-  "updatedAt": "2026-10-10T08:14:06+08:00",
+  "updatedAt": "2026-10-10T08:16:18+08:00",
   "events": [
     {
       "id": "manual-forever",
@@ -5953,7 +5953,7 @@
           "id": "532e0662e8e28b4802bf"
         }
       ],
-      "genre": "流行／搖滾演唱會"
+      "genre": "古典／室內樂"
     },
     {
       "sourceUid": "https://www.opentix.life/event/2105120900576104449",
@@ -7373,7 +7373,7 @@
           "id": "7d9eef3cc29df7b6030c"
         }
       ],
-      "genre": "其他音樂會"
+      "genre": "古典／室內樂"
     },
     {
       "sourceUid": "https://www.opentix.life/event/2073325986027565057",
