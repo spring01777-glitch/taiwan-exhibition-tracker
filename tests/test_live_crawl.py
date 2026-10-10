@@ -131,6 +131,15 @@ class CrawlRunTests(unittest.TestCase):
             # Platforms without crawler config are never requested.
             self.assertFalse(any('tixcraft' in u for u in FakeFetcher.calls))
 
+    def test_filled_sale_time_replaces_not_provided_note(self):
+        url='https://www.opentix.life/event/9'
+        old=sources.validate_event({'sourceUid':url,'title':'音樂會','region':'高雄市','venue':'衛武營','sessions':[{'date':'2027-01-01','time':'14:30'}],
+            'sourceUrl':url,'saleNote':'一般開賣時間未提供，請見官方。'},'opentix','2026-10-06')
+        raw=crawl.base_event('concerts',url,'音樂會','高雄市','衛武營',None,[{'date':'2027-01-01','time':'14:30'}],url,TODAY)
+        raw.update(saleAt='2026-09-10T12:00:00+08:00',saleNote='開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。')
+        merged=crawl.overlay({old['id']:old},raw,'opentix',TODAY)
+        self.assertEqual(merged['saleAt'],'2026-09-10T12:00:00+08:00');self.assertNotIn('未提供',merged['saleNote'])
+
     def test_robots_http_and_mass_loss_failures_preserve_last_success(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=self.root(tmp)
@@ -207,6 +216,16 @@ class CrossSourceMergeTests(unittest.TestCase):
         b=self.ev('comedyclub','佳諭單口喜劇專場','屏東 打舖2號店','2026-11-14','16:00','https://club.kktix.cc/events/b')
         c=self.ev('comedyclub','另一個節目','屏東 打舖2號店','2026-11-14','20:00','https://club.kktix.cc/events/c')
         self.assertEqual(len(sources.reconcile([a,b,c])),3)
+
+class ConcertGenreTests(unittest.TestCase):
+    def test_genre_rules(self):
+        g=lambda t:sources.concert_genre({'title':t})
+        cases={'Stray Kids World Tour ＜RUN IT TAIPEI＞':'流行／搖滾演唱會','郭子＆浮花樂隊 原來的那首歌 Live':'流行／搖滾演唱會',
+               '【2026 TSO 大師系列】殷巴爾與TSO之馬勒第九號':'古典／室內樂','2026鍾家瑋鋼琴獨奏會':'古典／室內樂','WJSO新年音樂會':'古典／室內樂',
+               '【TCO】音緣－吳大江作品音樂會':'國樂／傳統','返聞—黃意棻古琴碩士畢業音樂會':'國樂／傳統',
+               '木樓合唱團《人聲旅歌》':'合唱／聲樂','2026臺北爵士大樂隊《感爵臺灣》':'爵士','大漢天聲-陸軍樂隊訓練成果發表音樂會':'管樂',
+               '《好年》新年音樂會':'其他音樂會','JOJI SOLARIS':'流行／搖滾演唱會','臺中國家歌劇院 also 演唱會':'流行／搖滾演唱會'}
+        for title,label in cases.items():self.assertEqual(g(title),label,title)
 
 if __name__=='__main__':
     unittest.main()

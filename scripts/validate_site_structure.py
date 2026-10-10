@@ -3,7 +3,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[1]
-PAGES={'index.html':('region','park','date','query','more','results','updated','source-status','view-note','active-count','new-count'), 'concerts.html':('region','venue','platform','date','query','view','results','updated','source-status','active-count'), 'comedy.html':('region','venue','platform','date','query','view','results','updated','source-status','active-count'), 'f1.html':('season','range','next-race','race-grid','race-count','updated','f1-source-status','paid','free-live','highlights')}
+PAGES={'index.html':('region','park','date','query','more','results','updated','source-status','view-note','active-count','new-count'), 'concerts.html':('region','genre','venue','platform','date','query','view','results','updated','source-status','active-count'), 'comedy.html':('region','venue','platform','date','query','view','results','updated','source-status','active-count'), 'f1.html':('season','range','next-race','race-grid','race-count','updated','f1-source-status','paid','free-live','highlights')}
 for name,ids in PAGES.items():
     soup=BeautifulSoup((ROOT/name).read_text(encoding='utf8'),'html.parser')
     assert soup.html['lang']=='zh-Hant-TW' and soup.select_one('meta[name=viewport]')

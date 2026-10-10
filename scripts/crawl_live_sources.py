@@ -529,6 +529,9 @@ def overlay(previous, raw, sid, today):
     for field in ('price', 'saleAt', 'performers'):
         if not merged.get(field) and raw.get(field):
             merged[field] = raw[field]
+            if field == 'saleAt':
+                # A filled-in sale time must not sit beside a "not provided" note.
+                merged['saleNote'] = raw.get('saleNote')
     valid = {(s['date'], s.get('time')) for s in raw['sessions']}
     tickets = []
     for t in merged.get('tickets', []) + raw.get('tickets', []):

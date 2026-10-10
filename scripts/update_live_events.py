@@ -16,7 +16,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 sys.path.insert(0,str(Path(__file__).resolve().parent))
-from live_sources import classify,source_snapshots,snapshot_path,reconcile,import_reviewed,import_canonical
+from live_sources import classify,concert_genre,source_snapshots,snapshot_path,reconcile,import_reviewed,import_canonical
 from live_sources import read as source_read, write as source_write
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -207,7 +207,9 @@ def build(kind, fetch, root=ROOT, now=None, manual_only=False):
                 e['summary'] = e['region']+'的演唱會，演出地點為'+e['venue']+'。'
         e['tickets']=normalize_tickets(e)
     events=reconcile(events)
-    for e in events:e['tickets']=normalize_tickets(e)
+    for e in events:
+        e['tickets']=normalize_tickets(e)
+        if kind=='concerts':e['genre']=concert_genre(e)
     coverage=read(root/'data'/'live-platform-coverage.json', {'sources':[]})
     independent_ids={s['id'] for s in source_statuses}
     sources=[source]+manual['sources']+source_statuses
