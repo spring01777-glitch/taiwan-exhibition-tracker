@@ -14,7 +14,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     permissions:
       contents: write
     outputs:
@@ -59,14 +59,19 @@ jobs:
           if [ "$venue_code" != '0' ]; then code=1; fi
           echo "code=$code" >> "$GITHUB_OUTPUT"
           python scripts/validate_public.py
-      - name: Refresh licensed concert and comedy metadata
+      - name: Crawl public feeds, then refresh concert and comedy metadata
         id: live
         shell: bash
+        # KKTIX organizer feeds, Taipei Arena open data, TMC and OPENTIX
+        # public pages; robots.txt checked, rate limited, last success kept.
         run: |
           set +e
+          python scripts/crawl_live_sources.py
+          crawl_code=$?
           python scripts/update_live_events.py
           code=$?
           set -e
+          if [ "$crawl_code" != '0' ]; then code=1; fi
           echo "code=$code" >> "$GITHUB_OUTPUT"
           python scripts/validate_live_events.py
       - name: Refresh licensed current-season F1 schedule
@@ -97,7 +102,7 @@ jobs:
           cp f1.html f1.js f1.css site/
           cp data/f1.json data/f1-platforms.json site/data/
           mkdir -p site/docs
-          cp docs/CONCERTS.md site/docs/
+          cp docs/CONCERTS.md docs/LIVE_CRAWLERS.md site/docs/
           cp data/exhibitions.json site/data/
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:

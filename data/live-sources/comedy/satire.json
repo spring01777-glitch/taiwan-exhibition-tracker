@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "sourceId": "satire",
+  "kind": "comedy",
+  "events": [
+    {
+      "sourceUid": "https://strnetwork.kktix.cc/events/7ef1b31f",
+      "title": "LIVE IN ASIA JASON CHENY TAIPEI 2027",
+      "performers": null,
+      "region": "新北市",
+      "venue": "Zepp New Taipei",
+      "address": "新北市新莊區新北大道四段3號8樓",
+      "sessions": [
+        {
+          "date": "2027-05-29",
+          "time": "19:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://strnetwork.kktix.cc/events/7ef1b31f",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2027-05-29",
+              "time": "19:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "新北市的單口喜劇，演出地點為Zepp New Taipei。",
+      "sourceUrl": "https://strnetwork.kktix.cc/events/7ef1b31f",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "satire",
+      "id": "c0220a4b0430dc9991b5",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "satire",
+          "sourceUid": "https://strnetwork.kktix.cc/events/7ef1b31f",
+          "id": "c0220a4b0430dc9991b5"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "id": "satire",
+    "name": "薩泰爾官方主辦目錄",
+    "url": "https://strnetwork.kktix.cc/",
+    "checkedAt": "2026-10-10T07:59:28+08:00",
+    "mode": "daily-crawl",
+    "discovered": 71,
+    "included": 1,
+    "excluded": 66,
+    "pending": 4,
+    "failed": 0,
+    "reasons": {
+      "MULTIFIELD_STANDUP_EVIDENCE": 1,
+      "INSUFFICIENT_STANDUP_EVIDENCE": 3,
+      "PLACE_NOT_STRUCTURED": 1,
+      "PAST_EVENT": 59,
+      "MULTI_DAY_PARENT_LISTING": 7
+    },
+    "coverageComplete": false,
+    "scope": "薩泰爾 KKTIX 主辦公開 events.json；僅收明確單口／脫口秀，其餘待分類",
+    "pagesVisited": 1,
+    "expectedPages": null,
+    "status": "ok",
+    "lastSuccess": "2026-10-10T07:59:28+08:00",
+    "lastSuccessfulIncluded": 1,
+    "message": "每日公開資料自動更新完成；納入 1 筆，待分類 4 筆；不代表完整目錄。",
+    "retainedEventCount": 1,
+    "reviewedAt": "2026-10-10"
+  },
+  "records": []
+}

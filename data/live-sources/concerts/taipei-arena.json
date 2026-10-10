@@ -39,7 +39,7 @@
           "saleAt": "2026-04-30T12:00:00+08:00"
         }
       ],
-      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=C25BAEDAF3FD2862&sms=F9A95D3F5A5C2C68",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=C25BAEDAF3FD2862",
       "sessionFacts": [
         {
           "date": "2026-10-17",
@@ -50,8 +50,9 @@
       ],
       "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=C25BAEDAF3FD2862&sms=F9A95D3F5A5C2C68",
       "source": "taipei-arena",
+      "address": "臺北市松山區南京東路四段2號",
       "id": "406a84b32786cf2f9253",
-      "verifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-10",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -175,7 +176,7 @@
           "saleAt": null
         }
       ],
-      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986&sms=F9A95D3F5A5C2C68",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986",
       "sessionFacts": [
         {
           "date": "2026-10-31",
@@ -192,8 +193,9 @@
       ],
       "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986&sms=F9A95D3F5A5C2C68",
       "source": "taipei-arena",
+      "address": "臺北市松山區南京東路四段2號",
       "id": "3b4a5cbdb3a8df5f02bb",
-      "verifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-10",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -325,7 +327,7 @@
           "saleAt": null
         }
       ],
-      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8CCE4249EBCC0A1C&sms=F9A95D3F5A5C2C68",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8CCE4249EBCC0A1C",
       "sessionFacts": [
         {
           "date": "2026-11-06",
@@ -348,8 +350,9 @@
       ],
       "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8CCE4249EBCC0A1C&sms=F9A95D3F5A5C2C68",
       "source": "taipei-arena",
+      "address": "臺北市松山區南京東路四段2號",
       "id": "e53a2e09c536ec2fd996",
-      "verifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-10",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -434,7 +437,7 @@
           "saleAt": null
         }
       ],
-      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8DA71330A665A8F4&sms=F9A95D3F5A5C2C68",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8DA71330A665A8F4",
       "sessionFacts": [
         {
           "date": "2026-12-12",
@@ -475,8 +478,9 @@
       ],
       "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=8DA71330A665A8F4&sms=F9A95D3F5A5C2C68",
       "source": "taipei-arena",
+      "address": "臺北市松山區南京東路四段2號",
       "id": "490a1fdc7c6861a151f5",
-      "verifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-10",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -496,7 +500,7 @@
           "time": "18:00"
         }
       ],
-      "price": null,
+      "price": "免費索票",
       "saleAt": null,
       "saleNote": "官方列索票登記及校友報名，票價及一般公眾資格未核實；不可顯示為可直接購票",
       "ticketStatus": "官方活動資料已核對；非即時票況",
@@ -507,7 +511,7 @@
       "revisions": [],
       "verificationMethod": "official venue event detail",
       "tickets": [],
-      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F487E50933CD78AE&sms=F9A95D3F5A5C2C68",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F487E50933CD78AE",
       "sessionFacts": [
         {
           "date": "2026-10-14",
@@ -518,13 +522,130 @@
       ],
       "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F487E50933CD78AE&sms=F9A95D3F5A5C2C68",
       "source": "taipei-arena",
+      "address": "臺北市松山區南京東路四段2號",
       "id": "806b2c8ead2fb7eadd25",
-      "verifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-10",
       "sourceRefs": [
         {
           "source": "taipei-arena",
           "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=F487E50933CD78AE&sms=F9A95D3F5A5C2C68",
           "id": "806b2c8ead2fb7eadd25"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=E4E6C8C6312BFA4E",
+      "title": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "address": "臺北市松山區南京東路四段2號",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "18:00"
+        },
+        {
+          "date": "2026-10-25",
+          "time": "18:00"
+        }
+      ],
+      "price": "800 / 2,880 / 3,880 / 4,880 / 5,280 / 5,880 / 6,280",
+      "saleAt": null,
+      "saleNote": "售票系統：寬宏售票系統(10/24)、 寬宏售票系統(10/25)；開賣時間請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北小巨蛋。",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=E4E6C8C6312BFA4E",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "taipei-arena",
+      "id": "3d96930163d49a0df65d",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=E4E6C8C6312BFA4E",
+          "id": "3d96930163d49a0df65d"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=EC29FBA0E020B360",
+      "title": "劉若英 [飛行日] 2026巡迴演唱會 台北站",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "address": "臺北市松山區南京東路四段2號",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "18:30"
+        }
+      ],
+      "price": "4,500 / 4,200 / 3,800 / 2,800 / 2,200 / 1,800 / 800",
+      "saleAt": null,
+      "saleNote": "售票系統：拓元售票系統；開賣時間請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北小巨蛋。",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=EC29FBA0E020B360",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "taipei-arena",
+      "id": "7498491a239c4fbe2a68",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=EC29FBA0E020B360",
+          "id": "7498491a239c4fbe2a68"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=1A4179D898446F51",
+      "title": "Mr. Children Tour 2026 “Saturday in the Park”",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "address": "臺北市松山區南京東路四段2號",
+      "sessions": [
+        {
+          "date": "2026-12-26",
+          "time": "17:00"
+        },
+        {
+          "date": "2026-12-27",
+          "time": "16:00"
+        }
+      ],
+      "price": "7,000（BOX SEAT） / 6,880 / 6,380 / 4,880 / 3,880 / 2,880 / 1,880 / 800",
+      "saleAt": null,
+      "saleNote": "售票系統：遠大售票系統(登記連結近日公開)；開賣時間請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北小巨蛋。",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=1A4179D898446F51",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "taipei-arena",
+      "id": "29127a5f83ff718586f3",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=1A4179D898446F51",
+          "id": "29127a5f83ff718586f3"
         }
       ]
     }
@@ -533,26 +654,27 @@
     "id": "taipei-arena",
     "name": "臺北小巨蛋官方活動資料",
     "url": "https://www.arena.taipei/",
-    "checkedAt": "2026-10-06T09:15:59+08:00",
-    "mode": "reviewed-import",
-    "discovered": 7,
-    "included": 7,
+    "checkedAt": "2026-10-10T07:59:28+08:00",
+    "mode": "daily-crawl",
+    "discovered": 11,
+    "included": 8,
     "excluded": 0,
-    "pending": 0,
+    "pending": 3,
     "failed": 0,
     "reasons": {
-      "OFFICIAL_REVIEWED_FORMAT": 7
+      "INSUFFICIENT_CONCERT_EVIDENCE": 3,
+      "CONCERT_EVIDENCE": 8
     },
     "coverageComplete": false,
-    "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
+    "scope": "臺北小巨蛋「已公開(售票/派票)活動」政府開放資料 JSON",
     "pagesVisited": 1,
-    "expectedPages": 1,
-    "reviewedAt": "2026-10-06",
+    "expectedPages": null,
+    "reviewedAt": "2026-10-10",
     "status": "ok",
-    "lastSuccess": "2026-10-06T09:15:59+08:00",
-    "lastSuccessfulIncluded": 7,
-    "message": "本次核對匯入完成；零符合、部分範圍或完整範圍分開記錄，非全平台每日掃描。",
-    "retainedEventCount": 7
+    "lastSuccess": "2026-10-10T07:59:28+08:00",
+    "lastSuccessfulIncluded": 8,
+    "message": "每日公開資料自動更新完成；納入 8 筆，待分類 3 筆；不代表完整目錄。",
+    "retainedEventCount": 10
   },
   "records": [
     {

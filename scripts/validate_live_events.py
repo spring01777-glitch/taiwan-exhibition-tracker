@@ -1,10 +1,13 @@
 """Validate the only two live-event snapshots included in the Pages artifact."""
-import argparse,json,re
+import argparse,json,re,sys
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
-FIELDS={'id','title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','sourceUrl','source','sourceUid','status','statusNote','summary','verifiedAt','revisions','tickets','cloudReviewPending','verificationMethod','sourceRefs','sessionFacts','programKey'}
+sys.path.insert(0,str(ROOT/'scripts'))
+from live_sources import GENRES
+GENRE_LABELS={label for label,_ in GENRES}|{'其他音樂會','流行／搖滾演唱會'}
+FIELDS={'id','title','performers','region','venue','address','sessions','price','saleAt','saleNote','ticketStatus','ticketUrl','ticketVerifiedAt','sourceUrl','source','sourceUid','status','statusNote','summary','verifiedAt','revisions','tickets','cloudReviewPending','verificationMethod','sourceRefs','sessionFacts','programKey','genre'}
 def sale_time_conflicts(data):
     return [e['id'] for e in data['events'] if
         (e.get('saleAt') or any(t.get('saleAt') for t in e.get('tickets',[]))) and
@@ -20,6 +23,8 @@ def validate(strict_sale_times=False):
             assert not set(e)-FIELDS
             assert e['title'] and e['venue'] and e['sessions'] and len(e['summary'])<=180
             assert isinstance(e['sourceUrl'],str) and e['sourceUrl']
+            if kind=='concerts':assert e.get('genre') in GENRE_LABELS,'concert genre required'
+            else:assert 'genre' not in e
             assert e['status'] in ('scheduled','changed','unconfirmed','cancelled','rescheduled')
             for s in e['sessions']:
                 assert set(s)<={'date','time','status'}

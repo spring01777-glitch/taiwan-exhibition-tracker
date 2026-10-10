@@ -4,7 +4,7 @@
   "kind": "concerts",
   "events": [
     {
-      "title": "TAKUYA KIMURA Live Tour 2026 Checkpoint in TAIPEI",
+      "title": "「TAKUYA KIMURA Live Tour 2026 Checkpoint」in TAIPEI",
       "performers": "",
       "region": "臺北市",
       "venue": "臺北流行音樂中心 表演廳",
@@ -46,8 +46,9 @@
       ],
       "sourceUid": "https://www.tmc.taipei/tw/blog/show/TAKUYAKIMURA2026",
       "source": "tmc",
+      "address": "臺北市南港區市民大道八段99號",
       "id": "5a2f499bc320050d706d",
-      "verifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-10",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -89,8 +90,9 @@
       ],
       "sourceUid": "https://www.tmc.taipei/tw/blog/show/2026SingTheScene",
       "source": "tmc",
+      "address": "臺北市南港區市民大道八段99號",
       "id": "a106df9194cdbf76ac29",
-      "verifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-10",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -160,8 +162,9 @@
       ],
       "sourceUid": "https://www.tmc.taipei/tw/blog/show/DianaKrall2026",
       "source": "tmc",
+      "address": "臺北市南港區市民大道八段99號",
       "id": "d173c4a25563354bc411",
-      "verifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-10",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -171,7 +174,7 @@
       ]
     },
     {
-      "title": "K21 顏社二十一週年演唱會",
+      "title": "《K21》顏社二十一週年演唱會",
       "performers": "",
       "region": "臺北市",
       "venue": "臺北流行音樂中心 表演廳",
@@ -208,19 +211,6 @@
           ],
           "price": "NT$1380／1880／2580／3380／3880／4280",
           "saleAt": "2026-08-05T12:00:00+08:00"
-        },
-        {
-          "platform": "KKTIX",
-          "url": "https://kaoinc.kktix.cc/events/kiorfd",
-          "checkedAt": "2026-10-06",
-          "sessions": [
-            {
-              "date": "2026-12-13",
-              "time": "17:00"
-            }
-          ],
-          "price": "NT$1380／1880／2580／3380／3880／4280",
-          "saleAt": "2026-08-13T12:00:00+08:00"
         }
       ],
       "sourceUrl": "https://www.tmc.taipei/tw/blog/show/K21",
@@ -240,8 +230,9 @@
       ],
       "sourceUid": "https://www.tmc.taipei/tw/blog/show/K21",
       "source": "tmc",
+      "address": "臺北市南港區市民大道八段99號",
       "id": "cdf081b71dd024aee0c7",
-      "verifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-10",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -297,8 +288,9 @@
       ],
       "sourceUid": "https://www.tmc.taipei/tw/blog/show/atarayo2026",
       "source": "tmc",
+      "address": "臺北市南港區市民大道八段99號",
       "id": "4e75617750e2efcdbca4",
-      "verifiedAt": "2026-10-06",
+      "verifiedAt": "2026-10-10",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -369,32 +361,108 @@
           "id": "a61e64ada72c6c572e99"
         }
       ]
+    },
+    {
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/Patrick2026",
+      "title": "派偉俊 Patrick Brasca《BAD IDEA》2026個人演唱會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "address": "臺北市南港區市民大道八段99號",
+      "sessions": [
+        {
+          "date": "2026-10-10",
+          "time": "19:00"
+        }
+      ],
+      "price": "$3,880 (搖滾站席) / $3,680 / $3,280 / $2,680 $1,940 特區身障席 / $1,640 二樓身障席",
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北流行音樂中心 表演廳。",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/Patrick2026",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "tmc",
+      "id": "f73d79133679f6544b82",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "tmc",
+          "sourceUid": "https://www.tmc.taipei/tw/blog/show/Patrick2026",
+          "id": "f73d79133679f6544b82"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/2026SungNien-Yu",
+      "title": "小宇 宋念宇 《不，完美的人》 演唱會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "address": "臺北市南港區市民大道八段99號",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "19:30"
+        }
+      ],
+      "price": "4,280 / 3,880 / 3,480 / 2,880 / 2,480 / 1,880",
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北流行音樂中心 表演廳。",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/2026SungNien-Yu",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "tmc",
+      "id": "7ffcc18eed4e026d2bca",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "tmc",
+          "sourceUid": "https://www.tmc.taipei/tw/blog/show/2026SungNien-Yu",
+          "id": "7ffcc18eed4e026d2bca"
+        }
+      ]
     }
   ],
   "status": {
     "id": "tmc",
     "name": "臺北流行音樂中心官方活動資料",
     "url": "https://www.tmc.taipei/",
-    "checkedAt": "2026-10-06T09:15:59+08:00",
-    "mode": "reviewed-import",
-    "discovered": 6,
-    "included": 6,
-    "excluded": 0,
-    "pending": 0,
+    "checkedAt": "2026-10-10T07:59:28+08:00",
+    "mode": "daily-crawl",
+    "discovered": 12,
+    "included": 7,
+    "excluded": 3,
+    "pending": 2,
     "failed": 0,
     "reasons": {
-      "OFFICIAL_REVIEWED_FORMAT": 6
+      "OTHER_REVIEWED_FORMAT": 3,
+      "DATE_RANGE_WITHOUT_SESSIONS": 1,
+      "INSUFFICIENT_CONCERT_EVIDENCE": 1,
+      "OFFICIAL_REVIEWED_FORMAT": 6,
+      "CONCERT_EVIDENCE": 1
     },
     "coverageComplete": false,
-    "scope": "雲端文字交接 primary-20261006 的已核缺漏清單；研究窗口 {'start': '2026-10-06', 'end': '2027-01-06'}；不是全站完整目錄",
-    "pagesVisited": 1,
-    "expectedPages": 1,
-    "reviewedAt": "2026-10-06",
+    "scope": "北流官網「最近活動」公開頁；長日期區間不推定場次",
+    "pagesVisited": 9,
+    "expectedPages": null,
+    "reviewedAt": "2026-10-10",
     "status": "ok",
-    "lastSuccess": "2026-10-06T09:15:59+08:00",
-    "lastSuccessfulIncluded": 6,
-    "message": "本次核對匯入完成；零符合、部分範圍或完整範圍分開記錄，非全平台每日掃描。",
-    "retainedEventCount": 6
+    "lastSuccess": "2026-10-10T07:59:28+08:00",
+    "lastSuccessfulIncluded": 7,
+    "message": "每日公開資料自動更新完成；納入 7 筆，待分類 2 筆；不代表完整目錄。",
+    "retainedEventCount": 8
   },
   "records": [
     {

@@ -53,6 +53,10 @@ node --check app.js
 所有活動地點均納入地區連動的場館選單，含博物館、藝廊、圖書館等。[場館分類規則及缺漏](docs/VENUES.md)。僅有行政區或地址的紀錄明示待確認／地址地點，原始展廳資訊保留。回歸：`python scripts/venue_regression.py`，可用`--url`檢驗公開站。
 
 
+## 演唱會／脫口秀自動擷取
+
+沒有 API 的低風險公開來源每日自動更新：卡米地、薩泰爾 KKTIX 主辦公開 events.json，臺北小巨蛋開放資料，北流公開活動頁，OPENTIX sitemap 與活動頁結構化場次。遵守 robots.txt、每次請求間隔1.2秒，失敗或來源驟減時保留最後成功資料，人工核對欄位不被覆蓋。拓元、ibon、年代、寬宏、KKTIX 總站維持人工核對。[自動擷取來源與規則](docs/LIVE_CRAWLERS.md)。
+
 ## F1 賽事與觀看指南
 
 [F1 專區](f1.html) 使用 Jolpica CC BY-NC-SA 4.0 非商業社群 API，每日同一 workflow 更新2026賽程，顯示台灣時間、UTC 與跨日。非 F1 官方資料，不爬取 Formula1.com。觀看平台為人工核對官方入口，地域、付費、免費精華與未確認免費場次分別標示。[來源與授權](docs/F1.md)。

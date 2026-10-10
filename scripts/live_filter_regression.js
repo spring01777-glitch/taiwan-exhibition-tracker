@@ -45,3 +45,7 @@ assert.equal(sessionTickets(split,split.sessions[1]).length,2);
 assert.deepEqual(facets([split],{date:'2030-01-02',view:'all'},'platform'),['未核對']);
 assert(!matches({...split,sessions:[{date:'2020-01-01'},{date:'2030-01-01'}]},{date:'2020-01-01',view:'upcoming'},'2026-10-06'));
 console.log('PASS same-day time scopes, multiple platforms, impossible date/platform, past dates, facets');
+const genreEvents=[{status:'scheduled',region:'X',venue:'Y',title:'a',genre:'爵士',sessions:[{date:'2030-01-01',time:null}]},{status:'scheduled',region:'X',venue:'Y',title:'b',genre:'流行／搖滾演唱會',sessions:[{date:'2030-01-01',time:null}]}];
+assert.deepEqual(genreEvents.filter(e=>matches(e,{genre:'爵士',view:'all'})).map(e=>e.title),['a']);
+assert.deepEqual(require('../concerts.js').sortGenres(facets(genreEvents,{view:'all'},'genre')),['流行／搖滾演唱會','爵士']);
+console.log('PASS genre filter and facet order');

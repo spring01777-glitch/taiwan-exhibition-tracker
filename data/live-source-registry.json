@@ -48,9 +48,17 @@
         "comedy"
       ],
       "adapter": "reviewed-json",
-      "mode": "cloud-reviewed-import",
-      "permission": "automation-not-approved",
-      "scope": "卡米地公開主辦目錄；分頁與排除項目需記錄"
+      "mode": "daily-crawl",
+      "permission": "public-feed-robots-checked",
+      "scope": "卡米地 KKTIX 主辦公開 events.json（最新100筆）；僅收明確單口／脫口秀，其餘待分類",
+      "crawler": {
+        "adapter": "kktix-feed",
+        "kinds": [
+          "comedy"
+        ],
+        "base": "https://comedyclub.kktix.cc",
+        "scope": "卡米地 KKTIX 主辦公開 events.json（最新100筆）；僅收明確單口／脫口秀，其餘待分類"
+      }
     },
     {
       "id": "satire",
@@ -60,9 +68,17 @@
         "comedy"
       ],
       "adapter": "reviewed-json",
-      "mode": "cloud-reviewed-import",
-      "permission": "automation-not-approved",
-      "scope": "2026-10-09 由薩泰爾官方活動頁主辦連結確認目錄；僅核對近期可見活動，不代表完整目錄；維持人工核對匯入"
+      "mode": "daily-crawl",
+      "permission": "public-feed-robots-checked",
+      "scope": "薩泰爾 KKTIX 主辦公開 events.json；僅收明確單口／脫口秀，其餘待分類",
+      "crawler": {
+        "adapter": "kktix-feed",
+        "kinds": [
+          "comedy"
+        ],
+        "base": "https://strnetwork.kktix.cc",
+        "scope": "薩泰爾 KKTIX 主辦公開 events.json；僅收明確單口／脫口秀，其餘待分類"
+      }
     },
     {
       "id": "ibon",
@@ -112,9 +128,20 @@
         "comedy"
       ],
       "adapter": "reviewed-json",
-      "mode": "cloud-reviewed-import",
-      "permission": "automation-not-approved",
-      "scope": "待雲端核對；需區分單口、音樂劇與課程"
+      "mode": "daily-crawl",
+      "permission": "public-feed-robots-checked",
+      "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；只讀新上架活動，已讀過的不重抓，已結束活動不收錄；每日最多100頁",
+      "crawler": {
+        "adapter": "opentix-sitemap",
+        "kinds": [
+          "concerts",
+          "comedy"
+        ],
+        "base": "https://www.opentix.life",
+        "sitemap": "/otWebSitemap.xml",
+        "maxPagesPerRun": 100,
+        "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；只讀新上架活動，已讀過的不重抓，已結束活動不收錄；每日最多100頁"
+      }
     },
     {
       "id": "taipei-arena",
@@ -124,9 +151,18 @@
         "concerts"
       ],
       "adapter": "reviewed-json",
-      "mode": "cloud-reviewed-import",
-      "permission": "automation-not-approved",
-      "scope": "雲端核實缺漏清單；不是全站目錄"
+      "mode": "daily-crawl",
+      "permission": "public-feed-robots-checked",
+      "scope": "臺北小巨蛋「已公開(售票/派票)活動」政府開放資料 JSON",
+      "crawler": {
+        "adapter": "arena-opendata",
+        "kinds": [
+          "concerts"
+        ],
+        "base": "https://www.arena.taipei",
+        "feed": "/OpenData.aspx?SN=DDA0CF2A5B65EBFE",
+        "scope": "臺北小巨蛋「已公開(售票/派票)活動」政府開放資料 JSON"
+      }
     },
     {
       "id": "tmc",
@@ -136,9 +172,18 @@
         "concerts"
       ],
       "adapter": "reviewed-json",
-      "mode": "cloud-reviewed-import",
-      "permission": "automation-not-approved",
-      "scope": "雲端核實缺漏清單；不是全站目錄"
+      "mode": "daily-crawl",
+      "permission": "public-feed-robots-checked",
+      "scope": "北流官網「最近活動」公開頁；長日期區間不推定場次",
+      "crawler": {
+        "adapter": "tmc-pages",
+        "kinds": [
+          "concerts"
+        ],
+        "base": "https://www.tmc.taipei",
+        "list": "/tw/blog/show?filter=eyJkaXJlY3Rpb24iOiJsYXN0ZXN0In0=",
+        "scope": "北流官網「最近活動」公開頁；長日期區間不推定場次"
+      }
     },
     {
       "id": "accupass",

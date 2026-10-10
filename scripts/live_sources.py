@@ -21,7 +21,7 @@ def classify(kind, evidence):
     """Return included/excluded/pending and an inspectable, fixed reason."""
     fields=('title','format','categories','description','performers','showUnit','descriptionFilterHtml')
     text=' '.join(str(evidence.get(k,'') or '') for k in fields)
-    if re.search(r'課程|工作坊|研習|研討會|講座|音樂劇|音樂喜劇|musical|workshop|masterclass|\bcourse\b|\bclass\b',text,re.I):
+    if re.search(r'課程|工作坊|研習|研討會|講座|音樂劇|音樂喜劇|歌劇(?!院)|\bopera\b|musical|workshop|masterclass|\bcourse\b|\bclass\b',text,re.I):
         return 'excluded','COURSE_OR_MUSICAL'
     if re.search(r'fan.?meeting|粉絲見面|見面會|票券升級|\bupgrade\b',text,re.I):
         return 'excluded','FAN_MEETING_OR_UPGRADE'
@@ -37,6 +37,23 @@ def classify(kind, evidence):
     if re.search(r'演唱會|音樂會|演唱|\bconcert\b|\blive\b',text,re.I) or str(evidence.get('category'))=='17':
         return 'included','CONCERT_EVIDENCE'
     return 'pending','INSUFFICIENT_CONCERT_EVIDENCE'
+
+GENRES=(
+    # Order matters: the first matching rule wins.
+    ('爵士','爵士|\\bjazz\\b'),
+    ('合唱／聲樂','合唱|唱詩|聖歌|聲樂|獨唱會|女高音|男高音|次女高音|美聲|a\\s?cappella|阿卡貝拉|\\bchoir\\b|\\bchorus\\b|\\bvocal ensemble\\b'),
+    ('國樂／傳統','國樂|絲竹|南管|北管|二胡|琵琶|古箏|古琴|揚琴|笙|嗩吶|笛韻|竹笛|胡琴|客家八音|戲曲音樂|(?-i:(?<![A-Za-z])TCO(?![A-Za-z]))|\\bchinese orchestra\\b'),
+    ('管樂','管樂|軍樂|陸軍樂隊|海軍樂隊|空軍樂隊|\\bwind (?:band|ensemble|orchestra)\\b|\\bbrass\\b'),
+    ('古典／室內樂','交響|管弦|室內樂|獨奏會|協奏|奏鳴|愛樂|弦樂|絃樂|四重奏|三重奏|二重奏|擊樂|鋼琴|小提琴|中提琴|大提琴|管風琴|長笛|豎琴|指揮|莫札特|貝多芬|巴赫|蕭邦|布拉姆斯|柴可夫斯基|馬勒|德布西|拉赫曼尼諾夫|舒伯特|海頓|韋瓦第|(?-i:(?<![A-Za-z])[A-Z]{1,3}SO(?![A-Za-z]))|\\bsymphon|\\bphilharmon|\\borchestra\\b|\\brecital\\b|\\bquartet\\b|\\bpiano\\b|\\bviolin\\b|\\bcello\\b|\\borgan\\b'),
+    ('流行／搖滾演唱會','演唱會|巡迴|巡演|\\btour\\b|\\blive\\b|\\bconcert\\b|fan ?con|\\bfestival\\b|音樂節|專場|演出會'),
+)
+
+def concert_genre(event):
+    """A display subcategory for the concerts page, from title and performers."""
+    text=' '.join(str(event.get(k) or '') for k in ('title','performers'))
+    for label,pattern in GENRES:
+        if re.search(pattern,text,re.I):return label
+    return '其他音樂會' if '音樂會' in text else '流行／搖滾演唱會'
 
 def read(path,fallback):
     return json.loads(path.read_text(encoding='utf-8')) if path.exists() else copy.deepcopy(fallback)
@@ -227,6 +244,10 @@ def program_identity(event):
     if '涵冷娜' in title and '喊卡之後' in title:return 'coldn-after-cut'
     return None
 
+def title_key(value):
+    # Listing prefixes such as 【11/14 屏東場】 are not part of the show name.
+    return normalized(re.sub(r'^\s*[【\[][^】\]]{0,20}[】\]]\s*','',str(value or '')))
+
 def reconcile(events):
     """Keep source identity and merge only same-place, corroborated sessions."""
     result=[]
@@ -239,9 +260,18 @@ def reconcile(events):
         urls=lambda x:{t['url'] for t in x.get('tickets',[]) if t.get('url')}|({x['sourceUrl']} if x.get('sourceUrl') and 'data.gov.tw/dataset/' not in x['sourceUrl'] else set())
         before=None
         for candidate in result:
-            if (normalized(e['region']),venue_identity(e['venue']))!=(normalized(candidate['region']),venue_identity(candidate['venue'])):continue
+            if normalized(e['region'])!=normalized(candidate['region']):continue
+            if venue_identity(e['venue'])!=venue_identity(candidate['venue']):
+                # Venue labels differ across providers (e.g. "屏東 打舖2號店");
+                # the same title at the same city, date and clock time is the
+                # same performance.
+                exact={(s['date'],s['time']) for s in e['sessions'] if s.get('time')}&{(s['date'],s['time']) for s in candidate['sessions'] if s.get('time')}
+                if exact and title_key(e['title'])==title_key(candidate['title']):
+                    before=candidate;break
+                continue
             stable=bool(e.get('sourceUid') and any(r['source']==e['source'] and r.get('sourceUid')==e['sourceUid'] for r in candidate['sourceRefs']))
-            corroborated=normalized(e['title'])==normalized(candidate['title']) or bool(urls(e)&urls(candidate))
+            a,b=title_key(e['title']),title_key(candidate['title'])
+            corroborated=a==b or bool(urls(e)&urls(candidate)) or (min(len(a),len(b))>=8 and (a in b or b in a))
             program=bool(e.get('programKey') and e.get('programKey')==candidate.get('programKey'))
             if stable or program or (corroborated and scope(e)&scope(candidate) and normalized(e['venue']) not in ('場館未提供','unknown','')):
                 before=candidate;break
@@ -250,7 +280,13 @@ def reconcile(events):
             if (s['date'],s.get('time') or '') not in scope(before):before['sessions'].append(s)
         for r in refs:
             if r not in before['sourceRefs']:before['sourceRefs'].append(r)
-        before.setdefault('tickets',[]).extend(e.get('tickets',[]))
+        for t in e.get('tickets',[]):
+            # A reviewed ticket for the same URL keeps its price/sale facts;
+            # another source only widens its session scope.
+            same=next((x for x in before.setdefault('tickets',[]) if x.get('url')==t.get('url')),None)
+            if same is None:before['tickets'].append(t);continue
+            for s in t.get('sessions',[]):
+                if s not in same.setdefault('sessions',[]):same['sessions'].append(s)
         for fact in e.get('sessionFacts',[]):
             if fact not in before.setdefault('sessionFacts',[]):before['sessionFacts'].append(fact)
     for e in result:e['sessions'].sort(key=lambda s:(s['date'],s.get('time') or ''))
