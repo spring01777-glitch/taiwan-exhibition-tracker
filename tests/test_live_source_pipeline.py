@@ -220,6 +220,11 @@ class PipelineTests(unittest.TestCase):
             root=Path(tmp)
             for name in ('live-source-registry.json','concerts-manual.json','comedy-manual.json','concerts.json','comedy.json','live-event-links.json','live-platform-coverage.json'):
                 sources.write(root/'data'/name,sources.read(repo/'data'/name,{}))
+            crawled={e['id'] for e in sources.load_registry(root) if e.get('crawler')}
+            for kind in ('concerts','comedy'):
+                built=sources.read(root/f'data/{kind}.json',{})
+                built['events']=[e for e in built['events'] if e.get('source') not in crawled]
+                sources.write(root/f'data/{kind}.json',built)
             for path in (repo/'data/live-sources').rglob('*.json'):
                 saved=sources.read(path,{})
                 # Daily-crawled snapshots change every day; rebuild those
@@ -227,7 +232,7 @@ class PipelineTests(unittest.TestCase):
                 if not isinstance(saved,dict) or saved.get('status',{}).get('mode')=='daily-crawl' or path.name=='crawl-state.json':continue
                 sources.write(root/'data/live-sources'/path.relative_to(repo/'data/live-sources'),saved)
             for day in ('2026-10-07T09:00:00+08:00','2026-10-08T09:00:00+08:00'):
-                for kind,expected in (('concerts',(85,122)),('comedy',(60,85))):
+                for kind,expected in (('concerts',(83,119)),('comedy',(60,85))):
                     payload=sources.read(repo/f'data/live-audits/{kind}-primary-20261006.json',{})
                     self.assertTrue(all(sources.import_canonical(root,kind,payload,day,'primary-20261006').values()))
                     # A daily MOC response without usable new facts must not wash out providers.

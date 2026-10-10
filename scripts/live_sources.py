@@ -21,7 +21,7 @@ def classify(kind, evidence):
     """Return included/excluded/pending and an inspectable, fixed reason."""
     fields=('title','format','categories','description','performers','showUnit','descriptionFilterHtml')
     text=' '.join(str(evidence.get(k,'') or '') for k in fields)
-    if re.search(r'課程|工作坊|研習|研討會|講座|音樂劇|音樂喜劇|musical|workshop|masterclass|\bcourse\b|\bclass\b',text,re.I):
+    if re.search(r'課程|工作坊|研習|研討會|講座|音樂劇|音樂喜劇|歌劇(?!院)|\bopera\b|musical|workshop|masterclass|\bcourse\b|\bclass\b',text,re.I):
         return 'excluded','COURSE_OR_MUSICAL'
     if re.search(r'fan.?meeting|粉絲見面|見面會|票券升級|\bupgrade\b',text,re.I):
         return 'excluded','FAN_MEETING_OR_UPGRADE'
@@ -227,6 +227,10 @@ def program_identity(event):
     if '涵冷娜' in title and '喊卡之後' in title:return 'coldn-after-cut'
     return None
 
+def title_key(value):
+    # Listing prefixes such as 【11/14 屏東場】 are not part of the show name.
+    return normalized(re.sub(r'^\s*[【\[][^】\]]{0,20}[】\]]\s*','',str(value or '')))
+
 def reconcile(events):
     """Keep source identity and merge only same-place, corroborated sessions."""
     result=[]
@@ -239,9 +243,18 @@ def reconcile(events):
         urls=lambda x:{t['url'] for t in x.get('tickets',[]) if t.get('url')}|({x['sourceUrl']} if x.get('sourceUrl') and 'data.gov.tw/dataset/' not in x['sourceUrl'] else set())
         before=None
         for candidate in result:
-            if (normalized(e['region']),venue_identity(e['venue']))!=(normalized(candidate['region']),venue_identity(candidate['venue'])):continue
+            if normalized(e['region'])!=normalized(candidate['region']):continue
+            if venue_identity(e['venue'])!=venue_identity(candidate['venue']):
+                # Venue labels differ across providers (e.g. "屏東 打舖2號店");
+                # the same title at the same city, date and clock time is the
+                # same performance.
+                exact={(s['date'],s['time']) for s in e['sessions'] if s.get('time')}&{(s['date'],s['time']) for s in candidate['sessions'] if s.get('time')}
+                if exact and title_key(e['title'])==title_key(candidate['title']):
+                    before=candidate;break
+                continue
             stable=bool(e.get('sourceUid') and any(r['source']==e['source'] and r.get('sourceUid')==e['sourceUid'] for r in candidate['sourceRefs']))
-            corroborated=normalized(e['title'])==normalized(candidate['title']) or bool(urls(e)&urls(candidate))
+            a,b=title_key(e['title']),title_key(candidate['title'])
+            corroborated=a==b or bool(urls(e)&urls(candidate)) or (min(len(a),len(b))>=8 and (a in b or b in a))
             program=bool(e.get('programKey') and e.get('programKey')==candidate.get('programKey'))
             if stable or program or (corroborated and scope(e)&scope(candidate) and normalized(e['venue']) not in ('場館未提供','unknown','')):
                 before=candidate;break
@@ -250,7 +263,13 @@ def reconcile(events):
             if (s['date'],s.get('time') or '') not in scope(before):before['sessions'].append(s)
         for r in refs:
             if r not in before['sourceRefs']:before['sourceRefs'].append(r)
-        before.setdefault('tickets',[]).extend(e.get('tickets',[]))
+        for t in e.get('tickets',[]):
+            # A reviewed ticket for the same URL keeps its price/sale facts;
+            # another source only widens its session scope.
+            same=next((x for x in before.setdefault('tickets',[]) if x.get('url')==t.get('url')),None)
+            if same is None:before['tickets'].append(t);continue
+            for s in t.get('sessions',[]):
+                if s not in same.setdefault('sessions',[]):same['sessions'].append(s)
         for fact in e.get('sessionFacts',[]):
             if fact not in before.setdefault('sessionFacts',[]):before['sessionFacts'].append(fact)
     for e in result:e['sessions'].sort(key=lambda s:(s['date'],s.get('time') or ''))

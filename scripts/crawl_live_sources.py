@@ -423,9 +423,9 @@ def parse_opentix(body, url, today):
 
 
 def refresh_opentix(entry, fetch, today, state):
-    """Sitemap lastmod picks new or changed events; cached facts avoid
-    re-reading unchanged pages, and a daily cap keeps the request rate low.
-    One read serves every kind; provider prose is not cached."""
+    """Only newly listed events are read (newest first); known events are not
+    re-read unless refreshDays is set, and past events never are. A daily cap
+    keeps the request rate low. One read serves every kind; no prose cached."""
     c = entry['crawler']
     reader = fetch(c['base'])
     tree = ET.fromstring(reader.get(c['base'] + c['sitemap']))
@@ -438,14 +438,30 @@ def refresh_opentix(entry, fetch, today, state):
     if not listed:
         raise SourceError('empty feed or changed structure')
     cache = state.setdefault('pages', {})
-    stale = [u for u, mod in listed.items() if cache.get(u, {}).get('lastmod') != mod]
-    stale.sort(key=lambda u: listed[u], reverse=True)
+    refresh = c.get('refreshDays')  # None: never re-read a known event
     limit = c.get('maxPagesPerRun', 60)
+    due = (datetime.fromisoformat(today) - timedelta(days=refresh)).date().isoformat() if refresh else None
+
+    def priority(url):
+        page = cache.get(url)
+        if not page:
+            return (0, '')  # never read
+        facts = page.get('facts')
+        if facts and facts['sessions'] and max(x['date'] for x in facts['sessions']) < today:
+            return None  # every session is past: never read again
+        if due is None or page.get('readAt', '') > due:
+            return None  # read recently; lastmod churns daily, so it is not used
+        return (1, page.get('readAt', ''))
+
+    ranked = {u: priority(u) for u in listed}
+    fresh = sorted((u for u, r in ranked.items() if r and r[0] == 0), key=lambda u: listed[u], reverse=True)
+    recheck = sorted((u for u, r in ranked.items() if r and r[0] == 1), key=lambda u: ranked[u][1])
+    stale = fresh + recheck
     for url in stale[:limit]:
         try:
-            cache[url] = dict(lastmod=listed[url], facts=parse_opentix(reader.text(url), url, today))
+            cache[url] = dict(readAt=today, facts=parse_opentix(reader.text(url), url, today))
         except (KeyError, TypeError, ValueError, AttributeError):
-            cache[url] = dict(lastmod=listed[url], facts=None)
+            cache[url] = dict(readAt=today, facts=None)
     for url in list(cache):
         if url not in listed:
             del cache[url]
@@ -459,12 +475,12 @@ def crawl_opentix(kind, entry, fetch, today, counter, state):
     events = []
     for url, page in cache.items():
         facts = page.get('facts')
+        if facts is not None and facts['sessions'] and not upcoming(facts['sessions'], today):
+            continue  # past events are neither counted nor published
         counter.stats['discovered'] += 1
-        if facts is None:
-            counter.add('failed', 'NO_STRUCTURED_EVENT')
-            continue
-        if not facts['sessions'] or not upcoming(facts['sessions'], today):
-            counter.add('excluded', 'PAST_EVENT')
+        if facts is None or not facts['sessions']:
+            # Ticket packages and closed listings carry no session data.
+            counter.add('excluded', 'NO_STRUCTURED_EVENT')
             continue
         decision, reason = facts['decisions'][kind]
         if decision != 'included':

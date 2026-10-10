@@ -167,5 +167,46 @@ class CrawlRunTests(unittest.TestCase):
         missing=crawl.Fetcher('https://c.example',opener=lambda u:(_ for _ in ()).throw(HTTPError(u,404,'x',None,None)) if u.endswith('robots.txt') else b'1',delay=0)
         self.assertEqual(missing.get('https://c.example/any'),b'1')
 
+class OpentixScheduleTests(unittest.TestCase):
+    def test_only_new_or_due_future_events_are_read(self):
+        base='https://www.opentix.life'
+        urls={k:f'{base}/event/{i}' for i,k in enumerate(['new','past','recent','due','gone'],1)}
+        sitemap='<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{u}</loc><lastmod>2026-10-09</lastmod></url>' for k,u in urls.items() if k!='gone')+'</urlset>'
+        page=lambda d:'<script type="application/ld+json">'+json.dumps({'@type':'Event','name':'某演唱會','startDate':d+'T19:30:00','location':{'name':'台北','address':{'addressLocality':'臺北市'}}})+'</script>'
+        FakeFetcher.calls=[]
+        FakeFetcher.routes={base+'/robots.txt':'',base+'/otWebSitemap.xml':sitemap,urls['new']:page('2026-12-01'),urls['due']:page('2026-11-01')}
+        future={'sessions':[{'date':'2026-11-01','time':'19:30'}]}
+        state={'pages':{urls['past']:{'readAt':'2026-01-01','facts':{'sessions':[{'date':'2026-01-02','time':None}]}},
+                        urls['recent']:{'readAt':'2026-10-05','facts':future},
+                        urls['due']:{'readAt':'2026-09-01','facts':future},
+                        urls['gone']:{'readAt':'2026-10-01','facts':future}}}
+        entry={'crawler':{'base':base,'sitemap':'/otWebSitemap.xml','maxPagesPerRun':5,'refreshDays':14}}
+        crawl.refresh_opentix(entry,FakeFetcher,TODAY,state)
+        read=[u for u in FakeFetcher.calls if '/event/' in u]
+        self.assertEqual(read,[urls['new'],urls['due']])
+        # Default: only never-seen listings are read; known events are not re-read.
+        FakeFetcher.calls=[];entry['crawler'].pop('refreshDays')
+        state['pages'][urls['due']]['readAt']='2026-01-01'
+        crawl.refresh_opentix(entry,FakeFetcher,TODAY,state)
+        self.assertEqual([u for u in FakeFetcher.calls if '/event/' in u],[])
+        self.assertNotIn(urls['gone'],state['pages'])
+        self.assertEqual(state['pages'][urls['new']]['readAt'],TODAY)
+
+class CrossSourceMergeTests(unittest.TestCase):
+    def ev(self,source,title,venue,date,time,url):
+        return sources.validate_event({'sourceUid':url,'title':title,'region':'屏東縣','venue':venue,'sessions':[{'date':date,'time':time}],'sourceUrl':url,
+            'tickets':[{'platform':'KKTIX','url':url,'checkedAt':'2026-10-06','sessions':[{'date':date,'time':time}],'saleAt':'2026-10-01T12:00:00+08:00'}]},source,'2026-10-06')
+    def test_listing_prefix_and_venue_label_do_not_duplicate_a_show(self):
+        manual=self.ev('manual','2026 佳諭單口喜劇專場《Get 婚》','打舖2號店','2026-11-14','20:00','https://club.kktix.cc/events/a')
+        crawled=self.ev('comedyclub','【11/14 屏東場】2026 佳諭單口喜劇專場《Get 婚》','屏東 打舖2號店','2026-11-14','20:00','https://club.kktix.cc/events/a')
+        merged=sources.reconcile([manual,crawled])
+        self.assertEqual(len(merged),1)
+        self.assertEqual([t.get('saleAt') for t in merged[0]['tickets']],['2026-10-01T12:00:00+08:00'])
+    def test_different_time_or_title_stays_separate(self):
+        a=self.ev('manual','佳諭單口喜劇專場','打舖2號店','2026-11-14','20:00','https://club.kktix.cc/events/a')
+        b=self.ev('comedyclub','佳諭單口喜劇專場','屏東 打舖2號店','2026-11-14','16:00','https://club.kktix.cc/events/b')
+        c=self.ev('comedyclub','另一個節目','屏東 打舖2號店','2026-11-14','20:00','https://club.kktix.cc/events/c')
+        self.assertEqual(len(sources.reconcile([a,b,c])),3)
+
 if __name__=='__main__':
     unittest.main()

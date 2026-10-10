@@ -3322,37 +3322,996 @@
           "id": "56de68b01bb1eb4df278"
         }
       ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2087486919881486337",
+      "title": "樂脈光流",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心音樂廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2026-12-27",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$300–1,200",
+      "saleAt": "2026-09-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2087486919881486337",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-12-27",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2087486919881486337",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "8067af824d0923ef6b08",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2087486919881486337",
+          "id": "8067af824d0923ef6b08"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2082425418452361217",
+      "title": "力晶世紀美聲系列 次女高音喬伊斯・狄杜娜朵冬日音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家音樂廳",
+      "address": "臺北市 中正區中山南路21-1號，信義路側",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$800–4,800",
+      "saleAt": "2026-09-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2082425418452361217",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2082425418452361217",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "c5f5421aa1a997d4dca0",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2082425418452361217",
+          "id": "c5f5421aa1a997d4dca0"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2084482215968473088",
+      "title": "歌頌。頌歌－幕聲合唱團20週年音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家音樂廳",
+      "address": "臺北市 中正區中山南路21-1號，信義路側",
+      "sessions": [
+        {
+          "date": "2026-10-24",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$500–2,000",
+      "saleAt": "2026-08-17T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2084482215968473088",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2084482215968473088",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "ac37e84225ce32c6c9b0",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2084482215968473088",
+          "id": "ac37e84225ce32c6c9b0"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2028779666870386688",
+      "title": "冠名贊助：卡洛塔妮 〈島影情深 III 余曉怡管風琴音樂會 · 人文關懷之夜〉",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家音樂廳",
+      "address": "臺北市 中正區中山南路21-1號，信義路側",
+      "sessions": [
+        {
+          "date": "2026-10-23",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$500–3,600",
+      "saleAt": "2026-03-13T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2028779666870386688",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2028779666870386688",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "69bd24ecb15fe6576188",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2028779666870386688",
+          "id": "69bd24ecb15fe6576188"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2107350422544732161",
+      "title": "絲竹映聲情：四代人的台語歌",
+      "performers": null,
+      "region": "苗栗縣",
+      "venue": "苗栗縣政府文化觀光局中正堂",
+      "address": "苗栗縣 苗栗市自治路50號",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$200",
+      "saleAt": "2026-10-08T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2107350422544732161",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "苗栗縣的演唱會，演出地點為苗栗縣政府文化觀光局中正堂。",
+      "sourceUrl": "https://www.opentix.life/event/2107350422544732161",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "2c65275c9d4ae1cdc8ac",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2107350422544732161",
+          "id": "2c65275c9d4ae1cdc8ac"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2032017897215483905",
+      "title": "《聲之響宴:宮崎駿動畫音樂會》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "文山劇場",
+      "address": "臺北市 文山區景文街32號，捷運景美站1號出口",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$800–1,200",
+      "saleAt": "2026-08-24T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2032017897215483905",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為文山劇場。",
+      "sourceUrl": "https://www.opentix.life/event/2032017897215483905",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "5952e8976ad6e81d647e",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2032017897215483905",
+          "id": "5952e8976ad6e81d647e"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2085550223014764544",
+      "title": "NSO《我們的青春時光》時光有聲，青春有你",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家音樂廳",
+      "address": "臺北市 中正區中山南路21-1號，信義路側",
+      "sessions": [
+        {
+          "date": "2026-11-10",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$400–2,000",
+      "saleAt": "2026-09-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2085550223014764544",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-11-10",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2085550223014764544",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "8a3160bfd7de6957cc42",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2085550223014764544",
+          "id": "8a3160bfd7de6957cc42"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2030922669486235648",
+      "title": "【2026 TSO 室內沙龍】霍洛登科與TSO獨奏家",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家兩廳院演奏廳",
+      "address": "臺北市 中正區中山南路21-1號",
+      "sessions": [
+        {
+          "date": "2026-11-11",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$300–800",
+      "saleAt": "2026-03-12T14:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2030922669486235648",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-11-11",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家兩廳院演奏廳。",
+      "sourceUrl": "https://www.opentix.life/event/2030922669486235648",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "1b7aacc8db90d199720c",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2030922669486235648",
+          "id": "1b7aacc8db90d199720c"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2078394381216837633",
+      "title": "WJSO新年音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家音樂廳",
+      "address": "臺北市 中正區中山南路21-1號，信義路側",
+      "sessions": [
+        {
+          "date": "2026-12-28",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$1,500–5,300",
+      "saleAt": "2026-09-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2078394381216837633",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-12-28",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2078394381216837633",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "7d9eef3cc29df7b6030c",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2078394381216837633",
+          "id": "7d9eef3cc29df7b6030c"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2073325986027565057",
+      "title": "聖光煉焰～托馬許．卡米耶尼亞克2026台灣音樂會",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心表演廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "15:00"
+        }
+      ],
+      "price": "NT$700–1,000",
+      "saleAt": "2026-07-15T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2073325986027565057",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "15:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心表演廳。",
+      "sourceUrl": "https://www.opentix.life/event/2073325986027565057",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "d5abd9629310af3b4b0b",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2073325986027565057",
+          "id": "d5abd9629310af3b4b0b"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2092893350380863489",
+      "title": "返聞—黃意棻古琴碩士畢業音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國立臺北藝術大學音樂廳",
+      "address": "臺北市 北投區學園路1號",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "15:30"
+        }
+      ],
+      "price": "NT$200",
+      "saleAt": "2026-09-07T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2092893350380863489",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "15:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國立臺北藝術大學音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2092893350380863489",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "175fb3f92e1c23236d2f",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2092893350380863489",
+          "id": "175fb3f92e1c23236d2f"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2093296038536970241",
+      "title": "<音緣聚會> 高雄醫學大學校友合唱團十三週年音樂會",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "大東文化藝術中心",
+      "address": "高雄市 鳳山區光遠路161號",
+      "sessions": [
+        {
+          "date": "2027-04-05",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$400–800",
+      "saleAt": "2026-10-05T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2093296038536970241",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2027-04-05",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為大東文化藝術中心。",
+      "sourceUrl": "https://www.opentix.life/event/2093296038536970241",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "ffe621da6083dfc3009d",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2093296038536970241",
+          "id": "ffe621da6083dfc3009d"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2103466076614336513",
+      "title": "北藝大2026秋冬系列《薪傳美聲》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國立臺北藝術大學音樂廳",
+      "address": "臺北市 北投區學園路1號",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$100",
+      "saleAt": "2026-10-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2103466076614336513",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國立臺北藝術大學音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2103466076614336513",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "b3888a1d5b502eabff62",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2103466076614336513",
+          "id": "b3888a1d5b502eabff62"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2090624058785767425",
+      "title": "笛韻萬象-2026吹笛人室內樂團秋季音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家兩廳院演奏廳",
+      "address": "臺北市 中正區中山南路21-1號",
+      "sessions": [
+        {
+          "date": "2026-10-30",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$500–1,200",
+      "saleAt": "2026-09-02T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2090624058785767425",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家兩廳院演奏廳。",
+      "sourceUrl": "https://www.opentix.life/event/2090624058785767425",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "88d9cbc7f6c1f6b39855",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2090624058785767425",
+          "id": "88d9cbc7f6c1f6b39855"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2087079903211335680",
+      "title": "韶光八秩──臺師大音樂系創系80週年音樂會",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心音樂廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$200–1,200",
+      "saleAt": "2026-09-14T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2087079903211335680",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "19:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2087079903211335680",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "f7316c3588811cfda449",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2087079903211335680",
+          "id": "f7316c3588811cfda449"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2087506535193788417",
+      "title": "《彼方：春聲回流》梁喬信與高雄市交響樂團",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心音樂廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2026-12-20",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$300–2,000",
+      "saleAt": "2026-09-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2087506535193788417",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-12-20",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2087506535193788417",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "53667dc722287e188891",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2087506535193788417",
+          "id": "53667dc722287e188891"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2088081696032780289",
+      "title": "國立嘉義大學音樂系交響樂團《變奏與傳承》—從主題到蛻變",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺灣戲曲中心大表演廳",
+      "address": "臺北市 士林區文林路751號",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$300–1,000",
+      "saleAt": "2026-08-24T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2088081696032780289",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺灣戲曲中心大表演廳。",
+      "sourceUrl": "https://www.opentix.life/event/2088081696032780289",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "d7b7c430b215fa7d8b1b",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2088081696032780289",
+          "id": "d7b7c430b215fa7d8b1b"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2104779742909665281",
+      "title": "靈性之光—青韵合唱團2026年度音樂會",
+      "performers": null,
+      "region": "臺中市",
+      "venue": "臺中國家歌劇院中劇院",
+      "address": "臺中市 西屯區惠來路二段101號",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$400–1,500",
+      "saleAt": "2026-10-02T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2104779742909665281",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為臺中國家歌劇院中劇院。",
+      "sourceUrl": "https://www.opentix.life/event/2104779742909665281",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "f81712750793c89e35ec",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2104779742909665281",
+          "id": "f81712750793c89e35ec"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2090250761524531200",
+      "title": "福爾摩沙合唱團2026系列音樂會之三： 來自挪威的合唱大師",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家音樂廳",
+      "address": "臺北市 中正區中山南路21-1號，信義路側",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$400–1,200",
+      "saleAt": "2026-08-28T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2090250761524531200",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2090250761524531200",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "8cef7630dcbcefd516a2",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2090250761524531200",
+          "id": "8cef7630dcbcefd516a2"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2077965716791648257",
+      "title": "《2026拾五聲華：光芒盛綻》阿卡貝拉音樂會",
+      "performers": null,
+      "region": "屏東縣",
+      "venue": "屏東藝術館",
+      "address": "屏東縣 屏東市和平路427號",
+      "sessions": [
+        {
+          "date": "2026-11-01",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$200",
+      "saleAt": "2026-07-31T14:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2077965716791648257",
+          "checkedAt": "2026-10-10",
+          "sessions": [
+            {
+              "date": "2026-11-01",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "屏東縣的演唱會，演出地點為屏東藝術館。",
+      "sourceUrl": "https://www.opentix.life/event/2077965716791648257",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "29c1170308ab8d02e43d",
+      "verifiedAt": "2026-10-10",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2077965716791648257",
+          "id": "29c1170308ab8d02e43d"
+        }
+      ]
     }
   ],
   "status": {
     "id": "opentix",
     "name": "OPENTIX",
     "url": "https://www.opentix.life/",
-    "checkedAt": "2026-10-10T07:36:24+08:00",
+    "checkedAt": "2026-10-10T08:02:19+08:00",
     "mode": "daily-crawl",
-    "discovered": 389,
-    "included": 57,
-    "excluded": 49,
-    "pending": 276,
-    "failed": 7,
+    "discovered": 481,
+    "included": 77,
+    "excluded": 63,
+    "pending": 341,
+    "failed": 0,
     "reasons": {
-      "INSUFFICIENT_CONCERT_EVIDENCE": 276,
-      "CONCERT_EVIDENCE": 57,
-      "PAST_EVENT": 8,
-      "COURSE_OR_MUSICAL": 41,
+      "INSUFFICIENT_CONCERT_EVIDENCE": 341,
+      "CONCERT_EVIDENCE": 77,
+      "COURSE_OR_MUSICAL": 56,
       "NO_STRUCTURED_EVENT": 7
     },
     "coverageComplete": false,
-    "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；每日最多讀100頁新增／異動活動",
-    "pagesVisited": 101,
+    "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；只讀新上架活動，已讀過的不重抓，已結束活動不收錄；每日最多100頁",
+    "pagesVisited": 0,
     "expectedPages": null,
     "reviewedAt": "2026-10-10",
     "status": "ok",
-    "lastSuccess": "2026-10-10T07:36:24+08:00",
-    "lastSuccessfulIncluded": 57,
-    "message": "每日公開資料自動更新完成；納入 57 筆，待分類 276 筆；不代表完整目錄。",
-    "retainedEventCount": 58,
-    "pendingPages": 726,
+    "lastSuccess": "2026-10-10T08:02:19+08:00",
+    "lastSuccessfulIncluded": 77,
+    "message": "每日公開資料自動更新完成；納入 77 筆，待分類 341 筆；不代表完整目錄。",
+    "retainedEventCount": 78,
+    "pendingPages": 626,
     "listedPages": 1115
   },
   "records": [
