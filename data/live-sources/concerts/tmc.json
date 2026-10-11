@@ -48,7 +48,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "5a2f499bc320050d706d",
-      "verifiedAt": "2026-10-10",
+      "verifiedAt": "2026-10-11",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -92,7 +92,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "a106df9194cdbf76ac29",
-      "verifiedAt": "2026-10-10",
+      "verifiedAt": "2026-10-11",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -164,7 +164,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "d173c4a25563354bc411",
-      "verifiedAt": "2026-10-10",
+      "verifiedAt": "2026-10-11",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -232,7 +232,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "cdf081b71dd024aee0c7",
-      "verifiedAt": "2026-10-10",
+      "verifiedAt": "2026-10-11",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -290,7 +290,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "4e75617750e2efcdbca4",
-      "verifiedAt": "2026-10-10",
+      "verifiedAt": "2026-10-11",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -425,12 +425,48 @@
       "revisions": [],
       "source": "tmc",
       "id": "7ffcc18eed4e026d2bca",
-      "verifiedAt": "2026-10-10",
+      "verifiedAt": "2026-10-11",
       "sourceRefs": [
         {
           "source": "tmc",
           "sourceUid": "https://www.tmc.taipei/tw/blog/show/2026SungNien-Yu",
           "id": "7ffcc18eed4e026d2bca"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/GBOYSWAG2026",
+      "title": "鼓鼓 呂思緯《我現在又在想你了》巡迴演唱會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "address": "臺北市南港區市民大道八段99號",
+      "sessions": [
+        {
+          "date": "2026-12-26",
+          "time": "19:00"
+        }
+      ],
+      "price": "｜NT3580 / 3280 / 2580 / 2280 / 1880 / 1580 / 980 ｜Super Bubble珍藏單人套票NT4580 （3580元門票 + Super Bubble限定T-shirt +後台1對1合影） ｜身障席票價 特區NT1790/1640、2樓NT1290 ※全場為對號座席",
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北流行音樂中心 表演廳。",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/GBOYSWAG2026",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "tmc",
+      "id": "a55cf05a75f6b9f6356c",
+      "verifiedAt": "2026-10-11",
+      "sourceRefs": [
+        {
+          "source": "tmc",
+          "sourceUid": "https://www.tmc.taipei/tw/blog/show/GBOYSWAG2026",
+          "id": "a55cf05a75f6b9f6356c"
         }
       ]
     }
@@ -439,7 +475,7 @@
     "id": "tmc",
     "name": "臺北流行音樂中心官方活動資料",
     "url": "https://www.tmc.taipei/",
-    "checkedAt": "2026-10-10T14:31:34+08:00",
+    "checkedAt": "2026-10-11T14:37:30+08:00",
     "mode": "daily-crawl",
     "discovered": 12,
     "included": 7,
@@ -457,12 +493,12 @@
     "scope": "北流官網「最近活動」公開頁；長日期區間不推定場次",
     "pagesVisited": 9,
     "expectedPages": null,
-    "reviewedAt": "2026-10-10",
+    "reviewedAt": "2026-10-11",
     "status": "ok",
-    "lastSuccess": "2026-10-10T14:31:34+08:00",
+    "lastSuccess": "2026-10-11T14:37:30+08:00",
     "lastSuccessfulIncluded": 7,
     "message": "每日公開資料自動更新完成；納入 7 筆，待分類 2 筆；不代表完整目錄。",
-    "retainedEventCount": 8
+    "retainedEventCount": 9
   },
   "records": [
     {
