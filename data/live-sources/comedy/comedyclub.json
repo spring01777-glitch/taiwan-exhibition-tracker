@@ -588,7 +588,7 @@
       "address": "北市中山區復興北路480號",
       "verificationMethod": "daily-crawl",
       "id": "b653c5a51750e6613df5",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -603,10 +603,6 @@
       "region": "臺北市",
       "venue": "西門紅樓 The Red House 二樓劇場",
       "sessions": [
-        {
-          "date": "2026-11-26",
-          "time": "19:30"
-        },
         {
           "date": "2026-11-28",
           "time": "19:30"
@@ -632,17 +628,6 @@
           ],
           "price": "一般區 NT$800／貴人贊助區 NT$1200／VIP 感恩區 NT$5000",
           "saleAt": "2026-10-04T12:30:00+08:00"
-        },
-        {
-          "platform": "KKTIX",
-          "url": "https://comedyclub.kktix.cc/events/coldn20261126",
-          "checkedAt": "2026-10-11",
-          "sessions": [
-            {
-              "date": "2026-11-26",
-              "time": "19:30"
-            }
-          ]
         }
       ],
       "revisions": [
@@ -650,6 +635,20 @@
           "at": "2026-10-10",
           "note": "已核對來源場次異動。",
           "previousSessions": [
+            {
+              "date": "2026-11-28",
+              "time": "19:30"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-12",
+          "note": "已核對來源場次異動。",
+          "previousSessions": [
+            {
+              "date": "2026-11-26",
+              "time": "19:30"
+            },
             {
               "date": "2026-11-28",
               "time": "19:30"
@@ -673,17 +672,12 @@
       "address": "台北市萬華區成都路10號",
       "verificationMethod": "daily-crawl",
       "id": "9bb8346c4f1adf311538",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
           "sourceUid": "https://comedyclub.kktix.cc/events/coldn20261128",
           "id": "9bb8346c4f1adf311538"
-        },
-        {
-          "source": "comedyclub",
-          "sourceUid": "https://comedyclub.kktix.cc/events/coldn20261126",
-          "id": "5086cc126cb88c0cfc9c"
         }
       ]
     },
@@ -736,7 +730,7 @@
       "address": "北市中山區復興北路480號",
       "verificationMethod": "daily-crawl",
       "id": "d21c371aab8b87cf791b",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -794,7 +788,7 @@
       "address": "台北市中正區羅斯福路四段24巷13號B1",
       "verificationMethod": "daily-crawl",
       "id": "52a1442d260147f1d7b1",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -852,7 +846,7 @@
       "address": "北市林森北路286號",
       "verificationMethod": "daily-crawl",
       "id": "0ad299c964da7ec69ee8",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -910,7 +904,7 @@
       "address": "北市林森北路286號",
       "verificationMethod": "daily-crawl",
       "id": "494d4837976330eee1a7",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -977,7 +971,7 @@
       "address": "臺北市中山區銅山街一號",
       "verificationMethod": "daily-crawl",
       "id": "9965c2ef1894358d1552",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -1035,7 +1029,7 @@
       "address": "台北市中山區復興北路480號",
       "verificationMethod": "daily-crawl",
       "id": "d63e1802d1041423d41a",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -1093,7 +1087,7 @@
       "address": "台北市中山區八德路二段260號中影八德大樓",
       "verificationMethod": "daily-crawl",
       "id": "e736ef9104362f421395",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -1207,7 +1201,7 @@
       "address": "北市中山區復興北路480號",
       "verificationMethod": "daily-crawl",
       "id": "83c8ebcb4e09128ce6c3",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -1321,7 +1315,7 @@
       "address": "台中市西屯區西安街277巷2號",
       "verificationMethod": "daily-crawl",
       "id": "4c8c8d54a7a3c8ab61e9",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -1486,7 +1480,7 @@
         }
       ],
       "id": "c2ee79f8c8dc7b1d48f9",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -1539,7 +1533,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "8c8a88401dcd40b9f64f",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -1587,7 +1581,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "fffd39d6bfb8e071d6b6",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -1635,7 +1629,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "ebe6fbad0a54c29c9fd2",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -1683,7 +1677,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "b36831b0886f7187604d",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -1731,7 +1725,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "e58c196ba43c24ed26c3",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -1779,7 +1773,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "cb0cecf1fd4531c5ebde",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2346,7 +2340,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "52ca097d540e73a137c7",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2394,7 +2388,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "dd215d70f82db1b31827",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2442,7 +2436,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "7af6544edcc894966e1e",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2490,7 +2484,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "2cd4108a1ee80db57a01",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2538,7 +2532,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "ab64aa6c6b39911aa78e",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2586,7 +2580,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "4d721bc93436a5a78c5f",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2634,7 +2628,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "0ad7f5aeaa2b7575df79",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2682,7 +2676,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "09542c0f90ff356c384e",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2730,7 +2724,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "b6d9e42cbcc443cd1049",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2778,7 +2772,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "7b834b7b65f3ed1bc666",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2826,7 +2820,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "903e970fe23078adb828",
-      "verifiedAt": "2026-10-11",
+      "verifiedAt": "2026-10-12",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2882,35 +2876,131 @@
           "id": "112dd571b0c5a8bda29f"
         }
       ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/sstrong731220-2",
+      "title": "【12/20晚台北】壯壯毒舌脫口秀 7 :《不好意思，請問你什麼意思 ?》三度開嗆巡迴場",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "Comedy Plus 大廳",
+      "address": "台北市復興北路480號 B1",
+      "sessions": [
+        {
+          "date": "2026-12-20",
+          "time": "20:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/sstrong731220-2",
+          "checkedAt": "2026-10-12",
+          "sessions": [
+            {
+              "date": "2026-12-20",
+              "time": "20:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為Comedy Plus 大廳。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/sstrong731220-2",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "80977479f62d57f3c973",
+      "verifiedAt": "2026-10-12",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/sstrong731220-2",
+          "id": "80977479f62d57f3c973"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/sstrong731211",
+      "title": "【12/11 台南】壯壯毒舌脫口秀 7 :《不好意思，請問你什麼意思 ?》三度開嗆巡迴場",
+      "performers": null,
+      "region": "臺南市",
+      "venue": "台南文化創意產業園區 漂丿白鷺 LIVE HOUSE",
+      "address": "臺南市東區北門路二段16號",
+      "sessions": [
+        {
+          "date": "2026-12-11",
+          "time": "19:30"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/sstrong731211",
+          "checkedAt": "2026-10-12",
+          "sessions": [
+            {
+              "date": "2026-12-11",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺南市的單口喜劇，演出地點為台南文化創意產業園區 漂丿白鷺 LIVE HOUSE。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/sstrong731211",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "64bf7ffc776b2962a67c",
+      "verifiedAt": "2026-10-12",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/sstrong731211",
+          "id": "64bf7ffc776b2962a67c"
+        }
+      ]
     }
   ],
   "status": {
     "id": "comedyclub",
     "name": "卡米地官方主辦目錄",
     "url": "https://comedyclub.kktix.cc/",
-    "checkedAt": "2026-10-11T14:37:30+08:00",
+    "checkedAt": "2026-10-12T14:43:00+08:00",
     "mode": "daily-crawl",
     "discovered": 100,
-    "included": 35,
-    "excluded": 25,
-    "pending": 40,
+    "included": 32,
+    "excluded": 27,
+    "pending": 41,
     "failed": 0,
     "reasons": {
-      "MULTIFIELD_STANDUP_EVIDENCE": 35,
-      "INSUFFICIENT_STANDUP_EVIDENCE": 40,
-      "MULTI_DAY_PARENT_LISTING": 16,
-      "OTHER_PERFORMANCE_FORMAT": 9
+      "MULTIFIELD_STANDUP_EVIDENCE": 32,
+      "INSUFFICIENT_STANDUP_EVIDENCE": 41,
+      "OTHER_PERFORMANCE_FORMAT": 10,
+      "MULTI_DAY_PARENT_LISTING": 17
     },
     "coverageComplete": false,
     "scope": "卡米地 KKTIX 主辦公開 events.json（最新100筆）；僅收明確單口／脫口秀，其餘待分類",
     "pagesVisited": 1,
     "expectedPages": null,
-    "reviewedAt": "2026-10-11",
+    "reviewedAt": "2026-10-12",
     "status": "ok",
-    "lastSuccess": "2026-10-11T14:37:30+08:00",
-    "lastSuccessfulIncluded": 35,
-    "message": "每日公開資料自動更新完成；納入 35 筆，待分類 40 筆；不代表完整目錄。",
-    "retainedEventCount": 51
+    "lastSuccess": "2026-10-12T14:43:00+08:00",
+    "lastSuccessfulIncluded": 32,
+    "message": "每日公開資料自動更新完成；納入 32 筆，待分類 41 筆；不代表完整目錄。",
+    "retainedEventCount": 53
   },
   "records": [
     {
