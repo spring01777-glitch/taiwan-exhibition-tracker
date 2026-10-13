@@ -1066,33 +1066,6 @@
         },
         "readAt": "2026-10-10"
       },
-      "https://www.opentix.life/event/2063888743805341697": {
-        "facts": {
-          "title": "絢麗系列 — 孫旻秀：巴哈《平均律鍵盤曲集第一冊》",
-          "venue": "國家音樂廳",
-          "address": "臺北市 中正區中山南路21-1號，信義路側",
-          "region": "臺北市",
-          "sessions": [
-            {
-              "date": "2026-10-12",
-              "time": "19:30"
-            }
-          ],
-          "price": "NT$800–3,000",
-          "saleAt": "2026-06-12T12:00:00+08:00",
-          "decisions": {
-            "concerts": [
-              "pending",
-              "INSUFFICIENT_CONCERT_EVIDENCE"
-            ],
-            "comedy": [
-              "pending",
-              "INSUFFICIENT_STANDUP_EVIDENCE"
-            ]
-          }
-        },
-        "readAt": "2026-10-10"
-      },
       "https://www.opentix.life/event/2084162408299769857": {
         "facts": {
           "title": "陳必先2026鋼琴獨奏會─紀念曹永坤先生逝世20周年",
@@ -4124,33 +4097,6 @@
             "concerts": [
               "pending",
               "INSUFFICIENT_CONCERT_EVIDENCE"
-            ],
-            "comedy": [
-              "pending",
-              "INSUFFICIENT_STANDUP_EVIDENCE"
-            ]
-          }
-        },
-        "readAt": "2026-10-10"
-      },
-      "https://www.opentix.life/event/2076883861296070657": {
-        "facts": {
-          "title": "2026臺北爵士大樂隊《感爵臺灣》美國紐奧良巡演行前音樂會",
-          "venue": "國家兩廳院演奏廳",
-          "address": "臺北市 中正區中山南路21-1號",
-          "region": "臺北市",
-          "sessions": [
-            {
-              "date": "2026-10-12",
-              "time": "19:30"
-            }
-          ],
-          "price": "NT$800–1,200",
-          "saleAt": "2026-07-21T12:00:00+08:00",
-          "decisions": {
-            "concerts": [
-              "included",
-              "CONCERT_EVIDENCE"
             ],
             "comedy": [
               "pending",
@@ -46057,33 +46003,6 @@
           }
         }
       },
-      "https://www.opentix.life/event/2096939666670759937": {
-        "readAt": "2026-10-12",
-        "facts": {
-          "title": "商務領航系列│體驗新紀元：IP多元發展與商拓應用",
-          "venue": "高雄駁二藝術特區 蓬萊區B4倉庫",
-          "address": "高雄市 鼓山區蓬萊路99號",
-          "region": "高雄市",
-          "sessions": [
-            {
-              "date": "2026-10-13",
-              "time": "13:00"
-            }
-          ],
-          "price": "NT$0",
-          "saleAt": "2026-09-18T12:00:00+08:00",
-          "decisions": {
-            "concerts": [
-              "excluded",
-              "COURSE_OR_MUSICAL"
-            ],
-            "comedy": [
-              "excluded",
-              "COURSE_OR_MUSICAL"
-            ]
-          }
-        }
-      },
       "https://www.opentix.life/event/2096961799049711617": {
         "readAt": "2026-10-12",
         "facts": {
@@ -46165,33 +46084,6 @@
           }
         }
       },
-      "https://www.opentix.life/event/2094742082703798273": {
-        "readAt": "2026-10-12",
-        "facts": {
-          "title": "商務領航系列│展演新浪潮：解構XR展演的商業密碼",
-          "venue": "高雄駁二藝術特區 蓬萊區B4倉庫",
-          "address": "高雄市 鼓山區蓬萊路99號",
-          "region": "高雄市",
-          "sessions": [
-            {
-              "date": "2026-10-13",
-              "time": "10:30"
-            }
-          ],
-          "price": "NT$0",
-          "saleAt": "2026-09-18T12:00:00+08:00",
-          "decisions": {
-            "concerts": [
-              "excluded",
-              "COURSE_OR_MUSICAL"
-            ],
-            "comedy": [
-              "excluded",
-              "COURSE_OR_MUSICAL"
-            ]
-          }
-        }
-      },
       "https://www.opentix.life/event/2082042280907173889": {
         "readAt": "2026-10-12",
         "facts": {
@@ -46238,33 +46130,6 @@
             "concerts": [
               "pending",
               "INSUFFICIENT_CONCERT_EVIDENCE"
-            ],
-            "comedy": [
-              "pending",
-              "INSUFFICIENT_STANDUP_EVIDENCE"
-            ]
-          }
-        }
-      },
-      "https://www.opentix.life/event/2095038169052585985": {
-        "readAt": "2026-10-12",
-        "facts": {
-          "title": "純真年代",
-          "venue": "臺北市中山堂中正廳",
-          "address": "臺北市 中正區延平南路98號",
-          "region": "臺北市",
-          "sessions": [
-            {
-              "date": "2026-10-12",
-              "time": "19:30"
-            }
-          ],
-          "price": "NT$300–1,000",
-          "saleAt": "2026-09-12T09:00:00+08:00",
-          "decisions": {
-            "concerts": [
-              "included",
-              "CONCERT_EVIDENCE"
             ],
             "comedy": [
               "pending",
@@ -47400,9 +47265,3067 @@
             ]
           }
         }
+      },
+      "https://www.opentix.life/event/2065059039769808896": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "沉浸式劇場《士林YES！》",
+          "venue": "臺北表演藝術中心 藍盒子",
+          "address": "臺北市 士林區劍潭路1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-20",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "12:30"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "18:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "12:30"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "18:00"
+            },
+            {
+              "date": "2026-11-26",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-27",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-28",
+              "time": "12:30"
+            },
+            {
+              "date": "2026-11-28",
+              "time": "18:00"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "12:30"
+            }
+          ],
+          "price": "NT$1,500–3,500",
+          "saleAt": "2026-06-18T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100484634901520385": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《光和作用》拉縴人歌手2026年度音樂會",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–1,000",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2102345121869377537": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026【我們的音樂探險】",
+          "venue": "衛武營國家藝術文化中心戲劇院",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-12-26",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-12-27",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-12-27",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$800",
+          "saleAt": "2026-10-13T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2107727519108997121": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "國立臺北藝術大學舞蹈學院2026歲末展演【絮語】",
+          "venue": "國立臺北藝術大學舞蹈廳",
+          "address": "臺北市 北投區學園路1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-10",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-11",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-12",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-12-12",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-13",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–700",
+          "saleAt": "2026-10-13T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2072579190350344193": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《溯音．續章》許常惠逝世二十五週年紀念音樂會",
+          "venue": "國家音樂廳",
+          "address": "臺北市 中正區中山南路21-1號，信義路側",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–2,500",
+          "saleAt": "2026-10-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2109837481859411969": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "【京韻深弦】陳薇如、戴志宇師生音樂會",
+          "venue": "新北市藝文中心演奏廳",
+          "address": "新北市 板橋區莊敬路62號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$200",
+          "saleAt": "2026-10-13T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2099766707927355393": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "再創巔峰",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-06",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–1,000",
+          "saleAt": "2026-09-18T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2097214378209894400": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "MUTEK系列│Let's Play! 共創未來：文化科技生態系的全球連結與在地實踐",
+          "venue": "高雄駁二藝術特區 大勇區8號倉庫Pinway 2樓",
+          "address": "高雄市 鹽埕區瀨南街8號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-15",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$0",
+          "saleAt": "2026-09-18T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2102965715002503169": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "潘昱同鋼琴獨奏會",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-15",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–1,200",
+          "saleAt": "2026-10-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2094312256004628481": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "時光禮讚～室內樂音樂會",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–1,200",
+          "saleAt": "2026-09-05T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2102234971316461569": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "鄞蔚婷2026鋼琴獨奏會",
+          "venue": "衛武營國家藝術文化中心表演廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$400–600",
+          "saleAt": "2026-09-23T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2092503469565243392": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "國立台北藝術大學 易元 X 林韋萱《倒流夜》",
+          "venue": "國立臺北藝術大學舞蹈廳",
+          "address": "臺北市 北投區學園路1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-20",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$800",
+          "saleAt": "2026-10-13T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2055095533215715329": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "綻放",
+          "venue": "彰化縣文化局員林演藝廳表演廳",
+          "address": "彰化縣 員林市員林大道二段99號",
+          "region": "彰化縣",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$300",
+          "saleAt": "2026-08-13T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2093174981168631809": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "古典室內樂集『雙音漫舞 雙鋼琴VS經典室內樂』音樂會",
+          "venue": "南投縣政府文化局演藝廳",
+          "address": "南投縣 南投市建國路135號",
+          "region": "南投縣",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$200",
+          "saleAt": "2026-09-07T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100802203576029184": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "動見体《美好如此》讀劇劇場",
+          "venue": "馬祖梅石藝文中心",
+          "address": "連江縣 南竿鄉清水村29號",
+          "region": "連江縣",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$300–600",
+          "saleAt": "2026-09-23T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2102310370504650753": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026嘉義縣表演藝術中心《遊園戲夢》環境劇場導覽演出",
+          "venue": "嘉義縣表演藝術中心全園區",
+          "address": "嘉義縣 民雄鄉建國路二段265號",
+          "region": "嘉義縣",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "10:00"
+            }
+          ],
+          "price": "NT$200",
+          "saleAt": "2026-10-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2092174971144638465": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《風聲異韻》薩克斯風重奏原創作品的新篇章",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–1,600",
+          "saleAt": "2026-09-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2081990762330185729": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "山宛然劇團兒童布袋戲《鷂婆在哪裡？》",
+          "venue": "台北偶戲館黑箱劇場",
+          "address": "臺北市 松山區市民大道五段99號4樓",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$250",
+          "saleAt": "2026-08-07T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2103461573718614017": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "北藝大2026秋冬系列《北藝大擊樂團2026秋冬音樂會》",
+          "venue": "國立臺北藝術大學音樂廳",
+          "address": "臺北市 北投區學園路1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-26",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$100",
+          "saleAt": "2026-10-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095395856831422465": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "末路狂花",
+          "venue": "國家電影及視聽文化中心-大影格",
+          "address": "新北市 新莊區文藝路2號",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "16:00"
+            }
+          ],
+          "price": "NT$220",
+          "saleAt": "2026-09-18T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2086616583580958720": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "趙亭婷 x 安娜琪舞蹈劇場《KINGDOM》",
+          "venue": "臺中市屯區藝文中心實驗劇場",
+          "address": "臺中市 太平區光華里大興路201號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300",
+          "saleAt": "2026-08-21T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2108038009051848705": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《少年英雄會》—2026台北愛樂少年樂團20週年慶典音樂會",
+          "venue": "國家音樂廳",
+          "address": "臺北市 中正區中山南路21-1號，信義路側",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-06",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–1,500",
+          "saleAt": "2026-10-13T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2101925846912507905": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "彌賽亞：永不止息的樂章",
+          "venue": "臺中國家歌劇院中劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-12-14",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–1,800",
+          "saleAt": "2026-10-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2083033745511133185": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026台灣國際重唱藝術節-樂齡新生代音樂會",
+          "venue": "臺北市中山堂中正廳",
+          "address": "臺北市 中正區延平南路98號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–1,600",
+          "saleAt": "2026-08-10T15:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2105220235260489728": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "唱彈詩與樂 合唱音樂會",
+          "venue": "衛武營國家藝術文化中心表演廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-29",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–800",
+          "saleAt": "2026-10-05T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2105592781952786433": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "風雨中的守護者",
+          "venue": "米倉劇場",
+          "address": "桃園市 桃園區新生路169號",
+          "region": "桃園市",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$200",
+          "saleAt": "2026-10-13T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "excluded",
+              "OTHER_PERFORMANCE_FORMAT"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2105978682398216192": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "半世紀的台灣經典 傳承歌曲光耀歷史 劉聖賢的音符跳動",
+          "venue": "澎湖縣演藝廳",
+          "address": "澎湖縣 馬公市中華路230號",
+          "region": "澎湖縣",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$600–800",
+          "saleAt": "2026-10-13T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2092563730662215680": {
+        "readAt": "2026-10-13",
+        "facts": null
+      },
+      "https://www.opentix.life/event/1856237131641942016": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "工程師專用 驗票新手村",
+          "venue": "基隆表演藝術中心演藝廳",
+          "address": "基隆市 中正區信一路181號",
+          "region": "基隆市",
+          "sessions": [
+            {
+              "date": "2026-08-18",
+              "time": "09:00"
+            }
+          ],
+          "price": "NT$0",
+          "saleAt": "2026-05-17T00:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2083103083691253760": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026正港雄有戲-豆子劇團《蝴蝶大變！(是變身的變)》",
+          "venue": "駁二正港小劇場",
+          "address": "高雄市 鼓山區蓬萊路99號 駁二藝術特區蓬萊倉庫 B9棟",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-17",
+              "time": "15:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "15:30"
+            }
+          ],
+          "price": "NT$600",
+          "saleAt": "2026-08-05T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2089962901775663105": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026黑白極致 巨擘對話-鋼琴嘉年華",
+          "venue": "新竹市文化局演藝廳音樂廳",
+          "address": "新竹市 北區東大路二段17號",
+          "region": "新竹市",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$0",
+          "saleAt": "2026-09-16T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2099744597423132673": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "郭肜肜 個人揚琴音樂會",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-01-31",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–1,200",
+          "saleAt": "2026-10-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2083037722409181185": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "方寸之間",
+          "venue": "華山1914文創園區東3B館 烏梅劇院",
+          "address": "臺北市 中正區八德路一段1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-12-12",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1,000–2,000",
+          "saleAt": "2026-09-12T10:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2096198561125683201": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "小巨人絲竹室內樂系列【絲弦情 LXXIII】",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-09",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$300–500",
+          "saleAt": "2026-09-23T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2093264938780463105": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《幸福微光‧愛的守護》公益募款音樂會",
+          "venue": "臺北市客家音樂戲劇中心二樓劇場",
+          "address": "臺北市 中正區汀州路三段2號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$2,000",
+          "saleAt": "2026-09-04T14:45:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2102235541513379840": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "台灣第29屆視障藝術季 G世代四潮女",
+          "venue": "中影八德大樓演講廳",
+          "address": "臺北市 中山區八德路二段260號3樓",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$400–500",
+          "saleAt": "2026-10-05T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2089273711772602368": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "鄭勳琦胡琴音樂會《民謠風》",
+          "venue": "臺中市屯區藝文中心實驗劇場",
+          "address": "臺中市 太平區光華里大興路201號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-11-01",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300",
+          "saleAt": "2026-09-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100432152971939841": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026 賴昱如中提琴獨奏會- 《歸聲Nachklang 》",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–1,000",
+          "saleAt": "2026-09-18T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100529002246807553": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "魔笛家族2026音樂會 聽見我們在幸福唱歌",
+          "venue": "大東文化藝術中心",
+          "address": "高雄市 鳳山區光遠路161號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$450–600",
+          "saleAt": "2026-09-30T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2101940424675528705": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "拾棲劇團《賞屋大會—2026我們城中見》",
+          "venue": "臺博小客廳",
+          "address": "臺北市 中正區黎明里重慶南路一段109號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "16:00"
+            }
+          ],
+          "price": "NT$980–1,680",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100541819672694784": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《Plaza Suite》好事多磨大飯店",
+          "venue": "PLAYground 南村劇場．青鳥．有.設計",
+          "address": "臺北市 信義區松勤街56號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-18",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-19",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-12-19",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-20",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-12-25",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-26",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-12-26",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-27",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$1,200–2,000",
+          "saleAt": "2026-09-26T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2072585470724239361": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《日院放映：未完的簿冊》舞蹈×電影×老戲院跨域展演",
+          "venue": "全美戲院 A廳",
+          "address": "臺南市 中西區永福路二段187號",
+          "region": "臺南市",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$800",
+          "saleAt": "2026-07-06T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2090641025036505089": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "迎曦女聲2026年度音樂會《Unsung｜未完待續》",
+          "venue": "臺北市中山堂中正廳",
+          "address": "臺北市 中正區延平南路98號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-15",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$400–2,000",
+          "saleAt": "2026-08-24T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2099722747071549441": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026 星村有喜事",
+          "venue": "得勝新村遺構公園",
+          "address": "屏東縣 屏東市永城里博愛路202號",
+          "region": "屏東縣",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "18:30"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "18:30"
+            }
+          ],
+          "price": "NT$8,880",
+          "saleAt": "2026-09-30T14:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2032338803290832897": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "跨樂鋼琴三重奏 她的樂語",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-26",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–1,000",
+          "saleAt": "2026-03-23T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2089874937535913985": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "複象公場《洋基之子》臺文混血劇場",
+          "venue": "國家兩廳院實驗劇場",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-18",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-19",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-12-19",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-20",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$1,000–2,000",
+          "saleAt": "2026-09-16T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "excluded",
+              "OTHER_PERFORMANCE_FORMAT"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2054017886196895745": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026臺東藝術節：會演是英雄2之 《英雄所賤略同》",
+          "venue": "臺東縣政府文化處藝文中心演藝廳",
+          "address": "臺東縣 臺東市南京路25號",
+          "region": "臺東縣",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$400–1,200",
+          "saleAt": "2026-05-21T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2096967414476181504": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《微光之間》INNOVATIONS 開幕特別展演",
+          "venue": "高雄駁二藝術特區 蓬萊區B4倉庫",
+          "address": "高雄市 鼓山區蓬萊路99號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-13",
+              "time": "19:35"
+            }
+          ],
+          "price": "NT$0",
+          "saleAt": "2026-09-18T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2082777244051320833": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "湯妮莉 ✕ 高韻堯 ——《節奏與狂喜》雙鋼琴音樂會",
+          "venue": "衛武營國家藝術文化中心表演廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-28",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–1,200",
+          "saleAt": "2026-08-05T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095392859876958209": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "試試製作所《不在場練習》",
+          "venue": "牯嶺街小劇場一樓實驗劇場",
+          "address": "臺北市 中正區牯嶺街5巷2號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$1,200–2,000",
+          "saleAt": "2026-09-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2059829556966187009": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026臺南藝術節：僻室╳在地實驗《獸靈之詩：頭骨的召喚》",
+          "venue": "臺南文化中心演藝廳",
+          "address": "臺南市 東區中華東路三段332號",
+          "region": "臺南市",
+          "sessions": [
+            {
+              "date": "2026-10-29",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-29",
+              "time": "20:30"
+            },
+            {
+              "date": "2026-10-30",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-30",
+              "time": "20:30"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "16:30"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "20:30"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "16:30"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "20:30"
+            },
+            {
+              "date": "2026-11-02",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-02",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-02",
+              "time": "16:30"
+            },
+            {
+              "date": "2026-11-02",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-02",
+              "time": "20:30"
+            },
+            {
+              "date": "2026-11-03",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-03",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-11-03",
+              "time": "16:30"
+            },
+            {
+              "date": "2026-11-03",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-11-03",
+              "time": "20:30"
+            },
+            {
+              "date": "2026-11-04",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-04",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$900",
+          "saleAt": "2026-06-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2084130068362047489": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "以你為語—湯詩渝與薩繆爾．尼德豪瑟鋼琴與大提琴二重奏音樂會",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–1,000",
+          "saleAt": "2026-08-03T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2105249874267750401": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026就是愛管：預言者的號角—戰爭和救贖的交織",
+          "venue": "衛武營國家藝術文化中心音樂廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-12-09",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$200",
+          "saleAt": "2026-10-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2087091480778027009": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "聲音的旅行-樂脈．世代．傳承",
+          "venue": "高雄中山堂劇場",
+          "address": "高雄市 左營區實踐路71號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-24",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–500",
+          "saleAt": "2026-08-24T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2099853062099406849": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "致敬蕭斯塔科維奇",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-26",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$800",
+          "saleAt": "2026-10-02T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2091776562129170433": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "愛樂劇工廠-兒童歌舞劇《新龜兔賽跑》PLUS",
+          "venue": "臺北市政大樓親子劇場",
+          "address": "臺北市 信義區市府路1號2樓",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-28",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-29",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–1,000",
+          "saleAt": "2026-09-16T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2097527093642059777": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "【聲於1945】穿越時空的舊麻袋",
+          "venue": "米倉劇場",
+          "address": "桃園市 桃園區新生路169號",
+          "region": "桃園市",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$750",
+          "saleAt": "2026-09-12T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "excluded",
+              "OTHER_PERFORMANCE_FORMAT"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2106946788979920897": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "【廳院迷俱樂部】進入慾望城國",
+          "venue": "板橋放送所 CLT 戲劇館",
+          "address": "新北市 板橋區民族路130巷67號",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "15:30"
+            }
+          ],
+          "price": "NT$800",
+          "saleAt": "2026-10-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100850675412557825": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026大觀國際表演藝術節-【星耀斯拉夫】",
+          "venue": "臺藝表演廳",
+          "address": "新北市 板橋區大觀路一段59號",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$400–1,000",
+          "saleAt": "2026-10-03T10:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095844559507042305": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "雄影國際短片競賽：兒童評審團獎 A (7+)｜高雄電影節",
+          "venue": "內惟藝術中心 Reel TWO 2廳",
+          "address": "高雄市 鼓山區馬卡道路329號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-10-15",
+              "time": "14:40"
+            },
+            {
+              "date": "2026-10-16",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-10-21",
+              "time": "13:30"
+            }
+          ],
+          "price": "NT$150",
+          "saleAt": "2026-09-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2070424632643018752": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "黃梅調喜劇《三笑點秋香》創團20年慶公演",
+          "venue": "基隆表演藝術中心演藝廳",
+          "address": "基隆市 中正區信一路181號",
+          "region": "基隆市",
+          "sessions": [
+            {
+              "date": "2026-12-06",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–1,500",
+          "saleAt": "2026-07-06T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2105220410034397185": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "四十週年系列《呂紹嘉、葛里戈里恩與NSO》（高雄場）",
+          "venue": "衛武營國家藝術文化中心音樂廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2027-06-06",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$500–4,800",
+          "saleAt": "2026-10-04T00:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2064991753921044481": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "拾光號｜《ON/我來開箱》來自比利時互動式劇場",
+          "venue": "可能存在的遊樂園 CollaPlay",
+          "address": "臺北市 萬華區武昌街二段83之6號3樓",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-23",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-24",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "16:30"
+            }
+          ],
+          "price": "NT$1,500",
+          "saleAt": "2026-06-22T20:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2079840877876432897": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《Amor Místico—迷靈之戀》精靈幻舞舞團",
+          "venue": "板橋放送所 CLT 戲劇館",
+          "address": "新北市 板橋區民族路130巷67號",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-12-13",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$1,500–2,500",
+          "saleAt": "2026-07-29T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2101846786922614785": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《吾師吳師》吳兆南百歲紀念演出",
+          "venue": "新北市藝文中心演藝廳",
+          "address": "新北市 板橋區莊敬路62號",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-11",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-12-11",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$400–1,600",
+          "saleAt": "2026-09-28T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "excluded",
+              "OTHER_PERFORMANCE_FORMAT"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2090378180198309889": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "両両製造 X 陳盈達《遮有真濟小王子》",
+          "venue": "米倉劇場",
+          "address": "桃園市 桃園區新生路169號",
+          "region": "桃園市",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$800–1,500",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100752451028361216": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "【醫聲．白袍金嗓】施宗賢醫師 廣音域 跨界演唱會",
+          "venue": "大東文化藝術中心",
+          "address": "高雄市 鳳山區光遠路161號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-12-20",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–2,500",
+          "saleAt": "2026-09-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2077972652203708417": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026秋天藝術節 時光密室：博愛特區的前世今生",
+          "venue": "國家戲劇院",
+          "address": "臺北市 中正區中山南路21之1號，愛國東路側",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-17",
+              "time": "16:00"
+            }
+          ],
+          "price": "NT$0",
+          "saleAt": "2026-09-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2074023397003329537": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "義興閣掌中劇團《四靈國：天祥書之謎》",
+          "venue": "華山1914文創園區東3B館 烏梅劇院",
+          "address": "臺北市 中正區八德路一段1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "10:30"
+            },
+            {
+              "date": "2026-11-21",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–600",
+          "saleAt": "2026-07-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2089995501384269825": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "「Da Capo」2026年彩虹城市管樂團年度音樂會",
+          "venue": "新莊文化藝術中心演藝廳",
+          "address": "新北市 新莊區中平路133號",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$400–500",
+          "saleAt": "2026-09-07T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2092907934253748225": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《大河劇神曲再現》",
+          "venue": "台北生技園區多功能廳",
+          "address": "臺北市 南港區忠孝東路七段508號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-02-28",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$1,000–2,000",
+          "saleAt": "2026-09-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2101865303470845952": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "⟪冷焰⟫ Marc Danel與李昀陽",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$800–2,000",
+          "saleAt": "2026-10-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2077302916214165505": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "風中三語",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-20",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$350–800",
+          "saleAt": "2026-08-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2101950430852980737": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "拉縴人男聲合唱團《英雄路－布袋戲聲音行旅》",
+          "venue": "雲林表演廳",
+          "address": "雲林縣 斗六市大學路三段310號",
+          "region": "雲林縣",
+          "sessions": [
+            {
+              "date": "2026-11-22",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–800",
+          "saleAt": "2026-09-30T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2093139169107288065": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《拾光・雙城記》",
+          "venue": "新竹縣政府文化局演奏廳",
+          "address": "新竹縣 竹北市縣政九路146號",
+          "region": "新竹縣",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "18:30"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-09-10T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2085553373130006529": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "【TCO】三韻流芳",
+          "venue": "臺北市中山堂光復廳",
+          "address": "臺北市 中正區延平南路98號-秀山門入場",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-01-10",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-08-24T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2089921134541438977": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《天織星光》 詩詞美學音樂會",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–1,200",
+          "saleAt": "2026-08-30T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2079024127582380033": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026 正港雄有戲《功德嘉年華》",
+          "venue": "駁二正港小劇場",
+          "address": "高雄市 鼓山區蓬萊路99號 駁二藝術特區蓬萊倉庫 B9棟",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-14",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-15",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–800",
+          "saleAt": "2026-08-05T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2096874001865805824": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "不朽的生命 2026女高音盧瓊蓉獨唱會",
+          "venue": "國立臺南大學雅音樓音樂廳",
+          "address": "臺南市 中西區樹林街二段33號",
+          "region": "臺南市",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$500–1,200",
+          "saleAt": "2026-09-11T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2100845500148932609": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "《誰看見過風》",
+          "venue": "國立成功大學成功廳",
+          "address": "臺南市 東區大學路1號光復校區",
+          "region": "臺南市",
+          "sessions": [
+            {
+              "date": "2026-11-01",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–2,000",
+          "saleAt": "2026-09-22T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2079884436521492480": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "對位室內樂團《又見時間階梯—阿美的記憶》音樂劇場",
+          "venue": "臺中國家歌劇院小劇場",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$800",
+          "saleAt": "2026-08-14T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2090712551702155264": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "八福韶韻美聲2026中文藝術歌謠公益慈善演唱會~兼為全民健康平甩而唱",
+          "venue": "文山劇場",
+          "address": "臺北市 文山區景文街32號，捷運景美站1號出口",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-18",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$100",
+          "saleAt": "2026-08-27T14:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2105958106013474816": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "老歌神韻風華再現音樂會",
+          "venue": "衛武營國家藝術文化中心表演廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-12-30",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$550",
+          "saleAt": "2026-10-07T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2087081273180315649": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "朱志祥鋼琴獨奏會《如聲所見As Heard, As Seen》",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–2,000",
+          "saleAt": "2026-08-21T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2102280971281862657": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "星光住進歌聲裡",
+          "venue": "高雄市音樂館",
+          "address": "高雄市 鹽埕區河西路99號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-12-23",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-10-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2059817032922460161": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026臺南藝術節：鐵仕製作（香港）x 剛左小組（大阪）《搭橋》",
+          "venue": "臺南文化中心演藝廳",
+          "address": "臺南市 東區中華東路三段332號",
+          "region": "臺南市",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "16:00"
+            }
+          ],
+          "price": "NT$900–1,600",
+          "saleAt": "2026-06-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2084107467146960897": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "雨韻合唱團2026年度音樂會-水之頌：聆聽世界的呼吸",
+          "venue": "基隆表演藝術中心演藝廳",
+          "address": "基隆市 中正區信一路181號",
+          "region": "基隆市",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$300–800",
+          "saleAt": "2026-09-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2087120867387015168": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "跨越赤道的天籟－TCO合唱團音樂會",
+          "venue": "臺北市中山堂中正廳",
+          "address": "臺北市 中正區延平南路98號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–500",
+          "saleAt": "2026-08-24T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095360944500580353": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "艾哈邁德王子歷險記+童話短片集",
+          "venue": "國家電影及視聽文化中心-大影格",
+          "address": "新北市 新莊區文藝路2號",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$220",
+          "saleAt": "2026-09-18T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2097905266022486016": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "季廷恩獨奏會：¡西班牙！",
+          "venue": "臺中國家歌劇院小劇場",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-11-09",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-09-15T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095032675222945793": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "林冠廷2026鋼琴獨奏會_向柴可夫斯基致敬",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–1,200",
+          "saleAt": "2026-09-08T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2069672557081546753": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "布拉瑞揚舞團《我・我們》第一部曲-2026苗北藝術節",
+          "venue": "苗北藝文中心演藝廳",
+          "address": "苗栗縣 竹南鎮公園路206號",
+          "region": "苗栗縣",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300–1,800",
+          "saleAt": "2026-07-15T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2036016610592505856": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "【掌中戲】新西園掌中劇團《文素臣之大義滅親-殺嫂》",
+          "venue": "大稻埕戲苑曲藝場",
+          "address": "臺北市 大同區迪化街一段21號8樓",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$100",
+          "saleAt": "2026-04-09T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2056288538199531521": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "田和越叁周年TEN OR ONE 全新9號作【寒窯之外】",
+          "venue": "田和越．茶劇場",
+          "address": "高雄市 鼓山區美術南一街192號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-07",
+              "time": "16:30"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-11-08",
+              "time": "16:30"
+            }
+          ],
+          "price": "NT$2,500–5,000",
+          "saleAt": "2026-05-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2030931388949524481": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "【2026 TSO 室內沙龍】交織的語言：歐洲室內樂的對話",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-28",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$200–500",
+          "saleAt": "2026-03-12T14:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2080549427189858305": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "『孟德爾頌之間』～創樂者藝術管弦樂與合唱篇",
+          "venue": "臺北市中山堂中正廳",
+          "address": "臺北市 中正區延平南路98號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-04",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–1,200",
+          "saleAt": "2026-08-03T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2080112539683344385": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "鋼琴合作藝術聲樂篇系列音樂會（三）",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-02",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$100–800",
+          "saleAt": "2026-08-14T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2097631598132736001": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "華語短片(金魚缸小姐+線／牙線+慾子燒+我的媽媽是網友)",
+          "venue": "CLASSROOM 1廳",
+          "address": "臺北市 中正區水源里羅斯福路四段136巷3號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-10-28",
+              "time": "17:20"
+            }
+          ],
+          "price": "NT$250",
+          "saleAt": "2026-09-14T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2082741791532670976": {
+        "readAt": "2026-10-13",
+        "facts": {
+          "title": "2026藝術綠洲創作計畫-許程崴製作舞團《金黃蓮》",
+          "venue": "米倉劇場",
+          "address": "桃園市 桃園區新生路169號",
+          "region": "桃園市",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "15:00"
+            },
+            {
+              "date": "2026-10-31",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-11-01",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-09-03T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2095039681607081985": {
+        "readAt": "2026-10-13",
+        "facts": null
       }
     },
-    "pendingPages": 256,
-    "listed": 1107
+    "pendingPages": 162,
+    "listed": 1108
   }
 }

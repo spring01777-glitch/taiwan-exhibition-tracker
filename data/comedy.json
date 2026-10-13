@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Taipei",
-  "updatedAt": "2026-10-12T14:46:01+08:00",
+  "updatedAt": "2026-10-13T15:15:47+08:00",
   "events": [
     {
       "id": "manual-lan-1008",
@@ -2293,7 +2293,7 @@
       "address": "北市中山區復興北路480號",
       "verificationMethod": "daily-crawl",
       "id": "b653c5a51750e6613df5",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2351,7 +2351,7 @@
       "address": "北市中山區復興北路480號",
       "verificationMethod": "daily-crawl",
       "id": "d21c371aab8b87cf791b",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2409,7 +2409,7 @@
       "address": "台北市中正區羅斯福路四段24巷13號B1",
       "verificationMethod": "daily-crawl",
       "id": "52a1442d260147f1d7b1",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2467,7 +2467,7 @@
       "address": "北市林森北路286號",
       "verificationMethod": "daily-crawl",
       "id": "0ad299c964da7ec69ee8",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2525,7 +2525,7 @@
       "address": "北市林森北路286號",
       "verificationMethod": "daily-crawl",
       "id": "494d4837976330eee1a7",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2592,7 +2592,7 @@
       "address": "臺北市中山區銅山街一號",
       "verificationMethod": "daily-crawl",
       "id": "9965c2ef1894358d1552",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2650,7 +2650,7 @@
       "address": "台北市中山區復興北路480號",
       "verificationMethod": "daily-crawl",
       "id": "d63e1802d1041423d41a",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2708,7 +2708,7 @@
       "address": "台北市中山區八德路二段260號中影八德大樓",
       "verificationMethod": "daily-crawl",
       "id": "e736ef9104362f421395",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2822,7 +2822,7 @@
       "address": "北市中山區復興北路480號",
       "verificationMethod": "daily-crawl",
       "id": "83c8ebcb4e09128ce6c3",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2936,7 +2936,7 @@
       "address": "台中市西屯區西安街277巷2號",
       "verificationMethod": "daily-crawl",
       "id": "4c8c8d54a7a3c8ab61e9",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3069,7 +3069,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "fffd39d6bfb8e071d6b6",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3117,7 +3117,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "ebe6fbad0a54c29c9fd2",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3165,7 +3165,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "52ca097d540e73a137c7",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3213,7 +3213,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "dd215d70f82db1b31827",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3261,7 +3261,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "7af6544edcc894966e1e",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3309,7 +3309,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "2cd4108a1ee80db57a01",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3357,7 +3357,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "ab64aa6c6b39911aa78e",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3405,7 +3405,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "4d721bc93436a5a78c5f",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3453,7 +3453,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "0ad7f5aeaa2b7575df79",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3501,7 +3501,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "09542c0f90ff356c384e",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3549,7 +3549,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "b6d9e42cbcc443cd1049",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3597,7 +3597,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "7b834b7b65f3ed1bc666",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3645,7 +3645,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "903e970fe23078adb828",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3741,7 +3741,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "80977479f62d57f3c973",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3789,7 +3789,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "64bf7ffc776b2962a67c",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3837,7 +3837,7 @@
       "revisions": [],
       "source": "satire",
       "id": "c0220a4b0430dc9991b5",
-      "verifiedAt": "2026-10-12",
+      "verifiedAt": "2026-10-13",
       "sourceRefs": [
         {
           "source": "satire",
@@ -4481,8 +4481,8 @@
     {
       "name": "文化部・綜藝（僅明確單口／脫口秀）",
       "url": "https://data.gov.tw/dataset/6009",
-      "checkedAt": "2026-10-12T14:46:01+08:00",
-      "lastSuccess": "2026-10-12T14:46:01+08:00",
+      "checkedAt": "2026-10-13T15:15:47+08:00",
+      "lastSuccess": "2026-10-13T15:15:47+08:00",
       "id": "moc",
       "status": "ok",
       "message": "授權 JSON 解析完成；納入 0 個活動／場館，待分類 1 筆；不是全平台完整涵蓋。",
@@ -4604,28 +4604,28 @@
       "id": "comedyclub",
       "name": "卡米地官方主辦目錄",
       "url": "https://comedyclub.kktix.cc/",
-      "checkedAt": "2026-10-12T14:43:00+08:00",
+      "checkedAt": "2026-10-13T15:12:47+08:00",
       "mode": "daily-crawl",
       "discovered": 100,
       "included": 32,
-      "excluded": 27,
-      "pending": 41,
+      "excluded": 25,
+      "pending": 43,
       "failed": 0,
       "reasons": {
         "MULTIFIELD_STANDUP_EVIDENCE": 32,
-        "INSUFFICIENT_STANDUP_EVIDENCE": 41,
-        "OTHER_PERFORMANCE_FORMAT": 10,
-        "MULTI_DAY_PARENT_LISTING": 17
+        "INSUFFICIENT_STANDUP_EVIDENCE": 43,
+        "MULTI_DAY_PARENT_LISTING": 16,
+        "OTHER_PERFORMANCE_FORMAT": 9
       },
       "coverageComplete": false,
       "scope": "卡米地 KKTIX 主辦公開 events.json（最新100筆）；僅收明確單口／脫口秀，其餘待分類",
       "pagesVisited": 1,
       "expectedPages": null,
-      "reviewedAt": "2026-10-12",
+      "reviewedAt": "2026-10-13",
       "status": "ok",
-      "lastSuccess": "2026-10-12T14:43:00+08:00",
+      "lastSuccess": "2026-10-13T15:12:47+08:00",
       "lastSuccessfulIncluded": 32,
-      "message": "每日公開資料自動更新完成；納入 32 筆，待分類 41 筆；不代表完整目錄。",
+      "message": "每日公開資料自動更新完成；納入 32 筆，待分類 43 筆；不代表完整目錄。",
       "retainedEventCount": 53,
       "verifiedScopes": [
         {
@@ -4691,7 +4691,7 @@
       "id": "satire",
       "name": "薩泰爾官方主辦目錄",
       "url": "https://strnetwork.kktix.cc/",
-      "checkedAt": "2026-10-12T14:43:00+08:00",
+      "checkedAt": "2026-10-13T15:12:47+08:00",
       "mode": "daily-crawl",
       "discovered": 71,
       "included": 1,
@@ -4709,11 +4709,11 @@
       "pagesVisited": 1,
       "expectedPages": null,
       "status": "ok",
-      "lastSuccess": "2026-10-12T14:43:00+08:00",
+      "lastSuccess": "2026-10-13T15:12:47+08:00",
       "lastSuccessfulIncluded": 1,
       "message": "每日公開資料自動更新完成；納入 1 筆，待分類 3 筆；不代表完整目錄。",
       "retainedEventCount": 1,
-      "reviewedAt": "2026-10-12",
+      "reviewedAt": "2026-10-13",
       "verifiedScopes": [],
       "catalogTotal": null,
       "unreviewedCatalogItems": null,
@@ -4809,31 +4809,31 @@
       "id": "opentix",
       "name": "OPENTIX",
       "url": "https://www.opentix.life/",
-      "checkedAt": "2026-10-12T14:43:00+08:00",
+      "checkedAt": "2026-10-13T15:12:47+08:00",
       "mode": "daily-crawl",
-      "discovered": 811,
+      "discovered": 901,
       "included": 0,
-      "excluded": 124,
-      "pending": 687,
+      "excluded": 135,
+      "pending": 766,
       "failed": 0,
       "reasons": {
-        "INSUFFICIENT_STANDUP_EVIDENCE": 687,
-        "OTHER_PERFORMANCE_FORMAT": 21,
-        "COURSE_OR_MUSICAL": 96,
-        "NO_STRUCTURED_EVENT": 7
+        "INSUFFICIENT_STANDUP_EVIDENCE": 766,
+        "OTHER_PERFORMANCE_FORMAT": 25,
+        "COURSE_OR_MUSICAL": 101,
+        "NO_STRUCTURED_EVENT": 9
       },
       "coverageComplete": false,
       "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；只讀新上架活動，已讀過的不重抓，已結束活動不收錄；每日最多100頁",
       "pagesVisited": 101,
       "expectedPages": null,
-      "pendingPages": 256,
+      "pendingPages": 162,
       "status": "ok",
-      "lastSuccess": "2026-10-12T14:43:00+08:00",
+      "lastSuccess": "2026-10-13T15:12:47+08:00",
       "lastSuccessfulIncluded": 0,
-      "message": "每日公開資料自動更新完成；納入 0 筆，待分類 687 筆；不代表完整目錄。",
+      "message": "每日公開資料自動更新完成；納入 0 筆，待分類 766 筆；不代表完整目錄。",
       "retainedEventCount": 0,
-      "listedPages": 1107,
-      "reviewedAt": "2026-10-12",
+      "listedPages": 1108,
+      "reviewedAt": "2026-10-13",
       "verifiedScopes": [],
       "catalogTotal": null,
       "unreviewedCatalogItems": null,
