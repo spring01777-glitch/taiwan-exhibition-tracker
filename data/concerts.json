@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Taipei",
-  "updatedAt": "2026-10-13T15:15:46+08:00",
+  "updatedAt": "2026-10-14T13:41:02+08:00",
   "events": [
     {
       "id": "manual-forever",
@@ -3686,7 +3686,7 @@
       "address": "高雄市 鳳山區三多一路1號",
       "verificationMethod": "daily-crawl",
       "id": "95bee9886c18396fc6d9",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -3743,7 +3743,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e12efcaff1aa370bca66",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -3792,7 +3792,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "efd798ff702af0d028fe",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -3906,7 +3906,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "92afc1a25e14d1d93f31",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4012,7 +4012,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e0068d33df0bd37ac736",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4061,7 +4061,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c461e81d406351c442b8",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4110,7 +4110,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a81451730646f84a51e7",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4159,7 +4159,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "07a3541c970309eda7eb",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4208,7 +4208,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d81c1ab10d4211385e69",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4257,7 +4257,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "441860c973f21b1a0c5d",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4306,7 +4306,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "847012143f74d9a912aa",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4355,7 +4355,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "51639ff2d7d461733ae6",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4404,7 +4404,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5b08187402ae488c90bb",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4453,7 +4453,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e811a0d351c03b6c1e09",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4502,7 +4502,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "0f5949f398c2c9e00d92",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4559,7 +4559,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6b6da9030b4d472a9fc9",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4608,7 +4608,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "3c6143f649a927dfe2c8",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4706,7 +4706,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e608d53427d303e040aa",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4755,7 +4755,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1cd95f93161b0cd27af3",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4804,7 +4804,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ee654b998b5bd8907a67",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4853,7 +4853,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "b0fb99e33a5acfd46b78",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4902,7 +4902,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "93e3e3113ef5487d9d04",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5367,7 +5367,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "665765f77ee7abd0c5a8",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5416,7 +5416,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "16feeda2d97897a1c1ef",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5465,7 +5465,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f032ee12e556389abdbb",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5514,7 +5514,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e183ea3278c1cb7a476f",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5563,7 +5563,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ad0df4fe8a7aaadd3ab8",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5612,7 +5612,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "778f41e2c094b03e8d55",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5661,7 +5661,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1d3e845c19d3119d5f32",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5808,7 +5808,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e468b0741133eee4f006",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5857,7 +5857,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f1f436a699580de5bc54",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5906,7 +5906,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "79509d90a193a43e4bd1",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5955,7 +5955,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "532e0662e8e28b4802bf",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6004,7 +6004,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "2373de77528aeb3e2bb2",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6053,7 +6053,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "33aa4192dfddb6036810",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6102,7 +6102,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "aad61a33d0afe283a3e7",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6151,7 +6151,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d17d10cad94c9fad4d9e",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6200,7 +6200,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "de91b7b0a4a683e4036e",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6249,7 +6249,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7a6f009077b98eee4a2e",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6314,7 +6314,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "176226f9168d71630c57",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6363,7 +6363,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "296f6dd806b8a861ea29",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6461,7 +6461,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "b35da7ec9b6a69146091",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6510,7 +6510,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a19c44866e4dc0812c6a",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6559,7 +6559,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5dc56989e7729f56fc3f",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6608,7 +6608,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "60770561cd1757cc699d",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6657,7 +6657,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ecea8c9ffcd434e56c27",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6706,7 +6706,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f8c28136e2278bdc420e",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6779,7 +6779,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7e42e114d2d3536d862d",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6828,7 +6828,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a57d13f4eeae78a09c6a",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6885,7 +6885,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8d576c49a87db2cc8648",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6934,7 +6934,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "56de68b01bb1eb4df278",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6983,7 +6983,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8067af824d0923ef6b08",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7032,7 +7032,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c5f5421aa1a997d4dca0",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7081,7 +7081,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ac37e84225ce32c6c9b0",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7130,7 +7130,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "69bd24ecb15fe6576188",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7179,7 +7179,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "2c65275c9d4ae1cdc8ac",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7228,7 +7228,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5952e8976ad6e81d647e",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7277,7 +7277,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8a3160bfd7de6957cc42",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7326,7 +7326,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1b7aacc8db90d199720c",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7375,7 +7375,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7d9eef3cc29df7b6030c",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7424,7 +7424,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d5abd9629310af3b4b0b",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7473,7 +7473,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "175fb3f92e1c23236d2f",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7522,7 +7522,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ffe621da6083dfc3009d",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7571,7 +7571,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "b3888a1d5b502eabff62",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7620,7 +7620,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "88d9cbc7f6c1f6b39855",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7669,7 +7669,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f7316c3588811cfda449",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7718,7 +7718,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "53667dc722287e188891",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7767,7 +7767,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d7b7c430b215fa7d8b1b",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7816,7 +7816,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f81712750793c89e35ec",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7865,7 +7865,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8cef7630dcbcefd516a2",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7914,7 +7914,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "29c1170308ab8d02e43d",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7963,7 +7963,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a2f22c0394e18e8b9743",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8012,7 +8012,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "733db09a6ac11159ee45",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8061,7 +8061,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "31c1253068229122e1ad",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8159,7 +8159,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "87814e3b9b7a31093e76",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8208,7 +8208,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "27a1beb70cea6ef8da91",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8257,7 +8257,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "fbc5137f547b50cfdf23",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8306,7 +8306,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8d5dea7ac490a7dc9f79",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8355,7 +8355,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "83ea0202e91305f1a61e",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8404,7 +8404,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9470a26d5726e80736c1",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8453,7 +8453,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "950b3aa8f0a3f5b8b1ed",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8502,7 +8502,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e8cb3a2a39f79293004b",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8551,7 +8551,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f8260bfc38788f40a2e4",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8600,7 +8600,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5b75e81c73aa8640e7b9",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8665,7 +8665,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "82035623a6bbeffc326f",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8770,7 +8770,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "51ddf325d93bf4a22174",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8843,7 +8843,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ae430a48173abdca58b4",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8892,7 +8892,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "35c2a8d3b0061954e26b",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8941,7 +8941,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7ff5b34edbe52e39e779",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8990,7 +8990,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "da48a352f28f0297c0e2",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9039,7 +9039,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "86a3128d2b65305246cc",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9088,7 +9088,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c65db64a18a59704d9a2",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9137,7 +9137,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "0c641c105b012beab38b",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9186,7 +9186,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "497e74439e70fc7d64a5",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9284,7 +9284,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "3ca59a95f620314cd883",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9333,7 +9333,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "4ac966641fa359d991b0",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9382,7 +9382,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7817bad53530bfda5b6d",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9431,7 +9431,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9083f507d5e1d677e3f2",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9480,7 +9480,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5ede1c7147c19af15e1e",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9529,7 +9529,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "af352c48a618a2e66ea9",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9578,7 +9578,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1dfe5eada8d5cc637dbb",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9627,7 +9627,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "92e668ec6bdab729e9f0",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9676,7 +9676,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "0305a72b796ea484af03",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9725,7 +9725,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "efc0abc381ff76ccc432",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9774,7 +9774,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "dc78a9e89e52678e6c72",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9823,7 +9823,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c61c2df206869ebe13ac",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9880,7 +9880,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a2fbe55c4f4f3b032c39",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9929,7 +9929,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d1e36922cc29556c3a19",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9978,7 +9978,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9a1f31a5fd4c585e7c03",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10027,7 +10027,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "4b338c1b026939f15bd0",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10076,7 +10076,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "aac9381096a89a8ca865",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10125,7 +10125,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "225f23b67cc1cb60f548",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10174,7 +10174,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "13b8d0bb3687dc63aece",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10223,7 +10223,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "67ed3a801e689fdc1112",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10272,7 +10272,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "35d8f38f22ca5b5d6e38",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10321,7 +10321,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "810713670fca88740b08",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10370,7 +10370,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9ec95b7e1003019396b4",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10419,7 +10419,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "3851a5c56ab2ae3aed58",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10468,7 +10468,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "0ce64173df84591bb64b",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10517,7 +10517,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "273f48a9936b0b75f6a4",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10566,7 +10566,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "772c591f9d8415761b76",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10615,7 +10615,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a447043a25c4da14ef99",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10664,7 +10664,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "4f24ac7e445476072cac",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10713,7 +10713,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7e6774a74db371f20631",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10762,7 +10762,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9029d503ed046be450c1",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10811,7 +10811,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "b6088abb42be5b56233c",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10860,7 +10860,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ac33c915b5509007027b",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10909,7 +10909,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1f9b0f992488e1766e6a",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10958,7 +10958,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "fd09882a7375a40799a3",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11007,7 +11007,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "498e3382bd230dca06dd",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11056,7 +11056,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "157e00f62006f8eabb72",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11105,7 +11105,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8bdd909d2ba5a8854221",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11154,7 +11154,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a34211eab14952ec7ac8",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11203,7 +11203,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a34ebaf0e06fa78cad6a",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11252,7 +11252,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "862e55042d9e7a25924d",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11301,7 +11301,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "00efd0b1126765205ceb",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11350,7 +11350,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f6f340ecb692af1b16fa",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11407,7 +11407,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6023070c653d28acb015",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11456,7 +11456,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "32ed43241db62abe63ac",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11505,7 +11505,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "777e8bbd23f350ed50d4",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11554,7 +11554,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1ab3c8fd8950f3885c06",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11603,7 +11603,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "b0ee4d63012a2871c8ce",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11652,7 +11652,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9beb79f14f7eb8b3fc72",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11701,7 +11701,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "16a97935f5d9016cf0d8",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11750,7 +11750,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6772d3e3072e84c892bb",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11799,7 +11799,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "593deeaee51ef6ab24b5",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11897,7 +11897,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8def66e8a10b807309cd",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11946,7 +11946,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "2fbf8a575b8aeb044214",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11995,7 +11995,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "73ca47535b5a33928d5f",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12044,7 +12044,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a722416d0f90fdf48189",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12093,7 +12093,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c3e27d471bed4f380130",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12142,7 +12142,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "2e58c6b72dee751eba43",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12191,7 +12191,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c5c768b3009afcf225ec",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12240,7 +12240,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "134b45ff5e7251ab20f4",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12289,7 +12289,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "0a2d7a7870b3ac73523d",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12338,7 +12338,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "dd1eb40489c9173dbf0f",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12387,7 +12387,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "36a5d41b138547a12ce9",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12436,7 +12436,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "90b25171ad957a9fb998",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12485,7 +12485,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "52c2e8eabac779d26eef",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12534,7 +12534,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c64ad33e3c4fd6c7dc73",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12583,7 +12583,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "36fa5ebf4df05a31d1e0",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12632,7 +12632,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "79d309e21f6f2410875a",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12681,7 +12681,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5147a53afd85657a489e",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12730,7 +12730,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "3718410e110317a8e885",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12779,7 +12779,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d1033d51f23d337ef4f2",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12828,7 +12828,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "23890df17f1d1841ac49",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12877,7 +12877,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "21d08b2fb334a5dd897f",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12926,7 +12926,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f997f7dad67b819ff672",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12975,7 +12975,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c3200ac0e804dede1921",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13024,7 +13024,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "16331bb5f5c654f12391",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13073,7 +13073,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "751f0c59fde9ad928f25",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13122,7 +13122,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6c86fac2a3a94c953a76",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13171,7 +13171,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "50198379f339d03d1fad",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13220,7 +13220,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8914c761ea893475b4c7",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13269,7 +13269,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "3a10924bc721f1dc3ed2",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13318,7 +13318,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "58d28f1741784a4c10a0",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13367,7 +13367,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d2069fdc3963a754a6c6",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13416,7 +13416,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "dd9b9612933a63054cd9",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13465,7 +13465,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6d6d67063df27c0fba82",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13514,7 +13514,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6722cab309e493f911c2",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13563,7 +13563,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "04a921f6a6a1e19c60df",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13612,7 +13612,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ec0854edde02b9202191",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13661,7 +13661,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8c7cdf23d2ee01c34b09",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13710,7 +13710,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d8e6c132970cd5fb6ba5",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13759,7 +13759,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "db17f567a74c114a2997",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13808,7 +13808,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9e222e00d36283055d5c",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13857,7 +13857,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "02020dfdf94379d719c4",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13906,12 +13906,1514 @@
       "revisions": [],
       "source": "opentix",
       "id": "65b6fd65d97d23c3366a",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "opentix",
           "sourceUid": "https://www.opentix.life/event/2080112539683344385",
           "id": "65b6fd65d97d23c3366a"
+        }
+      ],
+      "genre": "合唱／聲樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2102655083036643329",
+      "title": "臺北市立大學2026校慶音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北市中山堂中正廳",
+      "address": "臺北市 中正區延平南路98號",
+      "sessions": [
+        {
+          "date": "2026-11-19",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$200–1,000",
+      "saleAt": "2026-10-06T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2102655083036643329",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-11-19",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北市中山堂中正廳。",
+      "sourceUrl": "https://www.opentix.life/event/2102655083036643329",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "4bd8149896e64641a182",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2102655083036643329",
+          "id": "4bd8149896e64641a182"
+        }
+      ],
+      "genre": "其他音樂會"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2100846261949403137",
+      "title": "2026 NTT歲末音樂會《那麼派—動靜皆宜樂舞派對》",
+      "performers": null,
+      "region": "臺中市",
+      "venue": "臺中國家歌劇院大劇院",
+      "address": "臺中市 西屯區惠來路二段101號",
+      "sessions": [
+        {
+          "date": "2026-12-31",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$700–2,500",
+      "saleAt": "2026-10-21T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2100846261949403137",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-12-31",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為臺中國家歌劇院大劇院。",
+      "sourceUrl": "https://www.opentix.life/event/2100846261949403137",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "f20bb3d56894371fd31d",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2100846261949403137",
+          "id": "f20bb3d56894371fd31d"
+        }
+      ],
+      "genre": "其他音樂會"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2090294462783180801",
+      "title": "弦上的微光—張明雄二胡音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北市中山堂中正廳",
+      "address": "臺北市 中正區延平南路98號",
+      "sessions": [
+        {
+          "date": "2026-11-05",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$300–2,000",
+      "saleAt": "2026-08-24T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2090294462783180801",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-11-05",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北市中山堂中正廳。",
+      "sourceUrl": "https://www.opentix.life/event/2090294462783180801",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "cab5a8e1a0196619ce00",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2090294462783180801",
+          "id": "cab5a8e1a0196619ce00"
+        }
+      ],
+      "genre": "國樂／傳統"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2067130607362113536",
+      "title": "《和鳴》2026屏東大學音樂學系教授聯合音樂會",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心表演廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2026-11-30",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$400–600",
+      "saleAt": "2026-08-31T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2067130607362113536",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-11-30",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心表演廳。",
+      "sourceUrl": "https://www.opentix.life/event/2067130607362113536",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "1914ff830babdb7a4cdb",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2067130607362113536",
+          "id": "1914ff830babdb7a4cdb"
+        }
+      ],
+      "genre": "其他音樂會"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2064248113372274689",
+      "title": "「爵士禾聲」系列音樂會 #07｜《他/她們眼中的世界》——爵士創作歌手的音樂說法",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "禾禾文化空間",
+      "address": "臺北市 中山區南京東路三段9號4樓",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$900",
+      "saleAt": "2026-06-15T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2064248113372274689",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為禾禾文化空間。",
+      "sourceUrl": "https://www.opentix.life/event/2064248113372274689",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "02b3d49bd2077ca80091",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2064248113372274689",
+          "id": "02b3d49bd2077ca80091"
+        }
+      ],
+      "genre": "爵士"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2098302357490511873",
+      "title": "狂美2026《臺灣新聲》管樂作曲大賽決賽音樂會",
+      "performers": null,
+      "region": "桃園市",
+      "venue": "中壢藝術館音樂廳",
+      "address": "桃園市 中壢區中美路16號",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$500–1,800",
+      "saleAt": "2026-09-24T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2098302357490511873",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "桃園市的演唱會，演出地點為中壢藝術館音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2098302357490511873",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "66cc72cd563c36b7ec9e",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2098302357490511873",
+          "id": "66cc72cd563c36b7ec9e"
+        }
+      ],
+      "genre": "管樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2103068204084047873",
+      "title": "樂心共鳴-韓台身心障礙音樂家國際交流音樂會",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "大東文化藝術中心",
+      "address": "高雄市 鳳山區光遠路161號",
+      "sessions": [
+        {
+          "date": "2026-11-12",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$800–1,000",
+      "saleAt": "2026-10-05T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2103068204084047873",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-11-12",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為大東文化藝術中心。",
+      "sourceUrl": "https://www.opentix.life/event/2103068204084047873",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "865e13c14be0e03b4e74",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2103068204084047873",
+          "id": "865e13c14be0e03b4e74"
+        }
+      ],
+      "genre": "其他音樂會"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2096906468333096960",
+      "title": "日本早稻田爵士大樂團訪臺巡迴音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北市中山堂光復廳",
+      "address": "臺北市 中正區延平南路98號-秀山門入場",
+      "sessions": [
+        {
+          "date": "2026-12-19",
+          "time": "19:00"
+        }
+      ],
+      "price": "NT$1,000–1,200",
+      "saleAt": "2026-09-14T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2096906468333096960",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "19:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北市中山堂光復廳。",
+      "sourceUrl": "https://www.opentix.life/event/2096906468333096960",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "a742ff8fbcf4dd5475c3",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2096906468333096960",
+          "id": "a742ff8fbcf4dd5475c3"
+        }
+      ],
+      "genre": "爵士"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2107327689371172865",
+      "title": "新竹市立管樂團年度音樂會《才不是！》",
+      "performers": null,
+      "region": "新竹縣",
+      "venue": "竹東鎮樹杞林文化館演藝廳",
+      "address": "新竹縣 竹東鎮新生路377號",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$300",
+      "saleAt": "2026-10-06T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2107327689371172865",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "新竹縣的演唱會，演出地點為竹東鎮樹杞林文化館演藝廳。",
+      "sourceUrl": "https://www.opentix.life/event/2107327689371172865",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "6b05bb3f641da157036b",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2107327689371172865",
+          "id": "6b05bb3f641da157036b"
+        }
+      ],
+      "genre": "管樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2101997879263174657",
+      "title": "《被遺忘的浪漫：新世界》2026 蔡宗言小提琴演奏會",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心表演廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2026-12-29",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$600–1,000",
+      "saleAt": "2026-10-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2101997879263174657",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-12-29",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心表演廳。",
+      "sourceUrl": "https://www.opentix.life/event/2101997879263174657",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "480e56c9baa18b2ed8c0",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2101997879263174657",
+          "id": "480e56c9baa18b2ed8c0"
+        }
+      ],
+      "genre": "古典／室內樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2085651132808839169",
+      "title": "定定仔唱．沓沓仔行-花漾女人心音樂會II",
+      "performers": null,
+      "region": "臺中市",
+      "venue": "國立臺中教育大學寶成演藝廳",
+      "address": "臺中市 西區民生路227號-英才校區",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$300–500",
+      "saleAt": "2026-08-13T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2085651132808839169",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-10-18",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為國立臺中教育大學寶成演藝廳。",
+      "sourceUrl": "https://www.opentix.life/event/2085651132808839169",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "c8e74520907bb1629eaa",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2085651132808839169",
+          "id": "c8e74520907bb1629eaa"
+        }
+      ],
+      "genre": "其他音樂會"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2084126686540869633",
+      "title": "張雅淳×李婉菁《唸歌去天庭：老仙婆的跨界音樂會》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "牯嶺街小劇場二樓藝文空間",
+      "address": "臺北市 中正區牯嶺街5巷2號",
+      "sessions": [
+        {
+          "date": "2026-10-25",
+          "time": "14:30"
+        },
+        {
+          "date": "2026-10-25",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$800–1,200",
+      "saleAt": "2026-08-10T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2084126686540869633",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-10-25",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-10-25",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為牯嶺街小劇場二樓藝文空間。",
+      "sourceUrl": "https://www.opentix.life/event/2084126686540869633",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "d124f581a975509ff82a",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2084126686540869633",
+          "id": "d124f581a975509ff82a"
+        }
+      ],
+      "genre": "其他音樂會"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2086704927585824768",
+      "title": "2026「豐愛雲林 鄉音傳情- 海洋的奇幻旅程｣ 音樂會",
+      "performers": null,
+      "region": "雲林縣",
+      "venue": "豐泰文教基金會綠園區 藝文廳",
+      "address": "雲林縣 虎尾鎮興南1088號",
+      "sessions": [
+        {
+          "date": "2026-10-31",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$200–400",
+      "saleAt": "2026-08-14T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2086704927585824768",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-10-31",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "雲林縣的演唱會，演出地點為豐泰文教基金會綠園區 藝文廳。",
+      "sourceUrl": "https://www.opentix.life/event/2086704927585824768",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "3416d8f04c21b1d0b0fb",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2086704927585824768",
+          "id": "3416d8f04c21b1d0b0fb"
+        }
+      ],
+      "genre": "其他音樂會"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2096887324204896256",
+      "title": "電影動畫配樂與民歌之旅-小星辰鋼琴三重奏2026年度音樂會",
+      "performers": null,
+      "region": "澎湖縣",
+      "venue": "笑ㄟCafé澎湖店",
+      "address": "澎湖縣 湖西鄉隘門村109之11號",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "11:00"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "16:00"
+        }
+      ],
+      "price": "NT$400–600",
+      "saleAt": "2026-09-16T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2096887324204896256",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-10-18",
+              "time": "11:00"
+            },
+            {
+              "date": "2026-10-18",
+              "time": "16:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "澎湖縣的演唱會，演出地點為笑ㄟCafé澎湖店。",
+      "sourceUrl": "https://www.opentix.life/event/2096887324204896256",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "070033a160f62490c180",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2096887324204896256",
+          "id": "070033a160f62490c180"
+        }
+      ],
+      "genre": "古典／室內樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2104825705148162048",
+      "title": "「聲聲無界」系列－跨越想像的弦樂旅程",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心表演廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2026-12-27",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$500–1,200",
+      "saleAt": "2026-09-29T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2104825705148162048",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-12-27",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心表演廳。",
+      "sourceUrl": "https://www.opentix.life/event/2104825705148162048",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "295215850fed838e4d23",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2104825705148162048",
+          "id": "295215850fed838e4d23"
+        }
+      ],
+      "genre": "古典／室內樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2098321523546447873",
+      "title": "佳人的光影與旋律鋼琴三重奏音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家兩廳院演奏廳",
+      "address": "臺北市 中正區中山南路21-1號",
+      "sessions": [
+        {
+          "date": "2026-12-10",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$500–800",
+      "saleAt": "2026-09-29T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2098321523546447873",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-12-10",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家兩廳院演奏廳。",
+      "sourceUrl": "https://www.opentix.life/event/2098321523546447873",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "039ea4fa22b1c224a3dd",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2098321523546447873",
+          "id": "039ea4fa22b1c224a3dd"
+        }
+      ],
+      "genre": "古典／室內樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2085610992028860417",
+      "title": "《憶・響—時間給的答案》音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家兩廳院演奏廳",
+      "address": "臺北市 中正區中山南路21-1號",
+      "sessions": [
+        {
+          "date": "2026-10-18",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$500–1,800",
+      "saleAt": "2026-08-18T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2085610992028860417",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-10-18",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家兩廳院演奏廳。",
+      "sourceUrl": "https://www.opentix.life/event/2085610992028860417",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "9d71450c7aa47c793808",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2085610992028860417",
+          "id": "9d71450c7aa47c793808"
+        }
+      ],
+      "genre": "其他音樂會"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2071876226227695617",
+      "title": "【2026聲浪藝術節】聖誕魔幻音符",
+      "performers": null,
+      "region": "屏東縣",
+      "venue": "恆春文化中心劇場館表演廳",
+      "address": "屏東縣 恆春鎮東門路1巷18號1樓",
+      "sessions": [
+        {
+          "date": "2026-12-13",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$300",
+      "saleAt": "2026-07-07T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2071876226227695617",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "屏東縣的演唱會，演出地點為恆春文化中心劇場館表演廳。",
+      "sourceUrl": "https://www.opentix.life/event/2071876226227695617",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "9f28ffe1f57570a3c180",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2071876226227695617",
+          "id": "9f28ffe1f57570a3c180"
+        }
+      ],
+      "genre": "流行／搖滾演唱會"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2035928395948498945",
+      "title": "張正傑親子音樂會-搭熱氣球環遊世界",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北市中山堂中正廳",
+      "address": "臺北市 中正區延平南路98號",
+      "sessions": [
+        {
+          "date": "2026-11-14",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$400",
+      "saleAt": "2026-03-24T14:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2035928395948498945",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北市中山堂中正廳。",
+      "sourceUrl": "https://www.opentix.life/event/2035928395948498945",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "9d60da0d73685b1cd586",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2035928395948498945",
+          "id": "9d60da0d73685b1cd586"
+        }
+      ],
+      "genre": "其他音樂會"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2089910450669920257",
+      "title": "2026國立臺南藝術大學音樂學系弦樂團音樂會《弦上的故鄉》",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心表演廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2026-11-26",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$300–400",
+      "saleAt": "2026-09-08T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2089910450669920257",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-11-26",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心表演廳。",
+      "sourceUrl": "https://www.opentix.life/event/2089910450669920257",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "f85d1c1184bb078f1215",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2089910450669920257",
+          "id": "f85d1c1184bb078f1215"
+        }
+      ],
+      "genre": "古典／室內樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2092545579254595585",
+      "title": "《瘋迷24蕭邦》PLUS橫山幸雄加碼場",
+      "performers": null,
+      "region": "高雄市",
+      "venue": "衛武營國家藝術文化中心表演廳",
+      "address": "高雄市 鳳山區三多一路1號",
+      "sessions": [
+        {
+          "date": "2027-02-21",
+          "time": "18:30"
+        }
+      ],
+      "price": "NT$800",
+      "saleAt": "2026-09-10T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2092545579254595585",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2027-02-21",
+              "time": "18:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為衛武營國家藝術文化中心表演廳。",
+      "sourceUrl": "https://www.opentix.life/event/2092545579254595585",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "43ae3a40bb406f8cd9a6",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2092545579254595585",
+          "id": "43ae3a40bb406f8cd9a6"
+        }
+      ],
+      "genre": "古典／室內樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2079194709134209025",
+      "title": "NTSO樫本大進與國臺交室內樂音樂會",
+      "performers": null,
+      "region": "嘉義市",
+      "venue": "嘉義市政府文化局音樂廳",
+      "address": "嘉義市 東區忠孝路275號",
+      "sessions": [
+        {
+          "date": "2026-12-10",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$100–1,000",
+      "saleAt": "2026-07-29T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2079194709134209025",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-12-10",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "嘉義市的演唱會，演出地點為嘉義市政府文化局音樂廳。",
+      "sourceUrl": "https://www.opentix.life/event/2079194709134209025",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "8f2d536689632c520f09",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2079194709134209025",
+          "id": "8f2d536689632c520f09"
+        }
+      ],
+      "genre": "古典／室內樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2099757618971582465",
+      "title": "第12屆台北東區 秋季爵士音樂節",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "台北生技園區多功能廳",
+      "address": "臺北市 南港區忠孝東路七段508號",
+      "sessions": [
+        {
+          "date": "2026-10-30",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$500–1,200",
+      "saleAt": "2026-09-23T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2099757618971582465",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-10-30",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為台北生技園區多功能廳。",
+      "sourceUrl": "https://www.opentix.life/event/2099757618971582465",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "407ec66967a7592784a4",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2099757618971582465",
+          "id": "407ec66967a7592784a4"
+        }
+      ],
+      "genre": "爵士"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2087386323953926145",
+      "title": "G大調男聲合唱團音樂會－漂亮大歌廳",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "台北生技園區多功能廳",
+      "address": "臺北市 南港區忠孝東路七段508號",
+      "sessions": [
+        {
+          "date": "2026-11-22",
+          "time": "14:30"
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$600",
+      "saleAt": "2026-09-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2087386323953926145",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-11-22",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-11-22",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為台北生技園區多功能廳。",
+      "sourceUrl": "https://www.opentix.life/event/2087386323953926145",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "4ca47a76e53f72f27241",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2087386323953926145",
+          "id": "4ca47a76e53f72f27241"
+        }
+      ],
+      "genre": "合唱／聲樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2100799903336443905",
+      "title": "金采合唱團「風聲水起」十一週年公益關懷音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "台北生技園區多功能廳",
+      "address": "臺北市 南港區忠孝東路七段508號",
+      "sessions": [
+        {
+          "date": "2027-02-27",
+          "time": "14:00"
+        }
+      ],
+      "price": "NT$600",
+      "saleAt": "2026-10-01T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2100799903336443905",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2027-02-27",
+              "time": "14:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為台北生技園區多功能廳。",
+      "sourceUrl": "https://www.opentix.life/event/2100799903336443905",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "d8b9e12871f7955c8681",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2100799903336443905",
+          "id": "d8b9e12871f7955c8681"
+        }
+      ],
+      "genre": "合唱／聲樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2102298802570960896",
+      "title": "《風笙 SS Project》薩克斯風Ｘ笙音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "國家兩廳院演奏廳",
+      "address": "臺北市 中正區中山南路21-1號",
+      "sessions": [
+        {
+          "date": "2026-12-21",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$600–3,000",
+      "saleAt": "2026-09-29T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2102298802570960896",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-12-21",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為國家兩廳院演奏廳。",
+      "sourceUrl": "https://www.opentix.life/event/2102298802570960896",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "617598505a1afa1a22b1",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2102298802570960896",
+          "id": "617598505a1afa1a22b1"
+        }
+      ],
+      "genre": "國樂／傳統"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2105592444607442945",
+      "title": "《天方夜譚》許慈娪2026中提琴獨奏會",
+      "performers": null,
+      "region": "臺南市",
+      "venue": "涴莎藝術展演中心-藝術館A",
+      "address": "臺南市 中西區永華一街59號",
+      "sessions": [
+        {
+          "date": "2026-12-20",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$300",
+      "saleAt": "2026-10-02T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2105592444607442945",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-12-20",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺南市的演唱會，演出地點為涴莎藝術展演中心-藝術館A。",
+      "sourceUrl": "https://www.opentix.life/event/2105592444607442945",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "da0235436f276f3bf490",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2105592444607442945",
+          "id": "da0235436f276f3bf490"
+        }
+      ],
+      "genre": "古典／室內樂"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2089192717915193344",
+      "title": "浪漫的起始與終章：扎斯拉夫斯基獨奏",
+      "performers": null,
+      "region": "雲林縣",
+      "venue": "聲泊廳",
+      "address": "雲林縣 西螺鎮中山路229巷12號",
+      "sessions": [
+        {
+          "date": "2026-11-07",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$700",
+      "saleAt": "2026-08-18T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2089192717915193344",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "雲林縣的演唱會，演出地點為聲泊廳。",
+      "sourceUrl": "https://www.opentix.life/event/2089192717915193344",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "0f951c64450a208a8482",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2089192717915193344",
+          "id": "0f951c64450a208a8482"
+        }
+      ],
+      "genre": "流行／搖滾演唱會"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2087476944693649409",
+      "title": "誰是英雄－TCO教師國樂團音樂會",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北市中山堂中正廳",
+      "address": "臺北市 中正區延平南路98號",
+      "sessions": [
+        {
+          "date": "2026-11-22",
+          "time": "14:30"
+        }
+      ],
+      "price": "NT$300–500",
+      "saleAt": "2026-08-24T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2087476944693649409",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-11-22",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北市中山堂中正廳。",
+      "sourceUrl": "https://www.opentix.life/event/2087476944693649409",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "958a48a67952d3f20ee1",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2087476944693649409",
+          "id": "958a48a67952d3f20ee1"
+        }
+      ],
+      "genre": "國樂／傳統"
+    },
+    {
+      "sourceUid": "https://www.opentix.life/event/2096886851738198017",
+      "title": "2026 VoxUnity International Choral Festival 沃！國際合唱音樂節",
+      "performers": null,
+      "region": "新北市",
+      "venue": "新北市藝文中心演藝廳",
+      "address": "新北市 板橋區莊敬路62號",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "19:30"
+        },
+        {
+          "date": "2026-12-13",
+          "time": "19:30"
+        }
+      ],
+      "price": "NT$500–2,500",
+      "saleAt": "2026-09-16T12:00:00+08:00",
+      "saleNote": "開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "OPENTIX",
+          "url": "https://www.opentix.life/event/2096886851738198017",
+          "checkedAt": "2026-10-14",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-13",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "新北市的演唱會，演出地點為新北市藝文中心演藝廳。",
+      "sourceUrl": "https://www.opentix.life/event/2096886851738198017",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "opentix",
+      "id": "832dc3369486870ce61d",
+      "verifiedAt": "2026-10-14",
+      "sourceRefs": [
+        {
+          "source": "opentix",
+          "sourceUid": "https://www.opentix.life/event/2096886851738198017",
+          "id": "832dc3369486870ce61d"
         }
       ],
       "genre": "合唱／聲樂"
@@ -13965,7 +15467,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "406a84b32786cf2f9253",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -14110,7 +15612,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "3b4a5cbdb3a8df5f02bb",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -14269,7 +15771,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "e53a2e09c536ec2fd996",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -14398,7 +15900,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "490a1fdc7c6861a151f5",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -14443,7 +15945,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "806b2c8ead2fb7eadd25",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -14484,7 +15986,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "29127a5f83ff718586f3",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -14539,7 +16041,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "5a2f499bc320050d706d",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -14584,7 +16086,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "a106df9194cdbf76ac29",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -14657,7 +16159,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "d173c4a25563354bc411",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -14726,7 +16228,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "cdf081b71dd024aee0c7",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -14785,7 +16287,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "4e75617750e2efcdbca4",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -14886,7 +16388,7 @@
       "revisions": [],
       "source": "tmc",
       "id": "7ffcc18eed4e026d2bca",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -14920,7 +16422,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "桃園市的演唱會，演出地點為桃園展演中心展演廳。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [
         {
@@ -14968,7 +16470,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺東縣的演唱會，演出地點為臺東縣立體育館。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [
         {
@@ -15016,7 +16518,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [
         {
@@ -15064,7 +16566,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北國際會議中心大會堂。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [
         {
@@ -15112,7 +16614,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "新北市的演唱會，演出地點為新北市五股工商展覽中心。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -15148,7 +16650,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "高雄市的演唱會，演出地點為高雄市文化中心至德堂。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -15184,7 +16686,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北南港展覽館一館四樓。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [
         {
@@ -15236,7 +16738,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -15272,7 +16774,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [
         {
@@ -15320,7 +16822,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [
         {
@@ -15368,7 +16870,7 @@
       "sourceUrl": "https://rockempire.kktix.cc/events/4e2ae0df",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為Corner House(遠雄國際金融廣場)。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [
         {
@@ -15416,7 +16918,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FWXUND",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為CLAPPER STUDIO 展演廳(三創生活)。",
-      "verifiedAt": "2026-10-13",
+      "verifiedAt": "2026-10-14",
       "revisions": [],
       "tickets": [
         {
@@ -15445,8 +16947,8 @@
     {
       "name": "文化部・演唱會",
       "url": "https://data.gov.tw/dataset/6013",
-      "checkedAt": "2026-10-13T15:15:46+08:00",
-      "lastSuccess": "2026-10-13T15:15:46+08:00",
+      "checkedAt": "2026-10-14T13:41:02+08:00",
+      "lastSuccess": "2026-10-14T13:41:02+08:00",
       "id": "moc",
       "status": "ok",
       "message": "授權 JSON 解析完成；納入 12 個活動／場館，待分類 0 筆；不是全平台完整涵蓋。",
@@ -15799,31 +17301,31 @@
       "id": "opentix",
       "name": "OPENTIX",
       "url": "https://www.opentix.life/",
-      "checkedAt": "2026-10-13T15:12:47+08:00",
+      "checkedAt": "2026-10-14T13:37:16+08:00",
       "mode": "daily-crawl",
-      "discovered": 901,
-      "included": 189,
-      "excluded": 110,
-      "pending": 602,
+      "discovered": 989,
+      "included": 219,
+      "excluded": 131,
+      "pending": 639,
       "failed": 0,
       "reasons": {
-        "CONCERT_EVIDENCE": 189,
-        "INSUFFICIENT_CONCERT_EVIDENCE": 602,
-        "COURSE_OR_MUSICAL": 101,
-        "NO_STRUCTURED_EVENT": 9
+        "CONCERT_EVIDENCE": 219,
+        "INSUFFICIENT_CONCERT_EVIDENCE": 639,
+        "COURSE_OR_MUSICAL": 110,
+        "NO_STRUCTURED_EVENT": 21
       },
       "coverageComplete": false,
       "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；只讀新上架活動，已讀過的不重抓，已結束活動不收錄；每日最多100頁",
       "pagesVisited": 101,
       "expectedPages": null,
-      "reviewedAt": "2026-10-13",
+      "reviewedAt": "2026-10-14",
       "status": "ok",
-      "lastSuccess": "2026-10-13T15:12:47+08:00",
-      "lastSuccessfulIncluded": 189,
-      "message": "每日公開資料自動更新完成；納入 189 筆，待分類 602 筆；不代表完整目錄。",
-      "retainedEventCount": 199,
-      "pendingPages": 162,
-      "listedPages": 1108,
+      "lastSuccess": "2026-10-14T13:37:16+08:00",
+      "lastSuccessfulIncluded": 219,
+      "message": "每日公開資料自動更新完成；納入 219 筆，待分類 639 筆；不代表完整目錄。",
+      "retainedEventCount": 229,
+      "pendingPages": 63,
+      "listedPages": 1102,
       "verifiedScopes": [
         {
           "kind": "concerts",
@@ -15868,7 +17370,7 @@
       "id": "taipei-arena",
       "name": "臺北小巨蛋官方活動資料",
       "url": "https://www.arena.taipei/",
-      "checkedAt": "2026-10-13T15:12:47+08:00",
+      "checkedAt": "2026-10-14T13:37:16+08:00",
       "mode": "daily-crawl",
       "discovered": 10,
       "included": 8,
@@ -15883,9 +17385,9 @@
       "scope": "臺北小巨蛋「已公開(售票/派票)活動」政府開放資料 JSON",
       "pagesVisited": 1,
       "expectedPages": null,
-      "reviewedAt": "2026-10-13",
+      "reviewedAt": "2026-10-14",
       "status": "ok",
-      "lastSuccess": "2026-10-13T15:12:47+08:00",
+      "lastSuccess": "2026-10-14T13:37:16+08:00",
       "lastSuccessfulIncluded": 8,
       "message": "每日公開資料自動更新完成；納入 8 筆，待分類 2 筆；不代表完整目錄。",
       "retainedEventCount": 10,
@@ -15938,7 +17440,7 @@
       "id": "tmc",
       "name": "臺北流行音樂中心官方活動資料",
       "url": "https://www.tmc.taipei/",
-      "checkedAt": "2026-10-13T15:12:47+08:00",
+      "checkedAt": "2026-10-14T13:37:16+08:00",
       "mode": "daily-crawl",
       "discovered": 11,
       "included": 7,
@@ -15955,9 +17457,9 @@
       "scope": "北流官網「最近活動」公開頁；長日期區間不推定場次",
       "pagesVisited": 9,
       "expectedPages": null,
-      "reviewedAt": "2026-10-13",
+      "reviewedAt": "2026-10-14",
       "status": "ok",
-      "lastSuccess": "2026-10-13T15:12:47+08:00",
+      "lastSuccess": "2026-10-14T13:37:16+08:00",
       "lastSuccessfulIncluded": 7,
       "message": "每日公開資料自動更新完成；納入 7 筆，待分類 1 筆；不代表完整目錄。",
       "retainedEventCount": 9,
