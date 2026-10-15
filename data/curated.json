@@ -15,7 +15,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T19:00:00+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -43,7 +43,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -71,7 +71,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -99,7 +99,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -127,7 +127,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T19:00:00+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -155,7 +155,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -183,7 +183,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -191,34 +191,6 @@
         "start": "2026-10-31",
         "end": "2026-11-01",
         "price": "自由入場；官網未列入場票價",
-        "lastSeen": "2026-10-05T20:09:46+08:00"
-      }
-    ]
-  },
-  {
-    "id": "songshan-128112f1fcf19b1b",
-    "title": "瓦奇菲爾德皮革工房 50 週年特展 快閃店",
-    "start": "2026-10-03",
-    "end": "2026-10-13",
-    "region": "臺北市",
-    "venue": "松山文創園區 · 松山文創園區 藝思空間",
-    "address": "臺北市信義區光復南路133號",
-    "park": "songshan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
-    "category": "皮革工藝／快閃店",
-    "summary": "於松山文創園區 藝思空間舉辦的皮革工藝／快閃店活動，日期為2026-10-03至2026-10-13。開放時段與入場條件請查官方。",
-    "url": "https://www.songshanculturalpark.org/exhibition/activity/5fd2284e-9388-4773-8c4f-6a2e83fe809d",
-    "source": "songshan",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "瓦奇菲爾德皮革工房 50 週年特展 快閃店",
-        "start": "2026-10-03",
-        "end": "2026-10-13",
-        "price": "官網未提供票價，請洽官方",
         "lastSeen": "2026-10-05T20:09:46+08:00"
       }
     ]
@@ -239,7 +211,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -267,7 +239,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -295,7 +267,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-07T09:35:39+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -323,7 +295,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-10T07:15:07+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -351,7 +323,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-12T14:41:55+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -379,7 +351,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-12T14:41:55+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -407,7 +379,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-13T15:11:45+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -428,16 +400,24 @@
     "venue": "松山文創園區 · 松山文創園區 2 號倉庫",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 2 號倉庫舉辦的展演活動，日期為2026-10-29至2026-10-31。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/710ea3b2-83b7-407e-86d6-e6681199e06d",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-14T13:36:00+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "旅行再發現－100 亮點大會師",
+        "start": "2026-10-29",
+        "end": "2026-10-31",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-10-14T13:36:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-c58a264219095553",
@@ -448,16 +428,24 @@
     "venue": "松山文創園區 · 松山文創園區 4、5 號倉庫",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 4、5 號倉庫舉辦的展演活動，日期為2026-11-12至2026-11-15。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/d644fa48-df46-452e-bfd6-2678ddeb4a7c",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-14T13:36:00+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "2026 POPUPASIA® 亞洲手創暨生活展",
+        "start": "2026-11-12",
+        "end": "2026-11-15",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-10-14T13:36:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-1d547b7c142771d9",
@@ -468,16 +456,24 @@
     "venue": "松山文創園區 · 松山文創園區 2、3、4 號倉庫",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 2、3、4 號倉庫舉辦的展演活動，日期為2026-11-20至2026-11-22。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/98ffd4b1-9b28-4398-a964-dadde97d2b8a",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-14T13:36:00+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "台北新藝術博覽會《居然 · 藝境》",
+        "start": "2026-11-20",
+        "end": "2026-11-22",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-10-14T13:36:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-5198155b456a7455",
@@ -488,16 +484,52 @@
     "venue": "松山文創園區 · 松山文創園區 4 號倉庫",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 4 號倉庫舉辦的展演活動，日期為2026-11-28至2026-11-29。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/83bbabe0-bce7-4e07-9af2-7ec468df03d8",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-14T13:36:00+08:00",
-    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "lastSeen": "2026-10-15T13:23:08+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "2026 台灣輪椅技巧障礙挑戰賽",
+        "start": "2026-11-28",
+        "end": "2026-11-29",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-10-14T13:36:00+08:00"
+      }
+    ]
+  },
+  {
+    "id": "songshan-128112f1fcf19b1b",
+    "title": "瓦奇菲爾德皮革工房 50 週年特展 快閃店",
+    "start": "2026-10-03",
+    "end": "2026-10-13",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 藝思空間",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供票價，請洽官方",
+    "category": "皮革工藝／快閃店",
+    "summary": "於松山文創園區 藝思空間舉辦的皮革工藝／快閃店活動，日期為2026-10-03至2026-10-13。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/5fd2284e-9388-4773-8c4f-6a2e83fe809d",
+    "source": "songshan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:09:46+08:00",
+    "lastSeen": "2026-10-14T13:36:00+08:00",
+    "missingFromSource": true,
+    "revisions": [
+      {
+        "title": "瓦奇菲爾德皮革工房 50 週年特展 快閃店",
+        "start": "2026-10-03",
+        "end": "2026-10-13",
+        "price": "官網未提供票價，請洽官方",
+        "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-540fcfec15f5daa3",
@@ -724,32 +756,24 @@
     ]
   },
   {
-    "id": "huashan-fe2fc392e3a2930f",
-    "title": "The Ordinary 快閃店",
-    "start": "2026-10-09",
-    "end": "2026-10-14",
+    "id": "huashan-0562b2c69d2e7c0e",
+    "title": "馬鈴薯嘉年華｜巡迴餐車活動",
+    "start": "2026-10-17",
+    "end": "2026-10-17",
     "region": "臺北市",
-    "venue": "華山1914 · 中7B館 維修工場",
+    "venue": "華山1914 · 金八廣場",
     "address": "臺北市中正區八德路一段1號",
     "park": "huashan",
-    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
+    "price": "官網未提供結構化票價，請查官方",
     "category": "展演",
-    "summary": "於中7B館 維修工場舉辦的展演活動，日期為2026-10-09至2026-10-14。開放時段與入場條件請查官方。",
-    "url": "https://www.huashan1914.com/exhibition/The%20Ordinary%20%E5%BF%AB%E9%96%83%E5%BA%97",
+    "summary": "於金八廣場舉辦的展演活動，日期為2026-10-17至2026-10-17。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/%E9%A6%AC%E9%88%B4%E8%96%AF%E5%98%89%E5%B9%B4%E8%8F%AF%EF%BD%9C%E5%B7%A1%E8%BF%B4%E9%A4%90%E8%BB%8A%E6%B4%BB%E5%8B%95",
     "source": "huashan",
     "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-07T14:40:43+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "firstSeen": "2026-10-15T13:24:04+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "The Ordinary 快閃店",
-        "start": "2026-10-09",
-        "end": "2026-10-14",
-        "price": "官網未提供結構化票價，請查官方",
-        "lastSeen": "2026-10-07T14:40:43+08:00"
-      }
-    ]
+    "revisions": []
   },
   {
     "id": "huashan-3983dcf4d62ab4ee",
@@ -767,7 +791,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-07T14:40:43+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -788,16 +812,24 @@
     "venue": "華山1914 · 西5-1館 壓縮兼包裝工場 / 西5-2館 壓縮兼包裝工場 / 西1館 第二乾餾場",
     "address": "臺北市中正區八德路一段1號",
     "park": "huashan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於西5-1館 壓縮兼包裝工場 / 西5-2館 壓縮兼包裝工場 / 西1館 第二乾餾場舉辦的展演活動，日期為2026-10-17至2026-10-18。開放時段與入場條件請查官方。",
     "url": "https://www.huashan1914.com/exhibition/ACE",
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-14T13:36:43+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "ACE (Asia Collectors Expo) 第二屆國際球員卡卡展",
+        "start": "2026-10-17",
+        "end": "2026-10-18",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-10-14T13:36:43+08:00"
+      }
+    ]
   },
   {
     "id": "huashan-d7557b148bef4619",
@@ -815,7 +847,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-07T14:40:43+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -843,7 +875,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -871,7 +903,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -899,7 +931,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -927,7 +959,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T19:00:00+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -955,7 +987,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -983,7 +1015,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-07T09:36:37+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1011,7 +1043,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1039,7 +1071,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1068,7 +1100,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1096,7 +1128,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1125,7 +1157,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1154,7 +1186,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1183,7 +1215,7 @@
     "source": "huashan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "lastSeen": "2026-10-15T13:24:04+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1192,6 +1224,34 @@
         "end": "2027-05-31",
         "price": "官網未提供入場票價；商品另計",
         "lastSeen": "2026-10-05T20:09:46+08:00"
+      }
+    ]
+  },
+  {
+    "id": "huashan-fe2fc392e3a2930f",
+    "title": "The Ordinary 快閃店",
+    "start": "2026-10-09",
+    "end": "2026-10-14",
+    "region": "臺北市",
+    "venue": "華山1914 · 中7B館 維修工場",
+    "address": "臺北市中正區八德路一段1號",
+    "park": "huashan",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
+    "category": "展演",
+    "summary": "於中7B館 維修工場舉辦的展演活動，日期為2026-10-09至2026-10-14。開放時段與入場條件請查官方。",
+    "url": "https://www.huashan1914.com/exhibition/The%20Ordinary%20%E5%BF%AB%E9%96%83%E5%BA%97",
+    "source": "huashan",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-07T14:40:43+08:00",
+    "lastSeen": "2026-10-14T13:36:43+08:00",
+    "missingFromSource": true,
+    "revisions": [
+      {
+        "title": "The Ordinary 快閃店",
+        "start": "2026-10-09",
+        "end": "2026-10-14",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-10-07T14:40:43+08:00"
       }
     ]
   },
@@ -1411,7 +1471,7 @@
     "source": "pier2",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-14T13:37:10+08:00",
+    "lastSeen": "2026-10-15T13:24:26+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1439,7 +1499,7 @@
     "source": "pier2",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-14T13:37:10+08:00",
+    "lastSeen": "2026-10-15T13:24:26+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1468,7 +1528,7 @@
     "source": "pier2",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T19:07:52+08:00",
-    "lastSeen": "2026-10-14T13:37:10+08:00",
+    "lastSeen": "2026-10-15T13:24:26+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1503,7 +1563,7 @@
     "source": "pier2",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-14T13:37:10+08:00",
+    "lastSeen": "2026-10-15T13:24:26+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1532,7 +1592,7 @@
     "source": "pier2",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T19:07:52+08:00",
-    "lastSeen": "2026-10-14T13:37:10+08:00",
+    "lastSeen": "2026-10-15T13:24:26+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1567,7 +1627,7 @@
     "source": "pier2",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-14T13:37:10+08:00",
+    "lastSeen": "2026-10-15T13:24:26+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1595,7 +1655,7 @@
     "source": "pier2",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-14T13:37:10+08:00",
+    "lastSeen": "2026-10-15T13:24:26+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1623,7 +1683,7 @@
     "source": "pier2",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-14T13:37:10+08:00",
+    "lastSeen": "2026-10-15T13:24:26+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1651,7 +1711,7 @@
     "source": "pier2",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-14T13:37:10+08:00",
+    "lastSeen": "2026-10-15T13:24:26+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1679,7 +1739,7 @@
     "source": "pier2",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-14T13:37:10+08:00",
+    "lastSeen": "2026-10-15T13:24:26+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1707,7 +1767,7 @@
     "source": "pier2",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-14T13:37:10+08:00",
+    "lastSeen": "2026-10-15T13:24:26+08:00",
     "missingFromSource": false,
     "revisions": [
       {
