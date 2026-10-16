@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-15T13:24:27+08:00",
+  "generatedAt": "2026-10-16T13:15:45+08:00",
   "sources": {
     "moc": {
       "state": "ok",
-      "lastAttempt": "2026-10-15T13:24:27+08:00",
-      "lastSuccess": "2026-10-15T13:24:27+08:00",
-      "count": 292,
+      "lastAttempt": "2026-10-16T13:15:45+08:00",
+      "lastSuccess": "2026-10-16T13:15:45+08:00",
+      "count": 295,
       "rejected": 0,
       "attemptCounts": {
-        "inputCount": 292,
-        "validCount": 292,
+        "inputCount": 295,
+        "validCount": 295,
         "rejectedCount": 0,
-        "eventCount": 292,
+        "eventCount": 295,
         "rejectedReasons": {},
-        "previousActiveCount": 290
+        "previousActiveCount": 289
       },
       "message": "官方開放資料更新成功"
     },
     "songshan": {
       "state": "ok",
-      "lastAttempt": "2026-10-15T13:22:43+08:00",
-      "lastSuccess": "2026-10-15T13:23:08+08:00",
-      "count": 27,
-      "checkedCount": 18,
-      "attemptedCount": 18,
-      "lastSuccessfulCheckedCount": 18,
+      "lastAttempt": "2026-10-16T13:14:15+08:00",
+      "lastSuccess": "2026-10-16T13:14:41+08:00",
+      "count": 29,
+      "checkedCount": 20,
+      "attemptedCount": 20,
+      "lastSuccessfulCheckedCount": 20,
       "skipped": [],
       "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
     },
     "huashan": {
       "state": "ok",
-      "lastAttempt": "2026-10-15T13:23:08+08:00",
-      "lastSuccess": "2026-10-15T13:24:04+08:00",
+      "lastAttempt": "2026-10-16T13:14:41+08:00",
+      "lastSuccess": "2026-10-16T13:15:20+08:00",
       "count": 25,
       "checkedCount": 17,
       "attemptedCount": 17,
@@ -41,12 +41,12 @@
     },
     "pier2": {
       "state": "ok",
-      "lastAttempt": "2026-10-15T13:24:04+08:00",
-      "lastSuccess": "2026-10-15T13:24:26+08:00",
-      "count": 12,
-      "checkedCount": 11,
-      "attemptedCount": 12,
-      "lastSuccessfulCheckedCount": 11,
+      "lastAttempt": "2026-10-16T13:15:20+08:00",
+      "lastSuccess": "2026-10-16T13:15:45+08:00",
+      "count": 14,
+      "checkedCount": 13,
+      "attemptedCount": 14,
+      "lastSuccessfulCheckedCount": 13,
       "skipped": [
         {
           "url": "https://pier2.org/exhibition/info/2000/",

@@ -48,7 +48,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "5a2f499bc320050d706d",
-      "verifiedAt": "2026-10-15",
+      "verifiedAt": "2026-10-16",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -92,7 +92,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "a106df9194cdbf76ac29",
-      "verifiedAt": "2026-10-15",
+      "verifiedAt": "2026-10-16",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -164,7 +164,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "d173c4a25563354bc411",
-      "verifiedAt": "2026-10-15",
+      "verifiedAt": "2026-10-16",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -232,7 +232,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "cdf081b71dd024aee0c7",
-      "verifiedAt": "2026-10-15",
+      "verifiedAt": "2026-10-16",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -290,7 +290,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "4e75617750e2efcdbca4",
-      "verifiedAt": "2026-10-15",
+      "verifiedAt": "2026-10-16",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -425,7 +425,7 @@
       "revisions": [],
       "source": "tmc",
       "id": "7ffcc18eed4e026d2bca",
-      "verifiedAt": "2026-10-15",
+      "verifiedAt": "2026-10-16",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -461,7 +461,7 @@
       "revisions": [],
       "source": "tmc",
       "id": "a55cf05a75f6b9f6356c",
-      "verifiedAt": "2026-10-15",
+      "verifiedAt": "2026-10-16",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -475,7 +475,7 @@
     "id": "tmc",
     "name": "臺北流行音樂中心官方活動資料",
     "url": "https://www.tmc.taipei/",
-    "checkedAt": "2026-10-15T13:24:32+08:00",
+    "checkedAt": "2026-10-16T13:15:49+08:00",
     "mode": "daily-crawl",
     "discovered": 11,
     "included": 7,
@@ -492,9 +492,9 @@
     "scope": "北流官網「最近活動」公開頁；長日期區間不推定場次",
     "pagesVisited": 9,
     "expectedPages": null,
-    "reviewedAt": "2026-10-15",
+    "reviewedAt": "2026-10-16",
     "status": "ok",
-    "lastSuccess": "2026-10-15T13:24:32+08:00",
+    "lastSuccess": "2026-10-16T13:15:49+08:00",
     "lastSuccessfulIncluded": 7,
     "message": "每日公開資料自動更新完成；納入 7 筆，待分類 1 筆；不代表完整目錄。",
     "retainedEventCount": 9
