@@ -52,7 +52,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "406a84b32786cf2f9253",
-      "verifiedAt": "2026-10-16",
+      "verifiedAt": "2026-10-17",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -195,7 +195,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "3b4a5cbdb3a8df5f02bb",
-      "verifiedAt": "2026-10-16",
+      "verifiedAt": "2026-10-17",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -352,7 +352,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "e53a2e09c536ec2fd996",
-      "verifiedAt": "2026-10-16",
+      "verifiedAt": "2026-10-17",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -480,7 +480,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "490a1fdc7c6861a151f5",
-      "verifiedAt": "2026-10-16",
+      "verifiedAt": "2026-10-17",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -564,7 +564,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "3d96930163d49a0df65d",
-      "verifiedAt": "2026-10-16",
+      "verifiedAt": "2026-10-17",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -600,7 +600,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "7498491a239c4fbe2a68",
-      "verifiedAt": "2026-10-16",
+      "verifiedAt": "2026-10-17",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -640,7 +640,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "29127a5f83ff718586f3",
-      "verifiedAt": "2026-10-16",
+      "verifiedAt": "2026-10-17",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -654,7 +654,7 @@
     "id": "taipei-arena",
     "name": "臺北小巨蛋官方活動資料",
     "url": "https://www.arena.taipei/",
-    "checkedAt": "2026-10-16T13:15:49+08:00",
+    "checkedAt": "2026-10-17T13:11:21+08:00",
     "mode": "daily-crawl",
     "discovered": 10,
     "included": 7,
@@ -669,9 +669,9 @@
     "scope": "臺北小巨蛋「已公開(售票/派票)活動」政府開放資料 JSON",
     "pagesVisited": 1,
     "expectedPages": null,
-    "reviewedAt": "2026-10-16",
+    "reviewedAt": "2026-10-17",
     "status": "ok",
-    "lastSuccess": "2026-10-16T13:15:49+08:00",
+    "lastSuccess": "2026-10-17T13:11:21+08:00",
     "lastSuccessfulIncluded": 7,
     "message": "每日公開資料自動更新完成；納入 7 筆，待分類 3 筆；不代表完整目錄。",
     "retainedEventCount": 10
