@@ -1,8 +1,8 @@
 {
   "songshan": {
     "state": "ok",
-    "lastAttempt": "2026-10-17T13:09:41+08:00",
-    "lastSuccess": "2026-10-17T13:10:08+08:00",
+    "lastAttempt": "2026-10-18T13:14:52+08:00",
+    "lastSuccess": "2026-10-18T13:15:19+08:00",
     "count": 30,
     "checkedCount": 20,
     "attemptedCount": 20,
@@ -12,12 +12,12 @@
   },
   "huashan": {
     "state": "ok",
-    "lastAttempt": "2026-10-17T13:10:08+08:00",
-    "lastSuccess": "2026-10-17T13:10:55+08:00",
-    "count": 25,
-    "checkedCount": 17,
-    "attemptedCount": 18,
-    "lastSuccessfulCheckedCount": 17,
+    "lastAttempt": "2026-10-18T13:15:19+08:00",
+    "lastSuccess": "2026-10-18T13:16:13+08:00",
+    "count": 29,
+    "checkedCount": 19,
+    "attemptedCount": 20,
+    "lastSuccessfulCheckedCount": 19,
     "skipped": [
       {
         "url": "https://www.huashan1914.com/exhibition/%E7%BE%8A%E6%BA%A2%E7%A5%AD",
@@ -28,8 +28,8 @@
   },
   "pier2": {
     "state": "ok",
-    "lastAttempt": "2026-10-17T13:10:55+08:00",
-    "lastSuccess": "2026-10-17T13:11:18+08:00",
+    "lastAttempt": "2026-10-18T13:16:13+08:00",
+    "lastSuccess": "2026-10-18T13:16:38+08:00",
     "count": 14,
     "checkedCount": 12,
     "attemptedCount": 13,

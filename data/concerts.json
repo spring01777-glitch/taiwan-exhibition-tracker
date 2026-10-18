@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Taipei",
-  "updatedAt": "2026-10-17T13:11:51+08:00",
+  "updatedAt": "2026-10-18T13:17:04+08:00",
   "events": [
     {
       "id": "manual-forever",
@@ -3686,7 +3686,7 @@
       "address": "高雄市 鳳山區三多一路1號",
       "verificationMethod": "daily-crawl",
       "id": "95bee9886c18396fc6d9",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -3743,7 +3743,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e12efcaff1aa370bca66",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -3792,7 +3792,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "efd798ff702af0d028fe",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -3906,7 +3906,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "92afc1a25e14d1d93f31",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4012,7 +4012,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e0068d33df0bd37ac736",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4110,7 +4110,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a81451730646f84a51e7",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4159,7 +4159,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "07a3541c970309eda7eb",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4208,7 +4208,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d81c1ab10d4211385e69",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4257,7 +4257,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "441860c973f21b1a0c5d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4306,7 +4306,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "847012143f74d9a912aa",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4355,7 +4355,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "51639ff2d7d461733ae6",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4453,7 +4453,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e811a0d351c03b6c1e09",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4502,7 +4502,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "0f5949f398c2c9e00d92",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4559,7 +4559,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6b6da9030b4d472a9fc9",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4608,7 +4608,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "3c6143f649a927dfe2c8",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4755,7 +4755,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1cd95f93161b0cd27af3",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4804,7 +4804,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ee654b998b5bd8907a67",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4853,7 +4853,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "b0fb99e33a5acfd46b78",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -4902,7 +4902,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "93e3e3113ef5487d9d04",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5367,7 +5367,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "665765f77ee7abd0c5a8",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5416,7 +5416,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "16feeda2d97897a1c1ef",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5465,7 +5465,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f032ee12e556389abdbb",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5514,7 +5514,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e183ea3278c1cb7a476f",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5563,7 +5563,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ad0df4fe8a7aaadd3ab8",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5612,7 +5612,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "778f41e2c094b03e8d55",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5661,7 +5661,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1d3e845c19d3119d5f32",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5808,7 +5808,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e468b0741133eee4f006",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5857,7 +5857,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f1f436a699580de5bc54",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5906,7 +5906,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "79509d90a193a43e4bd1",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -5955,7 +5955,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "532e0662e8e28b4802bf",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6004,7 +6004,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "2373de77528aeb3e2bb2",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6053,7 +6053,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "33aa4192dfddb6036810",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6102,7 +6102,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "aad61a33d0afe283a3e7",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6151,7 +6151,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d17d10cad94c9fad4d9e",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6200,7 +6200,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "de91b7b0a4a683e4036e",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6249,7 +6249,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7a6f009077b98eee4a2e",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6314,7 +6314,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "176226f9168d71630c57",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6363,7 +6363,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "296f6dd806b8a861ea29",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6461,7 +6461,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "b35da7ec9b6a69146091",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6510,7 +6510,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a19c44866e4dc0812c6a",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6559,7 +6559,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5dc56989e7729f56fc3f",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6608,7 +6608,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "60770561cd1757cc699d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6657,7 +6657,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ecea8c9ffcd434e56c27",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6706,7 +6706,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f8c28136e2278bdc420e",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6779,7 +6779,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7e42e114d2d3536d862d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6828,7 +6828,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a57d13f4eeae78a09c6a",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6934,7 +6934,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "56de68b01bb1eb4df278",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -6983,7 +6983,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8067af824d0923ef6b08",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7032,7 +7032,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c5f5421aa1a997d4dca0",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7081,7 +7081,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ac37e84225ce32c6c9b0",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7130,7 +7130,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "69bd24ecb15fe6576188",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7179,7 +7179,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "2c65275c9d4ae1cdc8ac",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7228,7 +7228,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5952e8976ad6e81d647e",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7277,7 +7277,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8a3160bfd7de6957cc42",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7326,7 +7326,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1b7aacc8db90d199720c",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7375,7 +7375,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7d9eef3cc29df7b6030c",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7424,7 +7424,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d5abd9629310af3b4b0b",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7473,7 +7473,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "175fb3f92e1c23236d2f",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7522,7 +7522,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ffe621da6083dfc3009d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7571,7 +7571,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "b3888a1d5b502eabff62",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7620,7 +7620,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "88d9cbc7f6c1f6b39855",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7669,7 +7669,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f7316c3588811cfda449",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7718,7 +7718,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "53667dc722287e188891",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7816,7 +7816,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f81712750793c89e35ec",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7865,7 +7865,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8cef7630dcbcefd516a2",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7914,7 +7914,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "29c1170308ab8d02e43d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -7963,7 +7963,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a2f22c0394e18e8b9743",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8012,7 +8012,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "733db09a6ac11159ee45",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8061,7 +8061,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "31c1253068229122e1ad",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8159,7 +8159,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "87814e3b9b7a31093e76",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8208,7 +8208,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "27a1beb70cea6ef8da91",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8257,7 +8257,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "fbc5137f547b50cfdf23",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8355,7 +8355,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "83ea0202e91305f1a61e",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8404,7 +8404,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9470a26d5726e80736c1",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8453,7 +8453,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "950b3aa8f0a3f5b8b1ed",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8502,7 +8502,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e8cb3a2a39f79293004b",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8551,7 +8551,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f8260bfc38788f40a2e4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8600,7 +8600,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5b75e81c73aa8640e7b9",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8665,7 +8665,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "82035623a6bbeffc326f",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8770,7 +8770,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "51ddf325d93bf4a22174",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8843,7 +8843,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ae430a48173abdca58b4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8892,7 +8892,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "35c2a8d3b0061954e26b",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8941,7 +8941,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7ff5b34edbe52e39e779",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -8990,7 +8990,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "da48a352f28f0297c0e2",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9039,7 +9039,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "86a3128d2b65305246cc",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9088,7 +9088,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c65db64a18a59704d9a2",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9137,7 +9137,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "0c641c105b012beab38b",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9186,7 +9186,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "497e74439e70fc7d64a5",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9284,7 +9284,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "3ca59a95f620314cd883",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9333,7 +9333,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "4ac966641fa359d991b0",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9382,7 +9382,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7817bad53530bfda5b6d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9431,7 +9431,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9083f507d5e1d677e3f2",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9480,7 +9480,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5ede1c7147c19af15e1e",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9529,7 +9529,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "af352c48a618a2e66ea9",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9578,7 +9578,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1dfe5eada8d5cc637dbb",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9627,7 +9627,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "92e668ec6bdab729e9f0",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9725,7 +9725,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "efc0abc381ff76ccc432",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9774,7 +9774,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "dc78a9e89e52678e6c72",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9823,7 +9823,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c61c2df206869ebe13ac",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9880,7 +9880,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a2fbe55c4f4f3b032c39",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9929,7 +9929,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d1e36922cc29556c3a19",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -9978,7 +9978,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9a1f31a5fd4c585e7c03",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10027,7 +10027,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "4b338c1b026939f15bd0",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10076,7 +10076,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "aac9381096a89a8ca865",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10125,7 +10125,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "225f23b67cc1cb60f548",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10174,7 +10174,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "13b8d0bb3687dc63aece",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10223,7 +10223,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "67ed3a801e689fdc1112",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10272,7 +10272,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "35d8f38f22ca5b5d6e38",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10370,7 +10370,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9ec95b7e1003019396b4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10419,7 +10419,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "3851a5c56ab2ae3aed58",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10468,7 +10468,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "0ce64173df84591bb64b",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10517,7 +10517,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "273f48a9936b0b75f6a4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10566,7 +10566,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "772c591f9d8415761b76",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10615,7 +10615,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a447043a25c4da14ef99",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10664,7 +10664,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "4f24ac7e445476072cac",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10762,7 +10762,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9029d503ed046be450c1",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10811,7 +10811,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "b6088abb42be5b56233c",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10860,7 +10860,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ac33c915b5509007027b",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10909,7 +10909,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1f9b0f992488e1766e6a",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -10958,7 +10958,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "fd09882a7375a40799a3",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11056,7 +11056,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "157e00f62006f8eabb72",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11105,7 +11105,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8bdd909d2ba5a8854221",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11154,7 +11154,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a34211eab14952ec7ac8",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11203,7 +11203,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a34ebaf0e06fa78cad6a",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11252,7 +11252,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "862e55042d9e7a25924d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11301,7 +11301,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "00efd0b1126765205ceb",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11350,7 +11350,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f6f340ecb692af1b16fa",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11407,7 +11407,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6023070c653d28acb015",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11456,7 +11456,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "32ed43241db62abe63ac",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11505,7 +11505,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "777e8bbd23f350ed50d4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11554,7 +11554,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1ab3c8fd8950f3885c06",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11603,7 +11603,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "b0ee4d63012a2871c8ce",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11652,7 +11652,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9beb79f14f7eb8b3fc72",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11701,7 +11701,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "16a97935f5d9016cf0d8",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11750,7 +11750,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6772d3e3072e84c892bb",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11799,7 +11799,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "593deeaee51ef6ab24b5",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11897,7 +11897,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8def66e8a10b807309cd",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11946,7 +11946,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "2fbf8a575b8aeb044214",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -11995,7 +11995,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "73ca47535b5a33928d5f",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12044,7 +12044,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a722416d0f90fdf48189",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12093,7 +12093,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c3e27d471bed4f380130",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12142,7 +12142,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "2e58c6b72dee751eba43",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12191,7 +12191,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c5c768b3009afcf225ec",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12240,7 +12240,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "134b45ff5e7251ab20f4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12289,7 +12289,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "0a2d7a7870b3ac73523d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12338,7 +12338,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "dd1eb40489c9173dbf0f",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12387,7 +12387,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "36a5d41b138547a12ce9",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12436,7 +12436,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "90b25171ad957a9fb998",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12485,7 +12485,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "52c2e8eabac779d26eef",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12534,7 +12534,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c64ad33e3c4fd6c7dc73",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12583,7 +12583,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "36fa5ebf4df05a31d1e0",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12632,7 +12632,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "79d309e21f6f2410875a",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12681,7 +12681,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5147a53afd85657a489e",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12730,7 +12730,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "3718410e110317a8e885",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12779,7 +12779,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d1033d51f23d337ef4f2",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12828,7 +12828,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "23890df17f1d1841ac49",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12877,7 +12877,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "21d08b2fb334a5dd897f",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -12975,7 +12975,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c3200ac0e804dede1921",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13024,7 +13024,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "16331bb5f5c654f12391",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13073,7 +13073,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "751f0c59fde9ad928f25",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13122,7 +13122,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6c86fac2a3a94c953a76",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13171,7 +13171,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "50198379f339d03d1fad",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13220,7 +13220,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8914c761ea893475b4c7",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13269,7 +13269,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "3a10924bc721f1dc3ed2",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13318,7 +13318,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "58d28f1741784a4c10a0",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13367,7 +13367,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d2069fdc3963a754a6c6",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13416,7 +13416,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "dd9b9612933a63054cd9",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13465,7 +13465,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6d6d67063df27c0fba82",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13514,7 +13514,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6722cab309e493f911c2",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13563,7 +13563,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "04a921f6a6a1e19c60df",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13612,7 +13612,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "ec0854edde02b9202191",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13661,7 +13661,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8c7cdf23d2ee01c34b09",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13710,7 +13710,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d8e6c132970cd5fb6ba5",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13759,7 +13759,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "db17f567a74c114a2997",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13808,7 +13808,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9e222e00d36283055d5c",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13857,7 +13857,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "02020dfdf94379d719c4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13906,7 +13906,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "65b6fd65d97d23c3366a",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -13955,7 +13955,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "4bd8149896e64641a182",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14004,7 +14004,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f20bb3d56894371fd31d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14053,7 +14053,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "cab5a8e1a0196619ce00",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14102,7 +14102,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1914ff830babdb7a4cdb",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14151,7 +14151,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "02b3d49bd2077ca80091",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14200,7 +14200,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "66cc72cd563c36b7ec9e",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14249,7 +14249,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "865e13c14be0e03b4e74",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14298,7 +14298,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "a742ff8fbcf4dd5475c3",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14347,7 +14347,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6b05bb3f641da157036b",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14396,7 +14396,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "480e56c9baa18b2ed8c0",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14445,7 +14445,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c8e74520907bb1629eaa",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14502,7 +14502,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d124f581a975509ff82a",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14551,7 +14551,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "3416d8f04c21b1d0b0fb",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14608,7 +14608,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "070033a160f62490c180",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14657,7 +14657,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "295215850fed838e4d23",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14706,7 +14706,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "039ea4fa22b1c224a3dd",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14755,7 +14755,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9d71450c7aa47c793808",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14804,7 +14804,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9f28ffe1f57570a3c180",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14853,7 +14853,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9d60da0d73685b1cd586",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14902,7 +14902,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "f85d1c1184bb078f1215",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -14951,7 +14951,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "43ae3a40bb406f8cd9a6",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15000,7 +15000,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8f2d536689632c520f09",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15049,7 +15049,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "407ec66967a7592784a4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15106,7 +15106,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "4ca47a76e53f72f27241",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15155,7 +15155,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "d8b9e12871f7955c8681",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15204,7 +15204,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "617598505a1afa1a22b1",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15253,7 +15253,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "da0235436f276f3bf490",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15302,7 +15302,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "0f951c64450a208a8482",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15351,7 +15351,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "958a48a67952d3f20ee1",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15408,7 +15408,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "832dc3369486870ce61d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15457,7 +15457,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "5b0add4d33b8bbfcc8f1",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15506,7 +15506,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "52c830d84f17514c70ed",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15555,7 +15555,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "aee2e0f287b11284fe65",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15604,7 +15604,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1d0162982c83e4b79c7f",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15653,7 +15653,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "06c592ca86811a1cfef3",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15702,7 +15702,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "2483ff5e57a570946926",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15751,7 +15751,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "85ef64a5f4998834cf20",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15849,7 +15849,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9316aed79cbc97078199",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15898,7 +15898,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "dbb109b2889d4613295e",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15947,7 +15947,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "465497fac0e28915d61f",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -15996,7 +15996,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "380c1490067b2ea043d3",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16045,7 +16045,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "8e541707de3b527caa7c",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16094,7 +16094,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9fcbd0fb5c240cbebaf4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16143,7 +16143,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6a7e18153831a0b4b025",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16192,7 +16192,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "7ba1ea2624a901de9a0f",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16241,7 +16241,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9725dfa5bfdb995e7498",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16290,7 +16290,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "359e8259335b72885cd4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16339,7 +16339,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "66572c2716cb84d9676b",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16388,7 +16388,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "348a2989d63e314cec58",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16437,7 +16437,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "c1ad36ef7720619b656d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16486,7 +16486,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "0a6a67c9cbf13f3b324a",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16535,7 +16535,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e8783a718f95a1741808",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16584,7 +16584,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "36098cfae11a5ac2f20d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16633,7 +16633,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "183933cebf874ea72616",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16682,7 +16682,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "e3d426cb503b5e826b8b",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16731,7 +16731,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "9847207419acbaf770c4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16780,7 +16780,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1b570dc8b19efd144a5a",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16829,7 +16829,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "1e8fe26374186ebfc52d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16878,7 +16878,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "fd086b4f7b349d2af30b",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16927,7 +16927,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "6b5e669f1fe09a1a1da2",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -16976,7 +16976,7 @@
       "revisions": [],
       "source": "opentix",
       "id": "731c3a72087133613ac7",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "opentix",
@@ -17180,7 +17180,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "3b4a5cbdb3a8df5f02bb",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -17339,7 +17339,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "e53a2e09c536ec2fd996",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -17468,7 +17468,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "490a1fdc7c6861a151f5",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -17554,7 +17554,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "29127a5f83ff718586f3",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -17609,7 +17609,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "5a2f499bc320050d706d",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -17654,7 +17654,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "a106df9194cdbf76ac29",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -17727,7 +17727,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "d173c4a25563354bc411",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -17796,7 +17796,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "cdf081b71dd024aee0c7",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -17855,7 +17855,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "4e75617750e2efcdbca4",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -17956,7 +17956,7 @@
       "revisions": [],
       "source": "tmc",
       "id": "7ffcc18eed4e026d2bca",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -17990,7 +17990,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "桃園市的演唱會，演出地點為桃園展演中心展演廳。",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "revisions": [],
       "tickets": [
         {
@@ -18038,7 +18038,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺東縣的演唱會，演出地點為臺東縣立體育館。",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "revisions": [],
       "tickets": [
         {
@@ -18086,7 +18086,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "revisions": [],
       "tickets": [
         {
@@ -18134,7 +18134,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北國際會議中心大會堂。",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "revisions": [],
       "tickets": [
         {
@@ -18182,7 +18182,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "新北市的演唱會，演出地點為新北市五股工商展覽中心。",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -18190,42 +18190,6 @@
           "source": "moc",
           "sourceUid": "69ea826226b3242a48a9e604",
           "id": "a5b11632459c94134689"
-        }
-      ],
-      "genre": "流行／搖滾演唱會"
-    },
-    {
-      "id": "9ea0a0cff3ea25dfaeeb",
-      "source": "moc",
-      "sourceUid": "69fce72826b3243414ccc660",
-      "title": "永遠的巨星 謝雷 2026演唱會",
-      "performers": "",
-      "region": "高雄市",
-      "venue": "高雄市文化中心至德堂",
-      "address": "高雄市苓雅區五福一路67號",
-      "sessions": [
-        {
-          "date": "2026-10-17",
-          "time": "19:00"
-        }
-      ],
-      "price": "4800、3500、2500、2000、1200",
-      "saleAt": null,
-      "saleNote": "開賣時間來源未提供；請至官方確認。",
-      "ticketStatus": "來源未提供即時售票狀態",
-      "ticketUrl": null,
-      "ticketVerifiedAt": null,
-      "sourceUrl": "https://data.gov.tw/dataset/6013",
-      "status": "scheduled",
-      "summary": "高雄市的演唱會，演出地點為高雄市文化中心至德堂。",
-      "verifiedAt": "2026-10-17",
-      "revisions": [],
-      "tickets": [],
-      "sourceRefs": [
-        {
-          "source": "moc",
-          "sourceUid": "69fce72826b3243414ccc660",
-          "id": "9ea0a0cff3ea25dfaeeb"
         }
       ],
       "genre": "流行／搖滾演唱會"
@@ -18254,7 +18218,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北南港展覽館一館四樓。",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "revisions": [],
       "tickets": [
         {
@@ -18306,7 +18270,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -18342,7 +18306,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "revisions": [],
       "tickets": [
         {
@@ -18390,7 +18354,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "revisions": [],
       "tickets": [
         {
@@ -18438,7 +18402,7 @@
       "sourceUrl": "https://rockempire.kktix.cc/events/4e2ae0df",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為Corner House(遠雄國際金融廣場)。",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "revisions": [],
       "tickets": [
         {
@@ -18486,7 +18450,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FWXUND",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為CLAPPER STUDIO 展演廳(三創生活)。",
-      "verifiedAt": "2026-10-17",
+      "verifiedAt": "2026-10-18",
       "revisions": [],
       "tickets": [
         {
@@ -18509,27 +18473,63 @@
         }
       ],
       "genre": "流行／搖滾演唱會"
+    },
+    {
+      "id": "9ea0a0cff3ea25dfaeeb",
+      "source": "moc",
+      "sourceUid": "69fce72826b3243414ccc660",
+      "title": "永遠的巨星 謝雷 2026演唱會",
+      "performers": "",
+      "region": "高雄市",
+      "venue": "高雄市文化中心至德堂",
+      "address": "高雄市苓雅區五福一路67號",
+      "sessions": [
+        {
+          "date": "2026-10-17",
+          "time": "19:00"
+        }
+      ],
+      "price": "4800、3500、2500、2000、1200",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "高雄市的演唱會，演出地點為高雄市文化中心至德堂。",
+      "verifiedAt": "2026-10-17",
+      "revisions": [],
+      "tickets": [],
+      "sourceRefs": [
+        {
+          "source": "moc",
+          "sourceUid": "69fce72826b3243414ccc660",
+          "id": "9ea0a0cff3ea25dfaeeb"
+        }
+      ],
+      "genre": "流行／搖滾演唱會"
     }
   ],
   "sources": [
     {
       "name": "文化部・演唱會",
       "url": "https://data.gov.tw/dataset/6013",
-      "checkedAt": "2026-10-17T13:11:51+08:00",
-      "lastSuccess": "2026-10-17T13:11:51+08:00",
+      "checkedAt": "2026-10-18T13:17:04+08:00",
+      "lastSuccess": "2026-10-18T13:17:04+08:00",
       "id": "moc",
       "status": "ok",
-      "message": "授權 JSON 解析完成；納入 12 個活動／場館，待分類 0 筆；不是全平台完整涵蓋。",
-      "discovered": 11,
-      "included": 9,
+      "message": "授權 JSON 解析完成；納入 11 個活動／場館，待分類 0 筆；不是全平台完整涵蓋。",
+      "discovered": 10,
+      "included": 8,
       "excluded": 2,
       "pending": 0,
       "failed": 0,
       "reasons": {
-        "CONCERT_EVIDENCE": 9,
+        "CONCERT_EVIDENCE": 8,
         "FAN_MEETING_OR_UPGRADE": 2
       },
-      "eventCount": 12,
+      "eventCount": 11,
       "coverageComplete": false,
       "scope": "文化部 category 17 單次授權 JSON；不代表全台完整目錄",
       "pagesVisited": 1,
@@ -18869,31 +18869,31 @@
       "id": "opentix",
       "name": "OPENTIX",
       "url": "https://www.opentix.life/",
-      "checkedAt": "2026-10-17T13:11:21+08:00",
+      "checkedAt": "2026-10-18T13:16:41+08:00",
       "mode": "daily-crawl",
-      "discovered": 1030,
-      "included": 245,
-      "excluded": 135,
-      "pending": 650,
+      "discovered": 980,
+      "included": 239,
+      "excluded": 130,
+      "pending": 611,
       "failed": 0,
       "reasons": {
-        "CONCERT_EVIDENCE": 245,
-        "INSUFFICIENT_CONCERT_EVIDENCE": 650,
-        "COURSE_OR_MUSICAL": 109,
+        "CONCERT_EVIDENCE": 239,
+        "INSUFFICIENT_CONCERT_EVIDENCE": 611,
+        "COURSE_OR_MUSICAL": 104,
         "NO_STRUCTURED_EVENT": 26
       },
       "coverageComplete": false,
       "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；只讀新上架活動，已讀過的不重抓，已結束活動不收錄；每日最多100頁",
-      "pagesVisited": 5,
+      "pagesVisited": 1,
       "expectedPages": null,
-      "reviewedAt": "2026-10-17",
+      "reviewedAt": "2026-10-18",
       "status": "ok",
-      "lastSuccess": "2026-10-17T13:11:21+08:00",
-      "lastSuccessfulIncluded": 245,
-      "message": "每日公開資料自動更新完成；納入 245 筆，待分類 650 筆；不代表完整目錄。",
+      "lastSuccess": "2026-10-18T13:16:41+08:00",
+      "lastSuccessfulIncluded": 239,
+      "message": "每日公開資料自動更新完成；納入 239 筆，待分類 611 筆；不代表完整目錄。",
       "retainedEventCount": 261,
       "pendingPages": 0,
-      "listedPages": 1102,
+      "listedPages": 1077,
       "verifiedScopes": [
         {
           "kind": "concerts",
@@ -18938,26 +18938,26 @@
       "id": "taipei-arena",
       "name": "臺北小巨蛋官方活動資料",
       "url": "https://www.arena.taipei/",
-      "checkedAt": "2026-10-17T13:11:21+08:00",
+      "checkedAt": "2026-10-18T13:16:41+08:00",
       "mode": "daily-crawl",
-      "discovered": 10,
-      "included": 7,
+      "discovered": 9,
+      "included": 6,
       "excluded": 0,
       "pending": 3,
       "failed": 0,
       "reasons": {
-        "CONCERT_EVIDENCE": 7,
-        "INSUFFICIENT_CONCERT_EVIDENCE": 3
+        "INSUFFICIENT_CONCERT_EVIDENCE": 3,
+        "CONCERT_EVIDENCE": 6
       },
       "coverageComplete": false,
       "scope": "臺北小巨蛋「已公開(售票/派票)活動」政府開放資料 JSON",
       "pagesVisited": 1,
       "expectedPages": null,
-      "reviewedAt": "2026-10-17",
+      "reviewedAt": "2026-10-18",
       "status": "ok",
-      "lastSuccess": "2026-10-17T13:11:21+08:00",
-      "lastSuccessfulIncluded": 7,
-      "message": "每日公開資料自動更新完成；納入 7 筆，待分類 3 筆；不代表完整目錄。",
+      "lastSuccess": "2026-10-18T13:16:41+08:00",
+      "lastSuccessfulIncluded": 6,
+      "message": "每日公開資料自動更新完成；納入 6 筆，待分類 3 筆；不代表完整目錄。",
       "retainedEventCount": 10,
       "verifiedScopes": [
         {
@@ -19008,7 +19008,7 @@
       "id": "tmc",
       "name": "臺北流行音樂中心官方活動資料",
       "url": "https://www.tmc.taipei/",
-      "checkedAt": "2026-10-17T13:11:21+08:00",
+      "checkedAt": "2026-10-18T13:16:41+08:00",
       "mode": "daily-crawl",
       "discovered": 11,
       "included": 7,
@@ -19025,9 +19025,9 @@
       "scope": "北流官網「最近活動」公開頁；長日期區間不推定場次",
       "pagesVisited": 9,
       "expectedPages": null,
-      "reviewedAt": "2026-10-17",
+      "reviewedAt": "2026-10-18",
       "status": "ok",
-      "lastSuccess": "2026-10-17T13:11:21+08:00",
+      "lastSuccess": "2026-10-18T13:16:41+08:00",
       "lastSuccessfulIncluded": 7,
       "message": "每日公開資料自動更新完成；納入 7 筆，待分類 1 筆；不代表完整目錄。",
       "retainedEventCount": 9,
