@@ -642,33 +642,6 @@
         },
         "readAt": "2026-10-10"
       },
-      "https://www.opentix.life/event/2058831955254812673": {
-        "facts": {
-          "title": "古典光影大師 林布蘭到哥雅－托雷多美術館珍藏展 I",
-          "venue": "富邦美術館1樓",
-          "address": "臺北市 信義區松高路79號",
-          "region": "臺北市",
-          "sessions": [
-            {
-              "date": "2026-07-18",
-              "time": "11:00"
-            }
-          ],
-          "price": "NT$500",
-          "saleAt": "2026-06-15T12:00:00+08:00",
-          "decisions": {
-            "concerts": [
-              "pending",
-              "INSUFFICIENT_CONCERT_EVIDENCE"
-            ],
-            "comedy": [
-              "pending",
-              "INSUFFICIENT_STANDUP_EVIDENCE"
-            ]
-          }
-        },
-        "readAt": "2026-10-10"
-      },
       "https://www.opentix.life/event/2070074346117287937": {
         "facts": {
           "title": "吳念真國民戲劇《人間條件三》台北上午零時",
@@ -33453,33 +33426,6 @@
           }
         }
       },
-      "https://www.opentix.life/event/2074741865752825857": {
-        "readAt": "2026-10-10",
-        "facts": {
-          "title": "雙雙對對 共聲共舞─南藝大鋼合所教師聯合音樂會",
-          "venue": "衛武營國家藝術文化中心表演廳",
-          "address": "高雄市 鳳山區三多一路1號",
-          "region": "高雄市",
-          "sessions": [
-            {
-              "date": "2026-10-15",
-              "time": "19:30"
-            }
-          ],
-          "price": "NT$300",
-          "saleAt": "2026-08-03T12:00:00+08:00",
-          "decisions": {
-            "concerts": [
-              "included",
-              "CONCERT_EVIDENCE"
-            ],
-            "comedy": [
-              "pending",
-              "INSUFFICIENT_STANDUP_EVIDENCE"
-            ]
-          }
-        }
-      },
       "https://www.opentix.life/event/2076489805923938305": {
         "readAt": "2026-10-10",
         "facts": {
@@ -55002,9 +54948,1452 @@
             ]
           }
         }
+      },
+      "https://www.opentix.life/event/2109890724705943553": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "「戲來就演！」－布袋戲演師們的大挑戰",
+          "venue": "輔仁大學外語學院華觀劇場",
+          "address": "新北市 新莊區營盤里中正路510號 舒德樓1樓",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-11",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-12-12",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110284702401134593": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《尋秦記》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-05",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-12-16",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110285350867312641": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《殺出個黃昏》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110286548789723136": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《熱戀年代》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-26",
+              "time": "18:40"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110284118310748161": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《一一：25周年4K經典修復版》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-11",
+              "time": "17:50"
+            },
+            {
+              "date": "2026-12-31",
+              "time": "17:50"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2107772014162726913": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "現代藝術百年：莫內到馬諦斯-托雷多美術館珍藏展II",
+          "venue": "富邦美術館1樓",
+          "address": "臺北市 信義區松高路79號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "11:00"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110296058932563969": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《世外》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-22",
+              "time": "16:10"
+            },
+            {
+              "date": "2026-12-23",
+              "time": "18:50"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110290729694191616": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《新浪潮》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-09",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-12-30",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110287793807802369": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《戰火浮生錄 數位修復版》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "17:40"
+            },
+            {
+              "date": "2026-12-24",
+              "time": "17:40"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110290047224586241": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《單身動物園》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-12",
+              "time": "18:40"
+            },
+            {
+              "date": "2026-12-27",
+              "time": "16:50"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110288548256980993": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《時間暫停的季節》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-06",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-12-02",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110285860785504257": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《寒戰1994》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-20",
+              "time": "18:50"
+            },
+            {
+              "date": "2026-12-12",
+              "time": "16:20"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110645641384718337": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "首督芭蕾35季創作《情書》",
+          "venue": "臺北市中山堂光復廳",
+          "address": "臺北市 中正區延平南路98號-秀山門入場",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-01-16",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-01-17",
+              "time": "14:30"
+            },
+            {
+              "date": "2027-01-22",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-01-23",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-01-24",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–3,600",
+          "saleAt": "2026-10-19T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110576431057715201": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《蘿拉的魔法鋼琴》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "10:30"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110283548903137280": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《五輪物語》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "17:30"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110562157889855488": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《夕陽西下 數位修復版》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-17",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110192309609922560": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "塵埃雨劇場Ｘ童偉格《地下神》讀劇演出",
+          "venue": "牯嶺街小劇場一樓實驗劇場",
+          "address": "臺北市 中正區牯嶺街5巷2號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-01-08",
+              "time": "19:00"
+            },
+            {
+              "date": "2027-01-09",
+              "time": "14:00"
+            },
+            {
+              "date": "2027-01-09",
+              "time": "19:00"
+            },
+            {
+              "date": "2027-01-10",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$850–1,600",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110295528221216769": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《96分鐘》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-08",
+              "time": "16:00"
+            },
+            {
+              "date": "2026-11-28",
+              "time": "16:20"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110289199828926465": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《只是一場意外》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-18",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-12-05",
+              "time": "16:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110574045527244801": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《牛奶小姐幫幫忙》+《雛菊盛開前》+《防颱準備》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-29",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110249783535681537": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "1997劇團《暗殺少女的告白習作》讀劇演出",
+          "venue": "台北偶戲館黑箱劇場",
+          "address": "臺北市 松山區市民大道五段99號4樓",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-11",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-12",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-12-12",
+              "time": "19:30"
+            },
+            {
+              "date": "2026-12-13",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–900",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "FAN_MEETING_OR_UPGRADE"
+            ],
+            "comedy": [
+              "excluded",
+              "FAN_MEETING_OR_UPGRADE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2108036054516785153": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【奧影流光】高雄之音管樂團第54場定期音樂會",
+          "venue": "衛武營國家藝術文化中心音樂廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2027-01-02",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110619563387166721": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "《從小到大人人愛！》",
+          "venue": "台北生技園區多功能廳",
+          "address": "臺北市 南港區忠孝東路七段508號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-13",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500–1,500",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2107477937722359809": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "2026 榮星混聲合唱團「 弦外・知音」年度音樂會",
+          "venue": "台北生技園區多功能廳",
+          "address": "臺北市 南港區忠孝東路七段508號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-11-14",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–800",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2108039042834538497": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "未完成｜唐律長笛合奏團42與排笛的深情對話｜張中立",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-03",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2109474572906037249": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "格桑製作《亂》吳依凡創作計劃階段呈現",
+          "venue": "萬座曉劇場",
+          "address": "臺北市 萬華區大理街132-9號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "14:30"
+            },
+            {
+              "date": "2026-12-06",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–1,500",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2109864523326427137": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "光與影之間：台灣與荷蘭的聲音對話",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-16",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$400–1,200",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2109898501815463936": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "《低語》蕭立群上低音薩克斯風獨奏會",
+          "venue": "臺北市中山堂光復廳",
+          "address": "臺北市 中正區延平南路98號-秀山門入場",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-20",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$1,000–3,000",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2105498807602659329": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "侯傳安 小號獨奏會",
+          "venue": "臺中國家歌劇院小劇場",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2026-12-23",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$1,000",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2107294881361121281": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "《爵醒》Alex Wang 第一屆爵士舞展-聯合呈現",
+          "venue": "臺北市政大樓親子劇場",
+          "address": "臺北市 信義區市府路1號2樓",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-01-09",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$1,000–1,500",
+          "saleAt": "2026-10-20T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2107041309473828865": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "職男人生12-愛拼才會贏",
+          "venue": "桃園展演中心展演廳",
+          "address": "桃園市 桃園區中正路1188號",
+          "region": "桃園市",
+          "sessions": [
+            {
+              "date": "2027-01-15",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-01-16",
+              "time": "15:00"
+            },
+            {
+              "date": "2027-01-16",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-01-17",
+              "time": "15:00"
+            }
+          ],
+          "price": "NT$600–1,400",
+          "saleAt": "2026-10-22T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "excluded",
+              "OTHER_PERFORMANCE_FORMAT"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110578136589893633": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《蹦蹦奇遇森友會》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-20",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110564668282400769": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《嘰嘰王子：宇宙無敵》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-26",
+              "time": "10:30"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110565690065346561": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《好奇寶貝方城市－法國新影像學院兒童動畫短片精選》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-25",
+              "time": "14:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110563817309192193": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《我家有棵芒果樹》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-07",
+              "time": "16:20"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110563163684892672": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《一生二命》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-21",
+              "time": "16:20"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110305910869950464": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《泰山寶藏 數位修復版》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-03",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110305017086181377": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《兩相好 數位修復版》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-25",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110304290702954497": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《張帝找阿珠 數位修復版》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "16:10"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110295009687801857": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《超人力霸王．起源》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-25",
+              "time": "16:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-11-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110294547697799169": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《冠軍之路》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-18",
+              "time": "18:10"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-11-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110293949607428096": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《看見台灣》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "16:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-11-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110293362307796993": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《人生海海》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-26",
+              "time": "16:20"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-11-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110292879505518592": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《只要我長大》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-06",
+              "time": "17:00"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110287008570437633": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《決戰投手丘》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-06",
+              "time": "14:00"
+            },
+            {
+              "date": "2026-12-11",
+              "time": "18:40"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110282297648160768": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《甘露水》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-27",
+              "time": "18:20"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110296660139540481": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "【府中15】紀錄片放映院《恨女的逆襲》",
+          "venue": "府中15",
+          "address": "新北市 板橋區府中路15號B1",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-11-15",
+              "time": "13:30"
+            },
+            {
+              "date": "2026-12-10",
+              "time": "18:50"
+            }
+          ],
+          "price": "NT$20",
+          "saleAt": "2026-10-20T11:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2107728173323550721": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "《雙城樂章》虹韻新春音樂會",
+          "venue": "衛武營國家藝術文化中心音樂廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2027-02-27",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–3,000",
+          "saleAt": "2026-11-09T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
+      },
+      "https://www.opentix.life/event/2110293988239908864": {
+        "readAt": "2026-10-20",
+        "facts": {
+          "title": "《時代之身—SUGATA》in南美館",
+          "venue": "臺南市美術館1館中央廊道",
+          "address": "臺南市 中西區南門路37號",
+          "region": "臺南市",
+          "sessions": [
+            {
+              "date": "2026-12-19",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-12-19",
+              "time": "20:30"
+            },
+            {
+              "date": "2026-12-20",
+              "time": "19:00"
+            },
+            {
+              "date": "2026-12-20",
+              "time": "20:30"
+            }
+          ],
+          "price": "NT$600",
+          "saleAt": "2026-10-19T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          }
+        }
       }
     },
     "pendingPages": 0,
-    "listed": 1019
+    "listed": 1066
   }
 }

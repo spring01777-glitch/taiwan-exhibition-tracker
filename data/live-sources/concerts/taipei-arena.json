@@ -352,7 +352,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "e53a2e09c536ec2fd996",
-      "verifiedAt": "2026-10-19",
+      "verifiedAt": "2026-10-20",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -480,7 +480,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "490a1fdc7c6861a151f5",
-      "verifiedAt": "2026-10-19",
+      "verifiedAt": "2026-10-20",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -564,7 +564,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "3d96930163d49a0df65d",
-      "verifiedAt": "2026-10-19",
+      "verifiedAt": "2026-10-20",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -600,7 +600,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "7498491a239c4fbe2a68",
-      "verifiedAt": "2026-10-19",
+      "verifiedAt": "2026-10-20",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -648,33 +648,74 @@
           "id": "29127a5f83ff718586f3"
         }
       ]
+    },
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986",
+      "title": "Vaundy ASIA ARENA TOUR ”HORO” in TAIPEI",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "address": "臺北市松山區南京東路四段2號",
+      "sessions": [
+        {
+          "date": "2026-10-31",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-11-01",
+          "time": "19:00"
+        }
+      ],
+      "price": "5,880 / 4,880 / 3,880 / 2,880 / 800",
+      "saleAt": null,
+      "saleNote": "售票系統：Ticket Plus遠大售票系統；開賣時間請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北小巨蛋。",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "taipei-arena",
+      "id": "b1435c112a489f759be1",
+      "verifiedAt": "2026-10-20",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=44EFCD82A9D43986",
+          "id": "b1435c112a489f759be1"
+        }
+      ]
     }
   ],
   "status": {
     "id": "taipei-arena",
     "name": "臺北小巨蛋官方活動資料",
     "url": "https://www.arena.taipei/",
-    "checkedAt": "2026-10-19T13:28:17+08:00",
+    "checkedAt": "2026-10-20T13:30:43+08:00",
     "mode": "daily-crawl",
     "discovered": 9,
-    "included": 6,
+    "included": 5,
     "excluded": 0,
     "pending": 3,
-    "failed": 0,
+    "failed": 1,
     "reasons": {
       "INSUFFICIENT_CONCERT_EVIDENCE": 3,
-      "CONCERT_EVIDENCE": 6
+      "CONCERT_EVIDENCE": 5,
+      "INVALID_FEED_RECORD": 1
     },
     "coverageComplete": false,
     "scope": "臺北小巨蛋「已公開(售票/派票)活動」政府開放資料 JSON",
     "pagesVisited": 1,
     "expectedPages": null,
-    "reviewedAt": "2026-10-19",
+    "reviewedAt": "2026-10-20",
     "status": "ok",
-    "lastSuccess": "2026-10-19T13:28:17+08:00",
-    "lastSuccessfulIncluded": 6,
-    "message": "每日公開資料自動更新完成；納入 6 筆，待分類 3 筆；不代表完整目錄。",
-    "retainedEventCount": 10
+    "lastSuccess": "2026-10-20T13:30:43+08:00",
+    "lastSuccessfulIncluded": 5,
+    "message": "每日公開資料自動更新完成；納入 5 筆，待分類 3 筆；不代表完整目錄。",
+    "retainedEventCount": 11
   },
   "records": [
     {
