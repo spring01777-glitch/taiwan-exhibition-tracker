@@ -105,7 +105,7 @@ def parse_detail(source,body,url,hint,prior):
         years=[text(n) for n in soup.select('.exhi-sidebar__date-years span') if re.fullmatch(r'\d{4}',text(n))]
         md=[text(n) for n in soup.select('.exhi-sidebar__date-md')]
         dates=[f'{years[0]}.{md[0]}',f'{years[-1]}.{md[-1]}'] if years and len(md)==2 else []
-        section=next((n for n in soup.select('.exhi-sidebar__section') if text(n.select_one('h3')).startswith('地點')),None)
+        section=next((n for n in soup.select('.exhi-sidebar__section') if text(n.select_one('h2, h3')).startswith('地點')),None)
         venue=re.sub(r'^地點\s*[:：]\s*','',text(section))
     else:
         title=text(soup.select_one('h1'))

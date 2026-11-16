@@ -24,6 +24,13 @@ class DailyVenueTests(unittest.TestCase):
         body='<h1 class="news-title__title">跨年展</h1><div class="exhi-sidebar__date-years"><span>2026</span><span>2027</span></div><span class="exhi-sidebar__date-md">12.01</span><span class="exhi-sidebar__date-md">01.20</span><section class="exhi-sidebar__section"><h3>地點：</h3><div>東館</div></section>'
         e=parse_detail('huashan',body,'url',{}, {'verificationNote':'狀態待確認'})
         self.assertEqual(e['end'],'2027-01-20');self.assertEqual(e['verificationNote'],'狀態待確認')
+    def test_huashan_current_h2_venue_label_and_missing_venue_guard(self):
+        body='<h1 class="news-title__title">測試活動</h1><div class="exhi-sidebar__date-years"><span>2026</span></div><span class="exhi-sidebar__date-md">11.20</span><span class="exhi-sidebar__date-md">11.22</span><section class="exhi-sidebar__section"><h2 class="exhi-sidebar__label">地點：</h2><p class="exhi-sidebar__value">西5-1館 / 西5-2館</p></section>'
+        e=parse_detail('huashan',body,'url',{}, {})
+        self.assertEqual((e['start'],e['end']),('2026-11-20','2026-11-22'))
+        self.assertEqual(e['venue'],'華山1914 · 西5-1館 / 西5-2館')
+        with self.assertRaisesRegex(ValueError,'missing title or venue'):
+            parse_detail('huashan',body.replace('地點：','主辦單位：'),'url',{}, {})
     def test_pier_dates_and_clear_ticket_badge(self):
         body='<h1>展覽</h1><div class="datearea"><div class="starttime"><div class="y">2026</div><div class="d">10.01</div></div><div class="endtime"><div class="y">2026</div><div class="d">11.01</div></div></div>'
         e=parse_detail('pier2',body,'url',{'venue':'蓬萊區B4倉庫','badge':'paid'}, {})
