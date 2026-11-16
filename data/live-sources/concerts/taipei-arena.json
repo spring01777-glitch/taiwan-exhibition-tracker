@@ -734,7 +734,7 @@
     "id": "taipei-arena",
     "name": "臺北小巨蛋官方活動資料",
     "url": "https://www.arena.taipei/",
-    "checkedAt": "2026-11-17T06:42:08+08:00",
+    "checkedAt": "2026-11-17T06:51:41+08:00",
     "mode": "daily-crawl",
     "discovered": 7,
     "included": 4,
@@ -752,7 +752,7 @@
     "expectedPages": null,
     "reviewedAt": "2026-11-17",
     "status": "ok",
-    "lastSuccess": "2026-11-17T06:42:08+08:00",
+    "lastSuccess": "2026-11-17T06:51:41+08:00",
     "lastSuccessfulIncluded": 4,
     "message": "每日公開資料自動更新完成；納入 4 筆，待分類 2 筆；不代表完整目錄。",
     "retainedEventCount": 12

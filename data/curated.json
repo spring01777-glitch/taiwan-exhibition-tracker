@@ -848,398 +848,6 @@
     ]
   },
   {
-    "id": "pier2-1967",
-    "title": "2026高雄漾藝術博覽會 YOUNG ART KAOHSIUNG",
-    "start": "2026-11-13",
-    "end": "2026-11-15",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 大勇區P3倉庫",
-    "address": "高雄市鹽埕區大勇路1號",
-    "park": "pier2",
-    "price": "付費，詳細票價請查官方",
-    "category": "藝術博覽會",
-    "summary": "於大勇區P3倉庫舉辦的藝術博覽會活動，日期為2026-11-13至2026-11-15。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/1967/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "2026高雄漾藝術博覽會 YOUNG ART KAOHSIUNG",
-        "start": "2026-11-13",
-        "end": "2026-11-15",
-        "price": "單展80元；套票120元，含C5當代館及舊事倉庫",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
-    "id": "pier2-e4ff66dbe0f63726",
-    "title": "| 2026高雄國際鋼雕藝術節｜SUPER STAGE",
-    "start": "2026-10-23",
-    "end": "2026-11-22",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 駁二藝術特區蓬萊區B3倉庫、哈瑪星鐵道園區、鹽埕街區",
-    "address": "高雄市鼓山區蓬萊路99號",
-    "park": "pier2",
-    "price": "免費（仍請確認官方參加條件）",
-    "category": "展演",
-    "summary": "於駁二藝術特區蓬萊區B3倉庫、哈瑪星鐵道園區、鹽埕街區舉辦的展演活動，日期為2026-10-23至2026-11-22。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/2005/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-16T13:15:45+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": []
-  },
-  {
-    "id": "pier2-1980",
-    "title": "YES, AI DO. 歡迎光臨—2050情感交易所",
-    "start": "2026-10-09",
-    "end": "2026-10-26",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 駁二大勇區 P2倉庫",
-    "address": "高雄市鹽埕區大勇路1號",
-    "park": "pier2",
-    "price": "免費（仍請確認官方參加條件）",
-    "category": "互動／科技",
-    "summary": "於駁二大勇區 P2倉庫舉辦的互動／科技活動，日期為2026-10-09至2026-10-26。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/1980/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "YES, AI DO. 歡迎光臨—2050情感交易所",
-        "start": "2026-10-09",
-        "end": "2026-10-26",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
-    "id": "1372d87487c998a9a404",
-    "sourceUid": "6a28644d26b3243414ccd09c",
-    "title": "還是先躺一下再說？ Lay Down",
-    "start": "2026-06-12",
-    "end": "2027-03-01",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 大勇區C5倉庫",
-    "address": "高雄市鹽埕區大勇路1號",
-    "park": "pier2",
-    "price": "付費，詳細票價請查官方",
-    "category": "當代藝術",
-    "summary": "於大勇區C5倉庫舉辦的當代藝術活動，日期為2026-06-12至2027-03-01。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/1922/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T19:07:52+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "還是先躺一下再說？",
-        "start": "2026-06-12",
-        "end": "2026-12-31",
-        "price": "單展票+80;套票+150",
-        "lastSeen": "2026-10-05T19:32:35+08:00"
-      },
-      {
-        "title": "還是先躺一下再說？ Lay Down",
-        "start": "2026-06-12",
-        "end": "2027-03-01",
-        "price": "單展80元；套票120元，含C5當代館及舊事倉庫",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
-    "id": "pier2-e8ab8ed817fa9f60",
-    "title": "漫畫便當店 COMIC BENTO",
-    "start": "2026-09-30",
-    "end": "2027-02-21",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 駁二大義區C7動漫倉庫",
-    "address": "高雄市鹽埕區大勇路1號",
-    "park": "pier2",
-    "price": "免費（仍請確認官方參加條件）",
-    "category": "展演",
-    "summary": "於駁二大義區C7動漫倉庫舉辦的展演活動，日期為2026-09-30至2027-02-21。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/2004/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-16T13:15:45+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": []
-  },
-  {
-    "id": "pier2-1926",
-    "title": "怪獸風景－西川伸司＆氫酸鉀駐地創作展",
-    "start": "2026-06-12",
-    "end": "2027-02-21",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 駁二大義區C7動漫倉庫",
-    "address": "高雄市鹽埕區大勇路1號",
-    "park": "pier2",
-    "price": "付費，詳細票價請查官方",
-    "category": "漫畫／藝術",
-    "summary": "於駁二大義區C7動漫倉庫舉辦的漫畫／藝術活動，日期為2026-06-12至2027-02-21。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/1926/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "怪獸風景－西川伸司＆氫酸鉀駐地創作展",
-        "start": "2026-06-12",
-        "end": "2027-02-21",
-        "price": "購買任一商品，或購買50元展覽限定貼紙即可入場",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
-    "id": "c70f5f6d61a62ca00dfd",
-    "sourceUid": "69b1c0fb26b3242a48a9da15",
-    "title": "駁二舊事倉庫",
-    "start": "2026-01-22",
-    "end": "2030-12-31",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 大義區C7倉庫",
-    "address": "高雄市鹽埕區大勇路1號",
-    "park": "pier2",
-    "price": "付費，詳細票價請查官方",
-    "category": "歷史／常設展",
-    "summary": "於大義區C7倉庫舉辦的歷史／常設展活動，日期為2026-01-22至2030-12-31。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/3/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T19:07:52+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "駁二舊事倉庫：集結舊事 鑑往知來",
-        "start": "2026-01-01",
-        "end": "2026-12-31",
-        "price": "未提供，請洽官方",
-        "lastSeen": "2026-10-05T19:32:35+08:00"
-      },
-      {
-        "title": "駁二舊事倉庫",
-        "start": "2026-01-22",
-        "end": "2030-12-31",
-        "price": "單展80元；套票120元，含C5當代館及舊事倉庫",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
-    "id": "pier2-905",
-    "title": "彩虹地景",
-    "start": "2020-11-14",
-    "end": "2027-12-31",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 大勇路底紅色貨櫃前",
-    "address": "高雄市鹽埕區大勇路1號",
-    "park": "pier2",
-    "price": "免費（仍請確認官方參加條件）",
-    "category": "公共藝術",
-    "summary": "於大勇路底紅色貨櫃前舉辦的公共藝術活動，日期為2020-11-14至2027-12-31。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/905/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "彩虹地景",
-        "start": "2020-11-14",
-        "end": "2027-12-31",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
-    "id": "pier2-1983",
-    "title": "2026 TTXC｜高雄電影節 ✖ XR DREAMLAND",
-    "start": "2026-10-09",
-    "end": "2026-10-26",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 大勇區P3倉庫、自行車倉庫、大義區C9 VR體感劇院",
-    "address": "高雄市鹽埕區大勇路1號",
-    "park": "pier2",
-    "price": "付費，詳細票價請查官方",
-    "category": "XR／影像",
-    "summary": "於大勇區P3倉庫、自行車倉庫、大義區C9 VR體感劇院舉辦的XR／影像活動，日期為2026-10-09至2026-10-26。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/1983/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "2026 TTXC｜高雄電影節 ✖ XR DREAMLAND",
-        "start": "2026-10-09",
-        "end": "2026-10-26",
-        "price": "付費；依節目購票，場館頁未列統一票價",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
-    "id": "pier2-1982",
-    "title": "時空任意門",
-    "start": "2026-10-09",
-    "end": "2026-10-26",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 大勇區自行車倉庫",
-    "address": "高雄市鹽埕區大勇路1號",
-    "park": "pier2",
-    "price": "免費（仍請確認官方參加條件）",
-    "category": "影像／科技",
-    "summary": "於大勇區自行車倉庫舉辦的影像／科技活動，日期為2026-10-09至2026-10-26。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/1982/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "時空任意門",
-        "start": "2026-10-09",
-        "end": "2026-10-26",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
-    "id": "pier2-1978",
-    "title": "看見希望 在途中 A Journey — 癌後日常的未完成敍事",
-    "start": "2026-10-24",
-    "end": "2026-11-01",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 蓬萊區B6倉庫",
-    "address": "高雄市鼓山區蓬萊路99號",
-    "park": "pier2",
-    "price": "免費（仍請確認官方參加條件）",
-    "category": "藝術／生命故事",
-    "summary": "於蓬萊區B6倉庫舉辦的藝術／生命故事活動，日期為2026-10-24至2026-11-01。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/1978/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "看見希望 在途中 A Journey — 癌後日常的未完成敍事",
-        "start": "2026-10-24",
-        "end": "2026-11-01",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
-    "id": "pier2-1961",
-    "title": "虎姑婆和他的朋友 勇氣島大冒險",
-    "start": "2026-09-17",
-    "end": "2026-12-20",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 蓬萊區B10倉庫",
-    "address": "高雄市鼓山區蓬萊路99號",
-    "park": "pier2",
-    "price": "付費，詳細票價請查官方",
-    "category": "親子／互動",
-    "summary": "於蓬萊區B10倉庫舉辦的親子／互動活動，日期為2026-09-17至2026-12-20。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/1961/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-20T13:30:38+08:00",
-    "missingFromSource": false,
-    "revisions": [
-      {
-        "title": "虎姑婆和他的朋友 勇氣島大冒險",
-        "start": "2026-09-17",
-        "end": "2026-12-20",
-        "price": "付費；場館頁未列金額，請查官方購票資訊",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
-    "id": "pier2-1992",
-    "title": "INNOVATIONS 文化科技創新市場展",
-    "start": "2026-10-13",
-    "end": "2026-10-16",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · 蓬萊區B4倉庫",
-    "address": "高雄市鼓山區蓬萊路99號",
-    "park": "pier2",
-    "price": "免費（仍請確認官方參加條件）",
-    "category": "文化科技",
-    "summary": "於蓬萊區B4倉庫舉辦的文化科技活動，日期為2026-10-13至2026-10-16。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/1992/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-16T13:15:45+08:00",
-    "missingFromSource": true,
-    "revisions": [
-      {
-        "title": "INNOVATIONS 文化科技創新市場展",
-        "start": "2026-10-13",
-        "end": "2026-10-16",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
-    "id": "pier2-1994",
-    "title": "DigiWave2026",
-    "start": "2026-10-08",
-    "end": "2026-10-11",
-    "region": "高雄市",
-    "venue": "駁二藝術特區 · B6倉庫",
-    "address": "高雄市鹽埕區大勇路1號",
-    "park": "pier2",
-    "price": "免費（仍請確認官方參加條件）",
-    "category": "互動／科技",
-    "summary": "於B6倉庫舉辦的互動／科技活動，日期為2026-10-08至2026-10-11。開放時段與入場條件請查官方。",
-    "url": "https://pier2.org/exhibition/info/1994/",
-    "source": "pier2",
-    "sourceVersion": "official-public-daily",
-    "firstSeen": "2026-10-05T20:19:16+08:00",
-    "lastSeen": "2026-10-11T14:37:25+08:00",
-    "missingFromSource": true,
-    "revisions": [
-      {
-        "title": "DigiWave2026",
-        "start": "2026-10-08",
-        "end": "2026-10-11",
-        "price": "免費",
-        "lastSeen": "2026-10-05T20:19:16+08:00"
-      }
-    ]
-  },
-  {
     "id": "songshan-pharaoh-2026",
     "title": "《消失的法老》古夫金字塔 VR 沉浸體驗",
     "start": "2026-01-29",
@@ -1255,7 +863,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T19:00:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1283,7 +891,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1311,7 +919,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-05T20:09:46+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1339,7 +947,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-14T13:36:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1367,7 +975,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-14T13:36:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1395,7 +1003,7 @@
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-10-16T13:14:41+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
     "revisions": [
       {
@@ -1416,16 +1024,24 @@
     "venue": "松山文創園區 · 松山文創園區 北向製菸工廠一樓東側",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 北向製菸工廠一樓東側舉辦的展演活動，日期為2026-11-20至2026-11-22。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/5612490a-b8cc-4041-9a63-091be13ec857",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "方舟玩具 x 創意大交流會",
+        "start": "2026-11-20",
+        "end": "2026-11-22",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-c10c0f10c219f3b2",
@@ -1436,16 +1052,24 @@
     "venue": "松山文創園區 · 台灣設計館 03 展間",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於台灣設計館 03 展間舉辦的展演活動，日期為2026-11-10至2027-02-14。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/c6a5baf4-98fe-46b0-afac-9b7d9b3474be",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "學美 CONNECTING",
+        "start": "2026-11-10",
+        "end": "2027-02-14",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-0ec529d89f4a313c",
@@ -1456,16 +1080,24 @@
     "venue": "松山文創園區 · 松山文創園區 文創大街 北向製菸工廠窗框",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 文創大街 北向製菸工廠窗框舉辦的展演活動，日期為2026-11-06至2027-01-03。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/0a51550c-418c-462f-8f38-c795418625b5",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "松山文創園區藝術窗框計畫一海潮如息：水、土地與我們",
+        "start": "2026-11-06",
+        "end": "2027-01-03",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-31c336ff2fc9f996",
@@ -1476,16 +1108,24 @@
     "venue": "松山文創園區 · 松山文創園區 藝異空間",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 藝異空間舉辦的展演活動，日期為2026-11-14至2026-11-22。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/d44f6cfd-c232-41db-9124-adcc49302f2a",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "2026 紙上躍躍然．典美插畫大賞",
+        "start": "2026-11-14",
+        "end": "2026-11-22",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-bcb3dbb69f290d24",
@@ -1496,16 +1136,24 @@
     "venue": "松山文創園區 · 台灣設計館 01 02 04 展間",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於台灣設計館 01 02 04 展間舉辦的展演活動，日期為2026-11-17至2027-04-25。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/ef7b55b4-2233-4615-91d4-52b85290628a",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "2026 金點設計展",
+        "start": "2026-11-17",
+        "end": "2027-04-25",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-6669b6ba2b5d36ad",
@@ -1516,16 +1164,24 @@
     "venue": "松山文創園區 · iF 台北設計沙龍 松山文創園區 西向製菸工廠二樓 A7 W207",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於iF 台北設計沙龍 松山文創園區 西向製菸工廠二樓 A7 W207舉辦的展演活動，日期為2026-11-06至2026-12-02。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/b2735b74-e7db-41e2-911b-004e857f8d29",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "融 · 全球 | 2026 年 iF 設計獎獲獎作品展（VI）",
+        "start": "2026-11-06",
+        "end": "2026-12-02",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-1cdd2893f2e65127",
@@ -1536,16 +1192,24 @@
     "venue": "松山文創園區 · 松山文創園區 藝巷空間",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 藝巷空間舉辦的展演活動，日期為2026-10-28至2026-12-13。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/37478e08-b215-4744-a1b9-3050f2120bb2",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "咒術迴戰 快閃店",
+        "start": "2026-10-28",
+        "end": "2026-12-13",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-679d21b379613c17",
@@ -1556,16 +1220,24 @@
     "venue": "松山文創園區 · 松山文創園區 藝思空間",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 藝思空間舉辦的展演活動，日期為2026-11-11至2026-11-22。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/2c75fc7f-b819-4769-be64-dec0aa64430a",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "《細胞選物店》桂語謙個展",
+        "start": "2026-11-11",
+        "end": "2026-11-22",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-ed30271d9c82c9da",
@@ -1576,16 +1248,24 @@
     "venue": "松山文創園區 · 松山文創園區 多功能展演廳",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 多功能展演廳舉辦的展演活動，日期為2026-11-22至2026-11-22。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/2120d8b6-25e5-4ab8-ae17-f25c6c2332eb",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "【群益挺你生・幸福安心養】2026 群益寶寶慶生會暨幸福親子日",
+        "start": "2026-11-22",
+        "end": "2026-11-22",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-ecbdc2a3938d053b",
@@ -1596,16 +1276,24 @@
     "venue": "松山文創園區 · 松山文創園區 南向製菸工廠一樓",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 南向製菸工廠一樓舉辦的展演活動，日期為2026-11-14至2026-11-17。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/c888883a-14a7-43d9-bd9d-a59dae34f436",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "卓越新聞獎 25 週年特展「看見好新聞」",
+        "start": "2026-11-14",
+        "end": "2026-11-17",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-7f46843ce1fe594c",
@@ -1616,16 +1304,24 @@
     "venue": "松山文創園區 · 松山文創園區 1 號倉庫",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 1 號倉庫舉辦的展演活動，日期為2026-11-21至2026-11-21。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/f26bbda4-136c-4e5e-88de-eed8dede5d19",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "喝 自然葡萄酒展 Buvons Nature",
+        "start": "2026-11-21",
+        "end": "2026-11-21",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-a2914081cc6adbe8",
@@ -1636,16 +1332,24 @@
     "venue": "松山文創園區 · 松山文創園區 西向製菸工廠二樓 A7 W207",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 西向製菸工廠二樓 A7 W207舉辦的展演活動，日期為2026-12-04至2026-12-04。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/f2570c15-42d0-4204-9918-9164ddf5891e",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "設計影像【一堂關於設計師的攝影課】",
+        "start": "2026-12-04",
+        "end": "2026-12-04",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-beb0197d3da2d08a",
@@ -1656,16 +1360,24 @@
     "venue": "松山文創園區 · 松山文創園區 北向製菸工廠一樓",
     "address": "臺北市信義區光復南路133號",
     "park": "songshan",
-    "price": "官網未提供結構化票價，請查官方",
+    "price": "票價未逐日確認；前次人工核對：官網未提供結構化票價，請查官方",
     "category": "展演",
     "summary": "於松山文創園區 北向製菸工廠一樓舉辦的展演活動，日期為2026-11-28至2026-11-29。開放時段與入場條件請查官方。",
     "url": "https://www.songshanculturalpark.org/exhibition/activity/edeb0a7c-5f69-402d-ab13-18d4520c5e22",
     "source": "songshan",
     "sourceVersion": "official-public-daily",
     "firstSeen": "2026-11-17T06:42:00+08:00",
-    "lastSeen": "2026-11-17T06:42:00+08:00",
+    "lastSeen": "2026-11-17T06:50:46+08:00",
     "missingFromSource": false,
-    "revisions": []
+    "revisions": [
+      {
+        "title": "舒喜市集：台灣故鄉祭",
+        "start": "2026-11-28",
+        "end": "2026-11-29",
+        "price": "官網未提供結構化票價，請查官方",
+        "lastSeen": "2026-11-17T06:42:00+08:00"
+      }
+    ]
   },
   {
     "id": "songshan-0d1927821827c107",
@@ -2424,6 +2136,598 @@
         "end": "2026-10-11",
         "price": "官網未提供結構化票價，請查官方",
         "lastSeen": "2026-10-08T14:46:19+08:00"
+      }
+    ]
+  },
+  {
+    "id": "pier2-e4ff66dbe0f63726",
+    "title": "| 2026高雄國際鋼雕藝術節｜SUPER STAGE",
+    "start": "2026-10-23",
+    "end": "2026-11-22",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 駁二藝術特區蓬萊區B3倉庫、哈瑪星鐵道園區、鹽埕街區",
+    "address": "高雄市鼓山區蓬萊路99號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "展演",
+    "summary": "於駁二藝術特區蓬萊區B3倉庫、哈瑪星鐵道園區、鹽埕街區舉辦的展演活動，日期為2026-10-23至2026-11-22。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2005/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-16T13:15:45+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "1372d87487c998a9a404",
+    "sourceUid": "6a28644d26b3243414ccd09c",
+    "title": "還是先躺一下再說？ Lay Down",
+    "start": "2026-06-12",
+    "end": "2027-03-01",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 大勇區C5倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "付費，詳細票價請查官方",
+    "category": "當代藝術",
+    "summary": "於大勇區C5倉庫舉辦的當代藝術活動，日期為2026-06-12至2027-03-01。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/1922/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T19:07:52+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "還是先躺一下再說？",
+        "start": "2026-06-12",
+        "end": "2026-12-31",
+        "price": "單展票+80;套票+150",
+        "lastSeen": "2026-10-05T19:32:35+08:00"
+      },
+      {
+        "title": "還是先躺一下再說？ Lay Down",
+        "start": "2026-06-12",
+        "end": "2027-03-01",
+        "price": "單展80元；套票120元，含C5當代館及舊事倉庫",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "pier2-e8ab8ed817fa9f60",
+    "title": "漫畫便當店 COMIC BENTO",
+    "start": "2026-09-30",
+    "end": "2027-02-21",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 駁二大義區C7動漫倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "展演",
+    "summary": "於駁二大義區C7動漫倉庫舉辦的展演活動，日期為2026-09-30至2027-02-21。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2004/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-16T13:15:45+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "pier2-1926",
+    "title": "怪獸風景－西川伸司＆氫酸鉀駐地創作展",
+    "start": "2026-06-12",
+    "end": "2027-02-21",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 駁二大義區C7動漫倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "付費，詳細票價請查官方",
+    "category": "漫畫／藝術",
+    "summary": "於駁二大義區C7動漫倉庫舉辦的漫畫／藝術活動，日期為2026-06-12至2027-02-21。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/1926/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:19:16+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "怪獸風景－西川伸司＆氫酸鉀駐地創作展",
+        "start": "2026-06-12",
+        "end": "2027-02-21",
+        "price": "購買任一商品，或購買50元展覽限定貼紙即可入場",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "c70f5f6d61a62ca00dfd",
+    "sourceUid": "69b1c0fb26b3242a48a9da15",
+    "title": "駁二舊事倉庫",
+    "start": "2026-01-22",
+    "end": "2030-12-31",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 大義區C7倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "付費，詳細票價請查官方",
+    "category": "歷史／常設展",
+    "summary": "於大義區C7倉庫舉辦的歷史／常設展活動，日期為2026-01-22至2030-12-31。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/3/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T19:07:52+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "駁二舊事倉庫：集結舊事 鑑往知來",
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "price": "未提供，請洽官方",
+        "lastSeen": "2026-10-05T19:32:35+08:00"
+      },
+      {
+        "title": "駁二舊事倉庫",
+        "start": "2026-01-22",
+        "end": "2030-12-31",
+        "price": "單展80元；套票120元，含C5當代館及舊事倉庫",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "pier2-c590d8c981e6488e",
+    "title": "2026駁二動漫祭同人誌創作展",
+    "start": "2026-12-05",
+    "end": "2026-12-06",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 駁二大勇區P2、P3和自行車倉庫和蓬萊區B3、B4倉庫和B9正港小劇場",
+    "address": "高雄市鼓山區蓬萊路99號",
+    "park": "pier2",
+    "price": "付費，詳細票價請查官方",
+    "category": "展演",
+    "summary": "於駁二大勇區P2、P3和自行車倉庫和蓬萊區B3、B4倉庫和B9正港小劇場舉辦的展演活動，日期為2026-12-05至2026-12-06。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2008/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-11-17T06:51:35+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "pier2-905",
+    "title": "彩虹地景",
+    "start": "2020-11-14",
+    "end": "2027-12-31",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 大勇路底紅色貨櫃前",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "公共藝術",
+    "summary": "於大勇路底紅色貨櫃前舉辦的公共藝術活動，日期為2020-11-14至2027-12-31。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/905/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:19:16+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "彩虹地景",
+        "start": "2020-11-14",
+        "end": "2027-12-31",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "pier2-b0846dc7b283e12e",
+    "title": "2026東京威力科創機器人大賽",
+    "start": "2026-11-21",
+    "end": "2026-11-21",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · P2倉庫、P3倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "展演",
+    "summary": "於P2倉庫、P3倉庫舉辦的展演活動，日期為2026-11-21至2026-11-21。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2025/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-11-17T06:51:35+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "pier2-7f2f4632e7490577",
+    "title": "《困境》— 黃詩硯駐村成果展",
+    "start": "2026-11-21",
+    "end": "2026-11-29",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 駁二藝術特區 大勇區 自行車倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "展演",
+    "summary": "於駁二藝術特區 大勇區 自行車倉庫舉辦的展演活動，日期為2026-11-21至2026-11-29。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2039/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-11-17T06:51:35+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "pier2-67de9cd9bc212801",
+    "title": "唱歌集《以為是BL結果是BFF》青春校園音樂劇",
+    "start": "2026-11-27",
+    "end": "2026-11-29",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 駁二B9倉庫 正港小劇場 Kaohsiung Experimental Theatre",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "付費，詳細票價請查官方",
+    "category": "展演",
+    "summary": "於駁二B9倉庫 正港小劇場 Kaohsiung Experimental Theatre舉辦的展演活動，日期為2026-11-27至2026-11-29。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2019/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-11-17T06:51:35+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "pier2-904242001d74ecee",
+    "title": "SEA YOU 海洋的星願與守護",
+    "start": "2026-11-07",
+    "end": "2026-11-29",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 蓬萊區B6倉庫",
+    "address": "高雄市鼓山區蓬萊路99號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "展演",
+    "summary": "於蓬萊區B6倉庫舉辦的展演活動，日期為2026-11-07至2026-11-29。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2014/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-11-17T06:51:35+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "pier2-d15177d8576289e9",
+    "title": "停下來！漫才笑響曲",
+    "start": "2026-12-12",
+    "end": "2026-12-13",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 駁二B9倉庫 正港小劇場 Kaohsiung Experimental Theatre",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "付費，詳細票價請查官方",
+    "category": "展演",
+    "summary": "於駁二B9倉庫 正港小劇場 Kaohsiung Experimental Theatre舉辦的展演活動，日期為2026-12-12至2026-12-13。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2028/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-11-17T06:51:35+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "pier2-1961",
+    "title": "虎姑婆和他的朋友 勇氣島大冒險",
+    "start": "2026-09-17",
+    "end": "2026-12-20",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 蓬萊區B10倉庫",
+    "address": "高雄市鼓山區蓬萊路99號",
+    "park": "pier2",
+    "price": "付費，詳細票價請查官方",
+    "category": "親子／互動",
+    "summary": "於蓬萊區B10倉庫舉辦的親子／互動活動，日期為2026-09-17至2026-12-20。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/1961/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:19:16+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": [
+      {
+        "title": "虎姑婆和他的朋友 勇氣島大冒險",
+        "start": "2026-09-17",
+        "end": "2026-12-20",
+        "price": "付費；場館頁未列金額，請查官方購票資訊",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "pier2-8b7e208aeb6587ba",
+    "title": "Life with Pingu",
+    "start": "2026-12-23",
+    "end": "2027-03-09",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 大勇區P3倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "展演",
+    "summary": "於大勇區P3倉庫舉辦的展演活動，日期為2026-12-23至2027-03-09。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2038/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-11-17T06:51:35+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "pier2-2136aba9f632d420",
+    "title": "MOOMIN冬日星空（Winter Star）",
+    "start": "2026-12-23",
+    "end": "2027-03-09",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 大勇區P3倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "展演",
+    "summary": "於大勇區P3倉庫舉辦的展演活動，日期為2026-12-23至2027-03-09。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2034/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-11-17T06:51:35+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "pier2-179f73b329a326f0",
+    "title": "Miffy夢想返航",
+    "start": "2026-12-23",
+    "end": "2027-03-09",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 大勇區P3倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "展演",
+    "summary": "於大勇區P3倉庫舉辦的展演活動，日期為2026-12-23至2027-03-09。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2033/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-11-17T06:51:35+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "pier2-3756b04f84ae3dc2",
+    "title": "BRUNCH CAFE 放空所",
+    "start": "2026-12-23",
+    "end": "2027-03-09",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 大勇區P3倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "展演",
+    "summary": "於大勇區P3倉庫舉辦的展演活動，日期為2026-12-23至2027-03-09。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/2032/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-11-17T06:51:35+08:00",
+    "lastSeen": "2026-11-17T06:51:35+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
+    "id": "pier2-1967",
+    "title": "2026高雄漾藝術博覽會 YOUNG ART KAOHSIUNG",
+    "start": "2026-11-13",
+    "end": "2026-11-15",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 大勇區P3倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "付費，詳細票價請查官方",
+    "category": "藝術博覽會",
+    "summary": "於大勇區P3倉庫舉辦的藝術博覽會活動，日期為2026-11-13至2026-11-15。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/1967/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:19:16+08:00",
+    "lastSeen": "2026-10-20T13:30:38+08:00",
+    "missingFromSource": true,
+    "revisions": [
+      {
+        "title": "2026高雄漾藝術博覽會 YOUNG ART KAOHSIUNG",
+        "start": "2026-11-13",
+        "end": "2026-11-15",
+        "price": "單展80元；套票120元，含C5當代館及舊事倉庫",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "pier2-1980",
+    "title": "YES, AI DO. 歡迎光臨—2050情感交易所",
+    "start": "2026-10-09",
+    "end": "2026-10-26",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 駁二大勇區 P2倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "互動／科技",
+    "summary": "於駁二大勇區 P2倉庫舉辦的互動／科技活動，日期為2026-10-09至2026-10-26。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/1980/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:19:16+08:00",
+    "lastSeen": "2026-10-20T13:30:38+08:00",
+    "missingFromSource": true,
+    "revisions": [
+      {
+        "title": "YES, AI DO. 歡迎光臨—2050情感交易所",
+        "start": "2026-10-09",
+        "end": "2026-10-26",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "pier2-1983",
+    "title": "2026 TTXC｜高雄電影節 ✖ XR DREAMLAND",
+    "start": "2026-10-09",
+    "end": "2026-10-26",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 大勇區P3倉庫、自行車倉庫、大義區C9 VR體感劇院",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "付費，詳細票價請查官方",
+    "category": "XR／影像",
+    "summary": "於大勇區P3倉庫、自行車倉庫、大義區C9 VR體感劇院舉辦的XR／影像活動，日期為2026-10-09至2026-10-26。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/1983/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:19:16+08:00",
+    "lastSeen": "2026-10-20T13:30:38+08:00",
+    "missingFromSource": true,
+    "revisions": [
+      {
+        "title": "2026 TTXC｜高雄電影節 ✖ XR DREAMLAND",
+        "start": "2026-10-09",
+        "end": "2026-10-26",
+        "price": "付費；依節目購票，場館頁未列統一票價",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "pier2-1982",
+    "title": "時空任意門",
+    "start": "2026-10-09",
+    "end": "2026-10-26",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 大勇區自行車倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "影像／科技",
+    "summary": "於大勇區自行車倉庫舉辦的影像／科技活動，日期為2026-10-09至2026-10-26。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/1982/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:19:16+08:00",
+    "lastSeen": "2026-10-20T13:30:38+08:00",
+    "missingFromSource": true,
+    "revisions": [
+      {
+        "title": "時空任意門",
+        "start": "2026-10-09",
+        "end": "2026-10-26",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "pier2-1978",
+    "title": "看見希望 在途中 A Journey — 癌後日常的未完成敍事",
+    "start": "2026-10-24",
+    "end": "2026-11-01",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 蓬萊區B6倉庫",
+    "address": "高雄市鼓山區蓬萊路99號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "藝術／生命故事",
+    "summary": "於蓬萊區B6倉庫舉辦的藝術／生命故事活動，日期為2026-10-24至2026-11-01。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/1978/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:19:16+08:00",
+    "lastSeen": "2026-10-20T13:30:38+08:00",
+    "missingFromSource": true,
+    "revisions": [
+      {
+        "title": "看見希望 在途中 A Journey — 癌後日常的未完成敍事",
+        "start": "2026-10-24",
+        "end": "2026-11-01",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "pier2-1992",
+    "title": "INNOVATIONS 文化科技創新市場展",
+    "start": "2026-10-13",
+    "end": "2026-10-16",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 蓬萊區B4倉庫",
+    "address": "高雄市鼓山區蓬萊路99號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "文化科技",
+    "summary": "於蓬萊區B4倉庫舉辦的文化科技活動，日期為2026-10-13至2026-10-16。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/1992/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:19:16+08:00",
+    "lastSeen": "2026-10-16T13:15:45+08:00",
+    "missingFromSource": true,
+    "revisions": [
+      {
+        "title": "INNOVATIONS 文化科技創新市場展",
+        "start": "2026-10-13",
+        "end": "2026-10-16",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
+      }
+    ]
+  },
+  {
+    "id": "pier2-1994",
+    "title": "DigiWave2026",
+    "start": "2026-10-08",
+    "end": "2026-10-11",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · B6倉庫",
+    "address": "高雄市鹽埕區大勇路1號",
+    "park": "pier2",
+    "price": "免費（仍請確認官方參加條件）",
+    "category": "互動／科技",
+    "summary": "於B6倉庫舉辦的互動／科技活動，日期為2026-10-08至2026-10-11。開放時段與入場條件請查官方。",
+    "url": "https://pier2.org/exhibition/info/1994/",
+    "source": "pier2",
+    "sourceVersion": "official-public-daily",
+    "firstSeen": "2026-10-05T20:19:16+08:00",
+    "lastSeen": "2026-10-11T14:37:25+08:00",
+    "missingFromSource": true,
+    "revisions": [
+      {
+        "title": "DigiWave2026",
+        "start": "2026-10-08",
+        "end": "2026-10-11",
+        "price": "免費",
+        "lastSeen": "2026-10-05T20:19:16+08:00"
       }
     ]
   }
