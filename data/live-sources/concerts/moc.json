@@ -4,33 +4,6 @@
   "kind": "concerts",
   "events": [
     {
-      "id": "d04d79ac80cdb10fa26b",
-      "source": "moc",
-      "sourceUid": "681fa5d226b3242b74a3ba7f",
-      "title": "「2026年國際沈文程日-小琉球情歌演唱會」",
-      "performers": "",
-      "region": "桃園市",
-      "venue": "桃園展演中心展演廳",
-      "address": "桃園市桃園區中正路1188號",
-      "sessions": [
-        {
-          "date": "2026-11-01",
-          "time": "15:00"
-        }
-      ],
-      "price": "3600、3200、2600、2000、1600、1200",
-      "saleAt": null,
-      "saleNote": "開賣時間來源未提供；請至官方確認。",
-      "ticketStatus": "來源未提供即時售票狀態",
-      "ticketUrl": null,
-      "ticketVerifiedAt": null,
-      "sourceUrl": "https://data.gov.tw/dataset/6013",
-      "status": "scheduled",
-      "summary": "桃園市的演唱會，演出地點為桃園展演中心展演廳。",
-      "verifiedAt": "2026-10-20",
-      "revisions": []
-    },
-    {
       "id": "3e81df191a9ebea564f7",
       "source": "moc",
       "sourceUid": "681fa5d226b3242b74a3ba7f",
@@ -54,7 +27,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺東縣的演唱會，演出地點為臺東縣立體育館。",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "revisions": []
     },
     {
@@ -81,7 +54,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "revisions": []
     },
     {
@@ -108,7 +81,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北國際會議中心大會堂。",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "revisions": []
     },
     {
@@ -122,7 +95,7 @@
       "address": "新北市五股區五權路1號",
       "sessions": [
         {
-          "date": "2026-10-24",
+          "date": "2027-02-13",
           "time": "18:00"
         }
       ],
@@ -133,8 +106,244 @@
       "ticketUrl": null,
       "ticketVerifiedAt": null,
       "sourceUrl": "https://data.gov.tw/dataset/6013",
-      "status": "scheduled",
+      "status": "changed",
       "summary": "新北市的演唱會，演出地點為新北市五股工商展覽中心。",
+      "verifiedAt": "2026-11-17",
+      "revisions": [
+        {
+          "at": "2026-11-17T06:45:25+08:00",
+          "note": "來源場次日期或時間異動，請確認官方公告。",
+          "previousSessions": [
+            {
+              "date": "2026-10-24",
+              "time": "18:00"
+            }
+          ]
+        }
+      ],
+      "statusNote": "來源日期／時間已變更，是否正式改期請確認官方公告。"
+    },
+    {
+      "id": "a81f1b7dd139799deed2",
+      "source": "moc",
+      "sourceUid": "6a10c26926b3243414cccad3",
+      "title": "2026蔡義德【聲聲不息】演唱會",
+      "performers": "",
+      "region": "臺中市",
+      "venue": "台中中興大學惠蓀堂",
+      "address": "臺中市南區興大路145號",
+      "sessions": [
+        {
+          "date": "2026-12-26",
+          "time": "18:00"
+        },
+        {
+          "date": "2026-12-27",
+          "time": "14:30"
+        }
+      ],
+      "price": "12000、10000、6000、5000、3800、3000、2800、2200",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
+      "verifiedAt": "2026-11-17",
+      "revisions": []
+    },
+    {
+      "id": "3a13ea36dede363bca59",
+      "source": "moc",
+      "sourceUid": "6a18a65226b3243414cccc48",
+      "title": "【翁倩玉 陽光般的60週年演唱會-時間之歌】",
+      "performers": "",
+      "region": "臺中市",
+      "venue": "台中中興大學惠蓀堂",
+      "address": "臺中市南區興大路145號",
+      "sessions": [
+        {
+          "date": "2026-11-28",
+          "time": "15:00"
+        }
+      ],
+      "price": "5600、4800、4200、3600、3000、2400、1800、1200",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
+      "verifiedAt": "2026-11-17",
+      "revisions": []
+    },
+    {
+      "id": "10f109474c5b4e1703f3",
+      "source": "moc",
+      "sourceUid": "6a6928c526b32427d06042dd",
+      "title": "2026林淑容【您的經典．我的歌】世界巡迴演唱會台中場",
+      "performers": "",
+      "region": "臺中市",
+      "venue": "台中中興大學惠蓀堂",
+      "address": "臺中市南區興大路145號",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "19:00"
+        }
+      ],
+      "price": "6800、5800、4800、3800、2800、1800、1000、800",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
+      "verifiedAt": "2026-11-17",
+      "revisions": []
+    },
+    {
+      "id": "6b888a009ea04178eec6",
+      "source": "moc",
+      "sourceUid": "6aac3bc626b324165c32e4ec",
+      "title": "AxMxP X VERSE CONCERT IN TAIPEI",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "CLAPPER STUDIO 展演廳(三創生活)",
+      "address": "臺北市中正區正守里市民大道三段2號5樓",
+      "sessions": [
+        {
+          "date": "2026-11-29",
+          "time": "17:00"
+        }
+      ],
+      "price": "5880",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為CLAPPER STUDIO 展演廳(三創生活)。",
+      "verifiedAt": "2026-11-17",
+      "revisions": []
+    },
+    {
+      "id": "5154ef7083bf4284c680",
+      "source": "moc",
+      "sourceUid": "6ad658f626b3245efc7536b8",
+      "title": "陽帆《堅持再堅持》演唱會",
+      "performers": "",
+      "region": "臺中市",
+      "venue": "台中中興大學惠蓀堂",
+      "address": "臺中市南區興大路145號",
+      "sessions": [
+        {
+          "date": "2027-01-09",
+          "time": "19:00"
+        }
+      ],
+      "price": "4200、3600、3000、2400、1800、1200、800",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
+      "verifiedAt": "2026-11-17",
+      "revisions": []
+    },
+    {
+      "id": "02251beb7baba08b5f4e",
+      "source": "moc",
+      "sourceUid": "6ae25e8726b3245efc753740",
+      "title": "AKINO GENESIS 台北個人演唱會 “新時代開啟.”",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "CLAPPER STUDIO 展演廳(三創生活)",
+      "address": "臺北市中正區正守里市民大道三段2號5樓",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "18:00"
+        }
+      ],
+      "price": "3200、2600",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為CLAPPER STUDIO 展演廳(三創生活)。",
+      "verifiedAt": "2026-11-17",
+      "revisions": []
+    },
+    {
+      "id": "3d8058d6b8e6cebae518",
+      "source": "moc",
+      "sourceUid": "6aece9f126b3245efc753797",
+      "title": "寶吉祥歌之饗宴17-贊聲 陳怡婷演唱會",
+      "performers": "",
+      "region": "臺北市",
+      "venue": "台北國際會議中心大會堂",
+      "address": "臺北市信義區信義路五段一號",
+      "sessions": [
+        {
+          "date": "2026-12-19",
+          "time": "19:00"
+        },
+        {
+          "date": "2026-12-20",
+          "time": "19:00"
+        }
+      ],
+      "price": "4200、3800、3400、3000、2600、2200、1800",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為台北國際會議中心大會堂。",
+      "verifiedAt": "2026-11-17",
+      "revisions": []
+    },
+    {
+      "id": "d04d79ac80cdb10fa26b",
+      "source": "moc",
+      "sourceUid": "681fa5d226b3242b74a3ba7f",
+      "title": "「2026年國際沈文程日-小琉球情歌演唱會」",
+      "performers": "",
+      "region": "桃園市",
+      "venue": "桃園展演中心展演廳",
+      "address": "桃園市桃園區中正路1188號",
+      "sessions": [
+        {
+          "date": "2026-11-01",
+          "time": "15:00"
+        }
+      ],
+      "price": "3600、3200、2600、2000、1600、1200",
+      "saleAt": null,
+      "saleNote": "開賣時間來源未提供；請至官方確認。",
+      "ticketStatus": "來源未提供即時售票狀態",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "sourceUrl": "https://data.gov.tw/dataset/6013",
+      "status": "scheduled",
+      "summary": "桃園市的演唱會，演出地點為桃園展演中心展演廳。",
       "verifiedAt": "2026-10-20",
       "revisions": []
     },
@@ -166,91 +375,6 @@
       "revisions": []
     },
     {
-      "id": "a81f1b7dd139799deed2",
-      "source": "moc",
-      "sourceUid": "6a10c26926b3243414cccad3",
-      "title": "2026蔡義德【聲聲不息】演唱會",
-      "performers": "",
-      "region": "臺中市",
-      "venue": "台中中興大學惠蓀堂",
-      "address": "臺中市南區興大路145號",
-      "sessions": [
-        {
-          "date": "2026-12-26",
-          "time": "18:00"
-        },
-        {
-          "date": "2026-12-27",
-          "time": "14:30"
-        }
-      ],
-      "price": "12000、10000、6000、5000、3800、3000、2800、2200",
-      "saleAt": null,
-      "saleNote": "開賣時間來源未提供；請至官方確認。",
-      "ticketStatus": "來源未提供即時售票狀態",
-      "ticketUrl": null,
-      "ticketVerifiedAt": null,
-      "sourceUrl": "https://data.gov.tw/dataset/6013",
-      "status": "scheduled",
-      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-20",
-      "revisions": []
-    },
-    {
-      "id": "3a13ea36dede363bca59",
-      "source": "moc",
-      "sourceUid": "6a18a65226b3243414cccc48",
-      "title": "【翁倩玉 陽光般的60週年演唱會-時間之歌】",
-      "performers": "",
-      "region": "臺中市",
-      "venue": "台中中興大學惠蓀堂",
-      "address": "臺中市南區興大路145號",
-      "sessions": [
-        {
-          "date": "2026-11-28",
-          "time": "15:00"
-        }
-      ],
-      "price": "5600、4800、4200、3600、3000、2400、1800、1200",
-      "saleAt": null,
-      "saleNote": "開賣時間來源未提供；請至官方確認。",
-      "ticketStatus": "來源未提供即時售票狀態",
-      "ticketUrl": null,
-      "ticketVerifiedAt": null,
-      "sourceUrl": "https://data.gov.tw/dataset/6013",
-      "status": "scheduled",
-      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-20",
-      "revisions": []
-    },
-    {
-      "id": "10f109474c5b4e1703f3",
-      "source": "moc",
-      "sourceUid": "6a6928c526b32427d06042dd",
-      "title": "2026林淑容【您的經典．我的歌】世界巡迴演唱會台中場",
-      "performers": "",
-      "region": "臺中市",
-      "venue": "台中中興大學惠蓀堂",
-      "address": "臺中市南區興大路145號",
-      "sessions": [
-        {
-          "date": "2026-12-05",
-          "time": "19:00"
-        }
-      ],
-      "price": "6800、5800、4800、3800、2800、1800、1000、800",
-      "saleAt": null,
-      "saleNote": "開賣時間來源未提供；請至官方確認。",
-      "ticketStatus": "來源未提供即時售票狀態",
-      "ticketUrl": null,
-      "ticketVerifiedAt": null,
-      "sourceUrl": "https://data.gov.tw/dataset/6013",
-      "status": "scheduled",
-      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-10-20",
-      "revisions": []
-    },
-    {
       "id": "51e9fa888a758d274c06",
       "source": "moc",
       "sourceUid": "6a7943c8eb4345557aab58e7",
@@ -274,60 +398,6 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "地區未公布的演唱會，演出地點為Corner House(遠雄國際金融廣場)。",
-      "verifiedAt": "2026-10-20",
-      "revisions": []
-    },
-    {
-      "id": "6b888a009ea04178eec6",
-      "source": "moc",
-      "sourceUid": "6aac3bc626b324165c32e4ec",
-      "title": "AxMxP X VERSE CONCERT IN TAIPEI",
-      "performers": "",
-      "region": "臺北市",
-      "venue": "CLAPPER STUDIO 展演廳(三創生活)",
-      "address": "臺北市中正區正守里市民大道三段2號5樓",
-      "sessions": [
-        {
-          "date": "2026-11-29",
-          "time": "17:00"
-        }
-      ],
-      "price": "5880",
-      "saleAt": null,
-      "saleNote": "開賣時間來源未提供；請至官方確認。",
-      "ticketStatus": "來源未提供即時售票狀態",
-      "ticketUrl": null,
-      "ticketVerifiedAt": null,
-      "sourceUrl": "https://data.gov.tw/dataset/6013",
-      "status": "scheduled",
-      "summary": "臺北市的演唱會，演出地點為CLAPPER STUDIO 展演廳(三創生活)。",
-      "verifiedAt": "2026-10-20",
-      "revisions": []
-    },
-    {
-      "id": "5154ef7083bf4284c680",
-      "source": "moc",
-      "sourceUid": "6ad658f626b3245efc7536b8",
-      "title": "陽帆《堅持再堅持》演唱會",
-      "performers": "",
-      "region": "臺中市",
-      "venue": "台中中興大學惠蓀堂",
-      "address": "臺中市南區興大路145號",
-      "sessions": [
-        {
-          "date": "2027-01-09",
-          "time": "19:00"
-        }
-      ],
-      "price": "4200、3600、3000、2400、1800、1200、800",
-      "saleAt": null,
-      "saleNote": "開賣時間來源未提供；請至官方確認。",
-      "ticketStatus": "來源未提供即時售票狀態",
-      "ticketUrl": null,
-      "ticketVerifiedAt": null,
-      "sourceUrl": "https://data.gov.tw/dataset/6013",
-      "status": "scheduled",
-      "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
       "verifiedAt": "2026-10-20",
       "revisions": []
     },
@@ -362,11 +432,11 @@
   "status": {
     "name": "文化部・演唱會",
     "url": "https://data.gov.tw/dataset/6013",
-    "checkedAt": "2026-10-20T13:32:13+08:00",
-    "lastSuccess": "2026-10-20T13:32:13+08:00",
+    "checkedAt": "2026-11-17T06:45:25+08:00",
+    "lastSuccess": "2026-11-17T06:45:25+08:00",
     "id": "moc",
     "status": "ok",
-    "message": "授權 JSON 解析完成；納入 12 個活動／場館，待分類 0 筆；不是全平台完整涵蓋。",
+    "message": "授權 JSON 解析完成；納入 11 個活動／場館，待分類 0 筆；不是全平台完整涵蓋。",
     "discovered": 11,
     "included": 9,
     "excluded": 2,
@@ -376,7 +446,7 @@
       "CONCERT_EVIDENCE": 9,
       "FAN_MEETING_OR_UPGRADE": 2
     },
-    "eventCount": 12,
+    "eventCount": 11,
     "coverageComplete": false,
     "scope": "文化部 category 17 單次授權 JSON；不代表全台完整目錄",
     "pagesVisited": 1,

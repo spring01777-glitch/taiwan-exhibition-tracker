@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Taipei",
-  "updatedAt": "2026-10-20T13:32:14+08:00",
+  "updatedAt": "2026-11-17T06:45:26+08:00",
   "events": [
     {
       "id": "manual-lan-1008",
@@ -2525,7 +2525,7 @@
       "address": "北市林森北路286號",
       "verificationMethod": "daily-crawl",
       "id": "494d4837976330eee1a7",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2592,7 +2592,7 @@
       "address": "臺北市中山區銅山街一號",
       "verificationMethod": "daily-crawl",
       "id": "9965c2ef1894358d1552",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2650,7 +2650,7 @@
       "address": "台北市中山區復興北路480號",
       "verificationMethod": "daily-crawl",
       "id": "d63e1802d1041423d41a",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2708,7 +2708,7 @@
       "address": "台北市中山區八德路二段260號中影八德大樓",
       "verificationMethod": "daily-crawl",
       "id": "e736ef9104362f421395",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2822,7 +2822,7 @@
       "address": "北市中山區復興北路480號",
       "verificationMethod": "daily-crawl",
       "id": "83c8ebcb4e09128ce6c3",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -2936,7 +2936,7 @@
       "address": "台中市西屯區西安街277巷2號",
       "verificationMethod": "daily-crawl",
       "id": "4c8c8d54a7a3c8ab61e9",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3069,7 +3069,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "fffd39d6bfb8e071d6b6",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3165,7 +3165,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "52ca097d540e73a137c7",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3213,7 +3213,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "dd215d70f82db1b31827",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3261,7 +3261,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "7af6544edcc894966e1e",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3309,7 +3309,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "2cd4108a1ee80db57a01",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3357,7 +3357,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "ab64aa6c6b39911aa78e",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3405,7 +3405,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "4d721bc93436a5a78c5f",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3453,7 +3453,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "0ad7f5aeaa2b7575df79",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3501,7 +3501,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "09542c0f90ff356c384e",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3549,7 +3549,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "b6d9e42cbcc443cd1049",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3597,7 +3597,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "7b834b7b65f3ed1bc666",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3741,7 +3741,7 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "80977479f62d57f3c973",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
@@ -3789,12 +3789,828 @@
       "revisions": [],
       "source": "comedyclub",
       "id": "64bf7ffc776b2962a67c",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "comedyclub",
           "sourceUid": "https://comedyclub.kktix.cc/events/sstrong731211",
           "id": "64bf7ffc776b2962a67c"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/guanwen0220",
+      "title": "【小心！匪諜就在你穴裡面】",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "address": "北市中山區復興北路480號",
+      "sessions": [
+        {
+          "date": "2027-02-20",
+          "time": "14:30"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/guanwen0220",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2027-02-20",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為Comedy Plus 卡米地＋。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/guanwen0220",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "ea845922270c1b7bee95",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/guanwen0220",
+          "id": "ea845922270c1b7bee95"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/sstrong740124",
+      "title": "加演【01/24 午 新竹】壯壯毒舌脫口秀 7 :《不好意思，請問你什麼意思 ?》三度開嗆巡迴場",
+      "performers": null,
+      "region": "新竹市",
+      "venue": "新竹影像博物館 放映大廳",
+      "address": "新竹市東區中正路65號",
+      "sessions": [
+        {
+          "date": "2027-01-24",
+          "time": "14:30"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/sstrong740124",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2027-01-24",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "新竹市的單口喜劇，演出地點為新竹影像博物館 放映大廳。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/sstrong740124",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "1c38d5bb5b6fe4ad18a5",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/sstrong740124",
+          "id": "1c38d5bb5b6fe4ad18a5"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/get20261024",
+      "title": "【1/23台北場】2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "COMEDY PLUS 卡米地+",
+      "address": "台北市復興北路480號B1",
+      "sessions": [
+        {
+          "date": "2027-01-23",
+          "time": "20:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261024",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2027-01-23",
+              "time": "20:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為COMEDY PLUS 卡米地+。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261024",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "2fc67a544c759fe7eca0",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/get20261024",
+          "id": "2fc67a544c759fe7eca0"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/get20261023",
+      "title": "【01/22 台北場】2026 佳諭單口喜劇專場《Get 婚》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "COMEDY PLUS 卡米地+",
+      "address": "台北市復興北路480號B1",
+      "sessions": [
+        {
+          "date": "2027-01-22",
+          "time": "20:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/get20261023",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2027-01-22",
+              "time": "20:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為COMEDY PLUS 卡米地+。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/get20261023",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "d8b84e6e306d6c327d35",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/get20261023",
+          "id": "d8b84e6e306d6c327d35"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/sstrong731213",
+      "title": "加演【12/13 午 台南】壯壯毒舌脫口秀 7 :《不好意思，請問你什麼意思 ?》三度開嗆巡迴場",
+      "performers": null,
+      "region": "臺南市",
+      "venue": "台南文化創意產業園區 漂丿白鷺 LIVE HOUSE",
+      "address": "臺南市東區北門路二段16號",
+      "sessions": [
+        {
+          "date": "2026-12-13",
+          "time": "14:30"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/sstrong731213",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺南市的單口喜劇，演出地點為台南文化創意產業園區 漂丿白鷺 LIVE HOUSE。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/sstrong731213",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "fed4be01ae42955f0b03",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/sstrong731213",
+          "id": "fed4be01ae42955f0b03"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/chuunibyou1024",
+      "title": "【12/12】巴斯2026單口喜劇專場《中二病Narcissus》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "西門紅樓",
+      "address": "108臺北市萬華區西門里成都路10號",
+      "sessions": [
+        {
+          "date": "2026-12-12",
+          "time": "19:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/chuunibyou1024",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-12",
+              "time": "19:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為西門紅樓。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/chuunibyou1024",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "2e7142143a8b1dede408",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/chuunibyou1024",
+          "id": "2e7142143a8b1dede408"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/chuunibyou1023",
+      "title": "【12/11】巴斯2026單口喜劇專場《中二病Narcissus》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "西門紅樓",
+      "address": "108臺北市萬華區西門里成都路10號",
+      "sessions": [
+        {
+          "date": "2026-12-11",
+          "time": "19:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/chuunibyou1023",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-11",
+              "time": "19:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為西門紅樓。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/chuunibyou1023",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "9e4076ea2d9899d1af02",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/chuunibyou1023",
+          "id": "9e4076ea2d9899d1af02"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/jjselect1208",
+      "title": "【12/8】JJ良品 JJ Select",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "address": "北市中山區復興北路480號",
+      "sessions": [
+        {
+          "date": "2026-12-08",
+          "time": "20:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/jjselect1208",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-08",
+              "time": "20:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為Comedy Plus 卡米地＋。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/jjselect1208",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "7565623a81fb59406b9b",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/jjselect1208",
+          "id": "7565623a81fb59406b9b"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/lucas20261208",
+      "title": "【台北加演】盧卡斯站立喜劇《好好做人 Be a Good Man》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "COMEDY PLUS 大廳",
+      "address": "台北市復興北路480號B1",
+      "sessions": [
+        {
+          "date": "2026-12-08",
+          "time": "20:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/lucas20261208",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-08",
+              "time": "20:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為COMEDY PLUS 大廳。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/lucas20261208",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "c6138f3be40785da98dd",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/lucas20261208",
+          "id": "c6138f3be40785da98dd"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/jjselect",
+      "title": "JJ良品 JJ Select",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "Comedy Plus 卡米地＋",
+      "address": "北市中山區復興北路480號",
+      "sessions": [
+        {
+          "date": "2026-12-08",
+          "time": "19:50"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/jjselect",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-08",
+              "time": "19:50"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為Comedy Plus 卡米地＋。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/jjselect",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "3b65a34ab58b8dd8c0dc",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/jjselect",
+          "id": "3b65a34ab58b8dd8c0dc"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/competition20261206",
+      "title": "2026 台北喜劇節【12/6 決賽】：卡米地站立喜劇爭霸賽",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "中影八德演講廳",
+      "address": "台北市中山區八德路二段260號3樓",
+      "sessions": [
+        {
+          "date": "2026-12-06",
+          "time": "19:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/competition20261206",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-06",
+              "time": "19:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為中影八德演講廳。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/competition20261206",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "b0d038a82036b5cea235",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/competition20261206",
+          "id": "b0d038a82036b5cea235"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/sstrong7312051",
+      "title": "2026 台北喜劇節 | 加演【12/05午台北】壯壯毒舌脫口秀 7 :《不好意思，請問你什麼意思 ?》三度開嗆巡迴場",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "台北中影八德大樓演講廳",
+      "address": "台北市中山區八德路二段260號3樓",
+      "sessions": [
+        {
+          "date": "2026-12-05",
+          "time": "14:30"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/sstrong7312051",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-05",
+              "time": "14:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為台北中影八德大樓演講廳。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/sstrong7312051",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "6ee2e7cce93cba741014",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/sstrong7312051",
+          "id": "6ee2e7cce93cba741014"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/comedyboat04",
+      "title": "2026 台北喜劇節： 【第四場】《特別企劃：最浪喜劇遊艇》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "關渡棧橋碼頭",
+      "address": "112臺北市北投區關渡里Zhixing Rd360-1號",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "22:30"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/comedyboat04",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "22:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為關渡棧橋碼頭。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/comedyboat04",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "876ea06e666a6b410e8f",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/comedyboat04",
+          "id": "876ea06e666a6b410e8f"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/comedyboat03",
+      "title": "2026 台北喜劇節： 【第三場】《特別企劃：最浪喜劇遊艇》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "關渡棧橋碼頭",
+      "address": "112臺北市北投區關渡里Zhixing Rd360-1號",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "21:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/comedyboat03",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "21:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為關渡棧橋碼頭。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/comedyboat03",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "006e66fc192fd4e7124e",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/comedyboat03",
+          "id": "006e66fc192fd4e7124e"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/comedyboat02",
+      "title": "2026 台北喜劇節：【第二場】 《特別企劃：最浪喜劇遊艇》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "關渡棧橋碼頭",
+      "address": "112臺北市北投區關渡里Zhixing Rd360-1號",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "19:30"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/comedyboat02",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "19:30"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為關渡棧橋碼頭。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/comedyboat02",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "1d34f6cb24f5822f87aa",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/comedyboat02",
+          "id": "1d34f6cb24f5822f87aa"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/comedyboat01",
+      "title": "2026 台北喜劇節 ：【第一場】《特別企劃：最浪喜劇遊艇》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "關渡棧橋碼頭",
+      "address": "112臺北市北投區關渡里Zhixing Rd360-1號",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "18:00"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/comedyboat01",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "18:00"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為關渡棧橋碼頭。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/comedyboat01",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "5634b9318fcef4de1dba",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/comedyboat01",
+          "id": "5634b9318fcef4de1dba"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://comedyclub.kktix.cc/events/comedyboat",
+      "title": "2026 台北喜劇節： 《特別企劃：最浪喜劇遊艇》",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "關渡棧橋碼頭",
+      "address": "112臺北市北投區關渡里Zhixing Rd360-1號",
+      "sessions": [
+        {
+          "date": "2026-12-04",
+          "time": "17:50"
+        }
+      ],
+      "price": null,
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [
+        {
+          "platform": "KKTIX",
+          "url": "https://comedyclub.kktix.cc/events/comedyboat",
+          "checkedAt": "2026-11-17",
+          "sessions": [
+            {
+              "date": "2026-12-04",
+              "time": "17:50"
+            }
+          ]
+        }
+      ],
+      "status": "scheduled",
+      "summary": "臺北市的單口喜劇，演出地點為關渡棧橋碼頭。",
+      "sourceUrl": "https://comedyclub.kktix.cc/events/comedyboat",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "comedyclub",
+      "id": "571083d644b4b1d4553c",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "comedyclub",
+          "sourceUid": "https://comedyclub.kktix.cc/events/comedyboat",
+          "id": "571083d644b4b1d4553c"
         }
       ]
     },
@@ -4481,8 +5297,8 @@
     {
       "name": "文化部・綜藝（僅明確單口／脫口秀）",
       "url": "https://data.gov.tw/dataset/6009",
-      "checkedAt": "2026-10-20T13:32:14+08:00",
-      "lastSuccess": "2026-10-20T13:32:14+08:00",
+      "checkedAt": "2026-11-17T06:45:26+08:00",
+      "lastSuccess": "2026-11-17T06:45:26+08:00",
       "id": "moc",
       "status": "ok",
       "message": "授權 JSON 解析完成；納入 0 個活動／場館，待分類 1 筆；不是全平台完整涵蓋。",
@@ -4604,29 +5420,30 @@
       "id": "comedyclub",
       "name": "卡米地官方主辦目錄",
       "url": "https://comedyclub.kktix.cc/",
-      "checkedAt": "2026-10-20T13:30:43+08:00",
+      "checkedAt": "2026-11-17T06:42:08+08:00",
       "mode": "daily-crawl",
       "discovered": 100,
-      "included": 31,
-      "excluded": 23,
-      "pending": 46,
+      "included": 39,
+      "excluded": 20,
+      "pending": 41,
       "failed": 0,
       "reasons": {
-        "MULTIFIELD_STANDUP_EVIDENCE": 31,
-        "INSUFFICIENT_STANDUP_EVIDENCE": 46,
-        "MULTI_DAY_PARENT_LISTING": 14,
-        "OTHER_PERFORMANCE_FORMAT": 9
+        "OTHER_PERFORMANCE_FORMAT": 7,
+        "MULTIFIELD_STANDUP_EVIDENCE": 39,
+        "MULTI_DAY_PARENT_LISTING": 12,
+        "INSUFFICIENT_STANDUP_EVIDENCE": 41,
+        "COURSE_OR_MUSICAL": 1
       },
       "coverageComplete": false,
       "scope": "卡米地 KKTIX 主辦公開 events.json（最新100筆）；僅收明確單口／脫口秀，其餘待分類",
       "pagesVisited": 1,
       "expectedPages": null,
-      "reviewedAt": "2026-10-20",
+      "reviewedAt": "2026-11-17",
       "status": "ok",
-      "lastSuccess": "2026-10-20T13:30:43+08:00",
-      "lastSuccessfulIncluded": 31,
-      "message": "每日公開資料自動更新完成；納入 31 筆，待分類 46 筆；不代表完整目錄。",
-      "retainedEventCount": 53,
+      "lastSuccess": "2026-11-17T06:42:08+08:00",
+      "lastSuccessfulIncluded": 39,
+      "message": "每日公開資料自動更新完成；納入 39 筆，待分類 41 筆；不代表完整目錄。",
+      "retainedEventCount": 70,
       "verifiedScopes": [
         {
           "kind": "comedy",
@@ -4691,17 +5508,16 @@
       "id": "satire",
       "name": "薩泰爾官方主辦目錄",
       "url": "https://strnetwork.kktix.cc/",
-      "checkedAt": "2026-10-20T13:30:43+08:00",
+      "checkedAt": "2026-11-17T06:42:08+08:00",
       "mode": "daily-crawl",
-      "discovered": 71,
-      "included": 1,
-      "excluded": 67,
-      "pending": 3,
+      "discovered": 74,
+      "included": 0,
+      "excluded": 68,
+      "pending": 6,
       "failed": 0,
       "reasons": {
-        "MULTIFIELD_STANDUP_EVIDENCE": 1,
-        "INSUFFICIENT_STANDUP_EVIDENCE": 3,
-        "PAST_EVENT": 60,
+        "INSUFFICIENT_STANDUP_EVIDENCE": 6,
+        "PAST_EVENT": 61,
         "MULTI_DAY_PARENT_LISTING": 7
       },
       "coverageComplete": false,
@@ -4709,11 +5525,11 @@
       "pagesVisited": 1,
       "expectedPages": null,
       "status": "ok",
-      "lastSuccess": "2026-10-20T13:30:43+08:00",
-      "lastSuccessfulIncluded": 1,
-      "message": "每日公開資料自動更新完成；納入 1 筆，待分類 3 筆；不代表完整目錄。",
+      "lastSuccess": "2026-11-17T06:42:08+08:00",
+      "lastSuccessfulIncluded": 0,
+      "message": "每日公開資料自動更新完成；納入 0 筆，待分類 6 筆；不代表完整目錄。",
       "retainedEventCount": 1,
-      "reviewedAt": "2026-10-20",
+      "reviewedAt": "2026-11-17",
       "verifiedScopes": [],
       "catalogTotal": null,
       "unreviewedCatalogItems": null,
@@ -4809,32 +5625,32 @@
       "id": "opentix",
       "name": "OPENTIX",
       "url": "https://www.opentix.life/",
-      "checkedAt": "2026-10-20T13:30:43+08:00",
+      "checkedAt": "2026-11-17T06:42:08+08:00",
       "mode": "daily-crawl",
-      "discovered": 957,
+      "discovered": 601,
       "included": 0,
-      "excluded": 128,
-      "pending": 829,
+      "excluded": 103,
+      "pending": 498,
       "failed": 0,
       "reasons": {
-        "INSUFFICIENT_STANDUP_EVIDENCE": 829,
-        "COURSE_OR_MUSICAL": 100,
-        "OTHER_PERFORMANCE_FORMAT": 22,
-        "NO_STRUCTURED_EVENT": 5,
+        "INSUFFICIENT_STANDUP_EVIDENCE": 498,
+        "COURSE_OR_MUSICAL": 81,
+        "OTHER_PERFORMANCE_FORMAT": 17,
+        "NO_STRUCTURED_EVENT": 4,
         "FAN_MEETING_OR_UPGRADE": 1
       },
       "coverageComplete": false,
       "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；只讀新上架活動，已讀過的不重抓，已結束活動不收錄；每日最多100頁",
-      "pagesVisited": 50,
+      "pagesVisited": 101,
       "expectedPages": null,
-      "pendingPages": 0,
+      "pendingPages": 135,
       "status": "ok",
-      "lastSuccess": "2026-10-20T13:30:43+08:00",
+      "lastSuccess": "2026-11-17T06:42:08+08:00",
       "lastSuccessfulIncluded": 0,
-      "message": "每日公開資料自動更新完成；納入 0 筆，待分類 829 筆；不代表完整目錄。",
+      "message": "每日公開資料自動更新完成；納入 0 筆，待分類 498 筆；不代表完整目錄。",
       "retainedEventCount": 0,
-      "listedPages": 1066,
-      "reviewedAt": "2026-10-20",
+      "listedPages": 798,
+      "reviewedAt": "2026-11-17",
       "verifiedScopes": [],
       "catalogTotal": null,
       "unreviewedCatalogItems": null,

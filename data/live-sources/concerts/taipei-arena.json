@@ -480,7 +480,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "490a1fdc7c6861a151f5",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -600,7 +600,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "7498491a239c4fbe2a68",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -640,7 +640,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "29127a5f83ff718586f3",
-      "verifiedAt": "2026-10-19",
+      "verifiedAt": "2026-11-17",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -688,34 +688,74 @@
           "id": "b1435c112a489f759be1"
         }
       ]
+    },
+    {
+      "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=90445C2F49E9AE35",
+      "title": "草蜢 THREE IN LOVE 演唱會2027-台北站",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北小巨蛋",
+      "address": "臺北市松山區南京東路四段2號",
+      "sessions": [
+        {
+          "date": "2027-01-16",
+          "time": "19:00"
+        },
+        {
+          "date": "2027-01-17",
+          "time": "18:00"
+        }
+      ],
+      "price": "4,880 / 4,280 / 3,880 / 3,280 / 2,880 / 1,880 / 800",
+      "saleAt": null,
+      "saleNote": "售票系統：KKTIX；開賣時間請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北小巨蛋。",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=90445C2F49E9AE35",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "taipei-arena",
+      "id": "2fabf8806ab62af0a1e5",
+      "verifiedAt": "2026-11-17",
+      "sourceRefs": [
+        {
+          "source": "taipei-arena",
+          "sourceUid": "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=90445C2F49E9AE35",
+          "id": "2fabf8806ab62af0a1e5"
+        }
+      ]
     }
   ],
   "status": {
     "id": "taipei-arena",
     "name": "臺北小巨蛋官方活動資料",
     "url": "https://www.arena.taipei/",
-    "checkedAt": "2026-10-20T13:30:43+08:00",
+    "checkedAt": "2026-11-17T06:42:08+08:00",
     "mode": "daily-crawl",
-    "discovered": 9,
-    "included": 5,
+    "discovered": 7,
+    "included": 4,
     "excluded": 0,
-    "pending": 3,
+    "pending": 2,
     "failed": 1,
     "reasons": {
-      "INSUFFICIENT_CONCERT_EVIDENCE": 3,
-      "CONCERT_EVIDENCE": 5,
+      "INSUFFICIENT_CONCERT_EVIDENCE": 2,
+      "CONCERT_EVIDENCE": 4,
       "INVALID_FEED_RECORD": 1
     },
     "coverageComplete": false,
     "scope": "臺北小巨蛋「已公開(售票/派票)活動」政府開放資料 JSON",
     "pagesVisited": 1,
     "expectedPages": null,
-    "reviewedAt": "2026-10-20",
+    "reviewedAt": "2026-11-17",
     "status": "ok",
-    "lastSuccess": "2026-10-20T13:30:43+08:00",
-    "lastSuccessfulIncluded": 5,
-    "message": "每日公開資料自動更新完成；納入 5 筆，待分類 3 筆；不代表完整目錄。",
-    "retainedEventCount": 11
+    "lastSuccess": "2026-11-17T06:42:08+08:00",
+    "lastSuccessfulIncluded": 4,
+    "message": "每日公開資料自動更新完成；納入 4 筆，待分類 2 筆；不代表完整目錄。",
+    "retainedEventCount": 12
   },
   "records": [
     {
