@@ -1,0 +1,490 @@
+{
+  "songshan": {
+    "known": {
+      "https://www.songshanculturalpark.org/exhibition/activity/840b0803-826e-407f-bd62-8447b51cf9c2": {
+        "id": "songshan-pharaoh-2026",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/07e87658-6bea-4715-b633-5e44cd2d9e30": {
+        "id": "songshan-9176cee50ef3e628",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/c738025c-425f-4fdb-b7f0-79fcf49c7dc1": {
+        "id": "songshan-f6225afba573cda9",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/98ffd4b1-9b28-4398-a964-dadde97d2b8a": {
+        "id": "songshan-1d547b7c142771d9",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/83bbabe0-bce7-4e07-9af2-7ec468df03d8": {
+        "id": "songshan-5198155b456a7455",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/91589122-0101-4317-aa46-83fd9766ee1c": {
+        "id": "songshan-9159e6c7043eeff1",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/5612490a-b8cc-4041-9a63-091be13ec857": {
+        "id": "songshan-d60a6a8670f7f1ee",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/c6a5baf4-98fe-46b0-afac-9b7d9b3474be": {
+        "id": "songshan-c10c0f10c219f3b2",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/0a51550c-418c-462f-8f38-c795418625b5": {
+        "id": "songshan-0ec529d89f4a313c",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/d44f6cfd-c232-41db-9124-adcc49302f2a": {
+        "id": "songshan-31c336ff2fc9f996",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/ef7b55b4-2233-4615-91d4-52b85290628a": {
+        "id": "songshan-bcb3dbb69f290d24",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/b2735b74-e7db-41e2-911b-004e857f8d29": {
+        "id": "songshan-6669b6ba2b5d36ad",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/37478e08-b215-4744-a1b9-3050f2120bb2": {
+        "id": "songshan-1cdd2893f2e65127",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/2c75fc7f-b819-4769-be64-dec0aa64430a": {
+        "id": "songshan-679d21b379613c17",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/2120d8b6-25e5-4ab8-ae17-f25c6c2332eb": {
+        "id": "songshan-ed30271d9c82c9da",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/c888883a-14a7-43d9-bd9d-a59dae34f436": {
+        "id": "songshan-ecbdc2a3938d053b",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/f26bbda4-136c-4e5e-88de-eed8dede5d19": {
+        "id": "songshan-7f46843ce1fe594c",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/f2570c15-42d0-4204-9918-9164ddf5891e": {
+        "id": "songshan-a2914081cc6adbe8",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/edeb0a7c-5f69-402d-ab13-18d4520c5e22": {
+        "id": "songshan-beb0197d3da2d08a",
+        "readAt": "2026-11-17T07:17:52+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/8edf6d1e-37fb-41ed-bb12-6b86f30fd6d0": {
+        "id": "songshan-0d1927821827c107",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/ad5c73ca-d05a-450a-b4ce-fcd617e8b353": {
+        "id": "songshan-busan-2026",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/ca3efca9-30a4-44e7-b701-c57a33bce080": {
+        "id": "songshan-5cbd028918bbb99d",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/276c0a6c-1a8a-4884-a4f4-31e4dabb0982": {
+        "id": "songshan-d2ffc7489bd3c80f",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/16e1c9b4-21c0-4c7d-814f-06e0569a8ae2": {
+        "id": "songshan-8e403ed2ab8c8ee6",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/429e79b0-fed3-46f6-850e-47fa04b2ea86": {
+        "id": "songshan-1a4c521821e54abd",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/63d440f3-94ee-4a38-aeba-89116f3593dd": {
+        "id": "songshan-612b32894c273b1d",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/15943a3a-5f00-4d6c-a5e5-69a277d1ea5c": {
+        "id": "songshan-31df24bc34c434c5",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/710ea3b2-83b7-407e-86d6-e6681199e06d": {
+        "id": "songshan-a72876daad14bf3f",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/d644fa48-df46-452e-bfd6-2678ddeb4a7c": {
+        "id": "songshan-c58a264219095553",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/55e46649-c37f-450f-85d3-1d672cdf3bc3": {
+        "id": "songshan-ce2dbec19997d6c1",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/5d6312e3-21dc-4c93-966a-626d15d66106": {
+        "id": "songshan-0bcbec251528a424",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/c6fa613b-5ea6-4f2b-9c81-898d7f57fc53": {
+        "id": "songshan-8443fb94fb6214b9",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/d49f852e-c06d-45ab-bf62-6a9b5916df9e": {
+        "id": "songshan-07d0e66f6cddfa61",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/3b2101fd-cbb3-48ec-b23c-496880df5626": {
+        "id": "songshan-54b3a14bb928c7ff",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/3b665f13-c3d7-4ff4-8df4-7b1777785709": {
+        "id": "songshan-979cfbebf0b7fa00",
+        "readAt": "2026-10-20T13:29:27+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/8ed8fb24-e6a8-402e-b008-c8ee60574764": {
+        "id": "songshan-d1ef7fbc4e7a2891",
+        "readAt": "2026-10-18T13:15:19+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/37bd9bc5-f8b1-4454-b546-1c543df90ae8": {
+        "id": "songshan-15e371490b54de81",
+        "readAt": "2026-10-18T13:15:19+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/32e34a3e-8a5c-44ed-b915-d602e5b972f5": {
+        "id": "songshan-9d765ddf013d5f48",
+        "readAt": "2026-10-16T13:14:41+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/5fd2284e-9388-4773-8c4f-6a2e83fe809d": {
+        "id": "songshan-128112f1fcf19b1b",
+        "readAt": "2026-10-14T13:36:00+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/4a7f533a-7537-4dd0-af44-d074a73d47c2": {
+        "id": "songshan-540fcfec15f5daa3",
+        "readAt": "2026-10-11T14:36:10+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/8e248f11-734d-4987-bbbe-7bfceab13e3e": {
+        "id": "songshan-68bdfdd54b150e16",
+        "readAt": "2026-10-11T14:36:10+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/49261597-9309-4d32-9a48-27e68fa3b35d": {
+        "id": "songshan-0d2c8a087f007bba",
+        "readAt": "2026-10-11T14:36:10+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/ddf676a8-1a74-4737-b739-34d2ce4b7bf1": {
+        "id": "songshan-ab58a4fd52803527",
+        "readAt": "2026-10-11T14:36:10+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/bb5a8c36-a5b8-454b-8ed4-ae06730db0d3": {
+        "id": "songshan-f995fd488bfc99cf",
+        "readAt": "2026-10-11T14:36:10+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/612f10c3-3123-4ca6-9556-016217eb0ce2": {
+        "id": "songshan-f8809f6bd22e2d57",
+        "readAt": "2026-10-11T14:36:10+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/c382f9e0-48b1-49d7-8877-330e23e1e88c": {
+        "id": "songshan-b1d451128473afb4",
+        "readAt": "2026-10-11T14:36:10+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/13dcd8e7-5707-48f3-939f-7883537c7906": {
+        "id": "songshan-383cef60835be06b",
+        "readAt": "2026-10-11T14:36:10+08:00"
+      }
+    },
+    "dailyBudget": {
+      "date": "2026-11-17",
+      "attempted": [],
+      "reserved": 100
+    },
+    "pending": {},
+    "completed": {},
+    "listReadAt": "2026-11-17",
+    "listedPages": 19,
+    "ordering": "new discoveries and backlog; official publication order unverified"
+  },
+  "huashan": {
+    "known": {
+      "https://www.huashan1914.com/exhibition/2026%20ITSPORT%20%E9%AB%94%E6%84%9F%E7%A7%91%E6%8A%80%E6%8C%91%E6%88%B0%E8%B3%BD": {
+        "id": "huashan-75ff3ed2f92b3a7e",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E8%90%AC%E6%B5%B7%E6%85%88%E5%96%84%20%E8%AE%93%E6%84%9B%E9%96%83%E8%80%80%E7%A4%BE%E7%A6%8F%E5%B8%82%E9%9B%86": {
+        "id": "huashan-19ca25538c1cd70d",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E8%A1%8C%E8%87%B3%E6%88%90%E6%99%AF-%E5%BF%83%E4%B8%96%E7%B4%80%E8%91%A1%E8%90%84%E9%85%9220%E5%91%A8%E5%B9%B4%E7%89%B9%E5%B1%95": {
+        "id": "huashan-51eda08409c750eb",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E8%A1%8C%E6%9C%89%E6%89%80%E6%84%9B%EF%BD%9C%E5%A6%82%E5%AD%A9%E5%AD%90%E8%88%AC%E8%87%AA%E7%94%B1%E3%80%8A%E5%AD%A9%E5%AD%90%E7%9A%84%E6%9B%B8%E5%B1%8B%E3%80%8B27%E9%80%B1%E5%B9%B4%E5%B9%B4%E6%9C%83%E9%9F%B3%E6%A8%82%E6%9C%83": {
+        "id": "huashan-773cdfaf03eb2ef4",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E5%8E%9F%E4%BE%86%EF%BC%8C%E9%80%99%E5%B0%B1%E6%98%AF%E9%99%AA%E4%BC%B4": {
+        "id": "huashan-5e180ab569e037eb",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/2026%E6%97%A5%E6%9C%AC%E7%A7%8B%E7%94%B0%E7%B8%A3%E8%A7%80%E5%85%89%E7%89%A9%E7%94%A2%E5%B1%95": {
+        "id": "huashan-af6a4592c73eb4b6",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E6%B0%B4%E6%B0%B4%E6%AF%9B%E8%B5%B7%E4%BE%86": {
+        "id": "huashan-9b49cfcf22fd4707",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E6%B5%81%E6%B5%AA%E8%93%8B%E5%A9%AD%E8%99%9F%20%20%20WANDERING%20GAIA": {
+        "id": "huashan-db836e0a868ff1db",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%20%E6%98%9F%E7%90%83%E6%A8%82%E5%9C%92%20PLANET%20PARK": {
+        "id": "huashan-a07d5842df16f8bf",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/event-%E5%8F%B0%E7%81%A3%E6%BB%BF%E6%9E%9D%E6%9E%92%E8%8A%AC%E8%8A%B3%E7%BE%8E%E9%BA%97": {
+        "id": "huashan-38399728e7dbdfe8",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/event-%E5%A4%A7%E6%98%A5%E7%85%89%E7%9A%82%E8%8F%AF%E5%B1%B1%E9%99%90%E5%AE%9A%E7%89%B9%E5%B1%95": {
+        "id": "huashan-1073dc830070c4ed",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/event-%E6%9D%8E%E4%BA%AD%E9%A6%99": {
+        "id": "huashan-a270dd094104e4b8",
+        "readAt": "2026-11-17T07:18:19+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E6%9C%97%E8%AE%80%E6%B2%99%E9%BE%8D-%E6%82%A8%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%8F%B0%E7%81%A3%E8%BE%B2%E6%A5%AD%E2%80%94%E5%85%BC%E8%AB%96%E5%8F%B0%E7%81%A3%E8%BE%B2%E6%A5%AD%E6%B0%B8%E7%BA%8C%E4%B9%8B%E8%B7%AF": {
+        "id": "huashan-36c62bd71953b822",
+        "readAt": "2026-10-20T13:30:03+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E6%9C%97%E8%AE%80%E6%B2%99%E9%BE%8D-%E5%BE%9E%E7%99%BE%E5%B2%B3%E5%88%B0%E9%83%A8%E8%90%BD%E7%9A%84%E5%9C%9F": {
+        "id": "huashan-fa38fb68f0e20e1e",
+        "readAt": "2026-10-20T13:30:03+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E8%81%B2%E9%9F%B3%E5%8A%87%E5%A0%B4-%E5%9C%9F%E5%9C%B0%E4%B9%8B%E6%AD%8C%E2%80%94%E2%80%94%E6%9C%89%E8%81%B2%E6%9C%89%E8%89%B2%E7%9A%84%E9%8C%84%E9%9F%B3%E5%8F%B2": {
+        "id": "huashan-130432284153ae12",
+        "readAt": "2026-10-20T13:30:03+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E3%80%90%E6%9C%97%E8%AE%80%E6%B2%99%E9%BE%8D%E3%80%91%E6%92%96%E6%8D%B1%E7%AD%89%E4%BB%8B%E5%9C%9F%E5%9C%B0%E7%B3%B4%E7%B1%B3--%E8%B7%9F%E6%88%91%E5%80%91%E7%9A%84%E5%9C%9F%E5%9C%B0%E8%B2%B7%E7%B1%B3": {
+        "id": "huashan-966df984d2914bcc",
+        "readAt": "2026-10-20T13:30:03+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E8%9C%9C%E5%A2%83%E6%8E%A2%E9%9A%AA%E3%80%80%E8%B1%90%E6%94%B6%E5%AF%B6%E8%97%8F%20MEGA%E5%93%A9%E5%81%9A%E5%A4%A5%E3%80%80%E5%AE%89%E5%BF%83%E6%8A%95%E8%B3%87%E7%94%9F%E6%B4%BB": {
+        "id": "huashan-fa0392bc022e8777",
+        "readAt": "2026-10-20T13:30:03+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/HUMANITY%EF%BD%9C%E6%95%99%E8%82%B2%E9%83%A8%E8%97%9D%E8%A1%93%E8%88%87%E8%A8%AD%E8%A8%88%E8%8F%81%E8%8B%B1%E6%B5%B7%E5%A4%96%E5%9F%B9%E8%A8%93%E8%A8%88%E7%95%AB%20%E8%BF%94%E5%9C%8B%E5%AD%B8%E5%93%A1%E5%B9%B4%E5%BA%A6%E6%88%90%E6%9E%9C%E5%B1%95": {
+        "id": "huashan-ba441920a0cc68b6",
+        "readAt": "2026-10-20T13:30:03+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/2026%20%E5%85%A8%E5%AE%B6%20x%20RE-THINK%20%E3%80%8C%E9%80%99%E9%82%84%E5%A5%BD%E5%90%A7%EF%BC%81%EF%BC%9F%E3%80%8D%E7%94%9F%E6%B4%BB%E7%92%B0%E5%A2%83%E8%A7%80%E5%AF%9F%E5%B1%95": {
+        "id": "huashan-87ccffb983ef188c",
+        "readAt": "2026-10-20T13:30:03+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/event-SIFinTaipei%E9%A6%96%E7%88%BE%E6%8F%92%E7%95%AB%E5%B1%95%E5%8F%B0%E5%8C%97%E7%AB%99": {
+        "id": "huashan-86224307d2d356a4",
+        "readAt": "2026-10-20T13:30:03+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E6%9C%97%E8%AE%80%E5%B7%B4%E5%A3%AB-%E5%A5%BD%E5%9C%9F%E5%B7%B4%E5%A3%AB%E5%B0%8F%E6%95%A3%E6%AD%A5": {
+        "id": "huashan-9a78534927f1d721",
+        "readAt": "2026-10-20T13:30:03+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/event-ZENLETPopupStore": {
+        "id": "huashan-23f3264dec74350c",
+        "readAt": "2026-10-20T13:30:03+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E6%9E%97%E8%B2%9E%E7%B2%BF%E8%A1%8C": {
+        "id": "huashan-449e57ad30d4fbe4",
+        "readAt": "2026-10-20T13:30:03+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E3%80%8A%E5%8F%B0%E7%81%A3%E5%85%89%E8%8F%AF%E9%9B%9C%E8%AA%8C%E3%80%8B50%20%E9%80%B1%E5%B9%B4%E6%94%9D%E5%BD%B1%E5%B1%95%E2%94%80%E2%94%80%E7%85%A7%E8%A6%8B%E5%8F%B0%E7%81%A3": {
+        "id": "huashan-panorama-2026",
+        "readAt": "2026-10-19T13:27:53+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/ACE": {
+        "id": "huashan-bf5dc2cb6fe16092",
+        "readAt": "2026-10-18T13:16:13+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E5%8C%97%E6%B5%B7%E9%81%93%E6%9D%B1%E5%B7%9D%E7%94%BA%20Furniture%20Fair%202026%20in%20Taiwan": {
+        "id": "huashan-d7557b148bef4619",
+        "readAt": "2026-10-18T13:16:13+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/2026%E4%BC%8A%E7%94%B8%E5%9F%BA%E9%87%91%E6%9C%83%E7%AC%AC13%E5%B1%86%E7%84%A1%E9%9A%9C%E7%A4%99%E7%94%9F%E6%B4%BB%E7%AF%80": {
+        "id": "huashan-d26ee92d799111b7",
+        "readAt": "2026-10-18T13:16:13+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E6%84%9B%E6%89%8B%E5%89%B5%E5%9C%8B%E9%9A%9B%E6%89%8B%E4%BD%9C%E8%A8%AD%E8%A8%88%E7%AF%80%20%E9%9D%88%E6%84%9F%E5%8D%88%E8%8C%B6%E6%9C%83%20": {
+        "id": "huashan-66f8d7badbd67da6",
+        "readAt": "2026-10-18T13:16:13+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E7%89%A1%E8%A0%A3%E5%AF%B6%E5%AF%B6%E4%B8%BB%E9%A1%8C%E9%A4%8A%E6%AE%96%E4%B8%AD%E5%BF%83%E5%BF%AB%E9%96%83%E5%BA%97": {
+        "id": "huashan-73ee8dbdbc192851",
+        "readAt": "2026-10-18T13:16:13+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E9%A6%AC%E9%88%B4%E8%96%AF%E5%98%89%E5%B9%B4%E8%8F%AF%EF%BD%9C%E5%B7%A1%E8%BF%B4%E9%A4%90%E8%BB%8A%E6%B4%BB%E5%8B%95": {
+        "id": "huashan-0562b2c69d2e7c0e",
+        "readAt": "2026-10-17T13:10:55+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/115%E5%B9%B4%E5%BA%A6%E8%87%BA%E7%81%A3%E9%8A%80%E8%A1%8C%E6%B0%B8%E7%BA%8C%E5%85%AC%E7%9B%8A%E5%9C%92%E9%81%8A%E6%9C%83%E3%80%8C%E6%B0%B8%E7%BA%8C%E6%9C%89%E4%BD%A0%20%E7%9B%8A%E8%B5%B7GO%E7%B5%A6%E5%8A%9B%E3%80%8D": {
+        "id": "huashan-3983dcf4d62ab4ee",
+        "readAt": "2026-10-17T13:10:55+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/The%20Ordinary%20%E5%BF%AB%E9%96%83%E5%BA%97": {
+        "id": "huashan-fe2fc392e3a2930f",
+        "readAt": "2026-10-14T13:36:43+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/event-MUFFINCORNER%E5%BF%AB%E9%96%83%E5%BA%97": {
+        "id": "huashan-3376189cf083ea06",
+        "readAt": "2026-10-12T14:42:37+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/event-PUPPETSUNSUNPOPUPSHOPFruitsParty": {
+        "id": "huashan-3d5d3262f99298f1",
+        "readAt": "2026-10-12T14:42:37+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/event-JNP%E7%B4%80%E5%BF%B5%E5%93%81byplainme%E5%BF%AB%E9%96%83%E5%BA%97": {
+        "id": "huashan-e9d1a4bce9122f89",
+        "readAt": "2026-10-12T14:42:37+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E8%8F%AF%E5%B1%B1CEBU%E5%AE%BF%E9%9C%A7%E8%88%AA%E7%A9%BA%E5%BF%AB%E9%96%83%E6%B4%BB%E5%8B%95": {
+        "id": "huashan-929ce07e16036c87",
+        "readAt": "2026-10-11T14:37:05+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/2026%20%E5%8F%B0%E5%8C%97%E5%9C%8B%E9%9A%9B%E7%8E%A9%E5%85%B7%E5%89%B5%E4%BD%9C%E5%A4%A7%E5%B1%95%20Taipei%20Toy%20Festival": {
+        "id": "huashan-toy-2026",
+        "readAt": "2026-10-11T14:37:05+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E6%96%B9%E8%88%9F%E7%8E%A9%E5%85%B7%E5%A4%A7%E4%BA%A4%E6%B5%81%E6%9C%83DX": {
+        "id": "huashan-2b132ac7a08cbf0f",
+        "readAt": "2026-10-11T14:37:05+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/event-%E5%85%89%E5%90%88%E7%B3%BBX%E6%9C%AA%E4%BE%86%E5%B8%82": {
+        "id": "huashan-ab8d39619d72b7aa",
+        "readAt": "2026-10-08T14:47:25+08:00"
+      }
+    },
+    "dailyBudget": {
+      "date": "2026-11-17",
+      "attempted": [],
+      "reserved": 100
+    },
+    "pending": {},
+    "completed": {},
+    "listReadAt": "2026-11-17",
+    "listedPages": 9,
+    "ordering": "new discoveries and backlog; official publication order unverified"
+  },
+  "pier2": {
+    "known": {
+      "https://pier2.org/exhibition/info/2005/": {
+        "id": "pier2-e4ff66dbe0f63726",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/1922/": {
+        "id": "1372d87487c998a9a404",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/2004/": {
+        "id": "pier2-e8ab8ed817fa9f60",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/1926/": {
+        "id": "pier2-1926",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/3/": {
+        "id": "c70f5f6d61a62ca00dfd",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/2008/": {
+        "id": "pier2-c590d8c981e6488e",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/905/": {
+        "id": "pier2-905",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/2025/": {
+        "id": "pier2-b0846dc7b283e12e",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/2039/": {
+        "id": "pier2-7f2f4632e7490577",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/2019/": {
+        "id": "pier2-67de9cd9bc212801",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/2014/": {
+        "id": "pier2-904242001d74ecee",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/2028/": {
+        "id": "pier2-d15177d8576289e9",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/1961/": {
+        "id": "pier2-1961",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/2038/": {
+        "id": "pier2-8b7e208aeb6587ba",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/2034/": {
+        "id": "pier2-2136aba9f632d420",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/2033/": {
+        "id": "pier2-179f73b329a326f0",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/2032/": {
+        "id": "pier2-3756b04f84ae3dc2",
+        "readAt": "2026-11-17T07:18:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/1967/": {
+        "id": "pier2-1967",
+        "readAt": "2026-10-20T13:30:38+08:00"
+      },
+      "https://pier2.org/exhibition/info/1980/": {
+        "id": "pier2-1980",
+        "readAt": "2026-10-20T13:30:38+08:00"
+      },
+      "https://pier2.org/exhibition/info/1983/": {
+        "id": "pier2-1983",
+        "readAt": "2026-10-20T13:30:38+08:00"
+      },
+      "https://pier2.org/exhibition/info/1982/": {
+        "id": "pier2-1982",
+        "readAt": "2026-10-20T13:30:38+08:00"
+      },
+      "https://pier2.org/exhibition/info/1978/": {
+        "id": "pier2-1978",
+        "readAt": "2026-10-20T13:30:38+08:00"
+      },
+      "https://pier2.org/exhibition/info/1992/": {
+        "id": "pier2-1992",
+        "readAt": "2026-10-16T13:15:45+08:00"
+      },
+      "https://pier2.org/exhibition/info/1994/": {
+        "id": "pier2-1994",
+        "readAt": "2026-10-11T14:37:25+08:00"
+      }
+    },
+    "dailyBudget": {
+      "date": "2026-11-17",
+      "attempted": [],
+      "reserved": 100
+    },
+    "pending": {
+      "https://pier2.org/exhibition/info/2000/": {
+        "title": "剛質潮汐—2026駁二浪宕計畫國際論壇 Solid Tides—2026 Pier-2 Waving Waves Community International Art Forum",
+        "venue": "",
+        "badge": "free"
+      }
+    },
+    "completed": {},
+    "listReadAt": "2026-11-17",
+    "listedPages": 18,
+    "ordering": "new discoveries and backlog; official publication order unverified"
+  }
+}

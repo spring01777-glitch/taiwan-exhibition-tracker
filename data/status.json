@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-17T07:18:45+08:00",
+  "generatedAt": "2026-11-17T07:49:12+08:00",
   "sources": {
     "moc": {
       "state": "ok",
-      "lastAttempt": "2026-11-17T07:18:45+08:00",
-      "lastSuccess": "2026-11-17T07:18:45+08:00",
+      "lastAttempt": "2026-11-17T07:49:12+08:00",
+      "lastSuccess": "2026-11-17T07:49:12+08:00",
       "count": 261,
       "rejected": 0,
       "attemptCounts": {
@@ -19,41 +19,63 @@
     },
     "songshan": {
       "state": "ok",
-      "lastAttempt": "2026-11-17T07:17:26+08:00",
-      "lastSuccess": "2026-11-17T07:17:52+08:00",
+      "lastAttempt": "2026-11-17T07:48:58+08:00",
+      "lastSuccess": "2026-11-17T07:48:58+08:00",
       "count": 47,
-      "checkedCount": 19,
-      "attemptedCount": 19,
-      "lastSuccessfulCheckedCount": 19,
+      "checkedCount": 0,
+      "attemptedCount": 0,
+      "lastSuccessfulCheckedCount": 0,
       "skipped": [],
-      "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整"
+      "mode": "new-only",
+      "dailyLimit": 100,
+      "budgetDate": "2026-11-17",
+      "dailyBudgetUsed": 100,
+      "dailyReserved": 100,
+      "pendingPages": 0,
+      "listReadAt": "2026-11-17",
+      "listedPages": 19,
+      "coverageComplete": false,
+      "message": "僅新增活動增量收錄；本輪新讀0筆，待讀0筆；只涵蓋公開可見清單，不翻受限分頁，不保證全站最新100筆；已讀活動不重查"
     },
     "huashan": {
       "state": "ok",
-      "lastAttempt": "2026-11-17T07:17:52+08:00",
-      "lastSuccess": "2026-11-17T07:18:19+08:00",
+      "lastAttempt": "2026-11-17T07:48:58+08:00",
+      "lastSuccess": "2026-11-17T07:48:58+08:00",
       "count": 39,
-      "checkedCount": 12,
-      "attemptedCount": 12,
-      "lastSuccessfulCheckedCount": 12,
+      "checkedCount": 0,
+      "attemptedCount": 0,
+      "lastSuccessfulCheckedCount": 0,
       "skipped": [],
-      "message": "每日官網基本事實更新成功；公開首頁及已收錄的無查詢參數詳情；分頁受 robots 限制，未保證完整；8筆狀態仍待確認"
+      "mode": "new-only",
+      "dailyLimit": 100,
+      "budgetDate": "2026-11-17",
+      "dailyBudgetUsed": 100,
+      "dailyReserved": 100,
+      "pendingPages": 0,
+      "listReadAt": "2026-11-17",
+      "listedPages": 9,
+      "coverageComplete": false,
+      "message": "僅新增活動增量收錄；本輪新讀0筆，待讀0筆；只涵蓋公開可見清單，不翻受限分頁，不保證全站最新100筆；已讀活動不重查"
     },
     "pier2": {
       "state": "ok",
-      "lastAttempt": "2026-11-17T07:18:19+08:00",
-      "lastSuccess": "2026-11-17T07:18:45+08:00",
+      "lastAttempt": "2026-11-17T07:48:58+08:00",
+      "lastSuccess": "2026-11-17T07:48:58+08:00",
       "count": 24,
-      "checkedCount": 17,
-      "attemptedCount": 18,
-      "lastSuccessfulCheckedCount": 17,
-      "skipped": [
-        {
-          "url": "https://pier2.org/exhibition/info/2000/",
-          "reason": "missing title or venue"
-        }
-      ],
-      "message": "每日官網基本事實更新成功；公開展演清單及已收錄活動；不保證全場館活動完整；1筆官網資訊不完整，暫不更新"
+      "checkedCount": 0,
+      "attemptedCount": 0,
+      "lastSuccessfulCheckedCount": 0,
+      "skipped": [],
+      "mode": "new-only",
+      "dailyLimit": 100,
+      "budgetDate": "2026-11-17",
+      "dailyBudgetUsed": 100,
+      "dailyReserved": 100,
+      "pendingPages": 1,
+      "listReadAt": "2026-11-17",
+      "listedPages": 18,
+      "coverageComplete": false,
+      "message": "僅新增活動增量收錄；本輪新讀0筆，待讀1筆；只涵蓋公開可見清單，不翻受限分頁，不保證全站最新100筆；已讀活動不重查"
     }
   }
 }
