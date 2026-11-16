@@ -37,6 +37,7 @@ jobs:
           python -m unittest discover -s tests -v
           python -m py_compile scripts/update.py
           node --check app.js
+          node tests/exhibition-dates-regression.cjs
           node --check concerts.js
           node scripts/live_filter_regression.js
           node --check f1.js
@@ -89,7 +90,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/exhibitions.json data/status.json data/source-links.json data/source-link-candidates.json data/curated.json data/venue-source-status.json data/concerts.json data/comedy.json data/f1.json data/live-sources/
+          git add data/exhibitions.json data/status.json data/source-links.json data/source-link-candidates.json data/curated.json data/venue-source-status.json data/venue-crawl-state.json data/concerts.json data/comedy.json data/f1.json data/live-sources/
           if ! git diff --cached --quiet; then
             git commit -m 'Update official event data and source status'
             git push origin HEAD:main

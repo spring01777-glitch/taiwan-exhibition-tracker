@@ -285,69 +285,52 @@ class OpentixScheduleTests(unittest.TestCase):
         self.assertEqual(state['dailyBudgetUsed'], 0)
         self.assertEqual(self.reads(), [])
 
-    def test_refresh_rotation_reserves_ten_within_daily_hundred(self):
-        entry = self.setup_feed(range(1, 251))
-        state = {}
-        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
-        old = set(state['pages'])
-        FakeFetcher.calls = []
-        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-24', state)
-        self.assertEqual(len(self.reads()), 100)
-        self.assertEqual(len(set(self.reads()) & old), 10)
-        self.assertEqual(state['dailyRefreshAttempts'], 10)
-        self.assertEqual(len(state['pages']), 190)
-        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-24', state)
-        self.assertEqual(len(self.reads()), 100)
-        yesterday = set(self.reads()) & old
-        FakeFetcher.calls = []
-        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-25', state)
-        self.assertEqual(len(set(self.reads()) & old), 10)
-        self.assertFalse(yesterday & set(self.reads()))
-
-    def test_refresh_failure_keeps_facts_and_spends_one_attempt(self):
-        entry = self.setup_feed([1])
-        state = {}
-        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
-        previous = json.loads(json.dumps(state['pages']))
-        FakeFetcher.routes[self.url(1)] = '<html>temporarily unavailable</html>'
-        with self.assertRaises(ValueError):
-            crawl.refresh_opentix(entry, FakeFetcher, '2026-10-24', state)
-        self.assertEqual(state['pages'][self.url(1)]['facts'], previous[self.url(1)]['facts'])
-        self.assertEqual(state['pages'][self.url(1)]['readAt'], TODAY)
-        self.assertEqual(state['dailyBudgetUsed'], 1)
-        self.assertEqual(state['dailyRefreshAttempts'], 1)
-        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-24', state)
-        self.assertEqual(self.reads().count(self.url(1)), 2)  # once each day
-
-    def test_broken_refresh_does_not_starve_other_known_pages(self):
+    def test_known_pages_never_refetched_after_many_days_or_changed_details(self):
         entry = self.setup_feed([1, 2])
         state = {}
         crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
-        entry['crawler']['maxPagesPerDay'] = 1
-        FakeFetcher.routes[self.url(1)] = HTTPError('u', 502, 'bad gateway', None, None)
-        with self.assertRaises(HTTPError):
-            crawl.refresh_opentix(entry, FakeFetcher, '2026-10-24', state)
+        previous = json.loads(json.dumps(state['pages']))
         FakeFetcher.calls = []
-        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-25', state)
-        self.assertEqual(self.reads(), [self.url(2)])
+        FakeFetcher.routes[self.url(1)] = HTTPError('u', 502, 'would fail if refetched', None, None)
+        FakeFetcher.routes[self.url(2)] = FakeFetcher.routes[self.url(2)].replace('2027-12-01', '2028-12-01')
+        entry['crawler']['refreshDays'] = 1  # even stale configuration cannot enable rotation
+        for day in ('2026-10-24', '2027-01-01', '2028-01-01'):
+            crawl.refresh_opentix(entry, FakeFetcher, day, state)
+        self.assertEqual(self.reads(), [])
+        self.assertEqual(state['pages'], previous)
+        self.assertEqual(state['dailyBudgetUsed'], 0)
 
-    def test_refresh_reschedule_and_explicit_cancellation_reach_snapshot(self):
+    def test_old_rotation_queue_is_dropped_without_resetting_same_day_budget(self):
+        entry = self.setup_feed([1, 2, 3])
+        state = {}
+        entry['crawler']['maxPagesPerDay'] = 1
+        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        state['recheckUrls'] = [self.url(1)]
+        state['pendingUrls'].insert(0, self.url(1))  # malformed legacy duplicate
+        state['dailyBudget']['refreshAttempted'] = [self.url(1)]
+        FakeFetcher.calls = []
+        state = json.loads(json.dumps(state))
+        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        self.assertEqual(self.reads(), [])
+        self.assertNotIn('recheckUrls', state)
+        self.assertNotIn(self.url(1), state['pendingUrls'])
+        self.assertEqual(state['dailyBudgetUsed'], 1)
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-24', state)
+        self.assertEqual(self.reads(), [self.url(2)])
+        self.assertEqual(state['dailyRefreshAttempts'], 0)
+
+    def test_initial_explicit_cancellation_is_still_recorded(self):
         entry = self.setup_feed([1])
+        FakeFetcher.routes[self.url(1)] = FakeFetcher.routes[self.url(1)].replace(
+            '"@type": "Event"', '"@type": "Event", "eventStatus": "https://schema.org/EventCancelled"')
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             sources.write(root / 'data/live-source-registry.json', {'schemaVersion': 1, 'sources': [entry]})
             self.assertTrue(crawl.run(root, fetch=FakeFetcher, now=NOW))
             path = sources.snapshot_path(root, 'concerts', 'opentix')
-            FakeFetcher.routes[self.url(1)] = FakeFetcher.routes[self.url(1)].replace('2027-12-01', '2027-12-02')
-            self.assertTrue(crawl.run(root, fetch=FakeFetcher, now='2026-10-24T09:00:00+08:00'))
-            event = sources.read(path, {})['events'][0]
-            self.assertEqual(event['sessions'][0]['date'], '2027-12-02')
-            FakeFetcher.routes[self.url(1)] = FakeFetcher.routes[self.url(1)].replace(
-                '"@type": "Event"', '"@type": "Event", "eventStatus": "https://schema.org/EventCancelled"')
-            self.assertTrue(crawl.run(root, fetch=FakeFetcher, now='2026-11-07T09:00:00+08:00'))
             event = sources.read(path, {})['events'][0]
             self.assertEqual(event['status'], 'cancelled')
-            self.assertEqual(event['sessions'][0]['date'], '2027-12-02')
+            self.assertEqual(event['sessions'][0]['date'], '2027-12-01')
 
     def test_legacy_budget_is_conservative_and_cache_is_not_refetched(self):
         entry = self.setup_feed([1, 2])

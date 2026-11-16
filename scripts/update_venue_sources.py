@@ -21,7 +21,7 @@ SOURCES={
     'huashan':{'base':'https://www.huashan1914.com','list':'/exhibition','privacy':'/privacy','name':'華山1914','region':'臺北市','address':'臺北市中正區八德路一段1號','prefix':'/exhibition/'},
     'pier2':{'base':'https://pier2.org','list':'/exhibition/','privacy':'/privacy/','name':'駁二藝術特區','region':'高雄市','address':'高雄市鹽埕區大勇路1號','prefix':'/exhibition/info/'},
 }
-MAX_DETAILS=24
+MAX_DETAILS=100
 MAX_SKIP_RATIO=.2
 ITEM_REASONS={'two explicit dates required','reversed dates','missing title or venue'}
 
@@ -104,7 +104,7 @@ def parse_detail(source,body,url,hint,prior):
         title=text(soup.select_one('h1.news-title__title'))
         years=[text(n) for n in soup.select('.exhi-sidebar__date-years span') if re.fullmatch(r'\d{4}',text(n))]
         md=[text(n) for n in soup.select('.exhi-sidebar__date-md')]
-        dates=[f'{years[0]}.{md[0]}',f'{years[-1]}.{md[-1]}'] if years and len(md)==2 else []
+        dates=([f'{years[0]}.{md[0]}',f'{years[-1]}.{md[-1]}'] if len(md)==2 else [f'{years[0]}.{md[0]}'] if len(md)==1 else []) if years else []
         section=next((n for n in soup.select('.exhi-sidebar__section') if text(n.select_one('h2, h3')).startswith('地點')),None)
         venue=re.sub(r'^地點\s*[:：]\s*','',text(section))
     else:
@@ -112,10 +112,16 @@ def parse_detail(source,body,url,hint,prior):
         dates=[]
         for selector in ['.datearea .starttime','.datearea .endtime']:
             n=soup.select_one(selector)
-            if n:dates.append(text(n.select_one('.y'))+'.'+text(n.select_one('.d')))
+            if n and text(n.select_one('.y')) and text(n.select_one('.d')):
+                dates.append(text(n.select_one('.y'))+'.'+text(n.select_one('.d')))
         venue=hint.get('venue') or prior.get('venue','').removeprefix(c['name']+' · ')
     if not title or not venue:raise ValueError('missing title or venue')
-    start,end=bounds(dates)
+    if not dates:
+        start,end=None,None
+    elif len(dates)==1 and (source!='songshan' or re.search(r'起|常設|長期|未定|持續|迄今',text(soup.select_one('.under p.date')))):
+        start,end=date(dates[0].replace('.','-')),None
+    else:
+        start,end=bounds(dates)
     # Price is a basic fact, not a snippet of the provider's prose. A missing
     # structured amount is not interpreted as free. Pier-2 list badges are clear.
     price='免費（仍請確認官方參加條件）' if hint.get('badge')=='free' else '付費，詳細票價請查官方' if hint.get('badge')=='paid' else '官網未提供結構化票價，請查官方'
@@ -123,10 +129,13 @@ def parse_detail(source,body,url,hint,prior):
         price=prior['price'] if prior['price'].startswith('票價未逐日確認；') else '票價未逐日確認；前次人工核對：'+prior['price']
     category=prior.get('category') or '展演'
     full_venue=c['name']+' · '+venue.removeprefix(c['name']+' · ')
-    summary=f'於{venue}舉辦的{category}活動，日期為{start}至{end}。開放時段與入場條件請查官方。'
+    period=f'{start}至{end}' if start and end else f'{start}起，結束日期未明' if start else '日期待官方確認'
+    summary=f'於{venue}舉辦的{category}活動，日期為{period}。開放時段與入場條件請查官方。'
     result={k:v for k,v in prior.items() if k in ('id','sourceUid','verificationNote')}
     address='高雄市鼓山區蓬萊路99號' if source=='pier2' and '蓬萊' in venue else c['address']
-    result.update(id=prior.get('id') or source+'-'+hashlib.sha256(url.encode()).hexdigest()[:16],title=title,start=start,end=end,region=c['region'],venue=full_venue,address=address,park=source,price=price[:180],category=category,summary=summary[:180],url=url,source=source,sourceVersion='official-public-daily')
+    result.update(id=prior.get('id') or source+'-'+hashlib.sha256(url.encode()).hexdigest()[:16],title=title,start=start,end=end,region=c['region'],venue=full_venue,address=address,park=source,price=price[:180],category=category,summary=summary[:180],url=url,source=source,sourceVersion='official-public-incremental')
+    if end is None:
+        result['verificationNote']=(result.get('verificationNote','')+'；結束日期未明，保留展示，請查官方。').lstrip('；')[:180]
     return result
 
 class RenderedReader:
@@ -151,7 +160,7 @@ class RenderedReader:
         # Analytics/social requests need not become idle for those facts to be
         # complete. Wait for actual fields instead of unrelated network traffic.
         if '/exhibition/info/' in urlsplit(url).path:
-            self.page.wait_for_function("() => ['h1','.datearea .starttime .y','.datearea .starttime .d','.datearea .endtime .y','.datearea .endtime .d'].every(s=>document.querySelector(s)?.textContent.trim())",timeout=18000)
+            self.page.wait_for_function("() => !!document.querySelector('h1')?.textContent.trim()",timeout=18000)
         else:
             self.page.wait_for_function("() => [...document.querySelectorAll('#event_list a[href*=\"/exhibition/info/\"] .thename')].some(n=>n.textContent.trim())",timeout=18000)
         return self.page.content()
@@ -163,76 +172,123 @@ def keep_source(previous,incoming,now):
     if active>=8 and len(incoming)<active*.5:raise ValueError('more than 50% source loss; preserve last success')
     return merge(previous,incoming,now)
 
-def run(browser=None,source_names=None):
-    path=ROOT/'data/curated.json';seeds=json.loads(path.read_text(encoding='utf-8'))
-    status_path=ROOT/'data/venue-source-status.json'
+def incremental_merge(previous,incoming,now):
+    """An incremental batch says nothing about omissions; preserve old facts verbatim."""
+    fresh=list(incoming)
+    ids={e['id'] for e in fresh}
+    return [e for e in previous if e['id'] not in ids]+fresh
+
+
+def run(browser=None,source_names=None,root=None,now=None,reader_factory=None,render_factory=None):
+    root=root or ROOT;reader_factory=reader_factory or PublicReader;render_factory=render_factory or RenderedReader
+    path=root/'data/curated.json';seeds=json.loads(path.read_text(encoding='utf-8'))
+    status_path=root/'data/venue-source-status.json'
     status=json.loads(status_path.read_text(encoding='utf-8')) if status_path.exists() else {}
-    policies=json.loads((ROOT/'data/venue-policy.json').read_text(encoding='utf-8'))
-    now=datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds');failures=0
+    state_path=root/'data/venue-crawl-state.json'
+    states=json.loads(state_path.read_text(encoding='utf-8')) if state_path.exists() else {}
+    policies=json.loads((root/'data/venue-policy.json').read_text(encoding='utf-8'))
+    now=now or datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds')
+    today=now[:10];failures=0
     for source,c in SOURCES.items():
         if source_names and source not in source_names:continue
-        now=datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds')
-        previous=[e for e in seeds if e['source']==source];rendered=None;reader=None;stage='prepare';attempted=0;checked=0;skipped=[]
+        previous=[e for e in seeds if e['source']==source]
+        state=states.setdefault(source,{})
+        # Successful existing snapshots are the migration baseline. Unknown-date
+        # entries are retained too; never infer expiry from a missing end date.
+        known=state.setdefault('known',{})
+        for e in previous:
+            if not e.get('url'):continue
+            url=canonical_public_url(e['url'])
+            known.setdefault(url,{'id':e['id'],'readAt':e.get('lastSeen',now)})
+        budget=state.get('dailyBudget')
+        if not budget or budget.get('date')!=today:
+            reserved=MAX_DETAILS if budget is None and previous else 0
+            budget=state['dailyBudget']={'date':today,'attempted':[],'reserved':reserved}
+        state.setdefault('pending',{})
+        state.setdefault('completed',{})
+        rendered=None;reader=None;stage='prepare';checked=0;skipped=[];attempted=0
+        def checkpoint():atomic(state_path,states)
+        def progress():
+            return dict(mode='new-only',dailyLimit=MAX_DETAILS,budgetDate=today,
+                        dailyBudgetUsed=budget.get('reserved',0)+len(budget['attempted']),
+                        dailyReserved=budget.get('reserved',0),pendingPages=len(state['pending']),
+                        listReadAt=state.get('listReadAt'),listedPages=state.get('listedPages'),
+                        coverageComplete=False)
+        checkpoint()
         try:
-            reader=PublicReader(c);reader.prepare(policies[source])
-            if source=='pier2':
-                stage='browser-start'
-                executable=browser or installed_browser()
-                if not executable:raise RuntimeError('existing browser unavailable')
-                rendered=RenderedReader(executable,reader);get=rendered.get
-            else:get=reader.get
-            stage='list-fetch';body=get(c['base']+c['list'])
-            stage='list-parse';found=discover(source,body)
-            by_url={canonical_public_url(e['url']):e for e in previous}
-            # Prefer the exact href actually observed on the official list.
-            # Some official slugs include a trailing encoded space; do not trim
-            # it or turn the same activity into an unverified guessed URL.
-            for url,hint in found.items():
-                matching=[e for e in previous if clean(e['title'])==hint['title']]
-                if url not in by_url and len(matching)==1:by_url[url]=matching[0]
-            targets=dict(found)
-            found_ids={by_url[url]['id'] for url in found if url in by_url}
-            for e in previous:
-                url=canonical_public_url(e['url'])
-                if e['id'] not in found_ids and e['end']>=now[:10] and safe_path(c,url):targets.setdefault(url,{'title':e['title'],'venue':e['venue'],'badge':''})
-            stage='detail-cap'
-            if len(targets)>MAX_DETAILS:raise ValueError('public list exceeds daily detail cap; review required')
-            incoming=[]
-            for url,hint in targets.items():
+            reader=reader_factory(c);reader.prepare(policies[source])
+            def get(url):
+                nonlocal rendered
+                if source!='pier2':return reader.get(url)
+                if rendered is None:
+                    executable=browser or installed_browser()
+                    if not executable:raise RuntimeError('existing browser unavailable')
+                    rendered=render_factory(executable,reader)
+                return rendered.get(url)
+            if state.get('listReadAt')!=today:
+                stage='list-fetch';body=get(c['base']+c['list'])
+                stage='list-parse';found=discover(source,body)
+                # Canonical URLs are the identity, not title or list position.
+                # A new URL with a repeated title may be a genuinely new edition.
+                old={u:h for u,h in state['pending'].items() if u in found and u not in known}
+                new={u:h for u,h in found.items() if u not in known and u not in old}
+                # First observed official-list order is not a proven newest sort.
+                # Alternate new discoveries and backlog so neither starves.
+                pending={}
+                n,o=list(new.items()),list(old.items())
+                for i in range(max(len(n),len(o))):
+                    if i<len(n):pending[n[i][0]]=n[i][1]
+                    if i<len(o):pending[o[i][0]]=o[i][1]
+                state.update(pending=pending,listReadAt=today,listedPages=len(found),
+                             ordering='new discoveries and backlog; official publication order unverified')
+                checkpoint()
+            remaining=max(0,MAX_DETAILS-progress()['dailyBudgetUsed'])
+            targets=[(u,h) for u,h in state['pending'].items() if u not in budget['attempted']][:remaining]
+            for url,hint in targets:
+                stage='detail-fetch';budget['attempted'].append(url);attempted+=1
+                # Reserve before I/O and rotate failures behind the backlog.
+                state['pending'].pop(url);state['pending'][url]=hint;checkpoint()
                 print(json.dumps({'source':source,'readingUrl':url},ensure_ascii=True),flush=True)
-                stage='detail-fetch';attempted+=1;body=get(url)
-                stage='detail-parse'
-                try:event=parse_detail(source,body,url,hint,by_url.get(url,{}))
+                body=get(url);stage='detail-parse'
+                try:event=parse_detail(source,body,url,hint,{})
                 except ValueError as item_error:
-                    # One incomplete official page (e.g. no venue published) must
-                    # not discard every other verified fact. Keep its prior record
-                    # unchanged; a new incomplete activity is simply not added.
                     skipped.append({'url':url,'reason':str(item_error) if str(item_error) in ITEM_REASONS else 'VALIDATION_ERROR'})
                     if len(skipped)>max(1,len(targets)*MAX_SKIP_RATIO):raise ValueError('too many incomplete detail pages')
-                    if url in by_url:incoming.append(by_url[url])
-                    print(json.dumps({'source':source,'skippedUrl':url},ensure_ascii=True),flush=True)
                     continue
-                checked+=1
-                if event['end']>=now[:10] or url in by_url:incoming.append(event)
-                print(json.dumps({'source':source,'checkedId':event['id']},ensure_ascii=True),flush=True)
-            succeeded_at=datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds')
-            stage='loss-guard';updated=keep_source(previous,incoming,succeeded_at)
+                event.update(firstSeen=now,lastSeen=now,missingFromSource=False,revisions=[])
+                state['completed'][url]=event
+                known[url]={'id':event['id'],'readAt':now}
+                state['pending'].pop(url);checked+=1;checkpoint()
+            # Completed pages survive a prior failed run, without rereading them.
+            incoming=list(state['completed'].values())
+            updated=incremental_merge(previous,incoming,now)
             seeds=[e for e in seeds if e['source']!=source]+updated
-            uncertain=sum(bool(e.get('verificationNote')) for e in updated)
-            scope='公開首頁及已收錄的無查詢參數詳情；分頁受 robots 限制，未保證完整' if source=='huashan' else '公開展演清單及已收錄活動；不保證全場館活動完整'
-            status[source]={'state':'ok','lastAttempt':now,'lastSuccess':succeeded_at,'count':len(updated),'checkedCount':checked,'attemptedCount':attempted,'lastSuccessfulCheckedCount':checked,'skipped':skipped,'message':f'每日官網基本事實更新成功；{scope}'+(f'；{uncertain}筆狀態仍待確認' if uncertain else '')+(f'；{len(skipped)}筆官網資訊不完整，暫不更新' if skipped else '')}
+            # Persist facts before dropping the completed-page recovery buffer.
+            atomic(path,seeds)
+            state['completed']={}
+            checkpoint()
+            scope='只涵蓋公開可見清單，不翻受限分頁，不保證全站最新100筆'
+            status[source]={'state':'ok','lastAttempt':now,'lastSuccess':now,'count':len(updated),
+                            'checkedCount':checked,'attemptedCount':attempted,'lastSuccessfulCheckedCount':checked,
+                            'skipped':skipped,**progress(),
+                            'message':f'僅新增活動增量收錄；本輪新讀{checked}筆，待讀{len(state["pending"])}筆；{scope}；已讀活動不重查'}
         except Exception as e:
             failures+=1
-            safe_reasons={'privacy policy not found','non-public or query URL rejected','robots disallows URL','robots disallows public list','official policy changed; manual review required','empty public list or changed structure','two explicit dates required','reversed dates','missing title or venue','empty facts; preserve last success','more than 50% source loss; preserve last success','existing browser unavailable','public list exceeds daily detail cap; review required','public page unavailable','unexpected redirect host','response too large','too many incomplete detail pages'}
-            reason=str(e) if str(e) in safe_reasons else f'HTTP {e.code}' if isinstance(e,HTTPError) else type(e).__name__
-            prior_status=status.get(source,{})
-            stage=reader.stage if stage=='prepare' and reader else stage
-            code=safe_error_code(e)
-            status[source]={**prior_status,'state':'error','lastAttempt':now,'lastSuccess':prior_status.get('lastSuccess',max((x.get('lastSeen','') for x in previous),default='')),'count':len(previous),'checkedCount':checked,'attemptedCount':attempted,'lastSuccessfulCheckedCount':prior_status.get('lastSuccessfulCheckedCount',prior_status.get('checkedCount')),'failureStage':stage,'reasonCode':code,'message':f'每日官網更新未完成；本次成功核對{checked}筆，保留最後成功{len(previous)}筆；請查官方','reason':reason}
+            prior=status.get(source,{})
+            stage=getattr(reader,'stage',stage) if stage=='prepare' else stage
+            reason=str(e) if isinstance(e,(ValueError,PermissionError,RuntimeError)) else f'HTTP {e.code}' if isinstance(e,HTTPError) else type(e).__name__
+            status[source]={**prior,**progress(),'state':'error','lastAttempt':now,
+                            'lastSuccess':prior.get('lastSuccess'),'count':len(previous),
+                            'checkedCount':checked,'attemptedCount':attempted,
+                            'lastSuccessfulCheckedCount':prior.get('lastSuccessfulCheckedCount',prior.get('checkedCount')),
+                            'failureStage':stage,
+                            'reasonCode':safe_error_code(e),'reason':reason,
+                            'message':'增量更新未完成；保留最後成功資料與已讀進度，未完成項目之後續抓。'}
+            checkpoint()
         finally:
             if rendered:rendered.close()
         print(json.dumps({'source':source,**status[source]},ensure_ascii=True),flush=True)
-    atomic(path,seeds);atomic(status_path,status)
+    atomic(path,seeds);atomic(status_path,status);checkpoint()
     return 1 if failures else 0
 
 if __name__=='__main__':

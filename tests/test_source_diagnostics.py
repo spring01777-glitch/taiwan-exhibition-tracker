@@ -112,7 +112,9 @@ class SourceDiagnosticsTests(unittest.TestCase):
                        'title':'One','venue':'Hall','lastSeen':'2026-10-01','end':'2099-12-31'}]
             for name,data in [('curated.json',previous),('venue-source-status.json',{'songshan':{'lastSuccess':'2026-10-01','checkedCount':8}}),('venue-policy.json',{'songshan':{}})]:
                 (tmp/'data'/name).write_text(json.dumps(data),encoding='utf-8')
-            found={previous[0]['url']:{'title':'One'},v.SOURCES['songshan']['base']+'/exhibition/activity/2':{'title':'Two'}}
+            found={v.SOURCES['songshan']['base']+'/exhibition/activity/2':{'title':'Two'},
+                   v.SOURCES['songshan']['base']+'/exhibition/activity/3':{'title':'Three'}}
+            (tmp/'data/venue-crawl-state.json').write_text(json.dumps({'songshan':{'dailyBudget':{'date':'2020-01-01','attempted':[],'reserved':0}}}),encoding='utf-8')
             with patch.object(v,'ROOT',tmp),patch.object(v.PublicReader,'prepare'), \
                  patch.object(v.PublicReader,'get',side_effect=['list','detail',URLError(TimeoutError())]), \
                  patch.object(v,'discover',return_value=found),patch.object(v,'parse_detail',return_value={**previous[0],'title':'Changed'}), \

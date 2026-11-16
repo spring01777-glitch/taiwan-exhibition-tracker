@@ -435,6 +435,10 @@ def refresh_opentix(entry, fetch, today, state, checkpoint=None):
     c = entry['crawler']
     limit = min(100, max(0, int(c.get('maxPagesPerDay', 100))))
     cache = state.setdefault('pages', {})
+    # Older versions scheduled known pages for rotation. New-only means that
+    # neither a stale rotation queue nor a reordered sitemap may refetch them.
+    state.pop('recheckUrls', None)
+    state['pendingUrls'] = [u for u in state.get('pendingUrls', []) if u not in cache]
     budget = state.get('dailyBudget')
     if not budget or budget.get('date') != today:
         # Legacy state cannot tell how many failed or repeated reads happened
@@ -478,20 +482,12 @@ def refresh_opentix(entry, fetch, today, state, checkpoint=None):
                 queued.append(new[i])
             if i < len(pending):
                 queued.append(pending[i])
-        due = (datetime.fromisoformat(today) - timedelta(days=c.get('refreshDays', 14))).date().isoformat()
-        rechecks = sorted((u for u in listed & cache.keys()
-                           if cache[u].get('readAt', '') <= due
-                           and cache[u].get('facts')
-                           and upcoming(cache[u]['facts'].get('sessions', []), today)),
-                          key=lambda u: (cache[u].get('lastAttemptAt', cache[u].get('readAt', '')), u))
-        state.update(pendingUrls=queued, recheckUrls=rechecks, listed=len(listed), sitemapReadAt=today,
+        state.update(pendingUrls=queued, listed=len(listed), sitemapReadAt=today,
                      discoveryOrder='new discoveries interleaved with FIFO backlog; no publication order')
         save()
     remaining = max(0, limit - state['dailyBudgetUsed'])
-    refresh_left = max(0, 10 - len(budget.get('refreshAttempted', [])))
-    rechecks = [u for u in state.get('recheckUrls', []) if u not in attempted][:min(refresh_left, remaining)]
-    first_reads = [u for u in state.get('pendingUrls', []) if u not in attempted][:remaining - len(rechecks)]
-    for url in first_reads + rechecks:
+    first_reads = [u for u in state.get('pendingUrls', []) if u not in attempted][:remaining]
+    for url in first_reads:
         if state['dailyBudgetUsed'] >= limit:
             break
         if url in attempted:
@@ -499,13 +495,8 @@ def refresh_opentix(entry, fetch, today, state, checkpoint=None):
         budget['attempted'].append(url)
         attempted.add(url)
         # Move failures to the back so one broken URL cannot block the queue.
-        is_refresh = url in rechecks
-        if is_refresh:
-            budget.setdefault('refreshAttempted', []).append(url)
-            cache[url]['lastAttemptAt'] = today
-        else:
-            state['pendingUrls'].remove(url)
-            state['pendingUrls'].append(url)
+        state['pendingUrls'].remove(url)
+        state['pendingUrls'].append(url)
         save()
         pages += 1
         try:
@@ -513,11 +504,9 @@ def refresh_opentix(entry, fetch, today, state, checkpoint=None):
             try:
                 facts = parse_opentix(body, url, today)
             except (KeyError, TypeError, ValueError, AttributeError):
-                if is_refresh:
-                    raise  # do not replace known facts with a broken response
                 facts = None  # packages/closed pages without structured events
             cache[url] = dict(readAt=today, facts=facts)
-            state['recheckUrls' if is_refresh else 'pendingUrls'].remove(url)
+            state['pendingUrls'].remove(url)
             save()
         except Exception:
             save()

@@ -130,7 +130,7 @@
       "adapter": "reviewed-json",
       "mode": "daily-crawl",
       "permission": "public-feed-robots-checked",
-      "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；新增URL與未完成佇列優先；每日最多100次活動頁嘗試，含最多10筆至少14天未查的未結束活動輪巡；不代表即時完整目錄",
+      "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；新增URL與未完成佇列優先；每日最多100次新活動頁嘗試，已讀URL不重抓；後續改期或取消不主動更新，不代表即時完整目錄",
       "crawler": {
         "adapter": "opentix-sitemap",
         "kinds": [
@@ -140,8 +140,7 @@
         "base": "https://www.opentix.life",
         "sitemap": "/otWebSitemap.xml",
         "maxPagesPerDay": 100,
-        "refreshDays": 14,
-        "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；新增URL與未完成佇列優先；每日最多100次活動頁嘗試，含最多10筆至少14天未查的未結束活動輪巡；不代表即時完整目錄"
+        "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；新增URL與未完成佇列優先；每日最多100次新活動頁嘗試，已讀URL不重抓；後續改期或取消不主動更新，不代表即時完整目錄"
       }
     },
     {
