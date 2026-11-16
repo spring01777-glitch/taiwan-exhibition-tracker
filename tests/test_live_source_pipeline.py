@@ -5,6 +5,7 @@ import json
 import sys
 import tempfile
 import unittest
+from unittest import mock
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import live_sources as sources
@@ -220,19 +221,22 @@ class PipelineTests(unittest.TestCase):
             root=Path(tmp)
             for name in ('live-source-registry.json','concerts-manual.json','comedy-manual.json','concerts.json','comedy.json','live-event-links.json','live-platform-coverage.json'):
                 sources.write(root/'data'/name,sources.read(repo/'data'/name,{}))
-            crawled={e['id'] for e in sources.load_registry(root) if e.get('crawler')}
+            # MOC is a daily licensed API, not a crawler, but its production
+            # snapshot is just as mutable. This fixed-audit test starts with
+            # no MOC records; MOC retention has separate synthetic tests.
+            crawled={e['id'] for e in sources.load_registry(root) if e.get('crawler')} | {'moc'}
             for kind in ('concerts','comedy'):
                 built=sources.read(root/f'data/{kind}.json',{})
                 built['events']=[e for e in built['events'] if e.get('source') not in crawled]
                 sources.write(root/f'data/{kind}.json',built)
             for path in (repo/'data/live-sources').rglob('*.json'):
                 saved=sources.read(path,{})
-                # Daily-crawled snapshots change every day; rebuild those
-                # sources only from the frozen audit batches below.
-                if not isinstance(saved,dict) or saved.get('status',{}).get('mode')=='daily-crawl' or path.name=='crawl-state.json':continue
+                # Exclude every daily source, including MOC, from fixed audits.
+                # Rebuild reviewed providers from their frozen batches below.
+                if not isinstance(saved,dict) or saved.get('status',{}).get('mode') in ('daily-crawl','daily-licensed-api') or path.name=='moc.json' or path.name=='crawl-state.json':continue
                 sources.write(root/'data/live-sources'/path.relative_to(repo/'data/live-sources'),saved)
             for day in ('2026-10-07T09:00:00+08:00','2026-10-08T09:00:00+08:00'):
-                for kind,expected in (('concerts',(83,119)),('comedy',(60,85))):
+                for kind,expected in (('concerts',(71,106)),('comedy',(60,85))):
                     payload=sources.read(repo/f'data/live-audits/{kind}-primary-20261006.json',{})
                     self.assertTrue(all(sources.import_canonical(root,kind,payload,day,'primary-20261006').values()))
                     # A daily MOC response without usable new facts must not wash out providers.
@@ -250,5 +254,21 @@ class PipelineTests(unittest.TestCase):
             self.assertTrue(all(f['performers'] for f in selection['sessionFacts']))
             self.assertEqual(len(next(e for e in comedy if e['id']=='manual-lan-1008')['sessions']),6)
             self.assertEqual(len(next(e for e in comedy if e['id']=='manual-coldn')['sessions']),2)
+
+    def test_frozen_cloud_batches_ignore_new_daily_moc_records(self):
+        repo=Path(__file__).resolve().parents[1]
+        read=sources.read
+        injected=[]
+        def changed_daily_data(path, fallback):
+            value=read(path,fallback)
+            if path in (repo/'data/concerts.json',repo/'data/live-sources/concerts/moc.json'):
+                value=copy.deepcopy(value)
+                extra=sources.validate_event(event('new-daily-record',title='Synthetic new concert'),'moc',NOW)
+                value['events'].append(extra)
+                injected.append(path)
+            return value
+        with mock.patch.object(sources,'read',side_effect=changed_daily_data):
+            self.test_complete_cloud_batches_and_two_daily_rebuilds()
+        self.assertEqual(set(injected),{repo/'data/concerts.json',repo/'data/live-sources/concerts/moc.json'})
 
 if __name__=='__main__':unittest.main()
