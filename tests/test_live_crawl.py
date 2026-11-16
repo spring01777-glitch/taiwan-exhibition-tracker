@@ -177,29 +177,207 @@ class CrawlRunTests(unittest.TestCase):
         self.assertEqual(missing.get('https://c.example/any'),b'1')
 
 class OpentixScheduleTests(unittest.TestCase):
-    def test_only_new_or_due_future_events_are_read(self):
-        base='https://www.opentix.life'
-        urls={k:f'{base}/event/{i}' for i,k in enumerate(['new','past','recent','due','gone'],1)}
-        sitemap='<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{u}</loc><lastmod>2026-10-09</lastmod></url>' for k,u in urls.items() if k!='gone')+'</urlset>'
-        page=lambda d:'<script type="application/ld+json">'+json.dumps({'@type':'Event','name':'某演唱會','startDate':d+'T19:30:00','location':{'name':'台北','address':{'addressLocality':'臺北市'}}})+'</script>'
-        FakeFetcher.calls=[]
-        FakeFetcher.routes={base+'/robots.txt':'',base+'/otWebSitemap.xml':sitemap,urls['new']:page('2026-12-01'),urls['due']:page('2026-11-01')}
-        future={'sessions':[{'date':'2026-11-01','time':'19:30'}]}
-        state={'pages':{urls['past']:{'readAt':'2026-01-01','facts':{'sessions':[{'date':'2026-01-02','time':None}]}},
-                        urls['recent']:{'readAt':'2026-10-05','facts':future},
-                        urls['due']:{'readAt':'2026-09-01','facts':future},
-                        urls['gone']:{'readAt':'2026-10-01','facts':future}}}
-        entry={'crawler':{'base':base,'sitemap':'/otWebSitemap.xml','maxPagesPerRun':5,'refreshDays':14}}
-        crawl.refresh_opentix(entry,FakeFetcher,TODAY,state)
-        read=[u for u in FakeFetcher.calls if '/event/' in u]
-        self.assertEqual(read,[urls['new'],urls['due']])
-        # Default: only never-seen listings are read; known events are not re-read.
-        FakeFetcher.calls=[];entry['crawler'].pop('refreshDays')
-        state['pages'][urls['due']]['readAt']='2026-01-01'
-        crawl.refresh_opentix(entry,FakeFetcher,TODAY,state)
-        self.assertEqual([u for u in FakeFetcher.calls if '/event/' in u],[])
-        self.assertNotIn(urls['gone'],state['pages'])
-        self.assertEqual(state['pages'][urls['new']]['readAt'],TODAY)
+    base = 'https://www.opentix.life'
+
+    def setup_feed(self, ids):
+        FakeFetcher.calls = []
+        FakeFetcher.routes = {self.base + '/robots.txt': ''}
+        self.feed(ids)
+        for i in ids:
+            FakeFetcher.routes[self.url(i)] = '<script type="application/ld+json">' + json.dumps({
+                '@type': 'Event', 'name': f'演唱會{i}', 'startDate': '2027-12-01T19:30:00',
+                'location': {'name': '臺北演出廳', 'address': {'addressLocality': '臺北市'}}}) + '</script>'
+        return {'id': 'opentix', 'name': 'OPENTIX', 'url': self.base,
+                'kinds': ['concerts', 'comedy'], 'adapter': 'reviewed-json',
+                'crawler': {'adapter': 'opentix-sitemap', 'kinds': ['concerts', 'comedy'],
+                            'base': self.base, 'sitemap': '/otWebSitemap.xml',
+                            'maxPagesPerDay': 100, 'scope': 'test'}}
+
+    def url(self, i):
+        return f'{self.base}/event/{i}'
+
+    def feed(self, ids):
+        # Deliberately not publication ordered; lastmod is not a creation date.
+        FakeFetcher.routes[self.base + '/otWebSitemap.xml'] = (
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' +
+            ''.join(f'<url><loc>{self.url(i)}</loc><lastmod>2026-10-10</lastmod></url>' for i in ids) + '</urlset>')
+
+    def reads(self):
+        return [u for u in FakeFetcher.calls if '/event/' in u]
+
+    def test_daily_cap_shared_across_runs_and_next_day_resume(self):
+        entry = self.setup_feed(range(1, 252))
+        entry['crawler']['maxPagesPerDay'] = 1000  # hard safety ceiling remains 100
+        state = {}
+        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        self.assertEqual((len(self.reads()), state['pendingPages']), (100, 151))
+        state = json.loads(json.dumps(state))  # restart from durable JSON
+        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        self.assertEqual(len(self.reads()), 100)
+        self.assertEqual(FakeFetcher.calls.count(self.base + '/otWebSitemap.xml'), 1)
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-11', state)
+        self.assertEqual((len(self.reads()), state['pendingPages']), (200, 51))
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-12', state)
+        self.assertEqual((len(self.reads()), len(set(self.reads())), state['pendingPages']), (251, 251, 0))
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-13', state)
+        self.assertEqual(len(self.reads()), 251)
+
+    def test_reordering_new_urls_and_disappearing_known_url(self):
+        entry = self.setup_feed(range(1, 152))
+        state = {}
+        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        known = next(iter(state['pages']))
+        known_id = int(known.rsplit('/', 1)[1])
+        body = FakeFetcher.routes[self.url(1)]
+        # New item has a smaller ID and appears at the end; no ID cutoff or offset.
+        FakeFetcher.routes[self.url(0)] = body
+        self.feed(list(reversed([i for i in range(1, 152) if i != known_id])) + [0])
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-11', state)
+        self.assertEqual(self.reads()[100], self.url(0))
+        self.assertIn(known, state['pages'])
+        self.feed(range(0, 152))
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-12', state)
+        self.assertEqual(len(self.reads()), 152)
+        self.assertEqual(len(set(self.reads())), 152)
+
+    def test_failed_attempt_counts_and_is_retried_next_day_without_losing_progress(self):
+        entry = self.setup_feed(range(1, 105))
+        state = {}
+        saved = []
+        bad = self.url(10)  # lexicographic second URL after /1
+        body = FakeFetcher.routes[bad]
+        FakeFetcher.routes[bad] = HTTPError(bad, 502, 'bad gateway', None, None)
+        with self.assertRaises(HTTPError):
+            crawl.refresh_opentix(entry, FakeFetcher, TODAY, state,
+                                  checkpoint=lambda: saved.append(json.loads(json.dumps(state))))
+        self.assertEqual((state['dailyBudgetUsed'], len(state['pages'])), (2, 1))
+        self.assertIn(bad, saved[-1]['dailyBudget']['attempted'])
+        self.assertIn(bad, state['pendingUrls'])
+        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        self.assertEqual(len(self.reads()), 100)
+        self.assertEqual(self.reads().count(bad), 1)
+        FakeFetcher.routes[bad] = body
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-11', state)
+        self.assertEqual((len(state['pages']), state['pendingPages']), (104, 0))
+        self.assertEqual(self.reads().count(bad), 2)
+
+    def test_new_discoveries_get_priority_without_starving_backlog(self):
+        entry = self.setup_feed(range(1, 301))
+        state = {}
+        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        old_pending = set(state['pendingUrls'])
+        for i in range(301, 401):
+            FakeFetcher.routes[self.url(i)] = FakeFetcher.routes[self.url(1)]
+        self.feed(range(1, 401))
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-11', state)
+        today_reads = self.reads()[100:]
+        self.assertEqual(len(set(today_reads) & old_pending), 50)
+        self.assertEqual(sum(int(u.rsplit('/', 1)[1]) >= 301 for u in today_reads), 50)
+
+    def test_sitemap_failure_does_not_erase_queue_or_spend_detail_budget(self):
+        entry = self.setup_feed([1, 2])
+        state = {'dailyBudget': {'date': TODAY, 'attempted': [], 'reserved': 0},
+                 'pendingUrls': [self.url(1)]}
+        FakeFetcher.routes[self.base + '/otWebSitemap.xml'] = HTTPError('u', 502, 'x', None, None)
+        with self.assertRaises(HTTPError):
+            crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        self.assertEqual(state['pendingUrls'], [self.url(1)])
+        self.assertEqual(state['dailyBudgetUsed'], 0)
+        self.assertEqual(self.reads(), [])
+
+    def test_refresh_rotation_reserves_ten_within_daily_hundred(self):
+        entry = self.setup_feed(range(1, 251))
+        state = {}
+        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        old = set(state['pages'])
+        FakeFetcher.calls = []
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-24', state)
+        self.assertEqual(len(self.reads()), 100)
+        self.assertEqual(len(set(self.reads()) & old), 10)
+        self.assertEqual(state['dailyRefreshAttempts'], 10)
+        self.assertEqual(len(state['pages']), 190)
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-24', state)
+        self.assertEqual(len(self.reads()), 100)
+        yesterday = set(self.reads()) & old
+        FakeFetcher.calls = []
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-25', state)
+        self.assertEqual(len(set(self.reads()) & old), 10)
+        self.assertFalse(yesterday & set(self.reads()))
+
+    def test_refresh_failure_keeps_facts_and_spends_one_attempt(self):
+        entry = self.setup_feed([1])
+        state = {}
+        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        previous = json.loads(json.dumps(state['pages']))
+        FakeFetcher.routes[self.url(1)] = '<html>temporarily unavailable</html>'
+        with self.assertRaises(ValueError):
+            crawl.refresh_opentix(entry, FakeFetcher, '2026-10-24', state)
+        self.assertEqual(state['pages'][self.url(1)]['facts'], previous[self.url(1)]['facts'])
+        self.assertEqual(state['pages'][self.url(1)]['readAt'], TODAY)
+        self.assertEqual(state['dailyBudgetUsed'], 1)
+        self.assertEqual(state['dailyRefreshAttempts'], 1)
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-24', state)
+        self.assertEqual(self.reads().count(self.url(1)), 2)  # once each day
+
+    def test_broken_refresh_does_not_starve_other_known_pages(self):
+        entry = self.setup_feed([1, 2])
+        state = {}
+        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        entry['crawler']['maxPagesPerDay'] = 1
+        FakeFetcher.routes[self.url(1)] = HTTPError('u', 502, 'bad gateway', None, None)
+        with self.assertRaises(HTTPError):
+            crawl.refresh_opentix(entry, FakeFetcher, '2026-10-24', state)
+        FakeFetcher.calls = []
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-25', state)
+        self.assertEqual(self.reads(), [self.url(2)])
+
+    def test_refresh_reschedule_and_explicit_cancellation_reach_snapshot(self):
+        entry = self.setup_feed([1])
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            sources.write(root / 'data/live-source-registry.json', {'schemaVersion': 1, 'sources': [entry]})
+            self.assertTrue(crawl.run(root, fetch=FakeFetcher, now=NOW))
+            path = sources.snapshot_path(root, 'concerts', 'opentix')
+            FakeFetcher.routes[self.url(1)] = FakeFetcher.routes[self.url(1)].replace('2027-12-01', '2027-12-02')
+            self.assertTrue(crawl.run(root, fetch=FakeFetcher, now='2026-10-24T09:00:00+08:00'))
+            event = sources.read(path, {})['events'][0]
+            self.assertEqual(event['sessions'][0]['date'], '2027-12-02')
+            FakeFetcher.routes[self.url(1)] = FakeFetcher.routes[self.url(1)].replace(
+                '"@type": "Event"', '"@type": "Event", "eventStatus": "https://schema.org/EventCancelled"')
+            self.assertTrue(crawl.run(root, fetch=FakeFetcher, now='2026-11-07T09:00:00+08:00'))
+            event = sources.read(path, {})['events'][0]
+            self.assertEqual(event['status'], 'cancelled')
+            self.assertEqual(event['sessions'][0]['date'], '2027-12-02')
+
+    def test_legacy_budget_is_conservative_and_cache_is_not_refetched(self):
+        entry = self.setup_feed([1, 2])
+        state = {'pages': {self.url(1): {'readAt': TODAY, 'facts': None}}}
+        crawl.refresh_opentix(entry, FakeFetcher, TODAY, state)
+        self.assertEqual(self.reads(), [])
+        self.assertEqual(state['dailyBudget']['reserved'], 100)
+        crawl.refresh_opentix(entry, FakeFetcher, '2026-10-11', state)
+        self.assertEqual(self.reads(), [self.url(2)])
+
+    def test_run_persists_failure_progress_and_preserves_both_snapshots(self):
+        entry = self.setup_feed([1, 2, 3])
+        entry['crawler']['maxPagesPerDay'] = 1
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            sources.write(root / 'data/live-source-registry.json', {'schemaVersion': 1, 'sources': [entry]})
+            self.assertTrue(crawl.run(root, fetch=FakeFetcher, now=NOW))
+            paths = [sources.snapshot_path(root, kind, 'opentix') for kind in ('concerts', 'comedy')]
+            before = [sources.read(p, {})['events'] for p in paths]
+            FakeFetcher.routes[self.url(2)] = HTTPError(self.url(2), 502, 'bad gateway', None, None)
+            self.assertFalse(crawl.run(root, fetch=FakeFetcher, now='2026-10-11T09:00:00+08:00'))
+            for p, events in zip(paths, before):
+                snapshot = sources.read(p, {})
+                self.assertEqual(snapshot['events'], events)
+                self.assertEqual(snapshot['status']['dailyBudgetUsed'], 1)
+                self.assertEqual(snapshot['status']['status'], 'error')
+            state = sources.read(root / 'data/live-sources/crawl-state.json', {})['opentix']
+            self.assertEqual(state['dailyBudget']['attempted'], [self.url(2)])
+            self.assertIn(self.url(1), state['pages'])
+            self.assertIn(self.url(2), state['pendingUrls'])
 
 class CrossSourceMergeTests(unittest.TestCase):
     def ev(self,source,title,venue,date,time,url):

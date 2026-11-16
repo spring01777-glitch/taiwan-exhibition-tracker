@@ -405,13 +405,16 @@ def parse_opentix(body, url, today):
     evidence = {'title': title, 'description': clean(first.get('description'))[:600]}
     decisions = {kind: list(classify(kind, evidence)) for kind in ('concerts', 'comedy')}
     sessions = {}
+    cancelled = {}
     for b in blocks:
         if clean(b.get('name')) != title or clean((b.get('location') or {}).get('name')) != venue:
             continue
-        if 'Cancelled' in str(b.get('eventStatus')):
-            continue
         start = datetime.fromisoformat(str(b['startDate'])[:19])
-        sessions[(start.date().isoformat(), start.strftime('%H:%M'))] = None
+        target = cancelled if 'Cancelled' in str(b.get('eventStatus')) else sessions
+        target[(start.date().isoformat(), start.strftime('%H:%M'))] = None
+    all_cancelled = bool(cancelled) and not sessions
+    if all_cancelled:
+        sessions = cancelled
     sessions = [dict(date=d, time=t) for d, t in sorted(sessions)]
     offers = first.get('offers') or {}
     low, high = offers.get('lowPrice'), offers.get('highPrice')
@@ -419,55 +422,108 @@ def parse_opentix(body, url, today):
     sale = offers.get('availabilityStarts') or offers.get('validFrom')
     return dict(title=title, venue=venue, address=address_text or None, region=region, sessions=sessions,
                 price=price, saleAt=(sale + '+08:00') if sale and re.fullmatch(r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}', sale) else None,
-                decisions=decisions)
+                decisions=decisions, cancelled=all_cancelled)
 
 
-def refresh_opentix(entry, fetch, today, state):
-    """Only newly listed events are read (newest first); known events are not
-    re-read unless refreshDays is set, and past events never are. A daily cap
-    keeps the request rate low. One read serves every kind; no prose cached."""
+def refresh_opentix(entry, fetch, today, state, checkpoint=None):
+    """Persistent URL queue, not a page offset or an assumed publication order.
+
+    Both categories and all invocations share one Taiwan-calendar-day budget.
+    Reserve each attempt before I/O, including failed requests. Metadata reads
+    (robots/sitemap) are separate from the 100 event-detail request allowance.
+    """
     c = entry['crawler']
-    reader = fetch(c['base'])
-    tree = ET.fromstring(reader.get(c['base'] + c['sitemap']))
-    ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
-    listed = {}
-    for node in tree.findall('s:url', ns):
-        loc = (node.findtext('s:loc', default='', namespaces=ns) or '').strip()
-        if re.fullmatch(re.escape(c['base']) + r'/event/\d+', loc):
-            listed[loc] = (node.findtext('s:lastmod', default='', namespaces=ns) or '').strip()
-    if not listed:
-        raise SourceError('empty feed or changed structure')
+    limit = min(100, max(0, int(c.get('maxPagesPerDay', 100))))
     cache = state.setdefault('pages', {})
-    refresh = c.get('refreshDays')  # None: never re-read a known event
-    limit = c.get('maxPagesPerRun', 60)
-    due = (datetime.fromisoformat(today) - timedelta(days=refresh)).date().isoformat() if refresh else None
+    budget = state.get('dailyBudget')
+    if not budget or budget.get('date') != today:
+        # Legacy state cannot tell how many failed or repeated reads happened
+        # today. Conservatively reserve the migration day, not another 100.
+        reserved = limit if budget is None and cache else 0
+        budget = state['dailyBudget'] = dict(date=today, attempted=[], reserved=reserved)
+    attempted = set(budget['attempted'])
+    reader = fetch(c['base'])
+    pages = 0
 
-    def priority(url):
-        page = cache.get(url)
-        if not page:
-            return (0, '')  # never read
-        facts = page.get('facts')
-        if facts and facts['sessions'] and max(x['date'] for x in facts['sessions']) < today:
-            return None  # every session is past: never read again
-        if due is None or page.get('readAt', '') > due:
-            return None  # read recently; lastmod churns daily, so it is not used
-        return (1, page.get('readAt', ''))
+    def save():
+        state['dailyBudgetUsed'] = budget.get('reserved', 0) + len(budget['attempted'])
+        state['dailyLimit'] = limit
+        state['dailyRefreshAttempts'] = len(budget.get('refreshAttempted', []))
+        state['pendingPages'] = len(state.get('pendingUrls', []))
+        if checkpoint:
+            checkpoint()
 
-    ranked = {u: priority(u) for u in listed}
-    fresh = sorted((u for u, r in ranked.items() if r and r[0] == 0), key=lambda u: listed[u], reverse=True)
-    recheck = sorted((u for u, r in ranked.items() if r and r[0] == 1), key=lambda u: ranked[u][1])
-    stale = fresh + recheck
-    for url in stale[:limit]:
+    save()
+    if state.get('sitemapReadAt') != today:
+        tree = ET.fromstring(reader.get(c['base'] + c['sitemap']))
+        pages += 1
+        ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+        listed = set()
+        for node in tree.findall('s:url', ns):
+            loc = (node.findtext('s:loc', default='', namespaces=ns) or '').strip()
+            if re.fullmatch(re.escape(c['base']) + r'/event/\d+', loc):
+                listed.add(loc)
+        if not listed:
+            raise SourceError('empty feed or changed structure')
+        # Never delete successful cache entries merely because the sitemap
+        # drops/reorders a URL. A returning URL must not be fetched all over.
+        pending = list(dict.fromkeys(u for u in state.get('pendingUrls', []) if u in listed and u not in cache))
+        pending_set = set(pending)
+        new = sorted(listed - cache.keys() - pending_set)
+        # New discoveries get first turn; interleave backlog so sustained
+        # additions cannot starve unfinished work (up to 50/50 when both exist).
+        queued = []
+        for i in range(max(len(new), len(pending))):
+            if i < len(new):
+                queued.append(new[i])
+            if i < len(pending):
+                queued.append(pending[i])
+        due = (datetime.fromisoformat(today) - timedelta(days=c.get('refreshDays', 14))).date().isoformat()
+        rechecks = sorted((u for u in listed & cache.keys()
+                           if cache[u].get('readAt', '') <= due
+                           and cache[u].get('facts')
+                           and upcoming(cache[u]['facts'].get('sessions', []), today)),
+                          key=lambda u: (cache[u].get('lastAttemptAt', cache[u].get('readAt', '')), u))
+        state.update(pendingUrls=queued, recheckUrls=rechecks, listed=len(listed), sitemapReadAt=today,
+                     discoveryOrder='new discoveries interleaved with FIFO backlog; no publication order')
+        save()
+    remaining = max(0, limit - state['dailyBudgetUsed'])
+    refresh_left = max(0, 10 - len(budget.get('refreshAttempted', [])))
+    rechecks = [u for u in state.get('recheckUrls', []) if u not in attempted][:min(refresh_left, remaining)]
+    first_reads = [u for u in state.get('pendingUrls', []) if u not in attempted][:remaining - len(rechecks)]
+    for url in first_reads + rechecks:
+        if state['dailyBudgetUsed'] >= limit:
+            break
+        if url in attempted:
+            continue  # a failed request is retried no earlier than tomorrow
+        budget['attempted'].append(url)
+        attempted.add(url)
+        # Move failures to the back so one broken URL cannot block the queue.
+        is_refresh = url in rechecks
+        if is_refresh:
+            budget.setdefault('refreshAttempted', []).append(url)
+            cache[url]['lastAttemptAt'] = today
+        else:
+            state['pendingUrls'].remove(url)
+            state['pendingUrls'].append(url)
+        save()
+        pages += 1
         try:
-            cache[url] = dict(readAt=today, facts=parse_opentix(reader.text(url), url, today))
-        except (KeyError, TypeError, ValueError, AttributeError):
-            cache[url] = dict(readAt=today, facts=None)
-    for url in list(cache):
-        if url not in listed:
-            del cache[url]
-    state['pendingPages'] = max(0, len(stale) - limit)
-    state['listed'] = len(listed)
-    return 1 + min(len(stale), limit)
+            body = reader.text(url)
+            try:
+                facts = parse_opentix(body, url, today)
+            except (KeyError, TypeError, ValueError, AttributeError):
+                if is_refresh:
+                    raise  # do not replace known facts with a broken response
+                facts = None  # packages/closed pages without structured events
+            cache[url] = dict(readAt=today, facts=facts)
+            state['recheckUrls' if is_refresh else 'pendingUrls'].remove(url)
+            save()
+        except Exception:
+            save()
+            raise  # keep last published snapshot; successful cache work survives
+    save()
+    return pages
 
 
 def crawl_opentix(kind, entry, fetch, today, counter, state):
@@ -489,12 +545,14 @@ def crawl_opentix(kind, entry, fetch, today, counter, state):
         if not facts['region'] or not facts['venue']:
             counter.add('pending', 'PLACE_NOT_STRUCTURED')
             continue
-        tickets = [dict(platform='OPENTIX', url=url, checkedAt=today, sessions=[dict(s) for s in facts['sessions']])]
+        tickets = [dict(platform='OPENTIX', url=url, checkedAt=page.get('readAt', today), sessions=[dict(s) for s in facts['sessions']])]
         event = base_event(kind, url, facts['title'], facts['region'], facts['venue'], facts['address'], facts['sessions'], url,
                            today, price=facts['price'], tickets=tickets)
         if facts['saleAt']:
             event['saleAt'] = facts['saleAt']
             event['saleNote'] = '開賣時間取自 OPENTIX 結構化資料；請以官方頁面為準。'
+        if facts.get('cancelled'):
+            event.update(status='cancelled', statusNote='OPENTIX 結構化資料標示此活動所有場次取消。')
         events.append(event)
         counter.add('included', reason)
     return events, 0
@@ -539,6 +597,11 @@ def overlay(previous, raw, sid, today):
         if scoped and not any(x['url'] == t['url'] for x in tickets):
             tickets.append({**t, 'sessions': scoped})
     merged['tickets'] = tickets
+    if raw.get('status') == 'cancelled':
+        merged.update(status='cancelled', statusNote=raw.get('statusNote'))
+    elif merged.get('status') == 'cancelled' and merged.get('statusNote') == 'OPENTIX 結構化資料標示此活動所有場次取消。':
+        merged.update(status='scheduled')
+        merged.pop('statusNote', None)
     if merged.get('status') == 'unconfirmed':
         merged['status'] = 'scheduled'
         merged.pop('statusNote', None)
@@ -569,6 +632,9 @@ def persist(root, kind, entry, events, counter, pages, now, error=None, extra=No
             merged = retain_missing(old['events'], fresh, complete=False)
             status.update(status='ok', lastSuccess=now, reviewedAt=today, lastSuccessfulIncluded=len(fresh),
                           message=f'每日公開資料自動更新完成；納入 {len(fresh)} 筆，待分類 {counter.stats["pending"]} 筆；不代表完整目錄。')
+            if sid == 'opentix':
+                status['message'] = (f'增量進度：當日活動頁額度 {status.get("dailyBudgetUsed", 0)}/100，'
+                                     f'待讀 {status.get("pendingPages", 0)} 頁；沿用已讀資料，不代表即時完整目錄。')
             status['retainedEventCount'] = len(merged)
             write(path, {'schemaVersion': 1, 'sourceId': sid, 'kind': kind, 'events': merged, 'status': status,
                          'records': old.get('records', [])})
@@ -600,7 +666,8 @@ def run(root=ROOT, only=None, fetch=Fetcher, now=None):
         if adapter is crawl_opentix:
             source_state = state.setdefault(entry['id'], {})
             try:
-                read_pages = refresh_opentix(entry, fetch, today, source_state)
+                read_pages = refresh_opentix(entry, fetch, today, source_state,
+                                             checkpoint=lambda: write(state_path, state))
             except Exception as caught:
                 shared_error = caught
         for kind in crawler['kinds']:
@@ -609,13 +676,18 @@ def run(root=ROOT, only=None, fetch=Fetcher, now=None):
             events = []
             error = None
             extra = None
+            if adapter is crawl_opentix:
+                extra = {key: source_state.get(key) for key in
+                         ('pendingPages', 'dailyBudgetUsed', 'dailyLimit', 'dailyRefreshAttempts', 'sitemapReadAt')}
+                extra.update(listedPages=source_state.get('listed'),
+                             budgetDate=source_state.get('dailyBudget', {}).get('date'),
+                             dailyReserved=source_state.get('dailyBudget', {}).get('reserved', 0))
             try:
                 if shared_error:
                     raise shared_error
                 if adapter is crawl_opentix:
                     events, _ = adapter(kind, entry, fetch, today, counter, source_state)
                     pages = read_pages
-                    extra = {'pendingPages': source_state.get('pendingPages', 0), 'listedPages': source_state.get('listed')}
                 else:
                     events, pages = adapter(kind, entry, fetch, today, counter)
             except Exception as caught:  # Every failure keeps the last snapshot.
