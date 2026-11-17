@@ -382,7 +382,9 @@
   "6973eb1426b32454e437c400": {
     "title": "董坐石硯藝術館展覽",
     "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=6973eb1426b32454e437c400",
-    "previousTitleMatched": true
+    "previousTitleMatched": true,
+    "lastAttempt": "2026-11-17T16:53:34+08:00",
+    "lastResult": "unavailable"
   },
   "6973eb1626b32454e437c40d": {
     "title": "「虛空之境」展覽-領土",
