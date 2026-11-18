@@ -92,7 +92,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "a106df9194cdbf76ac29",
-      "verifiedAt": "2026-11-17",
+      "verifiedAt": "2026-11-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -164,7 +164,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "d173c4a25563354bc411",
-      "verifiedAt": "2026-11-17",
+      "verifiedAt": "2026-11-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -232,7 +232,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "cdf081b71dd024aee0c7",
-      "verifiedAt": "2026-11-17",
+      "verifiedAt": "2026-11-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -290,7 +290,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "4e75617750e2efcdbca4",
-      "verifiedAt": "2026-11-17",
+      "verifiedAt": "2026-11-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -461,7 +461,7 @@
       "revisions": [],
       "source": "tmc",
       "id": "a55cf05a75f6b9f6356c",
-      "verifiedAt": "2026-11-17",
+      "verifiedAt": "2026-11-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -497,7 +497,7 @@
       "revisions": [],
       "source": "tmc",
       "id": "faf5610ed998c956e133",
-      "verifiedAt": "2026-11-17",
+      "verifiedAt": "2026-11-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -533,7 +533,7 @@
       "revisions": [],
       "source": "tmc",
       "id": "dd12d1dedb0fc2038d57",
-      "verifiedAt": "2026-11-17",
+      "verifiedAt": "2026-11-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -569,7 +569,7 @@
       "revisions": [],
       "source": "tmc",
       "id": "6d3d4fc6430a9500cf0c",
-      "verifiedAt": "2026-11-17",
+      "verifiedAt": "2026-11-18",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -583,7 +583,7 @@
     "id": "tmc",
     "name": "臺北流行音樂中心官方活動資料",
     "url": "https://www.tmc.taipei/",
-    "checkedAt": "2026-11-17T16:53:57+08:00",
+    "checkedAt": "2026-11-18T16:02:03+08:00",
     "mode": "daily-crawl",
     "discovered": 12,
     "included": 8,
@@ -600,9 +600,9 @@
     "scope": "北流官網「最近活動」公開頁；長日期區間不推定場次",
     "pagesVisited": 10,
     "expectedPages": null,
-    "reviewedAt": "2026-11-17",
+    "reviewedAt": "2026-11-18",
     "status": "ok",
-    "lastSuccess": "2026-11-17T16:53:57+08:00",
+    "lastSuccess": "2026-11-18T16:02:03+08:00",
     "lastSuccessfulIncluded": 8,
     "message": "每日公開資料自動更新完成；納入 8 筆，待分類 1 筆；不代表完整目錄。",
     "retainedEventCount": 12

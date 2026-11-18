@@ -188,17 +188,38 @@
       "https://www.songshanculturalpark.org/exhibition/activity/13dcd8e7-5707-48f3-939f-7883537c7906": {
         "id": "songshan-383cef60835be06b",
         "readAt": "2026-10-11T14:36:10+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/7debe01f-7b55-41d1-ad9f-fa7514526fcc": {
+        "id": "songshan-cdcc08c2ff67ba71",
+        "readAt": "2026-11-18T16:01:39+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/f3c7a823-52c1-401b-92ef-885d77a49318": {
+        "id": "songshan-ab7928a1a405aa5e",
+        "readAt": "2026-11-18T16:01:39+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/da073ea2-ee4e-4b3b-94c0-88b224ad6606": {
+        "id": "songshan-0dce15280610d9b5",
+        "readAt": "2026-11-18T16:01:39+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/95af434b-3ac9-430d-92d7-3b744ea5cc6e": {
+        "id": "songshan-c252e4045c31e01b",
+        "readAt": "2026-11-18T16:01:39+08:00"
       }
     },
     "dailyBudget": {
-      "date": "2026-11-17",
-      "attempted": [],
-      "reserved": 100
+      "date": "2026-11-18",
+      "attempted": [
+        "https://www.songshanculturalpark.org/exhibition/activity/7debe01f-7b55-41d1-ad9f-fa7514526fcc",
+        "https://www.songshanculturalpark.org/exhibition/activity/f3c7a823-52c1-401b-92ef-885d77a49318",
+        "https://www.songshanculturalpark.org/exhibition/activity/da073ea2-ee4e-4b3b-94c0-88b224ad6606",
+        "https://www.songshanculturalpark.org/exhibition/activity/95af434b-3ac9-430d-92d7-3b744ea5cc6e"
+      ],
+      "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-17",
-    "listedPages": 19,
+    "listReadAt": "2026-11-18",
+    "listedPages": 23,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
   "huashan": {
@@ -358,16 +379,22 @@
       "https://www.huashan1914.com/exhibition/event-%E5%85%89%E5%90%88%E7%B3%BBX%E6%9C%AA%E4%BE%86%E5%B8%82": {
         "id": "huashan-ab8d39619d72b7aa",
         "readAt": "2026-10-08T14:47:25+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%202026%E5%86%AC%E3%80%90%E6%89%8B%E7%A6%AE%E6%97%A5%E5%92%8C%E3%80%91": {
+        "id": "huashan-41a4b1469e34be8b",
+        "readAt": "2026-11-18T16:01:39+08:00"
       }
     },
     "dailyBudget": {
-      "date": "2026-11-17",
-      "attempted": [],
-      "reserved": 100
+      "date": "2026-11-18",
+      "attempted": [
+        "https://www.huashan1914.com/exhibition/%202026%E5%86%AC%E3%80%90%E6%89%8B%E7%A6%AE%E6%97%A5%E5%92%8C%E3%80%91"
+      ],
+      "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-17",
+    "listReadAt": "2026-11-18",
     "listedPages": 9,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
@@ -471,9 +498,11 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-17",
-      "attempted": [],
-      "reserved": 100
+      "date": "2026-11-18",
+      "attempted": [
+        "https://pier2.org/exhibition/info/2000/"
+      ],
+      "reserved": 0
     },
     "pending": {
       "https://pier2.org/exhibition/info/2000/": {
@@ -483,7 +512,7 @@
       }
     },
     "completed": {},
-    "listReadAt": "2026-11-17",
+    "listReadAt": "2026-11-18",
     "listedPages": 18,
     "ordering": "new discoveries and backlog; official publication order unverified"
   }
