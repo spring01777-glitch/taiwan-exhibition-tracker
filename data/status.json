@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-19T16:06:40+08:00",
+  "generatedAt": "2026-11-19T22:54:03+08:00",
   "sources": {
     "moc": {
       "state": "ok",
-      "lastAttempt": "2026-11-19T16:06:40+08:00",
-      "lastSuccess": "2026-11-19T16:06:40+08:00",
-      "count": 262,
+      "lastAttempt": "2026-11-19T22:54:03+08:00",
+      "lastSuccess": "2026-11-19T22:54:03+08:00",
+      "count": 283,
       "rejected": 0,
       "attemptCounts": {
-        "inputCount": 262,
-        "validCount": 262,
+        "inputCount": 283,
+        "validCount": 283,
         "rejectedCount": 0,
-        "eventCount": 262,
+        "eventCount": 283,
         "rejectedReasons": {},
         "previousActiveCount": 260
       },
@@ -19,8 +19,8 @@
     },
     "songshan": {
       "state": "ok",
-      "lastAttempt": "2026-11-19T16:06:26+08:00",
-      "lastSuccess": "2026-11-19T16:06:26+08:00",
+      "lastAttempt": "2026-11-19T22:53:56+08:00",
+      "lastSuccess": "2026-11-19T22:53:56+08:00",
       "count": 51,
       "checkedCount": 0,
       "attemptedCount": 0,
@@ -39,8 +39,8 @@
     },
     "huashan": {
       "state": "ok",
-      "lastAttempt": "2026-11-19T16:06:26+08:00",
-      "lastSuccess": "2026-11-19T16:06:26+08:00",
+      "lastAttempt": "2026-11-19T22:53:56+08:00",
+      "lastSuccess": "2026-11-19T22:53:56+08:00",
       "count": 40,
       "checkedCount": 0,
       "attemptedCount": 0,
@@ -59,18 +59,13 @@
     },
     "pier2": {
       "state": "ok",
-      "lastAttempt": "2026-11-19T16:06:26+08:00",
-      "lastSuccess": "2026-11-19T16:06:26+08:00",
-      "count": 24,
+      "lastAttempt": "2026-11-19T22:53:56+08:00",
+      "lastSuccess": "2026-11-19T22:53:56+08:00",
+      "count": 25,
       "checkedCount": 0,
-      "attemptedCount": 1,
+      "attemptedCount": 0,
       "lastSuccessfulCheckedCount": 0,
-      "skipped": [
-        {
-          "url": "https://pier2.org/exhibition/info/2000/",
-          "reason": "missing title or venue"
-        }
-      ],
+      "skipped": [],
       "mode": "new-only",
       "dailyLimit": 100,
       "budgetDate": "2026-11-19",

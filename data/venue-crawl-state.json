@@ -488,6 +488,10 @@
       "https://pier2.org/exhibition/info/1994/": {
         "id": "pier2-1994",
         "readAt": "2026-10-11T14:37:25+08:00"
+      },
+      "https://pier2.org/exhibition/info/2000/": {
+        "id": "pier2-solid-tides-2026-11-21",
+        "readAt": "2026-11-19T22:49:00+08:00"
       }
     },
     "dailyBudget": {
