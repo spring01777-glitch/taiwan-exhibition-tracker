@@ -29,6 +29,14 @@ async function check(kind){
     assert.ok(api.tickets(e).every(t=>t.saleAt===null));
    }
   }
+  if(e.id==='110598bc656f0025a748'&&e.ticketUrl==='https://tixcraft.com/activity/detail/27_ayalkomod'){
+   const card=html.split(`data-event-id="${e.id}"`)[1].split('</article>')[0];
+   assert.equal(api.hasSaleTimeConflict(e),false);
+   assert.ok(card.includes('2026-11-21 14:00:00'));
+   assert.equal((card.match(/href="https:\/\/tixcraft.com\/activity\/detail\/27_ayalkomod"/g)||[]).length,3);
+   for(const text of ['2027-04-17 19:00','2027-04-18 16:30','世界卡','CUBE','須專屬購票碼'])assert.ok(card.includes(text));
+   assert.ok(!card.includes('本場次售票入口尚未核對'));
+  }
   if(api.hasSaleTimeConflict(e)){
    const card=html.split(`data-event-id="${e.id}"`)[1].split('</article>')[0];
    assert.ok(card.includes('開賣資料矛盾，待官方確認'));

@@ -98,5 +98,27 @@
         "venue": "CLAPPER STUDIO 展演廳(三創生活)"
       }
     ]
+  },
+  "https://www.arena.taipei/News_Content.aspx?n=2E1489AFE4B1BEA1&s=877C12B2A508D887": {
+    "title": "國泰世華銀行 張震嶽「跟著感覺走」2027 台北演唱會",
+    "url": "https://tixcraft.com/activity/detail/27_ayalkomod",
+    "checkedAt": "2026-11-20",
+    "method": "Official tixCraft detail reviewed: exact title, Taipei Arena, two confirmed sessions and sale phases",
+    "sessions": [
+      {
+        "date": "2027-04-17",
+        "time": "19:00",
+        "venue": "臺北小巨蛋"
+      },
+      {
+        "date": "2027-04-18",
+        "time": "16:30",
+        "venue": "臺北小巨蛋"
+      }
+    ],
+    "facts": {
+      "saleAt": "2026-11-21T14:00:00+08:00",
+      "saleNote": "一般開賣：2026/11/21 14:00（台灣時間）。資格限定優先購票：11/20 12:00–14:00 國泰世華世界卡；11/20 15:00–17:00 國泰世華CUBE信用卡，兩者皆須完成實體卡開卡。11/21 12:00 起限本色會員及 2026/06/17–06/30 秘密基地Mini Live指定投稿者，須專屬購票碼；官方未列此階段結束時刻。各階段售完為止，餘票與資格細則以官方頁為準。"
+    }
   }
 }
