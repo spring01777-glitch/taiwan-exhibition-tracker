@@ -3082,5 +3082,25 @@
         "lastSeen": "2026-10-05T20:19:16+08:00"
       }
     ]
+  },
+  {
+    "id": "pier2-solid-tides-2026-11-21",
+    "title": "剛質潮汐：城市人物誌（駁二浪宕計畫國際論壇）",
+    "start": "2026-11-21",
+    "end": "2026-11-21",
+    "region": "高雄市",
+    "venue": "駁二藝術特區 · 蓬萊區B3倉庫",
+    "address": "高雄市鼓山區蓬萊路99號",
+    "park": "pier2",
+    "price": "免費；報名方式請查官方議程",
+    "category": "論壇",
+    "summary": "10:30–11:30「引水人的日與夜」；14:00–15:00「打鐵島嶼記事」。兩場均於蓬萊區B3倉庫舉行。",
+    "url": "https://pier2.org/exhibition/info/2000/",
+    "source": "pier2",
+    "sourceVersion": "official-reviewed",
+    "firstSeen": "2026-11-19T22:49:00+08:00",
+    "lastSeen": "2026-11-19T22:49:00+08:00",
+    "missingFromSource": false,
+    "revisions": []
   }
 ]

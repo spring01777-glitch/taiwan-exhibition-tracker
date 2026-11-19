@@ -214,10 +214,12 @@ def crawl_kktix(kind, entry, fetch, today, counter):
 
 # --- Taipei Arena open data ------------------------------------------------
 
-ARENA_DATE = re.compile(r'(\d{4})/(\d{1,2})(?:/|月)(\d{1,2})日?')
+ARENA_DATE = re.compile(r'(\d{4})\s*/\s*(\d{1,2})\s*(?:/|月)\s*(\d{1,2})日?')
 
 
 def arena_sessions(content):
+    # Official feed uses both 2027 / 4 / 17 and full-width clock colons.
+    content = content.replace('：', ':')
     section = content.split('活動日期', 1)[1] if '活動日期' in content else ''
     section = re.split(r'主辦單位|聯絡電話|票\s*價', section)[0]
     hits = list(ARENA_DATE.finditer(section))

@@ -176,6 +176,25 @@ class CrawlRunTests(unittest.TestCase):
         missing=crawl.Fetcher('https://c.example',opener=lambda u:(_ for _ in ()).throw(HTTPError(u,404,'x',None,None)) if u.endswith('robots.txt') else b'1',delay=0)
         self.assertEqual(missing.get('https://c.example/any'),b'1')
 
+class ArenaFormatRegressionTests(unittest.TestCase):
+    def test_spaced_dates_fullwidth_clocks_do_not_take_door_times(self):
+        content='活動日期/時間：2027 / 4 / 17（六）19：00（17：00開放入場）2027 / 4 / 18（日）16：30（15：00開放入場）實際開演時間以現場為主票價：4500'
+        self.assertEqual(crawl.arena_sessions(content),[
+            {'date':'2027-04-17','time':'19:00'}, {'date':'2027-04-18','time':'16:30'}])
+        counter=crawl.Counter()
+        rows=[arena_row('2027/4/17、4/18《張震嶽 跟著感覺走 2027 台北演唱會》',content)]
+        events=crawl.parse_arena('concerts',rows,'2026-11-19',counter)
+        self.assertEqual(len(events),1)
+        self.assertEqual(counter.stats['failed'],0)
+        self.assertEqual(events[0]['sessions'][1]['time'],'16:30')
+
+    def test_date_validation_and_legacy_month_format_survive(self):
+        for bad in ['2027 / 2 / 29（六）19：00','2028 / 13 / 1（六）19：00','2028 / 2 / 29（六）25：00']:
+            with self.assertRaises(ValueError):crawl.arena_sessions('活動日期：'+bad)
+        self.assertEqual(crawl.arena_sessions('活動日期：2028 / 2 / 29（六）19：00'),[{'date':'2028-02-29','time':'19:00'}])
+        self.assertEqual(crawl.arena_sessions('活動日期：2026/12月31日（四）23:30 2027/1/1（五）00:30'),[
+            {'date':'2026-12-31','time':'23:30'}, {'date':'2027-01-01','time':'00:30'}])
+
 class OpentixScheduleTests(unittest.TestCase):
     base = 'https://www.opentix.life'
 
