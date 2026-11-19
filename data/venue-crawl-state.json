@@ -207,13 +207,13 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "attempted": [],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-19",
+    "listReadAt": "2026-11-20",
     "listedPages": 22,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
@@ -381,13 +381,13 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "attempted": [],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-19",
+    "listReadAt": "2026-11-20",
     "listedPages": 9,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
@@ -495,21 +495,13 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-19",
-      "attempted": [
-        "https://pier2.org/exhibition/info/2000/"
-      ],
+      "date": "2026-11-20",
+      "attempted": [],
       "reserved": 0
     },
-    "pending": {
-      "https://pier2.org/exhibition/info/2000/": {
-        "title": "剛質潮汐—2026駁二浪宕計畫國際論壇 Solid Tides—2026 Pier-2 Waving Waves Community International Art Forum",
-        "venue": "",
-        "badge": "free"
-      }
-    },
+    "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-19",
+    "listReadAt": "2026-11-20",
     "listedPages": 18,
     "ordering": "new discoveries and backlog; official publication order unverified"
   }
