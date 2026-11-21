@@ -3102,5 +3102,25 @@
     "lastSeen": "2026-11-19T22:49:00+08:00",
     "missingFromSource": false,
     "revisions": []
+  },
+  {
+    "id": "tainex-pet-fair-2026-11",
+    "title": "2026 上聯台北貓展暨冬季寵物展",
+    "start": "2026-11-27",
+    "end": "2026-11-30",
+    "region": "臺北市",
+    "venue": "南港展覽館 2 館 1 樓",
+    "address": "臺北市南港區經貿二路2號",
+    "park": "",
+    "price": "有免費索票方案；辦法以主辦方公告為準",
+    "category": "寵物展",
+    "summary": "每日 10:00–18:00（台灣時間）。活動在南港展覽館 2 館一樓；可從官方展覽資訊前往上聯主辦網站查看索票辦法。",
+    "url": "https://www.tainex.com.tw/event/738",
+    "source": "tainex",
+    "sourceVersion": "official-reviewed",
+    "firstSeen": "2026-11-21T10:55:43+08:00",
+    "lastSeen": "2026-11-21T10:55:43+08:00",
+    "missingFromSource": false,
+    "revisions": []
   }
 ]

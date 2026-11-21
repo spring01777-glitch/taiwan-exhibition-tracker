@@ -22,7 +22,7 @@ const localTime = t => t ? new Date(t).toLocaleString('zh-TW',{timeZone:'Asia/Ta
 const northRank = e => e.region === '臺北市' ? 0 : e.region === '新北市' ? 1 : 2;
 const compareEvents = (a,b,selectedView='all') => selectedView==='history' ? String(b.end || '').localeCompare(String(a.end || '')) : selectedView==='ending' ? String(a.end || '9999-12-31').localeCompare(String(b.end || '9999-12-31'))||northRank(a)-northRank(b) : northRank(a)-northRank(b)||String(a.start || '9999-12-31').localeCompare(String(b.start || '9999-12-31'))||String(a.title || '').localeCompare(String(b.title || ''),'zh-TW');
 const eventBadge = (event, day=today) => event.verificationNote ? '狀態待確認' : isEnded(event,day) ? '已結束' : !hasDate(event.start) || !hasDate(event.end) ? '展期待確認' : event.start>day ? '即將開展' : days(event.end,day)<=14 ? '即將結束' : '展期內';
-const names = {moc:'文化部',songshan:'松山文創園區',huashan:'華山1914',pier2:'駁二藝術特區'};
+const names = {moc:'文化部',songshan:'松山文創園區',huashan:'華山1914',pier2:'駁二藝術特區',tainex:'台北南港展覽館'};
 const links = {moc:'https://data.gov.tw/dataset/6012',songshan:'https://www.songshanculturalpark.org/exhibition',huashan:'https://www.huashan1914.com/exhibition',pier2:'https://pier2.org/exhibition/'};
 const matchesRegion = (event, region) => !region || (region==='north' ? northRank(event)<=1 : event.region===region);
 function syncParkOptions(region){
