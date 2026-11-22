@@ -33772,51 +33772,79 @@
           },
           "cancelled": false
         }
+      },
+      "https://www.opentix.life/event/2118188860232974337": {
+        "readAt": "2026-11-22",
+        "facts": {
+          "title": "四季風華─國立臺灣師範大學校友國樂團年度音樂會",
+          "venue": "臺北市中山堂中正廳",
+          "address": "臺北市 中正區延平南路98號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-21",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$100–800",
+          "saleAt": "2026-11-21T19:30:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2122169001320763393": {
+        "readAt": "2026-11-22",
+        "facts": {
+          "title": "2027 穆貝爾鋼琴獨奏會：莫札特 X 史克里亞賓",
+          "venue": "臺中國家歌劇院小劇場",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2027-01-10",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$668",
+          "saleAt": "2026-11-22T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
       }
     },
     "pendingPages": 0,
-    "listed": 859,
+    "listed": 840,
     "dailyBudget": {
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "attempted": [
-        "https://www.opentix.life/event/2109807557742845953",
-        "https://www.opentix.life/event/2110634685822369793",
-        "https://www.opentix.life/event/2116015245426507777",
-        "https://www.opentix.life/event/2117173703681126401",
-        "https://www.opentix.life/event/2117454441791905793",
-        "https://www.opentix.life/event/2117496442031943681",
-        "https://www.opentix.life/event/2117503266061529088",
-        "https://www.opentix.life/event/2117505994830213120",
-        "https://www.opentix.life/event/2117506938838020097",
-        "https://www.opentix.life/event/2117507836754620416",
-        "https://www.opentix.life/event/2117508743571533824",
-        "https://www.opentix.life/event/2117510159648002049",
-        "https://www.opentix.life/event/2117511006734086144",
-        "https://www.opentix.life/event/2117511890340880385",
-        "https://www.opentix.life/event/2117513178364342273",
-        "https://www.opentix.life/event/2117514677959204865",
-        "https://www.opentix.life/event/2117519535835652097",
-        "https://www.opentix.life/event/2118523906312118272",
-        "https://www.opentix.life/event/2120050459817664513",
-        "https://www.opentix.life/event/2120063569081012224",
-        "https://www.opentix.life/event/2120075889075359745",
-        "https://www.opentix.life/event/2120080023464943617",
-        "https://www.opentix.life/event/2120087519580889089",
-        "https://www.opentix.life/event/2120089123516293121",
-        "https://www.opentix.life/event/2120346747393937409",
-        "https://www.opentix.life/event/2120412865517821953",
-        "https://www.opentix.life/event/2122519378665308161",
-        "https://www.opentix.life/event/2122938463649124352",
-        "https://www.opentix.life/event/2123316650408214529",
-        "https://www.opentix.life/event/2123323963466645505"
+        "https://www.opentix.life/event/2118188860232974337",
+        "https://www.opentix.life/event/2122169001320763393"
       ],
       "reserved": 0
     },
-    "dailyBudgetUsed": 30,
+    "dailyBudgetUsed": 2,
     "dailyLimit": 100,
     "dailyRefreshAttempts": 0,
     "pendingUrls": [],
-    "sitemapReadAt": "2026-11-21",
+    "sitemapReadAt": "2026-11-22",
     "discoveryOrder": "new discoveries interleaved with FIFO backlog; no publication order"
   }
 }

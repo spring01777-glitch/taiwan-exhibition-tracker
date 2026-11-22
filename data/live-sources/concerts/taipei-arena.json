@@ -480,7 +480,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "490a1fdc7c6861a151f5",
-      "verifiedAt": "2026-11-21",
+      "verifiedAt": "2026-11-22",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -600,7 +600,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "7498491a239c4fbe2a68",
-      "verifiedAt": "2026-11-21",
+      "verifiedAt": "2026-11-22",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -640,7 +640,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "29127a5f83ff718586f3",
-      "verifiedAt": "2026-11-21",
+      "verifiedAt": "2026-11-22",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -720,7 +720,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "2fabf8806ab62af0a1e5",
-      "verifiedAt": "2026-11-21",
+      "verifiedAt": "2026-11-22",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -760,7 +760,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "110598bc656f0025a748",
-      "verifiedAt": "2026-11-21",
+      "verifiedAt": "2026-11-22",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -774,7 +774,7 @@
     "id": "taipei-arena",
     "name": "臺北小巨蛋官方活動資料",
     "url": "https://www.arena.taipei/",
-    "checkedAt": "2026-11-21T15:49:44+08:00",
+    "checkedAt": "2026-11-22T15:37:26+08:00",
     "mode": "daily-crawl",
     "discovered": 7,
     "included": 5,
@@ -789,9 +789,9 @@
     "scope": "臺北小巨蛋「已公開(售票/派票)活動」政府開放資料 JSON",
     "pagesVisited": 1,
     "expectedPages": null,
-    "reviewedAt": "2026-11-21",
+    "reviewedAt": "2026-11-22",
     "status": "ok",
-    "lastSuccess": "2026-11-21T15:49:44+08:00",
+    "lastSuccess": "2026-11-22T15:37:26+08:00",
     "lastSuccessfulIncluded": 5,
     "message": "每日公開資料自動更新完成；納入 5 筆，待分類 2 筆；不代表完整目錄。",
     "retainedEventCount": 13

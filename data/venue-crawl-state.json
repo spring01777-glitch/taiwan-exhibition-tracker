@@ -207,13 +207,13 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "attempted": [],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-21",
+    "listReadAt": "2026-11-22",
     "listedPages": 22,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
@@ -381,14 +381,14 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "attempted": [],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-21",
-    "listedPages": 9,
+    "listReadAt": "2026-11-22",
+    "listedPages": 10,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
   "pier2": {
@@ -495,14 +495,14 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "attempted": [],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-21",
-    "listedPages": 18,
+    "listReadAt": "2026-11-22",
+    "listedPages": 16,
     "ordering": "new discoveries and backlog; official publication order unverified"
   }
 }
