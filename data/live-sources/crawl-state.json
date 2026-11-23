@@ -33828,23 +33828,137 @@
           },
           "cancelled": false
         }
+      },
+      "https://www.opentix.life/event/2108120765902880769": {
+        "readAt": "2026-11-23",
+        "facts": {
+          "title": "《眾聲匯聚》米特菁英培訓計畫年度音樂會",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-01-03",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-11-23T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2118638424182243329": {
+        "readAt": "2026-11-23",
+        "facts": {
+          "title": "面白放送",
+          "venue": "光啟社（光啟社攝影棚）",
+          "address": "臺北市 大安區敦化南路一段233巷20號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-02",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$500",
+          "saleAt": "2026-11-25T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2122521925360144385": {
+        "readAt": "2026-11-23",
+        "facts": {
+          "title": "紀頌恩木琴獨奏會《遇見荷蘭》",
+          "venue": "功學社音樂廳",
+          "address": "新北市 蘆洲區中山二路162號2樓",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2026-12-29",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$200–1,200",
+          "saleAt": "2026-11-23T13:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2123366322935025665": {
+        "readAt": "2026-11-23",
+        "facts": {
+          "title": "蘭陽六十・經典再現《鳳凰樹下的約定》",
+          "venue": "衛武營國家藝術文化中心戲劇院",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2027-02-27",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–2,600",
+          "saleAt": "2026-11-24T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
       }
     },
     "pendingPages": 0,
-    "listed": 840,
+    "listed": 805,
     "dailyBudget": {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "attempted": [
-        "https://www.opentix.life/event/2118188860232974337",
-        "https://www.opentix.life/event/2122169001320763393"
+        "https://www.opentix.life/event/2108120765902880769",
+        "https://www.opentix.life/event/2118638424182243329",
+        "https://www.opentix.life/event/2122521925360144385",
+        "https://www.opentix.life/event/2123366322935025665"
       ],
       "reserved": 0
     },
-    "dailyBudgetUsed": 2,
+    "dailyBudgetUsed": 4,
     "dailyLimit": 100,
     "dailyRefreshAttempts": 0,
     "pendingUrls": [],
-    "sitemapReadAt": "2026-11-22",
+    "sitemapReadAt": "2026-11-23",
     "discoveryOrder": "new discoveries interleaved with FIFO backlog; no publication order"
   }
 }

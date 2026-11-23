@@ -204,17 +204,23 @@
       "https://www.songshanculturalpark.org/exhibition/activity/95af434b-3ac9-430d-92d7-3b744ea5cc6e": {
         "id": "songshan-c252e4045c31e01b",
         "readAt": "2026-11-18T16:01:39+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/a1f605c6-8310-4a35-a36d-b44f4df631fc": {
+        "id": "songshan-09b7e8af9e117948",
+        "readAt": "2026-11-23T16:23:30+08:00"
       }
     },
     "dailyBudget": {
-      "date": "2026-11-22",
-      "attempted": [],
+      "date": "2026-11-23",
+      "attempted": [
+        "https://www.songshanculturalpark.org/exhibition/activity/a1f605c6-8310-4a35-a36d-b44f4df631fc"
+      ],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-22",
-    "listedPages": 22,
+    "listReadAt": "2026-11-23",
+    "listedPages": 19,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
   "huashan": {
@@ -378,17 +384,33 @@
       "https://www.huashan1914.com/exhibition/%202026%E5%86%AC%E3%80%90%E6%89%8B%E7%A6%AE%E6%97%A5%E5%92%8C%E3%80%91": {
         "id": "huashan-41a4b1469e34be8b",
         "readAt": "2026-11-18T16:01:39+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E7%89%A7%E7%A5%9E%E7%9A%84%E5%8D%88%E5%BE%8C%20L%E2%80%99Apr%C3%A8s-midi%20d%E2%80%99un%20faune": {
+        "id": "huashan-e86e29e5239becda",
+        "readAt": "2026-11-23T16:23:30+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E5%B0%8F%E6%A2%85%E7%9A%84%E5%A5%87%E5%B9%BB%E5%86%92%E9%9A%AA%20%3A%20%E5%B0%8B%E5%9B%9E%E5%BF%83%E6%84%8F%E4%B9%8B%E6%9B%B8%20Deer%20May": {
+        "id": "huashan-5df720b1c8571dd7",
+        "readAt": "2026-11-23T16:23:30+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E8%8A%8B%E8%89%BF%E5%B7%9D": {
+        "id": "huashan-d0c32cf49c2355f6",
+        "readAt": "2026-11-23T16:23:30+08:00"
       }
     },
     "dailyBudget": {
-      "date": "2026-11-22",
-      "attempted": [],
+      "date": "2026-11-23",
+      "attempted": [
+        "https://www.huashan1914.com/exhibition/%E7%89%A7%E7%A5%9E%E7%9A%84%E5%8D%88%E5%BE%8C%20L%E2%80%99Apr%C3%A8s-midi%20d%E2%80%99un%20faune",
+        "https://www.huashan1914.com/exhibition/%E5%B0%8F%E6%A2%85%E7%9A%84%E5%A5%87%E5%B9%BB%E5%86%92%E9%9A%AA%20%3A%20%E5%B0%8B%E5%9B%9E%E5%BF%83%E6%84%8F%E4%B9%8B%E6%9B%B8%20Deer%20May",
+        "https://www.huashan1914.com/exhibition/%E8%8A%8B%E8%89%BF%E5%B7%9D"
+      ],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-22",
-    "listedPages": 10,
+    "listReadAt": "2026-11-23",
+    "listedPages": 8,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
   "pier2": {
@@ -495,14 +517,14 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "attempted": [],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-22",
-    "listedPages": 16,
+    "listReadAt": "2026-11-23",
+    "listedPages": 15,
     "ordering": "new discoveries and backlog; official publication order unverified"
   }
 }
