@@ -208,19 +208,28 @@
       "https://www.songshanculturalpark.org/exhibition/activity/a1f605c6-8310-4a35-a36d-b44f4df631fc": {
         "id": "songshan-09b7e8af9e117948",
         "readAt": "2026-11-23T16:23:30+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/643e7202-39bd-4162-b058-4154bf9aeebc": {
+        "id": "songshan-bff4812d40b77b87",
+        "readAt": "2026-11-24T18:32:46+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/0615ab13-a65d-4c72-974b-5b378a184a8d": {
+        "id": "songshan-f69d26051d0babf4",
+        "readAt": "2026-11-24T18:32:46+08:00"
       }
     },
     "dailyBudget": {
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "attempted": [
-        "https://www.songshanculturalpark.org/exhibition/activity/a1f605c6-8310-4a35-a36d-b44f4df631fc"
+        "https://www.songshanculturalpark.org/exhibition/activity/643e7202-39bd-4162-b058-4154bf9aeebc",
+        "https://www.songshanculturalpark.org/exhibition/activity/0615ab13-a65d-4c72-974b-5b378a184a8d"
       ],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-23",
-    "listedPages": 19,
+    "listReadAt": "2026-11-24",
+    "listedPages": 18,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
   "huashan": {
@@ -399,17 +408,13 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-23",
-      "attempted": [
-        "https://www.huashan1914.com/exhibition/%E7%89%A7%E7%A5%9E%E7%9A%84%E5%8D%88%E5%BE%8C%20L%E2%80%99Apr%C3%A8s-midi%20d%E2%80%99un%20faune",
-        "https://www.huashan1914.com/exhibition/%E5%B0%8F%E6%A2%85%E7%9A%84%E5%A5%87%E5%B9%BB%E5%86%92%E9%9A%AA%20%3A%20%E5%B0%8B%E5%9B%9E%E5%BF%83%E6%84%8F%E4%B9%8B%E6%9B%B8%20Deer%20May",
-        "https://www.huashan1914.com/exhibition/%E8%8A%8B%E8%89%BF%E5%B7%9D"
-      ],
+      "date": "2026-11-24",
+      "attempted": [],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-23",
+    "listReadAt": "2026-11-24",
     "listedPages": 8,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
@@ -517,13 +522,13 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "attempted": [],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-23",
+    "listReadAt": "2026-11-24",
     "listedPages": 15,
     "ordering": "new discoveries and backlog; official publication order unverified"
   }

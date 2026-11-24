@@ -33940,25 +33940,528 @@
           },
           "cancelled": false
         }
+      },
+      "https://www.opentix.life/event/2102653253586096129": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "狂美十週年系列音樂會《展覽會之畫》",
+          "venue": "國家音樂廳",
+          "address": "臺北市 中正區中山南路21-1號，信義路側",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-22",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–2,600",
+          "saleAt": "2026-11-25T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2109585753516732417": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "狂美十週年系列音樂會II《漫旅地平線》",
+          "venue": "臺中國家歌劇院大劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2027-02-23",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–2,600",
+          "saleAt": "2026-11-25T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2109856957153705984": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "狂美十週年系列音樂會III《天方夜譚》",
+          "venue": "衛武營國家藝術文化中心音樂廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2027-05-09",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–2,600",
+          "saleAt": "2026-11-25T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2114991814943182849": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "2027 NTT Arts NOVA Max Cooper 3D/AV沉浸音像《Feeling Is Structure》",
+          "venue": "臺中國家歌劇院大劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2027-03-27",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$800–2,500",
+          "saleAt": "2026-12-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2117873750163165184": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "2027 NTT Arts NOVA 布拉瑞揚舞團《我．我們》第三部曲",
+          "venue": "臺中國家歌劇院中劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2027-04-23",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-04-24",
+              "time": "14:30"
+            },
+            {
+              "date": "2027-04-25",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–1,200",
+          "saleAt": "2026-12-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2118235458161700865": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "2027 NTT Arts NOVA 電音狂想╳超維度╳江戶未來世《電電樂》",
+          "venue": "臺中國家歌劇院中劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2027-03-27",
+              "time": "14:30"
+            },
+            {
+              "date": "2027-03-28",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–1,800",
+          "saleAt": "2026-12-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2118596951134978049": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "2027 NTT Arts NOVA 新藝計畫 晃晃跨幅町《皺褶的虛數》",
+          "venue": "臺中國家歌劇院小劇場",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2027-05-28",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-05-29",
+              "time": "14:30"
+            },
+            {
+              "date": "2027-05-30",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$800",
+          "saleAt": "2026-12-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2119987265943801857": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "2027 NTT Arts NOVA 愛爾蘭跨界藝術家路克．墨菲《焦土之下》",
+          "venue": "臺中國家歌劇院中劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2027-04-16",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-04-17",
+              "time": "14:30"
+            },
+            {
+              "date": "2027-04-18",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–1,500",
+          "saleAt": "2026-12-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2120440297752006657": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "狂美十週年系列音樂會IV《風起桃源》",
+          "venue": "國家音樂廳",
+          "address": "臺北市 中正區中山南路21-1號，信義路側",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-09-01",
+              "time": "19:30"
+            }
+          ],
+          "price": "NT$600–2,600",
+          "saleAt": "2026-11-24T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2120801974132592640": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "2027 NTT Arts NOVA 亞維儂藝術節╳提亞戈．羅提吉斯《心際效應》",
+          "venue": "臺中國家歌劇院中劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2027-05-14",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-05-15",
+              "time": "14:30"
+            },
+            {
+              "date": "2027-05-16",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–1,800",
+          "saleAt": "2026-12-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2122270367786106881": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "2027 NTT Arts NOVA 趙亭婷《KINGDOM：記憶的數位荒原》",
+          "venue": "臺中國家歌劇院小劇場",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2027-04-17",
+              "time": "14:30"
+            },
+            {
+              "date": "2027-04-17",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-04-18",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600",
+          "saleAt": "2026-12-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2122543687995654144": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "2027 NTT Arts NOVA 梵松．居彭╳查爾斯．阿亞茲《No Reality Now》",
+          "venue": "臺中國家歌劇院中劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2027-03-19",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-03-20",
+              "time": "15:30"
+            },
+            {
+              "date": "2027-03-20",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-03-21",
+              "time": "11:30"
+            },
+            {
+              "date": "2027-03-21",
+              "time": "15:30"
+            }
+          ],
+          "price": "NT$1,200",
+          "saleAt": "2026-12-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2122585826415538177": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "2027 NTT Arts NOVA 真鍋大度╳ELEVENPLAY《Scales of Time》",
+          "venue": "臺中國家歌劇院大劇院",
+          "address": "臺中市 西屯區惠來路二段101號",
+          "region": "臺中市",
+          "sessions": [
+            {
+              "date": "2027-05-29",
+              "time": "14:30"
+            },
+            {
+              "date": "2027-05-30",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$600–2,000",
+          "saleAt": "2026-12-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2123221098614030337": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "奇巧劇團Reload：十年迴聲《鞍馬天狗》特別演出",
+          "venue": "衛武營國家藝術文化中心音樂廳",
+          "address": "高雄市 鳳山區三多一路1號",
+          "region": "高雄市",
+          "sessions": [
+            {
+              "date": "2027-03-13",
+              "time": "14:30"
+            },
+            {
+              "date": "2027-03-13",
+              "time": "19:30"
+            },
+            {
+              "date": "2027-03-14",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$900–2,500",
+          "saleAt": "2026-11-24T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2124710387561906177": {
+        "readAt": "2026-11-24",
+        "facts": {
+          "title": "《璀璨星聲》2026聖誕流行演唱音樂會",
+          "venue": "國立臺灣藝術教育館南海劇場",
+          "address": "臺北市 中正區南海路47號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2026-12-24",
+              "time": "19:00"
+            }
+          ],
+          "price": "NT$800–1,800",
+          "saleAt": "2026-11-24T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
       }
     },
     "pendingPages": 0,
-    "listed": 805,
+    "listed": 818,
     "dailyBudget": {
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "attempted": [
-        "https://www.opentix.life/event/2108120765902880769",
-        "https://www.opentix.life/event/2118638424182243329",
-        "https://www.opentix.life/event/2122521925360144385",
-        "https://www.opentix.life/event/2123366322935025665"
+        "https://www.opentix.life/event/2102653253586096129",
+        "https://www.opentix.life/event/2109585753516732417",
+        "https://www.opentix.life/event/2109856957153705984",
+        "https://www.opentix.life/event/2114991814943182849",
+        "https://www.opentix.life/event/2117873750163165184",
+        "https://www.opentix.life/event/2118235458161700865",
+        "https://www.opentix.life/event/2118596951134978049",
+        "https://www.opentix.life/event/2119987265943801857",
+        "https://www.opentix.life/event/2120440297752006657",
+        "https://www.opentix.life/event/2120801974132592640",
+        "https://www.opentix.life/event/2122270367786106881",
+        "https://www.opentix.life/event/2122543687995654144",
+        "https://www.opentix.life/event/2122585826415538177",
+        "https://www.opentix.life/event/2123221098614030337",
+        "https://www.opentix.life/event/2124710387561906177"
       ],
       "reserved": 0
     },
-    "dailyBudgetUsed": 4,
+    "dailyBudgetUsed": 15,
     "dailyLimit": 100,
     "dailyRefreshAttempts": 0,
     "pendingUrls": [],
-    "sitemapReadAt": "2026-11-23",
+    "sitemapReadAt": "2026-11-24",
     "discoveryOrder": "new discoveries interleaved with FIFO backlog; no publication order"
   }
 }
