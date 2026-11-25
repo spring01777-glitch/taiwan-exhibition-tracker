@@ -1452,6 +1452,26 @@
     "revisions": []
   },
   {
+    "id": "songshan-7f566473a949b0c4",
+    "title": "2026 台灣角川偶像盛典感謝祭",
+    "start": "2026-12-11",
+    "end": "2026-12-14",
+    "region": "臺北市",
+    "venue": "松山文創園區 · 松山文創園區 南向製菸工廠一樓",
+    "address": "臺北市信義區光復南路133號",
+    "park": "songshan",
+    "price": "官網未提供結構化票價，請查官方",
+    "category": "展演",
+    "summary": "於松山文創園區 南向製菸工廠一樓舉辦的展演活動，日期為2026-12-11至2026-12-14。開放時段與入場條件請查官方。",
+    "url": "https://www.songshanculturalpark.org/exhibition/activity/1cfc3b34-109a-476c-923f-b76842bd62fa",
+    "source": "songshan",
+    "sourceVersion": "official-public-incremental",
+    "firstSeen": "2026-11-25T17:21:48+08:00",
+    "lastSeen": "2026-11-25T17:21:48+08:00",
+    "missingFromSource": false,
+    "revisions": []
+  },
+  {
     "id": "huashan-75ff3ed2f92b3a7e",
     "title": "2026 ITSPORT 體感科技挑戰賽",
     "start": "2026-11-20",

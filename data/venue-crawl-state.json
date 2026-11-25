@@ -216,20 +216,23 @@
       "https://www.songshanculturalpark.org/exhibition/activity/0615ab13-a65d-4c72-974b-5b378a184a8d": {
         "id": "songshan-f69d26051d0babf4",
         "readAt": "2026-11-24T18:32:46+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/1cfc3b34-109a-476c-923f-b76842bd62fa": {
+        "id": "songshan-7f566473a949b0c4",
+        "readAt": "2026-11-25T17:21:48+08:00"
       }
     },
     "dailyBudget": {
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "attempted": [
-        "https://www.songshanculturalpark.org/exhibition/activity/643e7202-39bd-4162-b058-4154bf9aeebc",
-        "https://www.songshanculturalpark.org/exhibition/activity/0615ab13-a65d-4c72-974b-5b378a184a8d"
+        "https://www.songshanculturalpark.org/exhibition/activity/1cfc3b34-109a-476c-923f-b76842bd62fa"
       ],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-24",
-    "listedPages": 18,
+    "listReadAt": "2026-11-25",
+    "listedPages": 19,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
   "huashan": {
@@ -408,13 +411,13 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "attempted": [],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-24",
+    "listReadAt": "2026-11-25",
     "listedPages": 8,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
@@ -522,13 +525,13 @@
       }
     },
     "dailyBudget": {
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "attempted": [],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-24",
+    "listReadAt": "2026-11-25",
     "listedPages": 15,
     "ordering": "new discoveries and backlog; official publication order unverified"
   }

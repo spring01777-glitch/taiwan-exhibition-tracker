@@ -526,7 +526,9 @@
   "69a0b2c426b32454e437cb66": {
     "title": "【新北市立圖書館淡水分館】《115年藝文展覽 : 歷史與文化交融的五樓特展區~大河東去：從滬尾到淡水》",
     "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=69a0b2c426b32454e437cb66",
-    "previousTitleMatched": true
+    "previousTitleMatched": true,
+    "lastAttempt": "2026-11-25T17:21:36+08:00",
+    "lastResult": "unavailable"
   },
   "69a34ae726b32454e437cbbd": {
     "title": "靚靚六堆．六堆常設展",

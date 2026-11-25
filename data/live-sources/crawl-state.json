@@ -34432,36 +34432,170 @@
           },
           "cancelled": false
         }
+      },
+      "https://www.opentix.life/event/2119643475143950337": {
+        "readAt": "2026-11-25",
+        "facts": {
+          "title": "元泰劇坊《濁世金蓮》",
+          "venue": "大稻埕戲苑",
+          "address": "臺北市 大同區迪化街一段21號9樓",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-01-23",
+              "time": "14:30"
+            },
+            {
+              "date": "2027-01-24",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–5,000",
+          "saleAt": "2026-11-25T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2119991593554890753": {
+        "readAt": "2026-11-25",
+        "facts": {
+          "title": "近乎正常 - 英國音樂劇現場",
+          "venue": "國家電影及視聽文化中心-大影格",
+          "address": "新北市 新莊區文藝路2號",
+          "region": "新北市",
+          "sessions": [
+            {
+              "date": "2027-01-30",
+              "time": "18:45"
+            }
+          ],
+          "price": "NT$800",
+          "saleAt": "2026-12-01T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ],
+            "comedy": [
+              "excluded",
+              "COURSE_OR_MUSICAL"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2121121356337750017": {
+        "readAt": "2026-11-25",
+        "facts": {
+          "title": "Give Me FIve大手再次牽小手 - 基隆少年兒童合唱團五週年團慶音樂會",
+          "venue": "基隆表演藝術中心演藝廳",
+          "address": "基隆市 中正區信一路181號",
+          "region": "基隆市",
+          "sessions": [
+            {
+              "date": "2027-01-03",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–2,000",
+          "saleAt": "2026-11-13T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "included",
+              "CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2122208767293202433": {
+        "readAt": "2026-11-25",
+        "facts": {
+          "title": "跨樂鋼琴三重奏 跨樂知音II",
+          "venue": "國家兩廳院演奏廳",
+          "address": "臺北市 中正區中山南路21-1號",
+          "region": "臺北市",
+          "sessions": [
+            {
+              "date": "2027-01-23",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$500–1,000",
+          "saleAt": "2026-11-25T12:00:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "pending",
+              "INSUFFICIENT_STANDUP_EVIDENCE"
+            ]
+          },
+          "cancelled": false
+        }
+      },
+      "https://www.opentix.life/event/2124696633971167232": {
+        "readAt": "2026-11-25",
+        "facts": {
+          "title": "說．唱老 young子",
+          "venue": "桃園市土地公文化館 203視聽空間",
+          "address": "桃園市 桃園區三民路一段100號",
+          "region": "桃園市",
+          "sessions": [
+            {
+              "date": "2026-12-13",
+              "time": "14:30"
+            }
+          ],
+          "price": "NT$300",
+          "saleAt": "2026-11-23T09:45:00+08:00",
+          "decisions": {
+            "concerts": [
+              "pending",
+              "INSUFFICIENT_CONCERT_EVIDENCE"
+            ],
+            "comedy": [
+              "excluded",
+              "OTHER_PERFORMANCE_FORMAT"
+            ]
+          },
+          "cancelled": false
+        }
       }
     },
     "pendingPages": 0,
     "listed": 818,
     "dailyBudget": {
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "attempted": [
-        "https://www.opentix.life/event/2102653253586096129",
-        "https://www.opentix.life/event/2109585753516732417",
-        "https://www.opentix.life/event/2109856957153705984",
-        "https://www.opentix.life/event/2114991814943182849",
-        "https://www.opentix.life/event/2117873750163165184",
-        "https://www.opentix.life/event/2118235458161700865",
-        "https://www.opentix.life/event/2118596951134978049",
-        "https://www.opentix.life/event/2119987265943801857",
-        "https://www.opentix.life/event/2120440297752006657",
-        "https://www.opentix.life/event/2120801974132592640",
-        "https://www.opentix.life/event/2122270367786106881",
-        "https://www.opentix.life/event/2122543687995654144",
-        "https://www.opentix.life/event/2122585826415538177",
-        "https://www.opentix.life/event/2123221098614030337",
-        "https://www.opentix.life/event/2124710387561906177"
+        "https://www.opentix.life/event/2119643475143950337",
+        "https://www.opentix.life/event/2119991593554890753",
+        "https://www.opentix.life/event/2121121356337750017",
+        "https://www.opentix.life/event/2122208767293202433",
+        "https://www.opentix.life/event/2124696633971167232"
       ],
       "reserved": 0
     },
-    "dailyBudgetUsed": 15,
+    "dailyBudgetUsed": 5,
     "dailyLimit": 100,
     "dailyRefreshAttempts": 0,
     "pendingUrls": [],
-    "sitemapReadAt": "2026-11-24",
+    "sitemapReadAt": "2026-11-25",
     "discoveryOrder": "new discoveries interleaved with FIFO backlog; no publication order"
   }
 }
