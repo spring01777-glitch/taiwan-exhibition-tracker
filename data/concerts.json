@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "timezone": "Asia/Taipei",
-  "updatedAt": "2026-11-25T17:22:33+08:00",
+  "updatedAt": "2026-11-26T17:01:25+08:00",
   "events": [
     {
       "id": "manual-forever",
@@ -23634,7 +23634,7 @@
       "source": "taipei-arena",
       "address": "臺北市松山區南京東路四段2號",
       "id": "490a1fdc7c6861a151f5",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -23720,7 +23720,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "29127a5f83ff718586f3",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -23761,7 +23761,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "2fabf8806ab62af0a1e5",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -23779,6 +23779,10 @@
       "venue": "臺北小巨蛋",
       "address": "臺北市松山區南京東路四段2號",
       "sessions": [
+        {
+          "date": "2027-04-16",
+          "time": "19:00"
+        },
         {
           "date": "2027-04-17",
           "time": "19:00"
@@ -23811,14 +23815,29 @@
           "platform": "拓元 tixCraft"
         }
       ],
-      "status": "scheduled",
+      "status": "changed",
       "summary": "臺北市的演唱會，演出地點為臺北小巨蛋。",
       "sourceUrl": "https://tixcraft.com/activity/detail/27_ayalkomod",
       "verificationMethod": "daily-crawl",
-      "revisions": [],
+      "revisions": [
+        {
+          "at": "2026-11-26",
+          "note": "已核對來源場次異動。",
+          "previousSessions": [
+            {
+              "date": "2027-04-17",
+              "time": "19:00"
+            },
+            {
+              "date": "2027-04-18",
+              "time": "16:30"
+            }
+          ]
+        }
+      ],
       "source": "taipei-arena",
       "id": "110598bc656f0025a748",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -23855,7 +23874,7 @@
       "revisions": [],
       "source": "taipei-arena",
       "id": "5fd2e6ccb558ca50b445",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "taipei-arena",
@@ -24028,7 +24047,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "d173c4a25563354bc411",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -24097,7 +24116,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "cdf081b71dd024aee0c7",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -24156,7 +24175,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "4e75617750e2efcdbca4",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -24294,7 +24313,7 @@
       "revisions": [],
       "source": "tmc",
       "id": "dd12d1dedb0fc2038d57",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -24331,12 +24350,49 @@
       "revisions": [],
       "source": "tmc",
       "id": "6d3d4fc6430a9500cf0c",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "tmc",
           "sourceUid": "https://www.tmc.taipei/tw/blog/show/jannabi2026",
           "id": "6d3d4fc6430a9500cf0c"
+        }
+      ],
+      "genre": "流行／搖滾演唱會"
+    },
+    {
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/AKMU2027",
+      "title": "AKMU ASIA TOUR 2027［AKDONGDEUL］IN TAIPEI",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "address": "臺北市南港區市民大道八段99號",
+      "sessions": [
+        {
+          "date": "2027-01-16",
+          "time": "18:00"
+        }
+      ],
+      "price": "NTD $6,400 / NTD $5,800 / NTD $4,800 / NTD $3,800 / NTD $3,200(1F身障席)/NTD $2,900(2F身障席)(1F特區為全搖滾站席，2、3F皆為全座位席)",
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北流行音樂中心 表演廳。",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/AKMU2027",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "tmc",
+      "id": "bf9b05209cb7bf7a2e56",
+      "verifiedAt": "2026-11-26",
+      "sourceRefs": [
+        {
+          "source": "tmc",
+          "sourceUid": "https://www.tmc.taipei/tw/blog/show/AKMU2027",
+          "id": "bf9b05209cb7bf7a2e56"
         }
       ],
       "genre": "流行／搖滾演唱會"
@@ -24365,7 +24421,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺東縣的演唱會，演出地點為臺東縣立體育館。",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "revisions": [],
       "tickets": [
         {
@@ -24413,7 +24469,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "revisions": [],
       "tickets": [
         {
@@ -24461,7 +24517,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P0WAULDW",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北國際會議中心大會堂。",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "revisions": [],
       "tickets": [
         {
@@ -24509,7 +24565,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "changed",
       "summary": "新北市的演唱會，演出地點為新北市五股工商展覽中心。",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "revisions": [
         {
           "at": "2026-11-17T06:45:25+08:00",
@@ -24561,7 +24617,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -24597,7 +24653,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19E5BI0",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "revisions": [],
       "tickets": [
         {
@@ -24645,7 +24701,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1DL4DZ2",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "revisions": [],
       "tickets": [
         {
@@ -24693,7 +24749,7 @@
       "sourceUrl": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1FWXUND",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為CLAPPER STUDIO 展演廳(三創生活)。",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "revisions": [],
       "tickets": [
         {
@@ -24741,7 +24797,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺中市的演唱會，演出地點為台中中興大學惠蓀堂。",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -24777,7 +24833,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為CLAPPER STUDIO 展演廳(三創生活)。",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -24817,7 +24873,7 @@
       "sourceUrl": "https://data.gov.tw/dataset/6013",
       "status": "scheduled",
       "summary": "臺北市的演唱會，演出地點為台北國際會議中心大會堂。",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "revisions": [],
       "tickets": [],
       "sourceRefs": [
@@ -25014,8 +25070,8 @@
     {
       "name": "文化部・演唱會",
       "url": "https://data.gov.tw/dataset/6013",
-      "checkedAt": "2026-11-25T17:22:33+08:00",
-      "lastSuccess": "2026-11-25T17:22:33+08:00",
+      "checkedAt": "2026-11-26T17:01:25+08:00",
+      "lastSuccess": "2026-11-26T17:01:25+08:00",
       "id": "moc",
       "status": "ok",
       "message": "授權 JSON 解析完成；納入 11 個活動／場館，待分類 0 筆；不是全平台完整涵蓋。",
@@ -25368,39 +25424,34 @@
       "id": "opentix",
       "name": "OPENTIX",
       "url": "https://www.opentix.life/",
-      "checkedAt": "2026-11-25T17:22:07+08:00",
+      "checkedAt": "2026-11-26T17:00:53+08:00",
       "mode": "daily-crawl",
-      "discovered": 745,
-      "included": 229,
-      "excluded": 91,
-      "pending": 425,
+      "discovered": 0,
+      "included": 0,
+      "excluded": 0,
+      "pending": 0,
       "failed": 0,
-      "reasons": {
-        "CONCERT_EVIDENCE": 229,
-        "INSUFFICIENT_CONCERT_EVIDENCE": 425,
-        "COURSE_OR_MUSICAL": 86,
-        "NO_STRUCTURED_EVENT": 4,
-        "FAN_MEETING_OR_UPGRADE": 1
-      },
+      "reasons": {},
       "coverageComplete": false,
       "scope": "OPENTIX 公開 sitemap 及活動頁 schema.org 場次；新增URL與未完成佇列優先；每日最多100次新活動頁嘗試，已讀URL不重抓；後續改期或取消不主動更新，不代表即時完整目錄",
-      "pagesVisited": 6,
+      "pagesVisited": 0,
       "expectedPages": null,
       "reviewedAt": "2026-11-25",
-      "status": "ok",
+      "status": "error",
       "lastSuccess": "2026-11-25T17:22:07+08:00",
       "lastSuccessfulIncluded": 229,
-      "message": "增量進度：當日活動頁額度 5/100，待讀 0 頁；沿用已讀資料，不代表即時完整目錄。",
+      "message": "每日自動更新失敗；保留最後成功資料。",
       "retainedEventCount": 385,
-      "pendingPages": 0,
-      "listedPages": 818,
-      "reason": "HTTP 502",
-      "dailyBudgetUsed": 5,
+      "pendingPages": 23,
+      "listedPages": 833,
+      "reason": "response too large",
+      "dailyBudgetUsed": 1,
       "dailyLimit": 100,
       "dailyRefreshAttempts": 0,
-      "sitemapReadAt": "2026-11-25",
-      "budgetDate": "2026-11-25",
+      "sitemapReadAt": "2026-11-26",
+      "budgetDate": "2026-11-26",
       "dailyReserved": 0,
+      "reasonCode": "CRAWL_FAILED",
       "verifiedScopes": [
         {
           "kind": "concerts",
@@ -25445,7 +25496,7 @@
       "id": "taipei-arena",
       "name": "臺北小巨蛋官方活動資料",
       "url": "https://www.arena.taipei/",
-      "checkedAt": "2026-11-25T17:22:07+08:00",
+      "checkedAt": "2026-11-26T17:00:53+08:00",
       "mode": "daily-crawl",
       "discovered": 7,
       "included": 6,
@@ -25460,9 +25511,9 @@
       "scope": "臺北小巨蛋「已公開(售票/派票)活動」政府開放資料 JSON",
       "pagesVisited": 1,
       "expectedPages": null,
-      "reviewedAt": "2026-11-25",
+      "reviewedAt": "2026-11-26",
       "status": "ok",
-      "lastSuccess": "2026-11-25T17:22:07+08:00",
+      "lastSuccess": "2026-11-26T17:00:53+08:00",
       "lastSuccessfulIncluded": 6,
       "message": "每日公開資料自動更新完成；納入 6 筆，待分類 1 筆；不代表完整目錄。",
       "retainedEventCount": 14,
@@ -25515,30 +25566,30 @@
       "id": "tmc",
       "name": "臺北流行音樂中心官方活動資料",
       "url": "https://www.tmc.taipei/",
-      "checkedAt": "2026-11-25T17:22:07+08:00",
+      "checkedAt": "2026-11-26T17:00:53+08:00",
       "mode": "daily-crawl",
       "discovered": 12,
-      "included": 6,
-      "excluded": 4,
+      "included": 7,
+      "excluded": 3,
       "pending": 2,
       "failed": 0,
       "reasons": {
-        "OTHER_REVIEWED_FORMAT": 4,
+        "OTHER_REVIEWED_FORMAT": 3,
         "DATE_RANGE_WITHOUT_SESSIONS": 1,
-        "OFFICIAL_REVIEWED_FORMAT": 5,
+        "OFFICIAL_REVIEWED_FORMAT": 6,
         "CONCERT_EVIDENCE": 1,
         "INSUFFICIENT_CONCERT_EVIDENCE": 1
       },
       "coverageComplete": false,
       "scope": "北流官網「最近活動」公開頁；長日期區間不推定場次",
-      "pagesVisited": 8,
+      "pagesVisited": 9,
       "expectedPages": null,
-      "reviewedAt": "2026-11-25",
+      "reviewedAt": "2026-11-26",
       "status": "ok",
-      "lastSuccess": "2026-11-25T17:22:07+08:00",
-      "lastSuccessfulIncluded": 6,
-      "message": "每日公開資料自動更新完成；納入 6 筆，待分類 2 筆；不代表完整目錄。",
-      "retainedEventCount": 12,
+      "lastSuccess": "2026-11-26T17:00:53+08:00",
+      "lastSuccessfulIncluded": 7,
+      "message": "每日公開資料自動更新完成；納入 7 筆，待分類 2 筆；不代表完整目錄。",
+      "retainedEventCount": 13,
       "verifiedScopes": [
         {
           "kind": "concerts",

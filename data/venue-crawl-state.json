@@ -220,19 +220,23 @@
       "https://www.songshanculturalpark.org/exhibition/activity/1cfc3b34-109a-476c-923f-b76842bd62fa": {
         "id": "songshan-7f566473a949b0c4",
         "readAt": "2026-11-25T17:21:48+08:00"
+      },
+      "https://www.songshanculturalpark.org/exhibition/activity/96179569-c6cc-486d-98e1-d5808237c92c": {
+        "id": "songshan-5061077bf78a7dfb",
+        "readAt": "2026-11-26T17:00:30+08:00"
       }
     },
     "dailyBudget": {
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "attempted": [
-        "https://www.songshanculturalpark.org/exhibition/activity/1cfc3b34-109a-476c-923f-b76842bd62fa"
+        "https://www.songshanculturalpark.org/exhibition/activity/96179569-c6cc-486d-98e1-d5808237c92c"
       ],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-25",
-    "listedPages": 19,
+    "listReadAt": "2026-11-26",
+    "listedPages": 20,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
   "huashan": {
@@ -408,17 +412,23 @@
       "https://www.huashan1914.com/exhibition/%E8%8A%8B%E8%89%BF%E5%B7%9D": {
         "id": "huashan-d0c32cf49c2355f6",
         "readAt": "2026-11-23T16:23:30+08:00"
+      },
+      "https://www.huashan1914.com/exhibition/%E7%AC%AC%E5%85%AB%E5%B1%86%20ESG%E6%8F%90%E6%A1%88%E5%AF%A6%E4%BD%9C%E8%A1%8C%E5%8B%95%20%E5%92%8C%E6%B3%B0%E5%85%AC%E7%9B%8A%E5%A4%A2%E6%83%B3%E5%AE%B6": {
+        "id": "huashan-54933cdd764716cd",
+        "readAt": "2026-11-26T17:00:30+08:00"
       }
     },
     "dailyBudget": {
-      "date": "2026-11-25",
-      "attempted": [],
+      "date": "2026-11-26",
+      "attempted": [
+        "https://www.huashan1914.com/exhibition/%E7%AC%AC%E5%85%AB%E5%B1%86%20ESG%E6%8F%90%E6%A1%88%E5%AF%A6%E4%BD%9C%E8%A1%8C%E5%8B%95%20%E5%92%8C%E6%B3%B0%E5%85%AC%E7%9B%8A%E5%A4%A2%E6%83%B3%E5%AE%B6"
+      ],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-25",
-    "listedPages": 8,
+    "listReadAt": "2026-11-26",
+    "listedPages": 9,
     "ordering": "new discoveries and backlog; official publication order unverified"
   },
   "pier2": {
@@ -522,17 +532,23 @@
       "https://pier2.org/exhibition/info/2000/": {
         "id": "pier2-solid-tides-2026-11-21",
         "readAt": "2026-11-19T22:49:00+08:00"
+      },
+      "https://pier2.org/exhibition/info/2026/": {
+        "id": "pier2-81f3b6e56b0e8037",
+        "readAt": "2026-11-26T17:00:30+08:00"
       }
     },
     "dailyBudget": {
-      "date": "2026-11-25",
-      "attempted": [],
+      "date": "2026-11-26",
+      "attempted": [
+        "https://pier2.org/exhibition/info/2026/"
+      ],
       "reserved": 0
     },
     "pending": {},
     "completed": {},
-    "listReadAt": "2026-11-25",
-    "listedPages": 15,
+    "listReadAt": "2026-11-26",
+    "listedPages": 16,
     "ordering": "new discoveries and backlog; official publication order unverified"
   }
 }

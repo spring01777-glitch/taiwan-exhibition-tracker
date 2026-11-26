@@ -164,7 +164,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "d173c4a25563354bc411",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -232,7 +232,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "cdf081b71dd024aee0c7",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -290,7 +290,7 @@
       "source": "tmc",
       "address": "臺北市南港區市民大道八段99號",
       "id": "4e75617750e2efcdbca4",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -461,7 +461,7 @@
       "revisions": [],
       "source": "tmc",
       "id": "a55cf05a75f6b9f6356c",
-      "verifiedAt": "2026-11-22",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -533,7 +533,7 @@
       "revisions": [],
       "source": "tmc",
       "id": "dd12d1dedb0fc2038d57",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "tmc",
@@ -569,12 +569,48 @@
       "revisions": [],
       "source": "tmc",
       "id": "6d3d4fc6430a9500cf0c",
-      "verifiedAt": "2026-11-25",
+      "verifiedAt": "2026-11-26",
       "sourceRefs": [
         {
           "source": "tmc",
           "sourceUid": "https://www.tmc.taipei/tw/blog/show/jannabi2026",
           "id": "6d3d4fc6430a9500cf0c"
+        }
+      ]
+    },
+    {
+      "sourceUid": "https://www.tmc.taipei/tw/blog/show/AKMU2027",
+      "title": "AKMU ASIA TOUR 2027［AKDONGDEUL］IN TAIPEI",
+      "performers": null,
+      "region": "臺北市",
+      "venue": "臺北流行音樂中心 表演廳",
+      "address": "臺北市南港區市民大道八段99號",
+      "sessions": [
+        {
+          "date": "2027-01-16",
+          "time": "18:00"
+        }
+      ],
+      "price": "NTD $6,400 / NTD $5,800 / NTD $4,800 / NTD $3,800 / NTD $3,200(1F身障席)/NTD $2,900(2F身障席)(1F特區為全搖滾站席，2、3F皆為全座位席)",
+      "saleAt": null,
+      "saleNote": "一般開賣時間未提供，請見官方。",
+      "ticketStatus": "非即時票況",
+      "ticketUrl": null,
+      "ticketVerifiedAt": null,
+      "tickets": [],
+      "status": "scheduled",
+      "summary": "臺北市的演唱會，演出地點為臺北流行音樂中心 表演廳。",
+      "sourceUrl": "https://www.tmc.taipei/tw/blog/show/AKMU2027",
+      "verificationMethod": "daily-crawl",
+      "revisions": [],
+      "source": "tmc",
+      "id": "bf9b05209cb7bf7a2e56",
+      "verifiedAt": "2026-11-26",
+      "sourceRefs": [
+        {
+          "source": "tmc",
+          "sourceUid": "https://www.tmc.taipei/tw/blog/show/AKMU2027",
+          "id": "bf9b05209cb7bf7a2e56"
         }
       ]
     }
@@ -583,30 +619,30 @@
     "id": "tmc",
     "name": "臺北流行音樂中心官方活動資料",
     "url": "https://www.tmc.taipei/",
-    "checkedAt": "2026-11-25T17:22:07+08:00",
+    "checkedAt": "2026-11-26T17:00:53+08:00",
     "mode": "daily-crawl",
     "discovered": 12,
-    "included": 6,
-    "excluded": 4,
+    "included": 7,
+    "excluded": 3,
     "pending": 2,
     "failed": 0,
     "reasons": {
-      "OTHER_REVIEWED_FORMAT": 4,
+      "OTHER_REVIEWED_FORMAT": 3,
       "DATE_RANGE_WITHOUT_SESSIONS": 1,
-      "OFFICIAL_REVIEWED_FORMAT": 5,
+      "OFFICIAL_REVIEWED_FORMAT": 6,
       "CONCERT_EVIDENCE": 1,
       "INSUFFICIENT_CONCERT_EVIDENCE": 1
     },
     "coverageComplete": false,
     "scope": "北流官網「最近活動」公開頁；長日期區間不推定場次",
-    "pagesVisited": 8,
+    "pagesVisited": 9,
     "expectedPages": null,
-    "reviewedAt": "2026-11-25",
+    "reviewedAt": "2026-11-26",
     "status": "ok",
-    "lastSuccess": "2026-11-25T17:22:07+08:00",
-    "lastSuccessfulIncluded": 6,
-    "message": "每日公開資料自動更新完成；納入 6 筆，待分類 2 筆；不代表完整目錄。",
-    "retainedEventCount": 12
+    "lastSuccess": "2026-11-26T17:00:53+08:00",
+    "lastSuccessfulIncluded": 7,
+    "message": "每日公開資料自動更新完成；納入 7 筆，待分類 2 筆；不代表完整目錄。",
+    "retainedEventCount": 13
   },
   "records": [
     {

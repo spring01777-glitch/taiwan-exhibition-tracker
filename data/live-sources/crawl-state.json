@@ -34578,24 +34578,44 @@
         }
       }
     },
-    "pendingPages": 0,
-    "listed": 818,
+    "pendingPages": 23,
+    "listed": 833,
     "dailyBudget": {
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "attempted": [
-        "https://www.opentix.life/event/2119643475143950337",
-        "https://www.opentix.life/event/2119991593554890753",
-        "https://www.opentix.life/event/2121121356337750017",
-        "https://www.opentix.life/event/2122208767293202433",
-        "https://www.opentix.life/event/2124696633971167232"
+        "https://www.opentix.life/event/2102714000624623617"
       ],
       "reserved": 0
     },
-    "dailyBudgetUsed": 5,
+    "dailyBudgetUsed": 1,
     "dailyLimit": 100,
     "dailyRefreshAttempts": 0,
-    "pendingUrls": [],
-    "sitemapReadAt": "2026-11-25",
+    "pendingUrls": [
+      "https://www.opentix.life/event/2102718089729351681",
+      "https://www.opentix.life/event/2105216518364864513",
+      "https://www.opentix.life/event/2105217659840393216",
+      "https://www.opentix.life/event/2105219043780358144",
+      "https://www.opentix.life/event/2105221141834121217",
+      "https://www.opentix.life/event/2105221394796789761",
+      "https://www.opentix.life/event/2105222131238346753",
+      "https://www.opentix.life/event/2105497680717459457",
+      "https://www.opentix.life/event/2105511866302377985",
+      "https://www.opentix.life/event/2105516260855033857",
+      "https://www.opentix.life/event/2105556085684977665",
+      "https://www.opentix.life/event/2106008774544355329",
+      "https://www.opentix.life/event/2106009544354365440",
+      "https://www.opentix.life/event/2106010136985473025",
+      "https://www.opentix.life/event/2107074370242961409",
+      "https://www.opentix.life/event/2107077236315103233",
+      "https://www.opentix.life/event/2107079727252262913",
+      "https://www.opentix.life/event/2107086391514165249",
+      "https://www.opentix.life/event/2119633545334366208",
+      "https://www.opentix.life/event/2120099576753033217",
+      "https://www.opentix.life/event/2122221463180267521",
+      "https://www.opentix.life/event/2125501494958161921",
+      "https://www.opentix.life/event/2102714000624623617"
+    ],
+    "sitemapReadAt": "2026-11-26",
     "discoveryOrder": "new discoveries interleaved with FIFO backlog; no publication order"
   }
 }
